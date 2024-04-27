@@ -49,18 +49,18 @@ function App() {
   return (
     <>
       {/* <Heading mt={'3'} ml="3" mb={1} _hover={{ color: 'yellow.200' }} color="yellow.400"> */}
-      <Heading mt={'3'} ml="3" mb={0} bgGradient={'linear(to-l, rgba(0, 67, 255, 1), rgba(183, 0, 255, 1))'} bgClip={'text'} fontWeight={'bold'}>
+      <Heading mt={'3'} ml="3" mb={0} bgGradient={'linear(to-l, #FFFF00, #FF1493)'} bgClip={'text'} fontWeight={'bold'}>
         どこでも試験対策
       </Heading>
       <Flex>
         <Badge
           m={1}
           mr="0"
-          mt={'-0.5'}
+          mt={'0'}
           ml={3}
           borderRadius="full"
           px="2"
-          colorScheme="purple"
+          colorScheme="yellow"
           variant={'outline'}
         >
           Ver.2.3
@@ -68,11 +68,11 @@ function App() {
         <Badge
           variant='outline'
           m={1}
-          mt="-0.5"
+          mt="0"
           mr={0}
           borderRadius="full"
           px="2"
-          colorScheme="purple"
+          colorScheme="yellow"
         >
           final
         </Badge>
@@ -138,6 +138,19 @@ function App() {
           </Wrap>
           <Text
             fontSize="xs"
+            // textColor={'white'}
+            bgGradient={'linear(to-l, #FFFF00, #FF1493)'}
+            bgClip={'text'}
+            fontWeight={'bold'}
+            textAlign="center"
+            mt={2}
+            mb={0}
+
+          >
+            Thank you for your support over the years!
+          </Text>
+          <Text
+            fontSize="xs"
             textColor={'white'}
             fontWeight={'bold'}
             textAlign="center"
@@ -146,6 +159,7 @@ function App() {
           >
             © 2022-2024 Igatatsu Apps
           </Text>
+
         </Box>
       )}
       {log.startTime !== '' ? (
