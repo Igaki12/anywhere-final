@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.d406e790.js",
+    "main.js": "/anywhere-final/static/js/main.4ae6e9a8.js",
     "static/media/anatomyHand.png": "/anywhere-final/static/media/anatomyHand.cbd820d31219f745808a.png",
     "static/media/Heberden.png": "/anywhere-final/static/media/Heberden.d1c6d22b9bfc41af35c0.png",
     "static/media/causeOfVisualImpairment.png": "/anywhere-final/static/media/causeOfVisualImpairment.66a777cfd3a9234e3696.png",
@@ -17,6 +17,7 @@
     "static/media/osteoarthritis.png": "/anywhere-final/static/media/osteoarthritis.1e1ab8e7818e52213072.png",
     "static/media/stemCellReport.png": "/anywhere-final/static/media/stemCellReport.b26d452b5e4bf4239185.png",
     "static/media/dysplasiaOfHip3.png": "/anywhere-final/static/media/dysplasiaOfHip3.76002e3afdf9123c4218.png",
+    "static/media/titleImg.jpg": "/anywhere-final/static/media/titleImg.5a045507cf078eab6f2e.jpg",
     "static/media/bloodCellDifferentiation.png": "/anywhere-final/static/media/bloodCellDifferentiation.ee844c4066cd9e8ffc42.png",
     "static/media/pancreasTransplantation1.png": "/anywhere-final/static/media/pancreasTransplantation1.5ce0ff7dfb8b49b438d3.png",
     "static/media/hyperacuteRejection1.png": "/anywhere-final/static/media/hyperacuteRejection1.5ff6eabead254b4718e1.png",
@@ -50,7 +51,6 @@
     "static/media/pancreasTransplantation2.png": "/anywhere-final/static/media/pancreasTransplantation2.584bdc4af70797a97f26.png",
     "static/media/HSCT1.png": "/anywhere-final/static/media/HSCT1.696c06895f97c90ae588.png",
     "static/media/childhoodLeukemiaTypes1.png": "/anywhere-final/static/media/childhoodLeukemiaTypes1.e66e5fdb9d5d52854a3d.png",
-    "static/media/titleImg.jpg": "/anywhere-final/static/media/titleImg.de569f2e84f038079dc4.jpg",
     "static/media/corneaInflammation.png": "/anywhere-final/static/media/corneaInflammation.ea01f1a6abeb3f77fd33.png",
     "static/media/guyonCanal.png": "/anywhere-final/static/media/guyonCanal.bc7109809d8d6eadf334.png",
     "static/media/artificialJointReplacement.png": "/anywhere-final/static/media/artificialJointReplacement.6555977225476eed2429.png",
@@ -195,10 +195,10 @@
     "static/media/coagulationFactors.png": "/anywhere-final/static/media/coagulationFactors.66d2a2d93491ec8f1f40.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.d406e790.js.map": "/anywhere-final/static/js/main.d406e790.js.map"
+    "main.4ae6e9a8.js.map": "/anywhere-final/static/js/main.4ae6e9a8.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.d406e790.js"
+    "static/js/main.4ae6e9a8.js"
   ]
 }

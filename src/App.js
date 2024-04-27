@@ -48,7 +48,8 @@ function App() {
   // const appName = 'anywhere-physiology1'
   return (
     <>
-      <Heading mt={'3'} ml="3" color="red.900" mb={0}>
+      {/* <Heading mt={'3'} ml="3" mb={1} _hover={{ color: 'yellow.200' }} color="yellow.400"> */}
+      <Heading mt={'3'} ml="3" mb={0} bgGradient={'linear(to-l, rgba(0, 67, 255, 1), rgba(183, 0, 255, 1))'} bgClip={'text'} fontWeight={'bold'}>
         どこでも試験対策
       </Heading>
       <Flex>
@@ -59,21 +60,10 @@ function App() {
           ml={3}
           borderRadius="full"
           px="2"
-          colorScheme="red"
+          colorScheme="purple"
           variant={'outline'}
         >
           Ver.2.3
-        </Badge>
-        <Badge
-          variant={'outline'}
-          m={1}
-          mt="-0.5"
-          mr={0}
-          borderRadius="full"
-          px="2"
-          colorScheme="red"
-        >
-          運動器
         </Badge>
         <Badge
           variant='outline'
@@ -82,9 +72,9 @@ function App() {
           mr={0}
           borderRadius="full"
           px="2"
-          colorScheme="red"
+          colorScheme="purple"
         >
-          眼疾患
+          final
         </Badge>
       </Flex>
 
@@ -148,12 +138,13 @@ function App() {
           </Wrap>
           <Text
             fontSize="xs"
-            textColor={'blackAlpha.700'}
+            textColor={'white'}
+            fontWeight={'bold'}
             textAlign="center"
             mt={0}
             mb={2}
           >
-            ©2022-2024 Igatatsu Apps
+            © 2022-2024 Igatatsu Apps
           </Text>
         </Box>
       )}
