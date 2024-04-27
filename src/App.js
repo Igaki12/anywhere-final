@@ -54,6 +54,7 @@ function App() {
       </Heading>
       <Flex>
         <Badge
+          fontSize={'0.8em'}
           m={1}
           mr="0"
           mt={'0'}
@@ -66,6 +67,7 @@ function App() {
           Ver.2.3
         </Badge>
         <Badge
+          fontSize={'0.8em'}
           variant='outline'
           m={1}
           mt="0"
