@@ -756,7 +756,7 @@ export const QuestionsLog = ({
           m={1}
           ml="3"
           rightIcon={<ArrowDownIcon />}
-          colorScheme="gray"
+          // colorScheme="gray"
           variant={'outline'}
           bgColor="whiteAlpha.900"
           onClick={() => {
