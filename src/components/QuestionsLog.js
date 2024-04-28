@@ -142,17 +142,19 @@ export const QuestionsLog = ({
               <>
                 <Box
                   maxW="2xl"
-                  bgColor={'whiteAlpha.800'}
-                  borderWidth="1px"
+                  bgColor={'whiteAlpha.900'}
+                  borderWidth="0"
                   borderColor={
                     log.review && log.review.indexOf(question.id) !== -1
                       ? 'red.800'
-                      : 'red.100'
+                      : 'none'
                   }
-                  borderRadius="lg"
+                  borderRadius="xl"
                   overflow="hidden"
-                  mb={1}
-                  mt="3"
+                  mb={3}
+                  mt="10"
+                  mr={1}
+                  ml={1}
                   key={index + 'QuestionBox'}
                 >
                   {question.questionImg !== [] &&
@@ -252,14 +254,16 @@ export const QuestionsLog = ({
                 </Box>
                 <Box
                   maxW="2xl"
-                  mb={'100px'}
-                  borderWidth="2px"
+                  mb={'150px'}
+                  mr={1}
+                  ml={1}
+                  borderWidth="0"
                   borderColor={
                     log.review && log.review.indexOf(question.id) !== -1
                       ? 'red.800'
-                      : 'red.100'
+                      : 'none'
                   }
-                  borderRadius="lg"
+                  borderRadius="xl"
                   overflow="hidden"
                   bg={'red.100'}
                   key={index + 'AnswerBox'}
@@ -375,18 +379,20 @@ export const QuestionsLog = ({
           <>
             <Box
               maxW="2xl"
-              bgColor={'whiteAlpha.800'}
+              bgColor={'whiteAlpha.900'}
               borderWidth="1px"
               borderColor={
                 log.review && log.review.indexOf(question.id) !== -1
                   ? 'red.800'
-                  : 'red.100'
+                  : 'none'
               }
-              borderRadius="lg"
+              borderRadius="xl"
               overflow="hidden"
               justifyContent={'center'}
-              mb={1}
-              mt="3"
+              mb={3}
+              ml={1}
+              mr={1}
+              mt="5"
               className="DownSlideIn"
             >
               {question.questionImg &&
@@ -525,13 +531,16 @@ export const QuestionsLog = ({
               {isAnswered === true ? (
                 <Box
                   maxW="2xl"
-                  borderWidth="2px"
+                  borderWidth="0"
+                  mr={1}
+                  ml={1}
+                  mb={2}
                   borderColor={
                     log.review && log.review.indexOf(question.id) !== -1
                       ? 'red.800'
                       : 'red.100'
                   }
-                  borderRadius="lg"
+                  borderRadius="xl"
                   overflow="hidden"
                   bg={'red.100'}
                   // className="DownSlideIn"
@@ -747,9 +756,9 @@ export const QuestionsLog = ({
           m={1}
           ml="3"
           rightIcon={<ArrowDownIcon />}
-          colorScheme="orange"
+          colorScheme="gray"
           variant={'outline'}
-          bgColor="whiteAlpha.800"
+          bgColor="whiteAlpha.900"
           onClick={() => {
             nextQuestion(appName)
             setIsAnswered(false)

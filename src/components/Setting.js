@@ -88,7 +88,7 @@ export const Setting = ({
           <Spacer />
           <Button
             onClick={onOpen}
-            colorScheme="blackAlpha"
+            colorScheme="whiteAlpha"
             variant={'solid'}
             m={0}
             w={'40px'}
@@ -277,7 +277,7 @@ export const Setting = ({
         )} */}
 
         <RadioGroup defaultValue={log.order}>
-          <Stack spacing={5} direction="row" p={2}>
+          <Stack spacing={7} direction="row" p={4}>
             <Radio
               size={'lg'}
               colorScheme="orange"
@@ -286,8 +286,11 @@ export const Setting = ({
                 changeOrder('random')
               }}
             >
+              <Text color={"white"} fontWeight={"bold"}>
               ランダム出題
+              </Text>
             </Radio>
+            {/* <Spacer /> */}
             <Radio
               size={'lg'}
               colorScheme="orange"
@@ -296,7 +299,9 @@ export const Setting = ({
                 changeOrder('ascend')
               }}
             >
-              順番通り出題
+              <Text color={"white"} fontWeight={"bold"}>
+              順番通りに出題
+              </Text>
             </Radio>
           </Stack>
         </RadioGroup>

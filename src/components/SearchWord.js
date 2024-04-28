@@ -44,7 +44,7 @@ export const SearchWord = ({
           minW={'sm'}
           maxW="sm"
           p="1"
-          bgColor={'whiteAlpha.800'}
+          bgColor={'whiteAlpha.900'}
           pt="20px"
           pb={8}
         >

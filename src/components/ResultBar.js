@@ -23,7 +23,7 @@ export const ResultBar = ({ log, isAnswered }) => {
           <CircularProgressLabel>{achievementRate}%</CircularProgressLabel>
         </CircularProgress>
         <Box ml={2}>
-          <Text color={'gray'} pl="2">
+          <Text color={'white'} fontWeight={"bold"} pl="2">
             現在{log.asked.length + 1}問目 / 残り
             {log.remaining.length}問
           </Text>

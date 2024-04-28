@@ -174,6 +174,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
         <Button
           // colorScheme="red"
           bgColor={'red'}
+          bgGradient={'linear(to-l, #7928CA, #FF0080)'}
           opacity="0.5"
           variant="solid"
           borderRadius={'full'}

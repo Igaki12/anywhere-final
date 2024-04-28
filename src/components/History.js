@@ -43,7 +43,7 @@ export const History = ({
   )
   const [renderSign, setRenderSign] = useState(0)
   return (
-    <Box minH={'150px'} w="100%" p={1} pt="20px" bgColor="whiteAlpha.700">
+    <Box minH={'150px'} w="100%" p={1} pt="20px" bgColor="whiteAlpha.800">
       <Box
         w={'100%'}
         mr="auto"
@@ -180,7 +180,7 @@ export const History = ({
                     </Flex>
                   )}
 
-                  <Card variant="filled" bgColor={'blackAlpha.100'}>
+                  <Card variant="filled" bgColor={'whiteAlpha.700'}>
                     <CardHeader>
                       {('00' + date.getHours()).slice(-2)}:
                       {('00' + date.getMinutes()).slice(-2)} ~　
