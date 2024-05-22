@@ -1,3 +1,11 @@
+import ovarianGranulosaCellTumor from './img/answer/ovarianGranulosaCellTumor.png';
+import adenomyosis1 from './img/answer/adenomyosis1.png';
+import adenomyosis2 from './img/answer/adenomyosis2.png';
+import dermoidCystImg from './img/answer/dermoidCystImg.png';
+import chocolateCystImg from './img/answer/chocolateCystImg.png';
+import MRIT1Img from './img/answer/MRIT1Img.png';
+import gynecologyQuestion2 from './img/answer/gynecologyQuestion2.png';
+import gynecologyQuestion1 from './img/answer/gynecologyQuestion1.png';
 
 import {
     useState
@@ -73,7 +81,7 @@ export const useQuestionList = () => {
             },
 
         ],},{
-            groupTag : "周産期医学 出席課題",
+            groupTag : "周産期疾患 出席課題",
             groupContents: [{
                 detailInfo: '5/07 1限 (1)',
                 questionSentence: '正常な胎位はどれか？',
@@ -99,7 +107,35 @@ export const useQuestionList = () => {
             detailInfo: '5/07 2限 (4)',
             questionSentence: '習慣流産は何回以上の連続した流産を指すか？',
         }]
-        }
+        },{
+            groupTag : "婦人疾患 課題",
+            groupContents: [{
+                detailInfo: '5/28課題 (1)',
+                questionSentence: '骨盤部単純MRIのT1強調像で高信号を示すのはどれか。2つ選べ。',
+                choices: ['膀胱内の尿', '子宮内膜', '石灰化した子宮筋腫', '皮様嚢胞腫の内容', '卵巣チョコレート嚢胞の内容'],
+                answer: '皮様嚢胞腫の内容、卵巣チョコレート嚢胞の内容',
+                answerImg: [MRIT1Img,dermoidCystImg, chocolateCystImg],
+                commentary: 'T1強調像で高信号を示すのは脂肪や血液など。チョコレート嚢胞は古い血液が蓄積したものであるため高信号を示す。皮様嚢胞腫は腫瘍内容に多様の脂肪を含むため高信号を示す。',
+            },{
+                detailInfo: '5/28課題 (2)',
+                questionImg: [gynecologyQuestion1],
+                questionSentence: '35歳の女性。月経痛と過多月経を主訴に来院した。月経は周期28日型、整、持続8日間。3年前から月経痛に対して市販の鎮痛薬を服用しているが、6か月前から仕事や日常生活に差し支えるようになったため受診した。内診で子宮は15cmに腫大し硬く、可動性は良好である。付属器は触知しない。血液所見：赤血球340万、Hb9.0g/dL、Ht28%、白血球4,100、血小板23万。骨盤部単純MRIのT2強調矢状断像を示す。診断はどれか。',
+                choices: ['子宮筋腫', '子宮体癌', '子宮肉腫', '子宮腺筋症', '子宮内膜増殖症'],
+                answer: '子宮腺筋症',
+                answerImg: [adenomyosis1, adenomyosis2],
+                commentary: '子宮腺筋症と子宮筋腫の鑑別。子宮腺筋症は子宮内膜組織が子宮筋層内で異所性に増殖。周囲に平滑筋の増生を伴う。子宮筋腫は種々の線維成分を伴う平滑筋細胞の増殖。辺縁平滑、境界明瞭。',
+
+            },{
+                detailInfo: '5/28課題 (3)',
+                questionImg: [gynecologyQuestion2],
+                questionSentence: '61歳の女性。3か月前から乳頭緊満感を認め、1か月前から少量の性器出血が持続するため来院した。閉経51歳。腟分泌物は白色、中等量で、子宮腟部に異常を認めない。子宮はやや大きく、左付属器部に手拳大の軟らかい腫瘤を触知する。子宮頸部細胞診クラスI、子宮内膜細胞診陰性。血液所見に異常を認めない。血清生化学所見：FSH 15mIU/mL（基準閉経後30以上）、エストラジオール84pg/mL（基準閉経後20以下）。免疫学所見：CEA 1.5ng/mL（基準5以下）、CA19-9 14U/mL（基準37以下）、CA125 38U/mL（基準35以下）。経腟超音波検査で左付属器腫瘤は大部分充実性で内部に大小の嚢胞を多数認める。骨盤部単純MRIのT1強調像（A）とT2強調像（B）とを別に示す。最も考えられるのはどれか',
+                choices: ['卵巣漿液性腺癌', '卵巣顆粒膜細胞腫', '卵巣未分化胚細胞腫', '子宮体癌の卵巣転移', 'Krukenberg腫瘍'],
+                answer: '卵巣顆粒膜細胞腫',
+                answerImg: [ovarianGranulosaCellTumor],
+                commentary: '中央やや右の腫瘤がT1強調像(A)では中信号、T2強調像(B)では高信号を示していて、また多房性である。エストロゲン産生性であると考えられる。',
+            },]
+    }
+
     ])
     const showQuestionList = () => {
         return questionList
