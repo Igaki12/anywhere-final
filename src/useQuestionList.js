@@ -279,6 +279,518 @@ export const useQuestionList = () => {
             detailInfo: '5/21 3限 (4)',
             questionSentence: '母体保護法をもつ医師しか行えない処置・手術はどれか',
         }]
+    },{
+        groupTag : "周産期疾患まとめ問題集",
+        groupContents: [{
+            detailInfo: 'chatGPT4oから生成された問題集',
+                  questionSentence: "Q1 分娩で正常なものはどれか。2つ選べ。",
+                  choices: [
+                    "A) 妊娠満42週0日の分娩",
+                    "B) 子宮口全開大時の破水",
+                    "C) 後方後頭位分娩",
+                    "D) 分娩所要時間32時間",
+                    "E) 分娩時出血量400ml"
+                  ],
+                  answer: "B, E",
+                  commentary: "A) 妊娠満42週0日の分娩 → 37週0日～41週6日までが正期産\nB) 子宮口全開大時の破水 → 分娩第1～2期にかけての破水が適時破水\nC) 後方後頭位分娩 → 前方後頭位分娩が正常分娩\nD) 分娩所要時間32時間 → 遷延分娩（正常の約2倍の時間）\nE) 分娩時出血量400ml → 分娩時の出血は500ml以内が正常"
+                },
+                {
+                  questionSentence: "Q2 ヒト受精卵で正しいものはどれか",
+                  choices: [
+                    "A) 受精卵は受精後2日で子宮内膜に着床する",
+                    "B) 受精卵は増殖期子宮内膜に着床する",
+                    "C) 受精卵は桑実胚期に子宮内膜に着床する",
+                    "D) 胞胚は着床のため透明体から脱出する",
+                    "E) 子宮内膜で受精する。"
+                  ],
+                  answer: "D",
+                  commentary: "A) 受精卵は受精後2日で子宮内膜に着床する → 6～7日で着床\nB) 受精卵は増殖期子宮内膜に着床する → 分泌期内膜に着床\nC) 受精卵は桑実胚期に子宮内膜に着床する → 胚盤胞で着床\nD) 胞胚は着床のため透明体から脱出する → 正しい\nE) 子宮内膜で受精する → 卵管膨大部で受精する"
+                },
+                {
+                  questionSentence: "Q3 卵膜の構成について母体側から胎児側の順で正しいものはどれか。1つ選べ。",
+                  choices: [
+                    "A) 絨毛膜→羊膜→脱落膜",
+                    "B) 絨毛膜→脱落膜→羊膜",
+                    "C) 脱落膜→絨毛膜→羊膜",
+                    "D) 脱落膜→羊膜→絨毛膜",
+                    "E) 羊膜→絨毛膜→脱落膜"
+                  ],
+                  answer: "C",
+                  commentary: "脱落膜→絨毛膜→羊膜の順序が正しい。"
+                },
+                {
+                  questionSentence: "Q4 妊娠中の超音波検査所見について正しいものはどれか。1つ選べ。",
+                  choices: [
+                    "A) 妊娠3週で胎嚢を認める",
+                    "B) 妊娠4週で胎芽の心拍動を確認できる",
+                    "C) 妊娠9週の胎児心拍数は160～180/分である",
+                    "D) 妊娠10週に児頭大横径（BPD）で分娩予定日を修正する",
+                    "E) 妊娠22週で胎児の推定体重は1,000g程度である"
+                  ],
+                  answer: "C",
+                  commentary: "A) 妊娠3週で胎嚢を認める → 4週後半～5週前半\nB) 妊娠4週で胎芽の心拍動を確認できる → 6週以降\nC) 妊娠9週の胎児心拍数は160～180/分である → 正しい\nD) 妊娠10週に児頭大横径（BPD）で分娩予定日を修正する → 頭殿長で修正\nE) 妊娠22週で胎児の推定体重は1,000g程度である → 450-500g程度"
+                },
+                {
+                  questionSentence: "Q5 23歳の女性。全身倦怠感を主訴に受診した。まず行う検査はどれか。1つ選べ。",
+                  choices: [
+                    "A) 血中hCG定量",
+                    "B) 動脈血ガス採血",
+                    "C) 上部消化管内視鏡検査",
+                    "D) 甲状腺機能検査",
+                    "E) 尿ケトン体"
+                  ],
+                  answer: "E",
+                  commentary: "尿ケトン体 → 低血糖で尿ケトン陽性となる"
+                },
+                {
+                  questionSentence: "Q6 Q5の患者に対する説明として適切なのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 「絶食にしたほうがいいです」",
+                    "B) 「食事は高タンパク質食にしてください」",
+                    "C) 「点滴をします」",
+                    "D) 「人工妊娠中絶をします」",
+                    "E) 「ビタミンAを積極的に補給してください」"
+                  ],
+                  answer: "C",
+                  commentary: "A) 絶食にしたほうがいいです → 食べたいものを食べられる量だけ食べる\nB) 食事は高タンパク質食にしてください → 炭水化物（ブドウ糖）\nC) 点滴をします → 正しい\nD) 人工妊娠中絶をします → 非常に重症例では認められる\nE) ビタミンAを積極的に補給してください → Wernicke脳症予防にビタミンB1補充を行う"
+                },
+                {
+                  questionSentence: "Q7 この患者のBishop scoreはどれか？",
+                  choices: [
+                    "A) 5点",
+                    "B) 6点",
+                    "C) 7点",
+                    "D) 8点",
+                    "E) 9点"
+                  ],
+                  answer: "C",
+                  commentary: "子宮口3cm開大、展退度50%、児頭下降度SP-2cm、硬さは中等硬、位置は後方の場合のBishop scoreは6点"
+                },
+                {
+                  questionSentence: "Q8 胎児付属物について正しいものはどれか。1つ選べ。",
+                  choices: [
+                    "A) 羊水は弱酸性である",
+                    "B) 臍帯動脈は1本である",
+                    "C) 臍帯表面は絨毛膜で覆われる",
+                    "D) 羊膜はWharton膠質からなる",
+                    "E) 臍帯静脈の血液は胎児側に向かって流れる"
+                  ],
+                  answer: "E",
+                  commentary: "A) 羊水は弱酸性である → アルカリ性（破水の診断にリトマス紙を利用）\nB) 臍帯動脈は1本である → 動脈2本、静脈1本\nC) 臍帯表面は絨毛膜で覆われる → 羊膜で覆われている\nD) 羊膜はWharton膠質からなる → Wharton膠質は臍帯に存在（緩衝材）\nE) 臍帯静脈の血液は胎児側に向かって流れる → 臍帯動脈は胎児から胎盤に向かう"
+                },
+                {
+                  questionSentence: "Q9 糖尿病合併妊娠について誤っているのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 妊娠中は経口血糖降下薬で管理する",
+                    "B) 新生児低血糖に注意する",
+                    "C) 分娩後はインスリン必要量が減少する",
+                    "D) 羊水過多症の合併頻度が増える",
+                    "E) 妊娠初期の血糖コントロールが不良の場合は先天性形態異常の頻度が高くなる"
+                  ],
+                  answer: "A",
+                  commentary: "A) 妊娠中は経口血糖降下薬で管理する → インスリンで管理（胎盤通過性なしのため）\nB) 新生児低血糖に注意する → 分娩後、母体からの糖の流入がなくなるため\nC) 分娩後はインスリン必要量が減少する → 抗インスリン作用のある胎盤からのホルモン（hPLやプロゲステロンなど）がなくなるため\nD) 羊水過多症の合併頻度が増える → 胎児高血糖により尿量増加のため\nE) 妊娠初期の血糖コントロールが不良の場合は先天性形態異常の頻度が高くなる → 正しい"
+                },
+                {
+                  questionSentence: "Q10 25歳の初産婦。妊娠39週6日。陣痛発来のため入院した。正しいのはどれか？",
+                  choices: [
+                    "A) 破水している",
+                    "B) 反屈位である",
+                    "C) 過強陣痛である",
+                    "D) 分娩第2期である",
+                    "E) 児頭は嵌入している"
+                  ],
+                  answer: "E",
+                  commentary: "A) 破水している → 卵膜存在しているので破水は否定的\nB) 反屈位である → 小泉門が先進しているので屈位である\nC) 過強陣痛である → 1分以内の周期なら過強陣痛\nD) 分娩第2期である → 第1期である\nE) 児頭は嵌入している →児頭最大径が骨盤入口を通過した状態 先進部は児頭嵌入でstation 0、児頭固定でstation -2～-1"
+                },
+                {
+                  questionSentence: "Q11 分娩4時間後の出血の誘因として考えられるのはどれか。3つ選べ。",
+                  choices: [
+                    "A) 母体年齢",
+                    "B) 分娩回数",
+                    "C) 分娩週数",
+                    "D) 児体重",
+                    "E) 分娩時間"
+                  ],
+                  answer: "B, D, E",
+                  commentary: "A) 母体年齢 → 関係ない\nB) 分娩回数 → 多産婦ほど弛緩出血のリスクが高い\nC) 分娩週数 → 関係ない\nD) 児体重 → 児が大きいほど弛緩出血のリスクが高い\nE) 分娩時間 → 分娩時間が長いと弛緩出血のリスクが高い"
+                },
+                {
+                  questionSentence: "Q12 最初に行う処置はどれか。1つ選べ。",
+                  choices: [
+                    "A) 輸血",
+                    "B) 子宮全摘術",
+                    "C) 抗DIC療法",
+                    "D) 子宮内容除去術",
+                    "E) 子宮底輪状マッサージ"
+                  ],
+                  answer: "E",
+                  commentary: "A) 輸血 → 現時点では輸血は不要（準備はしてもよいかも）\nB) 子宮全摘術 → 最終手段\nC) 抗DIC療法 → DICはおこしていない\nD) 子宮内容除去術 → 子宮内に遺残物を思わせる所見はない\nE) 子宮底輪状マッサージ → 最初に行う処置として重要"
+                },
+                {
+                  questionSentence: "Q13 適切な対応はどれか。1つ選べ。",
+                  choices: [
+                    "A) 緊急帝王切開を行う",
+                    "B) 子宮頸管縫縮術を行う",
+                    "C) 翌日の受診を指示し帰宅させる",
+                    "D) オキシトシンの点滴を開始する",
+                    "E) マルチウス-グスマンのX線撮影を行う"
+                  ],
+                  answer: "A",
+                  commentary: "緊急帝王切開が適切。"
+                },
+                {
+                  questionSentence: "Q14 最も考えられるのはどれか1つ選べ。",
+                  choices: [
+                    "A) 前置胎盤",
+                    "B) 切迫早産",
+                    "C) 絨毛膜羊膜炎",
+                    "D) 常位胎盤早期剥離",
+                    "E) 子宮破裂"
+                  ],
+                  answer: "D",
+                  commentary: "常位胎盤早期剥離 → 胎盤の超音波所見からもっとも考えられる（原因は妊娠高血圧腎症）"
+                },
+                {
+                  questionSentence: "Q15 適切な処置を1つ選べ。",
+                  choices: [
+                    "A) ニカルジピン（カルシウム拮抗薬）静注",
+                    "B) フロセミド（利尿薬）静注",
+                    "C) 塩酸リトドリン点滴静注",
+                    "D) ヘパリン静注",
+                    "E) 経過観察"
+                  ],
+                  answer: "A",
+                  commentary: "ニカルジピン（カルシウム拮抗薬）静注 → 妊娠高血圧腎症に伴う子癇発作であり、降圧が必要"
+                },
+                {
+                  questionSentence: "Q16 説明として適切なのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 「羊水を使って検査を行います」",
+                    "B) 「検査のため流産する確率は0.3％です」",
+                    "C) 「検査で先天性疾患の80％が診断できます」",
+                    "D) 「検査の結果が陽性であっても確定診断にはなりません」",
+                    "E) 「妊娠16週以降にならないと検査することができません」"
+                  ],
+                  answer: "D",
+                  commentary: "A) 羊水を使って検査を行います → 母体採血\nB) 検査のため流産する確率は0.3％です → 母体採血なので流産はしない\nC) 検査で先天性疾患の80％が診断できます → 染色体異常以外の先天疾患はわからない（半数以上は多因子遺伝）\nD) 検査の結果が陽性であっても確定診断にはなりません → 羊水検査にて確定\nE) 妊娠16週以降にならないと検査することができません → 9～15週まで"
+                },
+                {
+                  questionSentence: "Q17 最も考えられるのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 虫垂炎",
+                    "B) 腎盂腎炎",
+                    "C) 絨毛膜羊膜炎",
+                    "D) 骨盤腹膜炎",
+                    "E) 卵管炎"
+                  ],
+                  answer: "C",
+                  commentary: "絨毛膜羊膜炎 → 絨毛膜羊膜炎から破水を起こしている（混濁羊水あり）"
+                },
+                {
+                  questionSentence: "Q18 この患者で誤っているのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 重症妊娠高血圧症候群",
+                    "B) 胎児胎盤機能不全である",
+                    "C) 胎動は減少する",
+                    "D) 前期破水が生じやすい",
+                    "E) Non-reassuring fetal status（NRFS）"
+                  ],
+                  answer: "D",
+                  commentary: "A) 重症妊娠高血圧症候群 → BP160/110以上で重症\nB) 胎児胎盤機能不全である → 遅発一過性徐脈の所見あり\nC) 胎動は減少する → NRFSでは胎動減少する\nD) 前期破水が生じやすい → 無関係\nE) Non-reassuring fetal status（NRFS） → 遅発一過性徐脈の所見あり"
+                },
+                {
+                  questionSentence: "Q19 Q18の患者に対する対応として正しいものはどれか。1つ選べ。",
+                  choices: [
+                    "A) 帝王切開術を行う",
+                    "B) 利尿剤を投与する",
+                    "C) 羊水注入を行う",
+                    "D) 副腎皮質ステロイド薬の投与",
+                    "E) 経過観察"
+                  ],
+                  answer: "A",
+                  commentary: "帝王切開術を行う → 重症妊娠高血圧腎症であり、NRFSも認める。妊娠の終結が唯一の治療法"
+                },
+                {
+                  questionSentence: "Q20 羊水の少ない方の児によくみられるのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 貧血",
+                    "B) 心拡大",
+                    "C) 皮下浮腫",
+                    "D) 膀胱の拡張",
+                    "E) 巨大児"
+                  ],
+                  answer: "A",
+                  commentary: "貧血 → 供血児に認める"
+                },
+                {
+                  questionSentence: "Q21 分娩時の出血量は1,200mlであった。正しいのはどれか。1つ選べ。",
+                  choices: [
+                    "A) 分娩の開始は午前0時である",
+                    "B) 適時破水である",
+                    "C) 分娩第1期は11時間である",
+                    "D) 分娩第3期は10分である",
+                    "E) 分娩時出血量は正常範囲である。"
+                  ],
+                  answer: "D",
+                  commentary: "A) 分娩の開始は午前0時である → 午前3時が分娩の開始\nB) 適時破水である → 分娩開始前の破水であり非適時破水である\nC) 分娩第1期は11時間である → 7時間である（分娩開始～子宮口全開まで）\nD) 分娩第3期は10分である → 10分である（児娩出後～胎盤娩出まで）\nE) 分娩時出血量は正常範囲である → 500ml以上であり異常（弛緩出血）"
+                }
+                ]
+            },{
+            groupTag : "産科まとめ機械翻訳",
+            groupContents: [{
+                      questionSentence: "Q1 Which of the following is normal for childbirth? Select two.",
+                      choices: [
+                        "A) Delivery at 42 weeks of pregnancy",
+                        "B) Rupture of membranes at full dilation of the cervix",
+                        "C) Delivery in posterior occipital position",
+                        "D) Delivery duration of 32 hours",
+                        "E) Blood loss of 400ml during delivery"
+                      ],
+                      answer: "B, E",
+                      commentary: "A) 妊娠満42週0日の分娩 → 37週0日～41週6日までが正期産\nB) 子宮口全開大時の破水 → 分娩第1～2期にかけての破水が適時破水\nC) 後方後頭位分娩 → 前方後頭位分娩が正常分娩\nD) 分娩所要時間32時間 → 遷延分娩（正常の約2倍の時間）\nE) 分娩時出血量400ml → 分娩時の出血は500ml以内が正常"
+                    },
+                    {
+                      questionSentence: "Q2 Which of the following is correct about human fertilized eggs?",
+                      choices: [
+                        "A) The fertilized egg implants in the endometrium 2 days after fertilization",
+                        "B) The fertilized egg implants in the proliferative phase endometrium",
+                        "C) The fertilized egg implants in the endometrium during the morula stage",
+                        "D) The blastocyst hatches from the zona pellucida for implantation",
+                        "E) Fertilization occurs in the endometrium"
+                      ],
+                      answer: "D",
+                      commentary: "A) 受精卵は受精後2日で子宮内膜に着床する → 6～7日で着床\nB) 受精卵は増殖期子宮内膜に着床する → 分泌期内膜に着床\nC) 受精卵は桑実胚期に子宮内膜に着床する → 胚盤胞で着床\nD) 胞胚は着床のため透明体から脱出する → 正しい\nE) 子宮内膜で受精する → 卵管膨大部で受精する"
+                    },
+                    {
+                      questionSentence: "Q3 Which of the following is the correct sequence of fetal membranes from the maternal side to the fetal side? Select one.",
+                      choices: [
+                        "A) Chorion → Amnion → Decidua",
+                        "B) Chorion → Decidua → Amnion",
+                        "C) Decidua → Chorion → Amnion",
+                        "D) Decidua → Amnion → Chorion",
+                        "E) Amnion → Chorion → Decidua"
+                      ],
+                      answer: "C",
+                      commentary: "脱落膜→絨毛膜→羊膜の順序が正しい。"
+                    },
+                    {
+                      questionSentence: "Q4 Which of the following is correct about ultrasound findings during pregnancy? Select one.",
+                      choices: [
+                        "A) Gestational sac is visible at 3 weeks of pregnancy",
+                        "B) Fetal heartbeat is confirmed at 4 weeks of pregnancy",
+                        "C) Fetal heart rate at 9 weeks of pregnancy is 160-180 bpm",
+                        "D) Expected delivery date is adjusted based on BPD at 10 weeks of pregnancy",
+                        "E) Estimated fetal weight at 22 weeks of pregnancy is about 1,000g"
+                      ],
+                      answer: "C",
+                      commentary: "A) 妊娠3週で胎嚢を認める → 4週後半～5週前半\nB) 妊娠4週で胎芽の心拍動を確認できる → 6週以降\nC) 妊娠9週の胎児心拍数は160～180/分である → 正しい\nD) 妊娠10週に児頭大横径（BPD）で分娩予定日を修正する → 頭殿長で修正\nE) 妊娠22週で胎児の推定体重は1,000g程度である → 450-500g程度"
+                    },
+                    {
+                      questionSentence: "Q5 A 23-year-old woman presented with general fatigue. What is the first test to perform? Select one.",
+                      choices: [
+                        "A) Quantitative blood hCG",
+                        "B) Arterial blood gas analysis",
+                        "C) Upper gastrointestinal endoscopy",
+                        "D) Thyroid function test",
+                        "E) Urine ketone bodies"
+                      ],
+                      answer: "E",
+                      commentary: "尿ケトン体 → 低血糖で尿ケトン陽性となる"
+                    },
+                    {
+                      questionSentence: "Q6 Which of the following is the appropriate explanation for the patient in Q5? Select one.",
+                      choices: [
+                        "A) \"You should fast.\"",
+                        "B) \"Eat a high-protein diet.\"",
+                        "C) \"We will administer an IV drip.\"",
+                        "D) \"We will perform an induced abortion.\"",
+                        "E) \"Actively supplement with vitamin A.\""
+                      ],
+                      answer: "C",
+                      commentary: "A) 絶食にしたほうがいいです → 食べたいものを食べられる量だけ食べる\nB) 食事は高タンパク質食にしてください → 炭水化物（ブドウ糖）\nC) 点滴をします → 正しい\nD) 人工妊娠中絶をします → 非常に重症例では認められる\nE) ビタミンAを積極的に補給してください → Wernicke脳症予防にビタミンB1補充を行う"
+                    },
+                    {
+                      questionSentence: "Q7 What is this patient's Bishop score?",
+                      choices: [
+                        "A) 5 points",
+                        "B) 6 points",
+                        "C) 7 points",
+                        "D) 8 points",
+                        "E) 9 points"
+                      ],
+                      answer: "C",
+                      commentary: "子宮口3cm開大、展退度50%、児頭下降度SP-2cm、硬さは中等硬、位置は後方の場合のBishop scoreは6点"
+                    },
+                    {
+                      questionSentence: "Q8 Which of the following is correct about fetal appendages? Select one.",
+                      choices: [
+                        "A) Amniotic fluid is slightly acidic",
+                        "B) There is one umbilical artery",
+                        "C) The surface of the umbilical cord is covered with chorion",
+                        "D) The amnion consists of Wharton's jelly",
+                        "E) Blood in the umbilical vein flows towards the fetus"
+                      ],
+                      answer: "E",
+                      commentary: "A) 羊水は弱酸性である → アルカリ性（破水の診断にリトマス紙を利用）\nB) 臍帯動脈は1本である → 動脈2本、静脈1本\nC) 臍帯表面は絨毛膜で覆われる → 羊膜で覆われている\nD) 羊膜はWharton膠質からなる → Wharton膠質は臍帯に存在（緩衝材）\nE) 臍帯静脈の血液は胎児側に向かって流れる → 臍帯動脈は胎児から胎盤に向かう"
+                    },
+                    {
+                      questionSentence: "Q9 Which of the following is incorrect about diabetes-complicated pregnancy? Select one.",
+                      choices: [
+                        "A) Managed with oral hypoglycemic agents during pregnancy",
+                        "B) Pay attention to neonatal hypoglycemia",
+                        "C) Insulin requirement decreases after delivery",
+                        "D) Increased frequency of polyhydramnios",
+                        "E) High frequency of congenital malformations if poor glycemic control in early pregnancy"
+                      ],
+                      answer: "A",
+                      commentary: "A) 妊娠中は経口血糖降下薬で管理する → インスリンで管理（胎盤通過性なしのため）\nB) 新生児低血糖に注意する → 分娩後、母体からの糖の流入がなくなるため\nC) 分娩後はインスリン必要量が減少する → 抗インスリン作用のある胎盤からのホルモン（hPLやプロゲステロンなど）がなくなるため\nD) 羊水過多症の合併頻度が増える → 胎児高血糖により尿量増加のため\nE) 妊娠初期の血糖コントロールが不良の場合は先天性形態異常の頻度が高くなる → 正しい"
+                    },
+                    {
+                      questionSentence: "Q10 A 25-year-old primipara was admitted at 39 weeks and 6 days of pregnancy due to labor. Which is correct?",
+                      choices: [
+                        "A) The membranes have ruptured",
+                        "B) The fetus is in deflexion position",
+                        "C) There is hypertonic labor",
+                        "D) It is in the second stage of labor",
+                        "E) The fetal head is engaged"
+                      ],
+                      answer: "E",
+                      commentary: "A) 破水している → 卵膜存在しているので破水は否定的\nB) 反屈位である → 小泉門が先進しているので屈位である\nC) 過強陣痛である → 1分以内の周期なら過強陣痛\nD) 分娩第2期である → 第1期である\nE) 児頭は嵌入している →児頭最大径が骨盤入口を通過した状態 先進部は児頭嵌入でstation 0、児頭固定でstation -2～-1"
+                    },
+                    {
+                      questionSentence: "Q11 What are the possible causes of bleeding 4 hours after delivery? Select three.",
+                      choices: [
+                        "A) Maternal age",
+                        "B) Number of deliveries",
+                        "C) Gestational weeks",
+                        "D) Fetal weight",
+                        "E) Duration of labor"
+                      ],
+                      answer: "B, D, E",
+                      commentary: "A) 母体年齢 → 関係ない\nB) 分娩回数 → 多産婦ほど弛緩出血のリスクが高い\nC) 分娩週数 → 関係ない\nD) 児体重 → 児が大きいほど弛緩出血のリスクが高い\nE) 分娩時間 → 分娩時間が長いと弛緩出血のリスクが高い"
+                    },
+                    {
+                      questionSentence: "Q12 What is the first treatment for the patient in Q11? Select one.",
+                      choices: [
+                        "A) Blood transfusion",
+                        "B) Hysterectomy",
+                        "C) Anti-DIC therapy",
+                        "D) Uterine curettage",
+                        "E) Uterine fundal massage"
+                      ],
+                      answer: "E",
+                      commentary: "A) 輸血 → 現時点では輸血は不要（準備はしてもよいかも）\nB) 子宮全摘術 → 最終手段\nC) 抗DIC療法 → DICはおこしていない\nD) 子宮内容除去術 → 子宮内に遺残物を思わせる所見はない\nE) 子宮底輪状マッサージ → 最初に行う処置として重要"
+                    },
+                    {
+                      questionSentence: "Q13 What is the appropriate response? Select one.",
+                      choices: [
+                        "A) Perform emergency cesarean section",
+                        "B) Perform cervical cerclage",
+                        "C) Instruct the patient to come back the next day",
+                        "D) Start oxytocin drip",
+                        "E) Perform Martius-Gusman X-ray"
+                      ],
+                      answer: "A",
+                      commentary: "緊急帝王切開が適切。"
+                    },
+                    {
+                      questionSentence: "Q14 What is the most likely diagnosis? Select one.",
+                      choices: [
+                        "A) Placenta previa",
+                        "B) Threatened preterm labor",
+                        "C) Chorioamnionitis",
+                        "D) Abruptio placentae",
+                        "E) Uterine rupture"
+                      ],
+                      answer: "D",
+                      commentary: "常位胎盤早期剥離 → 胎盤の超音波所見からもっとも考えられる（原因は妊娠高血圧腎症）"
+                    },
+                    {
+                      questionSentence: "Q15 What is the appropriate treatment? Select one.",
+                      choices: [
+                        "A) Intravenous nicardipine (calcium channel blocker)",
+                        "B) Intravenous furosemide (diuretic)",
+                        "C) Intravenous ritodrine hydrochloride",
+                        "D) Intravenous heparin",
+                        "E) Observation"
+                      ],
+                      answer: "A",
+                      commentary: "ニカルジピン（カルシウム拮抗薬）静注 → 妊娠高血圧腎症に伴う子癇発作であり、降圧が必要"
+                    },
+                    {
+                      questionSentence: "Q16 Which of the following is the appropriate explanation? Select one.",
+                      choices: [
+                        "A) \"We will use amniotic fluid for the test.\"",
+                        "B) \"The risk of miscarriage due to the test is 0.3%.\"",
+                        "C) \"The test can diagnose 80% of congenital diseases.\"",
+                        "D) \"A positive result does not confirm the diagnosis.\"",
+                        "E) \"The test cannot be performed until 16 weeks of pregnancy.\""
+                      ],
+                      answer: "D",
+                      commentary: "A) 羊水を使って検査を行います → 母体採血\nB) 検査のため流産する確率は0.3％です → 母体採血なので流産はしない\nC) 検査で先天性疾患の80％が診断できます → 染色体異常以外の先天疾患はわからない（半数以上は多因子遺伝）\nD) 検査の結果が陽性であっても確定診断にはなりません → 羊水検査にて確定\nE) 妊娠16週以降にならないと検査することができません → 9～15週まで"
+                    },
+                    {
+                      questionSentence: "Q17 What is the most likely diagnosis? Select one.",
+                      choices: [
+                        "A) Appendicitis",
+                        "B) Pyelonephritis",
+                        "C) Chorioamnionitis",
+                        "D) Pelvic peritonitis",
+                        "E) Salpingitis"
+                      ],
+                      answer: "C",
+                      commentary: "絨毛膜羊膜炎 → 絨毛膜羊膜炎から破水を起こしている（混濁羊水あり）"
+                    },
+                    {
+                      questionSentence: "Q18 Which of the following is incorrect about this patient? Select one.",
+                      choices: [
+                        "A) Severe pregnancy-induced hypertension",
+                        "B) Fetal-placental dysfunction",
+                        "C) Decreased fetal movement",
+                        "D) Increased risk of preterm rupture of membranes",
+                        "E) Non-reassuring fetal status (NRFS)"
+                      ],
+                      answer: "D",
+                      commentary: "A) 重症妊娠高血圧症候群 → BP160/110以上で重症\nB) 胎児胎盤機能不全である → 遅発一過性徐脈の所見あり\nC) 胎動は減少する → NRFSでは胎動減少する\nD) 前期破水が生じやすい → 無関係\nE) Non-reassuring fetal status（NRFS） → 遅発一過性徐脈の所見あり"
+                    },
+                    {
+                      questionSentence: "Q19 What is the appropriate response for the patient in Q18? Select one.",
+                      choices: [
+                        "A) Perform cesarean section",
+                        "B) Administer diuretics",
+                        "C) Perform amnioinfusion",
+                        "D) Administer corticosteroids",
+                        "E) Observation"
+                      ],
+                      answer: "A",
+                      commentary: "帝王切開術を行う → 重症妊娠高血圧腎症であり、NRFSも認める。妊娠の終結が唯一の治療法"
+                    },
+                    {
+                      questionSentence: "Q20 Which of the following is often observed in the twin with less amniotic fluid? Select one.",
+                      choices: [
+                        "A) Anemia",
+                        "B) Cardiomegaly",
+                        "C) Subcutaneous edema",
+                        "D) Bladder enlargement",
+                        "E) Macrosomia"
+                      ],
+                      answer: "A",
+                      commentary: "貧血 → 供血児に認める"
+                    },
+                    {
+                      questionSentence: "Q21 The blood loss during delivery was 1,200ml. Which is correct? Select one.",
+                      choices: [
+                        "A) Labor started at midnight",
+                        "B) Timely rupture of membranes",
+                        "C) The first stage of labor lasted 11 hours",
+                        "D) The third stage of labor lasted 10 minutes",
+                        "E) The amount of blood loss during delivery is within normal range."
+                      ],
+                      answer: "D",
+                      commentary: "A) 分娩の開始は午前0時である → 午前3時が分娩の開始\nB) 適時破水である → 分娩開始前の破水であり非適時破水である\nC) 分娩第1期は11時間である → 7時間である（分娩開始～子宮口全開まで）\nD) 分娩第3期は10分である → 10分である（児娩出後～胎盤娩出まで）\nE) 分娩時出血量は正常範囲である → 500ml以上であり異常（弛緩出血）"
+                    }
+                  ]
+                  
         },{
             groupTag : "婦人疾患 課題",
             groupContents: [{
