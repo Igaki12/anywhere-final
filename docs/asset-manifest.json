@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.b1f62fa2.js",
+    "main.js": "/anywhere-final/static/js/main.3a656937.js",
     "static/media/titleImg.jpg": "/anywhere-final/static/media/titleImg.5a045507cf078eab6f2e.jpg",
+    "static/media/station0.png": "/anywhere-final/static/media/station0.c117db4cbfb66bf089d2.png",
     "static/media/chocolateCystImg.png": "/anywhere-final/static/media/chocolateCystImg.27d8a8277a5406cc3dd0.png",
     "static/media/gynecologyQuestion1.png": "/anywhere-final/static/media/gynecologyQuestion1.07e77697d30551edc358.png",
     "static/media/MRIT1Img.png": "/anywhere-final/static/media/MRIT1Img.ca740d425280902385aa.png",
@@ -10,13 +11,15 @@
     "static/media/gynecologyQuestion2.png": "/anywhere-final/static/media/gynecologyQuestion2.0740ffe6636ca96905a6.png",
     "static/media/adenomyosis2.png": "/anywhere-final/static/media/adenomyosis2.d4b933118eb18c7e8e2e.png",
     "static/media/ovarianGranulosaCellTumor.png": "/anywhere-final/static/media/ovarianGranulosaCellTumor.e13396052938fe2b4228.png",
+    "static/media/normalFetalPosition.png": "/anywhere-final/static/media/normalFetalPosition.97ffbf079b2a96a89e03.png",
+    "static/media/stageOfLabor.png": "/anywhere-final/static/media/stageOfLabor.5d70476261bb0f2e9059.png",
     "static/media/dermoidCystImg.png": "/anywhere-final/static/media/dermoidCystImg.e333427bc835694d1eef.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.b1f62fa2.js.map": "/anywhere-final/static/js/main.b1f62fa2.js.map"
+    "main.3a656937.js.map": "/anywhere-final/static/js/main.3a656937.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.b1f62fa2.js"
+    "static/js/main.3a656937.js"
   ]
 }
