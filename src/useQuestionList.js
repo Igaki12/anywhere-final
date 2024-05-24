@@ -1228,6 +1228,2243 @@ export const useQuestionList = () => {
     answer: "a"
   }
 ]
+        },{
+            groupTag : "産科疾患2022本試験機械英訳",
+            groupContents: [{
+                detailInfo: 'chatGPT4oによる産科疾患2022本試験機械英訳',
+                      questionSentence: "Q1 Which of the following is incorrect? Choose one.",
+                      choices: [
+                        "a) The number of follicles is highest during the fetal period.",
+                        "b) Primary oocytes are arrested in the first meiotic prophase but resume meiosis due to the LH surge.",
+                        "c) Primary spermatocytes undergo the first and second meiotic divisions to form four spermatids.",
+                        "d) The second meiotic division of secondary oocytes resumes due to sperm entry.",
+                        "e) Upon sperm entry, the oocyte hardens the zona pellucida to prevent entry of other sperm, which is called the acrosome reaction."
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q2 Which of the following is correct about the menstrual cycle? Choose one.",
+                      choices: [
+                        "a) The basal membrane peels off during menstruation.",
+                        "b) Follicles mainly secrete progesterone, and the corpus luteum mainly secretes estrogen.",
+                        "c) Estrogen causes decidual changes in the endometrium.",
+                        "d) The rise in LH occurs after the rise in estradiol.",
+                        "e) All of the above are incorrect."
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q3 Which of the following combinations of germ layers and organs is correct? Choose one.",
+                      choices: [
+                        "a) Ectoderm - Heart",
+                        "b) Ectoderm - Lungs",
+                        "c) Mesoderm - Thyroid",
+                        "d) Mesoderm - Uterus",
+                        "e) Endoderm - Central nervous system"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q4 Which of the following hormones secreted by the placenta is incorrect? Choose one.",
+                      choices: [
+                        "a) hCG (Human chorionic gonadotropin)",
+                        "b) hPL (Human placental lactogen)",
+                        "c) Estrogen",
+                        "d) Progesterone",
+                        "e) Prolactin"
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q5 Which of the following is incorrect about amniotic fluid? Choose one.",
+                      choices: [
+                        "a) It originates from fetal urine.",
+                        "b) It originates from alveolar secretions.",
+                        "c) It peaks at 8 months of pregnancy.",
+                        "d) It reaches 1000ml at 10 months of pregnancy.",
+                        "e) Amniotic fluid is alkaline."
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q6 Which of the following is correct about ultrasound examination? Choose one.",
+                      choices: [
+                        "a) Fetal heartbeats can be detected at 10 weeks of gestation.",
+                        "b) BPD (Biparietal diameter) is most suitable for estimating gestational age.",
+                        "c) NT (Nuchal translucency) thickening always indicates chromosomal abnormalities.",
+                        "d) Amniotic fluid volume is estimated by amniotic fluid index or amniotic fluid pocket.",
+                        "e) "
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q7 Which vitamin should be administered to prevent Wernicke's encephalopathy during intravenous fluid therapy for hyperemesis gravidarum? Choose one.",
+                      choices: [
+                        "a) Vitamin A",
+                        "b) Vitamin B1",
+                        "c) Vitamin C",
+                        "d) Vitamin D",
+                        "e) Vitamin K"
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q8 Which of the following is correct about the three factors of labor? Choose one.",
+                      choices: [
+                        "a) Timely rupture of membranes",
+                        "b) Labor position",
+                        "c) Birth canal",
+                        "d) Surrounding environment",
+                        "e) Labor duration"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q9 Which of the following fetal positions is normal? Choose one.",
+                      choices: [
+                        "a) Cephalic presentation",
+                        "b) Breech presentation",
+                        "c) Transverse presentation",
+                        "d) Oblique presentation",
+                        "e) Footling presentation"
+                      ],
+                      answer: "a"
+                    },
+                    {
+                      questionSentence: "Q10 Which of the following is not included in the Bishop score? Choose one.",
+                      choices: [
+                        "a) Effacement",
+                        "b) Position",
+                        "c) Consistency",
+                        "d) Station",
+                        "e) Uterine contraction"
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q11 Which of the following is correct about the course of labor? Choose one.",
+                      choices: [
+                        "a) Prelabor symptoms include a rise in the uterine fundus.",
+                        "b) Prelabor symptoms include bloody mucous vaginal discharge.",
+                        "c) A total labor duration of 60 hours is normal.",
+                        "d) The course of labor is influenced by fetal orientation.",
+                        "e) The course of labor is not affected by contractions."
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q12 Which of the following indicates effective labor contractions? Choose one.",
+                      choices: [
+                        "a) Progression of internal examination findings.",
+                        "b) Periodic uterine contractions within 5 minutes.",
+                        "c) Pain with each uterine contraction.",
+                        "d) Labor contractions lasting more than 1 minute.",
+                        "e) Bloody mucous discharge."
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q13 Which are appropriate means of monitoring fetal well-being? Choose two.",
+                      choices: [
+                        "a) Blood test",
+                        "b) MRI",
+                        "c) Abdominal X-ray",
+                        "d) NST (Non-Stress Test)",
+                        "e) Ultrasonography"
+                      ],
+                      answer: "d, e"
+                    },
+                    {
+                      questionSentence: "Q14 An abdominal ultrasound image of a woman at 30 weeks gestation is shown in Figure 1. Irregular uterine contractions are noted on the fetal heart rate labor chart. Which drugs are inappropriate to be given to this woman? Choose two.",
+                      choices: [
+                        "a) Indomethacin",
+                        "b) Ritodrine hydrochloride",
+                        "c) Magnesium sulfate",
+                        "d) Oxytocin",
+                        "e) Betamethasone"
+                      ],
+                      answer: "a, d"
+                    },
+                    {
+                      questionSentence: "Q15 Regarding the abnormal first rotation shown in Figure 2, which combination of name and leading part is correct? Choose one.",
+                      choices: [
+                        "a) ① Front position - Ear",
+                        "b) ② Front position - Occiput",
+                        "c) ② Brow presentation - Forehead",
+                        "d) ③ Chin presentation - Eye",
+                        "e) ③ Neck position - Nose"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q16 Which of the following is correct about prolonged labor? Choose one.",
+                      choices: [
+                        "a) Primipara with labor duration exceeding 15 hours without delivery.",
+                        "b) Multipara with labor duration exceeding 5 hours without delivery.",
+                        "c) Painless delivery tends to extend labor duration.",
+                        "d) Fetal stress does not need to be considered.",
+                        "e) Maternal fatigue does not need to be considered."
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q17 A 38-year-old woman, gravida 3, para 3, at 39 weeks and 5 days of pregnancy, delivered a 3,960-gram girl after 36 hours of labor. Excessive bleeding was noted after placental delivery, with the uterine fundus 2 fingers above the umbilicus and the uterus soft. What is the most likely diagnosis? Choose one.",
+                      choices: [
+                        "a) Cervical laceration",
+                        "b) Perineal laceration",
+                        "c) Uterine inversion",
+                        "d) Atonic hemorrhage",
+                        "e) Cervical incompetence"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q18 Which of the following is inappropriate as a response to the case in Q17? Choose one.",
+                      choices: [
+                        "a) Use of balloon",
+                        "b) Administration of oxytocin",
+                        "c) Sufficient fluid replacement",
+                        "d) Administration of uterine relaxants",
+                        "e) Uterine fundal massage"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q19 Which of the following actions is inappropriate when suspecting fetal distress? Choose one.",
+                      choices: [
+                        "a) Summoning manpower",
+                        "b) Preparing for rapid delivery",
+                        "c) Contacting neonatal pediatrics",
+                        "d) Continuing NST",
+                        "e) Rechecking after 24 hours"
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q20 Which of the following is correct about pregnancy-induced hypertension? Choose one.",
+                      choices: [
+                        "a) Eclampsia, one of the complications, is more common in primiparas.",
+                        "b) Pregnancy-induced hypertension syndrome tends to occur from early pregnancy.",
+                        "c) The main symptom of severe pregnancy-induced hypertension syndrome is genital bleeding.",
+                        "d) Pregnancy-induced hypertension syndrome is caused by placental dysfunction according to the two-step theory.",
+                        "e) Platelet count often increases."
+                      ],
+                      answer: "a"
+                    },
+                    {
+                      questionSentence: "Q21 Which of the following diseases is least likely to cause massive external bleeding during or after delivery? Choose one.",
+                      choices: [
+                        "a) Placenta previa",
+                        "b) Uterine rupture",
+                        "c) Uterine inversion",
+                        "d) Threatened preterm labor",
+                        "e) Atonic hemorrhage"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q22 A 28-year-old multipara at 40 weeks gestation delivered a girl normally. Since there were no signs of spontaneous placental separation, the umbilical cord was pulled to deliver the placenta. Immediately thereafter, the patient experienced severe lower abdominal pain and profuse bleeding. The uterine fundus was not palpable on bimanual examination. What is the most likely diagnosis? Choose one.",
+                      choices: [
+                        "a) Premature separation of the normally implanted placenta",
+                        "b) Atonic hemorrhage",
+                        "c) Vaginal wall laceration",
+                        "d) Amniotic fluid embolism",
+                        "e) Uterine inversion"
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q23 Which of the following conditions are likely to cause polyhydramnios? Choose two.",
+                      choices: [
+                        "a) Post-term pregnancy",
+                        "b) Fetal spina bifida",
+                        "c) Fetal esophageal atresia",
+                        "d) Placental dysfunction",
+                        "e) Fetal Potter syndrome"
+                      ],
+                      answer: "b, c"
+                    },
+                    {
+                      questionSentence: "Q24 Which of the following chromosomal abnormalities is the most frequent? Choose one.",
+                      choices: [
+                        "a) Down syndrome (Trisomy 21)",
+                        "b) Trisomy 13",
+                        "c) Trisomy 18",
+                        "d) Turner syndrome",
+                        "e) Klinefelter syndrome"
+                      ],
+                      answer: "a"
+                    },
+                    {
+                      questionSentence: "Q25 Which of the following managements is unnecessary for a case of preterm premature rupture of membranes at 32 weeks of gestation? Choose one.",
+                      choices: [
+                        "a) Estimation of fetal weight",
+                        "b) NST",
+                        "c) Fetal echocardiography",
+                        "d) Maternal hospitalization",
+                        "e) Bacterial culture of cervical secretions"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q26 Which of the following statements are correct about the twin pregnancy shown in Figure 3? Choose two.",
+                      choices: [
+                        "a) Cord entanglement occurs.",
+                        "b) Twin-to-twin transfusion syndrome is frequent.",
+                        "c) There are two placentas.",
+                        "d) It is a dichorionic twin pregnancy.",
+                        "e) It is a monochorionic twin pregnancy."
+                      ],
+                      answer: "b, e"
+                    },
+                    {
+                      questionSentence: "Q27 Which of the following is not included in TORCH syndrome? Choose one.",
+                      choices: [
+                        "a) Rubella",
+                        "b) HTLV-1",
+                        "c) Syphilis",
+                        "d) Cytomegalovirus",
+                        "e) Toxoplasmosis"
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q28 Which of the following statements is correct about the normal postpartum period? Choose one.",
+                      choices: [
+                        "a) It takes about 6 months for maternal physiological changes to return to pre-pregnancy state after delivery.",
+                        "b) Milk secretion in the postpartum period starts when the newborn begins sucking.",
+                        "c) Colostrum contains more immune substances than mature milk.",
+                        "d) The duration of postpartum amenorrhea is almost the same between breastfeeding and non-breastfeeding mothers.",
+                        "e) The uterus returns to its pre-pregnancy state within 2 weeks postpartum."
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q29 Which of the following statements is correct about the effects of drugs on the fetus? Choose one.",
+                      choices: [
+                        "a) If drug exposure occurs by the end of the 3rd week of pregnancy, the fetus is born without morphological abnormalities.",
+                        "b) Fetal development from the 4th to 10th week of pregnancy follows the all-or-none rule.",
+                        "c) The period after the 13th week of pregnancy is the sensitive period, and drug exposure should be especially avoided.",
+                        "d) ",
+                        "e) All of the above are incorrect."
+                      ],
+                      answer: "a"
+                    },
+                    {
+                      questionSentence: "Q30 How many consecutive spontaneous miscarriages are generally referred to as habitual miscarriage? Choose one.",
+                      choices: [
+                        "a) 1 or more",
+                        "b) 2 or more",
+                        "c) 3 or more",
+                        "d) 4 or more",
+                        "e) 5 or more"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q31 Which of the following changes is not seen in the mother during late pregnancy? Choose one.",
+                      choices: [
+                        "a) Dilation of the ureters",
+                        "b) Breast enlargement",
+                        "c) Skin pigmentation",
+                        "d) Cardiac hypertrophy",
+                        "e) Decreased basal metabolic rate"
+                      ],
+                      answer: "e"
+                    },
+                    {
+                      questionSentence: "Q32 Which of the following is incorrect about the treatment of congestive mastitis? Choose one.",
+                      choices: [
+                        "a) Breast massage",
+                        "b) Continuation of breastfeeding",
+                        "c) Administration of Kampo medicine",
+                        "d) Incision and drainage",
+                        "e) Cooling"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q33 What is the maternal mortality rate in Japan? Choose one.",
+                      choices: [
+                        "a) 3.3 per 100 people",
+                        "b) 3.3 per 1,000 people",
+                        "c) 3.3 per 10,000 people",
+                        "d) 3.3 per 100,000 people",
+                        "e) 3.3 per 1,000,000 people"
+                      ],
+                      answer: "d"
+                    },
+                    {
+                      questionSentence: "Q34 Which of the following statements is incorrect about the Maternal Protection Law and reproductive rights? Choose two.",
+                      choices: [
+                        "a) The Maternal Protection Law regulates matters related to contraception and induced abortion.",
+                        "b) Reproductive rights refer to the right to obtain sufficient information and make decisions about all matters related to reproduction, including pregnancy, childbirth, and abortion.",
+                        "c) In the United States, abortion has been constitutionally protected since a 1973 Supreme Court ruling declaring abortion regulations unconstitutional, but recently the ruling has been overturned and has become a subject of political debate.",
+                        "d) There are WHO-approved oral abortion pills, which are used in more than 80 countries, including Japan.",
+                        "e) Induced abortion is possible under the Maternal Protection Law if the fetus has a fatal disease."
+                      ],
+                      answer: "d, e"
+                    },
+                    {
+                      questionSentence: "Q35 Which of the following is not used in the calculation of the Apgar score? Choose one.",
+                      choices: [
+                        "a) Skin color",
+                        "b) Respiratory effort",
+                        "c) Duration of labor",
+                        "d) Heart rate",
+                        "e) Muscle tone"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q36 Which of the following initial resuscitation methods is incorrect in neonatal resuscitation? Choose one.",
+                      choices: [
+                        "a) Administration of oxygen",
+                        "b) Keeping the baby warm",
+                        "c) Opening the airway",
+                        "d) Maintaining proper position",
+                        "e) Drying and stimulating the skin"
+                      ],
+                      answer: "a"
+                    },
+                    {
+                      questionSentence: "Q37 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
+                      choices: [
+                        "a) Cerebrospinal fluid",
+                        "b) Blood",
+                        "c) Gastric fluid",
+                        "d) Urine",
+                        "e) Feces"
+                      ],
+                      answer: "c"
+                    },
+                    {
+                      questionSentence: "Q38 Which of the following is not applicable to the diagnosis and examination of severe neonatal asphyxia? Choose one.",
+                      choices: [
+                        "a) Low Apgar score",
+                        "b) Metabolic alkalosis",
+                        "c) Elevated CK, Lactate",
+                        "d) Elevated AST, ALT",
+                        "e) Prolonged PT, APTT"
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q39 Which of the following is incorrect about transient tachypnea of the newborn? Choose one.",
+                      choices: [
+                        "a) Nasal flaring",
+                        "b) Inspiratory stridor",
+                        "c) Retractions",
+                        "d) Grunting",
+                        "e) Cyanosis"
+                      ],
+                      answer: "b"
+                    },
+                    {
+                      questionSentence: "Q40 Which of the following statements is correct about neonatal diseases? Choose one.",
+                      choices: [
+                        "a) Retractions are a symptom of insufficient lung surfactant.",
+                        "b) Infants born weighing less than 1000g are called extremely low birth weight infants.",
+                        "c) Intraventricular hemorrhage is more likely to occur in term infants.",
+                        "d) Necrotizing enterocolitis is associated with increased blood flow to the intestines.",
+                        "e) All newborns need to be bathed immediately after birth."
+                      ],
+                      answer: "a"
+                    }
+                  ]
+                  
+        },{
+            groupTag : "産科疾患2021本試験",
+            groupContents: [{
+                detailInfo: 'chatGPT4oによる機械生成',
+                      questionSentence: "Q1 分娩予定日を決定するのに最も有用な超音波所見はどれか。一つ選べ。",
+                      choices: [
+                        "a) 妊娠 5 週時の胎嚢の大きさ",
+                        "b) 妊娠 9 週時の頭殿長",
+                        "c) 妊娠 14 週時の児心拍数",
+                        "d) 妊娠 16 週時の児頭大横径",
+                        "e) 妊娠 28 週時の胎児推定体重"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q2 図 1 で計測しているのはどれか。一つ選べ。",
+                      choices: [
+                        "a) GS",
+                        "b) CRL",
+                        "c) BPD",
+                        "d) AC",
+                        "e) FL"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q3 妊婦に投与できるものはどれか。一つ選べ。",
+                      choices: [
+                        "a) アミノグリコシド系抗菌薬",
+                        "b) テトラサイクリン系抗菌薬",
+                        "c) マクロライド系抗菌薬",
+                        "d) ニューキノロン系抗菌薬",
+                        "e) ワルファリン"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q4 受精から着床までに要する日数として正しいのはどれか。一つ選べ。",
+                      choices: [
+                        "a) 1 日",
+                        "b) 3 日",
+                        "c) 7 日",
+                        "d) 14 日",
+                        "e) 28 日"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q5 膣内に射精された精子の寿命として正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 1 時間",
+                        "b) 6 時間",
+                        "c) 12 時間",
+                        "d) 24 時間",
+                        "e) 72 時間"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q6 正常妊娠後期に起こる変化として正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 血中クレアチニン濃度の上昇",
+                        "b) 血中へモグロビン濃度の上昇",
+                        "c) 中性脂肪の低下",
+                        "d) 白血球数の減少",
+                        "e) 循環血液量の増加"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q7 妊娠全期間の体重増加で平均的なものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 3kg",
+                        "b) 5kg",
+                        "c) 10kg",
+                        "d) 20kg",
+                        "e) 30kg"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q8 胎児循環の中で最も血中酸素分圧が高いものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 臍帯静脈",
+                        "b) 下行大動脈",
+                        "c) 上行大動脈",
+                        "d) 左心室",
+                        "e) 肺静脈"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q9 羊水に関して誤っているものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 胎児尿に由来する",
+                        "b) 肺胞分泌物に由来する",
+                        "c) 妊娠 8 ヶ月でピークを迎える",
+                        "d) 妊娠 10 ヶ月で 1000mL に達する",
+                        "e) "
+                      ]
+                    },
+                    {
+                      questionSentence: "Q10 正しい組み合わせはどれか。一つ選べ。",
+                      choices: [
+                        "a) 外胚葉 - 心臓",
+                        "b) 外胚葉 - 肺",
+                        "c) 中胚葉 - 甲状腺",
+                        "d) 中胚葉 - 子宮",
+                        "e) 内胚葉 - 中枢神経"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q11 胎盤から放出されないホルモンはどれか。一つ選べ。",
+                      choices: [
+                        "a) hCG",
+                        "b) hPL",
+                        "c) プロゲステロン",
+                        "d) エストロゲン",
+                        "e) プロラクチン"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q12 分娩の三要素に含まれないものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 臍帯",
+                        "b) 陣痛",
+                        "c) 軟産道",
+                        "d) 羊水",
+                        "e) 乳房"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q13 次の胎位の中で正常なものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 頭位",
+                        "b) 骨盤位",
+                        "c) 横位",
+                        "d) 斜位",
+                        "e) 足位"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q14 次の胎勢の中で正常なものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 前頭位",
+                        "b) 頭頂位",
+                        "c) 後頭位",
+                        "d) 額位",
+                        "e) 顔位"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q15 妊婦の診断において、胎児の長軸と子宮の長軸の相互関係を示したのはどれか。一つ選べ。",
+                      choices: [
+                        "a) 胎向",
+                        "b) 回旋",
+                        "c) 胎位",
+                        "d) 胎勢",
+                        "e) 分類"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q16 胎児の背中が左側かつ前方を向く場合はどれか。一つ選べ。",
+                      choices: [
+                        "a) 第 1 胎向一第 1 分類",
+                        "b) 第 1 胎向一第 2 分類",
+                        "c) 第 1 胎向一第 3 分類",
+                        "d) 第 2 胎向一第 1 分類",
+                        "e) 第 2 胎向一第 2 分類"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q17 妊娠 10 ヶ月での胎盤の重さはどれか。一つ選べ。",
+                      choices: [
+                        "a) 500g",
+                        "b) 1000g",
+                        "c) 1500g",
+                        "d) 2000g",
+                        "e) 3000g"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q18 妊娠後期の母体にみられる変化として当てはまらないものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 尿管の拡張",
+                        "b) 乳房の腫大",
+                        "c) 皮膚の色素沈着",
+                        "d) 心臓の肥大",
+                        "e) 基礎代謝の低下"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q19 BPS に含まれないのはどれか。一つ選べ。",
+                      choices: [
+                        "a) NST",
+                        "b) 呼吸様運動",
+                        "c) 羊水量",
+                        "d) 胎動",
+                        "e) 臍帯動脈血流"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q20 胎動心電図変動一過性徐脈の原因として正しいものを一つ選べ。",
+                      choices: [
+                        "a) 児頭圧迫",
+                        "b) 胎児感染",
+                        "c) 臍帯圧迫",
+                        "d) 胎児貧血",
+                        "e) 母体低血圧"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q22 正常分娩において、児頭が固定したときの児頭先進部の位置はどれか。一つ選べ。",
+                      choices: [
+                        "a) Station -2",
+                        "b) Station -1",
+                        "c) Station 0",
+                        "d) Station +1",
+                        "e) Station +2"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q23 正常分娩について正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 分娩第 1 期は産徴がみられてから子宮口が 3cm 開大するまでである",
+                        "b) 分娩第 1 期では陣痛は 60 分間隔でみられる",
+                        "c) 分娩第 1 期では児頭は排臨である",
+                        "d) 分娩第 2 期では矢状縫合は骨盤横径に一致する",
+                        "e) 分娩第 3 期では胎盤が娩出される"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q24 Bishop スコアに含まれないものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 子宮頸管の進退度",
+                        "b) 子宮口の位置",
+                        "c) 子宮頸管の硬度",
+                        "d) 児頭の高さ",
+                        "e) 子宮収縮の頻度"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q25 間違いはどれか。一つ選べ。",
+                      choices: [
+                        "a) 先天性風疹症候群の症状は心疾患、難聴、緑内障の 3 つである。",
+                        "b) 先天性風疹症候群は妊娠早期であるほど発症の可能性が高くなる(?)",
+                        "c) サイトメガロウイルス感染症では衛生教育はしなくてよい (文もっと長い)。",
+                        "d) パルボ b19 ウイルスの感染は貧血、 胎児水腫の原因となりうる。",
+                        "e) ヘルペスウイルス感染症では産道感染の可能性を考えて帝王切開することがある。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q26 妊娠・分娩時に外出血をきたしにくいのはどれか。一つ選べ。",
+                      choices: [
+                        "a) 前置胎盤",
+                        "b) 前期破水",
+                        "c) 子宮内反症",
+                        "d) 子宮顎管裂傷",
+                        "e) 弛緩出血"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q27 妊娠 28 週 3 日、 性器出血で受診。 経膣超音波検査の所見を図 2 に示す。 診断はどれか。一つ選べ。",
+                      choices: [
+                        "a) 常位胎盤剥離",
+                        "b) 異所性妊娠",
+                        "c) 前置胎盤",
+                        "d) 切迫早産",
+                        "e) 羊水過多症"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q28 羊水過多を起こすものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 過期妊娠",
+                        "b) 前期破水",
+                        "c) 胎児食道閉鎖",
+                        "d) 胎盤機能不全",
+                        "e) 胎児 Potter 症候群"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q29 図 3 は妊娠 3 週 1 日の妊婦の経膣超音波所見である。胎児心拍陣痛図にて不規則な子宮収縮を認める。この妊婦に対する治療として不適切なものはどれか。1 つ選べ。",
+                      choices: [
+                        "a) 安静",
+                        "b) オキシトシン投与",
+                        "c) 塩酸リトドリン投与",
+                        "d) 硫酸マグネシウム投与",
+                        "e) ベタメタゾン投与"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q30 妊娠 32 週目で前期破水が見られた。 この状況で行う処置として不適切なものを一つ選べ。",
+                      choices: [
+                        "a) 抗生剤投与",
+                        "b) 頸管細菌培養",
+                        "c) 帝王切開",
+                        "d) ",
+                        "e) "
+                      ]
+                    },
+                    {
+                      questionSentence: "Q31 図 4 の双胎妊娠について正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 臍帯相互巻絡が起こりやすい",
+                        "b) 双胎間輸血症候群が起こりうる",
+                        "c) 性別が異なる。",
+                        "d) 胎盤が 2 つある。",
+                        "e) 二絨毛膜二羊膜双胎である"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q32 妊娠高血圧について正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 合併症の一つである子癇は初産婦に多い",
+                        "b) 妊娠高血圧腎症は妊娠初期から発症しやすい。",
+                        "c) 加速型高血圧腎症の主症状は下腿浮腫である",
+                        "d) 巨大児になりやすい。",
+                        "e) 血小板は増加することが多い"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q33 新生児の出生立ち会いで蘇生するときに必要なものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 冷やしたリネン",
+                        "b) 鼻口腔吸引セット",
+                        "c) 酸素空気ブレンダー",
+                        "d) 聴診器",
+                        "e) パルスオキシメーター"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q34 呼吸窮迫症候群を確かめるためのマイクロバブルテストで使用する児の試料はどれか。 一つ選べ。",
+                      choices: [
+                        "a) 髄液",
+                        "b) 血液",
+                        "c) 胃液",
+                        "d) 尿",
+                        "e) 便"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q35 重症新生児仮死に併発しにくいものはどれか。 一つ選べ。",
+                      choices: [
+                        "a) 急性腎不全",
+                        "b) 低酸素性虚血性脳症",
+                        "c) 急性胃粘膜病変",
+                        "d) 黄疸",
+                        "e) 遷延性肺高血圧症"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q36 新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 心臓マッサージ",
+                        "b) 保湿",
+                        "c) 気道開通",
+                        "d) 体位保持",
+                        "e) 皮膚乾燥と刺激"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q37 新生児一過性多呼吸について誤っているものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 鼻翼呼吸",
+                        "b) 吸気性喘鳴",
+                        "c) 陥没呼吸",
+                        "d) 呻吟",
+                        "e) チアノーゼ"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q38 新生児の不感蒸泄を増す因子として適切でないものはどれか。一つ選べ。",
+                      choices: [
+                        "a) 在胎日数が少ない",
+                        "b) 体重が小さい",
+                        "c) 出生後日数が短い",
+                        "d) 環境温度が高い",
+                        "e) 環境湿度が高い"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q39 児のビタミン K(VK)欠乏症について誤っているのはどれか。一つ選べ。",
+                      choices: [
+                        "a) 乳児期 VK 欠乏症では、頭蓋内出血の頻度が高い",
+                        "b) VK 欠乏症を疑えば、 血液凝固検査で確認後、治療を開始する",
+                        "c) PIVKA (protein induced by Vitamin K absence or antagonist)-Ⅱが上昇する",
+                        "d) NMTT(N-メチルチオテトラゾール)基を有する抗生剤はリスク因子である",
+                        "e) 予防法として、 週一回、出生後 3 ヶ月まで VK シロップを投与する方法がある"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q40 母体感染症とその対応について正しいものはどれか。一つ選べ。",
+                      choices: [
+                        "a) トキソプラズマー胎児輸血",
+                        "b) 梅毒一母体へのテトラサイクリン投与",
+                        "c) C 型肝炎ウイルスー児へのワクチン投与",
+                        "d) HIV-経膣分娩",
+                        "e) HTLV-1-児への直接授乳を避ける"
+                      ]
+                    }
+                  ]    
+        },{
+            groupTag : "産科疾患2021本試験機械英訳",
+            groupContents: [{
+                      questionSentence: "Q1 Which ultrasound finding is most useful in determining the due date? Choose one.",
+                      choices: [
+                        "a) Gestational sac size at 5 weeks of pregnancy",
+                        "b) Crown-rump length at 9 weeks of pregnancy",
+                        "c) Fetal heart rate at 14 weeks of pregnancy",
+                        "d) Biparietal diameter at 16 weeks of pregnancy",
+                        "e) Estimated fetal weight at 28 weeks of pregnancy"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q2 What is being measured in Figure 1? Choose one.",
+                      choices: [
+                        "a) GS (Gestational sac)",
+                        "b) CRL (Crown-rump length)",
+                        "c) BPD (Biparietal diameter)",
+                        "d) AC (Abdominal circumference)",
+                        "e) FL (Femur length)"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q3 Which drug can be administered to pregnant women? Choose one.",
+                      choices: [
+                        "a) Aminoglycoside antibiotics",
+                        "b) Tetracycline antibiotics",
+                        "c) Macrolide antibiotics",
+                        "d) Fluoroquinolone antibiotics",
+                        "e) Warfarin"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q4 How many days does it take from fertilization to implantation? Choose one.",
+                      choices: [
+                        "a) 1 day",
+                        "b) 3 days",
+                        "c) 7 days",
+                        "d) 14 days",
+                        "e) 28 days"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q5 What is the lifespan of sperm ejaculated into the vagina? Choose one.",
+                      choices: [
+                        "a) 1 hour",
+                        "b) 6 hours",
+                        "c) 12 hours",
+                        "d) 24 hours",
+                        "e) 72 hours"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q6 Which change occurs in late normal pregnancy? Choose one.",
+                      choices: [
+                        "a) Increase in blood creatinine levels",
+                        "b) Increase in blood hemoglobin levels",
+                        "c) Decrease in triglycerides",
+                        "d) Decrease in white blood cell count",
+                        "e) Increase in circulating blood volume"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q7 What is the average weight gain during the entire pregnancy? Choose one.",
+                      choices: [
+                        "a) 3kg",
+                        "b) 5kg",
+                        "c) 10kg",
+                        "d) 20kg",
+                        "e) 30kg"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q8 Which has the highest blood oxygen partial pressure in fetal circulation? Choose one.",
+                      choices: [
+                        "a) Umbilical vein",
+                        "b) Descending aorta",
+                        "c) Ascending aorta",
+                        "d) Left ventricle",
+                        "e) Pulmonary vein"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q9 Which statement about amniotic fluid is incorrect? Choose one.",
+                      choices: [
+                        "a) It originates from fetal urine",
+                        "b) It originates from alveolar secretions",
+                        "c) It peaks at 8 months of pregnancy",
+                        "d) It reaches 1000mL at 10 months of pregnancy",
+                        "e) "
+                      ]
+                    },
+                    {
+                      questionSentence: "Q10 Which combination is correct? Choose one.",
+                      choices: [
+                        "a) Ectoderm - Heart",
+                        "b) Ectoderm - Lungs",
+                        "c) Mesoderm - Thyroid",
+                        "d) Mesoderm - Uterus",
+                        "e) Endoderm - Central nervous system"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q11 Which hormone is not released by the placenta? Choose one.",
+                      choices: [
+                        "a) hCG",
+                        "b) hPL",
+                        "c) Progesterone",
+                        "d) Estrogen",
+                        "e) Prolactin"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q12 Which is not included in the three elements of labor? Choose one.",
+                      choices: [
+                        "a) Umbilical cord",
+                        "b) Labor pains",
+                        "c) Soft birth canal",
+                        "d) Amniotic fluid",
+                        "e) Breasts"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q13 Which fetal position is normal? Choose one.",
+                      choices: [
+                        "a) Cephalic presentation",
+                        "b) Breech presentation",
+                        "c) Transverse presentation",
+                        "d) Oblique presentation",
+                        "e) Footling presentation"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q14 Which fetal attitude is normal? Choose one.",
+                      choices: [
+                        "a) Brow presentation",
+                        "b) Vertex presentation",
+                        "c) Occipital presentation",
+                        "d) Face presentation",
+                        "e) Mentum presentation"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q15 Which term describes the relationship between the fetal long axis and the uterine long axis in prenatal diagnosis? Choose one.",
+                      choices: [
+                        "a) Fetal orientation",
+                        "b) Rotation",
+                        "c) Fetal position",
+                        "d) Fetal attitude",
+                        "e) Classification"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q16 Which describes the case where the fetal back is on the left side and facing forward? Choose one.",
+                      choices: [
+                        "a) 1st orientation - 1st classification",
+                        "b) 1st orientation - 2nd classification",
+                        "c) 1st orientation - 3rd classification",
+                        "d) 2nd orientation - 1st classification",
+                        "e) 2nd orientation - 2nd classification"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q17 What is the weight of the placenta at 10 months of pregnancy? Choose one.",
+                      choices: [
+                        "a) 500g",
+                        "b) 1000g",
+                        "c) 1500g",
+                        "d) 2000g",
+                        "e) 3000g"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q18 Which change is not seen in the mother during late pregnancy? Choose one.",
+                      choices: [
+                        "a) Dilation of the ureters",
+                        "b) Breast enlargement",
+                        "c) Skin pigmentation",
+                        "d) Cardiac hypertrophy",
+                        "e) Decreased basal metabolic rate"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q19 Which is not included in the Biophysical Profile Score (BPS)? Choose one.",
+                      choices: [
+                        "a) NST",
+                        "b) Breathing movements",
+                        "c) Amniotic fluid volume",
+                        "d) Fetal movements",
+                        "e) Umbilical artery blood flow"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q20 Which is the correct cause of transient deceleration in fetal heart rate variability? Choose one.",
+                      choices: [
+                        "a) Fetal head compression",
+                        "b) Fetal infection",
+                        "c) Umbilical cord compression",
+                        "d) Fetal anemia",
+                        "e) Maternal hypotension"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q22 In normal delivery, what is the position of the fetal head when it is fixed? Choose one.",
+                      choices: [
+                        "a) Station -2",
+                        "b) Station -1",
+                        "c) Station 0",
+                        "d) Station +1",
+                        "e) Station +2"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q23 Which is correct about normal delivery? Choose one.",
+                      choices: [
+                        "a) The first stage of labor is from the appearance of labor signs to the dilation of the cervix to 3cm.",
+                        "b) Contractions are seen at 60-minute intervals in the first stage of labor.",
+                        "c) The fetal head is in crowning during the first stage of labor.",
+                        "d) The sagittal suture aligns with the transverse diameter of the pelvis during the second stage of labor.",
+                        "e) The placenta is delivered during the third stage of labor."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q24 Which is not included in the Bishop score? Choose one.",
+                      choices: [
+                        "a) Effacement of the cervix",
+                        "b) Position of the cervix",
+                        "c) Consistency of the cervix",
+                        "d) Station of the fetal head",
+                        "e) Frequency of uterine contractions"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q25 Which is incorrect? Choose one.",
+                      choices: [
+                        "a) Symptoms of congenital rubella syndrome include heart disease, hearing loss, and glaucoma.",
+                        "b) The risk of congenital rubella syndrome increases earlier in pregnancy.",
+                        "c) Hygienic education is not necessary for cytomegalovirus infection.",
+                        "d) Parvovirus B19 infection can cause anemia and fetal hydrops.",
+                        "e) Cesarean section may be considered for herpes virus infection due to the risk of birth canal infection."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q26 Which is least likely to cause external bleeding during pregnancy and delivery? Choose one.",
+                      choices: [
+                        "a) Placenta previa",
+                        "b) Premature rupture of membranes",
+                        "c) Uterine inversion",
+                        "d) Uterine rupture",
+                        "e) Atonic hemorrhage"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q27 A patient at 28 weeks and 3 days of pregnancy visits with genital bleeding. The findings of a transvaginal ultrasound are shown in Figure 2. What is the diagnosis? Choose one.",
+                      choices: [
+                        "a) Placental abruption",
+                        "b) Ectopic pregnancy",
+                        "c) Placenta previa",
+                        "d) Threatened preterm labor",
+                        "e) Polyhydramnios"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q28 Which can cause polyhydramnios? Choose one.",
+                      choices: [
+                        "a) Post-term pregnancy",
+                        "b) Premature rupture of membranes",
+                        "c) Fetal esophageal atresia",
+                        "d) Placental dysfunction",
+                        "e) Fetal Potter syndrome"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q29 Figure 3 shows the transvaginal ultrasound findings of a pregnant woman at 3 weeks and 1 day of pregnancy. Irregular uterine contractions are noted on the fetal heart rate contraction graph. Which treatment is inappropriate for this pregnant woman? Choose one.",
+                      choices: [
+                        "a) Bed rest",
+                        "b) Administration of oxytocin",
+                        "c) Administration of ritodrine hydrochloride",
+                        "d) Administration of magnesium sulfate",
+                        "e) Administration of betamethasone"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q30 Which treatment is inappropriate for preterm premature rupture of membranes at 32 weeks of pregnancy? Choose one.",
+                      choices: [
+                        "a) Administration of antibiotics",
+                        "b) Cervical bacterial culture",
+                        "c) Cesarean section",
+                        "d) ",
+                        "e) "
+                      ]
+                    },
+                    {
+                      questionSentence: "Q31 Which is correct about the twin pregnancy shown in Figure 4? Choose one.",
+                      choices: [
+                        "a) Cord entanglement is likely",
+                        "b) Twin-to-twin transfusion syndrome can occur",
+                        "c) The genders are different",
+                        "d) There are two placentas",
+                        "e) It is a dichorionic diamniotic twin pregnancy"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q32 Which is correct about pregnancy-induced hypertension? Choose one.",
+                      choices: [
+                        "a) Eclampsia, one of the complications, is more common in primiparas",
+                        "b) Pregnancy-induced hypertension syndrome tends to occur from early pregnancy",
+                        "c) The main symptom of accelerated hypertension syndrome is leg edema",
+                        "d) Macrosomia is more likely",
+                        "e) Platelet count often increases"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q33 What is necessary when resuscitating a newborn at birth? Choose one.",
+                      choices: [
+                        "a) Chilled linen",
+                        "b) Nasal and oral suction set",
+                        "c) Oxygen-air blender",
+                        "d) Stethoscope",
+                        "e) Pulse oximeter"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q34 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
+                      choices: [
+                        "a) Cerebrospinal fluid",
+                        "b) Blood",
+                        "c) Gastric fluid",
+                        "d) Urine",
+                        "e) Feces"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q35 Which is least likely to complicate severe neonatal asphyxia? Choose one.",
+                      choices: [
+                        "a) Acute renal failure",
+                        "b) Hypoxic-ischemic encephalopathy",
+                        "c) Acute gastric mucosal lesions",
+                        "d) Jaundice",
+                        "e) Persistent pulmonary hypertension of the newborn"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q36 Which is incorrect as an initial resuscitation method in neonatal resuscitation? Choose one.",
+                      choices: [
+                        "a) Cardiac massage",
+                        "b) Keeping warm",
+                        "c) Opening the airway",
+                        "d) Maintaining proper position",
+                        "e) Drying and stimulating the skin"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q37 Which is incorrect about transient tachypnea of the newborn? Choose one.",
+                      choices: [
+                        "a) Nasal flaring",
+                        "b) Inspiratory stridor",
+                        "c) Retractions",
+                        "d) Grunting",
+                        "e) Cyanosis"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q38 Which factor is not appropriate for increasing insensible water loss in a newborn? Choose one.",
+                      choices: [
+                        "a) Lower gestational age",
+                        "b) Low birth weight",
+                        "c) Short duration after birth",
+                        "d) High environmental temperature",
+                        "e) High environmental humidity"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q39 Which is incorrect about vitamin K deficiency in infants? Choose one.",
+                      choices: [
+                        "a) Intracranial hemorrhage is frequent in vitamin K deficiency in infants",
+                        "b) If vitamin K deficiency is suspected, treatment is started after confirming with blood coagulation tests",
+                        "c) PIVKA-II (Protein Induced by Vitamin K Absence or Antagonist-II) is elevated",
+                        "d) Antibiotics containing the NMTT (N-methylthiotetrazole) group are a risk factor",
+                        "e) Weekly administration of vitamin K syrup until 3 months after birth is a preventive method"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q40 Which is correct about maternal infections and their management? Choose one.",
+                      choices: [
+                        "a) Toxoplasmosis - Fetal blood transfusion",
+                        "b) Syphilis - Tetracycline administration to the mother",
+                        "c) Hepatitis C virus - Vaccination of the infant",
+                        "d) HIV - Vaginal delivery",
+                        "e) HTLV-1 - Avoid direct breastfeeding"
+                      ]
+                    }
+                  ]                  
+        },{
+            groupTag : "腫瘍疾患2022本試験",
+            groupContents: [{
+                      questionSentence: "Q1 悪性腫瘍の診断・治療に関して正しい組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. 診断には存在診断、質的診断、病期診断があるが、治療に際して病期診断は必ずしも必要としない。",
+                        "2. 治療を開始するためには、いかなる状況でも病理組織診断は必須である。",
+                        "3. 診療ガイドラインに沿い、キャンサーポードを経て治療法を決定することが推奨される。",
+                        "4. 患者の全身状態や合併症も考慮し、総合的に決定する。",
+                        "5. 病期や患者の全身状態によって、手術療法、放射線療法、化学療法、免疫療法のいずれかを選んで治療を行う。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q2 悪性腫瘍の治療に関して誤っているのはどれか。",
+                      choices: [
+                        "a. 治療法の一つである薬物療法には、殺細胞性抗がん剤、分子標的治療薬、免疫チェックポイント阻害剤などが含まれる。",
+                        "b. 手術療法、放射線療法、化学療法の全てを同一患者に施行することはない。",
+                        "c. 手術療法と放射線療法は局所療法、化学療法は全身療法である。",
+                        "d. 固形癌においては、化学療法単独では根治治療とはならない。",
+                        "e. 化学療法には放射線療法の増感作用がある。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q3 原発性肺癌に対する放射線治療に関して誤っている組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. 呼吸による腫瘍の動きを抑制するため、通常は呼吸停止下に照射する。",
+                        "2. 照射中の体動を抑制するため、基本的に体固定して照射を行う。",
+                        "3. 局所進行肺癌では、放射線治療と化学療法の同時併用が望ましい。",
+                        "4. 小細胞肺癌では非小細胞肺癌と比べて、線量分割や総線量が異なる。",
+                        "5. 照射範囲は腫瘍の組織型によって、ガイドラインで決まった通りに決定する。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q4 原発性肺癌に対する定位放射線治療において、正しい組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. 対象となる病期は3期である。",
+                        "2. 手術療法を施行できない全身状態不良患者に対しては、定位放射線治療も施行できない。",
+                        "3. 60Gy/30回のような通常の照射法と比較して、1回線量が多く、総線量も多い。",
+                        "4. 60Gy/30回のような通常の照射法と比較して、腫瘍の治療効果は高い。",
+                        "5. 肺門の腫瘍に対する定位放射線治療では、大血管などに対する重篤な晩期有害事象が危惧される。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q5 がんの外科治療について、正しいのはどれか。",
+                      choices: [
+                        "a. 癌の進展においてリンパ行性転移は稀である。",
+                        "b. 低侵襲手術は癌治療では用いるべきではない。",
+                        "c. 根治性は臓器の機能温存よりも優先されるべきである。",
+                        "d. 肉眼的よりも顕微鏡的に癌を取り切ることを目標とする。",
+                        "e. がんのステージは原発腫瘍、リンパ節転移、神経浸潤の程度で決定される。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q6 がんのリンパ行性転移について、正しいのはどれか。",
+                      choices: [
+                        "a. 領域リンパ節郭清は根治性とは無関係である。",
+                        "b. リンパ節転移と血行性転移は同時にはおこりにくい。",
+                        "c. 進行大腸癌において切除腸管はできるだけ長い方がよい。",
+                        "d. 領域リンパ節の定義は胃癌、大腸癌、膵癌では共通である。",
+                        "e. 乳癌においてセンチネルリンパ節生検は広く用いられている。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q7 Which of the following antibody therapeutic agents has an affinity for PD-1?",
+                      choices: [
+                        "a. Nivolumab",
+                        "b. Bevacizumab",
+                        "c. Denosumab",
+                        "d. Durvalumab",
+                        "e. Necitumumab"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q8 分子標的治療薬(キナーゼ阻害剤)についての記述で正しいのはどれか",
+                      choices: [
+                        "a. ゲフィチニプはエルロチニプと比較し、肝障害の頻度が低い。",
+                        "b. クリゾチニプはアレクチニプと比較し、視覚障害を来しやすい。",
+                        "c. オシメルチニプはゲフィチニプと比較し、白血球減少の頻度が低い。",
+                        "d. オシメルチニプはT790M耐性変異に有効で、58R、ex19欠損変異には無効である。",
+                        "e. アレクチニプはROSI遺伝子転座陽性の非小細胞肺癌に有効である。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q9 人口10万人当たりの疾患別死亡率の一位はどれか。正しいものを一つ選べ。",
+                      choices: [
+                        "a. 老衰",
+                        "b. 自殺",
+                        "c. 心疾患",
+                        "d. 肺炎",
+                        "e. 悪性新生物"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q10 進行固形がんに対し2019年遺伝子パネル検査が保険承認された。遺伝子パネル検査の説明として誤っているものはどれか。",
+                      choices: [
+                        "a. 大量の遺伝子情報を解読可能",
+                        "b. 高速化",
+                        "c. 分子標的薬に繋がる可能性は高い",
+                        "d. 遺伝性腫瘍に関連する遺伝子変異を認める可能性がある",
+                        "e. 腫瘍組織を用いる"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q11 臨床試験においてその薬剤が標的とする遺伝子変異があれば、どのタイプのがん腫でも登録できる試験のことを何というか。正しいものを一つ選べ。",
+                      choices: [
+                        "a. Phase 1試験",
+                        "b. アンブレラ試験",
+                        "c. Phase 3試験",
+                        "d. 市販後臨床試験",
+                        "e. バスケット試験"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q12 分子標的薬が承認されている臓器横断的な遺伝子異常はどれか。誤っているものを選べ。",
+                      choices: [
+                        "a. NTRK融合遺伝子",
+                        "b. ROSI融合遺伝子",
+                        "c. MSI-H (高頻度マイクロサテライト不安定性)",
+                        "d. TMB-High (腫瘍遺伝子変異量高スコア)"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q13 次のうち、支持療法ではないものを一つ選べ。",
+                      choices: [
+                        "a. 口腔ケア",
+                        "b. 皮膚ケア",
+                        "c. 制吐剤投与",
+                        "d. 輸血",
+                        "e. 免疫チェックポイント阻害薬投与"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q14 次のうち、EGFR抗体による副作用として当てはまらないものはどれか、一つ選べ。",
+                      choices: [
+                        "a. 挫創様皮疹",
+                        "b. 皮膚乾燥",
+                        "c. 爪囲炎",
+                        "d. 手足症候群",
+                        "e. 手指の亀裂"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q15 以下の腫瘍の内、一般的に根治的放射線治療の適応とならないものはどれか。",
+                      choices: [
+                        "a. 前立腺癌",
+                        "b. 喉頭癌",
+                        "c. 線維肉腫",
+                        "d. 子宮頸癌",
+                        "e. 肺癌"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q16 以下の細胞周期の内、放射線感受性が最も高い組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. M期 (分裂期)",
+                        "2. G0期 (静止期)",
+                        "3. G1期 (DNA合成準備期)",
+                        "4. S期 (DNA合成期)",
+                        "5. G2期 (分裂準備期)"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q17 慢性骨髄性白血病の治療において、イマチニブが誘導する薬物特異的な阻害作用の標的はどれか。",
+                      choices: [
+                        "a. リガンド依存性イオンチャネル",
+                        "b. MAPキナーゼ",
+                        "c. 核内受容体",
+                        "d. チロシンキナーゼ",
+                        "e. Gタンパク質共役型受容体"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q18 Which anti-cancer drug is most effective in the G2 phase of the cell cycle?",
+                      choices: [
+                        "a. Methotrexate",
+                        "b. Paclitaxel",
+                        "c. Bleomycin",
+                        "d. Cytarabine",
+                        "e. Irinotecan"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q19 腫瘍免疫を抑制する因子とそれを発現する細胞の組合せについて誤っているものの組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. IFN-γ - M2 (alternatively-activated) macrophages",
+                        "2. CD28 - Helper T cells",
+                        "3. PD-L1 - Tumor cells",
+                        "4. PD-1 - Killer T cells",
+                        "5. TGF-β - Regulatory T cells"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q20 腫瘍免疫について、誤っているものの組み合わせはどれか。 (複数選択可能)",
+                      choices: [
+                        "1. がん幹細胞(Cancer stem cell)には自己複製能がある",
+                        "2. GVL (Graft versus leukemia)は腫瘍細胞の増殖を促す",
+                        "3. ヒトパピローマウイルスは子宮体癌の発癌に関与している",
+                        "4. 免疫賦活効果もあるBCGは臨床では膀胱癌の治療としても用いられている",
+                        "5. Cancer Immunoediting (がん免疫編集)とはがんに対する免疫監視機構が存在するにも関わらずがんが増殖してしまうという矛盾を説明する仮説である。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q21 がんと危険因子の組み合わせで誤っているのはどれか。",
+                      choices: [
+                        "a. 肝細胞がん - C型肝炎ウイルス感染症",
+                        "b. 食道がん(腺癌) - 肥満症",
+                        "c. 子宮内膜がん - 糖尿病",
+                        "d. 子宮頸がん - HTLV-1感染症",
+                        "e. 腎臓がん - 喫煙"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q22 喫煙対策について誤っているのはどれか。",
+                      choices: [
+                        "a. 保険診療で禁煙治療を受けられる",
+                        "b. 新規飲食店には、喫煙可能室を設置できない",
+                        "c. 健康増進法は受動喫煙防止について定めている",
+                        "d. 喫煙可能室への、未成年従業員の立ち入りは禁止されている",
+                        "e. 病院には、必要な措置を取ったうえで、屋内の喫煙場所を設置できる"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q23 がん細胞の生物学的特性として適切でないのはどれか。",
+                      choices: [
+                        "a. 基底膜の破壊能",
+                        "b. アポトーシス耐性",
+                        "c. 細胞増殖の接触阻害",
+                        "d. 細胞間接着機構の減弱",
+                        "e. テロメラーゼ活性の獲得"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q24 がん細胞の生物学的特性として適切でないのはどれか。",
+                      choices: [
+                        "a. がんは、不均一な細胞の集団である。",
+                        "b. P53遺伝子は、がん抑制遺伝子である。",
+                        "c. DNAのメチル化は、癌抑制遺伝子の不活化の原因となる。",
+                        "d. がん病巣内は、がんの血管新生によって血流が豊富である。",
+                        "e. Epithelial-Mesenchymal Transitionを起こしたがん細胞は、遊走能が亢進している。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q25 以下の文章で誤っているのはどれか。",
+                      choices: [
+                        "a. 病理診断は医行為であり、検査ではない。",
+                        "b. 臨床医が病理診断を依頼する際には、既往歴の記載は必要がない。",
+                        "c. 小さな病理検体では、病変の全体像は把握できない。",
+                        "d. 病理診断は治療方針の根拠となる。",
+                        "e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAを抽出することは可能である。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q26 Which gene has the highest frequency of therapeutic target gene abnormalities detected in Japanese lung adenocarcinoma?",
+                      choices: [
+                        "a. KRAS",
+                        "b. BRAF",
+                        "c. EGFR",
+                        "d. HER2",
+                        "e. ROS1"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q27 次の中から正しいものを選べ。",
+                      choices: [
+                        "1. ヒト化抗体は異種抗体に対する免疫反応を低減できる",
+                        "2. タイトジャンクションはクラウディンにより構成されている",
+                        "3. クラウディンは7回膜貫通型タンパクである",
+                        "4. タイトジャンクションは強固な細胞間接着をCa依存性に生じる",
+                        "5. タイトジャンクションはバリア機能とフェンス機能を持ち、細胞間微小環境を保つ"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q28 次の中から正しいものを選べ。",
+                      choices: [
+                        "1. 培養細胞を抗Claudin抗体で処理するとADCCにより細胞障害が生じた",
+                        "2. ヌードマウスの実験系で抗Claudin抗体を作用させてもADCCは生じない",
+                        "3. 腫瘍タイトジャンクションの障害により腫瘍内の増殖因子が流出し増殖が阻害される",
+                        "4. 腫瘍タイトジャンクションの障害により腫瘍内への抗癌剤移行が亢進する",
+                        "5. 抗体療法では、標的タンパクの発現量と抗体効果は相関しない"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q29 緩和ケアについて正しいものを選べ。",
+                      choices: [
+                        "a. 緩和ケアはがん治療が終わってから開始する。",
+                        "b. がん患者だけではなく、その家族にも行うべきである。",
+                        "c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。",
+                        "d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。",
+                        "e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q30 医療用麻薬に関する記述のうち正しいものを選べ。",
+                      choices: [
+                        "a. 患者ががん性疼痛を訴えたが、抗がん治療中なので医療用麻薬の使用は控えた。",
+                        "b. 患者ががん性疼痛を訴えたが、家族が麻薬の使用を強く非難してきたので、医療用麻薬の使用は控えた。",
+                        "c. 患者ががん性疼痛を訴えた時、積極的に医療用麻薬の使用を考慮しなければいけない。",
+                        "d. 医療用麻薬を開始した際、それまで使っていたNSAIDsの使用を中止した。",
+                        "e. 医療用麻薬の使用は、終末期がん患者に限定しなければいけない。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q31 Which of the following is correct about the course of the dying psychological stage advocated by Kübler Ross?",
+                      choices: [
+                        "a. depression → denial → bargaining → anger → acceptance",
+                        "b. depression → anger → denial → acceptance",
+                        "c. denial → depression → bargaining → anger → acceptance",
+                        "d. denial → anger → depression → acceptance",
+                        "e. anger → depression → denial → acceptance"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q32 次のうち正しいのはどれか。",
+                      choices: [
+                        "1. せん妄は、がんの末期にみられることが多い。",
+                        "2. せん妄は、意識障害の範疇には入らない。",
+                        "3. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。",
+                        "4. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。",
+                        "5. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q33 次の癌疾患やその病態とIVRの組み合わせのうち誤っているものはどれか。",
+                      choices: [
+                        "a. 肝細胞癌 - 経カテーテル的肝動脈塞栓術(TAE/TACE)",
+                        "b. 閉塞性黄疸 - ステント留置",
+                        "c. 転移性溶骨性椎体骨腫瘍 - 経皮的セメント注入療法・経皮的椎体形成術",
+                        "d. 食道閉塞・高度狭窄 - 経内視鏡的胃瘻造設術",
+                        "e. 転移性肝腫瘍 - 経皮的ラジオ波凝固療法"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q34 次のうち誤っているものはどれか。",
+                      choices: [
+                        "a. 持続動注療法を施行する場合にはリザーバーという埋め込み器具を挿入する。",
+                        "b. 門脈本幹腫瘍栓では動脈塞栓術は禁忌となる。",
+                        "c. 動注療法では病巣部局所の高い薬剤濃度が得られ高い局所効果が得られるが、副作用は多くなる。",
+                        "d. 動注化学療法と全身化学療法を併用する場合がある。",
+                        "e. IVRはがんに対する緩和治療にも役に立つ。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q35 次のうち、正しい組み合わせはどれか。",
+                      choices: [
+                        "1. がん研究振興財団作成の「がんの統計'22」によると、女性の癌の中では乳癌が、罹患率も死亡率も最も高い。",
+                        "2. 乳房温存療法とは、乳房部分切除術と術後放射線治療を組み合わせた治療のことである。",
+                        "3. 病変の進展範囲にかかわらず、非浸潤癌であれば乳房温存療法の適応となる。",
+                        "4. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。",
+                        "5. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q36 次のうち、正しいものはどれか。",
+                      choices: [
+                        "a. 日本人の皮膚癌の中で最も多いのは有棘細胞癌である。",
+                        "b. 基底細胞癌と有棘細胞癌に対する治療の第一選択は手術である。",
+                        "c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。",
+                        "d. ポーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。",
+                        "e. 皮膚の悪性腫瘍に対する放射線治療の目的は、緩和目的であることがほとんどである。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q37 次の頭頸部癌のうち、手術ではなく化学放射線治療が第1選択となるものはどれか。",
+                      choices: [
+                        "a. 甲状腺癌",
+                        "b. 耳下腺癌",
+                        "c. 上咽頭癌",
+                        "d. 中咽頭癌",
+                        "e. 下咽頭癌"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q38 次の消化器癌のうち、手術よりも根治的化学放射線治療が第1選択となる疾患はどれか。",
+                      choices: [
+                        "a. 胃癌",
+                        "b. 回腸癌",
+                        "c. 下行結腸癌",
+                        "d. 肛門癌",
+                        "e. 下部胆管癌"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q39 次のうち、正しいものはどれか。",
+                      choices: [
+                        "a. 造血器腫瘍の治療のメインは放射線治療である。",
+                        "b. 造血器腫瘍は基本的に放射線感受性が低いため、60Gy以上の照射線量が必要なことが多い。",
+                        "c. 全身に多発する病変のあるリンパ腫に対する治療として、全身照射は有効である。",
+                        "d. 全身に放射線を照射して60日以内に50%の人が死亡するのは4Gyとされている。",
+                        "e. 全身照射の場合、問題となる有害事象は急性期のもののみである。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q40 次のうち、誤っている組み合わせはどれか。",
+                      choices: [
+                        "1. 脳腫瘍のWHO分類では、形態学的分類だけではなく、遺伝子診断も組み合わせた分類となっている。",
+                        "2. 膠芽腫(glioblastoma)の病理所見として、壊死巣周囲の核の柵状配列が特徴的な所見である。",
+                        "3. 膠芽腫(glioblastoma)の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。",
+                        "4. 膠芽腫(glioblastoma)に対する放射線治療として、標準的な線量は25Gy/5回である。",
+                        "5. 膠芽腫(glioblastoma)の生存期間中央値はおよそ3年である。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q41 Which of the following is the correct combination of parallel organs?",
+                      choices: [
+                        "a. Liver",
+                        "b. Optic nerve",
+                        "c. Brain stem",
+                        "d. Spinal cord",
+                        "e. Lung"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q42 次の文章のうち、正しいものはどれか。",
+                      choices: [
+                        "a. 電子線は体内深部の腫瘍に対する治療で用いられる。",
+                        "b. X線は体表面の線量が最大となり、深部にいくほど線量が減少する。",
+                        "c. 陽子線はブラッグピークを持つ。",
+                        "d. 外部放射線治療ではリニアックで発生させたベータ線とガンマ線で治療が行われる。",
+                        "e. 放射線治療では放射線診断よりも低エネルギーのX線を用いる。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q43 子宮頸癌に対する根治的放射線治療を行った。以下の有害事象のうち、最も遅く発現するものはどれか。",
+                      choices: [
+                        "a. 放射線宿酔",
+                        "b. 腸閉塞",
+                        "c. 下痢",
+                        "d. 皮膚の発赤",
+                        "e. 頻尿"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q44 以下の放射性同位元素のうち前立腺癌の密封小線源治療に用いられるものはどれか。",
+                      choices: [
+                        "1. ラジウム223",
+                        "2. イットリウム90",
+                        "3. ガリウム67",
+                        "4. イリジウム192",
+                        "5. ヨウ素125"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q45 次のうち正しいものはどれか。",
+                      choices: [
+                        "a. 肉腫は非上皮性の悪性腫瘍である。",
+                        "b. 60Gyを水に照射すると1℃以上水温が上昇する。",
+                        "c. X線は荷電粒子線なので飛程がある。",
+                        "d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。",
+                        "e. 軟部肉腫は放射線感受性であるため手術を行うことはない。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q46 骨転移に対する緩和照射のスケジュールとして最も適切でないと思われるものはどれか。",
+                      choices: [
+                        "a. 8Gy / 1回",
+                        "b. 20Gy / 5回",
+                        "c. 30Gy / 10回",
+                        "d. 37.5Gy / 15回",
+                        "e. 60Gy / 30回"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q47 対象者1000人について、その有病率が1%の疾患に対して、感度80%、特異度80%のスクリーニング検査を実施した場合、正しいものはどれか。",
+                      choices: [
+                        "1. 疾患があり、検査が陽性を示すのは8人である",
+                        "2. 検査が陽性を示すのは198人である",
+                        "3. 疾患がなく、検査が陰性を示すのは794人である",
+                        "4. 陽性予測値(的中率)は約96.2%である",
+                        "5. 陰性予測値(的中率)は約99.7%である"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q48 誤っているものはどれか。",
+                      choices: [
+                        "a. 血清P53抗体は過剰発現したP53蛋白に対する自己抗体である。",
+                        "b. PIVKA-IIはワーファリン(ビタミンK拮抗薬)投与患者では高値を示す。",
+                        "c. 乳癌組織におけるHER2発現は分子標的治療薬を使用する目安になる。",
+                        "d. ほとんどの腫瘍マーカーは、初発のがんの早期発見に有用でない。",
+                        "e. 腫瘍マーカーは手術や化学療法の効果判定には用いられない。"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q49 誤っているものはどれか。",
+                      choices: [
+                        "a. 対策型子宮がん検診は20歳から対象となる",
+                        "b. 過剰診断はがん検診のデメリットの一つである",
+                        "c. 対策型乳がん検診ではマンモグラフィを2年に1回実施する",
+                        "d. 健診は特定の病気を発見して早期に治療することを目的としている",
+                        "e. 対策型検診は対象となる集団の死亡率を下げることを目的としている"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q50 誤っているものはどれか。",
+                      choices: [
+                        "a. 対策型肺がん検診では低線量CTが行われる",
+                        "b. 日本の乳がん検診受診率は欧米に比べて低い",
+                        "c. 対策型胃がん検診では胃内視鏡検査が行われる",
+                        "d. 心理的な負担はがん検診のデメリットの一つである",
+                        "e. 対策型大腸がん検診ではCTコロノスコピーが行われる"
+                      ]
+                    }
+                  ]                  
+        },{
+            groupTag : "腫瘍疾患2022本試験機械英訳",
+            groupContents: [{
+                detailInfo: "chatGPT4oによる機械英訳",
+                      questionSentence: "Q1 Which of the following combinations regarding the diagnosis and treatment of malignant tumors is correct? (Multiple choices possible)",
+                      choices: [
+                        "1. Diagnosis includes presence diagnosis, qualitative diagnosis, and staging diagnosis, but staging diagnosis is not always necessary for treatment.",
+                        "2. Pathological tissue diagnosis is essential to start treatment in any situation.",
+                        "3. It is recommended to decide the treatment method through cancer boards according to clinical guidelines.",
+                        "4. Comprehensive decisions should be made considering the patient's general condition and complications.",
+                        "5. Depending on the stage and general condition of the patient, choose one of the surgical therapy, radiation therapy, chemotherapy, or immunotherapy for treatment."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q2 Which of the following is incorrect regarding the treatment of malignant tumors?",
+                      choices: [
+                        "a. Drug therapy, which is one of the treatments, includes cytotoxic anti-cancer drugs, molecular targeted therapies, and immune checkpoint inhibitors.",
+                        "b. Surgery, radiation therapy, and chemotherapy are never performed on the same patient.",
+                        "c. Surgery and radiation therapy are local therapies, while chemotherapy is a systemic therapy.",
+                        "d. In solid cancers, chemotherapy alone does not lead to curative treatment.",
+                        "e. Chemotherapy has a sensitizing effect on radiation therapy."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q3 Which of the following combinations regarding radiation therapy for primary lung cancer is incorrect? (Multiple choices possible)",
+                      choices: [
+                        "1. To suppress tumor movement due to respiration, irradiation is usually performed under respiratory arrest.",
+                        "2. To suppress body movement during irradiation, the body is basically fixed during irradiation.",
+                        "3. For locally advanced lung cancer, concurrent use of radiation therapy and chemotherapy is desirable.",
+                        "4. For small cell lung cancer, the fractionation and total dose are different compared to non-small cell lung cancer.",
+                        "5. The irradiation range is determined according to the guidelines based on the histological type of the tumor."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q4 Which of the following combinations regarding stereotactic radiation therapy for primary lung cancer is correct? (Multiple choices possible)",
+                      choices: [
+                        "1. The target stage is stage 3.",
+                        "2. Stereotactic radiation therapy cannot be performed for patients in poor general condition who cannot undergo surgery.",
+                        "3. Compared to the usual irradiation method of 60Gy/30 times, the dose per fraction is higher and the total dose is also higher.",
+                        "4. Compared to the usual irradiation method of 60Gy/30 times, the therapeutic effect on tumors is higher.",
+                        "5. In stereotactic radiation therapy for tumors in the lung hilum, severe late adverse events to large blood vessels are a concern."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q5 Which of the following is correct regarding the surgical treatment of cancer?",
+                      choices: [
+                        "a. Lymphogenous metastasis is rare in cancer progression.",
+                        "b. Minimally invasive surgery should not be used in cancer treatment.",
+                        "c. Radicality should be prioritized over organ function preservation.",
+                        "d. The goal is to remove cancer microscopically rather than macroscopically.",
+                        "e. The stage of cancer is determined by the extent of the primary tumor, lymph node metastasis, and neural invasion."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q6 Which of the following is correct regarding lymphogenous metastasis of cancer?",
+                      choices: [
+                        "a. Regional lymph node dissection is unrelated to radicality.",
+                        "b. Lymph node metastasis and hematogenous metastasis are unlikely to occur simultaneously.",
+                        "c. In advanced colorectal cancer, it is better to remove as much of the affected intestine as possible.",
+                        "d. The definition of regional lymph nodes is the same for gastric cancer, colorectal cancer, and pancreatic cancer.",
+                        "e. Sentinel lymph node biopsy is widely used in breast cancer."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q7 Which of the following antibody therapeutic agents has an affinity for PD-1?",
+                      choices: [
+                        "a. Nivolumab",
+                        "b. Bevacizumab",
+                        "c. Denosumab",
+                        "d. Durvalumab",
+                        "e. Necitumumab"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q8 Which of the following statements is correct regarding molecular targeted therapies (kinase inhibitors)?",
+                      choices: [
+                        "a. Gefitinib has a lower frequency of liver damage compared to erlotinib.",
+                        "b. Crizotinib is more likely to cause visual impairment compared to alectinib.",
+                        "c. Osimertinib has a lower frequency of leukopenia compared to gefitinib.",
+                        "d. Osimertinib is effective against T790M resistance mutations and ineffective against L858R and ex19 deletion mutations.",
+                        "e. Alectinib is effective against non-small cell lung cancer with ROS1 gene translocation."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q9 Which disease has the highest mortality rate per 100,000 population? Choose one.",
+                      choices: [
+                        "a. Senility",
+                        "b. Suicide",
+                        "c. Heart disease",
+                        "d. Pneumonia",
+                        "e. Malignant neoplasm"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q10 Which of the following statements regarding genetic panel testing for advanced solid cancers, approved for insurance in 2019, is incorrect?",
+                      choices: [
+                        "a. It can decode a large amount of genetic information.",
+                        "b. It is fast.",
+                        "c. It has a high potential to lead to molecular targeted therapies.",
+                        "d. It may detect gene mutations associated with hereditary tumors.",
+                        "e. It uses tumor tissue."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q11 What is the name of the clinical trial that allows registration of any type of cancer if the drug targets a specific genetic mutation? Choose one.",
+                      choices: [
+                        "a. Phase 1 trial",
+                        "b. Umbrella trial",
+                        "c. Phase 3 trial",
+                        "d. Post-marketing clinical trial",
+                        "e. Basket trial"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q12 Which of the following organ-transcending genetic abnormalities approved for molecular targeted drugs is incorrect?",
+                      choices: [
+                        "a. NTRK fusion gene",
+                        "b. ROS1 fusion gene",
+                        "c. MSI-H (high-frequency microsatellite instability)",
+                        "d. TMB-High (high tumor mutation burden)"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q13 Which of the following is not a supportive therapy? Choose one.",
+                      choices: [
+                        "a. Oral care",
+                        "b. Skin care",
+                        "c. Administration of antiemetics",
+                        "d. Blood transfusion",
+                        "e. Administration of immune checkpoint inhibitors"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q14 Which of the following is not a side effect of EGFR antibodies? Choose one.",
+                      choices: [
+                        "a. Acneiform rash",
+                        "b. Dry skin",
+                        "c. Paronychia",
+                        "d. Hand-foot syndrome",
+                        "e. Cracks in fingers"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q15 Which of the following tumors is generally not indicated for curative radiation therapy?",
+                      choices: [
+                        "a. Prostate cancer",
+                        "b. Laryngeal cancer",
+                        "c. Fibrosarcoma",
+                        "d. Cervical cancer",
+                        "e. Lung cancer"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q16 Which of the following combinations of cell cycle phases is most sensitive to radiation? (Multiple choices possible)",
+                      choices: [
+                        "1. M phase (mitosis)",
+                        "2. G0 phase (quiescent phase)",
+                        "3. G1 phase (DNA synthesis preparation phase)",
+                        "4. S phase (DNA synthesis phase)",
+                        "5. G2 phase (pre-mitotic phase)"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q17 What is the target of the drug-specific inhibitory effect induced by imatinib in the treatment of chronic myeloid leukemia?",
+                      choices: [
+                        "a. Ligand-gated ion channel",
+                        "b. MAP kinase",
+                        "c. Nuclear receptor",
+                        "d. Tyrosine kinase",
+                        "e. G-protein-coupled receptor"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q18 Which anti-cancer drug is most effective in the G2 phase of the cell cycle?",
+                      choices: [
+                        "a. Methotrexate",
+                        "b. Paclitaxel",
+                        "c. Bleomycin",
+                        "d. Cytarabine",
+                        "e. Irinotecan"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q19 Which combination of tumor immune-suppressing factors and the cells that express them is incorrect? (Multiple choices possible)",
+                      choices: [
+                        "1. IFN-γ - M2 (alternatively-activated) macrophages",
+                        "2. CD28 - Helper T cells",
+                        "3. PD-L1 - Tumor cells",
+                        "4. PD-1 - Killer T cells",
+                        "5. TGF-β - Regulatory T cells"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q20 Which of the following combinations is incorrect regarding tumor immunity? (Multiple choices possible)",
+                      choices: [
+                        "1. Cancer stem cells have self-replication ability.",
+                        "2. GVL (Graft versus leukemia) promotes tumor cell proliferation.",
+                        "3. Human papillomavirus is involved in the carcinogenesis of endometrial cancer.",
+                        "4. BCG, which also has an immunostimulatory effect, is used clinically for the treatment of bladder cancer.",
+                        "5. Cancer Immunoediting is a hypothesis that explains the paradox where cancer grows despite the existence of an immune surveillance mechanism against cancer."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q21 Which of the following combinations of cancer and risk factors is incorrect?",
+                      choices: [
+                        "a. Hepatocellular carcinoma - Hepatitis C virus infection",
+                        "b. Esophageal cancer (adenocarcinoma) - Obesity",
+                        "c. Endometrial cancer - Diabetes",
+                        "d. Cervical cancer - HTLV-1 infection",
+                        "e. Kidney cancer - Smoking"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q22 Which of the following statements about smoking measures is incorrect?",
+                      choices: [
+                        "a. Smoking cessation treatment can be received under health insurance.",
+                        "b. New restaurants cannot have smoking rooms.",
+                        "c. The Health Promotion Act stipulates measures to prevent passive smoking.",
+                        "d. Minors are prohibited from entering smoking rooms.",
+                        "e. Hospitals can set up indoor smoking areas if necessary measures are taken."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q23 Which of the following biological characteristics of cancer cells is incorrect?",
+                      choices: [
+                        "a. Ability to destroy the basement membrane",
+                        "b. Resistance to apoptosis",
+                        "c. Contact inhibition of cell proliferation",
+                        "d. Weakening of intercellular adhesion mechanisms",
+                        "e. Acquisition of telomerase activity"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q24 Which of the following biological characteristics of cancer cells is incorrect?",
+                      choices: [
+                        "a. Cancer is a heterogeneous group of cells.",
+                        "b. The p53 gene is a tumor suppressor gene.",
+                        "c. DNA methylation causes inactivation of tumor suppressor genes.",
+                        "d. The cancerous lesion has abundant blood flow due to cancer angiogenesis.",
+                        "e. Cancer cells that have undergone epithelial-mesenchymal transition have increased motility."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q25 Which of the following statements is incorrect?",
+                      choices: [
+                        "a. Pathological diagnosis is a medical act, not a test.",
+                        "b. When a clinician requests a pathological diagnosis, there is no need to record the medical history.",
+                        "c. Small pathological specimens do not provide an overall picture of the lesion.",
+                        "d. Pathological diagnosis is the basis for treatment policy.",
+                        "e. DNA can be extracted from formalin-fixed paraffin-embedded (FFPE) tissue specimens."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q26 Which gene has the highest frequency of therapeutic target gene abnormalities detected in Japanese lung adenocarcinoma?",
+                      choices: [
+                        "a. KRAS",
+                        "b. BRAF",
+                        "c. EGFR",
+                        "d. HER2",
+                        "e. ROS1"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q27 Which of the following is correct? (Multiple choices possible)",
+                      choices: [
+                        "1. Humanized antibodies can reduce immune reactions to xenogeneic antibodies.",
+                        "2. Tight junctions are composed of claudins.",
+                        "3. Claudins are seven-pass transmembrane proteins.",
+                        "4. Tight junctions create strong cell-cell adhesion in a calcium-dependent manner.",
+                        "5. Tight junctions have barrier and fence functions, maintaining the microenvironment between cells."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q28 Which of the following is correct? (Multiple choices possible)",
+                      choices: [
+                        "1. Treating cultured cells with anti-claudin antibodies causes cell damage via ADCC.",
+                        "2. ADCC does not occur when anti-claudin antibodies are applied in a nude mouse experimental system.",
+                        "3. Disruption of tumor tight junctions causes leakage of growth factors within the tumor, inhibiting proliferation.",
+                        "4. Disruption of tumor tight junctions enhances the transfer of anticancer drugs into the tumor.",
+                        "5. In antibody therapy, the expression level of the target protein does not correlate with the efficacy of the antibody."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q29 Which of the following statements is correct about palliative care?",
+                      choices: [
+                        "a. Palliative care starts after cancer treatment is finished.",
+                        "b. Palliative care should be provided not only to cancer patients but also to their families.",
+                        "c. The concept of total pain is not advocated in Japanese palliative care.",
+                        "d. Financial issues of cancer patients should be handled by other healthcare professionals, and doctors should focus on treatment.",
+                        "e. WHO's definition of palliative care does not include spiritual care."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q30 Which of the following statements about medical narcotics is correct?",
+                      choices: [
+                        "a. A patient complained of cancer pain, but the use of medical narcotics was refrained because the patient was undergoing anti-cancer treatment.",
+                        "b. A patient complained of cancer pain, but the use of medical narcotics was refrained because the family strongly objected to their use.",
+                        "c. When a patient complains of cancer pain, the use of medical narcotics should be actively considered.",
+                        "d. When starting medical narcotics, the use of NSAIDs that had been used up to that point was discontinued.",
+                        "e. The use of medical narcotics should be limited to terminal cancer patients."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q31 Which of the following is correct about the course of the dying psychological stage advocated by Kübler Ross?",
+                      choices: [
+                        "a. Depression → denial → bargaining → anger → acceptance",
+                        "b. Depression → anger → denial → acceptance",
+                        "c. Denial → depression → bargaining → anger → acceptance",
+                        "d. Denial → anger → depression → acceptance",
+                        "e. Anger → depression → denial → acceptance"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q32 Which of the following is correct?",
+                      choices: [
+                        "1. Delirium is often seen in the terminal stages of cancer.",
+                        "2. Delirium is not considered a consciousness disorder.",
+                        "3. The most common mental symptoms in cancer patients with adjustment disorders are hallucinations and depression.",
+                        "4. In principle, drug therapy should not be performed for depression in cancer patients.",
+                        "5. Apathy and drowsiness in cancer patients require consideration of depression and hypoactive delirium."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q33 Which of the following combinations of cancer diseases or conditions and IVR is incorrect?",
+                      choices: [
+                        "a. Hepatocellular carcinoma - Transcatheter arterial embolization (TAE/TACE)",
+                        "b. Obstructive jaundice - Stent placement",
+                        "c. Metastatic osteolytic vertebral tumor - Percutaneous vertebroplasty/kyphoplasty",
+                        "d. Esophageal obstruction/severe stenosis - Percutaneous endoscopic gastrostomy",
+                        "e. Metastatic liver tumor - Percutaneous radiofrequency ablation"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q34 Which of the following is incorrect?",
+                      choices: [
+                        "a. When performing continuous intra-arterial infusion therapy, an implanted device called a reservoir is inserted.",
+                        "b. Arterial embolization is contraindicated for tumor thrombus in the main portal vein.",
+                        "c. Intra-arterial infusion therapy achieves high local drug concentration at the lesion site and high local effect but has many side effects.",
+                        "d. Intra-arterial chemotherapy is sometimes combined with systemic chemotherapy.",
+                        "e. IVR is also useful for palliative treatment of cancer."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q35 Which of the following combinations is correct?",
+                      choices: [
+                        "1. According to the Cancer Research Promotion Foundation's 'Cancer Statistics 22', breast cancer has the highest incidence and mortality among female cancers.",
+                        "2. Breast-conserving therapy is a treatment that combines partial mastectomy and postoperative radiation therapy.",
+                        "3. Regardless of the extent of the lesion, breast-conserving therapy is indicated for non-invasive cancer.",
+                        "4. Postoperative irradiation for breast cancer requires careful attention to infection due to myelosuppression.",
+                        "5. Severe radiation pneumonitis is common after postoperative irradiation for breast cancer."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q36 Which of the following is correct?",
+                      choices: [
+                        "a. Squamous cell carcinoma is the most common skin cancer in Japanese people.",
+                        "b. Surgery is the first choice of treatment for basal cell carcinoma and squamous cell carcinoma.",
+                        "c. The buildup effect refers to the phenomenon where the dose is higher in a slightly deeper part than the skin surface when irradiated from the body surface.",
+                        "d. Using bolus can increase the radiation sensitivity of skin cancer cells.",
+                        "e. The purpose of radiation therapy for malignant skin tumors is mostly palliative."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q37 Which of the following head and neck cancers is treated with chemoradiotherapy as the first choice rather than surgery?",
+                      choices: [
+                        "a. Thyroid cancer",
+                        "b. Parotid gland cancer",
+                        "c. Nasopharyngeal cancer",
+                        "d. Oropharyngeal cancer",
+                        "e. Hypopharyngeal cancer"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q38 Which of the following gastrointestinal cancers is treated with definitive chemoradiotherapy as the first choice rather than surgery?",
+                      choices: [
+                        "a. Gastric cancer",
+                        "b. Ileal cancer",
+                        "c. Descending colon cancer",
+                        "d. Anal cancer",
+                        "e. Lower bile duct cancer"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q39 Which of the following is correct?",
+                      choices: [
+                        "a. The main treatment for hematopoietic tumors is radiation therapy.",
+                        "b. Hematopoietic tumors generally have low radiation sensitivity, requiring doses of 60Gy or more.",
+                        "c. Total body irradiation is effective for treating lymphomas with multiple lesions throughout the body.",
+                        "d. It is said that 50% of people die within 60 days if exposed to 4Gy of total body irradiation.",
+                        "e. In total body irradiation, only acute adverse events are problematic."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q40 Which of the following combinations is incorrect?",
+                      choices: [
+                        "1. The WHO classification of brain tumors combines morphological classification with genetic diagnosis.",
+                        "2. A characteristic pathological finding of glioblastoma is the palisading arrangement of nuclei around necrotic foci.",
+                        "3. Standard treatment for glioblastoma combines surgery, postoperative radiation therapy, and chemotherapy.",
+                        "4. The standard dose for radiation therapy for glioblastoma is 25Gy/5 fractions.",
+                        "5. The median survival time for glioblastoma is about 3 years."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q41 Which of the following is the correct combination of parallel organs?",
+                      choices: [
+                        "a. Liver",
+                        "b. Optic nerve",
+                        "c. Brain stem",
+                        "d. Spinal cord",
+                        "e. Lung"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q42 Which of the following statements is correct?",
+                      choices: [
+                        "a. Electron beams are used for the treatment of deep-seated tumors.",
+                        "b. X-rays have the highest dose on the body surface and decrease as they go deeper.",
+                        "c. Proton beams have a Bragg peak.",
+                        "d. External radiation therapy uses beta rays and gamma rays generated by a linear accelerator.",
+                        "e. Radiation therapy uses lower energy X-rays than radiation diagnosis."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q43 After definitive radiation therapy for cervical cancer, which of the following adverse events appears the latest?",
+                      choices: [
+                        "a. Radiation sickness",
+                        "b. Intestinal obstruction",
+                        "c. Diarrhea",
+                        "d. Skin redness",
+                        "e. Frequent urination"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q44 Which of the following radioactive isotopes is used for brachytherapy of prostate cancer?",
+                      choices: [
+                        "1. Radium-223",
+                        "2. Yttrium-90",
+                        "3. Gallium-67",
+                        "4. Iridium-192",
+                        "5. Iodine-125"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q45 Which of the following is correct?",
+                      choices: [
+                        "a. Sarcoma is a malignant tumor of non-epithelial origin.",
+                        "b. Irradiating 60Gy to water raises the water temperature by more than 1°C.",
+                        "c. X-rays are charged particle beams and have a range.",
+                        "d. Round cell sarcoma can be easily distinguished by hematoxylin-eosin staining alone.",
+                        "e. Surgery is not performed for soft tissue sarcoma due to its radiosensitivity."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q46 Which of the following schedules for palliative irradiation for bone metastases is least appropriate?",
+                      choices: [
+                        "a. 8Gy / 1 fraction",
+                        "b. 20Gy / 5 fractions",
+                        "c. 30Gy / 10 fractions",
+                        "d. 37.5Gy / 15 fractions",
+                        "e. 60Gy / 30 fractions"
+                      ]
+                    },
+                    {
+                      questionSentence: "Q47 For a disease with a prevalence of 1% among 1000 people, which of the following is correct when a screening test with 80% sensitivity and 80% specificity is conducted?",
+                      choices: [
+                        "1. 8 people with the disease will test positive.",
+                        "2. 198 people will test positive.",
+                        "3. 794 people without the disease will test negative.",
+                        "4. The positive predictive value is about 96.2%.",
+                        "5. The negative predictive value is about 99.7%."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q48 Which of the following is incorrect?",
+                      choices: [
+                        "a. Serum P53 antibody is an autoantibody against overexpressed P53 protein.",
+                        "b. PIVKA-II is elevated in patients administered warfarin (vitamin K antagonist).",
+                        "c. HER2 expression in breast cancer tissue is a guideline for the use of molecular targeted therapies.",
+                        "d. Most tumor markers are not useful for the early detection of primary cancer.",
+                        "e. Tumor markers are not used to assess the effectiveness of surgery or chemotherapy."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q49 Which of the following is incorrect?",
+                      choices: [
+                        "a. Organized cervical cancer screening targets individuals from the age of 20.",
+                        "b. Overdiagnosis is one of the drawbacks of cancer screening.",
+                        "c. Organized breast cancer screening includes mammography every two years.",
+                        "d. Health screenings aim to detect specific diseases early for timely treatment.",
+                        "e. Organized screenings aim to reduce mortality in the target population."
+                      ]
+                    },
+                    {
+                      questionSentence: "Q50 Which of the following is incorrect?",
+                      choices: [
+                        "a. Low-dose CT is used for organized lung cancer screening.",
+                        "b. The participation rate in breast cancer screening in Japan is lower compared to Western countries.",
+                        "c. Endoscopy is performed for organized gastric cancer screening.",
+                        "d. Psychological burden is one of the drawbacks of cancer screening.",
+                        "e. CT colonoscopy is performed for organized colorectal cancer screening."
+                      ]
+                    }
+                  ]                  
         },
         {
             groupTag : "婦人疾患 課題",
