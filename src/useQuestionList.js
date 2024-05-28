@@ -1,3 +1,46 @@
+import peri2021qS31 from './img/answer/peri2021qS31.png';
+import peri2021qS29 from './img/answer/peri2021qS29.png';
+import peri2021q28 from './img/answer/peri2021q28.png';
+import peri2021q4 from './img/answer/peri2021q4.png';
+import peri2021q18_1 from './img/answer/peri2021q18_1.png';
+import peri2021q5 from './img/answer/peri2021q5.png';
+import peri2021q18_2 from './img/answer/peri2021q18_2.png';
+import peri2021q6 from './img/answer/peri2021q6.png';
+import peri2021q2 from './img/answer/peri2021q2.png';
+import peri2021q1 from './img/answer/peri2021q1.png';
+import peri2021q11 from './img/answer/peri2021q11.png';
+import peri2021q10 from './img/answer/peri2021q10.png';
+import peri2021q38 from './img/answer/peri2021q38.png';
+import peri2021q13 from './img/answer/peri2021q13.png';
+import peri2021q3_2 from './img/answer/peri2021q3_2.png';
+import peri2021q17 from './img/answer/peri2021q17.png';
+import peri2021q16 from './img/answer/peri2021q16.png';
+import peri2021q3_3 from './img/answer/peri2021q3_3.png';
+import peri2021q39_1 from './img/answer/peri2021q39_1.png';
+import peri2021q3_1 from './img/answer/peri2021q3_1.png';
+import peri2021q14 from './img/answer/peri2021q14.png';
+import peri2021q29 from './img/answer/peri2021q29.png';
+import peri2021q15 from './img/answer/peri2021q15.png';
+import peri2021q39_2 from './img/answer/peri2021q39_2.png';
+import peri2021q24 from './img/answer/peri2021q24.png';
+import peri2021q30 from './img/answer/peri2021q30.png';
+import peri2021q25 from './img/answer/peri2021q25.png';
+import peri2021q19 from './img/answer/peri2021q19.png';
+import peri2021q33 from './img/answer/peri2021q33.png';
+import peri2021q26 from './img/answer/peri2021q26.png';
+import peri2021q32 from './img/answer/peri2021q32.png';
+import peri2021q36 from './img/answer/peri2021q36.png';
+import peri2021q22 from './img/answer/peri2021q22.png';
+import peri2021q23 from './img/answer/peri2021q23.png';
+import peri2021q37 from './img/answer/peri2021q37.png';
+import peri2021q31_1 from './img/answer/peri2021q31_1.png';
+import peri2021q35 from './img/answer/peri2021q35.png';
+import peri2021q34 from './img/answer/peri2021q34.png';
+import peri2021q20 from './img/answer/peri2021q20.png';
+import peri2021q31_2 from './img/answer/peri2021q31_2.png';
+import peri2021q40 from './img/answer/peri2021q40.png';
+import peri2021q8 from './img/answer/peri2021q8.png';
+import peri2021q9 from './img/answer/peri2021q9.png';
 import station0 from './img/answer/station0.png';
 import normalFetalPosition from './img/answer/normalFetalPosition.png';
 import stageOfLabor from './img/answer/stageOfLabor.png';
@@ -1229,451 +1272,6 @@ export const useQuestionList = () => {
   }
 ]
         },{
-            groupTag : "産科疾患2022本試験機械英訳",
-            groupContents: [{
-                detailInfo: 'chatGPT4oによる産科疾患2022本試験機械英訳',
-                      questionSentence: "Q1 Which of the following is incorrect? Choose one.",
-                      choices: [
-                        "a) The number of follicles is highest during the fetal period.",
-                        "b) Primary oocytes are arrested in the first meiotic prophase but resume meiosis due to the LH surge.",
-                        "c) Primary spermatocytes undergo the first and second meiotic divisions to form four spermatids.",
-                        "d) The second meiotic division of secondary oocytes resumes due to sperm entry.",
-                        "e) Upon sperm entry, the oocyte hardens the zona pellucida to prevent entry of other sperm, which is called the acrosome reaction."
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q2 Which of the following is correct about the menstrual cycle? Choose one.",
-                      choices: [
-                        "a) The basal membrane peels off during menstruation.",
-                        "b) Follicles mainly secrete progesterone, and the corpus luteum mainly secretes estrogen.",
-                        "c) Estrogen causes decidual changes in the endometrium.",
-                        "d) The rise in LH occurs after the rise in estradiol.",
-                        "e) All of the above are incorrect."
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q3 Which of the following combinations of germ layers and organs is correct? Choose one.",
-                      choices: [
-                        "a) Ectoderm - Heart",
-                        "b) Ectoderm - Lungs",
-                        "c) Mesoderm - Thyroid",
-                        "d) Mesoderm - Uterus",
-                        "e) Endoderm - Central nervous system"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q4 Which of the following hormones secreted by the placenta is incorrect? Choose one.",
-                      choices: [
-                        "a) hCG (Human chorionic gonadotropin)",
-                        "b) hPL (Human placental lactogen)",
-                        "c) Estrogen",
-                        "d) Progesterone",
-                        "e) Prolactin"
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q5 Which of the following is incorrect about amniotic fluid? Choose one.",
-                      choices: [
-                        "a) It originates from fetal urine.",
-                        "b) It originates from alveolar secretions.",
-                        "c) It peaks at 8 months of pregnancy.",
-                        "d) It reaches 1000ml at 10 months of pregnancy.",
-                        "e) Amniotic fluid is alkaline."
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q6 Which of the following is correct about ultrasound examination? Choose one.",
-                      choices: [
-                        "a) Fetal heartbeats can be detected at 10 weeks of gestation.",
-                        "b) BPD (Biparietal diameter) is most suitable for estimating gestational age.",
-                        "c) NT (Nuchal translucency) thickening always indicates chromosomal abnormalities.",
-                        "d) Amniotic fluid volume is estimated by amniotic fluid index or amniotic fluid pocket.",
-                        "e) "
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q7 Which vitamin should be administered to prevent Wernicke's encephalopathy during intravenous fluid therapy for hyperemesis gravidarum? Choose one.",
-                      choices: [
-                        "a) Vitamin A",
-                        "b) Vitamin B1",
-                        "c) Vitamin C",
-                        "d) Vitamin D",
-                        "e) Vitamin K"
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q8 Which of the following is correct about the three factors of labor? Choose one.",
-                      choices: [
-                        "a) Timely rupture of membranes",
-                        "b) Labor position",
-                        "c) Birth canal",
-                        "d) Surrounding environment",
-                        "e) Labor duration"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q9 Which of the following fetal positions is normal? Choose one.",
-                      choices: [
-                        "a) Cephalic presentation",
-                        "b) Breech presentation",
-                        "c) Transverse presentation",
-                        "d) Oblique presentation",
-                        "e) Footling presentation"
-                      ],
-                      answer: "a"
-                    },
-                    {
-                      questionSentence: "Q10 Which of the following is not included in the Bishop score? Choose one.",
-                      choices: [
-                        "a) Effacement",
-                        "b) Position",
-                        "c) Consistency",
-                        "d) Station",
-                        "e) Uterine contraction"
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q11 Which of the following is correct about the course of labor? Choose one.",
-                      choices: [
-                        "a) Prelabor symptoms include a rise in the uterine fundus.",
-                        "b) Prelabor symptoms include bloody mucous vaginal discharge.",
-                        "c) A total labor duration of 60 hours is normal.",
-                        "d) The course of labor is influenced by fetal orientation.",
-                        "e) The course of labor is not affected by contractions."
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q12 Which of the following indicates effective labor contractions? Choose one.",
-                      choices: [
-                        "a) Progression of internal examination findings.",
-                        "b) Periodic uterine contractions within 5 minutes.",
-                        "c) Pain with each uterine contraction.",
-                        "d) Labor contractions lasting more than 1 minute.",
-                        "e) Bloody mucous discharge."
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q13 Which are appropriate means of monitoring fetal well-being? Choose two.",
-                      choices: [
-                        "a) Blood test",
-                        "b) MRI",
-                        "c) Abdominal X-ray",
-                        "d) NST (Non-Stress Test)",
-                        "e) Ultrasonography"
-                      ],
-                      answer: "d, e"
-                    },
-                    {
-                      questionSentence: "Q14 An abdominal ultrasound image of a woman at 30 weeks gestation is shown in Figure 1. Irregular uterine contractions are noted on the fetal heart rate labor chart. Which drugs are inappropriate to be given to this woman? Choose two.",
-                      choices: [
-                        "a) Indomethacin",
-                        "b) Ritodrine hydrochloride",
-                        "c) Magnesium sulfate",
-                        "d) Oxytocin",
-                        "e) Betamethasone"
-                      ],
-                      answer: "a, d"
-                    },
-                    {
-                      questionSentence: "Q15 Regarding the abnormal first rotation shown in Figure 2, which combination of name and leading part is correct? Choose one.",
-                      choices: [
-                        "a) ① Front position - Ear",
-                        "b) ② Front position - Occiput",
-                        "c) ② Brow presentation - Forehead",
-                        "d) ③ Chin presentation - Eye",
-                        "e) ③ Neck position - Nose"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q16 Which of the following is correct about prolonged labor? Choose one.",
-                      choices: [
-                        "a) Primipara with labor duration exceeding 15 hours without delivery.",
-                        "b) Multipara with labor duration exceeding 5 hours without delivery.",
-                        "c) Painless delivery tends to extend labor duration.",
-                        "d) Fetal stress does not need to be considered.",
-                        "e) Maternal fatigue does not need to be considered."
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q17 A 38-year-old woman, gravida 3, para 3, at 39 weeks and 5 days of pregnancy, delivered a 3,960-gram girl after 36 hours of labor. Excessive bleeding was noted after placental delivery, with the uterine fundus 2 fingers above the umbilicus and the uterus soft. What is the most likely diagnosis? Choose one.",
-                      choices: [
-                        "a) Cervical laceration",
-                        "b) Perineal laceration",
-                        "c) Uterine inversion",
-                        "d) Atonic hemorrhage",
-                        "e) Cervical incompetence"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q18 Which of the following is inappropriate as a response to the case in Q17? Choose one.",
-                      choices: [
-                        "a) Use of balloon",
-                        "b) Administration of oxytocin",
-                        "c) Sufficient fluid replacement",
-                        "d) Administration of uterine relaxants",
-                        "e) Uterine fundal massage"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q19 Which of the following actions is inappropriate when suspecting fetal distress? Choose one.",
-                      choices: [
-                        "a) Summoning manpower",
-                        "b) Preparing for rapid delivery",
-                        "c) Contacting neonatal pediatrics",
-                        "d) Continuing NST",
-                        "e) Rechecking after 24 hours"
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q20 Which of the following is correct about pregnancy-induced hypertension? Choose one.",
-                      choices: [
-                        "a) Eclampsia, one of the complications, is more common in primiparas.",
-                        "b) Pregnancy-induced hypertension syndrome tends to occur from early pregnancy.",
-                        "c) The main symptom of severe pregnancy-induced hypertension syndrome is genital bleeding.",
-                        "d) Pregnancy-induced hypertension syndrome is caused by placental dysfunction according to the two-step theory.",
-                        "e) Platelet count often increases."
-                      ],
-                      answer: "a"
-                    },
-                    {
-                      questionSentence: "Q21 Which of the following diseases is least likely to cause massive external bleeding during or after delivery? Choose one.",
-                      choices: [
-                        "a) Placenta previa",
-                        "b) Uterine rupture",
-                        "c) Uterine inversion",
-                        "d) Threatened preterm labor",
-                        "e) Atonic hemorrhage"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q22 A 28-year-old multipara at 40 weeks gestation delivered a girl normally. Since there were no signs of spontaneous placental separation, the umbilical cord was pulled to deliver the placenta. Immediately thereafter, the patient experienced severe lower abdominal pain and profuse bleeding. The uterine fundus was not palpable on bimanual examination. What is the most likely diagnosis? Choose one.",
-                      choices: [
-                        "a) Premature separation of the normally implanted placenta",
-                        "b) Atonic hemorrhage",
-                        "c) Vaginal wall laceration",
-                        "d) Amniotic fluid embolism",
-                        "e) Uterine inversion"
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q23 Which of the following conditions are likely to cause polyhydramnios? Choose two.",
-                      choices: [
-                        "a) Post-term pregnancy",
-                        "b) Fetal spina bifida",
-                        "c) Fetal esophageal atresia",
-                        "d) Placental dysfunction",
-                        "e) Fetal Potter syndrome"
-                      ],
-                      answer: "b, c"
-                    },
-                    {
-                      questionSentence: "Q24 Which of the following chromosomal abnormalities is the most frequent? Choose one.",
-                      choices: [
-                        "a) Down syndrome (Trisomy 21)",
-                        "b) Trisomy 13",
-                        "c) Trisomy 18",
-                        "d) Turner syndrome",
-                        "e) Klinefelter syndrome"
-                      ],
-                      answer: "a"
-                    },
-                    {
-                      questionSentence: "Q25 Which of the following managements is unnecessary for a case of preterm premature rupture of membranes at 32 weeks of gestation? Choose one.",
-                      choices: [
-                        "a) Estimation of fetal weight",
-                        "b) NST",
-                        "c) Fetal echocardiography",
-                        "d) Maternal hospitalization",
-                        "e) Bacterial culture of cervical secretions"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q26 Which of the following statements are correct about the twin pregnancy shown in Figure 3? Choose two.",
-                      choices: [
-                        "a) Cord entanglement occurs.",
-                        "b) Twin-to-twin transfusion syndrome is frequent.",
-                        "c) There are two placentas.",
-                        "d) It is a dichorionic twin pregnancy.",
-                        "e) It is a monochorionic twin pregnancy."
-                      ],
-                      answer: "b, e"
-                    },
-                    {
-                      questionSentence: "Q27 Which of the following is not included in TORCH syndrome? Choose one.",
-                      choices: [
-                        "a) Rubella",
-                        "b) HTLV-1",
-                        "c) Syphilis",
-                        "d) Cytomegalovirus",
-                        "e) Toxoplasmosis"
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q28 Which of the following statements is correct about the normal postpartum period? Choose one.",
-                      choices: [
-                        "a) It takes about 6 months for maternal physiological changes to return to pre-pregnancy state after delivery.",
-                        "b) Milk secretion in the postpartum period starts when the newborn begins sucking.",
-                        "c) Colostrum contains more immune substances than mature milk.",
-                        "d) The duration of postpartum amenorrhea is almost the same between breastfeeding and non-breastfeeding mothers.",
-                        "e) The uterus returns to its pre-pregnancy state within 2 weeks postpartum."
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q29 Which of the following statements is correct about the effects of drugs on the fetus? Choose one.",
-                      choices: [
-                        "a) If drug exposure occurs by the end of the 3rd week of pregnancy, the fetus is born without morphological abnormalities.",
-                        "b) Fetal development from the 4th to 10th week of pregnancy follows the all-or-none rule.",
-                        "c) The period after the 13th week of pregnancy is the sensitive period, and drug exposure should be especially avoided.",
-                        "d) ",
-                        "e) All of the above are incorrect."
-                      ],
-                      answer: "a"
-                    },
-                    {
-                      questionSentence: "Q30 How many consecutive spontaneous miscarriages are generally referred to as habitual miscarriage? Choose one.",
-                      choices: [
-                        "a) 1 or more",
-                        "b) 2 or more",
-                        "c) 3 or more",
-                        "d) 4 or more",
-                        "e) 5 or more"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q31 Which of the following changes is not seen in the mother during late pregnancy? Choose one.",
-                      choices: [
-                        "a) Dilation of the ureters",
-                        "b) Breast enlargement",
-                        "c) Skin pigmentation",
-                        "d) Cardiac hypertrophy",
-                        "e) Decreased basal metabolic rate"
-                      ],
-                      answer: "e"
-                    },
-                    {
-                      questionSentence: "Q32 Which of the following is incorrect about the treatment of congestive mastitis? Choose one.",
-                      choices: [
-                        "a) Breast massage",
-                        "b) Continuation of breastfeeding",
-                        "c) Administration of Kampo medicine",
-                        "d) Incision and drainage",
-                        "e) Cooling"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q33 What is the maternal mortality rate in Japan? Choose one.",
-                      choices: [
-                        "a) 3.3 per 100 people",
-                        "b) 3.3 per 1,000 people",
-                        "c) 3.3 per 10,000 people",
-                        "d) 3.3 per 100,000 people",
-                        "e) 3.3 per 1,000,000 people"
-                      ],
-                      answer: "d"
-                    },
-                    {
-                      questionSentence: "Q34 Which of the following statements is incorrect about the Maternal Protection Law and reproductive rights? Choose two.",
-                      choices: [
-                        "a) The Maternal Protection Law regulates matters related to contraception and induced abortion.",
-                        "b) Reproductive rights refer to the right to obtain sufficient information and make decisions about all matters related to reproduction, including pregnancy, childbirth, and abortion.",
-                        "c) In the United States, abortion has been constitutionally protected since a 1973 Supreme Court ruling declaring abortion regulations unconstitutional, but recently the ruling has been overturned and has become a subject of political debate.",
-                        "d) There are WHO-approved oral abortion pills, which are used in more than 80 countries, including Japan.",
-                        "e) Induced abortion is possible under the Maternal Protection Law if the fetus has a fatal disease."
-                      ],
-                      answer: "d, e"
-                    },
-                    {
-                      questionSentence: "Q35 Which of the following is not used in the calculation of the Apgar score? Choose one.",
-                      choices: [
-                        "a) Skin color",
-                        "b) Respiratory effort",
-                        "c) Duration of labor",
-                        "d) Heart rate",
-                        "e) Muscle tone"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q36 Which of the following initial resuscitation methods is incorrect in neonatal resuscitation? Choose one.",
-                      choices: [
-                        "a) Administration of oxygen",
-                        "b) Keeping the baby warm",
-                        "c) Opening the airway",
-                        "d) Maintaining proper position",
-                        "e) Drying and stimulating the skin"
-                      ],
-                      answer: "a"
-                    },
-                    {
-                      questionSentence: "Q37 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
-                      choices: [
-                        "a) Cerebrospinal fluid",
-                        "b) Blood",
-                        "c) Gastric fluid",
-                        "d) Urine",
-                        "e) Feces"
-                      ],
-                      answer: "c"
-                    },
-                    {
-                      questionSentence: "Q38 Which of the following is not applicable to the diagnosis and examination of severe neonatal asphyxia? Choose one.",
-                      choices: [
-                        "a) Low Apgar score",
-                        "b) Metabolic alkalosis",
-                        "c) Elevated CK, Lactate",
-                        "d) Elevated AST, ALT",
-                        "e) Prolonged PT, APTT"
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q39 Which of the following is incorrect about transient tachypnea of the newborn? Choose one.",
-                      choices: [
-                        "a) Nasal flaring",
-                        "b) Inspiratory stridor",
-                        "c) Retractions",
-                        "d) Grunting",
-                        "e) Cyanosis"
-                      ],
-                      answer: "b"
-                    },
-                    {
-                      questionSentence: "Q40 Which of the following statements is correct about neonatal diseases? Choose one.",
-                      choices: [
-                        "a) Retractions are a symptom of insufficient lung surfactant.",
-                        "b) Infants born weighing less than 1000g are called extremely low birth weight infants.",
-                        "c) Intraventricular hemorrhage is more likely to occur in term infants.",
-                        "d) Necrotizing enterocolitis is associated with increased blood flow to the intestines.",
-                        "e) All newborns need to be bathed immediately after birth."
-                      ],
-                      answer: "a"
-                    }
-                  ]
-                  
-        },{
             groupTag : "産科疾患2021本試験",
             groupContents: [{
                 detailInfo: 'chatGPT4oによる機械生成',
@@ -1684,7 +1282,10 @@ export const useQuestionList = () => {
                         "c) 妊娠 14 週時の児心拍数",
                         "d) 妊娠 16 週時の児頭大横径",
                         "e) 妊娠 28 週時の胎児推定体重"
-                      ]
+                      ],
+                      answerImg:[peri2021q1],
+                      answer:"b",
+                      commentary:"妊娠8-10週前後の超音波検査での胎児の頭殿長（CRL）を測定し、これを基に妊娠週数を推定することが一般的です。"
                     },
                     {
                       questionSentence: "Q2 図 1 で計測しているのはどれか。一つ選べ。",
@@ -1694,7 +1295,9 @@ export const useQuestionList = () => {
                         "c) BPD",
                         "d) AC",
                         "e) FL"
-                      ]
+                      ],
+                      answerImg:[peri2021q2],
+                      answer:"解答不可能",
                     },
                     {
                       questionSentence: "Q3 妊婦に投与できるものはどれか。一つ選べ。",
@@ -1704,7 +1307,9 @@ export const useQuestionList = () => {
                         "c) マクロライド系抗菌薬",
                         "d) ニューキノロン系抗菌薬",
                         "e) ワルファリン"
-                      ]
+                      ],
+                      answerImg:[peri2021q3_1,peri2021q3_2,peri2021q3_3],
+                      answer:"c",
                     },
                     {
                       questionSentence: "Q4 受精から着床までに要する日数として正しいのはどれか。一つ選べ。",
@@ -1714,7 +1319,10 @@ export const useQuestionList = () => {
                         "c) 7 日",
                         "d) 14 日",
                         "e) 28 日"
-                      ]
+                      ],
+                      answerImg:[peri2021q4],
+                      answer:"c",
+                      commentary:"着床には6-7日かかるとされる。"
                     },
                     {
                       questionSentence: "Q5 膣内に射精された精子の寿命として正しいものはどれか。一つ選べ。",
@@ -1724,7 +1332,10 @@ export const useQuestionList = () => {
                         "c) 12 時間",
                         "d) 24 時間",
                         "e) 72 時間"
-                      ]
+                      ],
+                      answerImg:[peri2021q5],
+                      answer:"e",
+                      commentary:"膣内に射精された精子は最大72時間生存する。卵子の寿命は24時間程度である。"
                     },
                     {
                       questionSentence: "Q6 正常妊娠後期に起こる変化として正しいものはどれか。一つ選べ。",
@@ -1734,7 +1345,10 @@ export const useQuestionList = () => {
                         "c) 中性脂肪の低下",
                         "d) 白血球数の減少",
                         "e) 循環血液量の増加"
-                      ]
+                      ],
+                      answerImg:[peri2021q6],
+                      answer:"e",
+                      commentary:"妊娠後期には赤血球数や白血球数が増加するが、それ以上に循環血液量が増加するため、ヘモグロビン濃度は低下する。"
                     },
                     {
                       questionSentence: "Q7 妊娠全期間の体重増加で平均的なものはどれか。一つ選べ。",
@@ -1744,7 +1358,9 @@ export const useQuestionList = () => {
                         "c) 10kg",
                         "d) 20kg",
                         "e) 30kg"
-                      ]
+                      ],
+                      answer:"c",
+                      commentary:"妊娠全期間の体重増加は10-12kgが平均的である。"
                     },
                     {
                       questionSentence: "Q8 胎児循環の中で最も血中酸素分圧が高いものはどれか。一つ選べ。",
@@ -1754,7 +1370,10 @@ export const useQuestionList = () => {
                         "c) 上行大動脈",
                         "d) 左心室",
                         "e) 肺静脈"
-                      ]
+                      ],
+                      answerImg:[peri2021q8],
+                      answer:"a",
+                      commentary:"胎児循環では、臍帯静脈から酸素が多く含まれた血液が胎児に供給される。"
                     },
                     {
                       questionSentence: "Q9 羊水に関して誤っているものはどれか。一つ選べ。",
@@ -1764,7 +1383,10 @@ export const useQuestionList = () => {
                         "c) 妊娠 8 ヶ月でピークを迎える",
                         "d) 妊娠 10 ヶ月で 1000mL に達する",
                         "e) "
-                      ]
+                      ],
+                      answerImg:[peri2021q9],
+                      answer:"c",
+                      commentary:"羊水量は妊娠 8 ヶ月でピークを迎える。以後は減少する。"
                     },
                     {
                       questionSentence: "Q10 正しい組み合わせはどれか。一つ選べ。",
@@ -1774,7 +1396,10 @@ export const useQuestionList = () => {
                         "c) 中胚葉 - 甲状腺",
                         "d) 中胚葉 - 子宮",
                         "e) 内胚葉 - 中枢神経"
-                      ]
+                      ],
+                      answerImg:[peri2021q10],
+                      answer:"d",
+                      commentary:"子宮の由来はミュラー管であり、中胚葉に由来する。"
                     },
                     {
                       questionSentence: "Q11 胎盤から放出されないホルモンはどれか。一つ選べ。",
@@ -1784,7 +1409,10 @@ export const useQuestionList = () => {
                         "c) プロゲステロン",
                         "d) エストロゲン",
                         "e) プロラクチン"
-                      ]
+                      ],
+                      answerImg:[peri2021q11],
+                      answer:"e",
+                      commentary:"プロラクチンは脳下垂体から分泌される。"
                     },
                     {
                       questionSentence: "Q12 分娩の三要素に含まれないものはどれか。一つ選べ。",
@@ -1794,7 +1422,9 @@ export const useQuestionList = () => {
                         "c) 軟産道",
                         "d) 羊水",
                         "e) 乳房"
-                      ]
+                      ],
+                      answer:"e",
+                      commentary:"分娩の三要素は娩出力、娩出物、産道である。"
                     },
                     {
                       questionSentence: "Q13 次の胎位の中で正常なものはどれか。一つ選べ。",
@@ -1804,7 +1434,10 @@ export const useQuestionList = () => {
                         "c) 横位",
                         "d) 斜位",
                         "e) 足位"
-                      ]
+                      ],
+                      answerImg:[peri2021q13],
+                      answer:"a",
+                      commentary:"胎児の頭が子宮口に向いている状態を頭位という。"
                     },
                     {
                       questionSentence: "Q14 次の胎勢の中で正常なものはどれか。一つ選べ。",
@@ -1814,7 +1447,9 @@ export const useQuestionList = () => {
                         "c) 後頭位",
                         "d) 額位",
                         "e) 顔位"
-                      ]
+                      ],
+                      answerImg:[peri2021q14],
+                      answer:"c",
                     },
                     {
                       questionSentence: "Q15 妊婦の診断において、胎児の長軸と子宮の長軸の相互関係を示したのはどれか。一つ選べ。",
@@ -1824,7 +1459,9 @@ export const useQuestionList = () => {
                         "c) 胎位",
                         "d) 胎勢",
                         "e) 分類"
-                      ]
+                      ],
+                      answerImg:[peri2021q15],
+                      answer:"c",
                     },
                     {
                       questionSentence: "Q16 胎児の背中が左側かつ前方を向く場合はどれか。一つ選べ。",
@@ -1834,7 +1471,9 @@ export const useQuestionList = () => {
                         "c) 第 1 胎向一第 3 分類",
                         "d) 第 2 胎向一第 1 分類",
                         "e) 第 2 胎向一第 2 分類"
-                      ]
+                      ],
+                      answerImg:[peri2021q16],
+                      answer:"a",
                     },
                     {
                       questionSentence: "Q17 妊娠 10 ヶ月での胎盤の重さはどれか。一つ選べ。",
@@ -1844,7 +1483,9 @@ export const useQuestionList = () => {
                         "c) 1500g",
                         "d) 2000g",
                         "e) 3000g"
-                      ]
+                      ],
+                      answerImg:[peri2021q17],
+                      answer:"a",
                     },
                     {
                       questionSentence: "Q18 妊娠後期の母体にみられる変化として当てはまらないものはどれか。一つ選べ。",
@@ -1854,7 +1495,10 @@ export const useQuestionList = () => {
                         "c) 皮膚の色素沈着",
                         "d) 心臓の肥大",
                         "e) 基礎代謝の低下"
-                      ]
+                      ],
+                      answerImg:[peri2021q18_1,peri2021q18_2],
+                      answer:"e",
+                      commentary:"妊娠後期には基礎代謝が増加する。"
                     },
                     {
                       questionSentence: "Q19 BPS に含まれないのはどれか。一つ選べ。",
@@ -1864,7 +1508,9 @@ export const useQuestionList = () => {
                         "c) 羊水量",
                         "d) 胎動",
                         "e) 臍帯動脈血流"
-                      ]
+                      ],
+                      answerImg:[peri2021q19],
+                      answer:"e ",
                     },
                     {
                       questionSentence: "Q20 胎動心電図変動一過性徐脈の原因として正しいものを一つ選べ。",
@@ -1874,7 +1520,10 @@ export const useQuestionList = () => {
                         "c) 臍帯圧迫",
                         "d) 胎児貧血",
                         "e) 母体低血圧"
-                      ]
+                      ],
+                      answerImg:[peri2021q20],
+                      answer:"c",
+                      commentary:"変動一過性徐脈の他に、児頭圧迫による早発一過性徐脈、胎盤からの循環血液量減少による遅発一過性徐脈がある。"
                     },
                     {
                       questionSentence: "Q22 正常分娩において、児頭が固定したときの児頭先進部の位置はどれか。一つ選べ。",
@@ -1884,7 +1533,9 @@ export const useQuestionList = () => {
                         "c) Station 0",
                         "d) Station +1",
                         "e) Station +2"
-                      ]
+                      ],
+                      answerImg:[peri2021q22],
+                      answer:"c",
                     },
                     {
                       questionSentence: "Q23 正常分娩について正しいものはどれか。一つ選べ。",
@@ -1894,7 +1545,10 @@ export const useQuestionList = () => {
                         "c) 分娩第 1 期では児頭は排臨である",
                         "d) 分娩第 2 期では矢状縫合は骨盤横径に一致する",
                         "e) 分娩第 3 期では胎盤が娩出される"
-                      ]
+                      ],
+                      answerImg:[peri2021q23],
+                      answer:"e",
+                      commentary:"分娩第 1 期は産徴がみられてから子宮口が 10cm 開大するまでであり、陣痛は１時間に6回以上の頻度でみられる。矢状縫合が骨盤横径に一致するのは分娩第 1 期のことである。"
                     },
                     {
                       questionSentence: "Q24 Bishop スコアに含まれないものはどれか。一つ選べ。",
@@ -1904,7 +1558,9 @@ export const useQuestionList = () => {
                         "c) 子宮頸管の硬度",
                         "d) 児頭の高さ",
                         "e) 子宮収縮の頻度"
-                      ]
+                      ],
+                      answerImg:[peri2021q24],
+                      answer:"e",
                     },
                     {
                       questionSentence: "Q25 間違いはどれか。一つ選べ。",
@@ -1914,7 +1570,10 @@ export const useQuestionList = () => {
                         "c) サイトメガロウイルス感染症では衛生教育はしなくてよい (文もっと長い)。",
                         "d) パルボ b19 ウイルスの感染は貧血、 胎児水腫の原因となりうる。",
                         "e) ヘルペスウイルス感染症では産道感染の可能性を考えて帝王切開することがある。"
-                      ]
+                      ],
+                      answerImg:[peri2021q25],
+                      answer:"c",
+                      commentary:"先天性風疹症候群は緑内障も白内障も多い。"
                     },
                     {
                       questionSentence: "Q26 妊娠・分娩時に外出血をきたしにくいのはどれか。一つ選べ。",
@@ -1924,7 +1583,9 @@ export const useQuestionList = () => {
                         "c) 子宮内反症",
                         "d) 子宮顎管裂傷",
                         "e) 弛緩出血"
-                      ]
+                      ],
+                      answerImg:[peri2021q26],
+                      answer:"a",
                     },
                     {
                       questionSentence: "Q27 妊娠 28 週 3 日、 性器出血で受診。 経膣超音波検査の所見を図 2 に示す。 診断はどれか。一つ選べ。",
@@ -1934,7 +1595,9 @@ export const useQuestionList = () => {
                         "c) 前置胎盤",
                         "d) 切迫早産",
                         "e) 羊水過多症"
-                      ]
+                      ],
+                      answer:"aかc",
+                      commentary:"図２が再現されていないため、診断できない。肥厚した胎盤が見られ痛みを伴う場合はaで、胎盤が子宮口に近い場合はcである。"
                     },
                     {
                       questionSentence: "Q28 羊水過多を起こすものはどれか。一つ選べ。",
@@ -1944,17 +1607,24 @@ export const useQuestionList = () => {
                         "c) 胎児食道閉鎖",
                         "d) 胎盤機能不全",
                         "e) 胎児 Potter 症候群"
-                      ]
+                      ],
+                      answerImg:[peri2021q28],
+                      answer:"c",
+                      commentary:"c以外の選択肢は羊水過少を引き起こす要因である。"
                     },
                     {
                       questionSentence: "Q29 図 3 は妊娠 3 週 1 日の妊婦の経膣超音波所見である。胎児心拍陣痛図にて不規則な子宮収縮を認める。この妊婦に対する治療として不適切なものはどれか。1 つ選べ。",
+                      questionImg:[peri2021qS29],
                       choices: [
                         "a) 安静",
                         "b) オキシトシン投与",
                         "c) 塩酸リトドリン投与",
                         "d) 硫酸マグネシウム投与",
                         "e) ベタメタゾン投与"
-                      ]
+                      ],
+                      answerImg:[peri2021q29],
+                      answer:"b",
+                      commentary:"ベタメタゾンはステロイドであり、胎児の肺の成熟を促す。"
                     },
                     {
                       questionSentence: "Q30 妊娠 32 週目で前期破水が見られた。 この状況で行う処置として不適切なものを一つ選べ。",
@@ -1964,17 +1634,24 @@ export const useQuestionList = () => {
                         "c) 帝王切開",
                         "d) ",
                         "e) "
-                      ]
+                      ],
+                      answerImg:[peri2021q30],
+                      answer:"b",
+                      commentary:"32週以降になると基本的に帝王切開の適応となる。"
                     },
                     {
                       questionSentence: "Q31 図 4 の双胎妊娠について正しいものはどれか。一つ選べ。",
+                      questionImg:[peri2021qS31],
                       choices: [
                         "a) 臍帯相互巻絡が起こりやすい",
                         "b) 双胎間輸血症候群が起こりうる",
                         "c) 性別が異なる。",
                         "d) 胎盤が 2 つある。",
                         "e) 二絨毛膜二羊膜双胎である"
-                      ]
+                      ],
+                      answerImg:[peri2021q31_1,peri2021q31_2],
+                      answer:"b",
+                      commentary:"一絨毛膜二羊膜双胎の場合、胎盤が一つである。"
                     },
                     {
                       questionSentence: "Q32 妊娠高血圧について正しいものはどれか。一つ選べ。",
@@ -1984,7 +1661,10 @@ export const useQuestionList = () => {
                         "c) 加速型高血圧腎症の主症状は下腿浮腫である",
                         "d) 巨大児になりやすい。",
                         "e) 血小板は増加することが多い"
-                      ]
+                      ],
+                      answerImg:[peri2021q32],
+                      answer:"a",
+                      commentary:"妊娠高血圧症候群は20週以降に発症する。 高血圧に合併するHELLP症候群は血小板減少(LP)を伴う。"
                     },
                     {
                       questionSentence: "Q33 新生児の出生立ち会いで蘇生するときに必要なものはどれか。一つ選べ。",
@@ -1994,7 +1674,9 @@ export const useQuestionList = () => {
                         "c) 酸素空気ブレンダー",
                         "d) 聴診器",
                         "e) パルスオキシメーター"
-                      ]
+                      ],
+                      answerImg:[peri2021q33],
+                      answer:"b",
                     },
                     {
                       questionSentence: "Q34 呼吸窮迫症候群を確かめるためのマイクロバブルテストで使用する児の試料はどれか。 一つ選べ。",
@@ -2004,7 +1686,10 @@ export const useQuestionList = () => {
                         "c) 胃液",
                         "d) 尿",
                         "e) 便"
-                      ]
+                      ],
+                      answerImg:[peri2021q34],
+                      answer:"c",
+                      commentary:"胃液に含まれる肺サーファクタントを検査する。"
                     },
                     {
                       questionSentence: "Q35 重症新生児仮死に併発しにくいものはどれか。 一つ選べ。",
@@ -2014,7 +1699,10 @@ export const useQuestionList = () => {
                         "c) 急性胃粘膜病変",
                         "d) 黄疸",
                         "e) 遷延性肺高血圧症"
-                      ]
+                      ],
+                      answerImg:[peri2021q35],
+                      answer:"d",
+                      commentary:"肝機能障害は含まれない←酸素濃度低下に強い臓器"
                     },
                     {
                       questionSentence: "Q36 新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。",
@@ -2024,7 +1712,10 @@ export const useQuestionList = () => {
                         "c) 気道開通",
                         "d) 体位保持",
                         "e) 皮膚乾燥と刺激"
-                      ]
+                      ],
+                      answerImg:[peri2021q36],
+                      answer:"e",
+                      commentary:"保温なら正解"
                     },
                     {
                       questionSentence: "Q37 新生児一過性多呼吸について誤っているものはどれか。一つ選べ。",
@@ -2034,7 +1725,10 @@ export const useQuestionList = () => {
                         "c) 陥没呼吸",
                         "d) 呻吟",
                         "e) チアノーゼ"
-                      ]
+                      ],
+                      answerImg:[peri2021q37],
+                      answer:"b",
+
                     },
                     {
                       questionSentence: "Q38 新生児の不感蒸泄を増す因子として適切でないものはどれか。一つ選べ。",
@@ -2044,7 +1738,9 @@ export const useQuestionList = () => {
                         "c) 出生後日数が短い",
                         "d) 環境温度が高い",
                         "e) 環境湿度が高い"
-                      ]
+                      ],
+                      answerImg:[peri2021q38],
+                      answer:"d",
                     },
                     {
                       questionSentence: "Q39 児のビタミン K(VK)欠乏症について誤っているのはどれか。一つ選べ。",
@@ -2054,7 +1750,10 @@ export const useQuestionList = () => {
                         "c) PIVKA (protein induced by Vitamin K absence or antagonist)-Ⅱが上昇する",
                         "d) NMTT(N-メチルチオテトラゾール)基を有する抗生剤はリスク因子である",
                         "e) 予防法として、 週一回、出生後 3 ヶ月まで VK シロップを投与する方法がある"
-                      ]
+                      ],
+                      answerImg:[peri2021q39_1,peri2021q39_2],
+                      answer:"c?",
+                      commentary:"PIVKA-Ⅱについてのみ記載がないが、一般的にはVK欠乏症の診断に用いられるため、全て正しいとも考えられる。"
                     },
                     {
                       questionSentence: "Q40 母体感染症とその対応について正しいものはどれか。一つ選べ。",
@@ -2064,402 +1763,521 @@ export const useQuestionList = () => {
                         "c) C 型肝炎ウイルスー児へのワクチン投与",
                         "d) HIV-経膣分娩",
                         "e) HTLV-1-児への直接授乳を避ける"
-                      ]
+                      ],
+                      answerImg:[peri2021q40],
+                      answer:"e",
                     }
-                  ]    
+                  ]                   
         },{
-            groupTag : "産科疾患2021本試験機械英訳",
-            groupContents: [{
-                      questionSentence: "Q1 Which ultrasound finding is most useful in determining the due date? Choose one.",
-                      choices: [
-                        "a) Gestational sac size at 5 weeks of pregnancy",
-                        "b) Crown-rump length at 9 weeks of pregnancy",
-                        "c) Fetal heart rate at 14 weeks of pregnancy",
-                        "d) Biparietal diameter at 16 weeks of pregnancy",
-                        "e) Estimated fetal weight at 28 weeks of pregnancy"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q2 What is being measured in Figure 1? Choose one.",
-                      choices: [
-                        "a) GS (Gestational sac)",
-                        "b) CRL (Crown-rump length)",
-                        "c) BPD (Biparietal diameter)",
-                        "d) AC (Abdominal circumference)",
-                        "e) FL (Femur length)"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q3 Which drug can be administered to pregnant women? Choose one.",
-                      choices: [
-                        "a) Aminoglycoside antibiotics",
-                        "b) Tetracycline antibiotics",
-                        "c) Macrolide antibiotics",
-                        "d) Fluoroquinolone antibiotics",
-                        "e) Warfarin"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q4 How many days does it take from fertilization to implantation? Choose one.",
-                      choices: [
-                        "a) 1 day",
-                        "b) 3 days",
-                        "c) 7 days",
-                        "d) 14 days",
-                        "e) 28 days"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q5 What is the lifespan of sperm ejaculated into the vagina? Choose one.",
-                      choices: [
-                        "a) 1 hour",
-                        "b) 6 hours",
-                        "c) 12 hours",
-                        "d) 24 hours",
-                        "e) 72 hours"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q6 Which change occurs in late normal pregnancy? Choose one.",
-                      choices: [
-                        "a) Increase in blood creatinine levels",
-                        "b) Increase in blood hemoglobin levels",
-                        "c) Decrease in triglycerides",
-                        "d) Decrease in white blood cell count",
-                        "e) Increase in circulating blood volume"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q7 What is the average weight gain during the entire pregnancy? Choose one.",
-                      choices: [
-                        "a) 3kg",
-                        "b) 5kg",
-                        "c) 10kg",
-                        "d) 20kg",
-                        "e) 30kg"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q8 Which has the highest blood oxygen partial pressure in fetal circulation? Choose one.",
-                      choices: [
-                        "a) Umbilical vein",
-                        "b) Descending aorta",
-                        "c) Ascending aorta",
-                        "d) Left ventricle",
-                        "e) Pulmonary vein"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q9 Which statement about amniotic fluid is incorrect? Choose one.",
-                      choices: [
-                        "a) It originates from fetal urine",
-                        "b) It originates from alveolar secretions",
-                        "c) It peaks at 8 months of pregnancy",
-                        "d) It reaches 1000mL at 10 months of pregnancy",
-                        "e) "
-                      ]
-                    },
-                    {
-                      questionSentence: "Q10 Which combination is correct? Choose one.",
-                      choices: [
-                        "a) Ectoderm - Heart",
-                        "b) Ectoderm - Lungs",
-                        "c) Mesoderm - Thyroid",
-                        "d) Mesoderm - Uterus",
-                        "e) Endoderm - Central nervous system"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q11 Which hormone is not released by the placenta? Choose one.",
-                      choices: [
-                        "a) hCG",
-                        "b) hPL",
-                        "c) Progesterone",
-                        "d) Estrogen",
-                        "e) Prolactin"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q12 Which is not included in the three elements of labor? Choose one.",
-                      choices: [
-                        "a) Umbilical cord",
-                        "b) Labor pains",
-                        "c) Soft birth canal",
-                        "d) Amniotic fluid",
-                        "e) Breasts"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q13 Which fetal position is normal? Choose one.",
-                      choices: [
-                        "a) Cephalic presentation",
-                        "b) Breech presentation",
-                        "c) Transverse presentation",
-                        "d) Oblique presentation",
-                        "e) Footling presentation"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q14 Which fetal attitude is normal? Choose one.",
-                      choices: [
-                        "a) Brow presentation",
-                        "b) Vertex presentation",
-                        "c) Occipital presentation",
-                        "d) Face presentation",
-                        "e) Mentum presentation"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q15 Which term describes the relationship between the fetal long axis and the uterine long axis in prenatal diagnosis? Choose one.",
-                      choices: [
-                        "a) Fetal orientation",
-                        "b) Rotation",
-                        "c) Fetal position",
-                        "d) Fetal attitude",
-                        "e) Classification"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q16 Which describes the case where the fetal back is on the left side and facing forward? Choose one.",
-                      choices: [
-                        "a) 1st orientation - 1st classification",
-                        "b) 1st orientation - 2nd classification",
-                        "c) 1st orientation - 3rd classification",
-                        "d) 2nd orientation - 1st classification",
-                        "e) 2nd orientation - 2nd classification"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q17 What is the weight of the placenta at 10 months of pregnancy? Choose one.",
-                      choices: [
-                        "a) 500g",
-                        "b) 1000g",
-                        "c) 1500g",
-                        "d) 2000g",
-                        "e) 3000g"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q18 Which change is not seen in the mother during late pregnancy? Choose one.",
-                      choices: [
-                        "a) Dilation of the ureters",
-                        "b) Breast enlargement",
-                        "c) Skin pigmentation",
-                        "d) Cardiac hypertrophy",
-                        "e) Decreased basal metabolic rate"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q19 Which is not included in the Biophysical Profile Score (BPS)? Choose one.",
-                      choices: [
-                        "a) NST",
-                        "b) Breathing movements",
-                        "c) Amniotic fluid volume",
-                        "d) Fetal movements",
-                        "e) Umbilical artery blood flow"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q20 Which is the correct cause of transient deceleration in fetal heart rate variability? Choose one.",
-                      choices: [
-                        "a) Fetal head compression",
-                        "b) Fetal infection",
-                        "c) Umbilical cord compression",
-                        "d) Fetal anemia",
-                        "e) Maternal hypotension"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q22 In normal delivery, what is the position of the fetal head when it is fixed? Choose one.",
-                      choices: [
-                        "a) Station -2",
-                        "b) Station -1",
-                        "c) Station 0",
-                        "d) Station +1",
-                        "e) Station +2"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q23 Which is correct about normal delivery? Choose one.",
-                      choices: [
-                        "a) The first stage of labor is from the appearance of labor signs to the dilation of the cervix to 3cm.",
-                        "b) Contractions are seen at 60-minute intervals in the first stage of labor.",
-                        "c) The fetal head is in crowning during the first stage of labor.",
-                        "d) The sagittal suture aligns with the transverse diameter of the pelvis during the second stage of labor.",
-                        "e) The placenta is delivered during the third stage of labor."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q24 Which is not included in the Bishop score? Choose one.",
-                      choices: [
-                        "a) Effacement of the cervix",
-                        "b) Position of the cervix",
-                        "c) Consistency of the cervix",
-                        "d) Station of the fetal head",
-                        "e) Frequency of uterine contractions"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q25 Which is incorrect? Choose one.",
-                      choices: [
-                        "a) Symptoms of congenital rubella syndrome include heart disease, hearing loss, and glaucoma.",
-                        "b) The risk of congenital rubella syndrome increases earlier in pregnancy.",
-                        "c) Hygienic education is not necessary for cytomegalovirus infection.",
-                        "d) Parvovirus B19 infection can cause anemia and fetal hydrops.",
-                        "e) Cesarean section may be considered for herpes virus infection due to the risk of birth canal infection."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q26 Which is least likely to cause external bleeding during pregnancy and delivery? Choose one.",
-                      choices: [
-                        "a) Placenta previa",
-                        "b) Premature rupture of membranes",
-                        "c) Uterine inversion",
-                        "d) Uterine rupture",
-                        "e) Atonic hemorrhage"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q27 A patient at 28 weeks and 3 days of pregnancy visits with genital bleeding. The findings of a transvaginal ultrasound are shown in Figure 2. What is the diagnosis? Choose one.",
-                      choices: [
-                        "a) Placental abruption",
-                        "b) Ectopic pregnancy",
-                        "c) Placenta previa",
-                        "d) Threatened preterm labor",
-                        "e) Polyhydramnios"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q28 Which can cause polyhydramnios? Choose one.",
-                      choices: [
-                        "a) Post-term pregnancy",
-                        "b) Premature rupture of membranes",
-                        "c) Fetal esophageal atresia",
-                        "d) Placental dysfunction",
-                        "e) Fetal Potter syndrome"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q29 Figure 3 shows the transvaginal ultrasound findings of a pregnant woman at 3 weeks and 1 day of pregnancy. Irregular uterine contractions are noted on the fetal heart rate contraction graph. Which treatment is inappropriate for this pregnant woman? Choose one.",
-                      choices: [
-                        "a) Bed rest",
-                        "b) Administration of oxytocin",
-                        "c) Administration of ritodrine hydrochloride",
-                        "d) Administration of magnesium sulfate",
-                        "e) Administration of betamethasone"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q30 Which treatment is inappropriate for preterm premature rupture of membranes at 32 weeks of pregnancy? Choose one.",
-                      choices: [
-                        "a) Administration of antibiotics",
-                        "b) Cervical bacterial culture",
-                        "c) Cesarean section",
-                        "d) ",
-                        "e) "
-                      ]
-                    },
-                    {
-                      questionSentence: "Q31 Which is correct about the twin pregnancy shown in Figure 4? Choose one.",
-                      choices: [
-                        "a) Cord entanglement is likely",
-                        "b) Twin-to-twin transfusion syndrome can occur",
-                        "c) The genders are different",
-                        "d) There are two placentas",
-                        "e) It is a dichorionic diamniotic twin pregnancy"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q32 Which is correct about pregnancy-induced hypertension? Choose one.",
-                      choices: [
-                        "a) Eclampsia, one of the complications, is more common in primiparas",
-                        "b) Pregnancy-induced hypertension syndrome tends to occur from early pregnancy",
-                        "c) The main symptom of accelerated hypertension syndrome is leg edema",
-                        "d) Macrosomia is more likely",
-                        "e) Platelet count often increases"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q33 What is necessary when resuscitating a newborn at birth? Choose one.",
-                      choices: [
-                        "a) Chilled linen",
-                        "b) Nasal and oral suction set",
-                        "c) Oxygen-air blender",
-                        "d) Stethoscope",
-                        "e) Pulse oximeter"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q34 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
-                      choices: [
-                        "a) Cerebrospinal fluid",
-                        "b) Blood",
-                        "c) Gastric fluid",
-                        "d) Urine",
-                        "e) Feces"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q35 Which is least likely to complicate severe neonatal asphyxia? Choose one.",
-                      choices: [
-                        "a) Acute renal failure",
-                        "b) Hypoxic-ischemic encephalopathy",
-                        "c) Acute gastric mucosal lesions",
-                        "d) Jaundice",
-                        "e) Persistent pulmonary hypertension of the newborn"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q36 Which is incorrect as an initial resuscitation method in neonatal resuscitation? Choose one.",
-                      choices: [
-                        "a) Cardiac massage",
-                        "b) Keeping warm",
-                        "c) Opening the airway",
-                        "d) Maintaining proper position",
-                        "e) Drying and stimulating the skin"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q37 Which is incorrect about transient tachypnea of the newborn? Choose one.",
-                      choices: [
-                        "a) Nasal flaring",
-                        "b) Inspiratory stridor",
-                        "c) Retractions",
-                        "d) Grunting",
-                        "e) Cyanosis"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q38 Which factor is not appropriate for increasing insensible water loss in a newborn? Choose one.",
-                      choices: [
-                        "a) Lower gestational age",
-                        "b) Low birth weight",
-                        "c) Short duration after birth",
-                        "d) High environmental temperature",
-                        "e) High environmental humidity"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q39 Which is incorrect about vitamin K deficiency in infants? Choose one.",
-                      choices: [
-                        "a) Intracranial hemorrhage is frequent in vitamin K deficiency in infants",
-                        "b) If vitamin K deficiency is suspected, treatment is started after confirming with blood coagulation tests",
-                        "c) PIVKA-II (Protein Induced by Vitamin K Absence or Antagonist-II) is elevated",
-                        "d) Antibiotics containing the NMTT (N-methylthiotetrazole) group are a risk factor",
-                        "e) Weekly administration of vitamin K syrup until 3 months after birth is a preventive method"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q40 Which is correct about maternal infections and their management? Choose one.",
-                      choices: [
-                        "a) Toxoplasmosis - Fetal blood transfusion",
-                        "b) Syphilis - Tetracycline administration to the mother",
-                        "c) Hepatitis C virus - Vaccination of the infant",
-                        "d) HIV - Vaginal delivery",
-                        "e) HTLV-1 - Avoid direct breastfeeding"
-                      ]
-                    }
-                  ]                  
+          groupTag : "産科2021本 機械英訳",
+          groupContents: [
+            {
+              questionSentence: "Q1 Which ultrasound finding is most useful for determining the expected date of delivery? Choose one.",
+              choices: [
+                "a) Size of the gestational sac at 5 weeks of pregnancy",
+                "b) Crown-rump length at  9 weeks of pregnancy",
+                "c) Fetal heart rate at 14 weeks of pregnancy",
+                "d) Biparietal diameter at 16 weeks of pregnancy",
+                "e) Estimated fetal weight at 28 weeks of pregnancy"
+              ],
+              answerImg: [peri2021q1],
+              answer: "b",
+              commentary: "【問題文原文】分娩予定日を決定するのに最も有用な超音波所見はどれか。一つ選べ。 【選択肢原文】a) 妊娠 5 週時の胎嚢の大きさ, b) 妊娠 9 週時の頭殿長, c) 妊娠 14 週時の児心拍数, d) 妊娠 16 週時の児頭大横径, e) 妊娠 28 週時の胎児推定体重"
+            },
+            {
+              questionSentence: "Q2 Which is being measured in Figure 1? Choose one.",
+              choices: [
+                "a) GS",
+                "b) CRL",
+                "c) BPD",
+                "d) AC",
+                "e) FL"
+              ],
+              answerImg: [peri2021q2],
+              answer: "Cannot be determined",
+              commentary: "【問題文原文】図 1 で計測しているのはどれか。一つ選べ。 【選択肢原文】a) GS, b) CRL, c) BPD, d) AC, e) FL"
+            },
+            {
+              questionSentence: "Q3 Which can be administered to a pregnant woman? Choose one.",
+              choices: [
+                "a) Aminoglycoside antibiotics",
+                "b) Tetracycline antibiotics",
+                "c) Macrolide antibiotics",
+                "d) New quinolone antibiotics",
+                "e) Warfarin"
+              ],
+              answerImg: [peri2021q3_1, peri2021q3_2, peri2021q3_3],
+              answer: "c",
+              commentary: "【問題文原文】妊婦に投与できるものはどれか。一つ選べ。 【選択肢原文】a) アミノグリコシド系抗菌薬, b) テトラサイクリン系抗菌薬, c) マクロライド系抗菌薬, d) ニューキノロン系抗菌薬, e) ワルファリン"
+            },
+            {
+              questionSentence: "Q4 Which is the correct number of days from fertilization to implantation? Choose one.",
+              choices: [
+                "a) 1 day",
+                "b) 3 days",
+                "c) 7 days",
+                "d) 14 days",
+                "e) 28 days"
+              ],
+              answerImg: [peri2021q4],
+              answer: "c",
+              commentary: "【問題文原文】受精から着床までに要する日数として正しいのはどれか。一つ選べ。 【選択肢原文】a) 1 日, b) 3 日, c) 7 日, d) 14 日, e) 28 日"
+            },
+            {
+              questionSentence: "Q5 What is the correct lifespan of sperm ejaculated into the vagina? Choose one.",
+              choices: [
+                "a) 1 hour",
+                "b) 6 hours",
+                "c) 12 hours",
+                "d) 24 hours",
+                "e) 72 hours"
+              ],
+              answerImg: [peri2021q5],
+              answer: "e",
+              commentary: "【問題文原文】膣内に射精された精子の寿命として正しいものはどれか。一つ選べ。 【選択肢原文】a) 1 時間, b) 6 時間, c) 12 時間, d) 24 時間, e) 72 時間"
+            },
+            {
+              questionSentence: "Q6 Which of the following changes occurs in the later stages of a normal pregnancy? Choose one.",
+              choices: [
+                "a) Increase in blood creatinine levels",
+                "b) Increase in blood hemoglobin levels",
+                "c) Decrease in triglycerides",
+                "d) Decrease in white blood cell count",
+                "e) Increase in circulating blood volume"
+              ],
+              answerImg: [peri2021q6],
+              answer: "e",
+              commentary: "【問題文原文】正常妊娠後期に起こる変化として正しいものはどれか。一つ選べ。 【選択肢原文】a) 血中クレアチニン濃度の上昇, b) 血中ヘモグロビン濃度の上昇, c) 中性脂肪の低下, d) 白血球数の減少, e) 循環血液量の増加"
+            },
+            {
+              questionSentence: "Q7 What is the average weight gain throughout pregnancy? Choose one.",
+              choices: [
+                "a) 3kg",
+                "b) 5kg",
+                "c) 10kg",
+                "d) 20kg",
+                "e) 30kg"
+              ],
+              answer: "c",
+              commentary: "【問題文原文】妊娠全期間の体重増加で平均的なものはどれか。一つ選べ。 【選択肢原文】a) 3kg, b) 5kg, c) 10kg, d) 20kg, e) 30kg"
+            },
+            {
+              questionSentence: "Q8 Which of the following has the highest blood oxygen partial pressure in fetal circulation? Choose one.",
+              choices: [
+                "a) Umbilical vein",
+                "b) Descending aorta",
+                "c) Ascending aorta",
+                "d) Left ventricle",
+                "e) Pulmonary vein"
+              ],
+              answerImg: [peri2021q8],
+              answer: "a",
+              commentary: "【問題文原文】胎児循環の中で最も血中酸素分圧が高いものはどれか。一つ選べ。 【選択肢原文】a) 臍帯静脈, b) 下行大動脈, c) 上行大動脈, d) 左心室, e) 肺静脈"
+            },
+            {
+              questionSentence: "Q9 Which of the following statements about amniotic fluid is incorrect? Choose one.",
+              choices: [
+                "a) It originates from fetal urine",
+                "b) It originates from alveolar secretions",
+                "c) It peaks at 8 months of pregnancy",
+                "d) It reaches 1000 mL at 10 months of pregnancy",
+                "e) "
+              ],
+              answerImg: [peri2021q9],
+              answer: "c",
+              commentary: "【問題文原文】羊水に関して誤っているものはどれか。一つ選べ。 【選択肢原文】a) 胎児尿に由来する, b) 肺胞分泌物に由来する, c) 妊娠 8 ヶ月でピークを迎える, d) 妊娠 10 ヶ月で 1000mL に達する, e) "
+            },
+            {
+              questionSentence: "Q10 Which is the correct combination? Choose one.",
+              choices: [
+                "a) Ectoderm - heart",
+                "b) Ectoderm - lungs",
+                "c) Mesoderm - thyroid",
+                "d) Mesoderm - uterus",
+                "e) Endoderm - central nervous system"
+              ],
+              answerImg: [peri2021q10],
+              answer: "d",
+              commentary: "【問題文原文】正しい組み合わせはどれか。一つ選べ。 【選択肢原文】a) 外胚葉 - 心臓, b) 外胚葉 - 肺, c) 中胚葉 - 甲状腺, d) 中胚葉 - 子宮, e) 内胚葉 - 中枢神経"
+            },
+            {
+              questionSentence: "Q11 Which hormone is not released from the placenta? Choose one.",
+              choices: [
+                "a) hCG",
+                "b) hPL",
+                "c) Progesterone",
+                "d) Estrogen",
+                "e) Prolactin"
+              ],
+              answerImg: [peri2021q11],
+              answer: "e",
+              commentary: "【問題文原文】胎盤から放出されないホルモンはどれか。一つ選べ。 【選択肢原文】a) hCG, b) hPL, c) プロゲステロン, d) エストロゲン, e) プロラクチン"
+            },
+            {
+              questionSentence: "Q12 Which of the following is not one of the three elements of childbirth? Choose one.",
+              choices: [
+                "a) Umbilical cord",
+                "b) Labor pain",
+                "c) Soft birth canal",
+                "d) Amniotic fluid",
+                "e) Breast"
+              ],
+              answer: "e",
+              commentary: "【問題文原文】分娩の三要素に含まれないものはどれか。一つ選べ。 【選択肢原文】a) 臍帯, b) 陣痛, c) 軟産道, d) 羊水, e) 乳房"
+            },
+            {
+              questionSentence: "Q13 Which of the following fetal positions is normal? Choose one.",
+              choices: [
+                "a) Cephalic position",
+                "b) Breech position",
+                "c) Transverse position",
+                "d) Oblique position",
+                "e) Footling position"
+              ],
+              answerImg: [peri2021q13],
+              answer: "a",
+              commentary: "【問題文原文】次の胎位の中で正常なものはどれか。一つ選べ。 【選択肢原文】a) 頭位, b) 骨盤位, c) 横位, d) 斜位, e) 足位"
+            },
+            {
+              questionSentence: "Q14 Which of the following fetal attitudes is normal? Choose one.",
+              choices: [
+                "a) Frontal position",
+                "b) Parietal position",
+                "c) Occipital position",
+                "d) Forehead position",
+                "e) Facial position"
+              ],
+              answerImg: [peri2021q14],
+              answer: "c",
+              commentary: "【問題文原文】次の胎勢の中で正常なものはどれか。一つ選べ。 【選択肢原文】a) 前頭位, b) 頭頂位, c) 後頭位, d) 額位, e) 顔位"
+            },
+            {
+              questionSentence: "Q15 In the diagnosis of pregnancy, which term indicates the relationship between the long axis of the fetus and the long axis of the uterus? Choose one.",
+              choices: [
+                "a) Fetal lie",
+                "b) Rotation",
+                "c) Presentation",
+                "d) Attitude",
+                "e) Classification"
+              ],
+              answerImg: [peri2021q15],
+              answer: "c",
+              commentary: "【問題文原文】妊婦の診断において、胎児の長軸と子宮の長軸の相互関係を示したのはどれか。一つ選べ。 【選択肢原文】a) 胎向, b) 回旋, c) 胎位, d) 胎勢, e) 分類"
+            },
+            {
+              questionSentence: "Q16 If the fetal back is on the left side and facing anteriorly, which one is it? Choose one.",
+              choices: [
+                "a) First fetal lie - first classification",
+                "b) First fetal lie - second classification",
+                "c) First fetal lie - third classification",
+                "d) Second fetal lie - first classification",
+                "e) Second fetal lie - second classification"
+              ],
+              answerImg: [peri2021q16],
+              answer: "a",
+              commentary: "【問題文原文】胎児の背中が左側かつ前方を向く場合はどれか。一つ選べ。 【選択肢原文】a) 第 1 胎向一第 1 分類, b) 第 1 胎向一第 2 分類, c) 第 1 胎向一第 3 分類, d) 第 2 胎向一第 1 分類, e) 第 2 胎向一第 2 分類"
+            },
+            {
+              questionSentence: "Q17 What is the weight of the placenta at 10 months of pregnancy? Choose one.",
+              choices: [
+                "a) 500g",
+                "b) 1000g",
+                "c) 1500g",
+                "d) 2000g",
+                "e) 3000g"
+              ],
+              answerImg: [peri2021q17],
+              answer: "a",
+              commentary: "【問題文原文】妊娠 10 ヶ月での胎盤の重さはどれか。一つ選べ。 【選択肢原文】a) 500g, b) 1000g, c) 1500g, d) 2000g, e) 3000g"
+            },
+            {
+              questionSentence: "Q18 Which of the following is not a change seen in the mother in the later stages of pregnancy? Choose one.",
+              choices: [
+                "a) Dilatation of the ureters",
+                "b) Breast enlargement",
+                "c) Skin pigmentation",
+                "d) Cardiac hypertrophy",
+                "e) Decrease in basal metabolic rate"
+              ],
+              answerImg: [peri2021q18_1, peri2021q18_2],
+              answer: "e",
+              commentary: "【問題文原文】妊娠後期の母体にみられる変化として当てはまらないものはどれか。一つ選べ。 【選択肢原文】a) 尿管の拡張, b) 乳房の腫大, c) 皮膚の色素沈着, d) 心臓の肥大, e) 基礎代謝の低下"
+            },
+            {
+              questionSentence: "Q19 Which is not included in the BPS? Choose one.",
+              choices: [
+                "a) NST",
+                "b) Fetal breathing movements",
+                "c) Amniotic fluid volume",
+                "d) Fetal movements",
+                "e) Umbilical artery blood flow"
+              ],
+              answerImg: [peri2021q19],
+              answer: "e",
+              commentary: "【問題文原文】BPS に含まれないのはどれか。一つ選べ。 【選択肢原文】a) NST, b) 呼吸様運動, c) 羊水量, d) 胎動, e) 臍帯動脈血流"
+            },
+            {
+              questionSentence: "Q20 What is the correct cause of transient decelerations in fetal heart rate variability? Choose one.",
+              choices: [
+                "a) Fetal head compression",
+                "b) Fetal infection",
+                "c) Umbilical cord compression",
+                "d) Fetal anemia",
+                "e) Maternal hypotension"
+              ],
+              answerImg: [peri2021q20],
+              answer: "c",
+              commentary: "【問題文原文】胎動心電図変動一過性徐脈の原因として正しいものを一つ選べ。 【選択肢原文】a) 児頭圧迫, b) 胎児感染, c) 臍帯圧迫, d) 胎児貧血, e) 母体低血圧"
+            },
+            {
+              questionSentence: "Q22 In normal delivery, what is the position of the fetal head when it is fixed? Choose one.",
+              choices: [
+                "a) Station -2",
+                "b) Station -1",
+                "c) Station 0",
+                "d) Station +1",
+                "e) Station +2"
+              ],
+              answerImg: [peri2021q22],
+              answer: "c",
+              commentary: "【問題文原文】正常分娩において、児頭が固定したときの児頭先進部の位置はどれか。一つ選べ。 【選択肢原文】a) Station -2, b) Station -1, c) Station 0, d) Station +1, e) Station +2"
+            },
+            {
+              questionSentence: "Q23 Which of the following statements about normal delivery is correct? Choose one.",
+              choices: [
+                "a) The first stage of labor is from the onset of labor to the dilation of the cervix by 3cm",
+                "b) In the first stage of labor, contractions occur at 60-minute intervals",
+                "c) In the first stage of labor, the fetal head is at the level of the ischial spines",
+                "d) In the second stage of labor, the sagittal suture aligns with the transverse diameter of the pelvis",
+                "e) In the third stage of labor, the placenta is delivered"
+              ],
+              answerImg: [peri2021q23],
+              answer: "e",
+              commentary: "【問題文原文】正常分娩について正しいものはどれか。一つ選べ。 【選択肢原文】a) 分娩第 1 期は産徴がみられてから子宮口が 3cm 開大するまでである, b) 分娩第 1 期では陣痛は 60 分間隔でみられる, c) 分娩第 1 期では児頭は排臨である, d) 分娩第 2 期では矢状縫合は骨盤横径に一致する, e) 分娩第 3 期では胎盤が娩出される"
+            },
+            {
+              questionSentence: "Q24 Which is not included in the Bishop score? Choose one.",
+              choices: [
+                "a) Cervical effacement",
+                "b) Position of the cervix",
+                "c) Consistency of the cervix",
+                "d) Station of the fetal head",
+                "e) Frequency of uterine contractions"
+              ],
+              answerImg: [peri2021q24],
+              answer: "e",
+              commentary: "【問題文原文】Bishop スコアに含まれないものはどれか。一つ選べ。 【選択肢原文】a) 子宮頸管の進退度, b) 子宮口の位置, c) 子宮頸管の硬度, d) 児頭の高さ, e) 子宮収縮の頻度"
+            },
+            {
+              questionSentence: "Q25 Which statement is incorrect? Choose one.",
+              choices: [
+                "a) Symptoms of congenital rubella syndrome include heart disease, hearing loss, and glaucoma",
+                "b) The risk of congenital rubella syndrome increases the earlier in pregnancy the infection occurs",
+                "c) Hygiene education is not necessary for cytomegalovirus infection",
+                "d) Parvovirus B19 infection can cause anemia and fetal hydrops",
+                "e) Caesarean section may be performed for herpes virus infection considering the risk of birth canal infection"
+              ],
+              answerImg: [peri2021q25],
+              answer: "c",
+              commentary: "【問題文原文】間違いはどれか。一つ選べ。 【選択肢原文】a) 先天性風疹症候群の症状は心疾患、難聴、緑内障の 3 つである。, b) 先天性風疹症候群は妊娠早期であるほど発症の可能性が高くなる(?), c) サイトメガロウイルス感染症では衛生教育はしなくてよい (文もっと長い)。, d) パルボ b19 ウイルスの感染は貧血、 胎児水腫の原因となりうる。, e) ヘルペスウイルス感染症では産道感染の可能性を考えて帝王切開することがある。"
+            },
+            {
+              questionSentence: "Q26 Which condition is least likely to cause external bleeding during pregnancy and delivery? Choose one.",
+              choices: [
+                "a) Placenta previa",
+                "b) Premature rupture of membranes",
+                "c) Uterine inversion",
+                "d) Uterine cervix laceration",
+                "e) Atonic bleeding"
+              ],
+              answerImg: [peri2021q26],
+              answer: "a",
+              commentary: "【問題文原文】妊娠・分娩時に外出血をきたしにくいのはどれか。一つ選べ。 【選択肢原文】a) 前置胎盤, b) 前期破水, c) 子宮内反症, d) 子宮顎管裂傷, e) 弛緩出血"
+            },
+            {
+              questionSentence: "Q27 A 28-week 3-day pregnant woman presents with genital bleeding. Figure 2 shows the findings of a transvaginal ultrasound. What is the diagnosis? Choose one.",
+              choices: [
+                "a) Placental abruption",
+                "b) Ectopic pregnancy",
+                "c) Placenta previa",
+                "d) Threatened preterm labor",
+                "e) Polyhydramnios"
+              ],
+              answer: "a or c",
+              commentary: "【問題文原文】妊娠 28 週 3 日、 性器出血で受診。 経膣超音波検査の所見を図 2 に示す。 診断はどれか。一つ選べ。 【選択肢原文】a) 常位胎盤剥離, b) 異所性妊娠, c) 前置胎盤, d) 切迫早産, e) 羊水過多症"
+            },
+            {
+              questionSentence: "Q28 Which of the following causes polyhydramnios? Choose one.",
+              choices: [
+                "a) Post-term pregnancy",
+                "b) Premature rupture of membranes",
+                "c) Fetal esophageal atresia",
+                "d) Placental insufficiency",
+                "e) Fetal Potter syndrome"
+              ],
+              answerImg: [peri2021q28],
+              answer: "c",
+              commentary: "【問題文原文】羊水過多を起こすものはどれか。一つ選べ。 【選択肢原文】a) 過期妊娠, b) 前期破水, c) 胎児食道閉鎖, d) 胎盤機能不全, e) 胎児 Potter 症候群"
+            },
+            {
+              questionSentence: "Q29 Figure 3 shows the transvaginal ultrasound findings of a 3-week 1-day pregnant woman. Irregular uterine contractions are observed in the fetal heart rate tracing. Which treatment is inappropriate for this pregnant woman? Choose one.",
+              questionImg: [peri2021qS29],
+              choices: [
+                "a) Bed rest",
+                "b) Oxytocin administration",
+                "c) Ritodrine hydrochloride administration",
+                "d) Magnesium sulfate administration",
+                "e) Betamethasone administration"
+              ],
+              answerImg: [peri2021q29],
+              answer: "b",
+              commentary: "【問題文原文】図 3 は妊娠 3 週 1 日の妊婦の経膣超音波所見である。胎児心拍陣痛図にて不規則な子宮収縮を認める。この妊婦に対する治療として不適切なものはどれか。1 つ選べ。 【選択肢原文】a) 安静, b) オキシトシン投与, c) 塩酸リトドリン投与, d) 硫酸マグネシウム投与, e) ベタメタゾン投与"
+            },
+            {
+              questionSentence: "Q30 Premature rupture of membranes is observed at 32 weeks of pregnancy. Which treatment is inappropriate in this situation? Choose one.",
+              choices: [
+                "a) Antibiotic administration",
+                "b) Cervical bacterial culture",
+                "c) Caesarean section",
+                "d) ",
+                "e) "
+              ],
+              answerImg: [peri2021q30],
+              answer: "b",
+              commentary: "【問題文原文】妊娠 32 週目で前期破水が見られた。 この状況で行う処置として不適切なものを一つ選べ。 【選択肢原文】a) 抗生剤投与, b) 頸管細菌培養, c) 帝王切開, d) , e) "
+            },
+            {
+              questionSentence: "Q31 Which statement about twin pregnancy in Figure 4 is correct? Choose one.",
+              questionImg: [peri2021qS31],
+              choices: [
+                "a) Cord entanglement is more likely",
+                "b) Twin-to-twin transfusion syndrome can occur",
+                "c) The sexes are different",
+                "d) There are two placentas",
+                "e) It is a dichorionic diamniotic twin pregnancy"
+              ],
+              answerImg: [peri2021q31_1, peri2021q31_2],
+              answer: "b",
+              commentary: "【問題文原文】図 4 の双胎妊娠について正しいものはどれか。一つ選べ。 【選択肢原文】a) 臍帯相互巻絡が起こりやすい, b) 双胎間輸血症候群が起こりうる, c) 性別が異なる。, d) 胎盤が 2 つある。, e) 二絨毛膜二羊膜双胎である"
+            },
+            {
+              questionSentence: "Q32 Which statement about pregnancy-induced hypertension is correct? Choose one.",
+              choices: [
+                "a) One of the complications, eclampsia, is more common in primiparas",
+                "b) Pregnancy-induced hypertension nephropathy is more likely to occur in early pregnancy",
+                "c) The main symptom of accelerated hypertension nephropathy is lower leg edema",
+                "d) The fetus tends to be macrosomic",
+                "e) Platelets are often increased"
+              ],
+              answerImg: [peri2021q32],
+              answer: "a",
+              commentary: "【問題文原文】妊娠高血圧について正しいものはどれか。一つ選べ。 【選択肢原文】a) 合併症の一つである子癇は初産婦に多い, b) 妊娠高血圧腎症は妊娠初期から発症しやすい。, c) 加速型高血圧腎症の主症状は下腿浮腫である, d) 巨大児になりやすい。, e) 血小板は増加することが多い"
+            },
+            {
+              questionSentence: "Q33 What is necessary for neonatal resuscitation at birth? Choose one.",
+              choices: [
+                "a) Chilled linen",
+                "b) Nasal and oral suction set",
+                "c) Oxygen air blender",
+                "d) Stethoscope",
+                "e) Pulse oximeter"
+              ],
+              answerImg: [peri2021q33],
+              answer: "b",
+              commentary: "【問題文原文】新生児の出生立ち会いで蘇生するときに必要なものはどれか。一つ選べ。 【選択肢原文】a) 冷やしたリネン, b) 鼻口腔吸引セット, c) 酸素空気ブレンダー, d) 聴診器, e) パルスオキシメーター"
+            },
+            {
+              questionSentence: "Q34 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
+              choices: [
+                "a) Cerebrospinal fluid",
+                "b) Blood",
+                "c) Gastric fluid",
+                "d) Urine",
+                "e) Stool"
+              ],
+              answerImg: [peri2021q34],
+              answer: "c",
+              commentary: "【問題文原文】呼吸窮迫症候群を確かめるためのマイクロバブルテストで使用する児の試料はどれか。一つ選べ。 【選択肢原文】a) 髄液, b) 血液, c) 胃液, d) 尿, e) 便"
+            },
+            {
+              questionSentence: "Q35 Which is least likely to be a complication of severe neonatal asphyxia? Choose one.",
+              choices: [
+                "a) Acute renal failure",
+                "b) Hypoxic-ischemic encephalopathy",
+                "c) Acute gastric mucosal lesions",
+                "d) Jaundice",
+                "e) Persistent pulmonary hypertension"
+              ],
+              answerImg: [peri2021q35],
+              answer: "d",
+              commentary: "【問題文原文】重症新生児仮死に併発しにくいものはどれか。一つ選べ。 【選択肢原文】a) 急性腎不全, b) 低酸素性虚血性脳症, c) 急性胃粘膜病変, d) 黄疸, e) 遷延性肺高血圧症"
+            },
+            {
+              questionSentence: "Q36 Which of the following is incorrect regarding initial resuscitation in neonatal resuscitation? Choose one.",
+              choices: [
+                "a) Cardiac massage",
+                "b) Moisture retention",
+                "c) Airway clearance",
+                "d) Position maintenance",
+                "e) Drying and stimulation of the skin"
+              ],
+              answerImg: [peri2021q36],
+              answer: "e",
+              commentary: "【問題文原文】新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。 【選択肢原文】a) 心臓マッサージ, b) 保湿, c) 気道開通, d) 体位保持, e) 皮膚乾燥と刺激"
+            },
+            {
+              questionSentence: "Q37 Which statement about transient tachypnea of the newborn is incorrect? Choose one.",
+              choices: [
+                "a) Nasal flaring",
+                "b) Inspiratory stridor",
+                "c) Retraction",
+                "d) Grunting",
+                "e) Cyanosis"
+              ],
+              answerImg: [peri2021q37],
+              answer: "b",
+              commentary: "【問題文原文】新生児一過性多呼吸について誤っているものはどれか。一つ選べ。 【選択肢原文】a) 鼻翼呼吸, b) 吸気性喘鳴, c) 陥没呼吸, d) 呻吟, e) チアノーゼ"
+            },
+            {
+              questionSentence: "Q38 Which is not a factor that increases insensible water loss in newborns? Choose one.",
+              choices: [
+                "a) Short gestational age",
+                "b) Low birth weight",
+                "c) Short postnatal age",
+                "d) High environmental temperature",
+                "e) High environmental humidity"
+              ],
+              answerImg: [peri2021q38],
+              answer: "d",
+              commentary: "【問題文原文】新生児の不感蒸泄を増す因子として適切でないものはどれか。一つ選べ。 【選択肢原文】a) 在胎日数が少ない, b) 体重が小さい, c) 出生後日数が短い, d) 環境温度が高い, e) 環境湿度が高い"
+            },
+            {
+              questionSentence: "Q39 Which statement about vitamin K deficiency in infants is incorrect? Choose one.",
+              choices: [
+                "a) Intracranial hemorrhage is common in infants with vitamin K deficiency",
+                "b) If vitamin K deficiency is suspected, treatment is initiated after confirming with a blood coagulation test",
+                "c) PIVKA-II (protein induced by vitamin K absence or antagonist-II) increases",
+                "d) Antibiotics with an N-methylthiotetrazole (NMTT) group are a risk factor",
+                "e) As a preventive measure, VK syrup is administered once a week until 3 months after birth"
+              ],
+              answerImg: [peri2021q39_1, peri2021q39_2],
+              answer: "c?",
+              commentary: "【問題文原文】児のビタミン K(VK)欠乏症について誤っているのはどれか。一つ選べ。 【選択肢原文】a) 乳児期 VK 欠乏症では、頭蓋内出血の頻度が高い, b) VK 欠乏症を疑えば、 血液凝固検査で確認後、治療を開始する, c) PIVKA (protein induced by Vitamin K absence or antagonist)-Ⅱが上昇する, d) NMTT(N-メチルチオテトラゾール)基を有する抗生剤はリスク因子である, e) 予防法として、 週一回、出生後 3 ヶ月まで VK シロップを投与する方法がある"
+            },
+            {
+              questionSentence: "Q40 Which statement about maternal infections and their management is correct? Choose one.",
+              choices: [
+                "a) Toxoplasmosis - fetal blood transfusion",
+                "b) Syphilis - tetracycline administration to the mother",
+                "c) Hepatitis C virus - vaccine administration to the infant",
+                "d) HIV - vaginal delivery",
+                "e) HTLV-1 - avoid direct breastfeeding"
+              ],
+              answerImg: [peri2021q40],
+              answer: "e",
+              commentary: "【問題文原文】母体感染症とその対応について正しいものはどれか。一つ選べ。 【選択肢原文】a) トキソプラズマー胎児輸血, b) 梅毒一母体へのテトラサイクリン投与, c) C 型肝炎ウイルスー児へのワクチン投与, d) HIV-経膣分娩, e) HTLV-1-児への直接授乳を避ける"
+            }
+            ]            
         },{
             groupTag : "腫瘍疾患2022本試験",
             groupContents: [{
