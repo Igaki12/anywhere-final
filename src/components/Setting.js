@@ -218,6 +218,12 @@ export const Setting = ({
             <Divider orientation="horizontal" mt={3} mb="1" />
             <Text>アップデート履歴</Text>
             <Text fontSize={"sm"}>
+              2024 chatGPTによる機械英訳を導入
+            </Text>
+            <Text fontSize={"sm"}>
+              2024 googleOCRによる文字起こし
+            </Text>
+            <Text fontSize={"sm"}>
               2024 GithubCopilotによる効率的なアプリ開発
             </Text>
             <Text fontSize={'sm'}>

@@ -189,6 +189,86 @@ export const useQuestionList = () => {
                 },]
               
             
+        },{
+          groupTag: "感染症 出席 機械英訳",
+          groupContents: [
+            {
+              questionSentence: "Which of the following statements about antibiotic-resistant bacteria is correct?",
+              choices: [
+                "a. There are two mechanisms for the emergence of drug resistance: natural resistance and acquired resistance.",
+                "b. There is no relationship between the use of antibiotics and antibiotic-resistant bacteria.",
+                "c. The number of deaths directly attributable to antibiotic-resistant bacteria worldwide exceeds 180,000 annually.",
+                "d. MRSA has a higher infectivity compared to regular Staphylococcus aureus.",
+                "e. Vancomycin-resistant Staphylococcus aureus has not yet been isolated in Japan.",
+                "f. Antiviral drug-resistant viruses are also emerging."
+              ],
+              answer: "a, c, e, f",
+              commentary: "【問題文原文】薬剤耐性菌について正しいのはどれか。正答率-( 8 【選択肢原文】a. 薬剤耐性出現のメカニズムには、自然耐性と獲得耐性がある b. 抗菌薬使用と薬剤耐性菌に関係性はない c. 世界における薬剤耐性菌に直接起因する死亡者数は、年間18万人以上である d. MRSAは通常の黄色ブドウ球菌に比較して感染力が強い e. バンコマイシン耐性黄色ブドウ球菌は、日本ではまだ分離されたことがない f. ウイルスにも抗ウイルス薬耐性ウイルスが出現している"
+            },
+            {
+              questionSentence: "Which of the following statements about vancomycin-resistant enterococci (VRE) is correct?",
+              choices: [
+                "a. Many VRE carriers are often colonized in the intestines for a long time.",
+                "b. Although the isolation rate in Japan is low, the number of reports in Nara Prefecture has increased in recent years.",
+                "c. The emergence of VRE is due to the acquisition of external genes such as the vanA gene.",
+                "d. VRE isolated from hospitalized patients are highly pathogenic.",
+                "e. Contact precautions are important for infection prevention."
+              ],
+              answer: "a, b, c, e",
+              commentary: "【問題文原文】パンコマイシン耐性腸球菌(VRE )について正しいものはどれか。 【選択肢原文】a. VRE保菌者の多くは腸管に長期間定着していることが多い b. 日本における分離率は低いが、近年奈良県における報告数が増えている c. VREの出現は、va 遺伝子などを外来遺伝子として獲得することによる d. 入院患者から分離されるVREは病原性が高い e. 感染予防は接触感染予防策が重要である"
+            },
+            {
+              questionSentence: "Which of the following statements about methicillin-resistant Staphylococcus aureus (MRSA) is correct?",
+              choices: [
+                "a. It is one of the major causative bacteria of nosocomial infections.",
+                "b. In addition to methicillin, it shows resistance to β-lactam antibiotics.",
+                "c. It shows resistance to methicillin through the acquisition of the vanA gene.",
+                "d. Administration of vancomycin is an effective treatment for MRSA.",
+                "e. MRSA is detected not only in humans but also in livestock and pets."
+              ],
+              answer: "a, b, d, e",
+              commentary: "【問題文原文】メチシリン耐性黄色ブドウ球菌(MRSA)について正しいのはどれか。 【選択肢原文】a. 院内感染の主要な原因菌の一つである。 b. メチシリンに加えて、β-ラクタム系抗生物質に耐性を示す。 c. vanA遺伝子の獲得によりメチシリンに耐性を示す。 d. バンコマイシンの投与がMRSAに対する有効な治療法である。 e. MRSAはヒトだけでなく、家畜やペットからも検出されている。"
+            },
+            {
+              questionSentence: "Which of the following statements about extended-spectrum β-lactamases (ESBL) is correct?",
+              choices: [
+                "a. They are inhibited by β-lactamase inhibitors such as clavulanic acid (CVA).",
+                "b. They are produced by MRSA.",
+                "c. They efficiently hydrolyze carbapenem antibiotics.",
+                "d. They efficiently degrade cephamycins.",
+                "e. Recently, community-acquired infections caused by ESBL-producing bacteria have been observed.",
+                "f. Recently, the isolation rate of ESBL in Escherichia coli has increased."
+              ],
+              answer: "a, e, f",
+              commentary: "【問題文原文】基質特異性拡張型β-ラクタマーゼ(ESBL)について正しいのはどれか。 【選択肢原文】a. クラブラン酸(CVA)などのβ-ラクタマーゼ阻害剤によって阻害される。 b. MRSAによって産生される。 c. カルバペネム系抗生物質を効率的に加水分解する。 d. セファマイシン系を効率的に分解する。 e. 近年、ESBL産生菌による市中感染症が見られる。 f. 近年、大腸菌における分離率が増加している。"
+            },
+            {
+              questionSentence: "Which of the following statements is correct?",
+              choices: [
+                "a. Multidrug-resistant Pseudomonas aeruginosa (MDRP) is resistant to three classes of antibiotics: carbapenems, aminoglycosides, and fluoroquinolones.",
+                "b. About 10% of Pseudomonas aeruginosa isolated in Japan are multidrug-resistant.",
+                "c. Infections caused by multidrug-resistant Pseudomonas aeruginosa are classified as 'drug-resistant Pseudomonas aeruginosa infections,' a Category V infectious disease under the Infectious Diseases Control Law, and reporting from all facilities is required.",
+                "d. Multidrug-resistant Acinetobacter species are resistant to three classes of antibiotics: carbapenems, aminoglycosides, and fluoroquinolones.",
+                "e. About 10% of Acinetobacter species isolated in Japan are multidrug-resistant.",
+                "f. Infections caused by multidrug-resistant Acinetobacter species are classified as 'drug-resistant Acinetobacter infections,' a Category V infectious disease under the Infectious Diseases Control Law, and reporting from all facilities is required."
+              ],
+              answer: "a, d, f",
+              commentary: "【問題文原文】以下の文について正しいのはどれか。 【選択肢原文】a. 多剤耐性緑膿菌(MDRP)はカルバペネム、アミノ配糖体、フルオロキノロンの3系統の薬剤に耐性を示す。 b. 本邦で分離される緑膿菌のうち、多剤耐性緑膿菌は約10%を占める。 c. 多剤耐性緑膿菌による感染症は「薬剤耐性緑膿菌感染症」とされ、感染症法で5類感染症であり、全施設からの報告が求められている。 d. 多剤耐性アシネトバクター属菌はカルバペネム、アミノ配糖体、フルオロキノロンの3系統の薬剤に耐性を示す。 e. 本邦で分離されるアシネトバクター属菌のうち、多剤耐性アシネトバクター属菌は約10%を占める。 f. 多剤耐性アシネトバクター属菌による感染症は「薬剤耐性アシネトバクター感染症」とされ、感染症法で5類感染症であり、全施設からの報告が求められている。"
+            },
+            {
+              questionSentence: "Which of the following is not included in Japan's Antimicrobial Resistance (AMR) Action Plan 2023-2027?",
+              choices: [
+                "a. Monitoring trends in antimicrobial resistance",
+                "b. Appropriate use of antibiotics",
+                "c. Proper infection prevention and control",
+                "d. Dissemination of knowledge and understanding of antimicrobial resistance",
+                "e. Suspension of employment for healthcare workers carrying drug-resistant bacteria"
+              ],
+              answer: "e",
+              commentary: "【問題文原文】日本の抗菌薬耐性(AMR)アクションプラン2023-2027に含まれないものはどれか。 【選択肢原文】a. 抗菌薬耐性の動向監視 b. 抗菌薬の適正使用 c. 適切な感染予防と制御 d. 抗菌薬耐性に関する知識と理解の普及 e. 薬剤耐性菌を保有する医療従事者の雇用停止"
+            }
+          ]
+          
         },
         {
             groupTag: "法医学 出席課題",
@@ -3494,509 +3574,6 @@ export const useQuestionList = () => {
                         "c. 対策型胃がん検診では胃内視鏡検査が行われる",
                         "d. 心理的な負担はがん検診のデメリットの一つである",
                         "e. 対策型大腸がん検診ではCTコロノスコピーが行われる"
-                      ]
-                    }
-                  ]                  
-        },{
-            groupTag : "腫瘍疾患2022本試験機械英訳",
-            groupContents: [{
-                detailInfo: "chatGPT4oによる機械英訳",
-                      questionSentence: "Q1 Which of the following combinations regarding the diagnosis and treatment of malignant tumors is correct? (Multiple choices possible)",
-                      choices: [
-                        "1. Diagnosis includes presence diagnosis, qualitative diagnosis, and staging diagnosis, but staging diagnosis is not always necessary for treatment.",
-                        "2. Pathological tissue diagnosis is essential to start treatment in any situation.",
-                        "3. It is recommended to decide the treatment method through cancer boards according to clinical guidelines.",
-                        "4. Comprehensive decisions should be made considering the patient's general condition and complications.",
-                        "5. Depending on the stage and general condition of the patient, choose one of the surgical therapy, radiation therapy, chemotherapy, or immunotherapy for treatment."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q2 Which of the following is incorrect regarding the treatment of malignant tumors?",
-                      choices: [
-                        "a. Drug therapy, which is one of the treatments, includes cytotoxic anti-cancer drugs, molecular targeted therapies, and immune checkpoint inhibitors.",
-                        "b. Surgery, radiation therapy, and chemotherapy are never performed on the same patient.",
-                        "c. Surgery and radiation therapy are local therapies, while chemotherapy is a systemic therapy.",
-                        "d. In solid cancers, chemotherapy alone does not lead to curative treatment.",
-                        "e. Chemotherapy has a sensitizing effect on radiation therapy."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q3 Which of the following combinations regarding radiation therapy for primary lung cancer is incorrect? (Multiple choices possible)",
-                      choices: [
-                        "1. To suppress tumor movement due to respiration, irradiation is usually performed under respiratory arrest.",
-                        "2. To suppress body movement during irradiation, the body is basically fixed during irradiation.",
-                        "3. For locally advanced lung cancer, concurrent use of radiation therapy and chemotherapy is desirable.",
-                        "4. For small cell lung cancer, the fractionation and total dose are different compared to non-small cell lung cancer.",
-                        "5. The irradiation range is determined according to the guidelines based on the histological type of the tumor."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q4 Which of the following combinations regarding stereotactic radiation therapy for primary lung cancer is correct? (Multiple choices possible)",
-                      choices: [
-                        "1. The target stage is stage 3.",
-                        "2. Stereotactic radiation therapy cannot be performed for patients in poor general condition who cannot undergo surgery.",
-                        "3. Compared to the usual irradiation method of 60Gy/30 times, the dose per fraction is higher and the total dose is also higher.",
-                        "4. Compared to the usual irradiation method of 60Gy/30 times, the therapeutic effect on tumors is higher.",
-                        "5. In stereotactic radiation therapy for tumors in the lung hilum, severe late adverse events to large blood vessels are a concern."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q5 Which of the following is correct regarding the surgical treatment of cancer?",
-                      choices: [
-                        "a. Lymphogenous metastasis is rare in cancer progression.",
-                        "b. Minimally invasive surgery should not be used in cancer treatment.",
-                        "c. Radicality should be prioritized over organ function preservation.",
-                        "d. The goal is to remove cancer microscopically rather than macroscopically.",
-                        "e. The stage of cancer is determined by the extent of the primary tumor, lymph node metastasis, and neural invasion."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q6 Which of the following is correct regarding lymphogenous metastasis of cancer?",
-                      choices: [
-                        "a. Regional lymph node dissection is unrelated to radicality.",
-                        "b. Lymph node metastasis and hematogenous metastasis are unlikely to occur simultaneously.",
-                        "c. In advanced colorectal cancer, it is better to remove as much of the affected intestine as possible.",
-                        "d. The definition of regional lymph nodes is the same for gastric cancer, colorectal cancer, and pancreatic cancer.",
-                        "e. Sentinel lymph node biopsy is widely used in breast cancer."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q7 Which of the following antibody therapeutic agents has an affinity for PD-1?",
-                      choices: [
-                        "a. Nivolumab",
-                        "b. Bevacizumab",
-                        "c. Denosumab",
-                        "d. Durvalumab",
-                        "e. Necitumumab"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q8 Which of the following statements is correct regarding molecular targeted therapies (kinase inhibitors)?",
-                      choices: [
-                        "a. Gefitinib has a lower frequency of liver damage compared to erlotinib.",
-                        "b. Crizotinib is more likely to cause visual impairment compared to alectinib.",
-                        "c. Osimertinib has a lower frequency of leukopenia compared to gefitinib.",
-                        "d. Osimertinib is effective against T790M resistance mutations and ineffective against L858R and ex19 deletion mutations.",
-                        "e. Alectinib is effective against non-small cell lung cancer with ROS1 gene translocation."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q9 Which disease has the highest mortality rate per 100,000 population? Choose one.",
-                      choices: [
-                        "a. Senility",
-                        "b. Suicide",
-                        "c. Heart disease",
-                        "d. Pneumonia",
-                        "e. Malignant neoplasm"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q10 Which of the following statements regarding genetic panel testing for advanced solid cancers, approved for insurance in 2019, is incorrect?",
-                      choices: [
-                        "a. It can decode a large amount of genetic information.",
-                        "b. It is fast.",
-                        "c. It has a high potential to lead to molecular targeted therapies.",
-                        "d. It may detect gene mutations associated with hereditary tumors.",
-                        "e. It uses tumor tissue."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q11 What is the name of the clinical trial that allows registration of any type of cancer if the drug targets a specific genetic mutation? Choose one.",
-                      choices: [
-                        "a. Phase 1 trial",
-                        "b. Umbrella trial",
-                        "c. Phase 3 trial",
-                        "d. Post-marketing clinical trial",
-                        "e. Basket trial"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q12 Which of the following organ-transcending genetic abnormalities approved for molecular targeted drugs is incorrect?",
-                      choices: [
-                        "a. NTRK fusion gene",
-                        "b. ROS1 fusion gene",
-                        "c. MSI-H (high-frequency microsatellite instability)",
-                        "d. TMB-High (high tumor mutation burden)"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q13 Which of the following is not a supportive therapy? Choose one.",
-                      choices: [
-                        "a. Oral care",
-                        "b. Skin care",
-                        "c. Administration of antiemetics",
-                        "d. Blood transfusion",
-                        "e. Administration of immune checkpoint inhibitors"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q14 Which of the following is not a side effect of EGFR antibodies? Choose one.",
-                      choices: [
-                        "a. Acneiform rash",
-                        "b. Dry skin",
-                        "c. Paronychia",
-                        "d. Hand-foot syndrome",
-                        "e. Cracks in fingers"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q15 Which of the following tumors is generally not indicated for curative radiation therapy?",
-                      choices: [
-                        "a. Prostate cancer",
-                        "b. Laryngeal cancer",
-                        "c. Fibrosarcoma",
-                        "d. Cervical cancer",
-                        "e. Lung cancer"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q16 Which of the following combinations of cell cycle phases is most sensitive to radiation? (Multiple choices possible)",
-                      choices: [
-                        "1. M phase (mitosis)",
-                        "2. G0 phase (quiescent phase)",
-                        "3. G1 phase (DNA synthesis preparation phase)",
-                        "4. S phase (DNA synthesis phase)",
-                        "5. G2 phase (pre-mitotic phase)"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q17 What is the target of the drug-specific inhibitory effect induced by imatinib in the treatment of chronic myeloid leukemia?",
-                      choices: [
-                        "a. Ligand-gated ion channel",
-                        "b. MAP kinase",
-                        "c. Nuclear receptor",
-                        "d. Tyrosine kinase",
-                        "e. G-protein-coupled receptor"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q18 Which anti-cancer drug is most effective in the G2 phase of the cell cycle?",
-                      choices: [
-                        "a. Methotrexate",
-                        "b. Paclitaxel",
-                        "c. Bleomycin",
-                        "d. Cytarabine",
-                        "e. Irinotecan"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q19 Which combination of tumor immune-suppressing factors and the cells that express them is incorrect? (Multiple choices possible)",
-                      choices: [
-                        "1. IFN-γ - M2 (alternatively-activated) macrophages",
-                        "2. CD28 - Helper T cells",
-                        "3. PD-L1 - Tumor cells",
-                        "4. PD-1 - Killer T cells",
-                        "5. TGF-β - Regulatory T cells"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q20 Which of the following combinations is incorrect regarding tumor immunity? (Multiple choices possible)",
-                      choices: [
-                        "1. Cancer stem cells have self-replication ability.",
-                        "2. GVL (Graft versus leukemia) promotes tumor cell proliferation.",
-                        "3. Human papillomavirus is involved in the carcinogenesis of endometrial cancer.",
-                        "4. BCG, which also has an immunostimulatory effect, is used clinically for the treatment of bladder cancer.",
-                        "5. Cancer Immunoediting is a hypothesis that explains the paradox where cancer grows despite the existence of an immune surveillance mechanism against cancer."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q21 Which of the following combinations of cancer and risk factors is incorrect?",
-                      choices: [
-                        "a. Hepatocellular carcinoma - Hepatitis C virus infection",
-                        "b. Esophageal cancer (adenocarcinoma) - Obesity",
-                        "c. Endometrial cancer - Diabetes",
-                        "d. Cervical cancer - HTLV-1 infection",
-                        "e. Kidney cancer - Smoking"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q22 Which of the following statements about smoking measures is incorrect?",
-                      choices: [
-                        "a. Smoking cessation treatment can be received under health insurance.",
-                        "b. New restaurants cannot have smoking rooms.",
-                        "c. The Health Promotion Act stipulates measures to prevent passive smoking.",
-                        "d. Minors are prohibited from entering smoking rooms.",
-                        "e. Hospitals can set up indoor smoking areas if necessary measures are taken."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q23 Which of the following biological characteristics of cancer cells is incorrect?",
-                      choices: [
-                        "a. Ability to destroy the basement membrane",
-                        "b. Resistance to apoptosis",
-                        "c. Contact inhibition of cell proliferation",
-                        "d. Weakening of intercellular adhesion mechanisms",
-                        "e. Acquisition of telomerase activity"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q24 Which of the following biological characteristics of cancer cells is incorrect?",
-                      choices: [
-                        "a. Cancer is a heterogeneous group of cells.",
-                        "b. The p53 gene is a tumor suppressor gene.",
-                        "c. DNA methylation causes inactivation of tumor suppressor genes.",
-                        "d. The cancerous lesion has abundant blood flow due to cancer angiogenesis.",
-                        "e. Cancer cells that have undergone epithelial-mesenchymal transition have increased motility."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q25 Which of the following statements is incorrect?",
-                      choices: [
-                        "a. Pathological diagnosis is a medical act, not a test.",
-                        "b. When a clinician requests a pathological diagnosis, there is no need to record the medical history.",
-                        "c. Small pathological specimens do not provide an overall picture of the lesion.",
-                        "d. Pathological diagnosis is the basis for treatment policy.",
-                        "e. DNA can be extracted from formalin-fixed paraffin-embedded (FFPE) tissue specimens."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q26 Which gene has the highest frequency of therapeutic target gene abnormalities detected in Japanese lung adenocarcinoma?",
-                      choices: [
-                        "a. KRAS",
-                        "b. BRAF",
-                        "c. EGFR",
-                        "d. HER2",
-                        "e. ROS1"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q27 Which of the following is correct? (Multiple choices possible)",
-                      choices: [
-                        "1. Humanized antibodies can reduce immune reactions to xenogeneic antibodies.",
-                        "2. Tight junctions are composed of claudins.",
-                        "3. Claudins are seven-pass transmembrane proteins.",
-                        "4. Tight junctions create strong cell-cell adhesion in a calcium-dependent manner.",
-                        "5. Tight junctions have barrier and fence functions, maintaining the microenvironment between cells."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q28 Which of the following is correct? (Multiple choices possible)",
-                      choices: [
-                        "1. Treating cultured cells with anti-claudin antibodies causes cell damage via ADCC.",
-                        "2. ADCC does not occur when anti-claudin antibodies are applied in a nude mouse experimental system.",
-                        "3. Disruption of tumor tight junctions causes leakage of growth factors within the tumor, inhibiting proliferation.",
-                        "4. Disruption of tumor tight junctions enhances the transfer of anticancer drugs into the tumor.",
-                        "5. In antibody therapy, the expression level of the target protein does not correlate with the efficacy of the antibody."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q29 Which of the following statements is correct about palliative care?",
-                      choices: [
-                        "a. Palliative care starts after cancer treatment is finished.",
-                        "b. Palliative care should be provided not only to cancer patients but also to their families.",
-                        "c. The concept of total pain is not advocated in Japanese palliative care.",
-                        "d. Financial issues of cancer patients should be handled by other healthcare professionals, and doctors should focus on treatment.",
-                        "e. WHO's definition of palliative care does not include spiritual care."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q30 Which of the following statements about medical narcotics is correct?",
-                      choices: [
-                        "a. A patient complained of cancer pain, but the use of medical narcotics was refrained because the patient was undergoing anti-cancer treatment.",
-                        "b. A patient complained of cancer pain, but the use of medical narcotics was refrained because the family strongly objected to their use.",
-                        "c. When a patient complains of cancer pain, the use of medical narcotics should be actively considered.",
-                        "d. When starting medical narcotics, the use of NSAIDs that had been used up to that point was discontinued.",
-                        "e. The use of medical narcotics should be limited to terminal cancer patients."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q31 Which of the following is correct about the course of the dying psychological stage advocated by Kübler Ross?",
-                      choices: [
-                        "a. Depression → denial → bargaining → anger → acceptance",
-                        "b. Depression → anger → denial → acceptance",
-                        "c. Denial → depression → bargaining → anger → acceptance",
-                        "d. Denial → anger → depression → acceptance",
-                        "e. Anger → depression → denial → acceptance"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q32 Which of the following is correct?",
-                      choices: [
-                        "1. Delirium is often seen in the terminal stages of cancer.",
-                        "2. Delirium is not considered a consciousness disorder.",
-                        "3. The most common mental symptoms in cancer patients with adjustment disorders are hallucinations and depression.",
-                        "4. In principle, drug therapy should not be performed for depression in cancer patients.",
-                        "5. Apathy and drowsiness in cancer patients require consideration of depression and hypoactive delirium."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q33 Which of the following combinations of cancer diseases or conditions and IVR is incorrect?",
-                      choices: [
-                        "a. Hepatocellular carcinoma - Transcatheter arterial embolization (TAE/TACE)",
-                        "b. Obstructive jaundice - Stent placement",
-                        "c. Metastatic osteolytic vertebral tumor - Percutaneous vertebroplasty/kyphoplasty",
-                        "d. Esophageal obstruction/severe stenosis - Percutaneous endoscopic gastrostomy",
-                        "e. Metastatic liver tumor - Percutaneous radiofrequency ablation"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q34 Which of the following is incorrect?",
-                      choices: [
-                        "a. When performing continuous intra-arterial infusion therapy, an implanted device called a reservoir is inserted.",
-                        "b. Arterial embolization is contraindicated for tumor thrombus in the main portal vein.",
-                        "c. Intra-arterial infusion therapy achieves high local drug concentration at the lesion site and high local effect but has many side effects.",
-                        "d. Intra-arterial chemotherapy is sometimes combined with systemic chemotherapy.",
-                        "e. IVR is also useful for palliative treatment of cancer."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q35 Which of the following combinations is correct?",
-                      choices: [
-                        "1. According to the Cancer Research Promotion Foundation's 'Cancer Statistics 22', breast cancer has the highest incidence and mortality among female cancers.",
-                        "2. Breast-conserving therapy is a treatment that combines partial mastectomy and postoperative radiation therapy.",
-                        "3. Regardless of the extent of the lesion, breast-conserving therapy is indicated for non-invasive cancer.",
-                        "4. Postoperative irradiation for breast cancer requires careful attention to infection due to myelosuppression.",
-                        "5. Severe radiation pneumonitis is common after postoperative irradiation for breast cancer."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q36 Which of the following is correct?",
-                      choices: [
-                        "a. Squamous cell carcinoma is the most common skin cancer in Japanese people.",
-                        "b. Surgery is the first choice of treatment for basal cell carcinoma and squamous cell carcinoma.",
-                        "c. The buildup effect refers to the phenomenon where the dose is higher in a slightly deeper part than the skin surface when irradiated from the body surface.",
-                        "d. Using bolus can increase the radiation sensitivity of skin cancer cells.",
-                        "e. The purpose of radiation therapy for malignant skin tumors is mostly palliative."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q37 Which of the following head and neck cancers is treated with chemoradiotherapy as the first choice rather than surgery?",
-                      choices: [
-                        "a. Thyroid cancer",
-                        "b. Parotid gland cancer",
-                        "c. Nasopharyngeal cancer",
-                        "d. Oropharyngeal cancer",
-                        "e. Hypopharyngeal cancer"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q38 Which of the following gastrointestinal cancers is treated with definitive chemoradiotherapy as the first choice rather than surgery?",
-                      choices: [
-                        "a. Gastric cancer",
-                        "b. Ileal cancer",
-                        "c. Descending colon cancer",
-                        "d. Anal cancer",
-                        "e. Lower bile duct cancer"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q39 Which of the following is correct?",
-                      choices: [
-                        "a. The main treatment for hematopoietic tumors is radiation therapy.",
-                        "b. Hematopoietic tumors generally have low radiation sensitivity, requiring doses of 60Gy or more.",
-                        "c. Total body irradiation is effective for treating lymphomas with multiple lesions throughout the body.",
-                        "d. It is said that 50% of people die within 60 days if exposed to 4Gy of total body irradiation.",
-                        "e. In total body irradiation, only acute adverse events are problematic."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q40 Which of the following combinations is incorrect?",
-                      choices: [
-                        "1. The WHO classification of brain tumors combines morphological classification with genetic diagnosis.",
-                        "2. A characteristic pathological finding of glioblastoma is the palisading arrangement of nuclei around necrotic foci.",
-                        "3. Standard treatment for glioblastoma combines surgery, postoperative radiation therapy, and chemotherapy.",
-                        "4. The standard dose for radiation therapy for glioblastoma is 25Gy/5 fractions.",
-                        "5. The median survival time for glioblastoma is about 3 years."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q41 Which of the following is the correct combination of parallel organs?",
-                      choices: [
-                        "a. Liver",
-                        "b. Optic nerve",
-                        "c. Brain stem",
-                        "d. Spinal cord",
-                        "e. Lung"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q42 Which of the following statements is correct?",
-                      choices: [
-                        "a. Electron beams are used for the treatment of deep-seated tumors.",
-                        "b. X-rays have the highest dose on the body surface and decrease as they go deeper.",
-                        "c. Proton beams have a Bragg peak.",
-                        "d. External radiation therapy uses beta rays and gamma rays generated by a linear accelerator.",
-                        "e. Radiation therapy uses lower energy X-rays than radiation diagnosis."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q43 After definitive radiation therapy for cervical cancer, which of the following adverse events appears the latest?",
-                      choices: [
-                        "a. Radiation sickness",
-                        "b. Intestinal obstruction",
-                        "c. Diarrhea",
-                        "d. Skin redness",
-                        "e. Frequent urination"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q44 Which of the following radioactive isotopes is used for brachytherapy of prostate cancer?",
-                      choices: [
-                        "1. Radium-223",
-                        "2. Yttrium-90",
-                        "3. Gallium-67",
-                        "4. Iridium-192",
-                        "5. Iodine-125"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q45 Which of the following is correct?",
-                      choices: [
-                        "a. Sarcoma is a malignant tumor of non-epithelial origin.",
-                        "b. Irradiating 60Gy to water raises the water temperature by more than 1°C.",
-                        "c. X-rays are charged particle beams and have a range.",
-                        "d. Round cell sarcoma can be easily distinguished by hematoxylin-eosin staining alone.",
-                        "e. Surgery is not performed for soft tissue sarcoma due to its radiosensitivity."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q46 Which of the following schedules for palliative irradiation for bone metastases is least appropriate?",
-                      choices: [
-                        "a. 8Gy / 1 fraction",
-                        "b. 20Gy / 5 fractions",
-                        "c. 30Gy / 10 fractions",
-                        "d. 37.5Gy / 15 fractions",
-                        "e. 60Gy / 30 fractions"
-                      ]
-                    },
-                    {
-                      questionSentence: "Q47 For a disease with a prevalence of 1% among 1000 people, which of the following is correct when a screening test with 80% sensitivity and 80% specificity is conducted?",
-                      choices: [
-                        "1. 8 people with the disease will test positive.",
-                        "2. 198 people will test positive.",
-                        "3. 794 people without the disease will test negative.",
-                        "4. The positive predictive value is about 96.2%.",
-                        "5. The negative predictive value is about 99.7%."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q48 Which of the following is incorrect?",
-                      choices: [
-                        "a. Serum P53 antibody is an autoantibody against overexpressed P53 protein.",
-                        "b. PIVKA-II is elevated in patients administered warfarin (vitamin K antagonist).",
-                        "c. HER2 expression in breast cancer tissue is a guideline for the use of molecular targeted therapies.",
-                        "d. Most tumor markers are not useful for the early detection of primary cancer.",
-                        "e. Tumor markers are not used to assess the effectiveness of surgery or chemotherapy."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q49 Which of the following is incorrect?",
-                      choices: [
-                        "a. Organized cervical cancer screening targets individuals from the age of 20.",
-                        "b. Overdiagnosis is one of the drawbacks of cancer screening.",
-                        "c. Organized breast cancer screening includes mammography every two years.",
-                        "d. Health screenings aim to detect specific diseases early for timely treatment.",
-                        "e. Organized screenings aim to reduce mortality in the target population."
-                      ]
-                    },
-                    {
-                      questionSentence: "Q50 Which of the following is incorrect?",
-                      choices: [
-                        "a. Low-dose CT is used for organized lung cancer screening.",
-                        "b. The participation rate in breast cancer screening in Japan is lower compared to Western countries.",
-                        "c. Endoscopy is performed for organized gastric cancer screening.",
-                        "d. Psychological burden is one of the drawbacks of cancer screening.",
-                        "e. CT colonoscopy is performed for organized colorectal cancer screening."
                       ]
                     }
                   ]                  
