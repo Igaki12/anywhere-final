@@ -1,3 +1,48 @@
+import peri22a32 from './img/answer/peri22a32.png';
+import peri22q14 from './img/answer/peri22q14.png';
+import peri22q15 from './img/answer/peri22q15.png';
+import peri22a34_1 from './img/answer/peri22a34_1.png';
+import peri22a34_3 from './img/answer/peri22a34_3.png';
+import peri22a34_2 from './img/answer/peri22a34_2.png';
+import peri22a26 from './img/answer/peri22a26.png';
+import peri22a31_1 from './img/answer/peri22a31_1.png';
+import peri22a7 from './img/answer/peri22a7.png';
+import peri22a27 from './img/answer/peri22a27.png';
+import peri22a33 from './img/answer/peri22a33.png';
+import peri22a19 from './img/answer/peri22a19.png';
+import peri22a25 from './img/answer/peri22a25.png';
+import peri22a31_2 from './img/answer/peri22a31_2.png';
+import peri22a4 from './img/answer/peri22a4.png';
+import peri22a30 from './img/answer/peri22a30.png';
+import peri22a24 from './img/answer/peri22a24.png';
+import peri22a1 from './img/answer/peri22a1.png';
+import peri22a35 from './img/answer/peri22a35.png';
+import peri22a21 from './img/answer/peri22a21.png';
+import peri22a37 from './img/answer/peri22a37.png';
+import peri22a23 from './img/answer/peri22a23.png';
+import peri22a2 from './img/answer/peri22a2.png';
+import peri22a36 from './img/answer/peri22a36.png';
+import peri22a13 from './img/answer/peri22a13.png';
+import peri22a6_2 from './img/answer/peri22a6_2.png';
+import peri22a12 from './img/answer/peri22a12.png';
+import peri22a20_1 from './img/answer/peri22a20_1.png';
+import peri22a20_3 from './img/answer/peri22a20_3.png';
+import peri22a38 from './img/answer/peri22a38.png';
+import peri22a10 from './img/answer/peri22a10.png';
+import peri22a6_1 from './img/answer/peri22a6_1.png';
+import peri22a11 from './img/answer/peri22a11.png';
+import peri22a39 from './img/answer/peri22a39.png';
+import peri22a20_2 from './img/answer/peri22a20_2.png';
+import peri22a15 from './img/answer/peri22a15.png';
+import peri22a29 from './img/answer/peri22a29.png';
+import peri22a8 from './img/answer/peri22a8.png';
+import peri22a9 from './img/answer/peri22a9.png';
+import peri22a14 from './img/answer/peri22a14.png';
+import peri22a17 from './img/answer/peri22a17.png';
+import peri22a40_2 from './img/answer/peri22a40_2.png';
+import peri22a40_3 from './img/answer/peri22a40_3.png';
+import peri22q26 from './img/answer/peri22q26.png';
+import peri22a40_1 from './img/answer/peri22a40_1.png';
 import Q10_non_question_page_5 from './img/answer/Q10_non_question_page_5.png';
 import periQ20 from './img/answer/periQ20.png';
 import Q2_non_question_page_2 from './img/answer/Q2_non_question_page_2.png';
@@ -71,6 +116,80 @@ export const useQuestionList = () => {
     const jpName = '3ブロック対策'
     const [questionList, setQuestionList] = useState([
         // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
+        {
+          groupTag: "感染症　出席課題",
+          groupContents: [
+              {
+                questionSentence: "薬剤耐性菌について正しいのはどれか。正答率-( 8",
+                choices: [
+                  "a. 薬剤耐性出現のメカニズムには、自然耐性と獲得耐性がある",
+                  "b. 抗菌薬使用と薬剤耐性菌に関係性はない",
+                  "c. 世界における薬剤耐性菌に直接起因する死亡者数は、年間18万人以上である",
+                  "d. MRSAは通常の黄色ブドウ球菌に比較して感染力が強い",
+                  "e. バンコマイシン耐性黄色ブドウ球菌は、日本ではまだ分離されたことがない",
+                  "f. ウイルスにも抗ウイルス薬耐性ウイルスが出現している"
+                ],
+                answer: "a, c, e, f"
+              },  {
+                questionSentence: "パンコマイシン耐性腸球菌(VRE )について正しいものはどれか。",
+                choices: [
+                  "a. VRE保菌者の多くは腸管に長期間定着していることが多い",
+                  "b. 日本における分離率は低いが、近年奈良県における報告数が増えている",
+                  "c. VREの出現は、va 遺伝子などを外来遺伝子として獲得することによる",
+                  "d. 入院患者から分離されるVREは病原性が高い",
+                  "e. 感染予防は接触感染予防策が重要である"
+                ],
+                answer: "a, b, c, e"
+              },
+                {
+                  questionSentence: "メチシリン耐性黄色ブドウ球菌(MRSA)について正しいのはどれか。",
+                  choices: [
+                    "a. 院内感染の主要な原因菌の一つである。",
+                    "b. メチシリンに加えて、β-ラクタム系抗生物質に耐性を示す。",
+                    "c. vanA遺伝子の獲得によりメチシリンに耐性を示す。",
+                    "d. バンコマイシンの投与がMRSAに対する有効な治療法である。",
+                    "e. MRSAはヒトだけでなく、家畜やペットからも検出されている。"
+                  ],
+                  answer: "a, b, d, e",
+                },
+                {
+                  questionSentence: "基質特異性拡張型β-ラクタマーゼ(ESBL)について正しいのはどれか。",
+                  choices: [
+                    "a. クラブラン酸(CVA)などのβ-ラクタマーゼ阻害剤によって阻害される。",
+                    "b. MRSAによって産生される。",
+                    "c. カルバペネム系抗生物質を効率的に加水分解する。",
+                    "d. セファマイシン系を効率的に分解する。",
+                    "e. 近年、ESBL産生菌による市中感染症が見られる。",
+                    "f. 近年、大腸菌における分離率が増加している。"
+                  ],
+                  answer: "a, e, f"
+                },
+                {
+                  questionSentence: "以下の文について正しいのはどれか。",
+                  choices: [
+                    "a. 多剤耐性緑膿菌(MDRP)はカルバペネム、アミノ配糖体、フルオロキノロンの3系統の薬剤に耐性を示す。",
+                    "b. 本邦で分離される緑膿菌のうち、多剤耐性緑膿菌は約10%を占める。",
+                    "c. 多剤耐性緑膿菌による感染症は「薬剤耐性緑膿菌感染症」とされ、感染症法で5類感染症であり、全施設からの報告が求められている。",
+                    "d. 多剤耐性アシネトバクター属菌はカルバペネム、アミノ配糖体、フルオロキノロンの3系統の薬剤に耐性を示す。",
+                    "e. 本邦で分離されるアシネトバクター属菌のうち、多剤耐性アシネトバクター属菌は約10%を占める。",
+                    "f. 多剤耐性アシネトバクター属菌による感染症は「薬剤耐性アシネトバクター感染症」とされ、感染症法で5類感染症であり、全施設からの報告が求められている。"
+                  ],
+                  answer: "a, d, f"
+                },
+                {
+                  questionSentence: "日本の抗菌薬耐性(AMR)アクションプラン2023-2027に含まれないものはどれか。",
+                  choices: [
+                    "a. 抗菌薬耐性の動向監視",
+                    "b. 抗菌薬の適正使用",
+                    "c. 適切な感染予防と制御",
+                    "d. 抗菌薬耐性に関する知識と理解の普及",
+                    "e. 薬剤耐性菌を保有する医療従事者の雇用停止"
+                  ],
+                  answer: "e"
+                },]
+              
+            
+        },
         {
             groupTag: "法医学 出席課題",
             groupContents: [{
@@ -859,7 +978,9 @@ export const useQuestionList = () => {
       "d) 精子の侵入により二次卵母細胞は第二減数分裂を再開する。",
       "e) 精子が侵入すると、卵子は透明体を硬化させて他の精子の侵入を防ぐ。これを先体反応という。"
     ],
-    answer: "e"
+    answer: "e",
+    answerImg: [peri22a1],
+    commentary:"先体反応ではなく透明体反応"
   },
   {
     questionSentence: "Q2 性周期について正しいものはどれか。一つ選べ。",
@@ -870,7 +991,9 @@ export const useQuestionList = () => {
       "d) エストラジオールの上昇の後でLHの上昇が起こる。",
       "e) a～dはいずれも誤っている。"
     ],
-    answer: "d"
+    answer: "d",
+    answerImg: [peri22a2],
+
   },
   {
     questionSentence: "Q3 三胚葉と分化する器官の組み合わせで正しいものはどれか。一つ選べ。",
@@ -881,7 +1004,8 @@ export const useQuestionList = () => {
       "d) 中胚葉 ― 子宮",
       "e) 内胚葉 ― 中枢神経"
     ],
-    answer: "d"
+    answer: "d",
+    commentary:"腎臓・生殖器は中胚葉由来。心臓、肺は中胚葉由来で、甲状腺は内胚葉由来、中枢神経は外胚葉由来"
   },
   {
     questionSentence: "Q4 胎盤から分泌されるホルモンとして、誤っているものはどれか。一つ選べ。",
@@ -892,7 +1016,8 @@ export const useQuestionList = () => {
       "d) プロゲステロン",
       "e) プロラクチン"
     ],
-    answer: "e"
+    answer: "e",
+    answerImg: [peri22a4],
   },
   {
     questionSentence: "Q5 羊水について誤っているものはどれか。一つ選べ。",
@@ -903,7 +1028,8 @@ export const useQuestionList = () => {
       "d) 妊娠10か月には1000mlに達する。",
       "e) 羊水はアルカリ性である。"
     ],
-    answer: "d"
+    answer: "d",
+    commentary:"妊娠8ヶ月にピークである800mlに達し、その後は減少する。"
   },
   {
     questionSentence: "Q6 超音波検査について正しいものはどれか。一つ選べ。",
@@ -914,7 +1040,9 @@ export const useQuestionList = () => {
       "d) 羊水量は羊水インデックスや羊水ポケットにより推定する。",
       "e) "
     ],
-    answer: "d"
+    answer: "d",
+    answerImg: [peri22a6_1, peri22a6_2],
+    commentary:"NT肥厚があっても70%は染色体異常を伴わない。"
   },
   {
     questionSentence: "Q7 妊娠悪阻の治療において、輸液投与の際ウェルニッケ脳症の予防のために投与すべきビタミンはどれか。一つ選べ。",
@@ -925,7 +1053,8 @@ export const useQuestionList = () => {
       "d) ビタミンD",
       "e) ビタミンK"
     ],
-    answer: "b"
+    answer: "b",
+    answerImg: [peri22a7],
   },
   {
     questionSentence: "Q8 分娩の3要素として正しいものはどれか。一つ選べ。",
@@ -936,7 +1065,8 @@ export const useQuestionList = () => {
       "d) 周辺環境",
       "e) 分娩時間"
     ],
-    answer: "c"
+    answer: "c",
+    answerImg: [peri22a8],
   },
   {
     questionSentence: "Q9 次の胎位の中で正常なものはどれか。一つ選べ。",
@@ -947,7 +1077,8 @@ export const useQuestionList = () => {
       "d) 斜位",
       "e) 足位"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a9],
   },
   {
     questionSentence: "Q10 Bishopスコアに含まれないのはどれか。一つ選べ。",
@@ -958,7 +1089,9 @@ export const useQuestionList = () => {
       "d) 先進部の位置",
       "e) 子宮収縮"
     ],
-    answer: "e"
+    answer: "e",
+    answerImg: [peri22a10],
+
   },
   {
     questionSentence: "Q11 分娩の経過について、正しいものはどれか。一つ選べ。",
@@ -969,7 +1102,8 @@ export const useQuestionList = () => {
       "d) 分娩の経過は胎向に影響される。",
       "e) 分娩の経過は陣痛に左右されない。"
     ],
-    answer: "b"
+    answer: "b",
+    answerImg: [peri22a11],
   },
   {
     questionSentence: "Q12 陣痛が有効であると考えられるものはどれか。一つ選べ。",
@@ -980,7 +1114,9 @@ export const useQuestionList = () => {
       "d) 陣痛発作が1分以上持続する。",
       "e) 血性粘液性帯下が出る。"
     ],
-    answer: "b"
+    answer: "a",
+    answerImg: [peri22a12],
+    commentary:"周期的な子宮収縮/陣痛は有効であるが、その間隔は分娩の進行段階により異なる。"
   },
   {
     questionSentence: "Q13 胎児の状態が良好であることを監視する適切な方法はどれか。二つ選べ。",
@@ -991,10 +1127,12 @@ export const useQuestionList = () => {
       "d) NST（ノンストレステスト）",
       "e) 超音波検査"
     ],
-    answer: "d, e"
+    answer: "d, e",
+    answerImg: [peri22a13],
   },
   {
     questionSentence: "Q14 妊娠30週の女性の腹部超音波画像が図1に示されている。胎児心拍数の分娩チャートには不規則な子宮収縮が認められる。この女性に投与するのに不適切な薬剤はどれか。二つ選べ。",
+    questionImg: [peri22q14],
     choices: [
       "a) インドメタシン",
       "b) リトドリン塩酸塩",
@@ -1002,10 +1140,13 @@ export const useQuestionList = () => {
       "d) オキシトシン",
       "e) ベタメタゾン"
     ],
-    answer: "a, d"
+    answer: "a, d",
+    answerImg: [peri22a14],
+    commentary:"子宮頸管無力症の所見。30週を考慮。インドメタシンは催奇形性があり、オキシトシンは子宮収縮を誘発する。"
   },
   {
     questionSentence: "Q15 図2に示す第1回旋異常について、名称と先進部の組み合わせで正しいものはどれか。一つ選べ。",
+    questionImg: [peri22q15],
     choices: [
       "a) ①前頭位 ― 耳",
       "b) ②前頭位 ― 後頭部",
@@ -1013,7 +1154,8 @@ export const useQuestionList = () => {
       "d) ③顎位 ― 目",
       "e) ③首位 ― 鼻"
     ],
-    answer: "c"
+    answer: "c",
+    answerImg: [peri22a15],
   },
   {
     questionSentence: "Q16 遷延分娩について正しいものはどれか。一つ選べ。",
@@ -1024,7 +1166,8 @@ export const useQuestionList = () => {
       "d) 胎児のストレスは気にしなくてよい。",
       "e) 母体の疲労は気にしなくてよい。"
     ],
-    answer: "c"
+    answer: "c",
+    commentary:"遷延分娩は初産婦で30時間以上、経産婦で15時間以上経過しても分娩に至らないもの。無痛分娩では腹圧不全により娩出が遅れやすい。"
   },
   {
     questionSentence: "Q17 38歳、3回経産婦。妊娠39週5日。3,960グラムの女児を出産した。分娩時間は36時間であった。胎盤娩出後より多量の出血を認め、子宮底は臍上2横指で、子宮の硬度は軟であった。もっとも疑わしい疾患はどれか。一つ選べ。",
@@ -1035,10 +1178,12 @@ export const useQuestionList = () => {
       "d) 弛緩出血",
       "e) 子宮頸管無力症"
     ],
-    answer: "d"
+    answer: "d",
+    answerImg: [peri22a17],
+    commentary:"子宮収縮不全→弛緩出血"
   },
   {
-    questionSentence: "Q18 問題番号17の症例に対する対処として不適切なものはどれか。一つ選べ。",
+    questionSentence: "Q18 問題番号17の症例(弛緩出血)に対する対処として不適切なものはどれか。一つ選べ。",
     choices: [
       "a) バルーンの使用",
       "b) オキシトシン投与",
@@ -1046,7 +1191,8 @@ export const useQuestionList = () => {
       "d) 子宮収縮抑制剤の投与",
       "e) 子宮底マッサージ"
     ],
-    answer: "d"
+    answer: "d",
+    commentary:"出産後の子宮収縮不全なので"
   },
   {
     questionSentence: "Q19 胎児機能不全を疑ったときに取るべき行動として不適切なものはどれか。一つ選べ。",
@@ -1057,7 +1203,8 @@ export const useQuestionList = () => {
       "d) NSTの継続",
       "e) 24時間後に再確認"
     ],
-    answer: "e"
+    answer: "e",
+    answerImg: [peri22a19],
   },
   {
     questionSentence: "Q20 妊娠高血圧について正しいものはどれか。一つ選べ。",
@@ -1068,7 +1215,8 @@ export const useQuestionList = () => {
       "d) 妊娠高血圧腎症は、two step theoryによる胎盤機能不全が原因となる。",
       "e) 血小板は増加することが多い。"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a20_1, peri22a20_2, peri22a20_3],
   },
   {
     questionSentence: "Q21 分娩中や分娩後に大量の外出血をきたしにくい疾患はどれか。一つ選べ。",
@@ -1079,7 +1227,9 @@ export const useQuestionList = () => {
       "d) 切迫早産",
       "e) 弛緩出血"
     ],
-    answer: "d"
+    answer: "d",
+    answerImg: [peri22a21],
+    commentary:"切迫早産でも出血は認めるが、致死的な出血は稀。"
   },
   {
     questionSentence: "Q22 28歳、経産婦。妊娠40週の女子を正常分娩。自然剥離の徴候がなかったため臍帯を引っ張り、胎盤を娩出した。直後より下腹部の激痛と多量の出血を認めた。双合診で子宮底を触知せず。もっとも考えられるのはどれか。一つ選べ。",
@@ -1090,7 +1240,8 @@ export const useQuestionList = () => {
       "d) 羊水塞栓",
       "e) 子宮内反症"
     ],
-    answer: "e"
+    answer: "e",
+    commentary:"正常分娩なのでaは考えにくい。b,c,dいずれも出血を認めるが、子宮底を触知できないのは子宮内反症の所見。"
   },
   {
     questionSentence: "Q23 羊水過多を起こしやすい疾患はどれか。二つ選べ。",
@@ -1101,7 +1252,9 @@ export const useQuestionList = () => {
       "d) 胎盤機能不全",
       "e) 胎児Potter症候群"
     ],
-    answer: "b, c"
+    answer: "b, c",
+    answerImg: [peri22a23],
+    commentary:"選択肢以外は羊水過少の原因となる。"
   },
   {
     questionSentence: "Q24 染色体異常でもっとも頻度が高いものはどれか。一つ選べ。",
@@ -1112,7 +1265,8 @@ export const useQuestionList = () => {
       "d) ターナー症候群",
       "e) クラインフェルター症候群"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a24],
   },
   {
     questionSentence: "Q25 妊娠32週の前期破水症例について必要でない管理はどれか。一つ選べ。",
@@ -1123,10 +1277,13 @@ export const useQuestionList = () => {
       "d) 母体の入院",
       "e) 頸管分泌物細菌培養"
     ],
-    answer: "c"
+    answer: "c",
+    commentary:"妊娠週数は予後に関わるが、胎児の体重は関係しない。原因としてクラミジアなどの感染症を疑うために頸管分泌物細菌培養が必要。",
+    answerImg: [peri22a25],
   },
   {
     questionSentence: "Q26 図3の双胎妊娠について正しいものはどれか。二つ選べ。",
+    questionImg: [peri22q26],
     choices: [
       "a) 臍帯相互巻絡をおこす。",
       "b) 双胎輸血間症候群の頻度が多い。",
@@ -1134,7 +1291,8 @@ export const useQuestionList = () => {
       "d) 二絨毛膜双胎である。",
       "e) 一絨毛膜双胎である。"
     ],
-    answer: "b, e"
+    answer: "b, e",
+    answerImg: [peri22a26],
   },
   {
     questionSentence: "Q27 TORCH症候群に含まれないものはどれか。一つ選べ。",
@@ -1145,7 +1303,8 @@ export const useQuestionList = () => {
       "d) サイトメガロウイルス",
       "e) トキソプラズマ"
     ],
-    answer: "b"
+    answer: "b",
+    answerImg: [peri22a27],
   },
   {
     questionSentence: "Q28 正常産褥の過程について正しいものはどれか。一つ選べ。",
@@ -1156,7 +1315,8 @@ export const useQuestionList = () => {
       "d) 産褥性無月経は授乳婦と非授乳婦でその期間はほぼ同じである。",
       "e) 産褥2週間で子宮は非妊娠時の状態に復古する。"
     ],
-    answer: "c"
+    answer: "c",
+    commentary:"乳汁分泌は産褥2日から3日までに開始される。産褥性無月経は授乳婦で3~4ヶ月、非授乳婦で2ヶ月程度。子宮底の高さが元に戻るのは産褥6~8週間。"
   },
   {
     questionSentence: "Q29 薬物が胎児に与える影響として正しいものはどれか。一つ選べ。",
@@ -1167,7 +1327,8 @@ export const useQuestionList = () => {
       "d) ",
       "e) a～dはいずれも誤っている。"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a29],
   },
   {
     questionSentence: "Q30 習慣性流産とは、一般に何回以上の連続した自然流産を指すか。一つ選べ。",
@@ -1178,7 +1339,8 @@ export const useQuestionList = () => {
       "d) 4回以上",
       "e) 5回以上"
     ],
-    answer: "c"
+    answer: "c",
+    answerImg: [peri22a30],
   },
   {
     questionSentence: "Q31 妊娠後期の母体にみられる変化として当てはまらないものはどれか。一つ選べ。",
@@ -1189,7 +1351,8 @@ export const useQuestionList = () => {
       "d) 心臓の肥大",
       "e) 基礎代謝の低下"
     ],
-    answer: "e"
+    answer: "e",
+    answerImg: [peri22a31_1, peri22a31_2],
   },
   {
     questionSentence: "Q32 うっ滞性乳腺炎の治療について誤っているものはどれか。一つ選べ。",
@@ -1200,7 +1363,10 @@ export const useQuestionList = () => {
       "d) 排膿・切開",
       "e) クーリング"
     ],
-    answer: "d"
+    answer: "b",
+    answerImg: [peri22a32],
+    commentary:"細菌感染の恐れがあるため授乳を中止する。"
+
   },
   {
     questionSentence: "Q33 わが国の妊産婦死亡率はどれか。一つ選べ。",
@@ -1211,7 +1377,8 @@ export const useQuestionList = () => {
       "d) 100,000人に3.3人",
       "e) 1,000,000人に3.3人"
     ],
-    answer: "d"
+    answer: "d",
+    answerImg: [peri22a33],
   },
   {
     questionSentence: "Q34 母体保護法およびリプロダクティブ・ライツについて誤っているものはどれか。二つ選べ。",
@@ -1222,7 +1389,8 @@ export const useQuestionList = () => {
       "d) 経口中絶薬にはWHOの承認を得たものがあり、日本を含む80ヶ国以上で使用されている。",
       "e) 胎児に致死的疾患がある場合、母体保護法に基づく中絶が可能である。"
     ],
-    answer: "d, e"
+    answer: "d, e",
+    answerImg: [peri22a34_1, peri22a34_2, peri22a34_3],
   },
   {
     questionSentence: "Q35 次のうち、Apgarスコアの計算に用いられないものはどれか。一つ選べ。",
@@ -1233,7 +1401,8 @@ export const useQuestionList = () => {
       "d) 心拍数",
       "e) 筋緊張"
     ],
-    answer: "c"
+    answer: "c",
+    answerImg: [peri22a35],
   },
   {
     questionSentence: "Q36 新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。",
@@ -1244,7 +1413,8 @@ export const useQuestionList = () => {
       "d) 体位保持",
       "e) 皮膚乾燥と刺激"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a36],
   },
   {
     questionSentence: "Q37 呼吸窮迫症候群を確かめるためのマイクロバブルテストで使用する児の試料はどれか。一つ選べ。",
@@ -1255,7 +1425,8 @@ export const useQuestionList = () => {
       "d) 尿",
       "e) 便"
     ],
-    answer: "c"
+    answer: "c",
+    answerImg: [peri22a37],
   },
   {
     questionSentence: "Q38 重症新生児仮死の診断・検査について、当てはまらないものはどれか。一つ選べ。",
@@ -1266,7 +1437,9 @@ export const useQuestionList = () => {
       "d) AST, ALT上昇",
       "e) PT, APTT延長"
     ],
-    answer: "b"
+    answer: "b",
+    answerImg: [peri22a38],
+    commentary:"代謝性アシドーシス"
   },
   {
     questionSentence: "Q39 新生児一過性多呼吸について誤っているものはどれか。一つ選べ。",
@@ -1277,7 +1450,8 @@ export const useQuestionList = () => {
       "d) 呻吟",
       "e) チアノーゼ"
     ],
-    answer: "b"
+    answer: "b",
+    answerImg: [peri22a39],
   },
   {
     questionSentence: "Q40 新生児の疾患について、正しいものはどれか。一つ選べ。",
@@ -1288,9 +1462,532 @@ export const useQuestionList = () => {
       "d) 壊死性腸炎は腸の血流増加が関与している。",
       "e) すべての新生児は出生後速やかに沐浴させる必要がある。"
     ],
-    answer: "a"
+    answer: "a",
+    answerImg: [peri22a40_1, peri22a40_2, peri22a40_3],
+    commentary:"1000g未満の場合は超低出生体重児。"
   }
 ]
+        },{
+          groupTag : "産科疾患2022本 機械英訳",
+          groupContents: [
+            {
+              questionSentence: "Q1 Which one is incorrect? Choose one.",
+              choices: [
+                "a) The number of follicles is highest during the fetal period.",
+                "b) Primary oocytes stop in the first meiotic prophase but resume due to the LH surge.",
+                "c) Primary spermatocytes become four sperm cells through the first and second meiotic divisions.",
+                "d) Secondary oocytes resume the second meiotic division upon sperm entry.",
+                "e) When a sperm enters, the egg hardens the zona pellucida to prevent other sperm from entering. This is called the acrosome reaction."
+              ],
+              answer: "e",
+              answerImg: [peri22a1],
+              commentary: "【問題文原文】誤っているものはどれか。一つ選べ。 【選択肢原文】卵胞数は胎児期が一番多い。 一次卵母細胞は第一減数分裂前期で止まるが、LHサージにより再開する。 一次精母細胞は第一減数分裂、第二減数分裂を経て4つの精子細胞になる。 精子の侵入により二次卵母細胞は第二減数分裂を再開する。 精子が侵入すると、卵子は透明体を硬化させて他の精子の侵入を防ぐ。これを先体反応という。"
+            },
+            {
+              questionSentence: "Q2 Which one is correct about the sexual cycle? Choose one.",
+              choices: [
+                "a) The basal membrane is exfoliated during menstruation.",
+                "b) Follicles mainly secrete progesterone, and the corpus luteum mainly secretes estrogen.",
+                "c) Estrogen causes decidual changes in the endometrium.",
+                "d) The rise in estradiol is followed by the rise in LH.",
+                "e) a-d are all incorrect."
+              ],
+              answer: "d",
+              answerImg: [peri22a2],
+              commentary: "【問題文原文】性周期について正しいものはどれか。一つ選べ。 【選択肢原文】月経時に基底膜は剥脱する。 卵胞はプロゲステロンを主に分泌し、黄体はエストロゲンを主に分泌する。 エストロゲンによって子宮内膜は脱落膜様変化が起こる。 エストラジオールの上昇の後でLHの上昇が起こる。 a～dはいずれも誤っている。"
+            },
+            {
+              questionSentence: "Q3 Which combination of the three germ layers and the organs they differentiate into is correct? Choose one.",
+              choices: [
+                "a) Ectoderm ― Heart",
+                "b) Ectoderm ― Lungs",
+                "c) Mesoderm ― Thyroid",
+                "d) Mesoderm ― Uterus",
+                "e) Endoderm ― Central nervous system"
+              ],
+              answer: "d",
+              commentary: "【問題文原文】三胚葉と分化する器官の組み合わせで正しいものはどれか。一つ選べ。 【選択肢原文】外胚葉 ― 心臓 外胚葉 ― 肺 中胚葉 ― 甲状腺 中胚葉 ― 子宮 内胚葉 ― 中枢神経"
+            },
+            {
+              questionSentence: "Q4 Which hormone secreted by the placenta is incorrect? Choose one.",
+              choices: [
+                "a) hCG (Human chorionic gonadotropin)",
+                "b) hPL (Human placental lactogen)",
+                "c) Estrogen",
+                "d) Progesterone",
+                "e) Prolactin"
+              ],
+              answer: "e",
+              answerImg: [peri22a4],
+              commentary: "【問題文原文】胎盤から分泌されるホルモンとして、誤っているものはどれか。一つ選べ。 【選択肢原文】hCG（ヒト絨毛性ゴナドトロピン） hPL（ヒト胎盤性ラクトーゲン） エストロゲン プロゲステロン プロラクチン"
+            },
+            {
+              questionSentence: "Q5 Which one is incorrect about amniotic fluid? Choose one.",
+              choices: [
+                "a) It originates from fetal urine.",
+                "b) It originates from alveolar secretions.",
+                "c) It peaks at 8 months of pregnancy.",
+                "d) It reaches 1000 ml at 10 months of pregnancy.",
+                "e) Amniotic fluid is alkaline."
+              ],
+              answer: "d",
+              commentary: "【問題文原文】羊水について誤っているものはどれか。一つ選べ。 【選択肢原文】胎児尿に由来する。 肺胞分泌物に由来する。 妊娠8か月にピークを迎える。 妊娠10か月には1000mlに達する。 羊水はアルカリ性である。"
+            },
+            {
+              questionSentence: "Q6 Which one is correct about ultrasound examination? Choose one.",
+              choices: [
+                "a) Fetal heart rate becomes detectable at 10 weeks of gestation.",
+                "b) Biparietal diameter is the most suitable for estimating gestational age.",
+                "c) Thickened nuchal translucency always accompanies chromosomal abnormalities.",
+                "d) Amniotic fluid volume is estimated by amniotic fluid index and amniotic fluid pocket.",
+                "e) "
+              ],
+              answer: "d",
+              answerImg: [peri22a6_1, peri22a6_2],
+              commentary: "【問題文原文】超音波検査について正しいものはどれか。一つ選べ。 【選択肢原文】胎生10週で胎児心拍が分かるようになる。 妊娠週数の推定には児頭大横径が最も適している。 NT肥厚があれば必ず染色体異常を伴う。 羊水量は羊水インデックスや羊水ポケットにより推定する。"
+            },
+            {
+              questionSentence: "Q7 Which vitamin should be administered to prevent Wernicke's encephalopathy when giving fluids for the treatment of hyperemesis gravidarum? Choose one.",
+              choices: [
+                "a) Vitamin A",
+                "b) Vitamin B1",
+                "c) Vitamin C",
+                "d) Vitamin D",
+                "e) Vitamin K"
+              ],
+              answer: "b",
+              answerImg: [peri22a7],
+              commentary: "【問題文原文】妊娠悪阻の治療において、輸液投与の際ウェルニッケ脳症の予防のために投与すべきビタミンはどれか。一つ選べ。 【選択肢原文】ビタミンA ビタミンB1 ビタミンC ビタミンD ビタミンK"
+            },
+            {
+              questionSentence: "Q8 Which one is correct as one of the three factors of delivery? Choose one.",
+              choices: [
+                "a) Timely rupture of membranes",
+                "b) Delivery position",
+                "c) Birth canal",
+                "d) Surrounding environment",
+                "e) Duration of delivery"
+              ],
+              answer: "c",
+              answerImg: [peri22a8],
+              commentary: "【問題文原文】分娩の3要素として正しいものはどれか。一つ選べ。 【選択肢原文】適時破水 分娩体位 産道 周辺環境 分娩時間"
+            },
+            {
+              questionSentence: "Q9 Which of the following fetal positions is normal? Choose one.",
+              choices: [
+                "a) Vertex presentation",
+                "b) Breech presentation",
+                "c) Transverse lie",
+                "d) Oblique lie",
+                "e) Footling presentation"
+              ],
+              answer: "a",
+              answerImg: [peri22a9],
+              commentary: "【問題文原文】次の胎位の中で正常なものはどれか。一つ選べ。 【選択肢原文】頭位 骨盤位 横位 斜位 足位"
+            },
+            {
+              questionSentence: "Q10 Which one is not included in the Bishop score? Choose one.",
+              choices: [
+                "a) Cervical effacement",
+                "b) Cervical position",
+                "c) Cervical consistency",
+                "d) Fetal station",
+                "e) Uterine contractions"
+              ],
+              answer: "e",
+              answerImg: [peri22a10],
+              commentary: "【問題文原文】Bishopスコアに含まれないのはどれか。一つ選べ。 【選択肢原文】頸管展退度 頸管位置 頸管硬度 先進部の位置 子宮収縮"
+            },
+            {
+              questionSentence: "Q11 Which one is correct about the course of delivery? Choose one.",
+              choices: [
+                "a) Elevation of the uterine fundus is a precursor symptom of delivery.",
+                "b) Blood-tinged mucus vaginal discharge is a precursor symptom of delivery.",
+                "c) It is normal for the duration of labor to be 60 hours.",
+                "d) The course of delivery is influenced by fetal position.",
+                "e) The course of delivery is not affected by contractions."
+              ],
+              answer: "b",
+              answerImg: [peri22a11],
+              commentary: "【問題文原文】分娩の経過について、正しいものはどれか。一つ選べ。 【選択肢原文】分娩の前駆症状に子宮底の上昇がある。 分娩の前駆症状に血性粘液性の膣分泌液がある。 分娩所要時間60時間は正常である。 分娩の経過は胎向に影響される。 分娩の経過は陣痛に左右されない。"
+            },
+            {
+              questionSentence: "Q12 Which one indicates effective labor? Choose one.",
+              choices: [
+                "a) Progression in internal examination findings.",
+                "b) Regular uterine contractions with intervals of less than 5 minutes.",
+                "c) Pain with each uterine contraction.",
+                "d) Contractions lasting more than 1 minute.",
+                "e) Blood-tinged mucus discharge."
+              ],
+              answer: "a",
+              answerImg: [peri22a12],
+              commentary: "【問題文原文】陣痛が有効であると考えられるものはどれか。一つ選べ。 【選択肢原文】内診所見の進行がある。 5分以内の周期的な子宮収縮がある。 子宮収縮のたびに疼痛がある。 陣痛発作が1分以上持続する。 血性粘液性帯下が出る。"
+            },
+            {
+              questionSentence: "Q13 Which of the following is appropriate for monitoring fetal well-being? Choose two.",
+              choices: [
+                "a) Blood test",
+                "b) MRI",
+                "c) Abdominal X-ray",
+                "d) NST (Non-stress test)",
+                "e) Ultrasound examination"
+              ],
+              answer: "d, e",
+              answerImg: [peri22a13],
+              commentary: "【問題文原文】胎児の状態が良好であることを監視する適切な方法はどれか。二つ選べ。 【選択肢原文】血液検査 MRI 腹部X線検査 NST（ノンストレステスト） 超音波検査"
+            },
+            {
+              questionSentence: "Q14 The abdominal ultrasound image of a 30-week pregnant woman is shown in Figure 1. Irregular uterine contractions are observed in the fetal heart rate partogram. Which drug is inappropriate for administration to this woman? Choose two.",
+              questionImg: [peri22q14],
+              choices: [
+                "a) Indomethacin",
+                "b) Ritodrine hydrochloride",
+                "c) Magnesium sulfate",
+                "d) Oxytocin",
+                "e) Betamethasone"
+              ],
+              answer: "a, d",
+              answerImg: [peri22a14],
+              commentary: "【問題文原文】妊娠30週の女性の腹部超音波画像が図1に示されている。胎児心拍数の分娩チャートには不規則な子宮収縮が認められる。この女性に投与するのに不適切な薬剤はどれか。二つ選べ。 【選択肢原文】インドメタシン リトドリン塩酸塩 硫酸マグネシウム オキシトシン ベタメタゾン"
+            },
+            {
+              questionSentence: "Q15 Regarding the first rotation abnormality shown in Figure 2, which combination of name and presenting part is correct? Choose one.",
+              questionImg: [peri22q15],
+              choices: [
+                "a) ① Brow presentation ― Ear",
+                "b) ② Brow presentation ― Occiput",
+                "c) ② Face presentation ― Forehead",
+                "d) ③ Chin presentation ― Eye",
+                "e) ③ Neck presentation ― Nose"
+              ],
+              answer: "c",
+              answerImg: [peri22a15],
+              commentary: "【問題文原文】図2に示す第1回旋異常について、名称と先進部の組み合わせで正しいものはどれか。一つ選べ。 【選択肢原文】①前頭位 ― 耳 ②前頭位 ― 後頭部 ②額位 ― 額 ③顎位 ― 目 ③首位 ― 鼻"
+            },
+            {
+              questionSentence: "Q16 Which one is correct about prolonged labor? Choose one.",
+              choices: [
+                "a) When labor does not progress within 15 hours in a primiparous woman.",
+                "b) When labor does not progress within 5 hours in a multiparous woman.",
+                "c) Painless delivery tends to extend the duration of labor.",
+                "d) Fetal stress should not be a concern.",
+                "e) Maternal fatigue should not be a concern."
+              ],
+              answer: "c",
+              commentary: "【問題文原文】遷延分娩について正しいものはどれか。一つ選べ。 【選択肢原文】初産婦で15時間以上経過しても分娩に至らないもの。 経産婦で5時間以上経過しても分娩に至らないもの。 無痛分娩は分娩にかかる時間が延長する傾向にある。 胎児のストレスは気にしなくてよい。 母体の疲労は気にしなくてよい。"
+            },
+            {
+              questionSentence: "Q17 A 38-year-old woman, 3 times multiparous, gave birth to a 3,960-gram girl at 39 weeks and 5 days of pregnancy. The duration of labor was 36 hours. After placental delivery, heavy bleeding was observed, and the uterine fundus was two fingerbreadths above the umbilicus, and the uterus was soft. Which is the most likely condition? Choose one.",
+              choices: [
+                "a) Cervical laceration",
+                "b) Perineal laceration",
+                "c) Uterine inversion",
+                "d) Atonic bleeding",
+                "e) Cervical incompetence"
+              ],
+              answer: "d",
+              answerImg: [peri22a17],
+              commentary: "【問題文原文】38歳、3回経産婦。妊娠39週5日。3,960グラムの女児を出産した。分娩時間は36時間であった。胎盤娩出後より多量の出血を認め、子宮底は臍上2横指で、子宮の硬度は軟であった。もっとも疑わしい疾患はどれか。一つ選べ。 【選択肢原文】子宮頸管裂傷 会陰裂傷 子宮内反症 弛緩出血 子宮頸管無力症"
+            },
+            {
+              questionSentence: "Q18 Which management is inappropriate for the condition in question 17 (atonic bleeding)? Choose one.",
+              choices: [
+                "a) Use of balloon",
+                "b) Administration of oxytocin",
+                "c) Sufficient fluid replacement",
+                "d) Administration of uterine relaxants",
+                "e) Uterine fundal massage"
+              ],
+              answer: "d",
+              commentary: "【問題文原文】問題番号17の症例(弛緩出血)に対する対処として不適切なものはどれか。一つ選べ。 【選択肢原文】バルーンの使用 オキシトシン投与 十分な輸液 子宮収縮抑制剤の投与 子宮底マッサージ"
+            },
+            {
+              questionSentence: "Q19 Which action is inappropriate when suspecting fetal distress? Choose one.",
+              choices: [
+                "a) Call for additional personnel",
+                "b) Prepare for rapid delivery",
+                "c) Contact neonatal pediatrics",
+                "d) Continue NST",
+                "e) Reassess after 24 hours"
+              ],
+              answer: "e",
+              answerImg: [peri22a19],
+              commentary: "【問題文原文】胎児機能不全を疑ったときに取るべき行動として不適切なものはどれか。一つ選べ。 【選択肢原文】マンパワーの招集 急速遂娩の準備 新生児小児科に連絡 NSTの継続 24時間後に再確認"
+            },
+            {
+              questionSentence: "Q20 Which is correct about pregnancy-induced hypertension? Choose one.",
+              choices: [
+                "a) Eclampsia, one of its complications, is more common in primiparas.",
+                "b) Pregnancy-induced hypertension nephropathy is likely to develop in early pregnancy.",
+                "c) The main symptom of severe pregnancy-induced hypertension nephropathy is genital bleeding.",
+                "d) Pregnancy-induced hypertension nephropathy is caused by placental dysfunction due to the two-step theory.",
+                "e) Platelets often increase."
+              ],
+              answer: "a",
+              answerImg: [peri22a20_1, peri22a20_2, peri22a20_3],
+              commentary: "【問題文原文】妊娠高血圧について正しいものはどれか。一つ選べ。 【選択肢原文】合併症の一つである子癇発作は初産婦に多い。 妊娠高血圧腎症は妊娠初期から発症しやすい。 加重型妊娠高血圧腎症の主症状は性器出血である。 妊娠高血圧腎症は、two step theoryによる胎盤機能不全が原因となる。 血小板は増加することが多い。"
+            },
+            {
+              questionSentence: "Q21 Which disease is less likely to cause massive external bleeding during or after delivery? Choose one.",
+              choices: [
+                "a) Placenta previa",
+                "b) Uterine rupture",
+                "c) Uterine inversion",
+                "d) Threatened preterm labor",
+                "e) Atonic bleeding"
+              ],
+              answer: "d",
+              answerImg: [peri22a21],
+              commentary: "【問題文原文】分娩中や分娩後に大量の外出血をきたしにくい疾患はどれか。一つ選べ。 【選択肢原文】前置胎盤 子宮破裂 子宮内反症 切迫早産 弛緩出血"
+            },
+            {
+              questionSentence: "Q22 A 28-year-old multiparous woman gave birth to a female infant at 40 weeks of pregnancy. The placenta was delivered by pulling on the umbilical cord as there were no signs of natural separation. Immediately after, she experienced severe lower abdominal pain and heavy bleeding. The uterine fundus was not palpable on bimanual examination. What is the most likely diagnosis? Choose one.",
+              choices: [
+                "a) Premature placental abruption",
+                "b) Atonic bleeding",
+                "c) Vaginal laceration",
+                "d) Amniotic fluid embolism",
+                "e) Uterine inversion"
+              ],
+              answer: "e",
+              commentary: "【問題文原文】28歳、経産婦。妊娠40週の女子を正常分娩。自然剥離の徴候がなかったため臍帯を引っ張り、胎盤を娩出した。直後より下腹部の激痛と多量の出血を認めた。双合診で子宮底を触知せず。もっとも考えられるのはどれか。一つ選べ。 【選択肢原文】常位胎盤早期剥離 弛緩出血 膣壁裂傷 羊水塞栓 子宮内反症"
+            },
+            {
+              questionSentence: "Q23 Which condition is likely to cause polyhydramnios? Choose two.",
+              choices: [
+                "a) Post-term pregnancy",
+                "b) Fetal spina bifida",
+                "c) Fetal esophageal atresia",
+                "d) Placental dysfunction",
+                "e) Fetal Potter syndrome"
+              ],
+              answer: "b, c",
+              answerImg: [peri22a23],
+              commentary: "【問題文原文】羊水過多を起こしやすい疾患はどれか。二つ選べ。 【選択肢原文】過期妊娠 胎児二分脊椎 胎児食道閉鎖 胎盤機能不全 胎児Potter症候群"
+            },
+            {
+              questionSentence: "Q24 Which chromosomal abnormality is the most frequent? Choose one.",
+              choices: [
+                "a) Down syndrome (Trisomy 21)",
+                "b) Trisomy 13",
+                "c) Trisomy 18",
+                "d) Turner syndrome",
+                "e) Klinefelter syndrome"
+              ],
+              answer: "a",
+              answerImg: [peri22a24],
+              commentary: "【問題文原文】染色体異常でもっとも頻度が高いものはどれか。一つ選べ。 【選択肢原文】ダウン症候群（21トリソミー） 13トリソミー 18トリソミー ターナー症候群 クラインフェルター症候群"
+            },
+            {
+              questionSentence: "Q25 Which management is not necessary for a case of preterm rupture of membranes at 32 weeks of pregnancy? Choose one.",
+              choices: [
+                "a) Estimation of fetal weight",
+                "b) NST",
+                "c) Fetal echocardiography",
+                "d) Maternal hospitalization",
+                "e) Bacterial culture of cervical secretions"
+              ],
+              answer: "c",
+              commentary: "【問題文原文】妊娠32週の前期破水症例について必要でない管理はどれか。一つ選べ。 【選択肢原文】胎児推定体重測定 NST 胎児心エコー検査 母体の入院 頸管分泌物細菌培養",
+              answerImg: [peri22a25],
+            },
+            {
+              questionSentence: "Q26 Regarding the twin pregnancy shown in Figure 3, which statements are correct? Choose two.",
+              questionImg: [peri22q26],
+              choices: [
+                "a) It causes umbilical cord entanglement.",
+                "b) It increases the frequency of twin-twin transfusion syndrome.",
+                "c) There are two placentas.",
+                "d) It is a dichorionic twin.",
+                "e) It is a monochorionic twin."
+              ],
+              answer: "b, e",
+              answerImg: [peri22a26],
+              commentary: "【問題文原文】図3の双胎妊娠について正しいものはどれか。二つ選べ。 【選択肢原文】臍帯相互巻絡をおこす。 双胎輸血間症候群の頻度が多い。 胎盤は2つである。 二絨毛膜双胎である。 一絨毛膜双胎である。"
+            },
+            {
+              questionSentence: "Q27 Which one is not included in the TORCH syndrome? Choose one.",
+              choices: [
+                "a) Rubella",
+                "b) HTLV-1",
+                "c) Syphilis",
+                "d) Cytomegalovirus",
+                "e) Toxoplasma"
+              ],
+              answer: "b",
+              answerImg: [peri22a27],
+              commentary: "【問題文原文】TORCH症候群に含まれないものはどれか。一つ選べ。 【選択肢原文】風疹 HTLV-1 梅毒 サイトメガロウイルス トキソプラズマ"
+            },
+            {
+              questionSentence: "Q28 Which one is correct about the normal postpartum course? Choose one.",
+              choices: [
+                "a) It takes about 6 months for the mother's physiological changes to return to the non-pregnant state after delivery.",
+                "b) Lactation begins when the newborn starts sucking.",
+                "c) Colostrum contains more immune substances than mature milk.",
+                "d) The duration of postpartum amenorrhea is almost the same for both breastfeeding and non-breastfeeding mothers.",
+                "e) The uterus returns to its non-pregnant state within 2 weeks postpartum."
+              ],
+              answer: "c",
+              commentary: "【問題文原文】正常産褥の過程について正しいものはどれか。一つ選べ。 【選択肢原文】分娩が終了し、母体生理的変化が非妊娠時の状態に戻るまで、約6ヶ月かかる。 産褥期の乳汁分泌は、新生児が吸啜することによって開始される。 初乳は成乳に比べて免疫物質が多い。 産褥性無月経は授乳婦と非授乳婦でその期間はほぼ同じである。 産褥2週間で子宮は非妊娠時の状態に復古する。"
+            },
+            {
+              questionSentence: "Q29 Which one is correct about the effects of drugs on the fetus? Choose one.",
+              choices: [
+                "a) If drug exposure occurs by the end of the 3rd week of pregnancy, the fetus will be born without morphological abnormalities.",
+                "b) Fetal development between the 4th and 10th weeks of pregnancy follows the all-or-none rule.",
+                "c) The sensitivity period is after the 13th week of pregnancy, and drug exposure must be particularly avoided.",
+                "d) ",
+                "e) a-d are all incorrect."
+              ],
+              answer: "a",
+              answerImg: [peri22a29],
+              commentary: "【問題文原文】薬物が胎児に与える影響として正しいものはどれか。一つ選べ。 【選択肢原文】妊娠3週末までの薬物曝露であれば、胎児は形態異常なく生まれてくる。 妊娠4～10週ころの胎児の発生はAll or noneの法則に基づく。 妊娠13週以降は過敏期であり、薬物曝露を特に避けなければならない。"
+            },
+            {
+              questionSentence: "Q30 How many consecutive spontaneous miscarriages are generally referred to as habitual abortion? Choose one.",
+              choices: [
+                "a) One or more",
+                "b) Two or more",
+                "c) Three or more",
+                "d) Four or more",
+                "e) Five or more"
+              ],
+              answer: "c",
+              answerImg: [peri22a30],
+              commentary: "【問題文原文】習慣性流産とは、一般に何回以上の連続した自然流産を指すか。一つ選べ。 【選択肢原文】1回以上 2回以上 3回以上 4回以上 5回以上"
+            },
+            {
+              questionSentence: "Q31 Which change seen in late pregnancy does not apply to the mother? Choose one.",
+              choices: [
+                "a) Ureteral dilation",
+                "b) Breast enlargement",
+                "c) Skin pigmentation",
+                "d) Cardiac hypertrophy",
+                "e) Decreased basal metabolic rate"
+              ],
+              answer: "e",
+              answerImg: [peri22a31_1, peri22a31_2],
+              commentary: "【問題文原文】妊娠後期の母体にみられる変化として当てはまらないものはどれか。一つ選べ。 【選択肢原文】尿管の拡張 乳房の腫大 皮膚の色素沈着 心臓の肥大 基礎代謝の低下"
+            },
+            {
+              questionSentence: "Q32 Which one is incorrect about the treatment of congestive mastitis? Choose one.",
+              choices: [
+                "a) Breast massage",
+                "b) Continued breastfeeding",
+                "c) Oral administration of herbal medicine",
+                "d) Drainage and incision",
+                "e) Cooling"
+              ],
+              answer: "b",
+              answerImg: [peri22a32],
+              commentary: "【問題文原文】うっ滞性乳腺炎の治療について誤っているものはどれか。一つ選べ。 【選択肢原文】乳房マッサージ 授乳継続 漢方薬の内服 排膿・切開 クーリング"
+            },
+            {
+              questionSentence: "Q33 What is the maternal mortality rate in Japan? Choose one.",
+              choices: [
+                "a) 3.3 per 100",
+                "b) 3.3 per 1,000",
+                "c) 3.3 per 10,000",
+                "d) 3.3 per 100,000",
+                "e) 3.3 per 1,000,000"
+              ],
+              answer: "d",
+              answerImg: [peri22a33],
+              commentary: "【問題文原文】わが国の妊産婦死亡率はどれか。一つ選べ。 【選択肢原文】100人に3.3人 1,000人に3.3人 10,000人に3.3人 100,000人に3.3人 1,000,000人に3.3人"
+            },
+            {
+              questionSentence: "Q34 Which statements are incorrect about the Maternal Health Act and reproductive rights? Choose two.",
+              choices: [
+                "a) The Maternal Health Act regulates matters related to contraception and induced abortion.",
+                "b) Reproductive rights refer to the right to receive sufficient information and make decisions about everything related to reproduction, such as pregnancy, childbirth, and abortion.",
+                "c) In the United States, since a Supreme Court ruling in 1973 declared the regulation of induced abortion unconstitutional, abortion has been considered constitutional, but a recent ruling overturned this decision, making it a subject of political debate.",
+                "d) Oral abortion pills approved by WHO are used in over 80 countries, including Japan.",
+                "e) If the fetus has a fatal disease, abortion is possible based on the Maternal Health Act."
+              ],
+              answer: "d, e",
+              answerImg: [peri22a34_1, peri22a34_2, peri22a34_3],
+              commentary: "【問題文原文】母体保護法およびリプロダクティブ・ライツについて誤っているものはどれか。二つ選べ。 【選択肢原文】母体保護法では避妊および人工妊娠中絶に関する事項を規定している。 リプロダクティブ・ライツとは、妊娠・出産・中絶など「生殖」に関するすべてのことについて、十分な情報を得られ、自分で決められる権利のことである。 アメリカでは、1973年に人工妊娠中絶の規制を違憲とする最高裁判決が出て以降中絶が合憲とされてきたが、最近になって違憲判決が覆され、政治論争の対象になっている。 経口中絶薬にはWHOの承認を得たものがあり、日本を含む80ヶ国以上で使用されている。 胎児に致死的疾患がある場合、母体保護法に基づく中絶が可能である。"
+            },
+            {
+              questionSentence: "Q35 Which of the following is not used to calculate the Apgar score? Choose one.",
+              choices: [
+                "a) Skin color",
+                "b) Respiratory effort",
+                "c) Duration of labor",
+                "d) Heart rate",
+                "e) Muscle tone"
+              ],
+              answer: "c",
+              answerImg: [peri22a35],
+              commentary: "【問題文原文】次のうち、Apgarスコアの計算に用いられないものはどれか。一つ選べ。 【選択肢原文】皮膚色 呼吸様運動 分娩時間 心拍数 筋緊張"
+            },
+            {
+              questionSentence: "Q36 Which initial resuscitation measure is incorrect in neonatal resuscitation? Choose one.",
+              choices: [
+                "a) Oxygen administration",
+                "b) Warming",
+                "c) Airway clearance",
+                "d) Positioning",
+                "e) Drying and stimulation"
+              ],
+              answer: "a",
+              answerImg: [peri22a36],
+              commentary: "【問題文原文】新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。 【選択肢原文】酸素投与 保温 気道開通 体位保持 皮膚乾燥と刺激"
+            },
+            {
+              questionSentence: "Q37 Which sample is used for the microbubble test to confirm respiratory distress syndrome? Choose one.",
+              choices: [
+                "a) Cerebrospinal fluid",
+                "b) Blood",
+                "c) Gastric juice",
+                "d) Urine",
+                "e) Stool"
+              ],
+              answer: "c",
+              answerImg: [peri22a37],
+              commentary: "【問題文原文】呼吸窮迫症候群を確かめるためのマイクロバブルテストで使用する児の試料はどれか。一つ選べ。 【選択肢原文】髄液 血液 胃液 尿 便"
+            },
+            {
+              questionSentence: "Q38 Which one does not apply to the diagnosis and examination of severe neonatal asphyxia? Choose one.",
+              choices: [
+                "a) Low Apgar score",
+                "b) Metabolic alkalosis",
+                "c) Increased CK, Lactate",
+                "d) Elevated AST, ALT",
+                "e) Prolonged PT, APTT"
+              ],
+              answer: "b",
+              answerImg: [peri22a38],
+              commentary: "【問題文原文】重症新生児仮死の診断・検査について、当てはまらないものはどれか。一つ選べ。 【選択肢原文】アプガースコア低値 代謝性アルカローシス CK, Lactate上昇 AST, ALT上昇 PT, APTT延長"
+            },
+            {
+              questionSentence: "Q39 Which one is incorrect about transient tachypnea of the newborn? Choose one.",
+              choices: [
+                "a) Nasal flaring",
+                "b) Inspiratory stridor",
+                "c) Chest retractions",
+                "d) Grunting",
+                "e) Cyanosis"
+              ],
+              answer: "b",
+              answerImg: [peri22a39],
+              commentary: "【問題文原文】新生児一過性多呼吸について誤っているものはどれか。一つ選べ。 【選択肢原文】鼻翼呼吸 吸気性喘鳴 陥没呼吸 呻吟 チアノーゼ"
+            },
+            {
+              questionSentence: "Q40 Which one is correct about neonatal diseases? Choose one.",
+              choices: [
+                "a) Chest retractions indicate a lack of pulmonary surfactant.",
+                "b) A newborn weighing less than 1,000 grams is called a very low birth weight infant.",
+                "c) Intraventricular hemorrhage is more likely to occur in term infants.",
+                "d) Necrotizing enterocolitis is associated with increased intestinal blood flow.",
+                "e) All newborns need to be bathed immediately after birth."
+              ],
+              answer: "a",
+              answerImg: [peri22a40_1, peri22a40_2, peri22a40_3],
+              commentary: "【問題文原文】新生児の疾患について、正しいものはどれか。一つ選べ。 【選択肢原文】陥没呼吸は肺サーファクタントが足りない時に示す症状である。 体重1000g未満で出生した児を極低出生体重児という。 脳室内出血は成熟児に発症しやすい。 壊死性腸炎は腸の血流増加が関与している。 すべての新生児は出生後速やかに沐浴させる必要がある。"
+            }
+          ]          
         },{
             groupTag : "産科疾患2021本試験",
             groupContents: [{
