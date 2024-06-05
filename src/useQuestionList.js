@@ -1,3 +1,59 @@
+import pedi22a11 from './img/answer/pedi22a11.png';
+import pedi22a10_2 from './img/answer/pedi22a10_2.png';
+import pedi22a32_2 from './img/answer/pedi22a32_2.png';
+import pedi22a32_1 from './img/answer/pedi22a32_1.png';
+import pedi22a49 from './img/answer/pedi22a49.png';
+import pedi22a48 from './img/answer/pedi22a48.png';
+import pedi22a33_1 from './img/answer/pedi22a33_1.png';
+import pedi22a12 from './img/answer/pedi22a12.png';
+import pedi22a33_2 from './img/answer/pedi22a33_2.png';
+import pedi22a38 from './img/answer/pedi22a38.png';
+import pedi22a10 from './img/answer/pedi22a10.png';
+import pedi22a33_3 from './img/answer/pedi22a33_3.png';
+import pedi22a13_2 from './img/answer/pedi22a13_2.png';
+import pedi22a29 from './img/answer/pedi22a29.png';
+import pedi22a28 from './img/answer/pedi22a28.png';
+import pedi22a14 from './img/answer/pedi22a14.png';
+import pedi22a13_3 from './img/answer/pedi22a13_3.png';
+import pedi22a13_1 from './img/answer/pedi22a13_1.png';
+import pedi22a33_4 from './img/answer/pedi22a33_4.png';
+import pedi22a16 from './img/answer/pedi22a16.png';
+import pedi22a17 from './img/answer/pedi22a17.png';
+import pedi22a2_1 from './img/answer/pedi22a2_1.png';
+import pedi22a27 from './img/answer/pedi22a27.png';
+import pedi22a39_2 from './img/answer/pedi22a39_2.png';
+import pedi22a2_2 from './img/answer/pedi22a2_2.png';
+import pedi22a19 from './img/answer/pedi22a19.png';
+import pedi22a31 from './img/answer/pedi22a31.png';
+import pedi22a25 from './img/answer/pedi22a25.png';
+import pedi22a24 from './img/answer/pedi22a24.png';
+import pedi22a30 from './img/answer/pedi22a30.png';
+import pedi22a39_1 from './img/answer/pedi22a39_1.png';
+import pedi22a6_3 from './img/answer/pedi22a6_3.png';
+import pedi22a26_2 from './img/answer/pedi22a26_2.png';
+import pedi22a34 from './img/answer/pedi22a34.png';
+import pedi22a20 from './img/answer/pedi22a20.png';
+import pedi22a35 from './img/answer/pedi22a35.png';
+import pedi22a26_3 from './img/answer/pedi22a26_3.png';
+import pedi22a6_2 from './img/answer/pedi22a6_2.png';
+import pedi22a26_1 from './img/answer/pedi22a26_1.png';
+import pedi22a23 from './img/answer/pedi22a23.png';
+import pedi22a6_1 from './img/answer/pedi22a6_1.png';
+import pedi22a21_1 from './img/answer/pedi22a21_1.png';
+import pedi22a50 from './img/answer/pedi22a50.png';
+import pedi22a21_2 from './img/answer/pedi22a21_2.png';
+import pedi22a47 from './img/answer/pedi22a47.png';
+import pedi22a7 from './img/answer/pedi22a7.png';
+import pedi22a44_2 from './img/answer/pedi22a44_2.png';
+import pedi22a43 from './img/answer/pedi22a43.png';
+import pedi22a5_2 from './img/answer/pedi22a5_2.png';
+import pedi22a44_3 from './img/answer/pedi22a44_3.png';
+import pedi22a18_2 from './img/answer/pedi22a18_2.png';
+import pedi22a44_1 from './img/answer/pedi22a44_1.png';
+import pedi22a40 from './img/answer/pedi22a40.png';
+import pedi22a5_1 from './img/answer/pedi22a5_1.png';
+import pedi22a1 from './img/answer/pedi22a1.png';
+import pedi22a18_1 from './img/answer/pedi22a18_1.png';
 import peri22a32 from './img/answer/peri22a32.png';
 import peri22q14 from './img/answer/peri22q14.png';
 import peri22q15 from './img/answer/peri22q15.png';
@@ -3589,7 +3645,9 @@ export const useQuestionList = () => {
                 "c. 5〜9 歳の死因の 1 位は心疾患である。",
                 "d. 10〜14 歳の死因の 1位は不慮の事故である。",
                 "e. 15〜19 歳の死因の 1位は心疾患である。"
-              ]
+              ],
+              answerImg:[pedi22a1],
+              answer:"b"
             },
             {
               questionSentence: "Q2 次のうち誤っているのはどれか。(2021-2)",
@@ -3599,7 +3657,9 @@ export const useQuestionList = () => {
                 "c. 新生児期は infantile period と呼ばれる。",
                 "d. 0 歳の不慮の事故による死亡数の原因の 1位は不慮の窒息である。",
                 "e. 5～9 歳の不慮の事故による死亡数の原因の 1 位は交通事故である。"
-              ]
+              ],
+              answerImg:[pedi22a2_1,pedi22a2_2],
+              answer:"c"
             },
             {
               questionSentence: "Q3 ノロウイルス感染症（感染性胃腸炎）について正しいものはどれか。2 つ選べ。(2020-23)",
@@ -3609,7 +3669,10 @@ export const useQuestionList = () => {
                 "c. アルコール消毒が有効である。",
                 "d. 大流行の伝播はほとんど食物を介してである。",
                 "e. 下痢症状が消失後も 3～5 日はウイルスが排泄される。"
-              ]
+              ],
+              answerImg:[],
+              answer:"b,e",
+              commentary:"経口予防接種があるのはロタウイルス。消毒は次亜塩素酸。食物だけでなく、汚染された手などを介した経口感染が主な感染経路。医療関係者の手洗いなどが重要である。"
             },
             {
               questionSentence: "Q4 児童虐待について誤っているものはどれか。(2020-1)",
@@ -3619,7 +3682,10 @@ export const useQuestionList = () => {
                 "c. こどもの目の前で家族に対して暴力をふるうことは虐待にはならない。",
                 "d. 虐待を疑った場合、親の許可なしに通告してよい。",
                 "e. こどもが早産、慢性疾患、知的障害などの障害を持っている場合は虐待のハイリスクとなる。"
-              ]
+              ],
+              answerImg:[],
+              answer:"c",
+              commentary:"こどもの目の前で家族に対して暴力をふるうことは心理的虐待に該当する。"
             },
             {
               questionSentence: "Q5 小児の発熱について誤っているのはどれか。(2021-5)",
@@ -3629,7 +3695,9 @@ export const useQuestionList = () => {
                 "c. 稽留熱は平熱までさがる。",
                 "d. 月経周期により体温は変化する。",
                 "e. 小児に使用する解熱剤はアセトアミノフェンが推奨される。"
-              ]
+              ],
+              answerImg:[pedi22a5_1,pedi22a5_2],
+              answer:"c",
             },
             {
               questionSentence: "Q6 次のうち正しいのはどれか。2つ選べ。(2021-6)",
@@ -3639,7 +3707,9 @@ export const useQuestionList = () => {
                 "c. 麻疹の合併症として亜急性硬化性全脳炎 (SSPE)がある。",
                 "d. 水痘では頚部や耳介後部のリンパ節腫脹が特徴的である。",
                 "e. 水痘は一回の罹患でほとんどが終生免疫を残す。"
-              ]
+              ],
+              answerImg:[pedi22a6_1,pedi22a6_2,pedi22a6_3],
+              answer:"c,e",
             },
             {
               questionSentence: "Q7 夜間睡眠時の咳が見られない疾患はどれか。(2019-31)",
@@ -3649,7 +3719,9 @@ export const useQuestionList = () => {
                 "c. 心因性咳嗽",
                 "d. 気管支喘息",
                 "e. 細気管支炎"
-              ]
+              ],
+              answerImg:[pedi22a7],
+              answer:"c",
             },
             {
               questionSentence: "Q8 次のうち誤っているのはどれか。(2021-8)",
@@ -3659,7 +3731,9 @@ export const useQuestionList = () => {
                 "c. Human herpes virus 6,7 (HHV6, HHV7)は突発性発疹の原因ウイルスである。",
                 "d. 性器ヘルペスは主に単純ヘルペスの 1 型である。",
                 "e. 手足口病は予防接種で予防できる。"
-              ]
+              ],
+              answer:"e",
+              commentary:"手足口病に対する予防接種は存在しない。"
             },
             {
               questionSentence: "Q9 Which of the following is NOT a complication of refeeding to patients with anorexia nervosa?",
@@ -3669,7 +3743,9 @@ export const useQuestionList = () => {
                 "c. stomachache",
                 "d. hypokalemia",
                 "e. hyperphosphatemia"
-              ]
+              ],
+              answer:"e",
+              commentary:"【問題文日本語訳】拒食症の患者に対する再栄養療法の合併症として適切でないのはどれか。【選択肢日本語訳】a.浮腫 b.不整脈 c.胃痛 d.低カリウム血症 e.高リン血症　【解説】栄養不足時にはタンパク質やリンの補給は不足している。"
             },
             {
               questionSentence: "Q10 小児の免疫について誤っているのはどれか。(2021-10)",
@@ -3679,7 +3755,10 @@ export const useQuestionList = () => {
                 "c. 小児では胸腺が発達していることから、細胞性免疫を担う T 細胞の絶対数が多い。",
                 "d. lgM は胎児期から産生される。",
                 "e. 新生児期は皮膚バリアが弱く、外部から微生物が侵入しやすい。"
-              ]
+              ],
+              answerImg:[pedi22a10,pedi22a10_2],
+              answer:"b",
+              commentary:"IgGは胎盤移行されるが産生するまでには時間がかかるため、1歳時点で成人の60%程度とされる。"
             },
             {
               questionSentence: "Q11 先天性甲状腺機能低下症の臨床症状チェックリストに含まれている症状および所見として正しいのはどれか。(2021-15)",
@@ -3689,7 +3768,10 @@ export const useQuestionList = () => {
                 "c. 低血糖",
                 "d. 大泉門開大",
                 "e. 鼡径ヘルニア"
-              ]
+              ],
+              answerImg:[pedi22a11],
+              answer:"b",
+              commentary:"下痢ではなく便秘、大泉門開大ではなく小泉門開大、鼡径ヘルニアではなく臍ヘルニアが臨床症状として挙げられる。"
             },
             {
               questionSentence: "Q12 デンバー式発達スクリーニング検査において、3 ヶ月の一般乳児の 25%に見られるのはどれか。2 つ選べ。(2017-11)",
@@ -3699,7 +3781,9 @@ export const useQuestionList = () => {
                 "c. 音に振り向く。",
                 "d. 手から手へ物をもちかえる。",
                 "e. 知らない人に初めて人見知りをする。"
-              ]
+              ],
+              answerImg:[pedi22a12],
+              answer:"b,c",
             },
             {
               questionSentence: "Q13 原発性免疫不全症について正しいのはどれか。2 つ選べ。",
@@ -3709,7 +3793,9 @@ export const useQuestionList = () => {
                 "c.",
                 "d. 感染を繰り返す Wiskott-Aldrich 症候群は造血幹細胞移植の適応である。",
                 "e. 慢性肉芽種症ではレンサ球菌(カタラーゼ陰性菌)への抵抗性が低下する。"
-              ]
+              ],
+              answerImg:[pedi22a13_1,pedi22a13_2,pedi22a13_3],
+              answer:"d",
             },
             {
               questionSentence: "Q14 次の文を読み、以下の問いに答えよ。(2021-14) 5 歳の男児。蕁麻疹および呼吸苦で来院した。現病歴：牛乳アレルギーで他院通院中であり、現在牛乳を加工品含め除去している。本日、幼稚園の給食で友人のシチューを誤って摂取した。30 分後に全身に蕁麻疹が出現し、呼吸苦も認めたため、救急搬送された。既往歴：乳児期にアトピー性皮膚炎 現症：体温 36.7℃、呼吸数 50/分、脈拍 150/分、整、血圧 70/43mmHg、SpO2 88%。意識混濁。心雑音はない。喘鳴があり、両側呼吸音に乾性ラ音を聴取する。腹部は平坦、軟、肝・脾を触知しない。顔面は赤く腫脹し、体幹に膨疹を認める。検査所見:血液所見：白血球 13,500 (好中球 56%、リンパ球 31%、好酸球数 11%、単球 2%、好塩基球 0%)、赤血球 443 万/μL、Hb 13.5g/dl、血小板 35.5 万/μL、血液生化学所見：AST 35IU/L、ALT 32IU/L、LDH 225IU/L、Na 135mEq/L、K 4.2mEq/L、Cl 106mEq/L、CRP 0.2mg/dl、静脈血ガス所見：pH 7.325、pCO2 48Torr、HCO3- 24mEq/L、BE -2.1 この症例でまず行うべき治療はどれか。2つ選べ。",
@@ -3719,7 +3805,10 @@ export const useQuestionList = () => {
                 "c. ステロイド静脈内投与",
                 "d. アドレナリン筋肉内投与",
                 "e. ヒスタミン H1 受容体拮抗薬内服"
-              ]
+              ],
+              answerImg:[pedi22a14],
+              answer:"a,b",
+              commentary:"要議論"
             },
             {
               questionSentence: "Q15 神経性食思不振症について当てはまるものはどれか。2 つ選べ。",
@@ -3729,7 +3818,9 @@ export const useQuestionList = () => {
                 "c. T3 低値",
                 "d. LH,FSH 高値",
                 "e. 低コレステロール血症"
-              ]
+              ],
+              answer:"a,c",
+              commentary:"2024年度では精神科の講義はなかった"
             },
             {
               questionSentence: "Q16 次のうち誤っているのはどれか。2 つ選べ。(2021-16)",
@@ -3739,7 +3830,9 @@ export const useQuestionList = () => {
                 "c. 思春期早発症では成人身長が低くなることが問題である。",
                 "d. 女子において 9 歳で月経発来を認めたら思春期早発症を疑う。",
                 "e. 末梢性思春期早発症では性腺刺激ホルモン (LH/FSH) は抑制される。"
-              ]
+              ],
+              answerImg:[pedi22a16],
+              answer:"a,b",
             },
             {
               questionSentence: "Q17 新生児黄疸について正しいのはどれか。2つ選べ。(2021-17)",
@@ -3749,7 +3842,9 @@ export const useQuestionList = () => {
                 "c. 直接ビリルピン優位に上昇する。",
                 "d. グルクロン酸抱合酵素の未熟性が原因である。",
                 "e. ピリルピンの神経毒性は間接ピリルピン値に依存する。"
-              ]
+              ],
+              answerImg:[pedi22a17],
+              answer:"d,e",
             },
             {
               questionSentence: "Q18 19 日齢 37 の男児。1か月健診で黄疸を指摘され来院した。在胎 40 週 1 日、体重 2,956g で出生した。出生後完全母乳栄養で哺乳良好である。生後 1週間頃から白っぽい便が持続しているが哺乳および全身状態は良好である。血液生化学所見：総ピリルピン 12.5mg/dL、直接ビリルピン 9.5mg/dL、AST 132IU/L、ALT 150IU/L、LDH 478IU/L。この児について考えられる疾患はどれか。",
@@ -3759,7 +3854,10 @@ export const useQuestionList = () => {
                 "c. 溶血性黄疸",
                 "d. Gilbert 症候群",
                 "e. Crigler-Najjar 症候群"
-              ]
+              ],
+              answerImg:[pedi22a18_1,pedi22a18_2],
+              answer:"b",
+              commentary:"b以外は間接ビリルビン優位上昇の疾患である。"
             },
             {
               questionSentence: "Q19　日齢 37 の男児。1 か月健診で黄疸を指摘され来院した。在胎 40 週 1 日、体重 2,956g で出生した。出生後完全母乳􏰁養で哺乳良好である。生後 1 週間頃から白っぽい便が持続し ているが哺乳および全身状態は良好である。血液生化学所見:総ピリルピン 12.5mg/dL、直 接ピリルピン 9.5mg/dL、AST 132IU/L、ALT 150IU/L、LDH 478IU/L。 行うべき検査として誤っているのはどれか。2 つ選べ。",
@@ -3769,7 +3867,10 @@ export const useQuestionList = () => {
                 "c. 腹部超音波検査",
                 "d. 血液凝固機能検査",
                 "e. 十二指腸ゾンデによる胆汁採取"
-              ]
+              ],
+              answerImg:[pedi22a19],
+              answer:"b,e",
+              commentary:"十二指腸ゾンデでは胆汁採取ではなく、胆汁排泄の証明を行う。"
             },
             {
               questionSentence: "Q20 Which of the following is NOT a symptom of Kawasaki disease? Choose two.",
@@ -3779,7 +3880,10 @@ export const useQuestionList = () => {
                 "c. Bilateral bulbar conjunctival inflammation without exudate",
                 "d. Edema of limbs in acute phase",
                 "e. Koplik's spots"
-              ]
+              ],
+              answerImg:[pedi22a20],
+              answer:"e",
+              commentary:"【問題文日本語訳】カワサキ病の症状として適切でないものはどれか。【選択肢日本語訳】a.頸部リンパ節腫脹 b.発疹 c.両側球結膜炎 d.急性期の四肢浮腫 e.コプリック斑　【解説】コプリック斑は麻疹に特徴的な症状である。他の症状はカワサキ病に見られる症状であるので、答えは１つしかない(再現ミス？)。"
             },
             {
               questionSentence: "Q21 1 歳 0 か月の男児。健康診査で来院した。在胎 40 週 2 日、体重 3,256g、身長 45.3cm、頭囲 33cm、胸囲 32cm で仮死なく出生した。出生後は完全母乳栄養であり、生後 6 か月から離乳食を開始し現在 1日 3 回摂取している。現症：身長 75cm、体重 6,750g、頭囲 45cm、胸囲 46cm、心音と呼吸音に異常を認めない。腹部は平坦で肝、脾を触知しない。この児について正しいのはどれか。2 つ選べ。(2021-21)",
@@ -3789,7 +3893,10 @@ export const useQuestionList = () => {
                 "c. 体重増加不良を認める。",
                 "d. Kaup 指数は 12 である。",
                 "e. 出生時の体格は標準的である。"
-              ]
+              ],
+              answerImg:[pedi22a21_1,pedi22a21_2],
+              answer:"c,d",
+              commentary:"Kaup指数は体重/身長の2乗 * 10で計算される。1歳児の目標体重は出生時の3倍、身長は1.5倍。"
             },
             {
               questionSentence: "Q22 小児の嘔吐・下痢について誤っているのはどれか。2つ選べ。(2021-22)",
@@ -3799,7 +3906,9 @@ export const useQuestionList = () => {
                 "c. 周期性嘔吐症候群の一部は片頭痛に移行する。",
                 "d. 腸重積では腸管の血流障害により絞扼性イレウスを起こす。",
                 "e. 新生児-乳児消化管アレルギーは即時型アレルギーが主体である。"
-              ]
+              ],
+              answer:"a,e",
+              commentary:"肥厚性幽門狭窄症は非胆汁性嘔吐。新生児-乳児消化管アレルギーは遅延型アレルギーが主体。"
             },
             {
               questionSentence: "Q23 こどもの発達として正しいのはどれか。2つ選べ。(2021-23)",
@@ -3809,7 +3918,9 @@ export const useQuestionList = () => {
                 "c. 1 歳で指差しができる。",
                 "d. 1 歳 6 か月で二語文を話す。",
                 "e. 言葉の獲得には臨界期(critical period)がある。"
-              ]
+              ],
+              answerImg:[pedi22a23],
+              answer:"c,e",
             },
             {
               questionSentence: "Q24 食物アレルギーについて正しいのはどれか。2 つ選べ。",
@@ -3819,7 +3930,9 @@ export const useQuestionList = () => {
                 "c. 牛乳は食物運動誘発性アナフィラキシーの原因の中で最多である。",
                 "d. 新鮮でない魚の摂取によるヒスタミン中毒はアレルギーではない。",
                 "e."
-              ]
+              ],
+              answerImg:[pedi22a24],
+              answer:"b,d",
             },
             {
               questionSentence: "Q25 次のうち誤っているのはどれか。2 つ選べ。",
@@ -3829,7 +3942,9 @@ export const useQuestionList = () => {
                 "c. 結節性硬化症ではカフェオレ斑を認める。",
                 "d. Duchenne 型筋ジストロフィーでは SMN 遺伝子の異常を認める。",
                 "e. 脳性麻痺は痙直性が多い。"
-              ]
+              ],
+              answerImg:[pedi22a25],
+              answer:"a,d",
             },
             {
               questionSentence: "Q26 小児の発作性疾患について正しいのはどれか。2 つ選べ。(2021-25)",
@@ -3839,7 +3954,10 @@ export const useQuestionList = () => {
                 "c. 小児で意識消失を伴う発作はてんかんである。",
                 "d. 小児欠神てんかんの脳波にはヒプサリスミアを認める。",
                 "e. ウエスト症候群の原因に結節性硬化症がある。"
-              ]
+              ],
+              answerImg:[pedi22a26_1,pedi22a26_2,pedi22a26_3],
+              answer:"c,d",
+              commentary:"熱性けいれんとは、発熱を伴うけいれん発作という意味ではない"
             },
             {
               questionSentence: "Q27 ウイルスに易感染性を示すのばどれか。2つ選べ。(2021-27)",
@@ -3849,7 +3967,10 @@ export const useQuestionList = () => {
                 "c. 補体第 5成分欠損症",
                 "d. 重症先天性好中球減少症",
                 "e. 慢性肉芽種症"
-              ]
+              ],
+              answerImg:[pedi22a27],
+              answer:"a,b",
+              commentary:"液性免疫が関与"
             },
             {
               questionSentence: "Q28 小児気管支喘息の急性小発作に対してまず行うのはどれか。(2021-32)",
@@ -3859,7 +3980,9 @@ export const useQuestionList = () => {
                 "c. β2 刺激薬吸入",
                 "d. 抗ヒスタミン薬投与",
                 "e. アミノフィリン静注"
-              ]
+              ],
+              answerImg:[pedi22a28],
+              answer:"c",
             },
             {
               questionSentence: "Q29 1 歳 6 か月の男児。生後 10 か月時に肺炎に罹患し、入院治療を受けた。その後、肺炎あるいは中耳炎などの細菌感染症を繰り返し、数回入院治療を受けていた。難治性皮膚湿疹があり、出血しやすい。易感染性の精査のため入院となった。既往歴：1 歳時、麻疹に罹患、10 日間にて治癒。家族歴：母方の叔父が 5 歳時、肺炎で死亡。現症：身長 67cm、体重 8kg、扁桃を認めない。胸部の聴診上異常なし。肝臓、牌臓は触知しない。表在リンパ節は触知しない。検査所見のうち異常値を示すのはどれか。2 つ選べ。(2021-29)",
@@ -3869,7 +3992,10 @@ export const useQuestionList = () => {
                 "c. 末梢血 T細胞数",
                 "d. 血中 IgE 値",
                 "e. 血清補体価"
-              ]
+              ],
+              answerImg:[pedi22a29],
+              answer:"b,c",
+              commentary:"Wiskott-Aldrich症候群はX連鎖劣性遺伝病であり、血小板減少・湿疹・易感染性を呈する。"
             },
             {
               questionSentence: "Q30 次の新生児・乳幼児の呼吸困難に関する記載のうち正しいのはどれか。(2021-30 改)",
@@ -3879,7 +4005,9 @@ export const useQuestionList = () => {
                 "c. 新生児の呼吸数 65/分は多呼吸であり、異常値と認識すべきである。",
                 "d. 早産、先天性心疾患、免疫不全、ダウン症候群の児で、一定の基準を満たせば、副腎皮質ステロイドによる予防治療の適応となる。",
                 "e. 新生児・乳児の細菌性肺炎の好発起炎菌として、マイコプラズマが挙げられる。"
-              ]
+              ],
+              answerImg:[pedi22a30],
+              answer:"c",
             },
             {
               questionSentence: "Q31 乳幼児の呼吸器症状について、誤っているのはどれか。(2021-31 改)",
@@ -3889,7 +4017,9 @@ export const useQuestionList = () => {
                 "c. RS ウイルス感染に伴う急性細気管支炎では呼気性喘鳴を認める。",
                 "d. 突然の呼吸困難では気道異物も鑑別に挙げるべきである。",
                 "e. 百日咳では乳幼児に無呼吸はみられない。"
-              ]
+              ],
+              answerImg:[pedi22a31],
+              answer:"e",
             },
             {
               questionSentence: "Q32 日齢 8の女児。体重 2,690g、身長 58cm、Apgar スコア 9 点(1 分)で産まれた。日齢 5 で産科を退院した。日齢 7で体調不良を訴えたため翌日来院した。皮膚の色素沈着、陰核肥大を認める。新生児マススクリーニングで 17-ヒドロキシプロゲステロン 99.9ng/mL(基準値 2.2 以下)。この児で低下すると予想されるのはどれか。",
@@ -3899,7 +4029,9 @@ export const useQuestionList = () => {
                 "c. 血漿レニン活性",
                 "d. 副腎皮質刺激ホルモン",
                 "e. 尿中プレグナントリオール"
-              ]
+              ],
+              answerImg:[pedi22a32_1,pedi22a32_2],
+              answer:"b",
             },
             {
               questionSentence: "Q33 次のうち正しいのはどれか。2つ選べ。(2021-33)",
@@ -3909,7 +4041,9 @@ export const useQuestionList = () => {
                 "c. 1 歳児において 4 日間発熱し解熱後全身に発疹を認めた場合、風疹を疑う。",
                 "d. 小児で不明熱を繰り返している場合、尿路感染を考慮する必要がある。",
                 "e. 川崎病の診断基準のひとつに、発熱は含まれない。"
-              ]
+              ],
+              answerImg:[pedi22a33_1,pedi22a33_2,pedi22a33_3,pedi22a33_4],
+              answer:"a,d",
             },
             {
               questionSentence: "Q34 West 症候群（点頭てんかん）について正しいのはどれか。2 つ選べ。(2021-34)",
@@ -3919,7 +4053,9 @@ export const useQuestionList = () => {
                 "c. 発作は群発する。",
                 "d. 脳波で全般性 3Hz 棘徐波複合を認める。",
                 "e. 精神発達は正常である。"
-              ]
+              ],
+              answerImg:[pedi22a34],
+              answer:"a,c",
             },
             {
               questionSentence: "Q35 10 か月の乳児について正しいのはどれか。(2021-35)",
@@ -3929,7 +4065,9 @@ export const useQuestionList = () => {
                 "c. つかまり立ちをする。",
                 "d. 意味のある単語を言う。",
                 "e. 他の子供に興味を示す。"
-              ]
+              ],
+              answerImg:[pedi22a35],
+              answer:"c",
             },
             {
               questionSentence: "Q36 生後 8 か月の男児。午前中は機嫌がよく、離乳食もよく食べていた。13 時頃から突然啼泣し、しばらくすると泣き止むことを繰り返した。嘔吐を 2 回認め、だんだんぐったりしてきたので 18 時に病院を受診した。右季肋部にソーセージ様の腫瘤を触れ、腹部エコーで target sign を認めた。最も疑う疾患はどれか, 1 つ選べ。",
@@ -3939,7 +4077,9 @@ export const useQuestionList = () => {
                 "c. 急性胆嚢炎",
                 "d. 急性虫垂炎",
                 "e. 腸重積症"
-              ]
+              ],
+              answer:"e",
+              commentary:"target signは腸重積症の特徴的所見である。"
             },
             {
               questionSentence: "Q37 生後 8 か月の男児。午前中は機嫌がよく、離乳食もよく食べていた。13 時頃から突然啼泣し、しばらくすると泣き止むことを繰り返した。嘔吐を 2 回認め、だ んだんぐったりしてきたので 18 時に病院を受診した。右季肋部にソーセージ様の腫瘤を触 れ、腹部エコーで target sign を認めた。　上記疾患を疑った場合、本症例ですぐに行うべき処置または治療はどれか。",
@@ -3949,7 +4089,9 @@ export const useQuestionList = () => {
                 "c. 開腹手術",
                 "d. 腹腔鏡下手術",
                 "e. 便培養"
-              ]
+              ],
+              answer:"a",
+              commentary:"陽圧浣腸で腸重積症の解消が期待できるので、まずは浣腸を行う。"
             },
             {
               questionSentence: "Q38 Which of the following findings would a pediatrician consider abnormal when performing a physical assessment of a 6-month-old child?",
@@ -3959,7 +4101,10 @@ export const useQuestionList = () => {
                 "c. Beginning signs of tooth growing",
                 "d. Unable to walk",
                 "e. Fixed neck"
-              ]
+              ],
+              answerImg:[pedi22a38],
+              answer:"a",
+              commentary:"【問題文日本語訳】小児科医が 6 か月の乳児の身体評価を行う際、異常と考える所見はどれか。【選択肢日本語訳】a. Moro 反射が残存 b. 前頭部裂開が開いている c. 歯が生え始める d. 歩行できない e. 首が固定されている　 【解説】Moro 反射は生後 4 か月までに消失するので、6 か月で残存しているのは異常である。"
             },
             {
               questionSentence: "Q39 Basedow 病に多い症状として誤っているのはどれか。(2021-39)",
@@ -3969,7 +4114,10 @@ export const useQuestionList = () => {
                 "c. 下痢",
                 "d. 寒がり",
                 "e. 食欲亢進"
-              ]
+              ],
+              answerImg:[pedi22a39_1,pedi22a39_2],
+              answer:"d",
+              commentary:"暑がりが多い。"
             },
             {
               questionSentence: "Q40 1 歳 0 ヶ月の女児。健康診査で来院した。在胎 38 週 5 日で身長 47cm、体重 2,340g、頭囲 32cm、胸囲 31cm で仮死なく出生した。現症:身長 68cm、体重 8,540g、頭囲 45cm、胸囲 44cm。心音と呼吸音に異常を認めない。腹 部は平坦で肝・脾を触知しない。この児について誤っているのはどれか。2 つ選べ。(2021-21 の類題？)",
@@ -3979,7 +4127,10 @@ export const useQuestionList = () => {
                 "c. やせである。",
                 "d. 低出生体重児である。",
                 "e. ビタミン D 欠乏である。"
-              ]
+              ],
+              answerImg:[pedi22a40],
+              answer:"a,d",
+              commentary:"1歳時の目標体重は出生時の3倍、身長は1.5倍。2500g未満は低出生体重児。"
             },
             {
               questionSentence: "Q41 小児のウイルス性胃腸炎について正しいのはどれか。",
@@ -3989,7 +4140,9 @@ export const useQuestionList = () => {
                 "c. ノロウイルスの消毒はアルコールで行う。",
                 "d. 症状が収まるまでは絶食が必要である。",
                 "e. ロタウイルスワクチンの開発によって重症例は減少した。"
-              ]
+              ],
+              answer:"e",
+              commentary:"ロタウイルスワクチンは生ワクチンで、経口投与のワクチンである。"
             },
             {
               questionSentence: "Q42 Which of the following diseases can cause head circumference enlargement? Choose two.",
@@ -3999,7 +4152,9 @@ export const useQuestionList = () => {
                 "c. Hydrocephalus",
                 "d. Sotos syndrome",
                 "e. Congenital rubella syndrome"
-              ]
+              ],
+              answer:"c,d",
+              commentary:"【問題文日本語訳】次のうち、頭囲拡大を引き起こす疾患はどれか。【選択肢日本語訳】a. 頭蓋縫合早期癒合症 b. ダウン症候群 c. 水頭症 d. Sotos 症候群 e. 先天性風疹症候群 【解説】水頭症は頭囲拡大を引き起こす。Sotos 症候群は巨大症を伴う疾患である。2024年度は小児疾患で脳外科の講義が行われていない"
             },
             {
               questionSentence: "Q43 Which of the following is a cause of hyperbilirubinemia associated with Crigler-Najjar syndrome type 1?",
@@ -4009,7 +4164,10 @@ export const useQuestionList = () => {
                 "c. Insufficient bilirubin uptake in the liver",
                 "d. UDPGT deficiency",
                 "e. G6PD deficiency"
-              ]
+              ],
+              answerImg:[pedi22a43],
+              answer:"d",
+              commentary:"【問題文日本語訳】Crigler-Najjar 症候群 type 1 に関連する高ビリルビン血症の原因はどれか。【選択肢日本語訳】a. ビリルビン産生の増加 b. ビリルビンの結合不全 c. 肝臓でのビリルビンの取り込み不全 d. UDPGT 欠損 e. G6PD 欠損"
             },
             {
               questionSentence: "Q44 栄養素とその欠乏症の組み合わせについて誤っているのはどれか。",
@@ -4019,7 +4177,9 @@ export const useQuestionList = () => {
                 "c. ビタミン E－口角炎",
                 "d. ビタミン B1－Wernicke 脳症",
                 "e. カルシウム－テタニー"
-              ]
+              ],
+              answerImg:[pedi22a44_1,pedi22a44_2,pedi22a44_3],
+              answer:"c",
             },
             {
               questionSentence: "Q45 8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL 最も考えられる疾患名はどれか。",
@@ -4029,7 +4189,9 @@ export const useQuestionList = () => {
                 "c. 口腔アレルギー症候群",
                 "d. 食物依存性運動誘発アナフィラキシー",
                 "e. 仮性アレルゲンによるアレルギー類似反応"
-              ]
+              ],
+              answer:"d",
+              commentary:"エビを食べた後に運動したことから疑う"
             },
             {
               questionSentence: "Q46 8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL この疾患について正しいのはどれか。2 つ選べ。",
@@ -4039,7 +4201,9 @@ export const useQuestionList = () => {
                 "c. 小麦の除去食の指導を行う。",
                 "d. 原因食物＋摂取後 2時間の運動を控えてもらう",
                 "e. フルーツやラテックスのアレルギーを合併している可能性がある。"
-              ]
+              ],
+              answer:"b,d",
+              commentary:"小麦の除去食は不要。"
             },
             {
               questionSentence: "Q47 母乳および人工乳について正しいのはどれか。2 つ選べ。(2021-47)",
@@ -4049,7 +4213,9 @@ export const useQuestionList = () => {
                 "c. 出産後 1か月以内に分泌される母乳のことを初乳という。",
                 "d. 離乳食を開始後もしばらくは母乳や人工乳の摂取を継続すべきである。",
                 "e. 母乳の中でも、初乳は分泌型 IgA やマクロファージなどを含み、新生児の腸管の免疫機能のために働く。"
-              ]
+              ],
+              answerImg:[pedi22a47],
+              answer:"d,e",
             },
             {
               questionSentence: "Q48 4 か月の乳児。出生体重 3,200g、身長 51.0cm。現在の体重 6,400g、身長 59cm である。四肢をよく動かし、指しゃぶりをしている。座位に保持すると頭部は垂直位を保っている。引き起こし反応では、頭部と肘関節は屈曲している。正しいのはどれか。1 つ選べ。(2021-48)",
@@ -4059,7 +4225,9 @@ export const useQuestionList = () => {
                 "c. 指しゃぶりは吸啜反射の残存である。",
                 "d. 指しゃぶりはやめさせるべきである。",
                 "e. 引き起こし反応は、肘関節は伸展するのが良い。"
-              ]
+              ],
+              answerImg:[pedi22a48],
+              answer:"b",
             },
             {
               questionSentence: "Q49 Which is the most common cause of food allergy in children?",
@@ -4069,7 +4237,10 @@ export const useQuestionList = () => {
                 "c. Egg",
                 "d. Buckwheat",
                 "e. Peanut"
-              ]
+              ],
+              answerImg:[pedi22a49],
+              answer:"c",
+              commentary:"【問題文日本語訳】小児の食物アレルギーで最も一般的な原因はどれか。【選択肢日本語訳】a. 牛乳 b. 小麦 c. 卵 d. ソバ e. ピーナッツ 【解説】小児の食物アレルギーで最も一般的な原因は卵である。"
             },
             {
               questionSentence: "Q50 生後 10 ヶ月の男児。38 度から 39 度の発熱が 3 日間続いたが自宅で経過観察し、自然に解熱した。解熱後に体幹中心に 5mm 大の発疹が多数出現したため、病院を受診した。この疾患に関する説明として、誤っているのはどれか。(2021-50 改)",
@@ -4079,7 +4250,10 @@ export const useQuestionList = () => {
                 "c. 熱性けいれんを合併することがある。",
                 "d. 特別な治療は不要である。",
                 "e. 予後は良い。"
-              ]
+              ],
+              answerImg:[pedi22a50],
+              answer:"a",
+              commentary:"突発性発疹が疑われる。"
             }
           ]
         },
