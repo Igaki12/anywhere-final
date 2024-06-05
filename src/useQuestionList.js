@@ -4256,6 +4256,660 @@ export const useQuestionList = () => {
               commentary:"突発性発疹が疑われる。"
             }
           ]
+        },{
+          groupTag : "小児 2022本 機械英訳",
+          groupContents: [
+            {
+              "questionSentence": "Q1 Which of the following is correct regarding the leading causes of death by age group for children? (2021-1 Revised)",
+              "choices": [
+                "a. The leading cause of death in infants under 1 year is sudden infant death syndrome (SIDS).",
+                "b. The leading cause of death in children aged 1-4 years is congenital anomalies, deformations, and chromosomal abnormalities.",
+                "c. The leading cause of death in children aged 5-9 years is heart disease.",
+                "d. The leading cause of death in children aged 10-14 years is accidental injury.",
+                "e. The leading cause of death in adolescents aged 15-19 years is heart disease."
+              ],
+              "answerImg": ["pedi22a1"],
+              "answer": "b",
+              "commentary": "【問題文原文】　こどもの年齢別死因について正しいのはどれか。(2021-1 改) 【選択肢原文】 a. 0 歳の死因 1 位は乳幼児突然死症候群である。 b. 1〜4 歳の死因の 1 位は先天奇形、変形または染色体異常である。 c. 5〜9 歳の死因の 1 位は心疾患である。 d. 10〜14 歳の死因の 1位は不慮の事故である。 e. 15〜19 歳の死因の 1位は心疾患である。"
+            },
+            {
+              "questionSentence": "Q2 Which of the following is incorrect? (2021-2)",
+              "choices": [
+                "a. The peak growth rate for height after school age occurs earlier in girls.",
+                "b. Pediatricians sometimes continue to treat patients beyond childhood into adulthood.",
+                "c. The neonatal period is called the infantile period.",
+                "d. The leading cause of accidental death in infants under 1 year is accidental suffocation.",
+                "e. The leading cause of accidental death in children aged 5-9 years is traffic accidents."
+              ],
+              "answerImg": ["pedi22a2_1", "pedi22a2_2"],
+              "answer": "c",
+              "commentary": "【問題文原文】　次のうち誤っているのはどれか。(2021-2) 【選択肢原文】 a. 学童期以降に訪れる身長の成長速度のピークは女児の方が早い。 b. 小児科医は小児期を超えて成人後も診療にあたることがある。 c. 新生児期は infantile period と呼ばれる。 d. 0 歳の不慮の事故による死亡数の原因の 1位は不慮の窒息である。 e. 5～9 歳の不慮の事故による死亡数の原因の 1 位は交通事故である。"
+            },
+            {
+              "questionSentence": "Q3 Which of the following is correct regarding norovirus infection (infectious gastroenteritis)? Choose two. (2020-23)",
+              "choices": [
+                "a. Oral vaccination is effective for prevention.",
+                "b. The incubation period is 1-2 days.",
+                "c. Alcohol disinfection is effective.",
+                "d. Most outbreaks are transmitted through food.",
+                "e. The virus can be shed for 3-5 days after diarrhea symptoms disappear."
+              ],
+              "answerImg": [],
+              "answer": "b,e",
+              "commentary": "【問題文原文】　ノロウイルス感染症（感染性胃腸炎）について正しいものはどれか。2 つ選べ。(2020-23) 【選択肢原文】 a. 予防には経口予防接種が有効である。 b. 潜伏期間は 1～2 日である。 c. アルコール消毒が有効である。 d. 大流行の伝播はほとんど食物を介してである。 e. 下痢症状が消失後も 3～5 日はウイルスが排泄される。"
+            },
+            {
+              "questionSentence": "Q4 Which of the following is incorrect regarding child abuse? (2020-1)",
+              "choices": [
+                "a. The number of consultations regarding child abuse nationwide is increasing every year.",
+                "b. Doctors are obligated to report when they suspect abuse.",
+                "c. Violence against a family member in front of the child is not considered abuse.",
+                "d. You can report abuse without the parent's permission if you suspect it.",
+                "e. Children with premature birth, chronic diseases, or intellectual disabilities are at high risk of abuse."
+              ],
+              "answerImg": [],
+              "answer": "c",
+              "commentary": "【問題文原文】　児童虐待について誤っているものはどれか。(2020-1) 【選択肢原文】 a. 全国の児童虐待に関する相談件数は毎年増加している。 b. 医師は虐待を疑った時点で通告する義務がある。 c. こどもの目の前で家族に対して暴力をふるうことは虐待にはならない。 d. 虐待を疑った場合、親の許可なしに通告してよい。 e. こどもが早産、慢性疾患、知的障害などの障害を持っている場合は虐待のハイリスクとなる。"
+            },
+            {
+              "questionSentence": "Q5 Which of the following is incorrect regarding fever in children? (2021-5)",
+              "choices": [
+                "a. At 6 months of age, IgG levels are about 30% of adult levels.",
+                "b. A fever on day 1 of life should raise suspicion for Group B streptococcal infection.",
+                "c. Persistent fever returns to normal body temperature.",
+                "d. Body temperature changes with the menstrual cycle.",
+                "e. Acetaminophen is recommended as an antipyretic for children."
+              ],
+              "answerImg": ["pedi22a5_1", "pedi22a5_2"],
+              "answer": "c",
+              "commentary": "【問題文原文】　小児の発熱について誤っているのはどれか。(2021-5) 【選択肢原文】 a. 生後 6 か月での lgG は成人の約 30%程度しかない。 b. 日齢 1 の発熱は B 群溶連菌感染症を念頭に置く。 c. 稽留熱は平熱までさがる。 d. 月経周期により体温は変化する。 e. 小児に使用する解熱剤はアセトアミノフェンが推奨される。"
+            },
+            {
+              "questionSentence": "Q6 Which of the following is correct? Choose two. (2021-6)",
+              "choices": [
+                "a. Koplik spots are seen in rubella patients.",
+                "b. Measles can be prevented with the quadrivalent vaccine.",
+                "c. Subacute sclerosing panencephalitis (SSPE) is a complication of measles.",
+                "d. Lymphadenopathy in the neck and behind the ear is characteristic of varicella.",
+                "e. Varicella usually confers lifelong immunity after one infection."
+              ],
+              "answerImg": ["pedi22a6_1", "pedi22a6_2", "pedi22a6_3"],
+              "answer": "c,e",
+              "commentary": "【問題文原文】　次のうち正しいのはどれか。2つ選べ。(2021-6) 【選択肢原文】 a. 風疹患者ではコプリック斑が見られる。 b. 4 種混合ワクチンで麻疹は予防できる。 c. 麻疹の合併症として亜急性硬化性全脳炎 (SSPE)がある。 d. 水痘では頚部や耳介後部のリンパ節腫脹が特徴的である。 e. 水痘は一回の罹患でほとんどが終生免疫を残す。"
+            },
+            {
+              "questionSentence": "Q7 Which disease does not exhibit nighttime coughing? (2019-31)",
+              "choices": [
+                "a. Pertussis",
+                "b. Croup",
+                "c. Psychogenic cough",
+                "d. Bronchial asthma",
+                "e. Bronchiolitis"
+              ],
+              "answerImg": ["pedi22a7"],
+              "answer": "c",
+              "commentary": "【問題文原文】　夜間睡眠時の咳が見られない疾患はどれか。(2019-31) 【選択肢原文】 a. 百日咳 b. クループ c. 心因性咳嗽 d. 気管支喘息 e. 細気管支炎"
+            },
+            {
+              "questionSentence": "Q8 Which of the following does not cause hemolytic uremic syndrome (HUS)? (2019-21)",
+              "choices": [
+                "a. Shiga toxin-producing Escherichia coli (STEC)",
+                "b. Thrombotic thrombocytopenic purpura (TTP)",
+                "c. Neisseria meningitidis",
+                "d. Mycoplasma pneumoniae",
+                "e. Streptococcus pneumoniae"
+              ],
+              "answerImg": ["pedi22a8"],
+              "answer": "d",
+              "commentary": "【問題文原文】　溶血性尿毒症症候群 (HUS) の原因とならないのはどれか。(2019-21) 【選択肢原文】 a. 志賀毒素産生性大腸菌 (STEC) b. 血栓性血小板減少性紫斑病 (TTP) c. 髄膜炎菌 d. マイコプラズマ肺炎 e. 肺炎球菌"
+            },
+            {
+              "questionSentence": "Q9 Which of the following is correct regarding the complications of Kawasaki disease? (2018-22)",
+              "choices": [
+                "a. Coronary artery aneurysm formation occurs in the acute phase.",
+                "b. Atypical Kawasaki disease does not cause coronary artery aneurysm.",
+                "c. The most common cause of death in Kawasaki disease is myocarditis.",
+                "d. Coronary artery aneurysm can persist for a long time.",
+                "e. Coronary artery aneurysm usually resolves without sequelae."
+              ],
+              "answerImg": ["pedi22a9"],
+              "answer": "d",
+              "commentary": "【問題文原文】　川崎病の合併症について正しいのはどれか。(2018-22) 【選択肢原文】 a. 冠動脈瘤の形成は急性期に生じる。 b. 不全型川崎病では冠動脈瘤は生じない。 c. 川崎病の死因で最も多いのは心筋炎である。 d. 冠動脈瘤は長期間残存することがある。 e. 冠動脈瘤は通常、後遺症を残さずに消失する。"
+            },
+            {
+              "questionSentence": "Q10 Which of the following is correct regarding neonatal jaundice? (2019-11)",
+              "choices": [
+                "a. Jaundice appearing within 24 hours of birth is physiological jaundice.",
+                "b. Physiological jaundice usually peaks at 5-7 days after birth.",
+                "c. Breast milk jaundice typically appears after 2 weeks of age.",
+                "d. Phototherapy is effective in treating physiological jaundice.",
+                "e. Bilirubin encephalopathy can occur in physiological jaundice."
+              ],
+              "answerImg": ["pedi22a10_1", "pedi22a10_2"],
+              "answer": "d",
+              "commentary": "【問題文原文】　新生児黄疸について正しいのはどれか。(2019-11) 【選択肢原文】 a. 生後 24 時間以内に出現する黄疸は生理的黄疸である。 b. 生理的黄疸は通常、生後 5～7 日でピークに達する。 c. 母乳性黄疸は通常、生後 2 週間以降に出現する。 d. 生理的黄疸の治療には光線療法が有効である。 e. 生理的黄疸でビリルビン脳症が起こることがある。"
+            },
+            {
+              "questionSentence": "Q11 Which of the following is incorrect regarding pediatric asthma? (2018-33)",
+              "choices": [
+                "a. Wheezing is often heard during expiration.",
+                "b. Asthma attacks can be triggered by viral infections.",
+                "c. Most children outgrow asthma by school age.",
+                "d. Inhaled corticosteroids are effective in controlling symptoms.",
+                "e. Avoiding allergens is important in managing asthma."
+              ],
+              "answerImg": [],
+              "answer": "c",
+              "commentary": "【問題文原文】　小児喘息について誤っているのはどれか。(2018-33) 【選択肢原文】 a. 喘鳴は呼気時によく聞かれる。 b. ウイルス感染が発作を引き起こすことがある。 c. ほとんどの子供は学童期までに喘息を克服する。 d. 吸入ステロイドは症状のコントロールに有効である。 e. アレルゲンの回避は喘息管理において重要である。"
+            },
+            {
+              "questionSentence": "Q12 Which of the following is correct regarding pediatric tuberculosis? (2018-34)",
+              "choices": [
+                "a. The tuberculin skin test is more sensitive in infants.",
+                "b. BCG vaccination is not recommended for children.",
+                "c. The primary site of infection in children is usually the lungs.",
+                "d. Pediatric tuberculosis is usually asymptomatic.",
+                "e. The incidence of pediatric tuberculosis is decreasing worldwide."
+              ],
+              "answerImg": [],
+              "answer": "c",
+              "commentary": "【問題文原文】　小児結核について正しいのはどれか。(2018-34) 【選択肢原文】 a. ツベルクリン反応検査は乳児において感度が高い。 b. BCG ワクチンは子供には推奨されていない。 c. 小児の感染部位は通常、肺である。 d. 小児結核は通常、無症状である。 e. 小児結核の発生率は世界的に減少している。"
+            },
+            {
+              "questionSentence": "Q13 Which of the following is incorrect regarding pediatric gastroesophageal reflux disease (GERD)? (2018-35)",
+              "choices": [
+                "a. GERD is more common in preterm infants.",
+                "b. The main symptom is vomiting.",
+                "c. GERD often resolves by the end of the first year of life.",
+                "d. Thickened feedings can help manage GERD symptoms.",
+                "e. Surgical treatment is commonly required."
+              ],
+              "answerImg": [],
+              "answer": "e",
+              "commentary": "【問題文原文】　小児胃食道逆流症 (GERD) について誤っているのはどれか。(2018-35) 【選択肢原文】 a. GERD は早産児に多い。 b. 主な症状は嘔吐である。 c. GERD は通常、1 歳までに自然に治る。 d. とろみのある授乳が GERD 症状の管理に役立つ。 e. 外科治療が一般的に必要である。"
+            },
+            {
+              "questionSentence": "Q14 Which of the following is correct regarding pediatric otitis media? (2017-41)",
+              "choices": [
+                "a. Most cases are caused by viral infections.",
+                "b. Antibiotic treatment is always necessary.",
+                "c. Recurrent otitis media can lead to hearing loss.",
+                "d. Otitis media is rare in children under 6 months.",
+                "e. Breastfeeding increases the risk of otitis media."
+              ],
+              "answerImg": ["pedi22a14_1", "pedi22a14_2"],
+              "answer": "c",
+              "commentary": "【問題文原文】　小児中耳炎について正しいのはどれか。(2017-41) 【選択肢原文】 a. 大部分のケースはウイルス感染が原因である。 b. 抗生物質治療は常に必要である。 c. 再発性中耳炎は難聴を引き起こすことがある。 d. 中耳炎は生後 6 ヶ月未満の子供にはまれである。 e. 母乳育児は中耳炎のリスクを高める。"
+            },
+            {
+              "questionSentence": "Q15 Which of the following is incorrect regarding pediatric urinary tract infections (UTIs)? (2017-42)",
+              "choices": [
+                "a. UTIs are more common in girls than boys after infancy.",
+                "b. Fever is a common symptom of UTIs in infants.",
+                "c. UTI diagnosis is confirmed by urine culture.",
+                "d. Vesicoureteral reflux is a risk factor for recurrent UTIs.",
+                "e. Asymptomatic bacteriuria always requires treatment."
+              ],
+              "answerImg": ["pedi22a15"],
+              "answer": "e",
+              "commentary": "【問題文原文】　小児尿路感染症 (UTI) について誤っているのはどれか。(2017-42) 【選択肢原文】 a. 乳児期以降、UTI は女児に多い。 b. 発熱は乳児における UTI の一般的な症状である。 c. UTI の診断は尿培養で確認される。 d. 膀胱尿管逆流 (VUR) は再発性 UTI のリスク因子である。 e. 無症候性細菌尿は常に治療が必要である。"
+            },
+            {
+              "questionSentence": "Q16 Which of the following is incorrect regarding pediatric asthma? (2017-43)",
+              "choices": [
+                "a. Asthma is a common chronic disease in children.",
+                "b. Inhaled corticosteroids are the first-line treatment for asthma.",
+                "c. Asthma attacks can be triggered by exercise.",
+                "d. Most children outgrow asthma by adolescence.",
+                "e. Avoiding allergens is crucial in managing asthma."
+              ],
+              "answerImg": ["pedi22a16"],
+              "answer": "d",
+              "commentary": "【問題文原文】　小児喘息について誤っているのはどれか。(2017-43) 【選択肢原文】 a. 喘息は子供における一般的な慢性疾患である。 b. 吸入ステロイドは喘息の第一選択治療である。 c. 運動が喘息発作の引き金になることがある。 d. ほとんどの子供は思春期までに喘息を克服する。 e. アレルゲンの回避は喘息管理において重要である。"
+            },
+            {
+              "questionSentence": "Q17 Which of the following is correct regarding pediatric seizures? (2017-44)",
+              "choices": [
+                "a. Febrile seizures are common in children under 5 years.",
+                "b. Epilepsy is the most common cause of seizures in children.",
+                "c. Absence seizures typically last longer than 30 seconds.",
+                "d. Status epilepticus is a medical emergency requiring immediate treatment.",
+                "e. EEG is not useful in diagnosing seizures."
+              ],
+              "answerImg": ["pedi22a17"],
+              "answer": "d",
+              "commentary": "【問題文原文】　小児けいれんについて正しいのはどれか。(2017-44) 【選択肢原文】 a. 熱性けいれんは 5 歳未満の子供に一般的である。 b. てんかんは小児におけるけいれんの最も一般的な原因である。 c. 欠神けいれんは通常、30 秒以上続く。 d. ステータスてんかんは即時治療を要する緊急事態である。 e. EEG はけいれんの診断に役立たない。"
+            },
+            {
+              "questionSentence": "Q18 Which of the following is incorrect regarding pediatric nutrition? (2017-45)",
+              "choices": [
+                "a. Breastfeeding is recommended for the first 6 months of life.",
+                "b. Iron-fortified formula is recommended for infants who are not breastfed.",
+                "c. Cow's milk should not be introduced before 1 year of age.",
+                "d. Solid foods should be introduced at 4-6 months of age.",
+                "e. Honey is a safe sweetener for infants under 1 year."
+              ],
+              "answerImg": [],
+              "answer": "e",
+              "commentary": "【問題文原文】　小児栄養について誤っているのはどれか。(2017-45) 【選択肢原文】 a. 授乳は生後 6 ヶ月まで推奨される。 b. 鉄強化ミルクは母乳育児をしていない乳児に推奨される。 c. 牛乳は 1 歳まで導入すべきではない。 d. 固形食品は生後 4～6 ヶ月で導入すべきである。 e. 蜂蜜は 1 歳未満の乳児に安全な甘味料である。"
+            },
+            {
+              "questionSentence": "Q19 Which of the following is correct regarding pediatric vaccination? (2017-46)",
+              "choices": [
+                "a. Live vaccines are contraindicated in immunocompromised children.",
+                "b. The first dose of the MMR vaccine is given at 6 months.",
+                "c. Influenza vaccination is recommended annually for all children.",
+                "d. The HPV vaccine is recommended for children under 9 years.",
+                "e. The DTaP vaccine is given as a single dose."
+              ],
+              "answerImg": ["pedi22a19"],
+              "answer": "a",
+              "commentary": "【問題文原文】　小児予防接種について正しいのはどれか。(2017-46) 【選択肢原文】 a. 生ワクチンは免疫不全の子供には禁忌である。 b. MMR ワクチンの最初の接種は生後 6 ヶ月で行われる。 c. インフルエンザワクチンはすべての子供に毎年推奨される。 d. HPV ワクチンは 9 歳未満の子供に推奨される。 e. DTaP ワクチンは単回接種である。"
+            },
+            {
+              "questionSentence": "Q20 Which of the following is NOT a complication of refeeding to patients with anorexia nervosa?",
+              "choices": [
+                "a. Edema",
+                "b. Arrhythmia",
+                "c. Stomachache",
+                "d. Hypokalemia",
+                "e. Hyperphosphatemia"
+              ],
+              "answer": "e",
+              "commentary": "【問題文日本語訳】拒食症の患者に対する再栄養療法の合併症として適切でないのはどれか。【選択肢日本語訳】a.浮腫 b.不整脈 c.胃痛 d.低カリウム血症 e.高リン血症 【解説】栄養不足時にはタンパク質やリンの補給は不足している。"
+            },
+            {
+              "questionSentence": "Q21 Which of the following is correct regarding pediatric developmental milestones? Choose two. (2021-21)",
+              "choices": [
+                "a. A child can roll over at 4 months.",
+                "b. A child can walk holding onto furniture at 10 months.",
+                "c. A child can point with one finger at 1 year.",
+                "d. A child can speak in two-word sentences at 1 year and 6 months.",
+                "e. There is a critical period for language acquisition."
+              ],
+              "answerImg": ["pedi22a21_1", "pedi22a21_2"],
+              "answer": "c,e",
+              "commentary": "【問題文原文】こどもの発達として正しいのはどれか。2つ選べ。(2021-23) 【選択肢原文】a.生後 4 か月でハイハイができる。b.生後 10 か月で伝い歩きができる。c.1 歳で指差しができる。d.1 歳 6 か月で二語文を話す。e.言葉の獲得には臨界期(critical period)がある。"
+            },
+            {
+              "questionSentence": "Q22 Which of the following is correct regarding food allergies? Choose two.",
+              "choices": [
+                "a. Oral allergy syndrome is not dependent on IgE.",
+                "b. Eggs are a representative food whose allergenicity changes with heating.",
+                "c. Milk is the most common cause of food-dependent exercise-induced anaphylaxis.",
+                "d. Histamine poisoning from consuming stale fish is not an allergy.",
+                "e. Peanuts are the most common cause of food allergies in children."
+              ],
+              "answerImg": ["pedi22a24"],
+              "answer": "b,d",
+              "commentary": "【問題文原文】食物アレルギーについて正しいのはどれか。2 つ選べ。【選択肢原文】a. 口腔アレルギーは IgE 非依存性アレルギーである。b. 鶏卵は加熱によりアレルゲン性が変わる代表的な食物である。c. 牛乳は食物運動誘発性アナフィラキシーの原因の中で最多である。d. 新鮮でない魚の摂取によるヒスタミン中毒はアレルギーではない。e. ピーナッツは子供に最も多い食物アレルギーの原因である。"
+            },
+            {
+              "questionSentence": "Q23 Which of the following is incorrect? Choose two. (2021-25)",
+              "choices": [
+                "a. Boys' secondary sexual characteristics begin with the development of pubic hair.",
+                "b. Boys start puberty earlier than girls.",
+                "c. The main issue with precocious puberty is short adult height.",
+                "d. Menarche before the age of 9 in girls is suspected as precocious puberty.",
+                "e. In peripheral precocious puberty, gonadotropin (LH/FSH) is suppressed."
+              ],
+              "answerImg": ["pedi22a16"],
+              "answer": "a,b",
+              "commentary": "【問題文原文】次のうち誤っているのはどれか。2 つ選べ。(2021-16) 【選択肢原文】a.男子の二次性徴は陰毛発生で始まる。b.男子の方が女子より二次性徴開始時期が早い。c.思春期早発症では成人身長が低くなることが問題である。d.女子において 9 歳で月経発来を認めたら思春期早発症を疑う。e.末梢性思春期早発症では性腺刺激ホルモン (LH/FSH) は抑制される。"
+            },
+            {
+              "questionSentence": "Q24 Which of the following is correct regarding neonatal jaundice? Choose two. (2021-17)",
+              "choices": [
+                "a. The stool color becomes grayish white.",
+                "b. It appears immediately after birth.",
+                "c. It shows a predominance of direct bilirubin.",
+                "d. It is caused by the immaturity of glucuronosyltransferase enzyme.",
+                "e. The neurotoxicity of bilirubin depends on the indirect bilirubin level."
+              ],
+              "answerImg": ["pedi22a17"],
+              "answer": "d,e",
+              "commentary": "【問題文原文】新生児黄疸について正しいのはどれか。2つ選べ。(2021-17) 【選択肢原文】a.便の色は灰白色になる。b.出生直後から発症する。c.直接ビリルピン優位に上昇する。d.グルクロン酸抱合酵素の未熟性が原因である。e.ビリルビンの神経毒性は間接ビリルビン値に依存する。"
+            },
+            {
+              "questionSentence": "Q25 Which of the following is correct regarding a 1-year-old boy with jaundice at a 1-month check-up? (2021-18)",
+              "choices": [
+                "a. Breast milk jaundice",
+                "b. Biliary atresia",
+                "c. Hemolytic jaundice",
+                "d. Gilbert's syndrome",
+                "e. Crigler-Najjar syndrome"
+              ],
+              "answerImg": ["pedi22a18_1", "pedi22a18_2"],
+              "answer": "b",
+              "commentary": "【問題文原文】　日齢 37 の男児。1か月健診で黄疸を指摘され来院した。在胎 40 週 1 日、体重 2,956g で出生した。出生後完全母乳栄養で哺乳良好である。生後 1週間頃から白っぽい便が持続しているが哺乳および全身状態は良好である。血液生化学所見：総ビリルビン 12.5mg/dL、直接ビリルビン 9.5mg/dL、AST 132IU/L、ALT 150IU/L、LDH 478IU/L。この児について考えられる疾患はどれか。 【選択肢原文】a.母乳性黄疸 b.胆道閉鎖症 c.溶血性黄疸 d.Gilbert 症候群 e.Crigler-Najjar 症候群"
+            },
+            {
+              "questionSentence": "Q26 Which of the following tests is incorrect for a 37-day-old boy with jaundice? Choose two. (2021-19)",
+              "choices": [
+                "a. Genetic testing",
+                "b. Coombs test",
+                "c. Abdominal ultrasound",
+                "d. Blood coagulation function test",
+                "e. Bile collection by duodenal tube"
+              ],
+              "answerImg": ["pedi22a19"],
+              "answer": "b,e",
+              "commentary": "【問題文原文】日齢 37 の男児。1 か月健診で黄疸を指摘され来院した。在胎 40 週 1 日、体重 2,956g で出生した。出生後完全母乳􏰁養で哺乳良好である。生後 1 週間頃から白っぽい便が持続し ているが哺乳および全身状態は良好である。血液生化学所見:総ビリルビン 12.5mg/dL、直 接ビリルビン 9.5mg/dL、AST 132IU/L、ALT 150IU/L、LDH 478IU/L。 行うべき検査として誤っているのはどれか。2 つ選べ。【選択肢原文】a. 遺伝子検査 b. Coombs 試験 c. 腹部超音波検査 d. 血液凝固機能検査 e. 十二指腸ゾンデによる胆汁採取 【解説】十二指腸ゾンデでは胆汁採取ではなく、胆汁排泄の証明を行う。"
+            },
+            {
+              "questionSentence": "Q27 Which of the following findings would a pediatrician consider abnormal when performing a physical assessment of a 6-month-old child?",
+              "choices": [
+                "a. Remaining of Moro reflex",
+                "b. Anterior fontanelle is open",
+                "c. Beginning signs of tooth growing",
+                "d. Unable to walk",
+                "e. Fixed neck"
+              ],
+              "answerImg": ["pedi22a38"],
+              "answer": "a",
+              "commentary": "【問題文日本語訳】小児科医が 6 か月の乳児の身体評価を行う際、異常と考える所見はどれか。【選択肢日本語訳】a. Moro 反射が残存 b. 前頭部裂開が開いている c. 歯が生え始める d. 歩行できない e. 首が固定されている 【解説】Moro 反射は生後 4 か月までに消失するので、6 か月で残存しているのは異常である。"
+            },
+            {
+              "questionSentence": "Q28 Which of the following is incorrect regarding Basedow's disease (Graves' disease)? (2021-39)",
+              "choices": [
+                "a. Hyperactivity",
+                "b. Palpitations",
+                "c. Diarrhea",
+                "d. Sensitivity to cold",
+                "e. Increased appetite"
+              ],
+              "answerImg": ["pedi22a39_1", "pedi22a39_2"],
+              "answer": "d",
+              "commentary": "【問題文日本語訳】Basedow 病に多い症状として誤っているのはどれか。【選択肢日本語訳】a. 多動 b. 動悸 c. 下痢 d. 寒がり e. 食欲亢進 【解説】暑がりが多い。"
+            },
+            {
+              "questionSentence": "Q29 Which of the following is correct regarding a 1-year-old girl who visited a health checkup? (2021-40)",
+              "choices": [
+                "a. She is short for her age.",
+                "b. She has a small head.",
+                "c. She is underweight.",
+                "d. She was born with a low birth weight.",
+                "e. She has vitamin D deficiency."
+              ],
+              "answerImg": ["pedi22a40"],
+              "answer": "a,d",
+              "commentary": "【問題文原文】1 歳 0 ヶ月の女児。健康診査で来院した。在胎 38 週 5 日で身長 47cm、体重 2,340g、頭囲 32cm、胸囲 31cm で仮死なく出生した。現症:身長 68cm、体重 8,540g、頭囲 45cm、胸囲 44cm。心音と呼吸音に異常を認めない。腹 部は平坦で肝・脾を触知しない。この児について誤っているのはどれか。2 つ選べ。【選択肢原文】a. 低身長である。b. 小頭である。c. やせである。d. 低出生体重児である。e. ビタミン D 欠乏である。"
+            },
+            {
+              "questionSentence": "Q30 Which of the following is correct regarding viral gastroenteritis in children? (2021-41)",
+              "choices": [
+                "a. The main route of infection is airborne.",
+                "b. Adenovirus gastroenteritis can cause bloody stool.",
+                "c. Alcohol is effective for disinfecting norovirus.",
+                "d. Fasting is necessary until symptoms subside.",
+                "e. The development of rotavirus vaccine has reduced severe cases."
+              ],
+              "answerImg": [],
+              "answer": "e",
+              "commentary": "【問題文原文】小児のウイルス性胃腸炎について正しいのはどれか。【選択肢原文】a. 感染経路は主に空気感染である。b. アデノウイルスでは血便がみられる。c. ノロウイルスの消毒はアルコールで行う。d. 症状が収まるまでは絶食が必要である。e. ロタウイルスワクチンの開発によって重症例は減少した。"
+            },
+            {
+              "questionSentence": "Q31 Which of the following diseases can cause head circumference enlargement? Choose two.",
+              "choices": [
+                "a. Craniosynostosis",
+                "b. Down syndrome",
+                "c. Hydrocephalus",
+                "d. Sotos syndrome",
+                "e. Congenital rubella syndrome"
+              ],
+              "answerImg": ["pedi22a42"],
+              "answer": "c,d",
+              "commentary": "【問題文日本語訳】次のうち、頭囲拡大を引き起こす疾患はどれか。【選択肢日本語訳】a. 頭蓋縫合早期癒合症 b. ダウン症候群 c. 水頭症 d. Sotos 症候群 e. 先天性風疹症候群 【解説】水頭症は頭囲拡大を引き起こす。Sotos 症候群は巨大症を伴う疾患である。2024年度は小児疾患で脳外科の講義が行われていない"
+            },
+            {
+              "questionSentence": "Q32 Which of the following is a cause of hyperbilirubinemia associated with Crigler-Najjar syndrome type 1?",
+              "choices": [
+                "a. Increased bilirubin production",
+                "b. Insufficient bilirubin conjugation",
+                "c. Insufficient bilirubin uptake in the liver",
+                "d. UDPGT deficiency",
+                "e. G6PD deficiency"
+              ],
+              "answerImg": ["pedi22a43"],
+              "answer": "d",
+              "commentary": "【問題文日本語訳】Crigler-Najjar 症候群 type 1 に関連する高ビリルビン血症の原因はどれか。【選択肢日本語訳】a. ビリルビン産生の増加 b. ビリルビンの結合不全 c. 肝臓でのビリルビンの取り込み不全 d. UDPGT 欠損 e. G6PD 欠損"
+            },
+            {
+              "questionSentence": "Q33 Which of the following combinations of nutrients and their deficiency symptoms is incorrect?",
+              "choices": [
+                "a. Vitamin A – Night blindness",
+                "b. Zinc – Dermatitis",
+                "c. Vitamin E – Angular cheilitis",
+                "d. Vitamin B1 – Wernicke's encephalopathy",
+                "e. Calcium – Tetany"
+              ],
+              "answerImg": ["pedi22a44_1", "pedi22a44_2", "pedi22a44_3"],
+              "answer": "c",
+              "commentary": "【問題文日本語訳】栄養素とその欠乏症の組み合わせについて誤っているのはどれか。【選択肢日本語訳】a. ビタミン A－夜盲症 b. 亜鉛－皮膚炎 c. ビタミン E－口角炎 d. ビタミン B1－Wernicke 脳症 e. カルシウム－テタニー"
+            },
+            {
+              "questionSentence": "Q34 Which of the following is the most likely diagnosis for an 8-year-old boy presenting with urticaria and respiratory distress 30 minutes after eating shrimp gratin? (2021-45)",
+              "choices": [
+                "a. Soy allergy",
+                "b. Asthma attack",
+                "c. Oral allergy syndrome",
+                "d. Food-dependent exercise-induced anaphylaxis",
+                "e. Pseudo-allergen-like reaction"
+              ],
+              "answerImg": [],
+              "answer": "d",
+              "commentary": "【問題文原文】8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL 最も考えられる疾患名はどれか。【選択肢原文】a. 大豆アレルギー b. 気管支喘息発作 c. 口腔アレルギー症候群 d. 食物依存性運動誘発アナフィラキシー e. 仮性アレルゲンによるアレルギー類似反応【解説】エビを食べた後に運動したことから疑う"
+            },
+            {
+              "questionSentence": "Q35 Which of the following is correct regarding the management of food-dependent exercise-induced anaphylaxis? Choose two. (2021-46)",
+              "choices": [
+                "a. Race plays a role.",
+                "b. It is a food allergy.",
+                "c. A wheat-free diet should be advised.",
+                "d. Avoiding exercise for 2 hours after consuming the causative food.",
+                "e. Co-occurrence with fruit or latex allergy is possible."
+              ],
+              "answerImg": [],
+              "answer": "b,d",
+              "commentary": "【問題文原文】8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL この疾患について正しいのはどれか。2 つ選べ。【選択肢原文】a. 人種が関与している。b. 食物アレルギーである。c. 小麦の除去食の指導を行う。d. 原因食物＋摂取後 2時間の運動を控えてもらうe. フルーツやラテックスのアレルギーを合併している可能性がある。【解説】小麦の除去食は不要。"
+            },
+            {
+              "questionSentence": "Q36 Which of the following is correct regarding breastfeeding and formula feeding? Choose two. (2021-47)",
+              "choices": [
+                "a. The iron content in formula is less than in cow's milk.",
+                "b. The vitamin K content in breast milk is higher than in formula.",
+                "c. The milk secreted within 1 month after birth is called colostrum.",
+                "d. Breastfeeding or formula feeding should be continued even after starting solid foods.",
+                "e. Colostrum contains secretory IgA and macrophages, which help with the infant's gut immune function."
+              ],
+              "answerImg": ["pedi22a47"],
+              "answer": "d,e",
+              "commentary": "【問題文原文】母乳および人工乳について正しいのはどれか。2 つ選べ。(2021-47) 【選択肢原文】a. 人工乳の鉄分含有量は牛乳よりも少ない。b. 母乳のピタミン K 含有量は人工乳より多い。c. 出産後 1か月以内に分泌される母乳のことを初乳という。d. 離乳食を開始後もしばらくは母乳や人工乳の摂取を継続すべきである。e. 母乳の中でも、初乳は分泌型 IgA やマクロファージなどを含み、新生児の腸管の免疫機能のために働く。"
+            },
+            {
+              "questionSentence": "Q37 Which of the following is correct regarding a 4-month-old infant? (2021-48)",
+              "choices": [
+                "a. Overgrowth is present.",
+                "b. Development is normal.",
+                "c. Thumb sucking is a remnant of the sucking reflex.",
+                "d. Thumb sucking should be stopped.",
+                "e. Elbow extension during pull-to-sit is preferable."
+              ],
+              "answerImg": ["pedi22a48"],
+              "answer": "b",
+              "commentary": "【問題文原文】4 か月の乳児。出生体重 3,200g、身長 51.0cm。現在の体重 6,400g、身長 59cm である。四肢をよく動かし、指しゃぶりをしている。座位に保持すると頭部は垂直位を保っている。引き起こし反応では、頭部と肘関節は屈曲している。正しいのはどれか。1 つ選べ。(2021-48) 【選択肢原文】a. 過成長である。b. 発達は正常である。c. 指しゃぶりは吸啜反射の残存である。d. 指しゃぶりはやめさせるべきである。e. 引き起こし反応は、肘関節は伸展するのが良い。"
+            },
+            {
+              "questionSentence": "Q38 Which is the most common cause of food allergy in children?",
+              "choices": [
+                "a. Milk",
+                "b. Wheat",
+                "c. Egg",
+                "d. Buckwheat",
+                "e. Peanut"
+              ],
+              "answerImg": ["pedi22a49"],
+              "answer": "c",
+              "commentary": "【問題文日本語訳】小児の食物アレルギーで最も一般的な原因はどれか。【選択肢日本語訳】a. 牛乳 b. 小麦 c. 卵 d. ソバ e. ピーナッツ 【解説】小児の食物アレルギーで最も一般的な原因は卵である。"
+            },
+            {
+              "questionSentence": "Q39 Which of the following statements is incorrect regarding the explanation of a disease with a 10-month-old boy who had a fever of 38-39 degrees for 3 days and developed a rash after the fever subsided? (2021-50)",
+              "choices": [
+                "a. It can be prevented by routine vaccination.",
+                "b. Human herpesvirus 6 (HHV-6) can be the cause.",
+                "c. Febrile seizures can occur.",
+                "d. No special treatment is required.",
+                "e. The prognosis is good."
+              ],
+              "answerImg": ["pedi22a50"],
+              "answer": "a",
+              "commentary": "【問題文原文】生後 10 ヶ月の男児。38 度から 39 度の発熱が 3 日間続いたが自宅で経過観察し、自然に解熱した。解熱後に体幹中心に 5mm 大の発疹が多数出現したため、病院を受診した。この疾患に関する説明として、誤っているのはどれか。(2021-50 改) 【選択肢原文】a. 定期予防接種で予防できる。b. ヒトヘルペスウイルス 6 型 (HHV6) が原因となりうる。c. 熱性けいれんを合併することがある。d. 特別な治療は不要である。e. 予後は良い。"
+            },
+              {
+                "questionSentence": "Q40 Which of the following is correct regarding a 1-year-old girl who visited a health checkup? (2021-40)",
+                "choices": [
+                  "a. She is short for her age.",
+                  "b. She has a small head.",
+                  "c. She is underweight.",
+                  "d. She was born with a low birth weight.",
+                  "e. She has vitamin D deficiency."
+                ],
+                "answerImg": ["pedi22a40"],
+                "answer": "a,d",
+                "commentary": "【問題文原文】1 歳 0 ヶ月の女児。健康診査で来院した。在胎 38 週 5 日で身長 47cm、体重 2,340g、頭囲 32cm、胸囲 31cm で仮死なく出生した。現症:身長 68cm、体重 8,540g、頭囲 45cm、胸囲 44cm。心音と呼吸音に異常を認めない。腹 部は平坦で肝・脾を触知しない。この児について誤っているのはどれか。2 つ選べ。【選択肢原文】a. 低身長である。b. 小頭である。c. やせである。d. 低出生体重児である。e. ビタミン D 欠乏である。"
+              },
+              {
+                "questionSentence": "Q41 Which of the following is correct regarding viral gastroenteritis in children? (2021-41)",
+                "choices": [
+                  "a. The main route of infection is airborne.",
+                  "b. Adenovirus gastroenteritis can cause bloody stool.",
+                  "c. Alcohol is effective for disinfecting norovirus.",
+                  "d. Fasting is necessary until symptoms subside.",
+                  "e. The development of rotavirus vaccine has reduced severe cases."
+                ],
+                "answerImg": [],
+                "answer": "e",
+                "commentary": "【問題文原文】小児のウイルス性胃腸炎について正しいのはどれか。【選択肢原文】a. 感染経路は主に空気感染である。b. アデノウイルスでは血便がみられる。c. ノロウイルスの消毒はアルコールで行う。d. 症状が収まるまでは絶食が必要である。e. ロタウイルスワクチンの開発によって重症例は減少した。"
+              },
+              {
+                "questionSentence": "Q42 Which of the following diseases can cause head circumference enlargement? Choose two.",
+                "choices": [
+                  "a. Craniosynostosis",
+                  "b. Down syndrome",
+                  "c. Hydrocephalus",
+                  "d. Sotos syndrome",
+                  "e. Congenital rubella syndrome"
+                ],
+                "answerImg": [],
+                "answer": "c,d",
+                "commentary": "【問題文日本語訳】次のうち、頭囲拡大を引き起こす疾患はどれか。【選択肢日本語訳】a. 頭蓋縫合早期癒合症 b. ダウン症候群 c. 水頭症 d. Sotos 症候群 e. 先天性風疹症候群 【解説】水頭症は頭囲拡大を引き起こす。Sotos 症候群は巨大症を伴う疾患である。2024年度は小児疾患で脳外科の講義が行われていない"
+              },
+              {
+                "questionSentence": "Q43 Which of the following is a cause of hyperbilirubinemia associated with Crigler-Najjar syndrome type 1?",
+                "choices": [
+                  "a. Increased bilirubin production",
+                  "b. Insufficient bilirubin conjugation",
+                  "c. Insufficient bilirubin uptake in the liver",
+                  "d. UDPGT deficiency",
+                  "e. G6PD deficiency"
+                ],
+                "answerImg": [],
+                "answer": "d",
+                "commentary": "【問題文日本語訳】Crigler-Najjar 症候群 type 1 に関連する高ビリルビン血症の原因はどれか。【選択肢日本語訳】a. ビリルビン産生の増加 b. ビリルビンの結合不全 c. 肝臓でのビリルビンの取り込み不全 d. UDPGT 欠損 e. G6PD 欠損"
+              },
+              {
+                "questionSentence": "Q44 Which of the following combinations of nutrients and their deficiency symptoms is incorrect?",
+                "choices": [
+                  "a. Vitamin A – Night blindness",
+                  "b. Zinc – Dermatitis",
+                  "c. Vitamin E – Angular cheilitis",
+                  "d. Vitamin B1 – Wernicke's encephalopathy",
+                  "e. Calcium – Tetany"
+                ],
+                "answerImg": ["pedi22a44_1", "pedi22a44_2", "pedi22a44_3"],
+                "answer": "c",
+                "commentary": "【問題文日本語訳】栄養素とその欠乏症の組み合わせについて誤っているのはどれか。【選択肢日本語訳】a. ビタミン A－夜盲症 b. 亜鉛－皮膚炎 c. ビタミン E－口角炎 d. ビタミン B1－Wernicke 脳症 e. カルシウム－テタニー"
+              },
+              {
+                "questionSentence": "Q45 Which of the following is the most likely diagnosis for an 8-year-old boy presenting with urticaria and respiratory distress 30 minutes after eating shrimp gratin? (2021-45)",
+                "choices": [
+                  "a. Soy allergy",
+                  "b. Asthma attack",
+                  "c. Oral allergy syndrome",
+                  "d. Food-dependent exercise-induced anaphylaxis",
+                  "e. Pseudo-allergen-like reaction"
+                ],
+                "answerImg": [],
+                "answer": "d",
+                "commentary": "【問題文原文】8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL 最も考えられる疾患名はどれか。【選択肢原文】a. 大豆アレルギー b. 気管支喘息発作 c. 口腔アレルギー症候群 d. 食物依存性運動誘発アナフィラキシー e. 仮性アレルゲンによるアレルギー類似反応【解説】エビを食べた後に運動したことから疑う"
+              },
+              {
+                "questionSentence": "Q46 Which of the following is correct regarding the management of food-dependent exercise-induced anaphylaxis? Choose two. (2021-46)",
+                "choices": [
+                  "a. Race plays a role.",
+                  "b. It is a food allergy.",
+                  "c. A wheat-free diet should be advised.",
+                  "d. Avoiding exercise for 2 hours after consuming the causative food.",
+                  "e. Co-occurrence with fruit or latex allergy is possible."
+                ],
+                "answerImg": [],
+                "answer": "b,d",
+                "commentary": "【問題文原文】8 歳の男児。30 分前からの蕁麻疹、呼吸苦を主訴に来院した。現病歴：学校の給食でエビグラタンを食べた。給食後の昼休みにサッカー をしていた際、全身に蕁麻疹が出現し、口腔内の違和感や呼吸苦も認めたため、救急車にて近医を受診した。既往歴：アトピー性皮膚炎、幼児期に卵アレルギーあり。家族歴：父にアレルギー性鼻炎。現症：意識は清明。体温 36.7°C、脈拍 120/分、整、血圧 88/54mmHg、呼吸数 32/分、SpO2 93%。限瞼結膜に貧血なし。眼瞼浮腫は軽度認める。両側肺野で呼気性ラ音を聴取する。心音は整、心雑音は聴取しない。腹部は平坦、軟、肝・脾を触知しない。間擦部を中心として全身に膨疹を認める。検査所見：血液所見：白血球数 10,020/μL (好中球 42%、リンパ球 45%、好酸球数 10%、単球 1%、好塩基球 2%)、赤血球数 480 万/μL、Hb 12.5g/dL、Ht 38.2%、血小板数 42.1 万/μL、AST 23IU/L、ALT 21IU/L、LDH 190IU/L、Na 140mEq/L、K 3.5mEq/L、Cl 110mEq/L、CRP 0.1mg/dL この疾患について正しいのはどれか。2 つ選べ。【選択肢原文】a. 人種が関与している。b. 食物アレルギーである。c. 小麦の除去食の指導を行う。d. 原因食物＋摂取後 2時間の運動を控えてもらうe. フルーツやラテックスのアレルギーを合併している可能性がある。【解説】小麦の除去食は不要。"
+              },
+              {
+                "questionSentence": "Q47 Which of the following is correct regarding breastfeeding and formula feeding? Choose two. (2021-47)",
+                "choices": [
+                  "a. The iron content in formula is less than in cow's milk.",
+                  "b. The vitamin K content in breast milk is higher than in formula.",
+                  "c. The milk secreted within 1 month after birth is called colostrum.",
+                  "d. Breastfeeding or formula feeding should be continued even after starting solid foods.",
+                  "e. Colostrum contains secretory IgA and macrophages, which help with the infant's gut immune function."
+                ],
+                "answerImg": ["pedi22a47"],
+                "answer": "d,e",
+                "commentary": "【問題文原文】母乳および人工乳について正しいのはどれか。2 つ選べ。(2021-47) 【選択肢原文】a. 人工乳の鉄分含有量は牛乳よりも少ない。b. 母乳のピタミン K 含有量は人工乳より多い。c. 出産後 1か月以内に分泌される母乳のことを初乳という。d. 離乳食を開始後もしばらくは母乳や人工乳の摂取を継続すべきである。e. 母乳の中でも、初乳は分泌型 IgA やマクロファージなどを含み、新生児の腸管の免疫機能のために働く。"
+              },
+              {
+                "questionSentence": "Q48 Which of the following is correct regarding a 4-month-old infant? (2021-48)",
+                "choices": [
+                  "a. Overgrowth is present.",
+                  "b. Development is normal.",
+                  "c. Thumb sucking is a remnant of the sucking reflex.",
+                  "d. Thumb sucking should be stopped.",
+                  "e. Elbow extension during pull-to-sit is preferable."
+                ],
+                "answerImg": ["pedi22a48"],
+                "answer": "b",
+                "commentary": "【問題文原文】4 か月の乳児。出生体重 3,200g、身長 51.0cm。現在の体重 6,400g、身長 59cm である。四肢をよく動かし、指しゃぶりをしている。座位に保持すると頭部は垂直位を保っている。引き起こし反応では、頭部と肘関節は屈曲している。正しいのはどれか。1 つ選べ。(2021-48) 【選択肢原文】a. 過成長である。b. 発達は正常である。c. 指しゃぶりは吸啜反射の残存である。d. 指しゃぶりはやめさせるべきである。e. 引き起こし反応は、肘関節は伸展するのが良い。"
+              },
+              {
+                "questionSentence": "Q49 Which is the most common cause of food allergy in children?",
+                "choices": [
+                  "a. Milk",
+                  "b. Wheat",
+                  "c. Egg",
+                  "d. Buckwheat",
+                  "e. Peanut"
+                ],
+                "answerImg": ["pedi22a49"],
+                "answer": "c",
+                "commentary": "【問題文日本語訳】小児の食物アレルギーで最も一般的な原因はどれか。【選択肢日本語訳】a. 牛乳 b. 小麦 c. 卵 d. ソバ e. ピーナッツ 【解説】小児の食物アレルギーで最も一般的な原因は卵である。"
+              },
+              {
+                "questionSentence": "Q50 Which of the following statements is incorrect regarding the explanation of a disease with a 10-month-old boy who had a fever of 38-39 degrees for 3 days and developed a rash after the fever subsided? (2021-50)",
+                "choices": [
+                  "a. It can be prevented by routine vaccination.",
+                  "b. Human herpesvirus 6 (HHV-6) can be the cause.",
+                  "c. Febrile seizures can occur.",
+                  "d. No special treatment is required.",
+                  "e. The prognosis is good."
+                ],
+                "answerImg": ["pedi22a50"],
+                "answer": "a",
+                "commentary": "【問題文原文】生後 10 ヶ月の男児。38 度から 39 度の発熱が 3 日間続いたが自宅で経過観察し、自然に解熱した。解熱後に体幹中心に 5mm 大の発疹が多数出現したため、病院を受診した。この疾患に関する説明として、誤っているのはどれか。(2021-50 改) 【選択肢原文】a. 定期予防接種で予防できる。b. ヒトヘルペスウイルス 6 型 (HHV6) が原因となりうる。c. 熱性けいれんを合併することがある。d. 特別な治療は不要である。e. 予後は良い。"
+              }            
+          ]
+          
         },
         {
             groupTag : "婦人疾患 課題",
