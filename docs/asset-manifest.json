@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.9acabdc2.js",
+    "main.js": "/anywhere-final/static/js/main.ecbb893c.js",
     "static/media/Q2_non_question_page_2.png": "/anywhere-final/static/media/Q2_non_question_page_2.7f77763159cc95414cdf.png",
     "static/media/Q3_non_question_page_3.png": "/anywhere-final/static/media/Q3_non_question_page_3.52cc27e863af713fcc3c.png",
     "static/media/peri2021q20.png": "/anywhere-final/static/media/peri2021q20.c0cf60149e9580e69ace.png",
@@ -32,6 +32,7 @@
     "static/media/peri2021q30.png": "/anywhere-final/static/media/peri2021q30.51af287398259af7b268.png",
     "static/media/peri2021q15.png": "/anywhere-final/static/media/peri2021q15.00705e6af39f78a285a6.png",
     "static/media/forensicSlide3page2.png": "/anywhere-final/static/media/forensicSlide3page2.c376aa9795d9445365e1.png",
+    "static/media/forensic2022q7.png": "/anywhere-final/static/media/forensic2022q7.aa1f344f14a371a5fe94.png",
     "static/media/peri22a34_2.png": "/anywhere-final/static/media/peri22a34_2.4f5cdbd83478784aab2e.png",
     "static/media/MRIT1Img.png": "/anywhere-final/static/media/MRIT1Img.ca740d425280902385aa.png",
     "static/media/peri22a21.png": "/anywhere-final/static/media/peri22a21.4e4741941d1d8c4c936c.png",
@@ -196,10 +197,10 @@
     "static/media/peri2021q18_2.png": "/anywhere-final/static/media/peri2021q18_2.0888cedb2d1c8f1be713.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.9acabdc2.js.map": "/anywhere-final/static/js/main.9acabdc2.js.map"
+    "main.ecbb893c.js.map": "/anywhere-final/static/js/main.ecbb893c.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.9acabdc2.js"
+    "static/js/main.ecbb893c.js"
   ]
 }
