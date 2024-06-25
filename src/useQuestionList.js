@@ -1,3 +1,4 @@
+import gynecologyQ15 from './img/answer/gynecologyQ15.png';
 import forensic2022q7 from './img/answer/forensic2022q7.png';
 import forensicSlide7page2 from './img/answer/forensicSlide7page2.png';
 import forensicSlide6page9 from './img/answer/forensicSlide6page9.png';
@@ -805,7 +806,7 @@ export const useQuestionList = () => {
                 '卵巣腫瘍',
                 '尖形コンジローマ'
             ],
-            answer: '準備中'
+            answer: '1,3'
         },
         {
             questionSentence: 'Q4 53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。',
@@ -816,7 +817,8 @@ export const useQuestionList = () => {
                 'プロラクチン',
                 '甲状腺ホルモン'
             ],
-            answer: '準備中'
+            answer: '1,2',
+            commentary: '更年期障害の診断には、卵胞刺激ホルモン（FSH）とエストロゲンの検査が有用である。'
         },
         {
             questionSentence: 'Q5 本症例において有用とされる治療薬はどれか。1つ選べ。',
@@ -827,7 +829,8 @@ export const useQuestionList = () => {
                 'プロラクチン',
                 '副腎皮質ホルモン'
             ],
-            answer: '準備中'
+            answer: '1',
+            commentary: 'LEP（Low-dose estrogen-progestin）療法は、更年期障害の治療に有用である。'
         },
         {
             questionSentence: 'Q6 骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。',
@@ -838,7 +841,7 @@ export const useQuestionList = () => {
                 '甲状腺ホルモン製剤',
                 '抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
             ],
-            answer: '準備中'
+            answer: '4',
         },
         {
             questionSentence: 'Q7 20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。',
@@ -849,7 +852,7 @@ export const useQuestionList = () => {
                 '梅毒',
                 '単純ヘルペス感染症'
             ],
-            answer: '準備中'
+            answer: '5',
         },
         {
             questionSentence: 'Q8 クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。',
@@ -860,7 +863,8 @@ export const useQuestionList = () => {
                 'セフェム系',
                 'マクロライド系'
             ],
-            answer: '準備中'
+            answer: '1,5',
+            commentary: 'セフェム系やペニシリンは、クラミジア感染症には効果がない。'
         },
         {
             questionSentence: 'Q9 外陰腟カンジダ症で誤っているものはどれか。1つ選べ。',
@@ -871,7 +875,8 @@ export const useQuestionList = () => {
                 '原因菌は常在菌である',
                 '腟分泌分の鏡検にて菌糸が確認できる'
             ],
-            answer: '準備中'
+            answer: '2',
+            commentary: '帯下は、カンジダ症では白色の酒粕である。'
         },
         {
             questionSentence: 'Q10 子宮内膜症について誤っているものはどれか。1つ選べ。',
@@ -882,7 +887,8 @@ export const useQuestionList = () => {
                 '排便痛の原因となる',
                 '希発月経の原因となる'
             ],
-            answer: '準備中'
+            answer: '1',
+            commentary: '子宮内膜症は、20-40歳の女性に多い。'
         },
         {
             questionSentence: 'Q11 26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。',
@@ -893,7 +899,7 @@ export const useQuestionList = () => {
                 'エストロゲン補充療法',
                 'カルボプラチン/パクリタキセル'
             ],
-            answer: '準備中'
+            answer: '2,3',
         },
         {
             questionSentence: 'Q12 体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。',
@@ -904,7 +910,7 @@ export const useQuestionList = () => {
                 '黄体機能不全',
                 '不育症'
             ],
-            answer: '準備中'
+            answer: '1,2',
         },
         {
             questionSentence: 'Q13 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。',
@@ -915,7 +921,8 @@ export const useQuestionList = () => {
                 '子宮頸癌 IVA期',
                 '子宮頸癌 IVB期'
             ],
-            answer: '準備中'
+            answer: '3',
+            commentary: '骨盤壁にまで浸潤しているが、遠隔転移は認めないため、子宮頸癌IIIB期となる。'
         },
         {
             questionSentence: 'Q14 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。',
@@ -926,9 +933,10 @@ export const useQuestionList = () => {
                 '同時化学放射線療法',
                 '全身化学療法'
             ],
-            answer: '準備中'
+            answer: '4',
         },
         {
+          questionImg: [gynecologyQ15],
             questionSentence: 'Q15 26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。',
             choices: [
                 '経過観察',
@@ -937,7 +945,9 @@ export const useQuestionList = () => {
                 '腹腔鏡下卵巣嚢腫摘出術',
                 '単純子宮全摘術+両側付属器切除術+大網切除術'
             ],
-            answer: '準備中'
+            answer: '4',
+            commentary: 'CT画像の中央の黒い部分が卵巣嚢腫である。成熟奇形腫の可能性が高いため、腹腔鏡下卵巣嚢腫摘出術が適切である。'
+
         },
         {
             questionSentence: 'Q16 月経困難症をきたしにくい疾患はどれか。2つ選べ。',
@@ -948,7 +958,7 @@ export const useQuestionList = () => {
                 '子宮内膜ポリープ',
                 '子宮内膜増殖症'
             ],
-            answer: '準備中'
+            answer: '4,5',
         },
         {
             questionSentence: 'Q17 卵巣癌について正しいのはどれか。1つ選べ。',
@@ -959,7 +969,7 @@ export const useQuestionList = () => {
                 '20歳代が好発年齢である',
                 '腫瘍マーカーはSCCが上昇することが多い'
             ],
-            answer: '準備中'
+            answer: '1',
         },
         {
             questionSentence: 'Q18 胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。',
@@ -970,7 +980,7 @@ export const useQuestionList = () => {
                 '顆粒膜細胞腫腫瘍',
                 '明細胞癌'
             ],
-            answer: '準備中'
+            answer: '1',
         },
         {
             questionSentence: 'Q19 卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。',
@@ -981,7 +991,7 @@ export const useQuestionList = () => {
                 'ブレオマイシン/エトポシド/シスプラチン（BEP）',
                 'カルボプラチン/パクリタキセル（TC）'
             ],
-            answer: '準備中'
+            answer: '5',
         },
         {
             questionSentence: 'Q20 子宮体癌のリスクファクターでないのはどれか。1つ選べ。',
@@ -992,7 +1002,254 @@ export const useQuestionList = () => {
                 '多嚢胞性卵巣症候群',
                 '糖尿病'
             ],
-            answer: '準備中'
+            answer: '1',
+            commentary: '未経産が子宮体癌のリスクファクターである。'
+        }
+    ]
+    
+    },{
+      groupTag: '婦人科 反転演習 機械英訳',
+      groupContents: [
+        {
+            questionSentence: 'Q1 Which of the following is correct about female pelvic anatomy? Choose one.',
+            choices: [
+                'The ureter runs within the peritoneal cavity.',
+                'The ovarian artery branches from the renal artery.',
+                'The round ligament of the uterus is part of the broad ligament.',
+                'The uterine artery branches from the external iliac artery.',
+                'The left ovarian vein branches from the renal vein.'
+            ],
+            answer: '5',
+            commentary: '【原文問題文】女性の骨盤解剖で正しいものはどれか。1つ選べ。 【原文選択肢】尿管は腹腔内を走行する, 卵巣動脈は腎動脈から分岐する, 子宮円索は基靭帯の一部を構成する, 子宮動脈は外腸骨動脈から分岐する, 左卵巣静脈は腎静脈から分岐する'
+        },
+        {
+            questionSentence: 'Q2 Which of the following is incorrect about polycystic ovary syndrome? Choose one.',
+            choices: [
+                'The blood LH/FSH ratio shows a low value.',
+                'Insulin resistance is observed.',
+                'Withdrawal bleeding is seen in the progesterone challenge test.',
+                'Ovulation induction by gonadotropins tends to result in multiple pregnancies.',
+                'Clomiphene is the first choice for ovulation induction.'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。 【原文選択肢】血中LH/FSH比が低値を示す, インスリン抵抗性が認められる, プロゲステロン負荷試験で消退出血がみられる, ゴナドトロピンによる排卵誘発で多胎妊娠がおこりやすい, クロミフェンが排卵誘発の第一選択である'
+        },
+        {
+            questionSentence: 'Q3 Which of the following can be caused by chlamydia infection? Choose two.',
+            choices: [
+                'Infertility',
+                'Cervical cancer',
+                'Pelvic peritonitis',
+                'Ovarian tumor',
+                'Condyloma acuminatum'
+            ],
+            answer: '1,3',
+            commentary: '【原文問題文】クラミジア感染症が原因となるのはどれか。2つ選べ。 【原文選択肢】不妊症, 子宮頸癌, 骨盤腹膜炎, 卵巣腫瘍, 尖形コンジローマ'
+        },
+        {
+            questionSentence: 'Q4 A 53-year-old woman presents with irregular menstruation and frequent hot flashes and sweating for the past six months. Her body temperature is 36.7°C, pulse 92/min and regular, blood pressure 140/92 mmHg. On pelvic examination, the uterus is normal in size and mobile, and cytology of the cervix and endometrium is normal. Which blood hormones are useful for evaluating this patient\'s condition? Choose two.',
+            choices: [
+                'Follicle-stimulating hormone',
+                'Estrogen',
+                'Progesterone',
+                'Prolactin',
+                'Thyroid hormone'
+            ],
+            answer: '1,2',
+            commentary: '【原文問題文】53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。 【原文選択肢】卵胞刺激ホルモン, エストロゲン, プロゲステロン, プロラクチン, 甲状腺ホルモン'
+        },
+        {
+            questionSentence: 'Q5 Which treatment is considered useful for this case? Choose one.',
+            choices: [
+                'Estrogen + progesterone',
+                'GnRH antagonist',
+                'Thyroid hormone',
+                'Prolactin',
+                'Adrenal cortex hormone'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】本症例において有用とされる治療薬はどれか。1つ選べ。 【原文選択肢】エストロゲン+プロゲステロン, GnRHアンタゴニスト, 甲状腺ホルモン, プロラクチン, 副腎皮質ホルモン'
+        },
+        {
+            questionSentence: 'Q6 Which of the following is incorrect as a treatment for osteoporosis? Choose one.',
+            choices: [
+                'Vitamin D preparation',
+                'Calcium preparation',
+                'Bisphosphonate preparation',
+                'Thyroid hormone preparation',
+                'Anti-RANKL (Receptor activator of nuclear factor-kappa B ligand) antibody'
+            ],
+            answer: '4',
+            commentary: '【原文問題文】骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。 【原文選択肢】ビタミンD製剤, カルシウム製剤, ビスホスホネート製剤, 甲状腺ホルモン製剤, 抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
+        },
+        {
+            questionSentence: 'Q7 A 20-year-old woman presents with severe vulvar pain. She had sexual intercourse 7 days ago. She has had a fever of 38.4°C for the past 2 days and developed vulvar pain today, which has intensified and caused difficulty urinating. Physical examination reveals no abnormalities in the skin and eyes, and no oral aphthae. There is bilateral inguinal lymph node swelling and tenderness. The abdomen is flat and soft, with no tenderness or spontaneous pain. Multiple small ulcers with redness are observed on both sides of the vulva. What is the correct diagnosis for this patient? Choose one.',
+            choices: [
+                'Chlamydia infection',
+                'Condyloma acuminatum',
+                'Behçet\'s disease',
+                'Syphilis',
+                'Herpes simplex infection'
+            ],
+            answer: '5',
+            commentary: '【原文問題文】20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。 【原文選択肢】クラミジア感染症, 尖圭コンジローマ, ベーチェット病, 梅毒, 単純ヘルペス感染症'
+        },
+        {
+            questionSentence: 'Q8 Which antibiotics are effective against chlamydia infection? Choose two.',
+            choices: [
+                'New quinolones',
+                'Aminoglycosides',
+                'Penicillins',
+                'Cephalosporins',
+                'Macrolides'
+            ],
+            answer: '1,5',
+            commentary: '【原文問題文】クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。 【原文選択肢】ニューキノロン系, アミノグリコシド系, ペニシリン系, セフェム系, マクロライド系'
+        },
+        {
+            questionSentence: 'Q9 Which of the following is incorrect about vulvovaginal candidiasis? Choose one.',
+            choices: [
+                'Causes itching',
+                'Discharge is frothy',
+                'Common after antibiotic use',
+                'The causative organism is part of the normal flora',
+                'Hyphae can be confirmed by microscopic examination of vaginal discharge'
+            ],
+            answer: '2',
+            commentary: '【原文問題文】外陰腟カンジダ症で誤っているものはどれか。1つ選べ。 【原文選択肢】掻痒感を生じる, 帯下は泡沫状である, 抗生物質の服用後に多い, 原因菌は常在菌である, 腟分泌分の鏡検にて菌糸が確認できる'
+        },
+        {
+            questionSentence: 'Q10 Which of the following is incorrect about endometriosis? Choose one.',
+            choices: [
+                'Common after menopause',
+                'Causes infertility',
+                'May be associated with the development of ovarian cancer',
+                'Causes pain during bowel movements',
+                'Causes oligomenorrhea'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】子宮内膜症について誤っているものはどれか。1つ選べ。 【原文選択肢】閉経後に多い, 不妊の原因となる, 卵巣癌の発生と関連することがある, 排便痛の原因となる, 希発月経の原因となる'
+        },
+        {
+            questionSentence: 'Q11 A 26-year-old woman presents with dysmenorrhea. Her menstrual cycle is regular, with a 28-day cycle. She has been taking pain relievers for menstrual pain for the past two years, but the pain has progressively worsened. Pelvic examination reveals a normal-sized uterus with limited mobility and mildly enlarged, tender bilateral adnexa. Transvaginal ultrasound shows bilateral ovarian endometriomas measuring 2-3 cm. CA125 is mildly elevated at 42.6 U/mL. What are appropriate conservative treatments for this patient? Choose two.',
+            choices: [
+                'Clomiphene',
+                'Low-dose estrogen-progestin (LEP)',
+                'Dienogest (progestin therapy)',
+                'Estrogen replacement therapy',
+                'Carboplatin/Paclitaxel'
+            ],
+            answer: '2,3',
+            commentary: '【原文問題文】26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。 【原文選択肢】クロミフェン, 低用量エストロゲン－プロゲスチン製剤（LEP）, ジエノゲスト（黄体ホルモン療法）, エストロゲン補充療法, カルボプラチン/パクリタキセル'
+        },
+        {
+            questionSentence: 'Q12 Which of the following are indications for in vitro fertilization-embryo transfer (IVF-ET)? Choose two.',
+            choices: [
+                'Oligospermia',
+                'Bilateral tubal obstruction',
+                'Uterine fibroids',
+                'Luteal phase defect',
+                'Recurrent pregnancy loss'
+            ],
+            answer: '1,2',
+            commentary: '【原文問題文】体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。 【原文選択肢】乏精子症, 両側卵管閉塞症, 子宮筋腫, 黄体機能不全, 不育症'
+        },
+        {
+            questionSentence: 'Q13 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the diagnosis? Choose one.',
+            choices: [
+                'Cervical cancer stage IA',
+                'Cervical cancer stage IIB',
+                'Cervical cancer stage IIIB',
+                'Cervical cancer stage IVA',
+                'Cervical cancer stage IVB'
+            ],
+            answer: '3',
+            commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。 【原文選択肢】子宮頸癌 IA期, 子宮頸癌 IIB期, 子宮頸癌 IIIB期, 子宮頸癌 IVA期, 子宮頸癌 IVB期'
+        },
+        {
+            questionSentence: 'Q14 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the appropriate treatment for this case? Choose one.',
+            choices: [
+                'Cervical conization',
+                'Simple hysterectomy',
+                'Radical hysterectomy',
+                'Concurrent chemoradiation therapy',
+                'Systemic chemotherapy'
+            ],
+            answer: '4',
+            commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。 【原文選択肢】子宮頸部円錐切除, 単純子宮全摘術, 広汎子宮全摘術, 同時化学放射線療法, 全身化学療法'
+        },
+        {
+          questionImg: [gynecologyQ15],
+            questionSentence: 'Q15 A 26-year-old woman presents with sudden lower abdominal pain. Her menstrual cycle is regular, with a 28-day cycle, and she does not experience menstrual pain. Pregnancy test is negative. Pelvic examination reveals a mobile, tender mass in the pelvis. Tumor markers: CA125 24U/mL (normal <35), CA19-9 42U/mL (normal <37), SCC 1.2ng/mL (normal <1.5). The pelvic CT image is shown. What is the appropriate management for this patient?',
+            choices: [
+                'Observation',
+                'Antibiotic therapy',
+                'GnRH agonist therapy',
+                'Laparoscopic ovarian cystectomy',
+                'Simple hysterectomy with bilateral salpingo-oophorectomy and omentectomy'
+            ],
+            answer: '4',
+            commentary: '【原文問題文】26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。 【原文選択肢】経過観察, 抗菌薬投与, GnRHアゴニスト投与, 腹腔鏡下卵巣嚢腫摘出術, 単純子宮全摘術+両側付属器切除術+大網切除術'
+        },
+        {
+            questionSentence: 'Q16 Which of the following conditions is least likely to cause dysmenorrhea? Choose two.',
+            choices: [
+                'Uterine fibroids',
+                'Adenomyosis',
+                'Endometriosis',
+                'Endometrial polyps',
+                'Endometrial hyperplasia'
+            ],
+            answer: '4,5',
+            commentary: '【原文問題文】月経困難症をきたしにくい疾患はどれか。2つ選べ。 【原文選択肢】子宮筋腫, 子宮腺筋症, 子宮内膜症, 子宮内膜ポリープ, 子宮内膜増殖症'
+        },
+        {
+            questionSentence: 'Q17 Which of the following is true about ovarian cancer? Choose one.',
+            choices: [
+                'The most common histological type is serous carcinoma.',
+                'Concurrent chemoradiation therapy is effective.',
+                'It is often detected in the early stages.',
+                'It is most common in women in their 20s.',
+                'The tumor marker SCC is often elevated.'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】卵巣癌について正しいのはどれか。1つ選べ。 【原文選択肢】組織型では漿液性癌がもっとも多い, 同時化学放射線療法が有効である, 初期癌で発見されることが多い, 20歳代が好発年齢である, 腫瘍マーカーはSCCが上昇することが多い'
+        },
+        {
+            questionSentence: 'Q18 Which of the following ovarian tumors arises from germ cells? Choose one.',
+            choices: [
+                'Mature teratoma',
+                'Serous cystadenoma',
+                'Fibroma',
+                'Granulosa cell tumor',
+                'Clear cell carcinoma'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。 【原文選択肢】成熟奇形腫, 漿液性嚢胞腺腫, 繊維腫, 顆粒膜細胞腫腫瘍, 明細胞癌'
+        },
+        {
+            questionSentence: 'Q19 Which chemotherapy is effective for ovarian serous carcinoma? Choose one.',
+            choices: [
+                'Rituximab/Cyclophosphamide/Doxorubicin/Vincristine/Prednisone (R-CHOP therapy)',
+                '5FU/Oxaliplatin/Leucovorin (FOLFOX)',
+                'Cisplatin/S-1',
+                'Bleomycin/Etoposide/Cisplatin (BEP)',
+                'Carboplatin/Paclitaxel (TC)'
+            ],
+            answer: '5',
+            commentary: '【原文問題文】卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。 【原文選択肢】リツキシマブ/シクロフォスファミド/ドキソルビシン/ビンクリスチン/プレドニン（R-CHOP療法）, 5FU/オキサリプラチン/レボホリナート（FOLFOX）, シスプラチン/S-1, ブレオマイシン/エトポシド/シスプラチン（BEP）, カルボプラチン/パクリタキセル（TC）'
+        },
+        {
+            questionSentence: 'Q20 Which of the following is not a risk factor for endometrial cancer? Choose one.',
+            choices: [
+                'Multiparity',
+                'Obesity',
+                'Family history of colorectal cancer',
+                'Polycystic ovary syndrome',
+                'Diabetes'
+            ],
+            answer: '1',
+            commentary: '【原文問題文】子宮体癌のリスクファクターでないのはどれか。1つ選べ。 【原文選択肢】多経産, 肥満, 大腸癌の家族歴, 多嚢胞性卵巣症候群, 糖尿病'
         }
     ]
     
