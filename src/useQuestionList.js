@@ -1,3 +1,8 @@
+import forensic2022a3_4 from './img/answer/forensic2022a3_4.png';
+import forensic2022a3_2 from './img/answer/forensic2022a3_2.png';
+import forensic2022a3_3 from './img/answer/forensic2022a3_3.png';
+import forensic2022a3 from './img/answer/forensic2022a3.png';
+import forensic2022a1_6 from './img/answer/forensic2022a1_6.png';
 import gynecologyQ15 from './img/answer/gynecologyQ15.png';
 import forensic2022q7 from './img/answer/forensic2022q7.png';
 import forensicSlide7page2 from './img/answer/forensicSlide7page2.png';
@@ -646,67 +651,64 @@ export const useQuestionList = () => {
       groupContents: [{
 
           questionSentence: '問題1.(1) 司法解剖の根拠法は(　)である。医師法第 21 条に基づく届け出の対象となるのは、死体叉は妊娠(　)ヶ月以上の死産児を検案して異常があると認めたときである。',
-          answer: '',
+          answer: '刑事訴訟法 4ヶ月',
           commentary: ''
       },
       {
           questionSentence: '問題1.(2) 児童虐待には身体的虐待・性的虐待・養育拒否（ネグレクト）・心理的虐待の４つがあり、一般に被虐待児では(　)の萎縮がみられる。加害者は(　)であることが多く、児童福祉法第 25 条には、虐待が疑われる児童を発見した者は、これを(　)若しくは(　)に通告しなければならないと書かれている。',
-          answer: '',
+          answer: '胸腺 実母 児童相談所 福祉事務所',
           commentary: ''
       },
       {
           questionSentence: '問題1.(3) 乳幼児突然死症候群（SIDS）とは、それまでの健康状態および既往歴からその死亡が予測できず、しかも(　)および(　)によってもその原因が同定されない、原則として１歳未満の児に突然の死をもたらした症候群である。',
-          answer: '',
-          commentary: ''
+          answer: '死亡状況調査 解剖検査',
+          commentary: 'SIDS: sudden infant death syndrome'
       },
       {
           questionSentence: '問題1.(4) 交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる(　)の骨折、運転者にみられる損傷としてフロントガラスやバンパーによる胸腹部の損傷があり、また轢過された場合に足の皮膚と筋膜の間が剥離する(　)が認められる。',
-          answer: '',
-          commentary: ''
+          answer: '長管骨 デコルマン',
+          commentary: '長管骨骨折の注意点 ➢ 近年バンパー素材が改良され骨折は生じにくくなってお り，特に後方からの衝突では膝関節の屈曲などによりほ とんど生じないと考えられる.　 デコルマン(décollement):皮下の破綻をともなうことなく皮膚および皮下組織が筋 膜などとの間で剥離した状態をいう. 皮膚の表面が引っ 張られるときにでき, 剥離した部分はポケット状となり, 血液や組織液などが貯留する.',
       },
       {
           questionSentence: '問題1.(5) 医療法第６条の 10 には、医療事故が発生した場合に、病院の(　)は、厚生労働省令で定める事項を遅滞なく(　)に報告しなければならない旨が定められている。',
-          answer: '',
-          commentary: ''
+          answer: '管理者 医療事故調査・支援センター',
+          commentary: '病院, 診療所又は助産所(以下「病院等」という. )の管理者は, 医療事故(当該病院等に勤務する医療従事者が提供した医療に起因し, 又は起因すると疑われ る死亡又は死産であつて, 当該管理者が当該死亡又は死産を予期しなかつたもの として厚生労働省令で定めるものをいう. )が発生した場合には, 厚生労働省令で 定めるところにより, 遅滞なく, 当該医療事故の日時, 場所及び状況その他厚生労 働省令で定める事項を 医療事故調査・支援センター に報告しなければならない.',
       },
       {
           questionSentence: '問題1.(6) DNA 型検査による個人識別で最もよく用いられるのは(　)と呼ばれる(　)塩基の繰り返し配列である。',
-          answer: '',
-          commentary: ''
+          answer: 'マイクロサテライト 2～5',
+          answerImg: [forensic2022a1_6],
+          commentary: 'STRは、２～5塩基程度をリピートユニットとし、核DNAに100万ヶ所以上存在し、ミトコンドリアDNA（母系遺伝）にも存在している．STRは、PCR増幅産物の全長が100～400塩基程度と短いため、DNAが劣化し断片化している試料でも比較的PCR増幅の成功率が高いことから、現在最も利用されている解析法である．しかし、STRはアレルの種類(繰り返し回数のパターン)が少ないため、個人識別には15種類以上のSTRを解析する必要があることから、現在では複数のSTRを一度に増幅するマルチプレックスPCR法が中心となっている．',
       },
       {
           questionSentence: '問題2. 焼死体にみられる変化を列挙し、生活反応とそうでないものに分けよ。',
-          answer: '',
-          commentary: ''
+          answer: '【生活反応】1-2度熱傷、気道熱傷、気管支内の煤、一酸化炭素ヘモグロビン(CO-Hb)の存在、鮮紅色の死斑、鮮紅色の血液 【生活反応でないもの】拳闘家姿勢(Fighting position, pugilistic attitude)、頭蓋骨・長管骨の骨折(死体トルソー)、燃焼血腫 (heat hematoma)、腹壁の破裂',
+          commentary: '生活反応があれば、燃焼時生存があることが示唆される。'
       },
       {
           questionSentence: '問題3. Describe the method for estimating time since death from early postmortem changes.',
-          answer: '',
-          commentary: ''
-      },
-      {
-          questionSentence: '問題4. Contused wound について答えよ。（本問は講義中に「絶対大問で出す」と言われていました）',
-          answer: '',
-          commentary: ''
+          answer: '直腸温の降下、死後硬直、角膜混濁の程度によって、死後経過時間を推定することができる。　直腸温度は死後10時間までは1度/時間、10時間以降は0.5度/時間で下降するが、痩せているか太っているかや、季節、環境温度などによって変動する。死後硬直は死後2-3時間で顎関節から始まり、およそ半日後に全身に広がって2日後には弛緩開始する。角膜混濁は死後10時間までに軽度、24時間までに中等度、24-36時間で高度の混濁がみられる。',
+          answerImg: [forensic2022a3, forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【日本語訳】死後経過時間推定方法について、早期死体現象から推定する方法を説明せよ。'
       },
       {
           questionSentence: '問題4.(1) Contused wound について答えよ。できやすい部位はどこか。また、できにくい部位はどこか。',
           answer: '',
-          commentary: ''
+          commentary: 'Contused wound = 挫創。'
       },
       {
           questionSentence: '問題4.(2) Contused wound について答えよ。Lacerated wound との鑑別方法を述べよ。',
           answer: '',
-          commentary: ''
+          commentary: 'Contused wound = 挫創。Lacerated wound = 裂創。'
       },
       {
           questionSentence: '問題4.(3) Contused wound について答えよ。Incised wound との鑑別方法を述べよ。',
           answer: '',
-          commentary: ''
+          commentary: 'Contused wound = 挫創。Incised wound = 切創。'
       },
       {
           questionSentence: '問題5. 次の文章を読んで、（　）内に適当な語句または数値を入れよ。 溺死の死体所見として、指、手掌、足底部などの皮膚に(　)の形成がみられる。肺はいわゆる(　)の様相を呈している。また、死後まもない溺死体では鼻や口から白色の泡沫が出ていることがあるが、これは(　)とよばれる。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から(　)という方法で(　)を証明することが必要である。',
-          answer: '',
+          answer: '漂母皮 肺水腫 泡沫 マルチプルサンプリング 水死',
           commentary: ''
       },
       {
