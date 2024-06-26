@@ -1,3 +1,5 @@
+import forensic2022a6 from './img/answer/forensic2022a6.png';
+import forensic2022a6_2 from './img/answer/forensic2022a6_2.png';
 import forensic2022q5 from './img/answer/forensic2022q5.png';
 import forensic2022a3_4 from './img/answer/forensic2022a3_4.png';
 import forensic2022a3_2 from './img/answer/forensic2022a3_2.png';
@@ -725,12 +727,14 @@ export const useQuestionList = () => {
       },
       {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (1) 暗紫赤色～緑褐色の死斑(　)',
-        answer: '',
+        answer: '硫化水素',
+        answerImg: [forensic2022a6],
         commentary: ''
     },
     {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (2) 強い縮瞳(　)',
-        answer: '',
+        answer: '有機リン or モルヒネ など',
+        answerImg: [forensic2022a6_2],
         commentary: ''
     },
     {
