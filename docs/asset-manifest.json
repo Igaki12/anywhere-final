@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.fe30cfd9.js",
+    "main.js": "/anywhere-final/static/js/main.67ddadec.js",
     "static/media/Q2_non_question_page_2.png": "/anywhere-final/static/media/Q2_non_question_page_2.7f77763159cc95414cdf.png",
     "static/media/Q3_non_question_page_3.png": "/anywhere-final/static/media/Q3_non_question_page_3.52cc27e863af713fcc3c.png",
+    "static/media/forensic2022a6_3.png": "/anywhere-final/static/media/forensic2022a6_3.5231910efb63c90c9488.png",
     "static/media/forensic2022a6_2.png": "/anywhere-final/static/media/forensic2022a6_2.f8b3a119e912b97251c0.png",
     "static/media/forensic2022a6.png": "/anywhere-final/static/media/forensic2022a6.32c6f37b5cb5904806d7.png",
     "static/media/peri2021q20.png": "/anywhere-final/static/media/peri2021q20.c0cf60149e9580e69ace.png",
@@ -154,6 +155,7 @@
     "static/media/periQ13_qS.png": "/anywhere-final/static/media/periQ13_qS.3376779b59ca8cddc6e5.png",
     "static/media/dermoidCystImg.png": "/anywhere-final/static/media/dermoidCystImg.e333427bc835694d1eef.png",
     "static/media/peri2021q19.png": "/anywhere-final/static/media/peri2021q19.069950999c8262681c42.png",
+    "static/media/forensic2022a6_5.png": "/anywhere-final/static/media/forensic2022a6_5.3950da40cd117472423b.png",
     "static/media/peri22a27.png": "/anywhere-final/static/media/peri22a27.95cd9338477678cdd5dc.png",
     "static/media/peri22a23.png": "/anywhere-final/static/media/peri22a23.3195e1be1c1158599eb7.png",
     "static/media/pedi22a10_2.png": "/anywhere-final/static/media/pedi22a10_2.645584be88410c3046db.png",
@@ -161,6 +163,7 @@
     "static/media/pedi22a26_1.png": "/anywhere-final/static/media/pedi22a26_1.13d8f6e36962378ac34b.png",
     "static/media/peri22a39.png": "/anywhere-final/static/media/peri22a39.1984e418f1c9343a7429.png",
     "static/media/peri22a1.png": "/anywhere-final/static/media/peri22a1.1ed88fc440743f0eba96.png",
+    "static/media/certificateCause.png": "/anywhere-final/static/media/certificateCause.9dbd069c1f2286a3949e.png",
     "static/media/pedi22a48.png": "/anywhere-final/static/media/pedi22a48.e6407cd4169dd59e7378.png",
     "static/media/pedi22a27.png": "/anywhere-final/static/media/pedi22a27.1ee8e5efd9e00954b72f.png",
     "static/media/forensic6page17.png": "/anywhere-final/static/media/forensic6page17.3d93717ccbe4d1397680.png",
@@ -179,6 +182,7 @@
     "static/media/peri22a19.png": "/anywhere-final/static/media/peri22a19.dce6a29ffdc70a76b269.png",
     "static/media/pedi22a43.png": "/anywhere-final/static/media/pedi22a43.169392b91457de4b4524.png",
     "static/media/peri2021q23.png": "/anywhere-final/static/media/peri2021q23.dfd576f9d71c378699c0.png",
+    "static/media/certificateAdditionalInfo.png": "/anywhere-final/static/media/certificateAdditionalInfo.a91f6cada4ebe1330b67.png",
     "static/media/peri22a13.png": "/anywhere-final/static/media/peri22a13.baf2469869e63390f058.png",
     "static/media/forensicSlide7page41.png": "/anywhere-final/static/media/forensicSlide7page41.0efe984ca343d16e17e9.png",
     "static/media/forensic6page10.png": "/anywhere-final/static/media/forensic6page10.6c36fc42bad9b0e32723.png",
@@ -200,16 +204,19 @@
     "static/media/forensicSlide4page28.png": "/anywhere-final/static/media/forensicSlide4page28.494052a0685fcd3da4d1.png",
     "static/media/pedi22a18_1.png": "/anywhere-final/static/media/pedi22a18_1.535cff80db527444a3c5.png",
     "static/media/pedi22a2_1.png": "/anywhere-final/static/media/pedi22a2_1.beaf0492ad89e35268cc.png",
+    "static/media/certificateCauseType.png": "/anywhere-final/static/media/certificateCauseType.063186c648bb52c3a7ee.png",
+    "static/media/certificatePlace.png": "/anywhere-final/static/media/certificatePlace.b09512de084d1b74d090.png",
+    "static/media/certificateDeathTime.png": "/anywhere-final/static/media/certificateDeathTime.a35c5dc861396b7746cb.png",
     "static/media/forensicSlide4page5.png": "/anywhere-final/static/media/forensicSlide4page5.d05a042c590ae0ec5b2e.png",
     "static/media/forensicSlide4page25.png": "/anywhere-final/static/media/forensicSlide4page25.48cb2f222955a07731cc.png",
     "static/media/peri22a31_1.png": "/anywhere-final/static/media/peri22a31_1.3bdc31b2033d7507e5d6.png",
     "static/media/peri2021q18_2.png": "/anywhere-final/static/media/peri2021q18_2.0888cedb2d1c8f1be713.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.fe30cfd9.js.map": "/anywhere-final/static/js/main.fe30cfd9.js.map"
+    "main.67ddadec.js.map": "/anywhere-final/static/js/main.67ddadec.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.fe30cfd9.js"
+    "static/js/main.67ddadec.js"
   ]
 }
