@@ -1,3 +1,5 @@
+import forensicQuestion6_28_3_2 from './img/answer/forensicQuestion6_28_3_2.png';
+import forensicQuestion6_28_3 from './img/answer/forensicQuestion6_28_3.png';
 import certificate2_4 from './img/answer/certificate2_4.png';
 import certificate2_5 from './img/answer/certificate2_5.png';
 import certificate2_1 from './img/answer/certificate2_1.png';
@@ -474,10 +476,221 @@ export const useQuestionList = () => {
           '凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
         ],
         answer: '4,5',
-      }
-
-      ],
+      },{
+        detailInfo: '6/28 (1)',
+        questionSentence: '車両運転時の運転者、同乗者の損傷について正しいものはどれか。2つ選べ。',
+        choices: [
+          '運転者の胸部にハンドルとの衝突痕がなければ胸膜腔内の損傷はないものと考えてよい',
+          'シートベルトにより損傷が生じることはない',
+          'フロントガラス損傷とは、フロントガラスによる切創によるものをいう',
+          'ダッシュボード損傷とは、ダッシュボードにつかった下肢の損傷であるが、衝突が大きいと骨盤骨折を起こすことをある',
+          '運転者は体の前部にハンドルが存在するため、助手席同乗者に比べ、フロントガラスの損傷は受けにくい'
+        ],
+        answer: '4,5',
+      },{
+        detailInfo: '6/28 (2)',
+        questionSentence: '轢過損傷について誤っているものはどれか。すべて選べ。',
+        choices: [
+          '車両に轢過されても新体表面にタイヤマークが認められないことがある',
+          'タイヤマークはもっぱらタイヤ設置部の表皮剥脱として認められる',
+          '伸展創とは、車両轢過時に皮膚が強く引っ張られ、皮膚及び皮下組織が筋膜から剥離して嚢状の腔を形成し、そこに血液・リンパ液が貯留することを言う',
+          'デコルマンとは、車両轢過部位の高度の筋肉挫滅のことである',
+          '歴化された死体の発見時の姿勢は轢過前あるいは轢過時の姿勢を示しており、その姿勢から轢過の様子が推定できるので、重要な所見である'
+        ],
+        answer: '2,3,4,5',
+      },{
+        detailInfo: '6/28 (3)',
+        questionSentence: '性別を女性と判断したが、その根拠はどれか．',
+        choices: [
+          '恥骨下角が鋭い',
+          '骨盤上口が楕円形',
+          '大坐骨切痕が低く鋭角',
+          '頭蓋骨の眉弓の発達が高度',
+          '頭蓋骨乳様突起の発育が高度'
+        ],
+        answer: '2',
+        answerImg: [forensicQuestion6_28_3, forensicQuestion6_28_3_2],
+      },{
+        detailInfo: '6/28 (4)',
+        questionSentence: '年齢の推定に有用なのはどれか．',
+        choices: [
+          '長管骨の長さ',
+          '脱落歯の数',
+          '頭蓋骨の厚さ',
+          '恥骨結合面の性状',
+          'ヒト常染色体DNAのSTR型'
+        ],
+        answer: '4',
+        commentary: '長管骨の長さではなく、骨盤腔の大きさが年齢推定に有用である。'
+      },
+      ]
     }, {
+      groupTag: "法医学 出席 機械英訳",
+      groupContents: [
+        {
+            detailInfo: '4/26 (1)',
+            questionSentence: 'When an unnatural death is recognized, by when must it be reported to the jurisdictional police station?',
+            choices: ['Immediately', 'Within 12 hours', 'Within 24 hours', 'Within one week', 'By the 10th of the following month'],
+            answer: '3',
+            commentary: '【原文問題文】異状死と認めた場合、いつまでに所轄警察署に届け出なければならないか。 【原文選択肢】直ちに, 12時間以内, 24時間以内, 1週間以内, 翌月の10日まで'
+        },
+        {
+            detailInfo: '4/26 (2)',
+            questionSentence: 'Which of the following does not correspond to an unnatural death?',
+            choices: ['A body suspected of pesticide poisoning', 'A body suspected of secondary infection after injury', 'A body suspected of incompatible blood transfusion', 'A body suspected of choking on prescribed medication', 'A body suspected of hemoptysis from lung cancer'],
+            answer: '5',
+            commentary: '【原文問題文】異状死体に該当しないのはどれか。 【原文選択肢】農薬中毒によると思われる死体, 他傷後の続発症によると思われる死体, 異型輸血によると思われる死体, 処方された薬の誤嚥によると思われる死体, 肺癌患者の喀血によると思われる死体'
+        },
+        {
+            detailInfo: '4/26 (3)',
+            questionSentence: 'A 69-year-old man living alone is terminally ill with lung cancer and receives home medical care three times a week. When the attending doctor visits at 5 p.m., the patient is found dead in the supine position on his bed. There are no external injuries, and the doctor determines that he died of lung cancer. Rectal temperature is 30.0°C, room temperature is 22.0°C. Purple-red livor mortis is observed on the back and disappears easily with pressure. Rigor mortis is observed in all joints, but is mild in the limb joints. What is the appropriate estimated time of death?',
+            choices: ['Around 9 a.m. the previous day', 'Around 3 p.m. the previous day', 'Around 9 p.m. the previous day', 'Around 3 a.m. on the day of discovery', 'Around 9 a.m. on the day of discovery'],
+            answer: '5',
+            commentary: '【原文問題文】69歳の男性。一人暮らし。肺癌の末期で在宅療養中であり、週3回の往診を受けていた。往診担当医が午後5時に患者宅に行くと、寝室のベッド上で仰臥位のまま死亡していた。外傷はなく、肺癌で死亡したと判断された。直腸温30.0°C。室温22.0°C。紫赤色の死斑を背面に認め、指圧で容易に消退する。硬直を全身の各関節に認めるが、四肢関節の硬直は軽度である。死亡推定時刻として適切なのはどれか。 【原文選択肢】前日の午前9時頃, 前日の午後3時頃, 前日の午後9時頃, 当日の午前3時頃, 当日の午前9時頃'
+        },
+        {
+            detailInfo: '4/26 (4)',
+            questionSentence: 'On a certain day in May at 10 a.m., a hanged body was discovered and immediately laid down on a futon. The police were notified the following morning, and an autopsy was performed at 10 a.m. The body temperature was the same as the room temperature (20°C), rigor mortis was strong in all joints, livor mortis was prominent on the back, and remnants of petechiae were observed on the skin of the lower limbs. No abdominal putrefaction discoloration was observed. What is the appropriate estimated time of death?',
+            choices: ['Around 10 a.m. the day before the autopsy', 'Around 4 a.m. the day before the autopsy', 'Around 10 p.m. two days before the autopsy', 'Around 10 a.m. two days before the autopsy', 'Around 10 a.m. three days before the autopsy'],
+            answer: '3',
+            commentary: '【原文問題文】5月某日の午前10時に縊頭しているのを発見され、すぐに布団に寝かされた死体、警察へは翌朝通報され、午前10時に検視を行った。体温は室温と同じ20°C硬直は全身の関節で強く、死斑は背中に濃く出ている、下肢の皮膚に死斑の名残りの溢血点が見られる。腹部の腐敗変色は見られない、適切な死亡推定時刻はどれか。 【原文選択肢】検視の前日の午前10時頃, 検視の前日の午前4時頃, 検視の前々日の午後10時頃, 検視の前々日の午前10時頃, 検視の3日前の午前10時頃'
+        },
+        {
+            detailInfo: '4/26 (5)',
+            questionSentence: 'Which findings are useful for estimating the time of death? Choose two.',
+            choices: ['Color of livor mortis', 'Degree of rigor mortis', 'Degree of corneal opacity', 'Size of the pupils', 'Axillary temperature'],
+            answer: '2,3',
+            commentary: '【原文問題文】死亡時刻を推定するのに役立つ所見はどれか, 2つ選べ。 【原文選択肢】死斑の色調, 死体硬直の程度, 角膜混濁の程度, 瞳孔の大きさ, 腋窩温'
+        },
+        {
+            detailInfo: '5/14 (1)',
+            questionSentence: 'Which of the following is correct about sharp force injuries? Choose two.',
+            choices: ['Sharp force injuries include stab wounds, incised wounds, and puncture-incised wounds', 'In stab wounds caused by knives, both wound angles are sharp', 'The size of the wound varies depending on whether the wound is perpendicular or parallel to the skin tension lines', 'In general, the wound surfaces of sharp force injuries are smooth', 'In puncture-incised wounds, epidermal abrasion is a characteristic feature'],
+            answer: '3,4',
+            commentary: '【原文問題文】鋭器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】鋭器損傷には、刺創、切創、刺切創がある, 刃器による刺創では、両創角は尖鋭である, 創口の大きさは、創口が皮膚割線に対して直角か平行かで異なる, 鋭器損傷では、一般に創洞面は平滑である, 刺切創では、創縁に表皮剥脱を伴うのが特徴である'
+        },
+        {
+            detailInfo: '5/14 (2)',
+            questionSentence: 'Which of the following is correct about blunt force injuries? Choose two.',
+            choices: ['Subcutaneous hemorrhage occurs only at the site of direct external force', 'Bruises and abrasions do not occur with sharp instruments', 'In contused wounds, connective tissue and blood vessels often remain bridged in the wound cavity', 'Epidermal abrasion becomes more pronounced after death', 'Lacerations usually occur at the site of direct external force'],
+            answer: '3,4',
+            commentary: '【原文問題文】鈍器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】皮下出血は外力が直接作用した部位にのみ生じるものである, 刃器では打撲傷や擦過傷は生じない, 挫創の創洞内には結合組織や血管などが架橋状に残存していることが多い, 表皮剥脱は死後しばらくするとより明瞭となる, 裂創は通常外力の直接作用した部位に生じる'
+        },
+        {
+            detailInfo: '5/22 (1)',
+            questionSentence: 'Which of the following is correct? Choose all that apply.',
+            choices: ['In Japan, infanticide is punishable as murder', 'A fetus at 3 months gestation has a height of 9 cm and weighs 54 g', 'In a typical full-term fetus (40 weeks gestation), the fingernails extend beyond the fingertips and the toenails reach the tips of the toes', 'In a 6-month-old fetus, no ossification center is observed at the lower end of the femur', 'Any obstetrician-gynecologist can perform an induced abortion'],
+            answer: '1,2,3,4',
+            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】嬰児殺に対して、わが国では殺人罪が適用される, 胎齢3か月の胎児の身長は9cm、体重は54gである, 一般的な成熟児、妊娠満40週において、指爪は指端を越え、趾爪は趾端に達する, 妊娠6か月の胎児には、大腿骨下端部の化骨核は認められない, 人工妊娠中絶は産婦人科医であれば実施できる'
+        },
+        {
+            detailInfo: '5/22 (2)',
+            questionSentence: 'Which of the following is correct? Choose all that apply.',
+            choices: ['The diaphragm of a non-breathing infant is higher than that of a breathing infant', 'The lungs of a breathing infant are light pink, spongy, and crepitant to the touch', 'Focal expansion of respiratory bronchioles and alveoli is a finding in live-born infants', 'Partial positive lung flotation test indicates breathing lungs', 'Even in cases of stillbirth or asphyxiated delivery, the lung flotation test will always be positive'],
+            answer: '1,2,3,4',
+            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】未呼吸児の横隔膜の高さは、既呼吸児のそれに比して高い, 既呼吸児の肺は淡紅色であり、スポンジ様で捻髪感を触れる, 呼吸細気管支および肺胞の限局性拡大は生産児の所見である, 肺浮遊試験部分陽性は呼吸肺とみなす, 墜落分娩や仮死状態で分娩された場合でも、肺浮遊試験は必ず陽性となる'
+        },
+        {
+            detailInfo: '5/22 (3)',
+            questionSentence: 'Which of the following is correct? Choose all that apply.',
+            choices: ['If you discover a case suspected of child abuse, you must report it to the police', 'The most common perpetrator is a stepmother', 'Epidural hematoma is common in head injuries caused by abuse', 'In abused children, thymic atrophy is common', 'Psychological abuse is a growing type of abuse'],
+            answer: '4,5',
+            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】児童虐待と思われる事例を発見した場合、警察へ届け出なければならない, 加害者として最も多いのは、継母である, 虐待による頭部損傷として、硬膜外血腫が多い, 虐待児では、胸腺が退縮することが多い, 最近増えてきている虐待の様態は、心理的虐待である'
+        },
+        {
+            detailInfo: '6/18 (1)',
+            questionSentence: 'Which of the following is correct about the concept of death by burning? Choose all that apply.',
+            choices: [
+                'Death by burning refers to death from burns caused by fire',
+                'A burned body refers to a body that was "burned to death" by fire',
+                'If the person was alive at the time of the fire, vital reactions to the burning will be observed on the body',
+                'A body that died from burning will show both vital reactions to burning and burn injuries',
+                'All causes of death except endogenous diseases can be assumed for burned bodies'
+            ],
+            answer: '3,4',
+            commentary: '【原文問題文】焼死 (体)の概念について正しいものはどれか。すべて選べ。 【原文選択肢】焼死とは火災によって生じた熱傷死のことである, 焼死体とは火災によって“焼け死んだもの”をいう, 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる, 焼死したものには焼死の生活反応と焼損所見とが合併する, 焼死体の死因としては内因性疾患を除くすべてが想定される'
+        },
+        {
+            detailInfo: '6/18 (2)',
+            questionSentence: 'Which of the following is correct about vital reactions to burning? Choose all that apply.',
+            choices: [
+                'The presence of soot in the airways is important for diagnosing death by burning',
+                'Changes in the bright red color of the blood and organs are due to the formation of carboxyhemoglobin',
+                'The blood carboxyhemoglobin saturation rarely exceeds 50%',
+                'Inhalation of hot gases causes various thermal changes in the airway mucosa',
+                'If there are third-degree and fourth-degree burns, it can be diagnosed as death by burning'
+            ],
+            answer: '1,2,4',
+            commentary: '【原文問題文】焼死の生活反応について正しいものはどれか。すべて選べ。 【原文選択肢】気道内における煤の存在は焼死の診断に重要である, 心臓血や諸臓器の鮮紅色調変化は一酸化炭素ヘモグロビンの形成による, 血中一酸化炭素ヘモグロビン飽和度が50%を越えることは少ない, 高温ガスを吸入すると気道粘膜は種々の熱性変化をきたす, III度およびIV度の熱傷があれば焼死と診断してよい'
+        },
+        {
+            detailInfo: '6/18 (3)',
+            questionSentence: 'Which of the following is correct about the conditions for the occurrence of death by freezing? Choose all that apply.',
+            choices: [
+                'Death by freezing does not occur unless the ambient temperature is below freezing',
+                'In a drunken state, heat production is significant, making it difficult to die from freezing',
+                'Infants are less likely to die from freezing due to high heat production',
+                'Head injuries and drug intoxication are factors that can lead to death by freezing',
+                '"Factors that prevent escape from cold exposure" are important in the occurrence of death by freezing'
+            ],
+            answer: '4,5',
+            commentary: '【原文問題文】凍死の発生条件について正しいものはどれか。すべて選べ。 【原文選択肢】凍死は外気温が氷点下でないと発生しない, 酩酊状態では体熱産生が著しいので凍死しにくい, 乳幼児は体熱産生が多いので凍死しにくい, 頭部外傷や薬物中毒は凍死の誘因となる, 凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
+        },
+        {
+            detailInfo: '6/28 (1)',
+            questionSentence: 'Which of the following is correct about injuries to drivers and passengers during vehicle operation? Choose two.',
+            choices: [
+                'If there are no collision marks with the steering wheel on the driver\'s chest, it can be assumed that there are no injuries within the pleural cavity',
+                'No injuries occur due to seat belts',
+                'Windshield injuries refer to incised wounds caused by the windshield',
+                'Dashboard injuries refer to injuries to the lower limbs caused by impact with the dashboard, and severe impacts can cause pelvic fractures',
+                'The driver is less likely to suffer windshield injuries compared to the front-seat passenger because of the presence of the steering wheel'
+            ],
+            answer: '4,5',
+            commentary: '【原文問題文】車両運転時の運転者、同乗者の損傷について正しいものはどれか。2つ選べ。 【原文選択肢】運転者の胸部にハンドルとの衝突痕がなければ胸膜腔内の損傷はないものと考えてよい, シートベルトにより損傷が生じることはない, フロントガラス損傷とは、フロントガラスによる切創によるものをいう, ダッシュボード損傷とは、ダッシュボードにつかった下肢の損傷であるが、衝突が大きいと骨盤骨折を起こすことをある, 運転者は体の前部にハンドルが存在するため、助手席同乗者に比べ、フロントガラスの損傷は受けにくい'
+        },
+        {
+            detailInfo: '6/28 (2)',
+            questionSentence: 'Which of the following is incorrect about run-over injuries? Choose all that apply.',
+            choices: [
+                'Tire marks may not be observed on the body surface even if a vehicle runs over it',
+                'Tire marks are primarily observed as epidermal abrasions at the site of tire contact',
+                'Stretching injury refers to the condition where the skin and subcutaneous tissue are forcibly stretched and separated from the fascia during vehicle run-over, forming a pouch-like cavity filled with blood and lymphatic fluid',
+                'Décollement refers to severe muscle contusion at the site of vehicle run-over',
+                'The posture of the body found at the scene of a run-over indicates the posture at the time of or before the run-over, and the posture can provide important clues about the run-over process'
+            ],
+            answer: '2,3,4,5',
+            commentary: '【原文問題文】轢過損傷について誤っているものはどれか。すべて選べ。 【原文選択肢】車両に轢過されても新体表面にタイヤマークが認められないことがある, タイヤマークはもっぱらタイヤ設置部の表皮剥脱として認められる, 伸展創とは、車両轢過時に皮膚が強く引っ張られ、皮膚及び皮下組織が筋膜から剥離して嚢状の腔を形成し、そこに血液・リンパ液が貯留することを言う, デコルマンとは、車両轢過部位の高度の筋肉挫滅のことである, 歴化された死体の発見時の姿勢は轢過前あるいは轢過時の姿勢を示しており、その姿勢から轢過の様子が推定できるので、重要な所見である'
+        },
+        {
+            detailInfo: '6/28 (3)',
+            questionSentence: 'Based on which evidence was the sex determined to be female?',
+            choices: [
+                'The subpubic angle is acute',
+                'The pelvic inlet is oval-shaped',
+                'The greater sciatic notch is low and sharp-angled',
+                'The supraorbital ridge of the skull is highly developed',
+                'The mastoid process of the skull is highly developed'
+            ],
+            answer: '2',
+            answerImg: [forensicQuestion6_28_3, forensicQuestion6_28_3_2],
+            commentary: '【原文問題文】性別を女性と判断したが、その根拠はどれか． 【原文選択肢】恥骨下角が鋭い, 骨盤上口が楕円形, 大坐骨切痕が低く鋭角, 頭蓋骨の眉弓の発達が高度, 頭蓋骨乳様突起の発育が高度'
+        },
+        {
+            detailInfo: '6/28 (4)',
+            questionSentence: 'Which of the following is useful for estimating age?',
+            choices: [
+                'Length of the long bones',
+                'Number of deciduous teeth',
+                'Thickness of the skull',
+                'Condition of the pubic symphysis',
+                'STR typing of human autosomal DNA'
+            ],
+            answer: '4',
+            commentary: '【原文問題文】年齢の推定に有用なのはどれか． 【原文選択肢】長管骨の長さ, 脱落歯の数, 頭蓋骨の厚さ, 恥骨結合面の性状, ヒト常染色体DNAのSTR型'
+        }
+    ]    
+    },{
       groupTag: "法医学 スライド穴埋めクイズ",
       groupContents: [
         {
@@ -1007,18 +1220,18 @@ export const useQuestionList = () => {
           questionImg: [certificateCause],
           questionSentence: '以下の事例(事例3)で死亡の原因を記載しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指および足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
           answer: '直接死因：失血死(短時間) ← 後腹膜出血(同上) ← 左骨盤粉砕骨折(同上) ← 左臀部打撲(同上)。　影響を及ぼしたそのほかの傷病：外傷性くも膜下出血、肋骨骨折(短時間) ',
-          commentary: '左臀部の広範囲の皮下出血。これは転落と矛盾しない。'
+          commentary: '左臀部の広範囲の皮下出血。これは転落(足からの飛び降りでも骨盤骨折は起こる)と矛盾しない。'
         },
         {
           questionImg: [certificateCauseType],
           questionSentence: '以下の事例(事例3)で死因の種類を選択しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指およ び足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左 骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
-          answer: '',
+          answer: '3. 転倒・転落 ',
           commentary: ''
         },
         {
           questionImg: [certificateAdditionalInfo],
           questionSentence: '以下の事例(事例3)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指およ び足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左 骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
-          answer: '',
+          answer: '解剖：あり　　障害が発生したとき：',
           commentary: ''
         },
         {
@@ -1113,6 +1326,73 @@ export const useQuestionList = () => {
         },
       ]
     },{
+      groupTag: '法医学 Quick Death Certification',
+      groupContents: [
+        {
+            questionImg: [certificateDeathTime],
+            questionSentence: 'In the following case (Case 1), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+            answer: 'Death certificate Estimated time of death: 10:10 p.m.',
+            commentary: '【原文問題文】以下の事例(事例1)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死亡診断書 死亡時刻は午後10時10分 病院で心拍が再開した→医師が看取ったことになる',
+        },
+        {
+            questionImg: [certificatePlace],
+            questionSentence: 'In the following case (Case 1), explain the place and type of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+            answer: 'Place of death: Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) Type: 1. Hospital',
+            commentary: '【原文問題文】以下の事例(事例1)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：物真似病院（奈良県丸出市駄目町2丁目2番1号）種別：1.病院 病院で一度心拍が再開したので、病院で死亡したと判断する',
+        },
+        {
+            questionImg: [certificateCause],
+            questionSentence: 'In the following case (Case 1), describe the cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+            answer: 'Immediate cause of death: Cardiac tamponade (approx. 2 hours) ← Aortic dissection (same) Other: Hypertension (10 years)',
+            commentary: '【原文問題文】以下の事例(事例1)で死亡の原因を記載しなさい。 【原文解答】直接死因：心タンポナーデ(約２時間) ← 胸部大動脈解離(同上) その他：高血圧症(10年) 関係ない情報は記載しない',
+        },
+        {
+            questionImg: [certificateCauseType],
+            questionSentence: 'In the following case (Case 1), select the type of cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+            answer: '1. Disease and natural death',
+            commentary: '【原文問題文】以下の事例(事例1)で死因の種類を選択しなさい。 【原文解答】1.病死及び自然死 CT検査で胸部大動脈解離と心タンポナーデの所見を得ており、外因子による死亡ではない',
+        },
+        {
+            questionImg: [certificateAdditionalInfo],
+            questionSentence: 'In the following case (Case 1), record additional information, surgical history, or autopsy if applicable. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+            answer: 'Sudden back pain at home, transported by ambulance. Treated for hypertension and angina for 10 years.',
+            commentary: '【原文問題文】以下の事例(事例1)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】自宅で突然背中部痛を訴え、救急車で搬送された。10年前から高血圧症と狭心症で治療を受けていたという。なしでも可',
+        },
+        {
+            questionImg: [certificateDeathTime],
+            questionSentence: 'In the following case (Case 2), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+            answer: 'Postmortem certificate Estimated time of death: around 3:00 a.m. on the 8th',
+            commentary: '【原文問題文】以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は8日午前3時頃(推定) 午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する',
+        },
+        {
+            questionImg: [certificatePlace],
+            questionSentence: 'In the following case (Case 2), explain the place and type of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+            answer: 'Place of death: Hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture) Type: 7. Others',
+            commentary: '【原文問題文】以下の事例(事例2)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：ホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）種別：7.その他 死体発見場所がホテルであるため、その他の場所として記載する',
+        },
+        {
+            questionImg: [certificateCause],
+            questionSentence: 'In the following case (Case 2), describe the cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+            answer: 'Immediate cause of death: Stimulant poisoning (short duration)',
+            commentary: '【原文問題文】以下の事例(事例2)で死亡の原因を記載しなさい。 【原文解答】直接死因：覚醒剤中毒(短時間) ショックの種類も推定できない',
+        },
+        {
+            questionImg: [certificateCauseType],
+            questionSentence: 'In the following case (Case 2), select the type of cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+            answer: '7. Poisoning',
+            commentary: '【原文問題文】以下の事例(事例2)で死因の種類を選択しなさい。 【原文解答】7.中毒 今回は日常的な服用があったことが確認されているため中毒に分類されるが、状況がはっきりしない場合は11. その他及び不祥の外因に分類される',
+        },
+        {
+            questionImg: [certificateAdditionalInfo],
+            questionSentence: 'In the following case (Case 2), record additional information, surgical history, or autopsy if applicable. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+            answer: 'Autopsy performed: Congestion of all organs, fluid blood in the heart, petechiae in the pleura, signs of sudden death. Lethal levels of stimulants detected.',
+            answerImg: [certificate2_1, certificate2_2, certificate2_3, certificate2_4, certificate2_5],
+            commentary: '【原文問題文】以下の事例(事例2)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】解剖あり、各臓器のうっ血、心臓血の流動性、肺胸膜の溢血点を認め、急死の所見を呈する。致死濃度の覚せい剤を検出 急死の所見が薬物中毒と一致している。',
+        }
+    ]
+    
+    },
+    {
       groupTag: '婦人科 反転 演習問題',
       groupContents: [
         {
