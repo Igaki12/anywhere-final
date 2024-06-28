@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.663368f7.js",
+    "main.js": "/anywhere-final/static/js/main.40c6cf43.js",
     "static/media/Q2_non_question_page_2.png": "/anywhere-final/static/media/Q2_non_question_page_2.7f77763159cc95414cdf.png",
     "static/media/Q3_non_question_page_3.png": "/anywhere-final/static/media/Q3_non_question_page_3.52cc27e863af713fcc3c.png",
     "static/media/forensic2022a6_3.png": "/anywhere-final/static/media/forensic2022a6_3.5231910efb63c90c9488.png",
@@ -34,6 +34,7 @@
     "static/media/peri2021q26.png": "/anywhere-final/static/media/peri2021q26.f65ebb24df1dfc4a52fe.png",
     "static/media/forensic2022a1_6.png": "/anywhere-final/static/media/forensic2022a1_6.5e407222c81d7359f0b7.png",
     "static/media/peri2021q16.png": "/anywhere-final/static/media/peri2021q16.fb3ef1ed94e17c522c47.png",
+    "static/media/defferenceOfCertification_1.png": "/anywhere-final/static/media/defferenceOfCertification_1.a36c4e9d609496758358.png",
     "static/media/chocolateCystImg.png": "/anywhere-final/static/media/chocolateCystImg.27d8a8277a5406cc3dd0.png",
     "static/media/forensic2022a3_4.png": "/anywhere-final/static/media/forensic2022a3_4.449992e2ba1bf8914a98.png",
     "static/media/pedi22a49.png": "/anywhere-final/static/media/pedi22a49.a9d50ab912c246db1d80.png",
@@ -188,6 +189,7 @@
     "static/media/peri2021q23.png": "/anywhere-final/static/media/peri2021q23.dfd576f9d71c378699c0.png",
     "static/media/certificateAdditionalInfo.png": "/anywhere-final/static/media/certificateAdditionalInfo.a91f6cada4ebe1330b67.png",
     "static/media/peri22a13.png": "/anywhere-final/static/media/peri22a13.baf2469869e63390f058.png",
+    "static/media/defferenceOfCertification_2.png": "/anywhere-final/static/media/defferenceOfCertification_2.6262ee2f5764e50f3a88.png",
     "static/media/forensicSlide7page41.png": "/anywhere-final/static/media/forensicSlide7page41.0efe984ca343d16e17e9.png",
     "static/media/forensic6page10.png": "/anywhere-final/static/media/forensic6page10.6c36fc42bad9b0e32723.png",
     "static/media/forensicSlide6page10.png": "/anywhere-final/static/media/forensicSlide6page10.6c36fc42bad9b0e32723.png",
@@ -220,10 +222,10 @@
     "static/media/peri2021q18_2.png": "/anywhere-final/static/media/peri2021q18_2.0888cedb2d1c8f1be713.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.663368f7.js.map": "/anywhere-final/static/js/main.663368f7.js.map"
+    "main.40c6cf43.js.map": "/anywhere-final/static/js/main.40c6cf43.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.663368f7.js"
+    "static/js/main.40c6cf43.js"
   ]
 }

@@ -1,3 +1,5 @@
+import defferenceOfCertification_1 from './img/answer/defferenceOfCertification_1.png';
+import defferenceOfCertification_2 from './img/answer/defferenceOfCertification_2.png';
 import forensicQuestion6_28_3_2 from './img/answer/forensicQuestion6_28_3_2.png';
 import forensicQuestion6_28_3 from './img/answer/forensicQuestion6_28_3.png';
 import certificate2_4 from './img/answer/certificate2_4.png';
@@ -476,7 +478,7 @@ export const useQuestionList = () => {
           '凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
         ],
         answer: '4,5',
-      },{
+      }, {
         detailInfo: '6/28 (1)',
         questionSentence: '車両運転時の運転者、同乗者の損傷について正しいものはどれか。2つ選べ。',
         choices: [
@@ -487,7 +489,7 @@ export const useQuestionList = () => {
           '運転者は体の前部にハンドルが存在するため、助手席同乗者に比べ、フロントガラスの損傷は受けにくい'
         ],
         answer: '4,5',
-      },{
+      }, {
         detailInfo: '6/28 (2)',
         questionSentence: '轢過損傷について誤っているものはどれか。すべて選べ。',
         choices: [
@@ -498,7 +500,7 @@ export const useQuestionList = () => {
           '歴化された死体の発見時の姿勢は轢過前あるいは轢過時の姿勢を示しており、その姿勢から轢過の様子が推定できるので、重要な所見である'
         ],
         answer: '2,3,4,5',
-      },{
+      }, {
         detailInfo: '6/28 (3)',
         questionSentence: '性別を女性と判断したが、その根拠はどれか．',
         choices: [
@@ -510,7 +512,7 @@ export const useQuestionList = () => {
         ],
         answer: '2',
         answerImg: [forensicQuestion6_28_3, forensicQuestion6_28_3_2],
-      },{
+      }, {
         detailInfo: '6/28 (4)',
         questionSentence: '年齢の推定に有用なのはどれか．',
         choices: [
@@ -528,169 +530,169 @@ export const useQuestionList = () => {
       groupTag: "法医学 出席 機械英訳",
       groupContents: [
         {
-            detailInfo: '4/26 (1)',
-            questionSentence: 'When an unnatural death is recognized, by when must it be reported to the jurisdictional police station?',
-            choices: ['Immediately', 'Within 12 hours', 'Within 24 hours', 'Within one week', 'By the 10th of the following month'],
-            answer: '3',
-            commentary: '【原文問題文】異状死と認めた場合、いつまでに所轄警察署に届け出なければならないか。 【原文選択肢】直ちに, 12時間以内, 24時間以内, 1週間以内, 翌月の10日まで'
+          detailInfo: '4/26 (1)',
+          questionSentence: 'When an unnatural death is recognized, by when must it be reported to the jurisdictional police station?',
+          choices: ['Immediately', 'Within 12 hours', 'Within 24 hours', 'Within one week', 'By the 10th of the following month'],
+          answer: '3',
+          commentary: '【原文問題文】異状死と認めた場合、いつまでに所轄警察署に届け出なければならないか。 【原文選択肢】直ちに, 12時間以内, 24時間以内, 1週間以内, 翌月の10日まで'
         },
         {
-            detailInfo: '4/26 (2)',
-            questionSentence: 'Which of the following does not correspond to an unnatural death?',
-            choices: ['A body suspected of pesticide poisoning', 'A body suspected of secondary infection after injury', 'A body suspected of incompatible blood transfusion', 'A body suspected of choking on prescribed medication', 'A body suspected of hemoptysis from lung cancer'],
-            answer: '5',
-            commentary: '【原文問題文】異状死体に該当しないのはどれか。 【原文選択肢】農薬中毒によると思われる死体, 他傷後の続発症によると思われる死体, 異型輸血によると思われる死体, 処方された薬の誤嚥によると思われる死体, 肺癌患者の喀血によると思われる死体'
+          detailInfo: '4/26 (2)',
+          questionSentence: 'Which of the following does not correspond to an unnatural death?',
+          choices: ['A body suspected of pesticide poisoning', 'A body suspected of secondary infection after injury', 'A body suspected of incompatible blood transfusion', 'A body suspected of choking on prescribed medication', 'A body suspected of hemoptysis from lung cancer'],
+          answer: '5',
+          commentary: '【原文問題文】異状死体に該当しないのはどれか。 【原文選択肢】農薬中毒によると思われる死体, 他傷後の続発症によると思われる死体, 異型輸血によると思われる死体, 処方された薬の誤嚥によると思われる死体, 肺癌患者の喀血によると思われる死体'
         },
         {
-            detailInfo: '4/26 (3)',
-            questionSentence: 'A 69-year-old man living alone is terminally ill with lung cancer and receives home medical care three times a week. When the attending doctor visits at 5 p.m., the patient is found dead in the supine position on his bed. There are no external injuries, and the doctor determines that he died of lung cancer. Rectal temperature is 30.0°C, room temperature is 22.0°C. Purple-red livor mortis is observed on the back and disappears easily with pressure. Rigor mortis is observed in all joints, but is mild in the limb joints. What is the appropriate estimated time of death?',
-            choices: ['Around 9 a.m. the previous day', 'Around 3 p.m. the previous day', 'Around 9 p.m. the previous day', 'Around 3 a.m. on the day of discovery', 'Around 9 a.m. on the day of discovery'],
-            answer: '5',
-            commentary: '【原文問題文】69歳の男性。一人暮らし。肺癌の末期で在宅療養中であり、週3回の往診を受けていた。往診担当医が午後5時に患者宅に行くと、寝室のベッド上で仰臥位のまま死亡していた。外傷はなく、肺癌で死亡したと判断された。直腸温30.0°C。室温22.0°C。紫赤色の死斑を背面に認め、指圧で容易に消退する。硬直を全身の各関節に認めるが、四肢関節の硬直は軽度である。死亡推定時刻として適切なのはどれか。 【原文選択肢】前日の午前9時頃, 前日の午後3時頃, 前日の午後9時頃, 当日の午前3時頃, 当日の午前9時頃'
+          detailInfo: '4/26 (3)',
+          questionSentence: 'A 69-year-old man living alone is terminally ill with lung cancer and receives home medical care three times a week. When the attending doctor visits at 5 p.m., the patient is found dead in the supine position on his bed. There are no external injuries, and the doctor determines that he died of lung cancer. Rectal temperature is 30.0°C, room temperature is 22.0°C. Purple-red livor mortis is observed on the back and disappears easily with pressure. Rigor mortis is observed in all joints, but is mild in the limb joints. What is the appropriate estimated time of death?',
+          choices: ['Around 9 a.m. the previous day', 'Around 3 p.m. the previous day', 'Around 9 p.m. the previous day', 'Around 3 a.m. on the day of discovery', 'Around 9 a.m. on the day of discovery'],
+          answer: '5',
+          commentary: '【原文問題文】69歳の男性。一人暮らし。肺癌の末期で在宅療養中であり、週3回の往診を受けていた。往診担当医が午後5時に患者宅に行くと、寝室のベッド上で仰臥位のまま死亡していた。外傷はなく、肺癌で死亡したと判断された。直腸温30.0°C。室温22.0°C。紫赤色の死斑を背面に認め、指圧で容易に消退する。硬直を全身の各関節に認めるが、四肢関節の硬直は軽度である。死亡推定時刻として適切なのはどれか。 【原文選択肢】前日の午前9時頃, 前日の午後3時頃, 前日の午後9時頃, 当日の午前3時頃, 当日の午前9時頃'
         },
         {
-            detailInfo: '4/26 (4)',
-            questionSentence: 'On a certain day in May at 10 a.m., a hanged body was discovered and immediately laid down on a futon. The police were notified the following morning, and an autopsy was performed at 10 a.m. The body temperature was the same as the room temperature (20°C), rigor mortis was strong in all joints, livor mortis was prominent on the back, and remnants of petechiae were observed on the skin of the lower limbs. No abdominal putrefaction discoloration was observed. What is the appropriate estimated time of death?',
-            choices: ['Around 10 a.m. the day before the autopsy', 'Around 4 a.m. the day before the autopsy', 'Around 10 p.m. two days before the autopsy', 'Around 10 a.m. two days before the autopsy', 'Around 10 a.m. three days before the autopsy'],
-            answer: '3',
-            commentary: '【原文問題文】5月某日の午前10時に縊頭しているのを発見され、すぐに布団に寝かされた死体、警察へは翌朝通報され、午前10時に検視を行った。体温は室温と同じ20°C硬直は全身の関節で強く、死斑は背中に濃く出ている、下肢の皮膚に死斑の名残りの溢血点が見られる。腹部の腐敗変色は見られない、適切な死亡推定時刻はどれか。 【原文選択肢】検視の前日の午前10時頃, 検視の前日の午前4時頃, 検視の前々日の午後10時頃, 検視の前々日の午前10時頃, 検視の3日前の午前10時頃'
+          detailInfo: '4/26 (4)',
+          questionSentence: 'On a certain day in May at 10 a.m., a hanged body was discovered and immediately laid down on a futon. The police were notified the following morning, and an autopsy was performed at 10 a.m. The body temperature was the same as the room temperature (20°C), rigor mortis was strong in all joints, livor mortis was prominent on the back, and remnants of petechiae were observed on the skin of the lower limbs. No abdominal putrefaction discoloration was observed. What is the appropriate estimated time of death?',
+          choices: ['Around 10 a.m. the day before the autopsy', 'Around 4 a.m. the day before the autopsy', 'Around 10 p.m. two days before the autopsy', 'Around 10 a.m. two days before the autopsy', 'Around 10 a.m. three days before the autopsy'],
+          answer: '3',
+          commentary: '【原文問題文】5月某日の午前10時に縊頭しているのを発見され、すぐに布団に寝かされた死体、警察へは翌朝通報され、午前10時に検視を行った。体温は室温と同じ20°C硬直は全身の関節で強く、死斑は背中に濃く出ている、下肢の皮膚に死斑の名残りの溢血点が見られる。腹部の腐敗変色は見られない、適切な死亡推定時刻はどれか。 【原文選択肢】検視の前日の午前10時頃, 検視の前日の午前4時頃, 検視の前々日の午後10時頃, 検視の前々日の午前10時頃, 検視の3日前の午前10時頃'
         },
         {
-            detailInfo: '4/26 (5)',
-            questionSentence: 'Which findings are useful for estimating the time of death? Choose two.',
-            choices: ['Color of livor mortis', 'Degree of rigor mortis', 'Degree of corneal opacity', 'Size of the pupils', 'Axillary temperature'],
-            answer: '2,3',
-            commentary: '【原文問題文】死亡時刻を推定するのに役立つ所見はどれか, 2つ選べ。 【原文選択肢】死斑の色調, 死体硬直の程度, 角膜混濁の程度, 瞳孔の大きさ, 腋窩温'
+          detailInfo: '4/26 (5)',
+          questionSentence: 'Which findings are useful for estimating the time of death? Choose two.',
+          choices: ['Color of livor mortis', 'Degree of rigor mortis', 'Degree of corneal opacity', 'Size of the pupils', 'Axillary temperature'],
+          answer: '2,3',
+          commentary: '【原文問題文】死亡時刻を推定するのに役立つ所見はどれか, 2つ選べ。 【原文選択肢】死斑の色調, 死体硬直の程度, 角膜混濁の程度, 瞳孔の大きさ, 腋窩温'
         },
         {
-            detailInfo: '5/14 (1)',
-            questionSentence: 'Which of the following is correct about sharp force injuries? Choose two.',
-            choices: ['Sharp force injuries include stab wounds, incised wounds, and puncture-incised wounds', 'In stab wounds caused by knives, both wound angles are sharp', 'The size of the wound varies depending on whether the wound is perpendicular or parallel to the skin tension lines', 'In general, the wound surfaces of sharp force injuries are smooth', 'In puncture-incised wounds, epidermal abrasion is a characteristic feature'],
-            answer: '3,4',
-            commentary: '【原文問題文】鋭器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】鋭器損傷には、刺創、切創、刺切創がある, 刃器による刺創では、両創角は尖鋭である, 創口の大きさは、創口が皮膚割線に対して直角か平行かで異なる, 鋭器損傷では、一般に創洞面は平滑である, 刺切創では、創縁に表皮剥脱を伴うのが特徴である'
+          detailInfo: '5/14 (1)',
+          questionSentence: 'Which of the following is correct about sharp force injuries? Choose two.',
+          choices: ['Sharp force injuries include stab wounds, incised wounds, and puncture-incised wounds', 'In stab wounds caused by knives, both wound angles are sharp', 'The size of the wound varies depending on whether the wound is perpendicular or parallel to the skin tension lines', 'In general, the wound surfaces of sharp force injuries are smooth', 'In puncture-incised wounds, epidermal abrasion is a characteristic feature'],
+          answer: '3,4',
+          commentary: '【原文問題文】鋭器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】鋭器損傷には、刺創、切創、刺切創がある, 刃器による刺創では、両創角は尖鋭である, 創口の大きさは、創口が皮膚割線に対して直角か平行かで異なる, 鋭器損傷では、一般に創洞面は平滑である, 刺切創では、創縁に表皮剥脱を伴うのが特徴である'
         },
         {
-            detailInfo: '5/14 (2)',
-            questionSentence: 'Which of the following is correct about blunt force injuries? Choose two.',
-            choices: ['Subcutaneous hemorrhage occurs only at the site of direct external force', 'Bruises and abrasions do not occur with sharp instruments', 'In contused wounds, connective tissue and blood vessels often remain bridged in the wound cavity', 'Epidermal abrasion becomes more pronounced after death', 'Lacerations usually occur at the site of direct external force'],
-            answer: '3,4',
-            commentary: '【原文問題文】鈍器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】皮下出血は外力が直接作用した部位にのみ生じるものである, 刃器では打撲傷や擦過傷は生じない, 挫創の創洞内には結合組織や血管などが架橋状に残存していることが多い, 表皮剥脱は死後しばらくするとより明瞭となる, 裂創は通常外力の直接作用した部位に生じる'
+          detailInfo: '5/14 (2)',
+          questionSentence: 'Which of the following is correct about blunt force injuries? Choose two.',
+          choices: ['Subcutaneous hemorrhage occurs only at the site of direct external force', 'Bruises and abrasions do not occur with sharp instruments', 'In contused wounds, connective tissue and blood vessels often remain bridged in the wound cavity', 'Epidermal abrasion becomes more pronounced after death', 'Lacerations usually occur at the site of direct external force'],
+          answer: '3,4',
+          commentary: '【原文問題文】鈍器損傷で正しいものはどれか。2つ選べ。 【原文選択肢】皮下出血は外力が直接作用した部位にのみ生じるものである, 刃器では打撲傷や擦過傷は生じない, 挫創の創洞内には結合組織や血管などが架橋状に残存していることが多い, 表皮剥脱は死後しばらくするとより明瞭となる, 裂創は通常外力の直接作用した部位に生じる'
         },
         {
-            detailInfo: '5/22 (1)',
-            questionSentence: 'Which of the following is correct? Choose all that apply.',
-            choices: ['In Japan, infanticide is punishable as murder', 'A fetus at 3 months gestation has a height of 9 cm and weighs 54 g', 'In a typical full-term fetus (40 weeks gestation), the fingernails extend beyond the fingertips and the toenails reach the tips of the toes', 'In a 6-month-old fetus, no ossification center is observed at the lower end of the femur', 'Any obstetrician-gynecologist can perform an induced abortion'],
-            answer: '1,2,3,4',
-            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】嬰児殺に対して、わが国では殺人罪が適用される, 胎齢3か月の胎児の身長は9cm、体重は54gである, 一般的な成熟児、妊娠満40週において、指爪は指端を越え、趾爪は趾端に達する, 妊娠6か月の胎児には、大腿骨下端部の化骨核は認められない, 人工妊娠中絶は産婦人科医であれば実施できる'
+          detailInfo: '5/22 (1)',
+          questionSentence: 'Which of the following is correct? Choose all that apply.',
+          choices: ['In Japan, infanticide is punishable as murder', 'A fetus at 3 months gestation has a height of 9 cm and weighs 54 g', 'In a typical full-term fetus (40 weeks gestation), the fingernails extend beyond the fingertips and the toenails reach the tips of the toes', 'In a 6-month-old fetus, no ossification center is observed at the lower end of the femur', 'Any obstetrician-gynecologist can perform an induced abortion'],
+          answer: '1,2,3,4',
+          commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】嬰児殺に対して、わが国では殺人罪が適用される, 胎齢3か月の胎児の身長は9cm、体重は54gである, 一般的な成熟児、妊娠満40週において、指爪は指端を越え、趾爪は趾端に達する, 妊娠6か月の胎児には、大腿骨下端部の化骨核は認められない, 人工妊娠中絶は産婦人科医であれば実施できる'
         },
         {
-            detailInfo: '5/22 (2)',
-            questionSentence: 'Which of the following is correct? Choose all that apply.',
-            choices: ['The diaphragm of a non-breathing infant is higher than that of a breathing infant', 'The lungs of a breathing infant are light pink, spongy, and crepitant to the touch', 'Focal expansion of respiratory bronchioles and alveoli is a finding in live-born infants', 'Partial positive lung flotation test indicates breathing lungs', 'Even in cases of stillbirth or asphyxiated delivery, the lung flotation test will always be positive'],
-            answer: '1,2,3,4',
-            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】未呼吸児の横隔膜の高さは、既呼吸児のそれに比して高い, 既呼吸児の肺は淡紅色であり、スポンジ様で捻髪感を触れる, 呼吸細気管支および肺胞の限局性拡大は生産児の所見である, 肺浮遊試験部分陽性は呼吸肺とみなす, 墜落分娩や仮死状態で分娩された場合でも、肺浮遊試験は必ず陽性となる'
+          detailInfo: '5/22 (2)',
+          questionSentence: 'Which of the following is correct? Choose all that apply.',
+          choices: ['The diaphragm of a non-breathing infant is higher than that of a breathing infant', 'The lungs of a breathing infant are light pink, spongy, and crepitant to the touch', 'Focal expansion of respiratory bronchioles and alveoli is a finding in live-born infants', 'Partial positive lung flotation test indicates breathing lungs', 'Even in cases of stillbirth or asphyxiated delivery, the lung flotation test will always be positive'],
+          answer: '1,2,3,4',
+          commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】未呼吸児の横隔膜の高さは、既呼吸児のそれに比して高い, 既呼吸児の肺は淡紅色であり、スポンジ様で捻髪感を触れる, 呼吸細気管支および肺胞の限局性拡大は生産児の所見である, 肺浮遊試験部分陽性は呼吸肺とみなす, 墜落分娩や仮死状態で分娩された場合でも、肺浮遊試験は必ず陽性となる'
         },
         {
-            detailInfo: '5/22 (3)',
-            questionSentence: 'Which of the following is correct? Choose all that apply.',
-            choices: ['If you discover a case suspected of child abuse, you must report it to the police', 'The most common perpetrator is a stepmother', 'Epidural hematoma is common in head injuries caused by abuse', 'In abused children, thymic atrophy is common', 'Psychological abuse is a growing type of abuse'],
-            answer: '4,5',
-            commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】児童虐待と思われる事例を発見した場合、警察へ届け出なければならない, 加害者として最も多いのは、継母である, 虐待による頭部損傷として、硬膜外血腫が多い, 虐待児では、胸腺が退縮することが多い, 最近増えてきている虐待の様態は、心理的虐待である'
+          detailInfo: '5/22 (3)',
+          questionSentence: 'Which of the following is correct? Choose all that apply.',
+          choices: ['If you discover a case suspected of child abuse, you must report it to the police', 'The most common perpetrator is a stepmother', 'Epidural hematoma is common in head injuries caused by abuse', 'In abused children, thymic atrophy is common', 'Psychological abuse is a growing type of abuse'],
+          answer: '4,5',
+          commentary: '【原文問題文】正しいものはどれか。すべて選べ。 【原文選択肢】児童虐待と思われる事例を発見した場合、警察へ届け出なければならない, 加害者として最も多いのは、継母である, 虐待による頭部損傷として、硬膜外血腫が多い, 虐待児では、胸腺が退縮することが多い, 最近増えてきている虐待の様態は、心理的虐待である'
         },
         {
-            detailInfo: '6/18 (1)',
-            questionSentence: 'Which of the following is correct about the concept of death by burning? Choose all that apply.',
-            choices: [
-                'Death by burning refers to death from burns caused by fire',
-                'A burned body refers to a body that was "burned to death" by fire',
-                'If the person was alive at the time of the fire, vital reactions to the burning will be observed on the body',
-                'A body that died from burning will show both vital reactions to burning and burn injuries',
-                'All causes of death except endogenous diseases can be assumed for burned bodies'
-            ],
-            answer: '3,4',
-            commentary: '【原文問題文】焼死 (体)の概念について正しいものはどれか。すべて選べ。 【原文選択肢】焼死とは火災によって生じた熱傷死のことである, 焼死体とは火災によって“焼け死んだもの”をいう, 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる, 焼死したものには焼死の生活反応と焼損所見とが合併する, 焼死体の死因としては内因性疾患を除くすべてが想定される'
+          detailInfo: '6/18 (1)',
+          questionSentence: 'Which of the following is correct about the concept of death by burning? Choose all that apply.',
+          choices: [
+            'Death by burning refers to death from burns caused by fire',
+            'A burned body refers to a body that was "burned to death" by fire',
+            'If the person was alive at the time of the fire, vital reactions to the burning will be observed on the body',
+            'A body that died from burning will show both vital reactions to burning and burn injuries',
+            'All causes of death except endogenous diseases can be assumed for burned bodies'
+          ],
+          answer: '3,4',
+          commentary: '【原文問題文】焼死 (体)の概念について正しいものはどれか。すべて選べ。 【原文選択肢】焼死とは火災によって生じた熱傷死のことである, 焼死体とは火災によって“焼け死んだもの”をいう, 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる, 焼死したものには焼死の生活反応と焼損所見とが合併する, 焼死体の死因としては内因性疾患を除くすべてが想定される'
         },
         {
-            detailInfo: '6/18 (2)',
-            questionSentence: 'Which of the following is correct about vital reactions to burning? Choose all that apply.',
-            choices: [
-                'The presence of soot in the airways is important for diagnosing death by burning',
-                'Changes in the bright red color of the blood and organs are due to the formation of carboxyhemoglobin',
-                'The blood carboxyhemoglobin saturation rarely exceeds 50%',
-                'Inhalation of hot gases causes various thermal changes in the airway mucosa',
-                'If there are third-degree and fourth-degree burns, it can be diagnosed as death by burning'
-            ],
-            answer: '1,2,4',
-            commentary: '【原文問題文】焼死の生活反応について正しいものはどれか。すべて選べ。 【原文選択肢】気道内における煤の存在は焼死の診断に重要である, 心臓血や諸臓器の鮮紅色調変化は一酸化炭素ヘモグロビンの形成による, 血中一酸化炭素ヘモグロビン飽和度が50%を越えることは少ない, 高温ガスを吸入すると気道粘膜は種々の熱性変化をきたす, III度およびIV度の熱傷があれば焼死と診断してよい'
+          detailInfo: '6/18 (2)',
+          questionSentence: 'Which of the following is correct about vital reactions to burning? Choose all that apply.',
+          choices: [
+            'The presence of soot in the airways is important for diagnosing death by burning',
+            'Changes in the bright red color of the blood and organs are due to the formation of carboxyhemoglobin',
+            'The blood carboxyhemoglobin saturation rarely exceeds 50%',
+            'Inhalation of hot gases causes various thermal changes in the airway mucosa',
+            'If there are third-degree and fourth-degree burns, it can be diagnosed as death by burning'
+          ],
+          answer: '1,2,4',
+          commentary: '【原文問題文】焼死の生活反応について正しいものはどれか。すべて選べ。 【原文選択肢】気道内における煤の存在は焼死の診断に重要である, 心臓血や諸臓器の鮮紅色調変化は一酸化炭素ヘモグロビンの形成による, 血中一酸化炭素ヘモグロビン飽和度が50%を越えることは少ない, 高温ガスを吸入すると気道粘膜は種々の熱性変化をきたす, III度およびIV度の熱傷があれば焼死と診断してよい'
         },
         {
-            detailInfo: '6/18 (3)',
-            questionSentence: 'Which of the following is correct about the conditions for the occurrence of death by freezing? Choose all that apply.',
-            choices: [
-                'Death by freezing does not occur unless the ambient temperature is below freezing',
-                'In a drunken state, heat production is significant, making it difficult to die from freezing',
-                'Infants are less likely to die from freezing due to high heat production',
-                'Head injuries and drug intoxication are factors that can lead to death by freezing',
-                '"Factors that prevent escape from cold exposure" are important in the occurrence of death by freezing'
-            ],
-            answer: '4,5',
-            commentary: '【原文問題文】凍死の発生条件について正しいものはどれか。すべて選べ。 【原文選択肢】凍死は外気温が氷点下でないと発生しない, 酩酊状態では体熱産生が著しいので凍死しにくい, 乳幼児は体熱産生が多いので凍死しにくい, 頭部外傷や薬物中毒は凍死の誘因となる, 凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
+          detailInfo: '6/18 (3)',
+          questionSentence: 'Which of the following is correct about the conditions for the occurrence of death by freezing? Choose all that apply.',
+          choices: [
+            'Death by freezing does not occur unless the ambient temperature is below freezing',
+            'In a drunken state, heat production is significant, making it difficult to die from freezing',
+            'Infants are less likely to die from freezing due to high heat production',
+            'Head injuries and drug intoxication are factors that can lead to death by freezing',
+            '"Factors that prevent escape from cold exposure" are important in the occurrence of death by freezing'
+          ],
+          answer: '4,5',
+          commentary: '【原文問題文】凍死の発生条件について正しいものはどれか。すべて選べ。 【原文選択肢】凍死は外気温が氷点下でないと発生しない, 酩酊状態では体熱産生が著しいので凍死しにくい, 乳幼児は体熱産生が多いので凍死しにくい, 頭部外傷や薬物中毒は凍死の誘因となる, 凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
         },
         {
-            detailInfo: '6/28 (1)',
-            questionSentence: 'Which of the following is correct about injuries to drivers and passengers during vehicle operation? Choose two.',
-            choices: [
-                'If there are no collision marks with the steering wheel on the driver\'s chest, it can be assumed that there are no injuries within the pleural cavity',
-                'No injuries occur due to seat belts',
-                'Windshield injuries refer to incised wounds caused by the windshield',
-                'Dashboard injuries refer to injuries to the lower limbs caused by impact with the dashboard, and severe impacts can cause pelvic fractures',
-                'The driver is less likely to suffer windshield injuries compared to the front-seat passenger because of the presence of the steering wheel'
-            ],
-            answer: '4,5',
-            commentary: '【原文問題文】車両運転時の運転者、同乗者の損傷について正しいものはどれか。2つ選べ。 【原文選択肢】運転者の胸部にハンドルとの衝突痕がなければ胸膜腔内の損傷はないものと考えてよい, シートベルトにより損傷が生じることはない, フロントガラス損傷とは、フロントガラスによる切創によるものをいう, ダッシュボード損傷とは、ダッシュボードにつかった下肢の損傷であるが、衝突が大きいと骨盤骨折を起こすことをある, 運転者は体の前部にハンドルが存在するため、助手席同乗者に比べ、フロントガラスの損傷は受けにくい'
+          detailInfo: '6/28 (1)',
+          questionSentence: 'Which of the following is correct about injuries to drivers and passengers during vehicle operation? Choose two.',
+          choices: [
+            'If there are no collision marks with the steering wheel on the driver\'s chest, it can be assumed that there are no injuries within the pleural cavity',
+            'No injuries occur due to seat belts',
+            'Windshield injuries refer to incised wounds caused by the windshield',
+            'Dashboard injuries refer to injuries to the lower limbs caused by impact with the dashboard, and severe impacts can cause pelvic fractures',
+            'The driver is less likely to suffer windshield injuries compared to the front-seat passenger because of the presence of the steering wheel'
+          ],
+          answer: '4,5',
+          commentary: '【原文問題文】車両運転時の運転者、同乗者の損傷について正しいものはどれか。2つ選べ。 【原文選択肢】運転者の胸部にハンドルとの衝突痕がなければ胸膜腔内の損傷はないものと考えてよい, シートベルトにより損傷が生じることはない, フロントガラス損傷とは、フロントガラスによる切創によるものをいう, ダッシュボード損傷とは、ダッシュボードにつかった下肢の損傷であるが、衝突が大きいと骨盤骨折を起こすことをある, 運転者は体の前部にハンドルが存在するため、助手席同乗者に比べ、フロントガラスの損傷は受けにくい'
         },
         {
-            detailInfo: '6/28 (2)',
-            questionSentence: 'Which of the following is incorrect about run-over injuries? Choose all that apply.',
-            choices: [
-                'Tire marks may not be observed on the body surface even if a vehicle runs over it',
-                'Tire marks are primarily observed as epidermal abrasions at the site of tire contact',
-                'Stretching injury refers to the condition where the skin and subcutaneous tissue are forcibly stretched and separated from the fascia during vehicle run-over, forming a pouch-like cavity filled with blood and lymphatic fluid',
-                'Décollement refers to severe muscle contusion at the site of vehicle run-over',
-                'The posture of the body found at the scene of a run-over indicates the posture at the time of or before the run-over, and the posture can provide important clues about the run-over process'
-            ],
-            answer: '2,3,4,5',
-            commentary: '【原文問題文】轢過損傷について誤っているものはどれか。すべて選べ。 【原文選択肢】車両に轢過されても新体表面にタイヤマークが認められないことがある, タイヤマークはもっぱらタイヤ設置部の表皮剥脱として認められる, 伸展創とは、車両轢過時に皮膚が強く引っ張られ、皮膚及び皮下組織が筋膜から剥離して嚢状の腔を形成し、そこに血液・リンパ液が貯留することを言う, デコルマンとは、車両轢過部位の高度の筋肉挫滅のことである, 歴化された死体の発見時の姿勢は轢過前あるいは轢過時の姿勢を示しており、その姿勢から轢過の様子が推定できるので、重要な所見である'
+          detailInfo: '6/28 (2)',
+          questionSentence: 'Which of the following is incorrect about run-over injuries? Choose all that apply.',
+          choices: [
+            'Tire marks may not be observed on the body surface even if a vehicle runs over it',
+            'Tire marks are primarily observed as epidermal abrasions at the site of tire contact',
+            'Stretching injury refers to the condition where the skin and subcutaneous tissue are forcibly stretched and separated from the fascia during vehicle run-over, forming a pouch-like cavity filled with blood and lymphatic fluid',
+            'Décollement refers to severe muscle contusion at the site of vehicle run-over',
+            'The posture of the body found at the scene of a run-over indicates the posture at the time of or before the run-over, and the posture can provide important clues about the run-over process'
+          ],
+          answer: '2,3,4,5',
+          commentary: '【原文問題文】轢過損傷について誤っているものはどれか。すべて選べ。 【原文選択肢】車両に轢過されても新体表面にタイヤマークが認められないことがある, タイヤマークはもっぱらタイヤ設置部の表皮剥脱として認められる, 伸展創とは、車両轢過時に皮膚が強く引っ張られ、皮膚及び皮下組織が筋膜から剥離して嚢状の腔を形成し、そこに血液・リンパ液が貯留することを言う, デコルマンとは、車両轢過部位の高度の筋肉挫滅のことである, 歴化された死体の発見時の姿勢は轢過前あるいは轢過時の姿勢を示しており、その姿勢から轢過の様子が推定できるので、重要な所見である'
         },
         {
-            detailInfo: '6/28 (3)',
-            questionSentence: 'Based on which evidence was the sex determined to be female?',
-            choices: [
-                'The subpubic angle is acute',
-                'The pelvic inlet is oval-shaped',
-                'The greater sciatic notch is low and sharp-angled',
-                'The supraorbital ridge of the skull is highly developed',
-                'The mastoid process of the skull is highly developed'
-            ],
-            answer: '2',
-            answerImg: [forensicQuestion6_28_3, forensicQuestion6_28_3_2],
-            commentary: '【原文問題文】性別を女性と判断したが、その根拠はどれか． 【原文選択肢】恥骨下角が鋭い, 骨盤上口が楕円形, 大坐骨切痕が低く鋭角, 頭蓋骨の眉弓の発達が高度, 頭蓋骨乳様突起の発育が高度'
+          detailInfo: '6/28 (3)',
+          questionSentence: 'Based on which evidence was the sex determined to be female?',
+          choices: [
+            'The subpubic angle is acute',
+            'The pelvic inlet is oval-shaped',
+            'The greater sciatic notch is low and sharp-angled',
+            'The supraorbital ridge of the skull is highly developed',
+            'The mastoid process of the skull is highly developed'
+          ],
+          answer: '2',
+          answerImg: [forensicQuestion6_28_3, forensicQuestion6_28_3_2],
+          commentary: '【原文問題文】性別を女性と判断したが、その根拠はどれか． 【原文選択肢】恥骨下角が鋭い, 骨盤上口が楕円形, 大坐骨切痕が低く鋭角, 頭蓋骨の眉弓の発達が高度, 頭蓋骨乳様突起の発育が高度'
         },
         {
-            detailInfo: '6/28 (4)',
-            questionSentence: 'Which of the following is useful for estimating age?',
-            choices: [
-                'Length of the long bones',
-                'Number of deciduous teeth',
-                'Thickness of the skull',
-                'Condition of the pubic symphysis',
-                'STR typing of human autosomal DNA'
-            ],
-            answer: '4',
-            commentary: '【原文問題文】年齢の推定に有用なのはどれか． 【原文選択肢】長管骨の長さ, 脱落歯の数, 頭蓋骨の厚さ, 恥骨結合面の性状, ヒト常染色体DNAのSTR型'
+          detailInfo: '6/28 (4)',
+          questionSentence: 'Which of the following is useful for estimating age?',
+          choices: [
+            'Length of the long bones',
+            'Number of deciduous teeth',
+            'Thickness of the skull',
+            'Condition of the pubic symphysis',
+            'STR typing of human autosomal DNA'
+          ],
+          answer: '4',
+          commentary: '【原文問題文】年齢の推定に有用なのはどれか． 【原文選択肢】長管骨の長さ, 脱落歯の数, 頭蓋骨の厚さ, 恥骨結合面の性状, ヒト常染色体DNAのSTR型'
         }
-    ]    
-    },{
+      ]
+    }, {
       groupTag: "法医学 スライド穴埋めクイズ",
       groupContents: [
         {
@@ -875,272 +877,274 @@ export const useQuestionList = () => {
         }
       ]
     },
-      {groupTag: '法医学 2022本 ~問題6',
+    {
+      groupTag: '法医学 2022本 ~問題6',
       groupContents: [{
 
-          questionSentence: '問題1.(1) 司法解剖の根拠法は(　)である。医師法第 21 条に基づく届け出の対象となるのは、死体叉は妊娠(　)ヶ月以上の死産児を検案して異常があると認めたときである。',
-          answer: '刑事訴訟法 4ヶ月',
-          commentary: ''
+        questionSentence: '問題1.(1) 司法解剖の根拠法は(　)である。医師法第 21 条に基づく届け出の対象となるのは、死体叉は妊娠(　)ヶ月以上の死産児を検案して異常があると認めたときである。',
+        answer: '刑事訴訟法 4ヶ月',
+        commentary: ''
       },
       {
-          questionSentence: '問題1.(2) 児童虐待には身体的虐待・性的虐待・養育拒否（ネグレクト）・心理的虐待の４つがあり、一般に被虐待児では(　)の萎縮がみられる。加害者は(　)であることが多く、児童福祉法第 25 条には、虐待が疑われる児童を発見した者は、これを(　)若しくは(　)に通告しなければならないと書かれている。',
-          answer: '胸腺 実母 児童相談所 福祉事務所',
-          commentary: ''
+        questionSentence: '問題1.(2) 児童虐待には身体的虐待・性的虐待・養育拒否（ネグレクト）・心理的虐待の４つがあり、一般に被虐待児では(　)の萎縮がみられる。加害者は(　)であることが多く、児童福祉法第 25 条には、虐待が疑われる児童を発見した者は、これを(　)若しくは(　)に通告しなければならないと書かれている。',
+        answer: '胸腺 実母 児童相談所 福祉事務所',
+        commentary: ''
       },
       {
-          questionSentence: '問題1.(3) 乳幼児突然死症候群（SIDS）とは、それまでの健康状態および既往歴からその死亡が予測できず、しかも(　)および(　)によってもその原因が同定されない、原則として１歳未満の児に突然の死をもたらした症候群である。',
-          answer: '死亡状況調査 解剖検査',
-          commentary: 'SIDS: sudden infant death syndrome'
+        questionSentence: '問題1.(3) 乳幼児突然死症候群（SIDS）とは、それまでの健康状態および既往歴からその死亡が予測できず、しかも(　)および(　)によってもその原因が同定されない、原則として１歳未満の児に突然の死をもたらした症候群である。',
+        answer: '死亡状況調査 解剖検査',
+        commentary: 'SIDS: sudden infant death syndrome'
       },
       {
-          questionSentence: '問題1.(4) 交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる(　)の骨折、運転者にみられる損傷としてフロントガラスやバンパーによる胸腹部の損傷があり、また轢過された場合に足の皮膚と筋膜の間が剥離する(　)が認められる。',
-          answer: 'Messerer デコルマン',
-          commentary: '長管骨骨折の注意点 ➢ 近年バンパー素材が改良され骨折は生じにくくなってお り，特に後方からの衝突では膝関節の屈曲などによりほ とんど生じないと考えられる.　 デコルマン(décollement):皮下の破綻をともなうことなく皮膚および皮下組織が筋 膜などとの間で剥離した状態をいう. 皮膚の表面が引っ 張られるときにでき, 剥離した部分はポケット状となり, 血液や組織液などが貯留する.',
+        questionSentence: '問題1.(4) 交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる(　)の骨折、運転者にみられる損傷としてフロントガラスやバンパーによる胸腹部の損傷があり、また轢過された場合に足の皮膚と筋膜の間が剥離する(　)が認められる。',
+        answer: 'Messerer デコルマン',
+        commentary: '長管骨骨折の注意点 ➢ 近年バンパー素材が改良され骨折は生じにくくなってお り，特に後方からの衝突では膝関節の屈曲などによりほ とんど生じないと考えられる.　 デコルマン(décollement):皮下の破綻をともなうことなく皮膚および皮下組織が筋 膜などとの間で剥離した状態をいう. 皮膚の表面が引っ 張られるときにでき, 剥離した部分はポケット状となり, 血液や組織液などが貯留する.',
       },
       {
-          questionSentence: '問題1.(5) 医療法第６条の 10 には、医療事故が発生した場合に、病院の(　)は、厚生労働省令で定める事項を遅滞なく(　)に報告しなければならない旨が定められている。',
-          answer: '管理者 医療事故調査・支援センター',
-          commentary: '病院, 診療所又は助産所(以下「病院等」という. )の管理者は, 医療事故(当該病院等に勤務する医療従事者が提供した医療に起因し, 又は起因すると疑われ る死亡又は死産であつて, 当該管理者が当該死亡又は死産を予期しなかつたもの として厚生労働省令で定めるものをいう. )が発生した場合には, 厚生労働省令で 定めるところにより, 遅滞なく, 当該医療事故の日時, 場所及び状況その他厚生労 働省令で定める事項を 医療事故調査・支援センター に報告しなければならない.',
+        questionSentence: '問題1.(5) 医療法第６条の 10 には、医療事故が発生した場合に、病院の(　)は、厚生労働省令で定める事項を遅滞なく(　)に報告しなければならない旨が定められている。',
+        answer: '管理者 医療事故調査・支援センター',
+        commentary: '病院, 診療所又は助産所(以下「病院等」という. )の管理者は, 医療事故(当該病院等に勤務する医療従事者が提供した医療に起因し, 又は起因すると疑われ る死亡又は死産であつて, 当該管理者が当該死亡又は死産を予期しなかつたもの として厚生労働省令で定めるものをいう. )が発生した場合には, 厚生労働省令で 定めるところにより, 遅滞なく, 当該医療事故の日時, 場所及び状況その他厚生労 働省令で定める事項を 医療事故調査・支援センター に報告しなければならない.',
       },
       {
-          questionSentence: '問題1.(6) DNA 型検査による個人識別で最もよく用いられるのは(　)と呼ばれる(　)塩基の繰り返し配列である。',
-          answer: 'マイクロサテライト/STR 2～5(4)',
-          answerImg: [forensic2022a1_6],
-          commentary: '個人の識別に使われるのは、読み間違いが少なく、DNA断片化が進行していてもある程度正確性が担保される4塩基のSTRの一部である。　STRは、２～5塩基程度をリピートユニットとし、核DNAに100万ヶ所以上存在し、ミトコンドリアDNA（母系遺伝）にも存在している．STRは、PCR増幅産物の全長が100～400塩基程度と短いため、DNAが劣化し断片化している試料でも比較的PCR増幅の成功率が高いことから、現在最も利用されている解析法である．しかし、STRはアレルの種類(繰り返し回数のパターン)が少ないため、個人識別には15種類以上のSTRを解析する必要があることから、現在では複数のSTRを一度に増幅するマルチプレックスPCR法が中心となっている．',
+        questionSentence: '問題1.(6) DNA 型検査による個人識別で最もよく用いられるのは(　)と呼ばれる(　)塩基の繰り返し配列である。',
+        answer: 'マイクロサテライト/STR 2～5(4)',
+        answerImg: [forensic2022a1_6],
+        commentary: '個人の識別に使われるのは、読み間違いが少なく、DNA断片化が進行していてもある程度正確性が担保される4塩基のSTRの一部である。　STRは、２～5塩基程度をリピートユニットとし、核DNAに100万ヶ所以上存在し、ミトコンドリアDNA（母系遺伝）にも存在している．STRは、PCR増幅産物の全長が100～400塩基程度と短いため、DNAが劣化し断片化している試料でも比較的PCR増幅の成功率が高いことから、現在最も利用されている解析法である．しかし、STRはアレルの種類(繰り返し回数のパターン)が少ないため、個人識別には15種類以上のSTRを解析する必要があることから、現在では複数のSTRを一度に増幅するマルチプレックスPCR法が中心となっている．',
       },
       {
-          questionSentence: '問題2. 焼死体にみられる変化を列挙し、生活反応とそうでないものに分けよ。',
-          answer: '【生活反応】1-2度熱傷、気道熱傷、気管支内の煤、一酸化炭素ヘモグロビン(CO-Hb)の存在、鮮紅色の死斑、鮮紅色の血液 【生活反応でないもの】拳闘家姿勢(Fighting position, pugilistic attitude)、頭蓋骨・長管骨の骨折(死体トルソー)、燃焼血腫 (heat hematoma)、腹壁の破裂',
-          commentary: '生活反応があれば、燃焼時生存があることが示唆される。'
+        questionSentence: '問題2. 焼死体にみられる変化を列挙し、生活反応とそうでないものに分けよ。',
+        answer: '【生活反応】1-2度熱傷、気道熱傷、気管支内の煤、一酸化炭素ヘモグロビン(CO-Hb)の存在、鮮紅色の死斑、鮮紅色の血液 【生活反応でないもの】拳闘家姿勢(Fighting position, pugilistic attitude)、頭蓋骨・長管骨の骨折(死体トルソー)、燃焼血腫 (heat hematoma)、腹壁の破裂',
+        commentary: '生活反応があれば、燃焼時生存があることが示唆される。'
       },
       {
-          questionSentence: '問題3. Describe the method for estimating time since death from early postmortem changes.',
-          answer: '直腸温の降下、死後硬直、角膜混濁の程度によって、死後経過時間を推定することができる。　直腸温度は死後10時間までは1度/時間、10時間以降は0.5度/時間で下降するが、痩せているか太っているかや、季節、環境温度などによって変動する。死後硬直は死後2-3時間で顎関節から始まり、およそ半日後に全身に広がって2日後には弛緩開始する。角膜混濁は死後10時間までに軽度、24時間までに中等度、24-36時間で高度の混濁がみられる。',
-          answerImg: [forensic2022a3, forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
-          commentary: '【日本語訳】死後経過時間推定方法について、早期死体現象から推定する方法を説明せよ。'
+        questionSentence: '問題3. Describe the method for estimating time since death from early postmortem changes.',
+        answer: '直腸温の降下、死後硬直、角膜混濁の程度によって、死後経過時間を推定することができる。　直腸温度は死後10時間までは1度/時間、10時間以降は0.5度/時間で下降するが、痩せているか太っているかや、季節、環境温度などによって変動する。死後硬直は死後2-3時間で顎関節から始まり、およそ半日後に全身に広がって2日後には弛緩開始する。角膜混濁は死後10時間までに軽度、24時間までに中等度、24-36時間で高度の混濁がみられる。',
+        answerImg: [forensic2022a3, forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+        commentary: '【日本語訳】死後経過時間推定方法について、早期死体現象から推定する方法を説明せよ。'
       },
       {
-          questionSentence: '問題4.(1) Contused wound について答えよ。できやすい部位はどこか。また、できにくい部位はどこか。',
-          answer: 'できやすい部位: 頭部、顔面(軟部組織の層が薄いところ)、できにくい部位: 臀部',
-          commentary: 'Contused wound = 挫創。鈍体が強く作用した部位の皮膚や皮下組織が挫滅されて できた創.➢ 皮膚の下層にすぐ骨があって, 軟部組織の層が薄いところ (頭部, 顔面など)に生じやすい.➢ したがって臀部には形成されにくい.➢ 創縁に 表皮剥脱 を伴う. (裂創との鑑別点)➢ 創洞内に 組織架橋 を認める. (鋭器損傷との鑑別点)',
+        questionSentence: '問題4.(1) Contused wound について答えよ。できやすい部位はどこか。また、できにくい部位はどこか。',
+        answer: 'できやすい部位: 頭部、顔面(軟部組織の層が薄いところ)、できにくい部位: 臀部',
+        commentary: 'Contused wound = 挫創。鈍体が強く作用した部位の皮膚や皮下組織が挫滅されて できた創.➢ 皮膚の下層にすぐ骨があって, 軟部組織の層が薄いところ (頭部, 顔面など)に生じやすい.➢ したがって臀部には形成されにくい.➢ 創縁に 表皮剥脱 を伴う. (裂創との鑑別点)➢ 創洞内に 組織架橋 を認める. (鋭器損傷との鑑別点)',
       },
       {
-          questionSentence: '問題4.(2) Contused wound について答えよ。Lacerated wound との鑑別方法を述べよ。',
-          answer: 'Contused wound は創縁に表皮剥脱を伴うが、Lacerated wound は創縁に表皮剥脱を伴わない。',
-          commentary: 'Contused wound = 挫創。Lacerated wound = 裂創。➢ 鈍体が皮膚に作用し, 皮膚が過度に伸展された場合, 皮膚 の弾力性が限界をこえ, 裂けてできた創.➢ 原則として皮膚割線の方向に裂けて生じることが多い.➢ 伸展創と穿破創が特徴的なものとしてあげられる.➢ 創縁に 表皮剥脱 を伴わない. (挫創との鑑別点)➢ 創洞内に 組織架橋 を認める. (鋭器損傷との鑑別点)',
+        questionSentence: '問題4.(2) Contused wound について答えよ。Lacerated wound との鑑別方法を述べよ。',
+        answer: 'Contused wound は創縁に表皮剥脱を伴うが、Lacerated wound は創縁に表皮剥脱を伴わない。',
+        commentary: 'Contused wound = 挫創。Lacerated wound = 裂創。➢ 鈍体が皮膚に作用し, 皮膚が過度に伸展された場合, 皮膚 の弾力性が限界をこえ, 裂けてできた創.➢ 原則として皮膚割線の方向に裂けて生じることが多い.➢ 伸展創と穿破創が特徴的なものとしてあげられる.➢ 創縁に 表皮剥脱 を伴わない. (挫創との鑑別点)➢ 創洞内に 組織架橋 を認める. (鋭器損傷との鑑別点)',
       },
       {
-          questionSentence: '問題4.(3) Contused wound について答えよ。Incised wound との鑑別方法を述べよ。',
-          answer: '創洞内に 組織架橋 を認める',
-          commentary: 'Contused wound = 挫創。Incised wound = 切創。刃器の鋭利な刃部を皮膚面に当てて, 刃物の長軸方向に牽引 または押すことによって生じる創である.➢ 創の形は紡錘形(柳葉形)を基本形としている. ➢ その2つの創縁は整鋭, 両創角は尖鋭であり,➢ 創縁は骨以外の組織ではすべて整滑に切れている. ➢ 創底までの深さは創の長さに比較して浅い.',
+        questionSentence: '問題4.(3) Contused wound について答えよ。Incised wound との鑑別方法を述べよ。',
+        answer: '創洞内に 組織架橋 を認める',
+        commentary: 'Contused wound = 挫創。Incised wound = 切創。刃器の鋭利な刃部を皮膚面に当てて, 刃物の長軸方向に牽引 または押すことによって生じる創である.➢ 創の形は紡錘形(柳葉形)を基本形としている. ➢ その2つの創縁は整鋭, 両創角は尖鋭であり,➢ 創縁は骨以外の組織ではすべて整滑に切れている. ➢ 創底までの深さは創の長さに比較して浅い.',
       },
       {
-          questionSentence: '問題5. 次の文章を読んで、（　）内に適当な語句または数値を入れよ。 溺死の死体所見として、指、手掌、足底部などの皮膚に(　)の形成がみられる。肺はいわゆる(　)の様相を呈している。また、死後まもない溺死体では鼻や口から白色の泡沫が出ていることがあるが、これは(　)とよばれる。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から(　)という方法で(　)を証明することが必要である。',
-          answer: '漂母皮 肺水腫 茸状泡沫液 壊機法 プランクトン',
-          commentary: '外表所見1.死体の冷却および湿潤 2.死斑は鮮紅色 3.鼻口からの微細白色泡沫液:schaumpiltz,茸状泡沫液(froth, foam in mushroomshape) 4.漂母皮形成(washerwoman’s hand(skin)):手掌、指掌面、足蹠、膝蓋、肘頭などの皮膚の白いシワ 5.鳥肌現象(goose skin(flesh)):冷水に対する立毛筋の収縮6.巨人様観(gigantic swelling of body):腐敗ガスの発生によって全身が膨化する。巨人様顔貌　プランクトン検査溺死の診断に決定的な意味をもつといえる。 普通強酸を用いた壊機法(diatom test)により行うので、プランクトン中の珪藻類が目標になる。'
+        questionSentence: '問題5. 次の文章を読んで、（　）内に適当な語句または数値を入れよ。 溺死の死体所見として、指、手掌、足底部などの皮膚に(　)の形成がみられる。肺はいわゆる(　)の様相を呈している。また、死後まもない溺死体では鼻や口から白色の泡沫が出ていることがあるが、これは(　)とよばれる。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から(　)という方法で(　)を証明することが必要である。',
+        answer: '漂母皮 肺水腫 茸状泡沫液 壊機法 プランクトン',
+        commentary: '外表所見1.死体の冷却および湿潤 2.死斑は鮮紅色 3.鼻口からの微細白色泡沫液:schaumpiltz,茸状泡沫液(froth, foam in mushroomshape) 4.漂母皮形成(washerwoman’s hand(skin)):手掌、指掌面、足蹠、膝蓋、肘頭などの皮膚の白いシワ 5.鳥肌現象(goose skin(flesh)):冷水に対する立毛筋の収縮6.巨人様観(gigantic swelling of body):腐敗ガスの発生によって全身が膨化する。巨人様顔貌　プランクトン検査溺死の診断に決定的な意味をもつといえる。 普通強酸を用いた壊機法(diatom test)により行うので、プランクトン中の珪藻類が目標になる。'
       },
       {
-          questionSentence: '問題5. 頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを(　)とよび、また棒で殴られた時には同側に脳挫傷ができ、これを(　)とよぶ。硬膜外血腫は(　)を伴い、(　)という血管の破綻によって生じる。硬膜外血腫の発症後しばらくは意識が保たれていることもあり、この期間を(　)とよぶ。一方、硬膜下血腫は(　)という血管の破綻によって生じる。',
-          answer: '対側挫傷 直接挫傷 骨折 中硬膜動脈 意識清明期(lucid interval) 皮質の小動脈',
-          answerImg: [forensic2022q5],
-          commentary: '硬膜外血腫の特徴 1.通常、直撃損傷で発生する。2.打撲部位では側頭部が多い。3.80~90%が骨折をともなっている。骨折は側頭部中心に 認めるものが最も多く、ついで前頭部である。小児では成 人に比べて骨折をともなうことは少ない。4.若年、中年に多い。老人や2歳以下の乳幼児では少ない (硬膜と頭蓋骨が密着しているため)。5.意識清明期(lucid interval)をともなうことがある 他の頭蓋内損傷の合併(脳挫傷など)を欠いていることが 多く、そのために血腫が脳を圧迫するまでの間は重大な 症状がでないため。約15~60%にみられる。意識清明期 が短いほど、硬膜外への出血の程度は強い。d. 出血源1.中硬膜動脈が最も多い(半数)。 2.ついで、中硬膜静脈(33%)。 　硬膜内血腫の出血源 1.皮質の小動脈が61.5%と最も多い。 2.次いで、静脈性;25.6% 3.脳挫傷からの出血;7.7%',
+        questionSentence: '問題5. 頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを(　)とよび、また棒で殴られた時には同側に脳挫傷ができ、これを(　)とよぶ。硬膜外血腫は(　)を伴い、(　)という血管の破綻によって生じる。硬膜外血腫の発症後しばらくは意識が保たれていることもあり、この期間を(　)とよぶ。一方、硬膜下血腫は(　)という血管の破綻によって生じる。',
+        answer: '対側挫傷 直接挫傷 骨折 中硬膜動脈 意識清明期(lucid interval) 皮質の小動脈',
+        answerImg: [forensic2022q5],
+        commentary: '硬膜外血腫の特徴 1.通常、直撃損傷で発生する。2.打撲部位では側頭部が多い。3.80~90%が骨折をともなっている。骨折は側頭部中心に 認めるものが最も多く、ついで前頭部である。小児では成 人に比べて骨折をともなうことは少ない。4.若年、中年に多い。老人や2歳以下の乳幼児では少ない (硬膜と頭蓋骨が密着しているため)。5.意識清明期(lucid interval)をともなうことがある 他の頭蓋内損傷の合併(脳挫傷など)を欠いていることが 多く、そのために血腫が脳を圧迫するまでの間は重大な 症状がでないため。約15~60%にみられる。意識清明期 が短いほど、硬膜外への出血の程度は強い。d. 出血源1.中硬膜動脈が最も多い(半数)。 2.ついで、中硬膜静脈(33%)。 　硬膜内血腫の出血源 1.皮質の小動脈が61.5%と最も多い。 2.次いで、静脈性;25.6% 3.脳挫傷からの出血;7.7%',
       },
       {
-          questionSentence: '問題5. 高齢者虐待には身体的虐待・性的虐待・ネグレクト・心理的虐待・(　)がある。高齢者虐待を発見した場合の通報先は(　)か(　)である。',
-          answer: '経済的虐待 各市町村担当窓口 地域包括支援センター ',
-          commentary: '(5)経済的虐待(economic abuse):養護者又は高齢者の 親族が当該高齢者の財産を不当に処分することその他 当該高齢者から不当に財産上の利益を得ること・ 年金、預貯金とりあげ、・ 不動産・利子・配当等の収入の取り上げ・ 必要な費用の不払い、・ 日常的に金銭を渡さない、使わせない・ 預貯金・カードなどの不当な使い込み(支払いの強要)、・ 自宅、車、不動産、有価証券などの無断売却・ 高齢者入所施設に入所させ、その家屋を使用する。',
+        questionSentence: '問題5. 高齢者虐待には身体的虐待・性的虐待・ネグレクト・心理的虐待・(　)がある。高齢者虐待を発見した場合の通報先は(　)か(　)である。',
+        answer: '経済的虐待 各市町村担当窓口 地域包括支援センター ',
+        commentary: '(5)経済的虐待(economic abuse):養護者又は高齢者の 親族が当該高齢者の財産を不当に処分することその他 当該高齢者から不当に財産上の利益を得ること・ 年金、預貯金とりあげ、・ 不動産・利子・配当等の収入の取り上げ・ 必要な費用の不払い、・ 日常的に金銭を渡さない、使わせない・ 預貯金・カードなどの不当な使い込み(支払いの強要)、・ 自宅、車、不動産、有価証券などの無断売却・ 高齢者入所施設に入所させ、その家屋を使用する。',
       },
       {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (1) 暗紫赤色～緑褐色の死斑(　)',
         answer: '硫化水素',
         answerImg: [forensic2022a6],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (2) 強い縮瞳(　)',
         answer: '有機リン or モルヒネ など',
         answerImg: [forensic2022a6_2],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (3) 胃内容のニンニク臭(　)',
         answer: 'ヒ素',
         answerImg: [forensic2022a6_3],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (4) 凝固壊死(　)',
         answer: '塩酸、硫酸、硝酸、酢酸、ピクリン酸、フェノール等の中から1つ',
         answerImg: [forensic2022a6],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (5) 急性腸炎（米のとぎ汁状便）(　)',
         answer: 'ヒ素',
         answerImg: [forensic2022a6_5],
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (6) 体温上昇(　)',
         answer: '覚せい剤 or 抗うつ薬',
         answerImg: [forensic2022a6_2],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (7) アーモンド臭(　)',
         answer: '青酸塩',
         answerImg: [forensic2022a6_3],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (8) 淡蒼球壊死(　)',
         answer: 'CO',
         answerImg: [forensic2022a6_3],
         commentary: ''
-    },
-    {
+      },
+      {
         questionSentence: '問題6. 死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (9) 肝臓脂肪変性(　)',
         answer: 'リン、ヒ素、アルコール、4塩化炭素の中から1つ',
         answerImg: [forensic2022a6_3],
         commentary: ''
-    },
-      // {
-      //   questionImg: [forensic2022q7],
-      //     questionSentence: '問題7. 次の文章および画像から考えられることを（　）内に記せ。 老人ホームに入所している78歳の女性。昼食を食べた後、ソファに座って他の入所者と談笑していたところ、突然荒い呼吸を始め、呼吸困難をきたした。以下は撮影した胸部X線画像である。（画像はネットで拾いましたが確かこんな感じでした）',
-      //     answer: '',
-      //     commentary: ''
-      // },
-    ]},{
+      },
+        // {
+        //   questionImg: [forensic2022q7],
+        //     questionSentence: '問題7. 次の文章および画像から考えられることを（　）内に記せ。 老人ホームに入所している78歳の女性。昼食を食べた後、ソファに座って他の入所者と談笑していたところ、突然荒い呼吸を始め、呼吸困難をきたした。以下は撮影した胸部X線画像である。（画像はネットで拾いましたが確かこんな感じでした）',
+        //     answer: '',
+        //     commentary: ''
+        // },
+      ]
+    }, {
       groupTag: '法医学 2022本 機械英訳',
       groupContents: [
         {
-            questionSentence: 'Q1.(1) The legal basis for forensic autopsy is ( ). Under Article 21 of the Medical Practitioners Act, a report must be submitted if an abnormality is found during the examination of a dead body or a stillborn fetus of at least ( ) months of gestation.',
-            answer: '刑事訴訟法 4ヶ月',
-            commentary: '【原文問題文】司法解剖の根拠法は(　)である。医師法第 21 条に基づく届け出の対象となるのは、死体叉は妊娠(　)ヶ月以上の死産児を検案して異常があると認めたときである。'
+          questionSentence: 'Q1.(1) The legal basis for forensic autopsy is ( ). Under Article 21 of the Medical Practitioners Act, a report must be submitted if an abnormality is found during the examination of a dead body or a stillborn fetus of at least ( ) months of gestation.',
+          answer: '刑事訴訟法 4ヶ月',
+          commentary: '【原文問題文】司法解剖の根拠法は(　)である。医師法第 21 条に基づく届け出の対象となるのは、死体叉は妊娠(　)ヶ月以上の死産児を検案して異常があると認めたときである。'
         },
         {
-            questionSentence: 'Q1.(2) Child abuse includes physical abuse, sexual abuse, neglect, and psychological abuse. In abused children, atrophy of the ( ) is often observed. The perpetrator is often the ( ), and according to Article 25 of the Child Welfare Act, anyone who discovers a child suspected of being abused must report it to ( ) or ( ).',
-            answer: '胸腺 実母 児童相談所 福祉事務所',
-            commentary: '【原文問題文】児童虐待には身体的虐待・性的虐待・養育拒否（ネグレクト）・心理的虐待の４つがあり、一般に被虐待児では(　)の萎縮がみられる。加害者は(　)であることが多く、児童福祉法第 25 条には、虐待が疑われる児童を発見した者は、これを(　)若しくは(　)に通告しなければならないと書かれている。'
+          questionSentence: 'Q1.(2) Child abuse includes physical abuse, sexual abuse, neglect, and psychological abuse. In abused children, atrophy of the ( ) is often observed. The perpetrator is often the ( ), and according to Article 25 of the Child Welfare Act, anyone who discovers a child suspected of being abused must report it to ( ) or ( ).',
+          answer: '胸腺 実母 児童相談所 福祉事務所',
+          commentary: '【原文問題文】児童虐待には身体的虐待・性的虐待・養育拒否（ネグレクト）・心理的虐待の４つがあり、一般に被虐待児では(　)の萎縮がみられる。加害者は(　)であることが多く、児童福祉法第 25 条には、虐待が疑われる児童を発見した者は、これを(　)若しくは(　)に通告しなければならないと書かれている。'
         },
         {
-            questionSentence: 'Q1.(3) Sudden Infant Death Syndrome (SIDS) is a syndrome that causes sudden death in infants under one year old, whose death is unpredictable from their health status and medical history, and whose cause cannot be identified by ( ) and ( ).',
-            answer: '死亡状況調査 解剖検査',
-            commentary: '【原文問題文】乳幼児突然死症候群（SIDS）とは、それまでの健康状態および既往歴からその死亡が予測できず、しかも(　)および(　)によってもその原因が同定されない、原則として１歳未満の児に突然の死をもたらした症候群である。'
+          questionSentence: 'Q1.(3) Sudden Infant Death Syndrome (SIDS) is a syndrome that causes sudden death in infants under one year old, whose death is unpredictable from their health status and medical history, and whose cause cannot be identified by ( ) and ( ).',
+          answer: '死亡状況調査 解剖検査',
+          commentary: '【原文問題文】乳幼児突然死症候群（SIDS）とは、それまでの健康状態および既往歴からその死亡が予測できず、しかも(　)および(　)によってもその原因が同定されない、原則として１歳未満の児に突然の死をもたらした症候群である。'
         },
         {
-            questionSentence: 'Q1.(4) Traffic accident injuries include fractures of the ( ) around the knee caused by collisions between cars and pedestrians, and chest and abdominal injuries caused by windshields and bumpers in drivers. In cases of overrun, ( ) between the skin and fascia of the feet are observed.',
-            answer: 'Messerer デコルマン',
-            commentary: '【原文問題文】交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる(　)の骨折、運転者にみられる損傷としてフロントガラスやバンパーによる胸腹部の損傷があり、また轢過された場合に足の皮膚と筋膜の間が剥離する(　)が認められる。'
+          questionSentence: 'Q1.(4) Traffic accident injuries include fractures of the ( ) around the knee caused by collisions between cars and pedestrians, and chest and abdominal injuries caused by windshields and bumpers in drivers. In cases of overrun, ( ) between the skin and fascia of the feet are observed.',
+          answer: 'Messerer デコルマン',
+          commentary: '【原文問題文】交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる(　)の骨折、運転者にみられる損傷としてフロントガラスやバンパーによる胸腹部の損傷があり、また轢過された場合に足の皮膚と筋膜の間が剥離する(　)が認められる。'
         },
         {
-            questionSentence: 'Q1.(5) Article 6-10 of the Medical Care Act stipulates that when a medical accident occurs, the ( ) of the hospital must report the details prescribed by the Ministry of Health, Labour and Welfare without delay to the ( ).',
-            answer: '管理者 医療事故調査・支援センター',
-            commentary: '【原文問題文】医療法第６条の 10 には、医療事故が発生した場合に、病院の(　)は、厚生労働省令で定める事項を遅滞なく(　)に報告しなければならない旨が定められている。'
+          questionSentence: 'Q1.(5) Article 6-10 of the Medical Care Act stipulates that when a medical accident occurs, the ( ) of the hospital must report the details prescribed by the Ministry of Health, Labour and Welfare without delay to the ( ).',
+          answer: '管理者 医療事故調査・支援センター',
+          commentary: '【原文問題文】医療法第６条の 10 には、医療事故が発生した場合に、病院の(　)は、厚生労働省令で定める事項を遅滞なく(　)に報告しなければならない旨が定められている。'
         },
         {
-            questionSentence: 'Q1.(6) The most commonly used method for individual identification by DNA testing is a repeat sequence of ( ) called ( ).',
-            answer: 'マイクロサテライト/STR 2～5(4)',
-            answerImg: [forensic2022a1_6],
-            commentary: '個人の識別に使われるのは、読み間違いが少なく、DNA断片化が進行していてもある程度正確性が担保される4塩基のSTRの一部である。【原文問題文】DNA 型検査による個人識別で最もよく用いられるのは(　)と呼ばれる(　)塩基の繰り返し配列である。'
+          questionSentence: 'Q1.(6) The most commonly used method for individual identification by DNA testing is a repeat sequence of ( ) called ( ).',
+          answer: 'マイクロサテライト/STR 2～5(4)',
+          answerImg: [forensic2022a1_6],
+          commentary: '個人の識別に使われるのは、読み間違いが少なく、DNA断片化が進行していてもある程度正確性が担保される4塩基のSTRの一部である。【原文問題文】DNA 型検査による個人識別で最もよく用いられるのは(　)と呼ばれる(　)塩基の繰り返し配列である。'
         },
         {
-            questionSentence: 'Q2. List the changes observed in burned bodies and differentiate between vital reactions and non-vital reactions.',
-            answer: '【生活反応】1-2度熱傷、気道熱傷、気管支内の煤、一酸化炭素ヘモグロビン(CO-Hb)の存在、鮮紅色の死斑、鮮紅色の血液 【生活反応でないもの】拳闘家姿勢(Fighting position, pugilistic attitude)、頭蓋骨・長管骨の骨折(死体トルソー)、燃焼血腫 (heat hematoma)、腹壁の破裂',
-            commentary: '【原文問題文】焼死体にみられる変化を列挙し、生活反応とそうでないものに分けよ。'
+          questionSentence: 'Q2. List the changes observed in burned bodies and differentiate between vital reactions and non-vital reactions.',
+          answer: '【生活反応】1-2度熱傷、気道熱傷、気管支内の煤、一酸化炭素ヘモグロビン(CO-Hb)の存在、鮮紅色の死斑、鮮紅色の血液 【生活反応でないもの】拳闘家姿勢(Fighting position, pugilistic attitude)、頭蓋骨・長管骨の骨折(死体トルソー)、燃焼血腫 (heat hematoma)、腹壁の破裂',
+          commentary: '【原文問題文】焼死体にみられる変化を列挙し、生活反応とそうでないものに分けよ。'
         },
         {
-            questionSentence: 'Q3. Describe the method for estimating time since death from early postmortem changes.',
-            answer: '直腸温の降下、死後硬直、角膜混濁の程度によって、死後経過時間を推定することができる。　直腸温度は死後10時間までは1度/時間、10時間以降は0.5度/時間で下降するが、痩せているか太っているかや、季節、環境温度などによって変動する。死後硬直は死後2-3時間で顎関節から始まり、およそ半日後に全身に広がって2日後には弛緩開始する。角膜混濁は死後10時間までに軽度、24時間までに中等度、24-36時間で高度の混濁がみられる。',
-            answerImg: [forensic2022a3, forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
-            commentary: '【原文問題文】Describe the method for estimating time since death from early postmortem changes.'
+          questionSentence: 'Q3. Describe the method for estimating time since death from early postmortem changes.',
+          answer: '直腸温の降下、死後硬直、角膜混濁の程度によって、死後経過時間を推定することができる。　直腸温度は死後10時間までは1度/時間、10時間以降は0.5度/時間で下降するが、痩せているか太っているかや、季節、環境温度などによって変動する。死後硬直は死後2-3時間で顎関節から始まり、およそ半日後に全身に広がって2日後には弛緩開始する。角膜混濁は死後10時間までに軽度、24時間までに中等度、24-36時間で高度の混濁がみられる。',
+          answerImg: [forensic2022a3, forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【原文問題文】Describe the method for estimating time since death from early postmortem changes.'
         },
         {
-            questionSentence: 'Q4.(1) Answer the following about contused wounds. Where do they most commonly occur, and where are they less likely to occur?',
-            answer: 'できやすい部位: 頭部、顔面(軟部組織の層が薄いところ)、できにくい部位: 臀部',
-            commentary: '【原文問題文】Contused wound について答えよ。できやすい部位はどこか。また、できにくい部位はどこか。'
+          questionSentence: 'Q4.(1) Answer the following about contused wounds. Where do they most commonly occur, and where are they less likely to occur?',
+          answer: 'できやすい部位: 頭部、顔面(軟部組織の層が薄いところ)、できにくい部位: 臀部',
+          commentary: '【原文問題文】Contused wound について答えよ。できやすい部位はどこか。また、できにくい部位はどこか。'
         },
         {
-            questionSentence: 'Q4.(2) Answer the following about contused wounds. Explain how to differentiate between a contused wound and a lacerated wound.',
-            answer: 'Contused wound は創縁に表皮剥脱を伴うが、Lacerated wound は創縁に表皮剥脱を伴わない。',
-            commentary: '【原文問題文】Contused wound について答えよ。Lacerated wound との鑑別方法を述べよ。'
+          questionSentence: 'Q4.(2) Answer the following about contused wounds. Explain how to differentiate between a contused wound and a lacerated wound.',
+          answer: 'Contused wound は創縁に表皮剥脱を伴うが、Lacerated wound は創縁に表皮剥脱を伴わない。',
+          commentary: '【原文問題文】Contused wound について答えよ。Lacerated wound との鑑別方法を述べよ。'
         },
         {
-            questionSentence: 'Q4.(3) Answer the following about contused wounds. Explain how to differentiate between a contused wound and an incised wound.',
-            answer: '創洞内に 組織架橋 を認める',
-            commentary: '【原文問題文】Contused wound について答えよ。Incised wound との鑑別方法を述べよ。'
+          questionSentence: 'Q4.(3) Answer the following about contused wounds. Explain how to differentiate between a contused wound and an incised wound.',
+          answer: '創洞内に 組織架橋 を認める',
+          commentary: '【原文問題文】Contused wound について答えよ。Incised wound との鑑別方法を述べよ。'
         },
         {
-            questionSentence: 'Q5. Read the following sentences and fill in the blanks with appropriate words or numbers. As findings in drowning victims, the skin of the fingers, palms, and soles shows ( ). The lungs exhibit a condition known as ( ). Additionally, in recent drowning cases, white foam may be observed from the nose and mouth, referred to as ( ). However, for a definitive diagnosis of drowning, it is necessary to use the ( ) method to demonstrate ( ) from organs such as the lungs, heart, kidneys, or liver.',
-            answer: '漂母皮 肺水腫 茸状泡沫液 壊機法 プランクトン',
-            commentary: '【原文問題文】次の文章を読んで、（　）内に適当な語句または数値を入れよ。 溺死の死体所見として、指、手掌、足底部などの皮膚に(　)の形成がみられる。肺はいわゆる(　)の様相を呈している。また、死後まもない溺死体では鼻や口から白色の泡沫が出ていることがあるが、これは(　)とよばれる。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から(　)という方法で(　)を証明することが必要である。'
+          questionSentence: 'Q5. Read the following sentences and fill in the blanks with appropriate words or numbers. As findings in drowning victims, the skin of the fingers, palms, and soles shows ( ). The lungs exhibit a condition known as ( ). Additionally, in recent drowning cases, white foam may be observed from the nose and mouth, referred to as ( ). However, for a definitive diagnosis of drowning, it is necessary to use the ( ) method to demonstrate ( ) from organs such as the lungs, heart, kidneys, or liver.',
+          answer: '漂母皮 肺水腫 茸状泡沫液 壊機法 プランクトン',
+          commentary: '【原文問題文】次の文章を読んで、（　）内に適当な語句または数値を入れよ。 溺死の死体所見として、指、手掌、足底部などの皮膚に(　)の形成がみられる。肺はいわゆる(　)の様相を呈している。また、死後まもない溺死体では鼻や口から白色の泡沫が出ていることがあるが、これは(　)とよばれる。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から(　)という方法で(　)を証明することが必要である。'
         },
         {
-            questionSentence: 'Q5. When a head injury is caused by a fall and the occipital region is struck, a contusion may form in the frontal lobe on the opposite side, known as a ( ). When struck with a stick, a contusion may form on the same side, known as a ( ). An epidural hematoma is accompanied by a ( ) and is caused by rupture of the ( ). After the onset of an epidural hematoma, the person may remain conscious for a period, known as the ( ). On the other hand, a subdural hematoma is caused by rupture of the ( ).',
-            answer: '対側挫傷 直接挫傷 骨折 中硬膜動脈 意識清明期(lucid interval) 皮質の小動脈',
-            answerImg: [forensic2022q5],
-            commentary: '【原文問題文】頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを(　)とよび、また棒で殴られた時には同側に脳挫傷ができ、これを(　)とよぶ。硬膜外血腫は(　)を伴い、(　)という血管の破綻によって生じる。硬膜外血腫の発症後しばらくは意識が保たれていることもあり、この期間を(　)とよぶ。一方、硬膜下血腫は(　)という血管の破綻によって生じる。'
+          questionSentence: 'Q5. When a head injury is caused by a fall and the occipital region is struck, a contusion may form in the frontal lobe on the opposite side, known as a ( ). When struck with a stick, a contusion may form on the same side, known as a ( ). An epidural hematoma is accompanied by a ( ) and is caused by rupture of the ( ). After the onset of an epidural hematoma, the person may remain conscious for a period, known as the ( ). On the other hand, a subdural hematoma is caused by rupture of the ( ).',
+          answer: '対側挫傷 直接挫傷 骨折 中硬膜動脈 意識清明期(lucid interval) 皮質の小動脈',
+          answerImg: [forensic2022q5],
+          commentary: '【原文問題文】頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを(　)とよび、また棒で殴られた時には同側に脳挫傷ができ、これを(　)とよぶ。硬膜外血腫は(　)を伴い、(　)という血管の破綻によって生じる。硬膜外血腫の発症後しばらくは意識が保たれていることもあり、この期間を(　)とよぶ。一方、硬膜下血腫は(　)という血管の破綻によって生じる。'
         },
         {
-            questionSentence: 'Q5. Elder abuse includes physical abuse, sexual abuse, neglect, psychological abuse, and ( ). If elder abuse is discovered, it must be reported to the ( ) or the ( ).',
-            answer: '経済的虐待 各市町村担当窓口 地域包括支援センター',
-            commentary: '【原文問題文】高齢者虐待には身体的虐待・性的虐待・ネグレクト・心理的虐待・(　)がある。高齢者虐待を発見した場合の通報先は(　)か(　)である。'
+          questionSentence: 'Q5. Elder abuse includes physical abuse, sexual abuse, neglect, psychological abuse, and ( ). If elder abuse is discovered, it must be reported to the ( ) or the ( ).',
+          answer: '経済的虐待 各市町村担当窓口 地域包括支援センター',
+          commentary: '【原文問題文】高齢者虐待には身体的虐待・性的虐待・ネグレクト・心理的虐待・(　)がある。高齢者虐待を発見した場合の通報先は(　)か(　)である。'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (1) Dark purple to greenish-brown livor mortis ( )',
-            answer: '硫化水素',
-            answerImg: [forensic2022a6],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (1) 暗紫赤色～緑褐色の死斑(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (1) Dark purple to greenish-brown livor mortis ( )',
+          answer: '硫化水素',
+          answerImg: [forensic2022a6],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (1) 暗紫赤色～緑褐色の死斑(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (2) Severe miosis ( )',
-            answer: '有機リン or モルヒネ など',
-            answerImg: [forensic2022a6_2],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (2) 強い縮瞳(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (2) Severe miosis ( )',
+          answer: '有機リン or モルヒネ など',
+          answerImg: [forensic2022a6_2],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (2) 強い縮瞳(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (3) Garlic odor in gastric contents ( )',
-            answer: 'ヒ素',
-            answerImg: [forensic2022a6_3],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (3) 胃内容のニンニク臭(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (3) Garlic odor in gastric contents ( )',
+          answer: 'ヒ素',
+          answerImg: [forensic2022a6_3],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (3) 胃内容のニンニク臭(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (4) Coagulative necrosis ( )',
-            answer: '塩酸、硫酸、硝酸、酢酸、ピクリン酸等の中から1つ',
-            answerImg: [forensic2022a6],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (4) 凝固壊死(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (4) Coagulative necrosis ( )',
+          answer: '塩酸、硫酸、硝酸、酢酸、ピクリン酸等の中から1つ',
+          answerImg: [forensic2022a6],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (4) 凝固壊死(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (5) Acute enteritis (rice-water stool) ( )',
-            answer: 'ヒ素',
-            answerImg: [forensic2022a6_5],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (5) 急性腸炎（米のとぎ汁状便）(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (5) Acute enteritis (rice-water stool) ( )',
+          answer: 'ヒ素',
+          answerImg: [forensic2022a6_5],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (5) 急性腸炎（米のとぎ汁状便）(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (6) Elevated body temperature ( )',
-            answer: '覚せい剤 or 抗うつ薬',
-            answerImg: [forensic2022a6_2],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (6) 体温上昇(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (6) Elevated body temperature ( )',
+          answer: '覚せい剤 or 抗うつ薬',
+          answerImg: [forensic2022a6_2],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (6) 体温上昇(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (7) Almond odor ( )',
-            answer: '青酸塩',
-            answerImg: [forensic2022a6_3],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (7) アーモンド臭(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (7) Almond odor ( )',
+          answer: '青酸塩',
+          answerImg: [forensic2022a6_3],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (7) アーモンド臭(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (8) Pallor globus pallidus necrosis ( )',
-            answer: 'CO',
-            answerImg: [forensic2022a6_3],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (8) 淡蒼球壊死(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (8) Pallor globus pallidus necrosis ( )',
+          answer: 'CO',
+          answerImg: [forensic2022a6_3],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (8) 淡蒼球壊死(　)'
         },
         {
-            questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (9) Fatty liver degeneration ( )',
-            answer: 'リン、ヒ素、アルコール、4塩化炭素の中から1つ',
-            answerImg: [forensic2022a6_3],
-            commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (9) 肝臓脂肪変性(　)'
+          questionSentence: 'Q6. Describe the causative substance for each of the following changes observed in a dead body. (9) Fatty liver degeneration ( )',
+          answer: 'リン、ヒ素、アルコール、4塩化炭素の中から1つ',
+          answerImg: [forensic2022a6_3],
+          commentary: '【原文問題文】死体に次の変化がみられる場合について、原因物質を１つずつ記せ。 (9) 肝臓脂肪変性(　)'
         }
-    ]    
-    },{
+      ]
+    }, {
       groupTag: '法医学 クイック死亡診断',
       groupContents: [
         {
@@ -1172,7 +1176,7 @@ export const useQuestionList = () => {
           questionImg: [certificateAdditionalInfo],
           questionSentence: '以下の事例(事例1)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：隼田 信（男）住所：奈良県大仏市奈良町1丁目2番3号生年月日：昭和10年10月10日隼田信は令和3年12月22日夕食後の午後8時頃、突然激烈な背中部痛を感じ「痛い、痛い」と家族に訴えた。しばらく様子をみていたが、意識がもうろうとなり良くなる気配がなかったので救急車を要請した。救急車が到着したのは午後9時5分であった。この時は心肺停止状態であったが、物真似病院（奈良県丸出市駄目町2丁目2番1号）に搬送され本郷猛医師が蘇生術を施行したところ午後9時20分に心拍が再開した。しかし治療の甲斐なく午後10時10分に死亡した。死後にＣＴ検査をしたところ胸部大動脈の解離と心タンポナーデの所見を得た。顔面の頬部に軽度の擦過傷が認められた。本郷猛医師は生前の状況も不明瞭であったので、警察へ届け出た。警察の検視に本郷猛医師が立ち会って検案をおこなった。警察の生前の状況や家族の話などから、薬物を飲んだ様子もなく、10年前から高血圧症と狭心症で治療をうけていたということで、事件性がなく本郷猛医師に、死亡診断書（死体検案書）の作成を依頼した。',
           answer: '自宅で突然背中部痛を訴え、救急車で搬送された。10年前から高血圧症と狭心症で治療を受けていたという。',
-          commentary: 'なしでも可'
+          commentary: 'なしでも可。'
         },
         {
           questionImg: [certificateDeathTime],
@@ -1253,43 +1257,44 @@ export const useQuestionList = () => {
         {
           questionImg: [certificateCause],
           questionSentence: '以下の事例(事例4)で死亡の原因を記載しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '直接死因： 窒息(短時間) ← 縊頸(同上)。　影響を及ぼしたそのほかの傷病：なし',
+          answer: '直接死因：窒息(短時間) ← 縊頸(同上)。　影響を及ぼしたそのほかの傷病：なし',
           commentary: '首吊りを法医学的には縊頸という。 死因ではなく死に様なので、直接死因ではない。'
         },
         {
           questionImg: [certificateCauseType],
           questionSentence: '以下の事例(事例4)で死因の種類を選択しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '',
-          commentary: ''
+          answer: '9. 自殺',
+          commentary: '遺族が納得していなければ、11.その他及び不祥の外因死にするのが無難',
         },
         {
           questionImg: [certificateAdditionalInfo],
           questionSentence: '以下の事例(事例4)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '',
-          commentary: ''
+          answer: '外因死の追加事項: 自宅で天井の梁に荷造り用のロープをかけ縊頸しているのを発見されたという。 遺書あり。',
+          commentary: '現場の状況や、遺書の存在は 自殺か他殺かの判断に重要な情報となる。'
         },
         {
           questionImg: [certificateDeathTime],
           questionSentence: '以下の事例(事例5)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：東 光太郎（男）現住所：香川県日高郡大塔村大字忍海1567番地生年月日：昭和20年8月10日神 敬介は、瀬戸内海に浮かぶ大塔島の診療所に派遣された。島民は500人で医師は深海真1人であった。島民の健康を1人でみなければならず大変ではあるが, やりがいのあることだと思いこの島にやって来たのであった。神敬介が大塔島の飛鳥診療所（香川県日高郡和束村1522番地）に来てくれたということで島民は喜んで迎えてくれ宴会場（香川県日高郡和束村1123番地）で宴会を開いてくれた。令和4年5月1日午後8時頃宴会が始まり, 一緒に飲んでいた村会議員の東 光太郎は生来の酒好きもあって知らぬ間に日本酒1升近くを飲みほしていた。午後9時頃, 東光太郎の顔が青ざめ, 嘔吐し意識は混濁し様子がおかしいので神敬介は大変だと思い, 東 光太郎を診療所に運び点滴等の治療をしたが, 5月1日午後11時10分に死亡した。既往歴としてアルコール性の肝障害を指摘されていたという。血液からは4.5 mg/mLのアルコールが検出された。神敬介は警察に届け出をし, 警察からは事件性がないということで死亡診断書あるいは死体検案書の作成を依頼された。　令和4年5月2日午前1時での検案結果は以下の通りである。 外表には外傷は認められず死後硬直も顎関節に中等度に認められるのみで他の大関節には硬直はみられなかった。死斑は体背面で暗紫色ごく軽度で指圧で容易に消退した。 角膜の混濁は微濁で瞳孔は左右同大であった。 直腸温は36°C, 室温は22°Cであった。',
-          answer: '',
+          answer: '死亡診断書、 死亡時刻は令和4年5月1日午後11時10分',
+          answerImg: [defferenceOfCertification_1, defferenceOfCertification_2],
           commentary: ''
         },
         {
           questionImg: [certificatePlace],
           questionSentence: '以下の事例(事例5)で死亡したところ及びその種別を説明しなさい。氏名：東 光太郎（男）現住所：香川県日高郡大塔村大字忍海1567番地生年月日：昭和20年8月10日神 敬介は、瀬戸内海に浮かぶ大塔島の診療所に派遣された。島民は500人で医師は深海真1人であった。島民の健康を1人でみなければならず大変ではあるが, やりがいのあることだと思いこの島にやって来たのであった。神敬介が大塔島の飛鳥診療所（香川県日高郡和束村1522番地）に来てくれたということで島民は喜んで迎えてくれ宴会場（香川県日高郡和束村1123番地）で宴会を開いてくれた。令和4年5月1日午後8時頃宴会が始まり, 一緒に飲んでいた村会議員の東 光太郎は生来の酒好きもあって知らぬ間に日本酒1升近くを飲みほしていた。午後9時頃, 東光太郎の顔が青ざめ, 嘔吐し意識は混濁し様子がおかしいので神敬介は大変だと思い, 東 光太郎を診療所に運び点滴等の治療をしたが, 5月1日午後11時10分に死亡した。既往歴としてアルコール性の肝障害を指摘されていたという。血液からは4.5 mg/mLのアルコールが検出された。神敬介は警察に届け出をし, 警察からは事件性がないということで死亡診断書あるいは死体検案書の作成を依頼された。　令和4年5月2日午前1時での検案結果は以下の通りである。 外表には外傷は認められず死後硬直も顎関節に中等度に認められるのみで他の大関節には硬直はみられなかった。死斑は体背面で暗紫色ごく軽度で指圧で容易に消退した。 角膜の混濁は微濁で瞳孔は左右同大であった。 直腸温は36°C, 室温は22°Cであった。',
-          answer: '',
+          answer: '死亡したところ：飛鳥診療所（香川県日高郡和束村1522番地）、種別：2. 診療所',
           commentary: ''
         },
         {
           questionImg: [certificateCause],
           questionSentence: '以下の事例(事例5)で死亡の原因を記載しなさい。氏名：東 光太郎（男）現住所：香川県日高郡大塔村大字忍海1567番地生年月日：昭和20年8月10日神 敬介は、瀬戸内海に浮かぶ大塔島の診療所に派遣された。島民は500人で医師は深海真1人であった。島民の健康を1人でみなければならず大変ではあるが, やりがいのあることだと思いこの島にやって来たのであった。神敬介が大塔島の飛鳥診療所（香川県日高郡和束村1522番地）に来てくれたということで島民は喜んで迎えてくれ宴会場（香川県日高郡和束村1123番地）で宴会を開いてくれた。令和4年5月1日午後8時頃宴会が始まり, 一緒に飲んでいた村会議員の東 光太郎は生来の酒好きもあって知らぬ間に日本酒1升近くを飲みほしていた。午後9時頃, 東光太郎の顔が青ざめ, 嘔吐し意識は混濁し様子がおかしいので神敬介は大変だと思い, 東 光太郎を診療所に運び点滴等の治療をしたが, 5月1日午後11時10分に死亡した。既往歴としてアルコール性の肝障害を指摘されていたという。血液からは4.5 mg/mLのアルコールが検出された。神敬介は警察に届け出をし, 警察からは事件性がないということで死亡診断書あるいは死体検案書の作成を依頼された。　令和4年5月2日午前1時での検案結果は以下の通りである。 外表には外傷は認められず死後硬直も顎関節に中等度に認められるのみで他の大関節には硬直はみられなかった。死斑は体背面で暗紫色ごく軽度で指圧で容易に消退した。 角膜の混濁は微濁で瞳孔は左右同大であった。 直腸温は36°C, 室温は22°Cであった。',
-          answer: '',
-          commentary: ''
+          answer: '直接死因： 急性アルコール中毒(約2時間) 、影響を及ぼしたそのほかの傷病：アルコール性肝障害(不祥)',
+          commentary: '人は、飲酒をすれば酩酊と呼ばれる酔った状態になります。通常、血中アルコール濃度が0.02%から0.1%程度でほろ酔いと呼ばれるリラックスした状態になりますが、0.3％を超えると泥酔期と呼ばれるもうろう状態、0.4％を超えると昏睡期という生命に危険を生じうる状態になります。'
         },
         {
           questionImg: [certificateCauseType],
           questionSentence: '以下の事例(事例5)で死因の種類を選択しなさい。氏名：東 光太郎（男）現住所：香川県日高郡大塔村大字忍海1567番地生年月日：昭和20年8月10日神 敬介は、瀬戸内海に浮かぶ大塔島の診療所に派遣された。島民は500人で医師は深海真1人であった。島民の健康を1人でみなければならず大変ではあるが, やりがいのあることだと思いこの島にやって来たのであった。神敬介が大塔島の飛鳥診療所（香川県日高郡和束村1522番地）に来てくれたということで島民は喜んで迎えてくれ宴会場（香川県日高郡和束村1123番地）で宴会を開いてくれた。令和4年5月1日午後8時頃宴会が始まり, 一緒に飲んでいた村会議員の東 光太郎は生来の酒好きもあって知らぬ間に日本酒1升近くを飲みほしていた。午後9時頃, 東光太郎の顔が青ざめ, 嘔吐し意識は混濁し様子がおかしいので神敬介は大変だと思い, 東 光太郎を診療所に運び点滴等の治療をしたが, 5月1日午後11時10分に死亡した。既往歴としてアルコール性の肝障害を指摘されていたという。血液からは4.5 mg/mLのアルコールが検出された。神敬介は警察に届け出をし, 警察からは事件性がないということで死亡診断書あるいは死体検案書の作成を依頼された。　令和4年5月2日午前1時での検案結果は以下の通りである。 外表には外傷は認められず死後硬直も顎関節に中等度に認められるのみで他の大関節には硬直はみられなかった。死斑は体背面で暗紫色ごく軽度で指圧で容易に消退した。 角膜の混濁は微濁で瞳孔は左右同大であった。 直腸温は36°C, 室温は22°Cであった。',
-          answer: '',
+          answer: '7.中毒',
           commentary: ''
         },
         {
@@ -1329,558 +1334,619 @@ export const useQuestionList = () => {
           commentary: ''
         },
       ]
-    },{
+    }, {
       groupTag: '法医学 Quick Death Certification',
       groupContents: [
         {
-            questionImg: [certificateDeathTime],
-            questionSentence: 'In the following case (Case 1), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
-            answer: 'Death certificate Estimated time of death: 10:10 p.m.',
-            answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
-            commentary: '【原文問題文】以下の事例(事例1)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死亡診断書 死亡時刻は午後10時10分 病院で心拍が再開した→医師が看取ったことになる',
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 1), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+          answer: 'Death certificate Estimated time of death: 10:10 p.m.',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【原文問題文】以下の事例(事例1)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死亡診断書 死亡時刻は午後10時10分 病院で心拍が再開した→医師が看取ったことになる',
         },
         {
-            questionImg: [certificatePlace],
-            questionSentence: 'In the following case (Case 1), explain the place and type of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
-            answer: 'Place of death: Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) Type: 1. Hospital',
-            commentary: '【原文問題文】以下の事例(事例1)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：物真似病院（奈良県丸出市駄目町2丁目2番1号）種別：1.病院 病院で一度心拍が再開したので、病院で死亡したと判断する',
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 1), explain the place and type of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+          answer: 'Place of death: Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) Type: 1. Hospital',
+          commentary: '【原文問題文】以下の事例(事例1)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：物真似病院（奈良県丸出市駄目町2丁目2番1号）種別：1.病院 病院で一度心拍が再開したので、病院で死亡したと判断する',
         },
         {
-            questionImg: [certificateCause],
-            questionSentence: 'In the following case (Case 1), describe the cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
-            answer: 'Immediate cause of death: Cardiac tamponade (approx. 2 hours) ← Aortic dissection (same) Other: Hypertension (10 years)',
-            commentary: '【原文問題文】以下の事例(事例1)で死亡の原因を記載しなさい。 【原文解答】直接死因：心タンポナーデ(約２時間) ← 胸部大動脈解離(同上) その他：高血圧症(10年) 関係ない情報は記載しない',
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 1), describe the cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+          answer: 'Immediate cause of death: Cardiac tamponade (approx. 2 hours) ← Aortic dissection (same) Other: Hypertension (10 years)',
+          commentary: '【原文問題文】以下の事例(事例1)で死亡の原因を記載しなさい。 【原文解答】直接死因：心タンポナーデ(約２時間) ← 胸部大動脈解離(同上) その他：高血圧症(10年) 関係ない情報は記載しない',
         },
         {
-            questionImg: [certificateCauseType],
-            questionSentence: 'In the following case (Case 1), select the type of cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
-            answer: '1. Disease and natural death',
-            commentary: '【原文問題文】以下の事例(事例1)で死因の種類を選択しなさい。 【原文解答】1.病死及び自然死 CT検査で胸部大動脈解離と心タンポナーデの所見を得ており、外因子による死亡ではない',
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 1), select the type of cause of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+          answer: '1. Disease and natural death',
+          commentary: '【原文問題文】以下の事例(事例1)で死因の種類を選択しなさい。 【原文解答】1.病死及び自然死 CT検査で胸部大動脈解離と心タンポナーデの所見を得ており、外因子による死亡ではない',
         },
         {
-            questionImg: [certificateAdditionalInfo],
-            questionSentence: 'In the following case (Case 1), record additional information, surgical history, or autopsy if applicable. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
-            answer: 'Sudden back pain at home, transported by ambulance. Treated for hypertension and angina for 10 years.',
-            commentary: '【原文問題文】以下の事例(事例1)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】自宅で突然背中部痛を訴え、救急車で搬送された。10年前から高血圧症と狭心症で治療を受けていたという。なしでも可',
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 1), record additional information, surgical history, or autopsy if applicable. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
+          answer: 'Sudden back pain at home, transported by ambulance. Treated for hypertension and angina for 10 years.',
+          commentary: '【原文問題文】以下の事例(事例1)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】自宅で突然背中部痛を訴え、救急車で搬送された。10年前から高血圧症と狭心症で治療を受けていたという。なしでも可',
         },
         {
-            questionImg: [certificateDeathTime],
-            questionSentence: 'In the following case (Case 2), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
-            answer: 'Postmortem certificate Estimated time of death: around 3:00 a.m. on the 8th',
-            answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
-            commentary: '【原文問題文】以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は8日午前3時頃(推定) 午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する',
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 2), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+          answer: 'Postmortem certificate Estimated time of death: around 3:00 a.m. on the 8th',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【原文問題文】以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は8日午前3時頃(推定) 午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する',
         },
         {
-            questionImg: [certificatePlace],
-            questionSentence: 'In the following case (Case 2), explain the place and type of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
-            answer: 'Place of death: Hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture) Type: 7. Others',
-            commentary: '【原文問題文】以下の事例(事例2)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：ホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）種別：7.その他 死体発見場所がホテルであるため、その他の場所として記載する',
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 2), explain the place and type of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+          answer: 'Place of death: Hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture) Type: 7. Others',
+          commentary: '【原文問題文】以下の事例(事例2)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：ホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）種別：7.その他 死体発見場所がホテルであるため、その他の場所として記載する',
         },
         {
-            questionImg: [certificateCause],
-            questionSentence: 'In the following case (Case 2), describe the cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
-            answer: 'Immediate cause of death: Stimulant poisoning (short duration)',
-            commentary: '【原文問題文】以下の事例(事例2)で死亡の原因を記載しなさい。 【原文解答】直接死因：覚醒剤中毒(短時間) ショックの種類も推定できない',
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 2), describe the cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+          answer: 'Immediate cause of death: Stimulant poisoning (short duration)',
+          commentary: '【原文問題文】以下の事例(事例2)で死亡の原因を記載しなさい。 【原文解答】直接死因：覚醒剤中毒(短時間) ショックの種類も推定できない',
         },
         {
-            questionImg: [certificateCauseType],
-            questionSentence: 'In the following case (Case 2), select the type of cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
-            answer: '7. Poisoning',
-            commentary: '【原文問題文】以下の事例(事例2)で死因の種類を選択しなさい。 【原文解答】7.中毒 今回は日常的な服用があったことが確認されているため中毒に分類されるが、状況がはっきりしない場合は11. その他及び不祥の外因に分類される',
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 2), select the type of cause of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+          answer: '7. Poisoning',
+          commentary: '【原文問題文】以下の事例(事例2)で死因の種類を選択しなさい。 【原文解答】7.中毒 今回は日常的な服用があったことが確認されているため中毒に分類されるが、状況がはっきりしない場合は11. その他及び不祥の外因に分類される',
         },
         {
-            questionImg: [certificateAdditionalInfo],
-            questionSentence: 'In the following case (Case 2), record additional information, surgical history, or autopsy if applicable. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
-            answer: 'Autopsy performed: Congestion of all organs, fluid blood in the heart, petechiae in the pleura, signs of sudden death. Lethal levels of stimulants detected.',
-            answerImg: [certificate2_1, certificate2_2, certificate2_3, certificate2_4, certificate2_5],
-            commentary: '【原文問題文】以下の事例(事例2)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】解剖あり、各臓器のうっ血、心臓血の流動性、肺胸膜の溢血点を認め、急死の所見を呈する。致死濃度の覚せい剤を検出 急死の所見が薬物中毒と一致している。',
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 2), record additional information, surgical history, or autopsy if applicable. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
+          answer: 'Autopsy performed: Congestion of all organs, fluid blood in the heart, petechiae in the pleura, signs of sudden death. Lethal levels of stimulants detected.',
+          answerImg: [certificate2_1, certificate2_2, certificate2_3, certificate2_4, certificate2_5],
+          commentary: '【原文問題文】以下の事例(事例2)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】解剖あり、各臓器のうっ血、心臓血の流動性、肺胸膜の溢血点を認め、急死の所見を呈する。致死濃度の覚せい剤を検出 急死の所見が薬物中毒と一致している。',
+        }, {
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 3), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Hideki Go (Male) Current Address: 1-10-15 Kashihara Town, Kashihara City, Nara Prefecture Date of Birth: April 4, 1975 On September 20, 2021, at around 7:00 a.m., Hideki Go was found lying on his back on the road at 100 Iwaki Town, Iwaki City, Nara Prefecture. An ambulance was called, but he was already in rigor mortis upon arrival and was confirmed dead. Police investigations revealed that he had fallen from the landing of the sixth floor of Kashihara Mansion at 100 Iwaki Town, Iwaki City, Nara Prefecture. No suicide note was found. Due to the unclear cause of death, a postmortem examination was conducted by Dr. Shiro Kazami from 9:00 a.m. on the 20th. [Postmortem Examination Findings] Numerous open injuries were observed on the head, and multiple injuries were seen on the torso and limbs, with extensive subcutaneous hemorrhage on the left buttock. Rigor mortis was pronounced in the jaw joints, major joints, and hand and foot joints, with moderate rigor mortis in the fingers and toes. Livor mortis was very faint and dark red on the back, and faded upon pressing. Corneal clouding was mild, and the pupils were of equal size. Rectal temperature was 30°C (ambient temperature 20°C). Internally, there was mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs, but no lung contusion. There were lacerations on the liver and kidneys, with only a small amount of blood in the abdominal cavity. The left pelvis was comminuted, with extensive retroperitoneal hemorrhage and coagulation. It was concluded that death occurred shortly after injury. No other significant injuries were observed. [Alcohol Test] Blood alcohol concentration: 1.0 mg/mL.',
+          answer: 'Postmortem certificate Estimated time of death: around 12:00-1:00 a.m. on the 20th',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【原文問題文】以下の事例(事例3)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は20日午前0-1時頃(推定) 午前7時の硬直、午前9時直腸温度(10度程度低下)から推定。硬直は死後4-7時間から発生する。'
+        },
+        {
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 3), explain the place and type of death. Name: Hideki Go (Male) Current Address: 1-10-15 Kashihara Town, Kashihara City, Nara Prefecture Date of Birth: April 4, 1975 On September 20, 2021, at around 7:00 a.m., Hideki Go was found lying on his back on the road at 100 Iwaki Town, Iwaki City, Nara Prefecture. An ambulance was called, but he was already in rigor mortis upon arrival and was confirmed dead. Police investigations revealed that he had fallen from the landing of the sixth floor of Kashihara Mansion at 100 Iwaki Town, Iwaki City, Nara Prefecture. No suicide note was found. Due to the unclear cause of death, a postmortem examination was conducted by Dr. Shiro Kazami from 9:00 a.m. on the 20th. [Postmortem Examination Findings] Numerous open injuries were observed on the head, and multiple injuries were seen on the torso and limbs, with extensive subcutaneous hemorrhage on the left buttock. Rigor mortis was pronounced in the jaw joints, major joints, and hand and foot joints, with moderate rigor mortis in the fingers and toes. Livor mortis was very faint and dark red on the back, and faded upon pressing. Corneal clouding was mild, and the pupils were of equal size. Rectal temperature was 30°C (ambient temperature 20°C). Internally, there was mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs, but no lung contusion. There were lacerations on the liver and kidneys, with only a small amount of blood in the abdominal cavity. The left pelvis was comminuted, with extensive retroperitoneal hemorrhage and coagulation. It was concluded that death occurred shortly after injury. No other significant injuries were observed. [Alcohol Test] Blood alcohol concentration: 1.0 mg/mL.',
+          answer: 'Place of death: On the road at 100 Iwaki Town, Iwaki City, Nara Prefecture Type: 7. Others',
+          commentary: '【原文問題文】以下の事例(事例3)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：奈良県岩城市岩木町100番地先路上 種別：7.その他 転落後の路上で死亡しており、その後移動した形跡がないため、その他の場所として記載する'
+        },
+        {
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 3), describe the cause of death. Name: Hideki Go (Male) Current Address: 1-10-15 Kashihara Town, Kashihara City, Nara Prefecture Date of Birth: April 4, 1975 On September 20, 2021, at around 7:00 a.m., Hideki Go was found lying on his back on the road at 100 Iwaki Town, Iwaki City, Nara Prefecture. An ambulance was called, but he was already in rigor mortis upon arrival and was confirmed dead. Police investigations revealed that he had fallen from the landing of the sixth floor of Kashihara Mansion at 100 Iwaki Town, Iwaki City, Nara Prefecture. No suicide note was found. Due to the unclear cause of death, a postmortem examination was conducted by Dr. Shiro Kazami from 9:00 a.m. on the 20th. [Postmortem Examination Findings] Numerous open injuries were observed on the head, and multiple injuries were seen on the torso and limbs, with extensive subcutaneous hemorrhage on the left buttock. Rigor mortis was pronounced in the jaw joints, major joints, and hand and foot joints, with moderate rigor mortis in the fingers and toes. Livor mortis was very faint and dark red on the back, and faded upon pressing. Corneal clouding was mild, and the pupils were of equal size. Rectal temperature was 30°C (ambient temperature 20°C). Internally, there was mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs, but no lung contusion. There were lacerations on the liver and kidneys, with only a small amount of blood in the abdominal cavity. The left pelvis was comminuted, with extensive retroperitoneal hemorrhage and coagulation. It was concluded that death occurred shortly after injury. No other significant injuries were observed. [Alcohol Test] Blood alcohol concentration: 1.0 mg/mL.',
+          answer: 'Immediate cause of death: Hemorrhagic shock (short duration) ← Retroperitoneal hemorrhage (same) ← Comminuted fracture of the left pelvis (same) ← Blunt trauma to the left buttock (same). Other conditions contributing: Traumatic subarachnoid hemorrhage, rib fractures (short duration)',
+          commentary: '【原文問題文】以下の事例(事例3)で死亡の原因を記載しなさい。 【原文解答】直接死因：失血死(短時間) ← 後腹膜出血(同上) ← 左骨盤粉砕骨折(同上) ← 左臀部打撲(同上)。　影響を及ぼしたそのほかの傷病：外傷性くも膜下出血、肋骨骨折(短時間) 左臀部の広範囲の皮下出血。これは転落(足からの飛び降りでも骨盤骨折は起こる)と矛盾しない。'
+        },
+        {
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 3), select the type of cause of death. Name: Hideki Go (Male) Current Address: 1-10-15 Kashihara Town, Kashihara City, Nara Prefecture Date of Birth: April 4, 1975 On September 20, 2021, at around 7:00 a.m., Hideki Go was found lying on his back on the road at 100 Iwaki Town, Iwaki City, Nara Prefecture. An ambulance was called, but he was already in rigor mortis upon arrival and was confirmed dead. Police investigations revealed that he had fallen from the landing of the sixth floor of Kashihara Mansion at 100 Iwaki Town, Iwaki City, Nara Prefecture. No suicide note was found. Due to the unclear cause of death, a postmortem examination was conducted by Dr. Shiro Kazami from 9:00 a.m. on the 20th. [Postmortem Examination Findings] Numerous open injuries were observed on the head, and multiple injuries were seen on the torso and limbs, with extensive subcutaneous hemorrhage on the left buttock. Rigor mortis was pronounced in the jaw joints, major joints, and hand and foot joints, with moderate rigor mortis in the fingers and toes. Livor mortis was very faint and dark red on the back, and faded upon pressing. Corneal clouding was mild, and the pupils were of equal size. Rectal temperature was 30°C (ambient temperature 20°C). Internally, there was mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs, but no lung contusion. There were lacerations on the liver and kidneys, with only a small amount of blood in the abdominal cavity. The left pelvis was comminuted, with extensive retroperitoneal hemorrhage and coagulation. It was concluded that death occurred shortly after injury. No other significant injuries were observed. [Alcohol Test] Blood alcohol concentration: 1.0 mg/mL.',
+          answer: '3. Fall',
+          commentary: '【原文問題文】以下の事例(事例3)で死因の種類を選択しなさい。 【原文解答】3. 転倒・転落'
+        },
+        {
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 3), record additional information, surgical history, or autopsy if applicable. Name: Hideki Go (Male) Current Address: 1-10-15 Kashihara Town, Kashihara City, Nara Prefecture Date of Birth: April 4, 1975 On September 20, 2021, at around 7:00 a.m., Hideki Go was found lying on his back on the road at 100 Iwaki Town, Iwaki City, Nara Prefecture. An ambulance was called, but he was already in rigor mortis upon arrival and was confirmed dead. Police investigations revealed that he had fallen from the landing of the sixth floor of Kashihara Mansion at 100 Iwaki Town, Iwaki City, Nara Prefecture. No suicide note was found. Due to the unclear cause of death, a postmortem examination was conducted by Dr. Shiro Kazami from 9:00 a.m. on the 20th. [Postmortem Examination Findings] Numerous open injuries were observed on the head, and multiple injuries were seen on the torso and limbs, with extensive subcutaneous hemorrhage on the left buttock. Rigor mortis was pronounced in the jaw joints, major joints, and hand and foot joints, with moderate rigor mortis in the fingers and toes. Livor mortis was very faint and dark red on the back, and faded upon pressing. Corneal clouding was mild, and the pupils were of equal size. Rectal temperature was 30°C (ambient temperature 20°C). Internally, there was mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs, but no lung contusion. There were lacerations on the liver and kidneys, with only a small amount of blood in the abdominal cavity. The left pelvis was comminuted, with extensive retroperitoneal hemorrhage and coagulation. It was concluded that death occurred shortly after injury. No other significant injuries were observed. [Alcohol Test] Blood alcohol concentration: 1.0 mg/mL.',
+          answer: 'Autopsy: Yes Mild traumatic subarachnoid hemorrhage, fractures of the left 2nd-4th ribs. Comminuted fracture of the left pelvis, extensive retroperitoneal hemorrhage. Time of injury: Estimated around 12:00-1:00 a.m. on September 20, 2021',
+          commentary: '【原文問題文】以下の事例(事例3)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】解剖：あり　軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めた。左骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。　障害が発生したとき：令和3年9月20日午前0-1時頃(推定) 伝聞には「〜という」をつける。推定には「〜もよう」という表現を使う。受傷後まもなく死亡したものという所見から、障害が発生したときは転落直後と推定される。'
+        },
+        {
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 4), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
+          answer: 'Postmortem certificate Estimated time of death: around 10:00 p.m. on April 30, 2021',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '【原文問題文】以下の事例(事例4)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は令和３年4月30日午後10時頃(推定) 四肢の硬直が高度であることから、死後10時間以上経過していると考えられる。直腸温の12度低下とも一致する。死斑が背側ではなく下半身に強く認められる所見とも一致する。'
+        },
+        {
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 4), explain the place and type of death. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
+          answer: 'Place of death: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Type: 6. Home',
+          commentary: '【原文問題文】以下の事例(事例4)で死亡したところ及びその種別を説明しなさい。 【原文解答】死亡したところ：奈良県橿原市四条町1丁目1番地、種別：6.自宅'
+        },
+        {
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 4), describe the cause of death. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
+          answer: 'Immediate cause of death: Asphyxiation (short duration) ← Hanging (same). Other conditions contributing: None',
+          commentary: '【原文問題文】以下の事例(事例4)で死亡の原因を記載しなさい。 【原文解答】直接死因：窒息(短時間) ← 縊頸(同上)。　影響を及ぼしたそのほかの傷病：なし 首吊りを法医学的には縊頸という。 死因ではなく死に様なので、直接死因ではない。'
+        },
+        {
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 4), select the type of cause of death. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
+          answer: '9. Suicide',
+          commentary: '【原文問題文】以下の事例(事例4)で死因の種類を選択しなさい。 【原文解答】9. 自殺 遺族が納得していなければ、11.その他及び不祥の外因死にするのが無難'
+        },
+        {
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 4), record additional information, surgical history, or autopsy if applicable. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
+          answer: 'Additional information for external cause of death: Found hanging by a packing rope from the ceiling beam at home. Suicide note present.',
+          commentary: '【原文問題文】以下の事例(事例4)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】外因死の追加事項: 自宅で天井の梁に荷造り用のロープをかけ縊頸しているのを発見されたという。 遺書あり。 現場の状況や、遺書の存在は 自殺か他殺かの判断に重要な情報となる。'
         }
-    ]
-    
+      ]
+
     },
     {
       groupTag: '婦人科 反転 演習問題',
       groupContents: [
         {
-            questionSentence: 'Q1 女性の骨盤解剖で正しいものはどれか。1つ選べ。',
-            choices: [
-                '尿管は腹腔内を走行する',
-                '卵巣動脈は腎動脈から分岐する',
-                '子宮円索は基靭帯の一部を構成する',
-                '子宮動脈は外腸骨動脈から分岐する',
-                '左卵巣静脈は腎静脈から分岐する'
-            ],
-            answer: '5',
-            // commentary: '右卵巣静脈は、 下大静脈から分岐する'
+          questionSentence: 'Q1 女性の骨盤解剖で正しいものはどれか。1つ選べ。',
+          choices: [
+            '尿管は腹腔内を走行する',
+            '卵巣動脈は腎動脈から分岐する',
+            '子宮円索は基靭帯の一部を構成する',
+            '子宮動脈は外腸骨動脈から分岐する',
+            '左卵巣静脈は腎静脈から分岐する'
+          ],
+          answer: '5',
+          // commentary: '右卵巣静脈は、 下大静脈から分岐する'
         },
         {
-            questionSentence: 'Q2 多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。',
-            choices: [
-                '血中LH/FSH比が低値を示す',
-                'インスリン抵抗性が認められる',
-                'プロゲステロン負荷試験で消退出血がみられる',
-                'ゴナドトロピンによる排卵誘発で多胎妊娠がおこりやすい',
-                'クロミフェンが排卵誘発の第一選択である'
-            ],
-            answer: '1',
+          questionSentence: 'Q2 多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。',
+          choices: [
+            '血中LH/FSH比が低値を示す',
+            'インスリン抵抗性が認められる',
+            'プロゲステロン負荷試験で消退出血がみられる',
+            'ゴナドトロピンによる排卵誘発で多胎妊娠がおこりやすい',
+            'クロミフェンが排卵誘発の第一選択である'
+          ],
+          answer: '1',
 
         },
         {
-            questionSentence: 'Q3 クラミジア感染症が原因となるのはどれか。2つ選べ。',
-            choices: [
-                '不妊症',
-                '子宮頸癌',
-                '骨盤腹膜炎',
-                '卵巣腫瘍',
-                '尖形コンジローマ'
-            ],
-            answer: '1,3'
+          questionSentence: 'Q3 クラミジア感染症が原因となるのはどれか。2つ選べ。',
+          choices: [
+            '不妊症',
+            '子宮頸癌',
+            '骨盤腹膜炎',
+            '卵巣腫瘍',
+            '尖形コンジローマ'
+          ],
+          answer: '1,3'
         },
         {
-            questionSentence: 'Q4 53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。',
-            choices: [
-                '卵胞刺激ホルモン',
-                'エストロゲン',
-                'プロゲステロン',
-                'プロラクチン',
-                '甲状腺ホルモン'
-            ],
-            answer: '1,2',
-            commentary: '更年期障害の診断には、卵胞刺激ホルモン（FSH）とエストロゲンの検査が有用である。'
+          questionSentence: 'Q4 53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。',
+          choices: [
+            '卵胞刺激ホルモン',
+            'エストロゲン',
+            'プロゲステロン',
+            'プロラクチン',
+            '甲状腺ホルモン'
+          ],
+          answer: '1,2',
+          commentary: '更年期障害の診断には、卵胞刺激ホルモン（FSH）とエストロゲンの検査が有用である。'
         },
         {
-            questionSentence: 'Q5 本症例において有用とされる治療薬はどれか。1つ選べ。',
-            choices: [
-                'エストロゲン+プロゲステロン',
-                'GnRHアンタゴニスト',
-                '甲状腺ホルモン',
-                'プロラクチン',
-                '副腎皮質ホルモン'
-            ],
-            answer: '1',
-            commentary: 'LEP（Low-dose estrogen-progestin）療法は、更年期障害の治療に有用である。'
+          questionSentence: 'Q5 本症例において有用とされる治療薬はどれか。1つ選べ。',
+          choices: [
+            'エストロゲン+プロゲステロン',
+            'GnRHアンタゴニスト',
+            '甲状腺ホルモン',
+            'プロラクチン',
+            '副腎皮質ホルモン'
+          ],
+          answer: '1',
+          commentary: 'LEP（Low-dose estrogen-progestin）療法は、更年期障害の治療に有用である。'
         },
         {
-            questionSentence: 'Q6 骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。',
-            choices: [
-                'ビタミンD製剤',
-                'カルシウム製剤',
-                'ビスホスホネート製剤',
-                '甲状腺ホルモン製剤',
-                '抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
-            ],
-            answer: '4',
+          questionSentence: 'Q6 骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。',
+          choices: [
+            'ビタミンD製剤',
+            'カルシウム製剤',
+            'ビスホスホネート製剤',
+            '甲状腺ホルモン製剤',
+            '抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
+          ],
+          answer: '4',
         },
         {
-            questionSentence: 'Q7 20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。',
-            choices: [
-                'クラミジア感染症',
-                '尖圭コンジローマ',
-                'ベーチェット病',
-                '梅毒',
-                '単純ヘルペス感染症'
-            ],
-            answer: '5',
+          questionSentence: 'Q7 20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。',
+          choices: [
+            'クラミジア感染症',
+            '尖圭コンジローマ',
+            'ベーチェット病',
+            '梅毒',
+            '単純ヘルペス感染症'
+          ],
+          answer: '5',
         },
         {
-            questionSentence: 'Q8 クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。',
-            choices: [
-                'ニューキノロン系',
-                'アミノグリコシド系',
-                'ペニシリン系',
-                'セフェム系',
-                'マクロライド系'
-            ],
-            answer: '1,5',
-            commentary: 'セフェム系やペニシリンは、クラミジア感染症には効果がない。'
+          questionSentence: 'Q8 クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。',
+          choices: [
+            'ニューキノロン系',
+            'アミノグリコシド系',
+            'ペニシリン系',
+            'セフェム系',
+            'マクロライド系'
+          ],
+          answer: '1,5',
+          commentary: 'セフェム系やペニシリンは、クラミジア感染症には効果がない。'
         },
         {
-            questionSentence: 'Q9 外陰腟カンジダ症で誤っているものはどれか。1つ選べ。',
-            choices: [
-                '掻痒感を生じる',
-                '帯下は泡沫状である',
-                '抗生物質の服用後に多い',
-                '原因菌は常在菌である',
-                '腟分泌分の鏡検にて菌糸が確認できる'
-            ],
-            answer: '2',
-            commentary: '帯下は、カンジダ症では白色の酒粕である。'
+          questionSentence: 'Q9 外陰腟カンジダ症で誤っているものはどれか。1つ選べ。',
+          choices: [
+            '掻痒感を生じる',
+            '帯下は泡沫状である',
+            '抗生物質の服用後に多い',
+            '原因菌は常在菌である',
+            '腟分泌分の鏡検にて菌糸が確認できる'
+          ],
+          answer: '2',
+          commentary: '帯下は、カンジダ症では白色の酒粕である。'
         },
         {
-            questionSentence: 'Q10 子宮内膜症について誤っているものはどれか。1つ選べ。',
-            choices: [
-                '閉経後に多い',
-                '不妊の原因となる',
-                '卵巣癌の発生と関連することがある',
-                '排便痛の原因となる',
-                '希発月経の原因となる'
-            ],
-            answer: '1',
-            commentary: '子宮内膜症は、20-40歳の女性に多い。'
+          questionSentence: 'Q10 子宮内膜症について誤っているものはどれか。1つ選べ。',
+          choices: [
+            '閉経後に多い',
+            '不妊の原因となる',
+            '卵巣癌の発生と関連することがある',
+            '排便痛の原因となる',
+            '希発月経の原因となる'
+          ],
+          answer: '1',
+          commentary: '子宮内膜症は、20-40歳の女性に多い。'
         },
         {
-            questionSentence: 'Q11 26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。',
-            choices: [
-                'クロミフェン',
-                '低用量エストロゲン－プロゲスチン製剤（LEP）',
-                'ジエノゲスト（黄体ホルモン療法）',
-                'エストロゲン補充療法',
-                'カルボプラチン/パクリタキセル'
-            ],
-            answer: '2,3',
+          questionSentence: 'Q11 26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。',
+          choices: [
+            'クロミフェン',
+            '低用量エストロゲン－プロゲスチン製剤（LEP）',
+            'ジエノゲスト（黄体ホルモン療法）',
+            'エストロゲン補充療法',
+            'カルボプラチン/パクリタキセル'
+          ],
+          answer: '2,3',
         },
         {
-            questionSentence: 'Q12 体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。',
-            choices: [
-                '乏精子症',
-                '両側卵管閉塞症',
-                '子宮筋腫',
-                '黄体機能不全',
-                '不育症'
-            ],
-            answer: '1,2',
+          questionSentence: 'Q12 体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。',
+          choices: [
+            '乏精子症',
+            '両側卵管閉塞症',
+            '子宮筋腫',
+            '黄体機能不全',
+            '不育症'
+          ],
+          answer: '1,2',
         },
         {
-            questionSentence: 'Q13 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。',
-            choices: [
-                '子宮頸癌 IA期',
-                '子宮頸癌 IIB期',
-                '子宮頸癌 IIIB期',
-                '子宮頸癌 IVA期',
-                '子宮頸癌 IVB期'
-            ],
-            answer: '3',
-            commentary: '骨盤壁にまで浸潤しているが、遠隔転移は認めないため、子宮頸癌IIIB期となる。'
+          questionSentence: 'Q13 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。',
+          choices: [
+            '子宮頸癌 IA期',
+            '子宮頸癌 IIB期',
+            '子宮頸癌 IIIB期',
+            '子宮頸癌 IVA期',
+            '子宮頸癌 IVB期'
+          ],
+          answer: '3',
+          commentary: '骨盤壁にまで浸潤しているが、遠隔転移は認めないため、子宮頸癌IIIB期となる。'
         },
         {
-            questionSentence: 'Q14 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。',
-            choices: [
-                '子宮頸部円錐切除',
-                '単純子宮全摘術',
-                '広汎子宮全摘術',
-                '同時化学放射線療法',
-                '全身化学療法'
-            ],
-            answer: '4',
+          questionSentence: 'Q14 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。',
+          choices: [
+            '子宮頸部円錐切除',
+            '単純子宮全摘術',
+            '広汎子宮全摘術',
+            '同時化学放射線療法',
+            '全身化学療法'
+          ],
+          answer: '4',
         },
         {
           questionImg: [gynecologyQ15],
-            questionSentence: 'Q15 26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。',
-            choices: [
-                '経過観察',
-                '抗菌薬投与',
-                'GnRHアゴニスト投与',
-                '腹腔鏡下卵巣嚢腫摘出術',
-                '単純子宮全摘術+両側付属器切除術+大網切除術'
-            ],
-            answer: '4',
-            commentary: 'CT画像の中央の黒い部分が卵巣嚢腫である。成熟奇形腫の可能性が高いため、腹腔鏡下卵巣嚢腫摘出術が適切である。'
+          questionSentence: 'Q15 26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。',
+          choices: [
+            '経過観察',
+            '抗菌薬投与',
+            'GnRHアゴニスト投与',
+            '腹腔鏡下卵巣嚢腫摘出術',
+            '単純子宮全摘術+両側付属器切除術+大網切除術'
+          ],
+          answer: '4',
+          commentary: 'CT画像の中央の黒い部分が卵巣嚢腫である。成熟奇形腫の可能性が高いため、腹腔鏡下卵巣嚢腫摘出術が適切である。'
 
         },
         {
-            questionSentence: 'Q16 月経困難症をきたしにくい疾患はどれか。2つ選べ。',
-            choices: [
-                '子宮筋腫',
-                '子宮腺筋症',
-                '子宮内膜症',
-                '子宮内膜ポリープ',
-                '子宮内膜増殖症'
-            ],
-            answer: '4,5',
+          questionSentence: 'Q16 月経困難症をきたしにくい疾患はどれか。2つ選べ。',
+          choices: [
+            '子宮筋腫',
+            '子宮腺筋症',
+            '子宮内膜症',
+            '子宮内膜ポリープ',
+            '子宮内膜増殖症'
+          ],
+          answer: '4,5',
         },
         {
-            questionSentence: 'Q17 卵巣癌について正しいのはどれか。1つ選べ。',
-            choices: [
-                '組織型では漿液性癌がもっとも多い',
-                '同時化学放射線療法が有効である',
-                '初期癌で発見されることが多い',
-                '20歳代が好発年齢である',
-                '腫瘍マーカーはSCCが上昇することが多い'
-            ],
-            answer: '1',
+          questionSentence: 'Q17 卵巣癌について正しいのはどれか。1つ選べ。',
+          choices: [
+            '組織型では漿液性癌がもっとも多い',
+            '同時化学放射線療法が有効である',
+            '初期癌で発見されることが多い',
+            '20歳代が好発年齢である',
+            '腫瘍マーカーはSCCが上昇することが多い'
+          ],
+          answer: '1',
         },
         {
-            questionSentence: 'Q18 胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。',
-            choices: [
-                '成熟奇形腫',
-                '漿液性嚢胞腺腫',
-                '繊維腫',
-                '顆粒膜細胞腫腫瘍',
-                '明細胞癌'
-            ],
-            answer: '1',
+          questionSentence: 'Q18 胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。',
+          choices: [
+            '成熟奇形腫',
+            '漿液性嚢胞腺腫',
+            '繊維腫',
+            '顆粒膜細胞腫腫瘍',
+            '明細胞癌'
+          ],
+          answer: '1',
         },
         {
-            questionSentence: 'Q19 卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。',
-            choices: [
-                'リツキシマブ/シクロフォスファミド/ドキソルビシン/ビンクリスチン/プレドニン（R-CHOP療法）',
-                '5FU/オキサリプラチン/レボホリナート（FOLFOX）',
-                'シスプラチン/S-1',
-                'ブレオマイシン/エトポシド/シスプラチン（BEP）',
-                'カルボプラチン/パクリタキセル（TC）'
-            ],
-            answer: '5',
+          questionSentence: 'Q19 卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。',
+          choices: [
+            'リツキシマブ/シクロフォスファミド/ドキソルビシン/ビンクリスチン/プレドニン（R-CHOP療法）',
+            '5FU/オキサリプラチン/レボホリナート（FOLFOX）',
+            'シスプラチン/S-1',
+            'ブレオマイシン/エトポシド/シスプラチン（BEP）',
+            'カルボプラチン/パクリタキセル（TC）'
+          ],
+          answer: '5',
         },
         {
-            questionSentence: 'Q20 子宮体癌のリスクファクターでないのはどれか。1つ選べ。',
-            choices: [
-                '多経産',
-                '肥満',
-                '大腸癌の家族歴',
-                '多嚢胞性卵巣症候群',
-                '糖尿病'
-            ],
-            answer: '1',
-            commentary: '未経産が子宮体癌のリスクファクターである。'
+          questionSentence: 'Q20 子宮体癌のリスクファクターでないのはどれか。1つ選べ。',
+          choices: [
+            '多経産',
+            '肥満',
+            '大腸癌の家族歴',
+            '多嚢胞性卵巣症候群',
+            '糖尿病'
+          ],
+          answer: '1',
+          commentary: '未経産が子宮体癌のリスクファクターである。'
         }
-    ]
-    
-    },{
+      ]
+
+    }, {
       groupTag: '婦人科 反転演習 機械英訳',
       groupContents: [
         {
-            questionSentence: 'Q1 Which of the following is correct about female pelvic anatomy? Choose one.',
-            choices: [
-                'The ureter runs within the peritoneal cavity.',
-                'The ovarian artery branches from the renal artery.',
-                'The round ligament of the uterus is part of the broad ligament.',
-                'The uterine artery branches from the external iliac artery.',
-                'The left ovarian vein branches from the renal vein.'
-            ],
-            answer: '5',
-            commentary: '【原文問題文】女性の骨盤解剖で正しいものはどれか。1つ選べ。 【原文選択肢】尿管は腹腔内を走行する, 卵巣動脈は腎動脈から分岐する, 子宮円索は基靭帯の一部を構成する, 子宮動脈は外腸骨動脈から分岐する, 左卵巣静脈は腎静脈から分岐する'
+          questionSentence: 'Q1 Which of the following is correct about female pelvic anatomy? Choose one.',
+          choices: [
+            'The ureter runs within the peritoneal cavity.',
+            'The ovarian artery branches from the renal artery.',
+            'The round ligament of the uterus is part of the broad ligament.',
+            'The uterine artery branches from the external iliac artery.',
+            'The left ovarian vein branches from the renal vein.'
+          ],
+          answer: '5',
+          commentary: '【原文問題文】女性の骨盤解剖で正しいものはどれか。1つ選べ。 【原文選択肢】尿管は腹腔内を走行する, 卵巣動脈は腎動脈から分岐する, 子宮円索は基靭帯の一部を構成する, 子宮動脈は外腸骨動脈から分岐する, 左卵巣静脈は腎静脈から分岐する'
         },
         {
-            questionSentence: 'Q2 Which of the following is incorrect about polycystic ovary syndrome? Choose one.',
-            choices: [
-                'The blood LH/FSH ratio shows a low value.',
-                'Insulin resistance is observed.',
-                'Withdrawal bleeding is seen in the progesterone challenge test.',
-                'Ovulation induction by gonadotropins tends to result in multiple pregnancies.',
-                'Clomiphene is the first choice for ovulation induction.'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。 【原文選択肢】血中LH/FSH比が低値を示す, インスリン抵抗性が認められる, プロゲステロン負荷試験で消退出血がみられる, ゴナドトロピンによる排卵誘発で多胎妊娠がおこりやすい, クロミフェンが排卵誘発の第一選択である'
+          questionSentence: 'Q2 Which of the following is incorrect about polycystic ovary syndrome? Choose one.',
+          choices: [
+            'The blood LH/FSH ratio shows a low value.',
+            'Insulin resistance is observed.',
+            'Withdrawal bleeding is seen in the progesterone challenge test.',
+            'Ovulation induction by gonadotropins tends to result in multiple pregnancies.',
+            'Clomiphene is the first choice for ovulation induction.'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。 【原文選択肢】血中LH/FSH比が低値を示す, インスリン抵抗性が認められる, プロゲステロン負荷試験で消退出血がみられる, ゴナドトロピンによる排卵誘発で多胎妊娠がおこりやすい, クロミフェンが排卵誘発の第一選択である'
         },
         {
-            questionSentence: 'Q3 Which of the following can be caused by chlamydia infection? Choose two.',
-            choices: [
-                'Infertility',
-                'Cervical cancer',
-                'Pelvic peritonitis',
-                'Ovarian tumor',
-                'Condyloma acuminatum'
-            ],
-            answer: '1,3',
-            commentary: '【原文問題文】クラミジア感染症が原因となるのはどれか。2つ選べ。 【原文選択肢】不妊症, 子宮頸癌, 骨盤腹膜炎, 卵巣腫瘍, 尖形コンジローマ'
+          questionSentence: 'Q3 Which of the following can be caused by chlamydia infection? Choose two.',
+          choices: [
+            'Infertility',
+            'Cervical cancer',
+            'Pelvic peritonitis',
+            'Ovarian tumor',
+            'Condyloma acuminatum'
+          ],
+          answer: '1,3',
+          commentary: '【原文問題文】クラミジア感染症が原因となるのはどれか。2つ選べ。 【原文選択肢】不妊症, 子宮頸癌, 骨盤腹膜炎, 卵巣腫瘍, 尖形コンジローマ'
         },
         {
-            questionSentence: 'Q4 A 53-year-old woman presents with irregular menstruation and frequent hot flashes and sweating for the past six months. Her body temperature is 36.7°C, pulse 92/min and regular, blood pressure 140/92 mmHg. On pelvic examination, the uterus is normal in size and mobile, and cytology of the cervix and endometrium is normal. Which blood hormones are useful for evaluating this patient\'s condition? Choose two.',
-            choices: [
-                'Follicle-stimulating hormone',
-                'Estrogen',
-                'Progesterone',
-                'Prolactin',
-                'Thyroid hormone'
-            ],
-            answer: '1,2',
-            commentary: '【原文問題文】53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。 【原文選択肢】卵胞刺激ホルモン, エストロゲン, プロゲステロン, プロラクチン, 甲状腺ホルモン'
+          questionSentence: 'Q4 A 53-year-old woman presents with irregular menstruation and frequent hot flashes and sweating for the past six months. Her body temperature is 36.7°C, pulse 92/min and regular, blood pressure 140/92 mmHg. On pelvic examination, the uterus is normal in size and mobile, and cytology of the cervix and endometrium is normal. Which blood hormones are useful for evaluating this patient\'s condition? Choose two.',
+          choices: [
+            'Follicle-stimulating hormone',
+            'Estrogen',
+            'Progesterone',
+            'Prolactin',
+            'Thyroid hormone'
+          ],
+          answer: '1,2',
+          commentary: '【原文問題文】53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。 【原文選択肢】卵胞刺激ホルモン, エストロゲン, プロゲステロン, プロラクチン, 甲状腺ホルモン'
         },
         {
-            questionSentence: 'Q5 Which treatment is considered useful for this case? Choose one.',
-            choices: [
-                'Estrogen + progesterone',
-                'GnRH antagonist',
-                'Thyroid hormone',
-                'Prolactin',
-                'Adrenal cortex hormone'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】本症例において有用とされる治療薬はどれか。1つ選べ。 【原文選択肢】エストロゲン+プロゲステロン, GnRHアンタゴニスト, 甲状腺ホルモン, プロラクチン, 副腎皮質ホルモン'
+          questionSentence: 'Q5 Which treatment is considered useful for this case? Choose one.',
+          choices: [
+            'Estrogen + progesterone',
+            'GnRH antagonist',
+            'Thyroid hormone',
+            'Prolactin',
+            'Adrenal cortex hormone'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】本症例において有用とされる治療薬はどれか。1つ選べ。 【原文選択肢】エストロゲン+プロゲステロン, GnRHアンタゴニスト, 甲状腺ホルモン, プロラクチン, 副腎皮質ホルモン'
         },
         {
-            questionSentence: 'Q6 Which of the following is incorrect as a treatment for osteoporosis? Choose one.',
-            choices: [
-                'Vitamin D preparation',
-                'Calcium preparation',
-                'Bisphosphonate preparation',
-                'Thyroid hormone preparation',
-                'Anti-RANKL (Receptor activator of nuclear factor-kappa B ligand) antibody'
-            ],
-            answer: '4',
-            commentary: '【原文問題文】骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。 【原文選択肢】ビタミンD製剤, カルシウム製剤, ビスホスホネート製剤, 甲状腺ホルモン製剤, 抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
+          questionSentence: 'Q6 Which of the following is incorrect as a treatment for osteoporosis? Choose one.',
+          choices: [
+            'Vitamin D preparation',
+            'Calcium preparation',
+            'Bisphosphonate preparation',
+            'Thyroid hormone preparation',
+            'Anti-RANKL (Receptor activator of nuclear factor-kappa B ligand) antibody'
+          ],
+          answer: '4',
+          commentary: '【原文問題文】骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。 【原文選択肢】ビタミンD製剤, カルシウム製剤, ビスホスホネート製剤, 甲状腺ホルモン製剤, 抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
         },
         {
-            questionSentence: 'Q7 A 20-year-old woman presents with severe vulvar pain. She had sexual intercourse 7 days ago. She has had a fever of 38.4°C for the past 2 days and developed vulvar pain today, which has intensified and caused difficulty urinating. Physical examination reveals no abnormalities in the skin and eyes, and no oral aphthae. There is bilateral inguinal lymph node swelling and tenderness. The abdomen is flat and soft, with no tenderness or spontaneous pain. Multiple small ulcers with redness are observed on both sides of the vulva. What is the correct diagnosis for this patient? Choose one.',
-            choices: [
-                'Chlamydia infection',
-                'Condyloma acuminatum',
-                'Behçet\'s disease',
-                'Syphilis',
-                'Herpes simplex infection'
-            ],
-            answer: '5',
-            commentary: '【原文問題文】20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。 【原文選択肢】クラミジア感染症, 尖圭コンジローマ, ベーチェット病, 梅毒, 単純ヘルペス感染症'
+          questionSentence: 'Q7 A 20-year-old woman presents with severe vulvar pain. She had sexual intercourse 7 days ago. She has had a fever of 38.4°C for the past 2 days and developed vulvar pain today, which has intensified and caused difficulty urinating. Physical examination reveals no abnormalities in the skin and eyes, and no oral aphthae. There is bilateral inguinal lymph node swelling and tenderness. The abdomen is flat and soft, with no tenderness or spontaneous pain. Multiple small ulcers with redness are observed on both sides of the vulva. What is the correct diagnosis for this patient? Choose one.',
+          choices: [
+            'Chlamydia infection',
+            'Condyloma acuminatum',
+            'Behçet\'s disease',
+            'Syphilis',
+            'Herpes simplex infection'
+          ],
+          answer: '5',
+          commentary: '【原文問題文】20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。 【原文選択肢】クラミジア感染症, 尖圭コンジローマ, ベーチェット病, 梅毒, 単純ヘルペス感染症'
         },
         {
-            questionSentence: 'Q8 Which antibiotics are effective against chlamydia infection? Choose two.',
-            choices: [
-                'New quinolones',
-                'Aminoglycosides',
-                'Penicillins',
-                'Cephalosporins',
-                'Macrolides'
-            ],
-            answer: '1,5',
-            commentary: '【原文問題文】クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。 【原文選択肢】ニューキノロン系, アミノグリコシド系, ペニシリン系, セフェム系, マクロライド系'
+          questionSentence: 'Q8 Which antibiotics are effective against chlamydia infection? Choose two.',
+          choices: [
+            'New quinolones',
+            'Aminoglycosides',
+            'Penicillins',
+            'Cephalosporins',
+            'Macrolides'
+          ],
+          answer: '1,5',
+          commentary: '【原文問題文】クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。 【原文選択肢】ニューキノロン系, アミノグリコシド系, ペニシリン系, セフェム系, マクロライド系'
         },
         {
-            questionSentence: 'Q9 Which of the following is incorrect about vulvovaginal candidiasis? Choose one.',
-            choices: [
-                'Causes itching',
-                'Discharge is frothy',
-                'Common after antibiotic use',
-                'The causative organism is part of the normal flora',
-                'Hyphae can be confirmed by microscopic examination of vaginal discharge'
-            ],
-            answer: '2',
-            commentary: '【原文問題文】外陰腟カンジダ症で誤っているものはどれか。1つ選べ。 【原文選択肢】掻痒感を生じる, 帯下は泡沫状である, 抗生物質の服用後に多い, 原因菌は常在菌である, 腟分泌分の鏡検にて菌糸が確認できる'
+          questionSentence: 'Q9 Which of the following is incorrect about vulvovaginal candidiasis? Choose one.',
+          choices: [
+            'Causes itching',
+            'Discharge is frothy',
+            'Common after antibiotic use',
+            'The causative organism is part of the normal flora',
+            'Hyphae can be confirmed by microscopic examination of vaginal discharge'
+          ],
+          answer: '2',
+          commentary: '【原文問題文】外陰腟カンジダ症で誤っているものはどれか。1つ選べ。 【原文選択肢】掻痒感を生じる, 帯下は泡沫状である, 抗生物質の服用後に多い, 原因菌は常在菌である, 腟分泌分の鏡検にて菌糸が確認できる'
         },
         {
-            questionSentence: 'Q10 Which of the following is incorrect about endometriosis? Choose one.',
-            choices: [
-                'Common after menopause',
-                'Causes infertility',
-                'May be associated with the development of ovarian cancer',
-                'Causes pain during bowel movements',
-                'Causes oligomenorrhea'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】子宮内膜症について誤っているものはどれか。1つ選べ。 【原文選択肢】閉経後に多い, 不妊の原因となる, 卵巣癌の発生と関連することがある, 排便痛の原因となる, 希発月経の原因となる'
+          questionSentence: 'Q10 Which of the following is incorrect about endometriosis? Choose one.',
+          choices: [
+            'Common after menopause',
+            'Causes infertility',
+            'May be associated with the development of ovarian cancer',
+            'Causes pain during bowel movements',
+            'Causes oligomenorrhea'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】子宮内膜症について誤っているものはどれか。1つ選べ。 【原文選択肢】閉経後に多い, 不妊の原因となる, 卵巣癌の発生と関連することがある, 排便痛の原因となる, 希発月経の原因となる'
         },
         {
-            questionSentence: 'Q11 A 26-year-old woman presents with dysmenorrhea. Her menstrual cycle is regular, with a 28-day cycle. She has been taking pain relievers for menstrual pain for the past two years, but the pain has progressively worsened. Pelvic examination reveals a normal-sized uterus with limited mobility and mildly enlarged, tender bilateral adnexa. Transvaginal ultrasound shows bilateral ovarian endometriomas measuring 2-3 cm. CA125 is mildly elevated at 42.6 U/mL. What are appropriate conservative treatments for this patient? Choose two.',
-            choices: [
-                'Clomiphene',
-                'Low-dose estrogen-progestin (LEP)',
-                'Dienogest (progestin therapy)',
-                'Estrogen replacement therapy',
-                'Carboplatin/Paclitaxel'
-            ],
-            answer: '2,3',
-            commentary: '【原文問題文】26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。 【原文選択肢】クロミフェン, 低用量エストロゲン－プロゲスチン製剤（LEP）, ジエノゲスト（黄体ホルモン療法）, エストロゲン補充療法, カルボプラチン/パクリタキセル'
+          questionSentence: 'Q11 A 26-year-old woman presents with dysmenorrhea. Her menstrual cycle is regular, with a 28-day cycle. She has been taking pain relievers for menstrual pain for the past two years, but the pain has progressively worsened. Pelvic examination reveals a normal-sized uterus with limited mobility and mildly enlarged, tender bilateral adnexa. Transvaginal ultrasound shows bilateral ovarian endometriomas measuring 2-3 cm. CA125 is mildly elevated at 42.6 U/mL. What are appropriate conservative treatments for this patient? Choose two.',
+          choices: [
+            'Clomiphene',
+            'Low-dose estrogen-progestin (LEP)',
+            'Dienogest (progestin therapy)',
+            'Estrogen replacement therapy',
+            'Carboplatin/Paclitaxel'
+          ],
+          answer: '2,3',
+          commentary: '【原文問題文】26歳の女性。未経妊。月経困難症を主訴に受診した。月経周期は28日・整。2年前から月経時に鎮痛剤を内服していたが、次第に月経痛は増悪するようになった。内診で子宮は正常であるが可動性は不良。有痛性で軽度腫大した両側付属器を触知する。経腟超音波検査にて両側卵巣に2-3cm程度のチョコレート嚢胞を認める。CA125は、42.6 U/mLと軽度上昇していた。保存的治療として適切なものはどれか。2つ選べ。 【原文選択肢】クロミフェン, 低用量エストロゲン－プロゲスチン製剤（LEP）, ジエノゲスト（黄体ホルモン療法）, エストロゲン補充療法, カルボプラチン/パクリタキセル'
         },
         {
-            questionSentence: 'Q12 Which of the following are indications for in vitro fertilization-embryo transfer (IVF-ET)? Choose two.',
-            choices: [
-                'Oligospermia',
-                'Bilateral tubal obstruction',
-                'Uterine fibroids',
-                'Luteal phase defect',
-                'Recurrent pregnancy loss'
-            ],
-            answer: '1,2',
-            commentary: '【原文問題文】体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。 【原文選択肢】乏精子症, 両側卵管閉塞症, 子宮筋腫, 黄体機能不全, 不育症'
+          questionSentence: 'Q12 Which of the following are indications for in vitro fertilization-embryo transfer (IVF-ET)? Choose two.',
+          choices: [
+            'Oligospermia',
+            'Bilateral tubal obstruction',
+            'Uterine fibroids',
+            'Luteal phase defect',
+            'Recurrent pregnancy loss'
+          ],
+          answer: '1,2',
+          commentary: '【原文問題文】体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。 【原文選択肢】乏精子症, 両側卵管閉塞症, 子宮筋腫, 黄体機能不全, 不育症'
         },
         {
-            questionSentence: 'Q13 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the diagnosis? Choose one.',
-            choices: [
-                'Cervical cancer stage IA',
-                'Cervical cancer stage IIB',
-                'Cervical cancer stage IIIB',
-                'Cervical cancer stage IVA',
-                'Cervical cancer stage IVB'
-            ],
-            answer: '3',
-            commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。 【原文選択肢】子宮頸癌 IA期, 子宮頸癌 IIB期, 子宮頸癌 IIIB期, 子宮頸癌 IVA期, 子宮頸癌 IVB期'
+          questionSentence: 'Q13 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the diagnosis? Choose one.',
+          choices: [
+            'Cervical cancer stage IA',
+            'Cervical cancer stage IIB',
+            'Cervical cancer stage IIIB',
+            'Cervical cancer stage IVA',
+            'Cervical cancer stage IVB'
+          ],
+          answer: '3',
+          commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。 【原文選択肢】子宮頸癌 IA期, 子宮頸癌 IIB期, 子宮頸癌 IIIB期, 子宮頸癌 IVA期, 子宮頸癌 IVB期'
         },
         {
-            questionSentence: 'Q14 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the appropriate treatment for this case? Choose one.',
-            choices: [
-                'Cervical conization',
-                'Simple hysterectomy',
-                'Radical hysterectomy',
-                'Concurrent chemoradiation therapy',
-                'Systemic chemotherapy'
-            ],
-            answer: '4',
-            commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。 【原文選択肢】子宮頸部円錐切除, 単純子宮全摘術, 広汎子宮全摘術, 同時化学放射線療法, 全身化学療法'
+          questionSentence: 'Q14 A 55-year-old woman presents with abnormal genital bleeding for the past six months. She has had four pregnancies and four deliveries, and menopause occurred at age 52. Pelvic examination reveals a firm mass extending from the cervix to the right pelvic wall. Colposcopy shows a cauliflower-like friable mass on the cervix, and biopsy reveals squamous cell carcinoma. CT scan shows no distant metastasis. What is the appropriate treatment for this case? Choose one.',
+          choices: [
+            'Cervical conization',
+            'Simple hysterectomy',
+            'Radical hysterectomy',
+            'Concurrent chemoradiation therapy',
+            'Systemic chemotherapy'
+          ],
+          answer: '4',
+          commentary: '【原文問題文】55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。本症例に行う治療として適切なものはどれか。1つ選べ。 【原文選択肢】子宮頸部円錐切除, 単純子宮全摘術, 広汎子宮全摘術, 同時化学放射線療法, 全身化学療法'
         },
         {
           questionImg: [gynecologyQ15],
-            questionSentence: 'Q15 A 26-year-old woman presents with sudden lower abdominal pain. Her menstrual cycle is regular, with a 28-day cycle, and she does not experience menstrual pain. Pregnancy test is negative. Pelvic examination reveals a mobile, tender mass in the pelvis. Tumor markers: CA125 24U/mL (normal <35), CA19-9 42U/mL (normal <37), SCC 1.2ng/mL (normal <1.5). The pelvic CT image is shown. What is the appropriate management for this patient?',
-            choices: [
-                'Observation',
-                'Antibiotic therapy',
-                'GnRH agonist therapy',
-                'Laparoscopic ovarian cystectomy',
-                'Simple hysterectomy with bilateral salpingo-oophorectomy and omentectomy'
-            ],
-            answer: '4',
-            commentary: '【原文問題文】26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。 【原文選択肢】経過観察, 抗菌薬投与, GnRHアゴニスト投与, 腹腔鏡下卵巣嚢腫摘出術, 単純子宮全摘術+両側付属器切除術+大網切除術'
+          questionSentence: 'Q15 A 26-year-old woman presents with sudden lower abdominal pain. Her menstrual cycle is regular, with a 28-day cycle, and she does not experience menstrual pain. Pregnancy test is negative. Pelvic examination reveals a mobile, tender mass in the pelvis. Tumor markers: CA125 24U/mL (normal <35), CA19-9 42U/mL (normal <37), SCC 1.2ng/mL (normal <1.5). The pelvic CT image is shown. What is the appropriate management for this patient?',
+          choices: [
+            'Observation',
+            'Antibiotic therapy',
+            'GnRH agonist therapy',
+            'Laparoscopic ovarian cystectomy',
+            'Simple hysterectomy with bilateral salpingo-oophorectomy and omentectomy'
+          ],
+          answer: '4',
+          commentary: '【原文問題文】26歳の女性。未経妊。突然の下腹部痛を主訴に来院した。月経周期28日型・整。月経痛は認めない。妊娠反応は陰性であった。内診にて骨盤内に圧痛を伴う可動性のある腫瘤を認める。腫瘍マーカー：CA125 24U/mL（基準値35以下）、CA19-9 42U/mL（基準値37以下）、SCC 1.2ng/mL（基準値1.5以下）。骨盤CTの画像を示す。この患者への対応として正しいものはどれか。 【原文選択肢】経過観察, 抗菌薬投与, GnRHアゴニスト投与, 腹腔鏡下卵巣嚢腫摘出術, 単純子宮全摘術+両側付属器切除術+大網切除術'
         },
         {
-            questionSentence: 'Q16 Which of the following conditions is least likely to cause dysmenorrhea? Choose two.',
-            choices: [
-                'Uterine fibroids',
-                'Adenomyosis',
-                'Endometriosis',
-                'Endometrial polyps',
-                'Endometrial hyperplasia'
-            ],
-            answer: '4,5',
-            commentary: '【原文問題文】月経困難症をきたしにくい疾患はどれか。2つ選べ。 【原文選択肢】子宮筋腫, 子宮腺筋症, 子宮内膜症, 子宮内膜ポリープ, 子宮内膜増殖症'
+          questionSentence: 'Q16 Which of the following conditions is least likely to cause dysmenorrhea? Choose two.',
+          choices: [
+            'Uterine fibroids',
+            'Adenomyosis',
+            'Endometriosis',
+            'Endometrial polyps',
+            'Endometrial hyperplasia'
+          ],
+          answer: '4,5',
+          commentary: '【原文問題文】月経困難症をきたしにくい疾患はどれか。2つ選べ。 【原文選択肢】子宮筋腫, 子宮腺筋症, 子宮内膜症, 子宮内膜ポリープ, 子宮内膜増殖症'
         },
         {
-            questionSentence: 'Q17 Which of the following is true about ovarian cancer? Choose one.',
-            choices: [
-                'The most common histological type is serous carcinoma.',
-                'Concurrent chemoradiation therapy is effective.',
-                'It is often detected in the early stages.',
-                'It is most common in women in their 20s.',
-                'The tumor marker SCC is often elevated.'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】卵巣癌について正しいのはどれか。1つ選べ。 【原文選択肢】組織型では漿液性癌がもっとも多い, 同時化学放射線療法が有効である, 初期癌で発見されることが多い, 20歳代が好発年齢である, 腫瘍マーカーはSCCが上昇することが多い'
+          questionSentence: 'Q17 Which of the following is true about ovarian cancer? Choose one.',
+          choices: [
+            'The most common histological type is serous carcinoma.',
+            'Concurrent chemoradiation therapy is effective.',
+            'It is often detected in the early stages.',
+            'It is most common in women in their 20s.',
+            'The tumor marker SCC is often elevated.'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】卵巣癌について正しいのはどれか。1つ選べ。 【原文選択肢】組織型では漿液性癌がもっとも多い, 同時化学放射線療法が有効である, 初期癌で発見されることが多い, 20歳代が好発年齢である, 腫瘍マーカーはSCCが上昇することが多い'
         },
         {
-            questionSentence: 'Q18 Which of the following ovarian tumors arises from germ cells? Choose one.',
-            choices: [
-                'Mature teratoma',
-                'Serous cystadenoma',
-                'Fibroma',
-                'Granulosa cell tumor',
-                'Clear cell carcinoma'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。 【原文選択肢】成熟奇形腫, 漿液性嚢胞腺腫, 繊維腫, 顆粒膜細胞腫腫瘍, 明細胞癌'
+          questionSentence: 'Q18 Which of the following ovarian tumors arises from germ cells? Choose one.',
+          choices: [
+            'Mature teratoma',
+            'Serous cystadenoma',
+            'Fibroma',
+            'Granulosa cell tumor',
+            'Clear cell carcinoma'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】胚細胞から発生する卵巣腫瘍はどれか。1つ選べ。 【原文選択肢】成熟奇形腫, 漿液性嚢胞腺腫, 繊維腫, 顆粒膜細胞腫腫瘍, 明細胞癌'
         },
         {
-            questionSentence: 'Q19 Which chemotherapy is effective for ovarian serous carcinoma? Choose one.',
-            choices: [
-                'Rituximab/Cyclophosphamide/Doxorubicin/Vincristine/Prednisone (R-CHOP therapy)',
-                '5FU/Oxaliplatin/Leucovorin (FOLFOX)',
-                'Cisplatin/S-1',
-                'Bleomycin/Etoposide/Cisplatin (BEP)',
-                'Carboplatin/Paclitaxel (TC)'
-            ],
-            answer: '5',
-            commentary: '【原文問題文】卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。 【原文選択肢】リツキシマブ/シクロフォスファミド/ドキソルビシン/ビンクリスチン/プレドニン（R-CHOP療法）, 5FU/オキサリプラチン/レボホリナート（FOLFOX）, シスプラチン/S-1, ブレオマイシン/エトポシド/シスプラチン（BEP）, カルボプラチン/パクリタキセル（TC）'
+          questionSentence: 'Q19 Which chemotherapy is effective for ovarian serous carcinoma? Choose one.',
+          choices: [
+            'Rituximab/Cyclophosphamide/Doxorubicin/Vincristine/Prednisone (R-CHOP therapy)',
+            '5FU/Oxaliplatin/Leucovorin (FOLFOX)',
+            'Cisplatin/S-1',
+            'Bleomycin/Etoposide/Cisplatin (BEP)',
+            'Carboplatin/Paclitaxel (TC)'
+          ],
+          answer: '5',
+          commentary: '【原文問題文】卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。 【原文選択肢】リツキシマブ/シクロフォスファミド/ドキソルビシン/ビンクリスチン/プレドニン（R-CHOP療法）, 5FU/オキサリプラチン/レボホリナート（FOLFOX）, シスプラチン/S-1, ブレオマイシン/エトポシド/シスプラチン（BEP）, カルボプラチン/パクリタキセル（TC）'
         },
         {
-            questionSentence: 'Q20 Which of the following is not a risk factor for endometrial cancer? Choose one.',
-            choices: [
-                'Multiparity',
-                'Obesity',
-                'Family history of colorectal cancer',
-                'Polycystic ovary syndrome',
-                'Diabetes'
-            ],
-            answer: '1',
-            commentary: '【原文問題文】子宮体癌のリスクファクターでないのはどれか。1つ選べ。 【原文選択肢】多経産, 肥満, 大腸癌の家族歴, 多嚢胞性卵巣症候群, 糖尿病'
+          questionSentence: 'Q20 Which of the following is not a risk factor for endometrial cancer? Choose one.',
+          choices: [
+            'Multiparity',
+            'Obesity',
+            'Family history of colorectal cancer',
+            'Polycystic ovary syndrome',
+            'Diabetes'
+          ],
+          answer: '1',
+          commentary: '【原文問題文】子宮体癌のリスクファクターでないのはどれか。1つ選べ。 【原文選択肢】多経産, 肥満, 大腸癌の家族歴, 多嚢胞性卵巣症候群, 糖尿病'
         }
-    ]
-    
+      ]
+
     },
 
 
