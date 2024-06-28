@@ -1147,6 +1147,7 @@ export const useQuestionList = () => {
           questionImg: [certificateDeathTime],
           questionSentence: '以下の事例(事例1)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：隼田 信（男）住所：奈良県大仏市奈良町1丁目2番3号生年月日：昭和10年10月10日隼田信は令和3年12月22日夕食後の午後8時頃、突然激烈な背中部痛を感じ「痛い、痛い」と家族に訴えた。しばらく様子をみていたが、意識がもうろうとなり良くなる気配がなかったので救急車を要請した。救急車が到着したのは午後9時5分であった。この時は心肺停止状態であったが、物真似病院（奈良県丸出市駄目町2丁目2番1号）に搬送され本郷猛医師が蘇生術を施行したところ午後9時20分に心拍が再開した。しかし治療の甲斐なく午後10時10分に死亡した。死後にＣＴ検査をしたところ胸部大動脈の解離と心タンポナーデの所見を得た。顔面の頬部に軽度の擦過傷が認められた。本郷猛医師は生前の状況も不明瞭であったので、警察へ届け出た。警察の検視に本郷猛医師が立ち会って検案をおこなった。警察の生前の状況や家族の話などから、薬物を飲んだ様子もなく、10年前から高血圧症と狭心症で治療をうけていたということで、事件性がなく本郷猛医師に、死亡診断書（死体検案書）の作成を依頼した。',
           answer: '死亡診断書 死亡時刻は午後10時10分',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
           commentary: '病院で心拍が再開した→医師が看取ったことになる',
         },
         {
@@ -1177,6 +1178,7 @@ export const useQuestionList = () => {
           questionImg: [certificateDeathTime],
           questionSentence: '以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '死体検案書 死亡時刻は8日午前3時頃(推定)',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
           commentary: '午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する'
         },
         {
@@ -1208,6 +1210,7 @@ export const useQuestionList = () => {
           questionImg: [certificateDeathTime],
           questionSentence: '以下の事例(事例3)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指および足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左 骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
           answer: '死体検案書 死亡時刻は20日午前0-1時頃(推定)',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
           commentary: '午前7時の硬直、午前9時直腸温度(10度程度低下)から推定。硬直は死後4-7時間から発生する。'
         },
         {
@@ -1230,27 +1233,28 @@ export const useQuestionList = () => {
         },
         {
           questionImg: [certificateAdditionalInfo],
-          questionSentence: '以下の事例(事例3)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指およ び足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左 骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
-          answer: '解剖：あり　　障害が発生したとき：',
-          commentary: ''
+          questionSentence: '以下の事例(事例3)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：郷 秀樹（男）現住所：奈良県柏原市柏原町1丁目10番15号生年月日：昭和50年4月4日令和3年9月20日午前７時頃，奈良県岩城市岩木町100番地先路上で仰向けで倒れている郷秀樹が発見された。救急車が呼ばれたが到着時には硬直がありすでに死亡していた。警察の調べでは奈良県岩城市岩木町100番地橿原マンション6階の踊り場から転落したものと判明した。遺書などは見当たらなかった。死因が判然としないため20日午前９時から風見志郎医師によって検案解剖となったものである。　[検案解剖所見] 外表には頭部には多数の開放性損傷を認め，体幹部，上下肢に多数の損傷を認めたが，左臀部には広範囲の皮下出血を認めた。死後硬直は顎関節，各大関節，手足関節は高度で手指およ び足指関節は中等度であった。死斑は体背面で暗赤色ごく軽度で指圧で褪色した。角膜の混濁 は軽度で瞳孔は左右同大であった。直腸温度は30°C(外気温20°C)であった。内景では, 軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めたが肺挫傷などは なかった。肝臓や腎臓には亀裂創を認めたが，腹腔内には少量の血液を認めるのみであった。左骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。受傷後まもなく死亡したものと 判断された。その他，特段大きな損傷はみとめなかった。[アルコール検査] 血中アルコール濃度:1.0 mg/mL。',
+          answer: '解剖：あり　軽度の外傷性くも膜下出血, 肋骨は左第2〜4肋骨の骨折を認めた。左骨盤が粉砕状に骨折し，後腹膜には多量の出血や凝血を認めた。　障害が発生したとき：令和3年9月20日午前0-1時頃(推定)',
+          commentary: '伝聞には「〜という」をつける。推定には「〜もよう」という表現を使う。受傷後まもなく死亡したものという所見から、障害が発生したときは転落直後と推定される。'
         },
         {
           questionImg: [certificateDeathTime],
           questionSentence: '以下の事例(事例4)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '',
-          commentary: ''
+          answer: '死体検案書 死亡時刻は令和３年4月30日午後10時頃(推定)',
+          answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
+          commentary: '四肢の硬直が高度であることから、死後10時間以上経過していると考えられる。直腸温の12度低下とも一致する。死斑が背側ではなく下半身に強く認められる所見とも一致する。'
         },
         {
           questionImg: [certificatePlace],
           questionSentence: '以下の事例(事例4)で死亡したところ及びその種別を説明しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '',
+          answer: '死亡したところ：奈良県橿原市四条町1丁目1番地、種別：6.自宅',
           commentary: ''
         },
         {
           questionImg: [certificateCause],
           questionSentence: '以下の事例(事例4)で死亡の原因を記載しなさい。氏名：南 夕子(女）現住所：奈良県橿原市四条町1丁目1番地生年月日：昭和30年3月3日南 夕子は冠動脈硬化による狭心痛のため、橿原病院に通院中であった。令和３年4月30日午前中も主治医である結城丈二の診察を受け、元気な様子であった。同日, 午後7時頃に自宅で家人と共に夕食を済ませた後, 2階の自室へ上がった。翌朝5月1日午前8時に朝食の時間になっても降りてこないので, 夫が2階へ見に行くと, 椅子を踏み台にして天井の梁に荷造り用のロープをかけ首を吊っているのを発見した。直ちに主治医の結城丈二医師を呼び, 患者を降ろしたが（5月1日午前9時0分）すでに死亡していた。机の上には家族あての遺書が発見された。死体検案(検案日時:5月1日午前10時30分)の結果は次の通りであった。身長170cm, 体重60kg。死後硬直は大関節, 足関節, 手指および足指はいずれも高度であった。 死斑は暗紫赤色で下半身に強く認められたが, 指圧で強く押すと消退した。角膜の混濁は中等度で, 眼結膜は蒼白で溢血点を認めなかった。頚部では舌骨と甲状軟骨の間で索状物による索溝を一条認め, 左右側頚部では後上方に進ん で下顎角の内側後部を通り, 乳様突起のところで皮膚を離れていた。索溝は前頚部で最も強い。直腸温は25度であった。(室温20度)',
-          answer: '',
-          commentary: ''
+          answer: '直接死因： 窒息(短時間) ← 縊頸(同上)。　影響を及ぼしたそのほかの傷病：なし',
+          commentary: '首吊りを法医学的には縊頸という。 死因ではなく死に様なので、直接死因ではない。'
         },
         {
           questionImg: [certificateCauseType],
@@ -1332,6 +1336,7 @@ export const useQuestionList = () => {
             questionImg: [certificateDeathTime],
             questionSentence: 'In the following case (Case 1), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Shin Hayata (Male) Address: 1-2-3 Nara Town, Daibutsu City, Nara Prefecture Date of Birth: October 10, 1935 On the evening of December 22, 2021, around 8:00 p.m., Shin Hayata suddenly experienced severe back pain and complained to his family, saying, "It hurts, it hurts." After watching for a while, his consciousness became clouded and showed no signs of improvement, so an ambulance was called. The ambulance arrived at 9:05 p.m. At this time, he was in cardiopulmonary arrest but was transported to Monomane Hospital (2-2-1 Dame Town, Marude City, Nara Prefecture) where Dr. Takeshi Hongo performed resuscitation, and his heartbeat was restored at 9:20 p.m. However, despite treatment, he died at 10:10 p.m. Postmortem CT revealed aortic dissection and cardiac tamponade. Mild abrasions were observed on the cheek. Since the situation before his death was unclear, Dr. Hongo reported it to the police. Dr. Hongo conducted an autopsy during the police inspection. Based on the circumstances and the family’s account, it was concluded that there was no sign of medication and that he had been treated for hypertension and angina for 10 years, so there was no criminal involvement, and Dr. Hongo was requested to issue a death certificate (postmortem certificate).',
             answer: 'Death certificate Estimated time of death: 10:10 p.m.',
+            answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
             commentary: '【原文問題文】以下の事例(事例1)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死亡診断書 死亡時刻は午後10時10分 病院で心拍が再開した→医師が看取ったことになる',
         },
         {
@@ -1362,6 +1367,7 @@ export const useQuestionList = () => {
             questionImg: [certificateDeathTime],
             questionSentence: 'In the following case (Case 2), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Dan Morohoshi (Male) Current Address: 123 Ishida Town, Inyo City, Nara Prefecture Date of Birth: August 8, 1975 Due to work fatigue, Dan Morohoshi turned to stimulants. He wrapped the stimulant powder in aluminum foil, heated it with fire, and inhaled it, a method known as "aburi." After inhaling, his head felt clear and his fatigue vanished. Initially, he inhaled once or twice a month, but at his wife\'s suggestion, he switched to intravenous injection for better effects. On October 7, 2021, at 8:00 p.m., Dan checked into a hotel (Room 222, Sukkiri Hotel, 2-2-2 Genkaku Town, Kakusei City, Nara Prefecture). Though slightly anxious about his first intravenous injection, he dissolved the stimulant in water and injected it into his vein in the early morning of October 8. Shortly after, his body became hot, and his consciousness clouded. By 10:00 a.m. on October 8, the hotel staff, suspicious that he hadn\'t checked out, found him lying face down, cold to the touch. The paramedics arrived but found him already in rigor mortis and did not transport him to the hospital but reported it to the police. During the police inspection at 11:00 a.m., syringes and white powder were found in the room, and a judicial autopsy was decided. The autopsy was conducted by Dr. Hayato Ichimonji of the Department of Forensic Medicine, Kashihara Medical University, from 1:00 p.m. on October 8, 2021. [Autopsy Findings] Rigor mortis was advanced in the major joints and moderate in the joints of the hands and feet. Livor mortis was dark purple and prominent on the back, not easily faded by pressure but faded when pressed hard. Corneal clouding was mild to moderate, and the pupils were of equal size. Rectal temperature at 1:00 p.m. on October 8 was 31°C (room temperature was 20°C). Congestion was strong in all organs, the blood in the heart was fluid, and petechiae were observed in the pericardium, renal pelvis mucosa, and pleura, indicating signs of sudden death. Lethal levels of stimulants were detected in the blood.',
             answer: 'Postmortem certificate Estimated time of death: around 3:00 a.m. on the 8th',
+            answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
             commentary: '【原文問題文】以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。 【原文解答】死体検案書 死亡時刻は8日午前3時頃(推定) 午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する',
         },
         {
