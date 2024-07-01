@@ -1,3 +1,10 @@
+import forensic2017q2 from './img/answer/forensic2017q2.png';
+import forensic2017q3 from './img/answer/forensic2017q3.png';
+import forensic2017q4 from './img/answer/forensic2017q4.png';
+import forensic2017q5 from './img/answer/forensic2017q5.png';
+import forensic2017q10 from './img/answer/forensic2017q10.png';
+import forensic2017q1b from './img/answer/forensic2017q1b.png';
+import forensic2017q1a from './img/answer/forensic2017q1a.png';
 import defferenceOfCertification_1 from './img/answer/defferenceOfCertification_1.png';
 import defferenceOfCertification_2 from './img/answer/defferenceOfCertification_2.png';
 import forensicQuestion6_28_3_2 from './img/answer/forensicQuestion6_28_3_2.png';
@@ -876,6 +883,239 @@ export const useQuestionList = () => {
           commentary: '1.医師が出生証明書を作成することができるのか? できない'
         }
       ]
+    },{
+      groupTag: '法医学 2017本 長文以外',
+      groupContents: [
+        {
+          questionImg: [forensic2017q1a],
+          questionSentence: '問題1. 次の設問に答えよ。 1. 写真1は後頭部右側を打撲し、病院に搬送されたときの写真である。 1) 写真1ーaは右耳介後部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q1b],
+          questionSentence: '2) 写真1ーbは左右眼窩部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q2],
+          questionSentence: '2. 写真2からどのような死因が考えられるか。またその理由を記載しなさい。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q3],
+          questionSentence: '3. 写真3は胃粘膜に認められる所見である。この粘膜の所見を何というか。また最も考えられる死因は何か。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q4],
+          questionSentence: '4. 写真4に見られる血腫を何というか。またどのような名称の血管の損傷が考えられるか。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q5],
+          questionSentence: '5. 写真5において口腔内からでている白い泡状液を何というか。またどのような',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。医師法第21条には、（1．　　　　　　　）等の届け出義務が書かれている。すなわち（2．　　）は死体伹は妊娠（3．　）ヶ月以上の（4．　　　　　　）を検案して異状があると認めたときは、（5．　　）時間以内に（6．　　　　　　）に届け出なければならないと書かれている。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。溺死の死体所見は指、手掌、足底部などの皮膚に（7．　　　　　　　）の形成がみられる。解剖すると肺は溺死肺を認める。溺死肺とは肺が（8．　　　　　）し、水性（9．　　）、水性（10．　　　）、（11．　　　　　）斑がみられることをいう。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から（12．　　　　　　）という方法で（13．　　　）を証明することである。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。焼死にみられる死体所見のうち、外表所見で生活反応と考えられる所見は死斑が（14．　　　　　）を示し、（15．　　　　　　）度のの熱傷を認めることである。また解剖して血液や諸臓器が（16．　　　　）を示し、気管、気管支に（17．　　　　　　）が多量に存在し、ガスクロマトグラフ法で血液から（18．　　　　）を証明できれば焼死と診断できる。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。焼死の死因として考えられる機序には大きく４つ（19．　　　　　　）、（20．　　　　　　）、（21．　　　　　）、（22．　　　　　　）がある。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを（23．　　　　　）とよび、また棒で殴られた時には同側に脳挫傷ができ、これを（24．　　　　　）とよぶ。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。鈍器損傷において挫創の創口の特徴は、創縁は（25．　　　）、創角は（26．　　　　　　）、創洞には（27．　　　　　）を伴っている。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。裂創も挫創と同じような所見を認めるが裂創は創縁に（28．　　　　　）を伴っていないのが挫創との鑑別に役に立つ。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。皮下出血は皮下組織の血管の損傷によって生じ、外力が加わった証拠であるが、それだけでなくその色の変化により（29．　　　　　　）が推定でき、また表皮剥脱もその性状から加わった力の（30．　　　　　　）が推定できる。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死と診断する場合は死因となる内因的な疾患や外傷などを否定した上で行われなければならないが、その皮膚の特徴として白く硬い胼胝状の（31．　　　　　　）と呼ばれる所見を見つけることが重要である。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死のような急死では、解剖所見として窒息・急死の３徴候として（32．　　　　　　）、（33．　　　　　）、（34．　　　　　　　）が認められる。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる（35．　　　　　　　）、運転者にみられる損傷として（36．　　　　　　　）による膝部の損傷、（37．　　　　　　　）や（38．　　　　　　　　）による胸腹部の損傷があり、また路上に寝ているところを轢過された場合に皮膚と筋膜の間が剥離し、ポケット状になる（39．　　　　　　）が認められる。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。白骨化した頭蓋骨において性別の判定は重要であるが、男性は女性に比べて一見して、頑強で筋付着部の凹凸が著名でごつごつした感じがし、眉弓、眉間は著明な隆起を認めるが、前頭結節の発育は（40．　　　　　　　　）く、乳様突起の発育は（41．　　　　）く、外後頭隆起の発達は（42．　　　　　　）。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 帯縁褐色の死斑（　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 強い縮瞳（　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 胃内容のニンニク臭（　　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 凝固壊死（　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 急性腸炎（米のとぎ汁様便）（　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。 アーモンド臭（　　　　　　　　）',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題4. 絞殺時に見られる顔面の生活反応を列記しなさい。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (1)早期死体現象はどれか。 a．皮膚の網目模様の変色 b．腐敗水泡 c．腹部の緑色性変化 d．角膜の混濁 e．巨人様顔貌',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (2)刺創について正しいのはどれか。２つ選べ。',
+          choices: ['a．創縁は整である。', 'b．創洞には組織架橋を伴っている。', 'c．創底までの長さは接着長より長い。', 'd．鈍器損傷である。', 'e．創角は鈍である。'],
+          answer: '',
+
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (3)自動車に轢過されたとき、表皮に小さい波形の裂け目が多く認められ、伸展創といわれる損傷ができることがある。どの部位にできやすいか。',
+          choices: ['a．鼠径部', 'b．仙骨部', 'c．上腕の外側面', 'd．前頭部', 'e．下腿部'],
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (4)次の損傷のうちで鈍器による作用では形成されないものはどれか。 ',
+          choices: ['a．割創', 'b．挫創', 'c．皮下出血', 'd．骨折', 'e．表皮剥脱'],
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (5)異状死体と考えられるのはどれか。３つ選べ。',
+          choices: ['a．転倒して頭部を打撲し、硬膜外血腫で死亡した', 'b．風邪をこじらせて入院中、肺炎で死亡した', 'c．末期の肺癌で自宅療養していたが、かかりつけの医師の最後の診察２日後に肺癌による呼吸不全で死亡した。', 'd．救急で運ばれてきた患者が、診断がつかないまま死亡した', 'e．生来、健康であったが、自宅で死亡して発見された'],
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題5. 設問に答えなさい。 (6)燃焼血腫について、正しいものはどれか。 ',
+          choices: ['a．生前に生じた硬膜外血腫が褐色調に熱変化したもの。', 'b．生前に生じた硬膜下血腫が褐色調に熱変化したもの。', 'c．死後に硬膜外に血腫が生じ、特に頭部のよく焼けた部位に一致する。', 'd．硬膜側に膠着し、断面は紡錘状である。', 'e．頭蓋骨内板に膠着し、断面は不定塊状で中心部はレンガ様赤色のものが多い。'],
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待防止法によると、児童虐待は、（　　　　　）・（　　　　　）・（　　　　　）・（　　　　　　）の４つに分類されている。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待の加害者として最も多いのは（　　　　　）である。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待を受けたと思われる児童を発見した場合、（　　　　　　　）あるいは（　　　　　　　）へ通告しなければならない。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待児童の解剖所見として、（　　　　）が退縮していることが多い。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。厚生労働省によるSIDSの定義は、それまでの健康状態および既往歴から、その死が予測できず、しかも（　　　　　　　　）および（　　　　　　）によってもその原因が同定されない、原則として１歳未満の児に死をもたらした症候群とされている。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題9. 嬰児の解剖において、生産児と死産児を鑑別するために有用な鑑別所見および検査について、知るところを記述しなさい。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionImg: [forensic2017q10],
+          questionSentence: '問題10. 図はDNA分析により親子鑑定を行ったものである。あるマイクロサテライト領域をPCR増幅し、これを電気泳動した泳動像である。この結果から、擬父と父子関係が否定されるのはいずれの子供であるか、番号を〇で囲め。ただし母はすべての子供の実母とする。 a．子供１ b．子供２ c．子供３ d．子供４ e．子供５',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題11. DNA多型検出法について、A欄の検出方法についての説明に合致するものをB欄より、その方法の原理をC欄より選べ。 A欄 １．STR AMP-FLP ２．PCR-SSCP ３．PCR-SSO B欄 ①縦列繰り返し配列の繰り返し回数を調べる方法。 ②調べたい遺伝子領域にどのような多型が存在するか、あるいは多型が存在するかどうかが不明 な時に用いる方法。 ③１塩基置換の存在する可能性がすでに知られており、その塩基配列が解明されている部位について調べる方法。 C欄 a．配列特異的プローブ b．一本鎖DNA高次構造 c．増幅断片の長さ',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ①（　　　　　　　）DNAは母性由来であり、父子鑑定には使えないがDNAが短く、細胞内の（　　　　　　　）が非常に多いためミイラ等、DNAがかなり崩壊している資料にも用いられる。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ②DNAを用いた性別判定は（　　　　　　　）遺伝子を増幅し、泳動することにより行われる。この遺伝子はXとY染色体両方に存在するがその長さが異なることから、同一のプライマーで同時に増幅し、増幅産物の断片長で性別を識別する。',
+          answer: '',
+          commentary: ''
+        },
+        {
+          questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ③一塩基多型を（　　　　）と呼び、数塩基の繰り返し配列を（　　　　　　　　　）と呼ぶ。',
+          answer: '',
+          commentary: ''
+        }
+      ]
+      
     },
     {
       groupTag: '法医学 2022本 ~問題6',
@@ -1326,7 +1566,7 @@ export const useQuestionList = () => {
           questionImg: [certificateCauseType],
           questionSentence: '以下の事例(事例6)で死因の種類を選択しなさい。氏名：星 涼子（女）現住所：奈良県宇陀郡榛原町ひのき坂88番地生年月日：平成15年7月7日令和3年8月24日午後4時頃, 生まれてはじめての恋にうきうきしていた星涼子は喜びに頭もボーっとしながら, 国道0号線を歩いていた。何気なく左右を見て道路を横断しようとしたところ, 奈良県宇陀郡菟田野町山鳩1134番先路上にて右から来た西進中の普通乗用車にはねられ, 意識不明のまま山羊病院（奈良県宇陀郡菟田野町山羊3210番地）へ運ばれた。一時は意識を取り戻したものの蘇生のかいなく, 8月24日午後11時10分に死亡した。乗用車は逃走中であり, ひき逃げ事件として橿原医科大学法医学教室（奈良県橿原市医大前町1丁目1番1号）山本大介医師にて司法解剖が行われた。　[解剖所見] 令和3年8月25日午前10時での剖検結果は以下の通りである。外表に認められる主な損傷は, 右下腿外側部および右後大腿部に打撲擦過傷, 左右肩甲部, 腰部に擦過傷, さらに後頭部中央付近に挫創を伴う打撲擦過傷を認めた。その他体幹, 四肢に多数の表皮剥脱や皮下出血を認めた。内景所見では頭蓋冠は外後頭隆起のやや上を起点として, 左後頭骨から左側頭骨を前方向 に走る2本の線状骨折を認めた。頭蓋内では左側頭部硬膜外に約120 gの血腫を, また左右前 頭極底面を中心に皮質の点状出血を認めた。また左側頭葉下面にテント切痕ヘルニアを認め た。',
           answer: '2. 交通事故',
-          commentary: ''
+          commentary: '確証がない場合は、11. その他及び不祥の外傷とする'
         },
         {
           questionImg: [certificateAdditionalInfo],
@@ -1461,8 +1701,70 @@ export const useQuestionList = () => {
           questionSentence: 'In the following case (Case 4), record additional information, surgical history, or autopsy if applicable. Name: Yuko Minami (Female) Current Address: 1-1-1 Shijo Town, Kashihara City, Nara Prefecture Date of Birth: March 3, 1955 Yuko Minami was receiving outpatient treatment at Kashihara Hospital for angina pectoris due to coronary artery sclerosis. On the morning of April 30, 2021, she had a consultation with her primary physician, Dr. Joji Yuki, and appeared to be in good spirits. On the same day, around 7:00 p.m., after having dinner with her family at home, she went up to her room on the second floor. The next morning, May 1, at 8:00 a.m., when she did not come down for breakfast, her husband went upstairs to check on her and found her hanging by a packing rope from the ceiling beam, using a chair as a stepping stool. He immediately called Dr. Joji Yuki, who came and lowered her (at 9:00 a.m. on May 1) but she was already deceased. A suicide note addressed to her family was found on the desk. The results of the postmortem examination (conducted at 10:30 a.m. on May 1) were as follows: Height 170 cm, weight 60 kg. Rigor mortis was pronounced in the major joints, foot joints, and finger and toe joints. Livor mortis was dark purple and pronounced in the lower body, but faded upon strong pressure. Corneal clouding was moderate, and the conjunctiva was pale without petechiae. A single ligature mark was observed on the neck, running between the hyoid bone and the thyroid cartilage, extending to the back of the jaw angle and leaving the skin at the mastoid process. The ligature mark was strongest on the front of the neck. Rectal temperature was 25°C (ambient temperature 20°C).',
           answer: 'Additional information for external cause of death: Found hanging by a packing rope from the ceiling beam at home. Suicide note present.',
           commentary: '【原文問題文】以下の事例(事例4)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。 【原文解答】外因死の追加事項: 自宅で天井の梁に荷造り用のロープをかけ縊頸しているのを発見されたという。 遺書あり。 現場の状況や、遺書の存在は 自殺か他殺かの判断に重要な情報となる。'
-        }
-      ]
+        },{
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 5), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Kotaro Higashi (Male) Current Address: 1567 Osumi, Oto Village, Hidaka District, Kagawa Prefecture Date of Birth: August 10, 1945 Keisuke Kami was dispatched to a clinic on Oto Island in the Seto Inland Sea. The island had a population of 500 with only one doctor, Shin Fukami. Though it was challenging to care for the health of the islanders alone, Keisuke Kami thought it was a rewarding task and came to the island. The islanders welcomed him warmly and held a party at a banquet hall (1123 Wazuka Village, Hidaka District, Kagawa Prefecture) to celebrate his arrival at Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture). The party started at around 8:00 p.m. on May 1, 2022, and Kotaro Higashi, a village council member and a known heavy drinker, had unknowingly consumed almost a liter of sake. At around 9:00 p.m., Kotaro Higashi’s face turned pale, he vomited, and his consciousness became clouded. Realizing the seriousness, Keisuke Kami took Kotaro Higashi to the clinic and administered IV treatment, but he passed away at 11:10 p.m. on May 1. His medical history included alcoholic liver damage. A blood test revealed an alcohol level of 4.5 mg/mL. Keisuke Kami reported the incident to the police, and since there was no suspicion of foul play, he was asked to issue a death certificate or a postmortem certificate. The results of the postmortem examination at 1:00 a.m. on May 2 are as follows: No external injuries were observed, and rigor mortis was moderate in the jaw joints but not present in other major joints. Livor mortis was very light and dark purple on the back, fading easily upon pressure. Corneal clouding was slight, and the pupils were of equal size. Rectal temperature was 36°C, and room temperature was 22°C.',
+          answer: 'Death certificate, Time of death: 11:10 p.m. on May 1, 2022',
+          answerImg: [defferenceOfCertification_1, defferenceOfCertification_2],
+          commentary: '【解答日本語】 死亡診断書、 死亡時刻は令和4年5月1日午後11時10分'
+        },
+        {
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 5), explain the place and type of death. Name: Kotaro Higashi (Male) Current Address: 1567 Osumi, Oto Village, Hidaka District, Kagawa Prefecture Date of Birth: August 10, 1945 Keisuke Kami was dispatched to a clinic on Oto Island in the Seto Inland Sea. The island had a population of 500 with only one doctor, Shin Fukami. Though it was challenging to care for the health of the islanders alone, Keisuke Kami thought it was a rewarding task and came to the island. The islanders welcomed him warmly and held a party at a banquet hall (1123 Wazuka Village, Hidaka District, Kagawa Prefecture) to celebrate his arrival at Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture). The party started at around 8:00 p.m. on May 1, 2022, and Kotaro Higashi, a village council member and a known heavy drinker, had unknowingly consumed almost a liter of sake. At around 9:00 p.m., Kotaro Higashi’s face turned pale, he vomited, and his consciousness became clouded. Realizing the seriousness, Keisuke Kami took Kotaro Higashi to the clinic and administered IV treatment, but he passed away at 11:10 p.m. on May 1. His medical history included alcoholic liver damage. A blood test revealed an alcohol level of 4.5 mg/mL. Keisuke Kami reported the incident to the police, and since there was no suspicion of foul play, he was asked to issue a death certificate or a postmortem certificate. The results of the postmortem examination at 1:00 a.m. on May 2 are as follows: No external injuries were observed, and rigor mortis was moderate in the jaw joints but not present in other major joints. Livor mortis was very light and dark purple on the back, fading easily upon pressure. Corneal clouding was slight, and the pupils were of equal size. Rectal temperature was 36°C, and room temperature was 22°C.',
+          answer: 'Place of death: Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture), Type: 2. Clinic',
+          commentary: '【解答日本語】 死亡したところ：飛鳥診療所（香川県日高郡和束村1522番地）、種別：2. 診療所'
+        },
+        {
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 5), describe the cause of death. Name: Kotaro Higashi (Male) Current Address: 1567 Osumi, Oto Village, Hidaka District, Kagawa Prefecture Date of Birth: August 10, 1945 Keisuke Kami was dispatched to a clinic on Oto Island in the Seto Inland Sea. The island had a population of 500 with only one doctor, Shin Fukami. Though it was challenging to care for the health of the islanders alone, Keisuke Kami thought it was a rewarding task and came to the island. The islanders welcomed him warmly and held a party at a banquet hall (1123 Wazuka Village, Hidaka District, Kagawa Prefecture) to celebrate his arrival at Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture). The party started at around 8:00 p.m. on May 1, 2022, and Kotaro Higashi, a village council member and a known heavy drinker, had unknowingly consumed almost a liter of sake. At around 9:00 p.m., Kotaro Higashi’s face turned pale, he vomited, and his consciousness became clouded. Realizing the seriousness, Keisuke Kami took Kotaro Higashi to the clinic and administered IV treatment, but he passed away at 11:10 p.m. on May 1. His medical history included alcoholic liver damage. A blood test revealed an alcohol level of 4.5 mg/mL. Keisuke Kami reported the incident to the police, and since there was no suspicion of foul play, he was asked to issue a death certificate or a postmortem certificate. The results of the postmortem examination at 1:00 a.m. on May 2 are as follows: No external injuries were observed, and rigor mortis was moderate in the jaw joints but not present in other major joints. Livor mortis was very light and dark purple on the back, fading easily upon pressure. Corneal clouding was slight, and the pupils were of equal size. Rectal temperature was 36°C, and room temperature was 22°C.',
+          answer: 'Immediate cause of death: Acute alcohol poisoning (about 2 hours), Other conditions contributing: Alcoholic liver damage (unspecified)',
+          commentary: '【解答日本語】 急性アルコール中毒(約2時間) 、影響を及ぼしたそのほかの傷病：アルコール性肝障害(不祥)'
+        },
+        {
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 5), select the type of cause of death. Name: Kotaro Higashi (Male) Current Address: 1567 Osumi, Oto Village, Hidaka District, Kagawa Prefecture Date of Birth: August 10, 1945 Keisuke Kami was dispatched to a clinic on Oto Island in the Seto Inland Sea. The island had a population of 500 with only one doctor, Shin Fukami. Though it was challenging to care for the health of the islanders alone, Keisuke Kami thought it was a rewarding task and came to the island. The islanders welcomed him warmly and held a party at a banquet hall (1123 Wazuka Village, Hidaka District, Kagawa Prefecture) to celebrate his arrival at Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture). The party started at around 8:00 p.m. on May 1, 2022, and Kotaro Higashi, a village council member and a known heavy drinker, had unknowingly consumed almost a liter of sake. At around 9:00 p.m., Kotaro Higashi’s face turned pale, he vomited, and his consciousness became clouded. Realizing the seriousness, Keisuke Kami took Kotaro Higashi to the clinic and administered IV treatment, but he passed away at 11:10 p.m. on May 1. His medical history included alcoholic liver damage. A blood test revealed an alcohol level of 4.5 mg/mL. Keisuke Kami reported the incident to the police, and since there was no suspicion of foul play, he was asked to issue a death certificate or a postmortem certificate. The results of the postmortem examination at 1:00 a.m. on May 2 are as follows: No external injuries were observed, and rigor mortis was moderate in the jaw joints but not present in other major joints. Livor mortis was very light and dark purple on the back, fading easily upon pressure. Corneal clouding was slight, and the pupils were of equal size. Rectal temperature was 36°C, and room temperature was 22°C.',
+          answer: '7. Poisoning',
+          commentary: '【解答日本語】 中毒'
+        },
+        {
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 5), record additional information, surgical history, or autopsy if applicable. Name: Kotaro Higashi (Male) Current Address: 1567 Osumi, Oto Village, Hidaka District, Kagawa Prefecture Date of Birth: August 10, 1945 Keisuke Kami was dispatched to a clinic on Oto Island in the Seto Inland Sea. The island had a population of 500 with only one doctor, Shin Fukami. Though it was challenging to care for the health of the islanders alone, Keisuke Kami thought it was a rewarding task and came to the island. The islanders welcomed him warmly and held a party at a banquet hall (1123 Wazuka Village, Hidaka District, Kagawa Prefecture) to celebrate his arrival at Asuka Clinic (1522 Wazuka Village, Hidaka District, Kagawa Prefecture). The party started at around 8:00 p.m. on May 1, 2022, and Kotaro Higashi, a village council member and a known heavy drinker, had unknowingly consumed almost a liter of sake. At around 9:00 p.m., Kotaro Higashi’s face turned pale, he vomited, and his consciousness became clouded. Realizing the seriousness, Keisuke Kami took Kotaro Higashi to the clinic and administered IV treatment, but he passed away at 11:10 p.m. on May 1. His medical history included alcoholic liver damage. A blood test revealed an alcohol level of 4.5 mg/mL. Keisuke Kami reported the incident to the police, and since there was no suspicion of foul play, he was asked to issue a death certificate or a postmortem certificate. The results of the postmortem examination at 1:00 a.m. on May 2 are as follows: No external injuries were observed, and rigor mortis was moderate in the jaw joints but not present in other major joints. Livor mortis was very light and dark purple on the back, fading easily upon pressure. Corneal clouding was slight, and the pupils were of equal size. Rectal temperature was 36°C, and room temperature was 22°C.',
+          answer: 'During a party, experienced sudden changes and was taken to the clinic but died.',
+          commentary: '【解答日本語】 宴会場で、宴会中に急変し、診療所に運ばれたが、死亡した。'
+        },
+        {
+          questionImg: [certificateDeathTime],
+          questionSentence: 'In the following case (Case 6), determine whether to issue a death certificate or a postmortem certificate, and estimate the time of death. Name: Ryoko Hoshi (Female) Current Address: 88 Hinokizaka, Haibara Town, Uda District, Nara Prefecture Date of Birth: July 7, 2003 At around 4:00 p.m. on August 24, 2021, Ryoko Hoshi was walking along National Route 0, feeling excited about her first love and somewhat absent-minded. She looked left and right casually and started to cross the road when she was hit by a car coming from the right heading west on the road at 1134 Yamabato, Udano Town, Uda District, Nara Prefecture. She was taken unconscious to Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture). Although she briefly regained consciousness, she eventually died at 11:10 p.m. on August 24. The car fled the scene, and it was treated as a hit-and-run case. An autopsy was performed by Dr. Daisuke Yamamoto of the Forensic Medicine Department of Kashihara Medical University (1-1-1 Idamae Town, Kashihara City, Nara Prefecture). [Autopsy Findings] The autopsy results at 10:00 a.m. on August 25, 2021, are as follows: The main external injuries observed were contusions and abrasions on the outer side of the right lower leg and the back of the right thigh, abrasions on both shoulder blades and the lower back, and a contused laceration on the central area of the back of the head. Numerous epidermal abrasions and subcutaneous hemorrhages were observed on the trunk and limbs. Internal findings included two linear fractures starting slightly above the external occipital protuberance and running forward from the left occipital bone to the left temporal bone. Inside the skull, about 120 g of hematoma was observed in the left temporal epidural space, and petechial hemorrhages were observed mainly at the base of both frontal poles. A tentorial notch herniation was also observed on the underside of the left temporal lobe.',
+          answer: 'Postmortem certificate, Time of death: 11:10 p.m. on August 24',
+          answerImg: [defferenceOfCertification_1, defferenceOfCertification_2],
+          commentary: '【解答日本語】 死体検案書、 死亡時刻は8月24日午後11時10分'
+        },
+        {
+          questionImg: [certificatePlace],
+          questionSentence: 'In the following case (Case 6), explain the place and type of death. Name: Ryoko Hoshi (Female) Current Address: 88 Hinokizaka, Haibara Town, Uda District, Nara Prefecture Date of Birth: July 7, 2003 At around 4:00 p.m. on August 24, 2021, Ryoko Hoshi was walking along National Route 0, feeling excited about her first love and somewhat absent-minded. She looked left and right casually and started to cross the road when she was hit by a car coming from the right heading west on the road at 1134 Yamabato, Udano Town, Uda District, Nara Prefecture. She was taken unconscious to Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture). Although she briefly regained consciousness, she eventually died at 11:10 p.m. on August 24. The car fled the scene, and it was treated as a hit-and-run case. An autopsy was performed by Dr. Daisuke Yamamoto of the Forensic Medicine Department of Kashihara Medical University (1-1-1 Idamae Town, Kashihara City, Nara Prefecture). [Autopsy Findings] The autopsy results at 10:00 a.m. on August 25, 2021, are as follows: The main external injuries observed were contusions and abrasions on the outer side of the right lower leg and the back of the right thigh, abrasions on both shoulder blades and the lower back, and a contused laceration on the central area of the back of the head. Numerous epidermal abrasions and subcutaneous hemorrhages were observed on the trunk and limbs. Internal findings included two linear fractures starting slightly above the external occipital protuberance and running forward from the left occipital bone to the left temporal bone. Inside the skull, about 120 g of hematoma was observed in the left temporal epidural space, and petechial hemorrhages were observed mainly at the base of both frontal poles. A tentorial notch herniation was also observed on the underside of the left temporal lobe.',
+          answer: 'Place of death: Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture), Type: 1. Hospital',
+          commentary: '【解答日本語】 死亡したところ：山羊病院（奈良県宇陀郡菟田野町山羊3210番地）、種別：1. 病院'
+        },
+        {
+          questionImg: [certificateCause],
+          questionSentence: 'In the following case (Case 6), describe the cause of death. Name: Ryoko Hoshi (Female) Current Address: 88 Hinokizaka, Haibara Town, Uda District, Nara Prefecture Date of Birth: July 7, 2003 At around 4:00 p.m. on August 24, 2021, Ryoko Hoshi was walking along National Route 0, feeling excited about her first love and somewhat absent-minded. She looked left and right casually and started to cross the road when she was hit by a car coming from the right heading west on the road at 1134 Yamabato, Udano Town, Uda District, Nara Prefecture. She was taken unconscious to Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture). Although she briefly regained consciousness, she eventually died at 11:10 p.m. on August 24. The car fled the scene, and it was treated as a hit-and-run case. An autopsy was performed by Dr. Daisuke Yamamoto of the Forensic Medicine Department of Kashihara Medical University (1-1-1 Idamae Town, Kashihara City, Nara Prefecture). [Autopsy Findings] The autopsy results at 10:00 a.m. on August 25, 2021, are as follows: The main external injuries observed were contusions and abrasions on the outer side of the right lower leg and the back of the right thigh, abrasions on both shoulder blades and the lower back, and a contused laceration on the central area of the back of the head. Numerous epidermal abrasions and subcutaneous hemorrhages were observed on the trunk and limbs. Internal findings included two linear fractures starting slightly above the external occipital protuberance and running forward from the left occipital bone to the left temporal bone. Inside the skull, about 120 g of hematoma was observed in the left temporal epidural space, and petechial hemorrhages were observed mainly at the base of both frontal poles. A tentorial notch herniation was also observed on the underside of the left temporal lobe.',
+          answer: 'Immediate cause of death: Acute epidural hematoma (about 7 hours) ← Skull fracture (same) ← Head contusion (same), Other conditions contributing: Bilateral frontal lobe brain contusion (same)',
+          commentary: '【解答日本語】 急性硬膜外血腫(約7時間) ← 頭蓋骨骨折(同上) ← 後頭部打撲(同上) 、影響を及ぼしたそのほかの傷病：左右前頭葉脳挫傷(同上)'
+        },
+        {
+          questionImg: [certificateCauseType],
+          questionSentence: 'In the following case (Case 6), select the type of cause of death. Name: Ryoko Hoshi (Female) Current Address: 88 Hinokizaka, Haibara Town, Uda District, Nara Prefecture Date of Birth: July 7, 2003 At around 4:00 p.m. on August 24, 2021, Ryoko Hoshi was walking along National Route 0, feeling excited about her first love and somewhat absent-minded. She looked left and right casually and started to cross the road when she was hit by a car coming from the right heading west on the road at 1134 Yamabato, Udano Town, Uda District, Nara Prefecture. She was taken unconscious to Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture). Although she briefly regained consciousness, she eventually died at 11:10 p.m. on August 24. The car fled the scene, and it was treated as a hit-and-run case. An autopsy was performed by Dr. Daisuke Yamamoto of the Forensic Medicine Department of Kashihara Medical University (1-1-1 Idamae Town, Kashihara City, Nara Prefecture). [Autopsy Findings] The autopsy results at 10:00 a.m. on August 25, 2021, are as follows: The main external injuries observed were contusions and abrasions on the outer side of the right lower leg and the back of the right thigh, abrasions on both shoulder blades and the lower back, and a contused laceration on the central area of the back of the head. Numerous epidermal abrasions and subcutaneous hemorrhages were observed on the trunk and limbs. Internal findings included two linear fractures starting slightly above the external occipital protuberance and running forward from the left occipital bone to the left temporal bone. Inside the skull, about 120 g of hematoma was observed in the left temporal epidural space, and petechial hemorrhages were observed mainly at the base of both frontal poles. A tentorial notch herniation was also observed on the underside of the left temporal lobe.',
+          answer: '2. Traffic accident',
+          commentary: '【解答日本語】 交通事故'
+        },
+        {
+          questionImg: [certificateAdditionalInfo],
+          questionSentence: 'In the following case (Case 6), record additional information, surgical history, or autopsy if applicable. Name: Ryoko Hoshi (Female) Current Address: 88 Hinokizaka, Haibara Town, Uda District, Nara Prefecture Date of Birth: July 7, 2003 At around 4:00 p.m. on August 24, 2021, Ryoko Hoshi was walking along National Route 0, feeling excited about her first love and somewhat absent-minded. She looked left and right casually and started to cross the road when she was hit by a car coming from the right heading west on the road at 1134 Yamabato, Udano Town, Uda District, Nara Prefecture. She was taken unconscious to Yagi Hospital (3210 Yagi, Udano Town, Uda District, Nara Prefecture). Although she briefly regained consciousness, she eventually died at 11:10 p.m. on August 24. The car fled the scene, and it was treated as a hit-and-run case. An autopsy was performed by Dr. Daisuke Yamamoto of the Forensic Medicine Department of Kashihara Medical University (1-1-1 Idamae Town, Kashihara City, Nara Prefecture). [Autopsy Findings] The autopsy results at 10:00 a.m. on August 25, 2021, are as follows: The main external injuries observed were contusions and abrasions on the outer side of the right lower leg and the back of the right thigh, abrasions on both shoulder blades and the lower back, and a contused laceration on the central area of the back of the head. Numerous epidermal abrasions and subcutaneous hemorrhages were observed on the trunk and limbs. Internal findings included two linear fractures starting slightly above the external occipital protuberance and running forward from the left occipital bone to the left temporal bone. Inside the skull, about 120 g of hematoma was observed in the left temporal epidural space, and petechial hemorrhages were observed mainly at the base of both frontal poles. A tentorial notch herniation was also observed on the underside of the left temporal lobe.',
+          answer: 'While crossing the national highway, she was hit by a car and taken to the hospital but died. Autopsy performed.',
+          commentary: '【解答日本語】 国道を横断しようとしたところ、普通乗用車にはねられ病院に搬送されたが、死亡したという。 解剖あり。'
+        },
+        ]
+        
 
     },
     {

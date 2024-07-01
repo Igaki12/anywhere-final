@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.fc7c33db.js",
+    "main.js": "/anywhere-final/static/js/main.f947d861.js",
     "static/media/Q2_non_question_page_2.png": "/anywhere-final/static/media/Q2_non_question_page_2.7f77763159cc95414cdf.png",
     "static/media/Q3_non_question_page_3.png": "/anywhere-final/static/media/Q3_non_question_page_3.52cc27e863af713fcc3c.png",
     "static/media/forensic2022a6_3.png": "/anywhere-final/static/media/forensic2022a6_3.5231910efb63c90c9488.png",
@@ -68,14 +68,17 @@
     "static/media/adenomyosis2.png": "/anywhere-final/static/media/adenomyosis2.d4b933118eb18c7e8e2e.png",
     "static/media/peri22a9.png": "/anywhere-final/static/media/peri22a9.112f42676c3b92db54cc.png",
     "static/media/peri2021q13.png": "/anywhere-final/static/media/peri2021q13.607ae06aa255dcb052d5.png",
+    "static/media/forensic2017q4.png": "/anywhere-final/static/media/forensic2017q4.c3a5415b11ad59a1e780.png",
     "static/media/forensicSlide3page24.png": "/anywhere-final/static/media/forensicSlide3page24.4d58c5650ac2b959ed93.png",
     "static/media/pedi22a39_1.png": "/anywhere-final/static/media/pedi22a39_1.3edfbe1179d0d609e6af.png",
     "static/media/certificate2_1.png": "/anywhere-final/static/media/certificate2_1.037f5437ea83204f0368.png",
+    "static/media/forensic2017q2.png": "/anywhere-final/static/media/forensic2017q2.6a6e4cbabea28402fac0.png",
     "static/media/forensic2022a3_2.png": "/anywhere-final/static/media/forensic2022a3_2.032f88f24da0787245e5.png",
     "static/media/peri2021q14.png": "/anywhere-final/static/media/peri2021q14.822777ef426e8e5a6e66.png",
     "static/media/forensicSlide1page22.png": "/anywhere-final/static/media/forensicSlide1page22.288812cace2b12126dec.png",
     "static/media/peri22a15.png": "/anywhere-final/static/media/peri22a15.3108c39c035b98ed698f.png",
     "static/media/peri2021q17.png": "/anywhere-final/static/media/peri2021q17.9fcba34bf2da061f9a49.png",
+    "static/media/forensic2017q5.png": "/anywhere-final/static/media/forensic2017q5.befc522c3cecf024a34b.png",
     "static/media/peri2021q9.png": "/anywhere-final/static/media/peri2021q9.5e40d2c5bc7592380079.png",
     "static/media/peri2021q33.png": "/anywhere-final/static/media/peri2021q33.4532b5d8fb39cdb12237.png",
     "static/media/pedi22a33_2.png": "/anywhere-final/static/media/pedi22a33_2.c861e5bd54a5237dc830.png",
@@ -90,6 +93,7 @@
     "static/media/pedi22a12.png": "/anywhere-final/static/media/pedi22a12.f283da338563a2fcc380.png",
     "static/media/pedi22a44_3.png": "/anywhere-final/static/media/pedi22a44_3.7fc80689e9cd4cac059c.png",
     "static/media/peri22a2.png": "/anywhere-final/static/media/peri22a2.1674f578110d3d9ca945.png",
+    "static/media/forensic2017q3.png": "/anywhere-final/static/media/forensic2017q3.0bae94b17e591bf5afd4.png",
     "static/media/Q7_non_question_page_4.png": "/anywhere-final/static/media/Q7_non_question_page_4.bbb4bc85823ca58c2157.png",
     "static/media/peri22q26.png": "/anywhere-final/static/media/peri22q26.1db85fd0684477ed911f.png",
     "static/media/forensicSlide1page3.png": "/anywhere-final/static/media/forensicSlide1page3.e848f44a4c91bb2faf8c.png",
@@ -107,6 +111,7 @@
     "static/media/pedi22a50.png": "/anywhere-final/static/media/pedi22a50.31c6cb272178f59b3939.png",
     "static/media/peri22a34_1.png": "/anywhere-final/static/media/peri22a34_1.c85300026771333ea682.png",
     "static/media/pedi22a31.png": "/anywhere-final/static/media/pedi22a31.5a31e839c597c04545fe.png",
+    "static/media/forensic2017q1a.png": "/anywhere-final/static/media/forensic2017q1a.0eeb10164a199864dac0.png",
     "static/media/peri2021q3_2.png": "/anywhere-final/static/media/peri2021q3_2.258e59cfe562a5f89ce3.png",
     "static/media/gynecologyQ15.png": "/anywhere-final/static/media/gynecologyQ15.d833b60abcf641d55f57.png",
     "static/media/normalFetalPosition.png": "/anywhere-final/static/media/normalFetalPosition.97ffbf079b2a96a89e03.png",
@@ -115,6 +120,7 @@
     "static/media/forensicQuestion6_28_3_2.png": "/anywhere-final/static/media/forensicQuestion6_28_3_2.a2523edd3fb2fa79258f.png",
     "static/media/peri22a29.png": "/anywhere-final/static/media/peri22a29.570b7fa6acb3d702a0f2.png",
     "static/media/pedi22a14.png": "/anywhere-final/static/media/pedi22a14.27ed916abe68679d179a.png",
+    "static/media/forensic2017q1b.png": "/anywhere-final/static/media/forensic2017q1b.d97f8997c5b9980b5c91.png",
     "static/media/pedi22a13_3.png": "/anywhere-final/static/media/pedi22a13_3.a564ee577466dc318480.png",
     "static/media/pedi22a44_1.png": "/anywhere-final/static/media/pedi22a44_1.b74593888400f26a0085.png",
     "static/media/peri22a31_2.png": "/anywhere-final/static/media/peri22a31_2.2d8ccef49313aba2a27f.png",
@@ -210,6 +216,7 @@
     "static/media/peri2021q5.png": "/anywhere-final/static/media/peri2021q5.55c140bc7bcaa5aeb760.png",
     "static/media/forensicSlide7page31.png": "/anywhere-final/static/media/forensicSlide7page31.ba565e9dce4cefc83fca.png",
     "static/media/forensicSlide4page36.png": "/anywhere-final/static/media/forensicSlide4page36.c53d9a8bce47d2327850.png",
+    "static/media/forensic2017q10.png": "/anywhere-final/static/media/forensic2017q10.2e5a226dc80854a5b3d4.png",
     "static/media/forensicSlide4page28.png": "/anywhere-final/static/media/forensicSlide4page28.494052a0685fcd3da4d1.png",
     "static/media/pedi22a18_1.png": "/anywhere-final/static/media/pedi22a18_1.535cff80db527444a3c5.png",
     "static/media/pedi22a2_1.png": "/anywhere-final/static/media/pedi22a2_1.beaf0492ad89e35268cc.png",
@@ -222,10 +229,10 @@
     "static/media/peri2021q18_2.png": "/anywhere-final/static/media/peri2021q18_2.0888cedb2d1c8f1be713.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.fc7c33db.js.map": "/anywhere-final/static/js/main.fc7c33db.js.map"
+    "main.f947d861.js.map": "/anywhere-final/static/js/main.f947d861.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.fc7c33db.js"
+    "static/js/main.f947d861.js"
   ]
 }
