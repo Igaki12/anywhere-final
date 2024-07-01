@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-final/static/css/main.f6d056aa.css",
-    "main.js": "/anywhere-final/static/js/main.f947d861.js",
+    "main.js": "/anywhere-final/static/js/main.d86bd9d2.js",
     "static/media/Q2_non_question_page_2.png": "/anywhere-final/static/media/Q2_non_question_page_2.7f77763159cc95414cdf.png",
     "static/media/Q3_non_question_page_3.png": "/anywhere-final/static/media/Q3_non_question_page_3.52cc27e863af713fcc3c.png",
     "static/media/forensic2022a6_3.png": "/anywhere-final/static/media/forensic2022a6_3.5231910efb63c90c9488.png",
@@ -19,9 +19,11 @@
     "static/media/peri2021q24.png": "/anywhere-final/static/media/peri2021q24.63a063834d8bf5b17c4e.png",
     "static/media/peri2021q22.png": "/anywhere-final/static/media/peri2021q22.e66241ca221c65bc592c.png",
     "static/media/peri2021q11.png": "/anywhere-final/static/media/peri2021q11.f2587116507f05148255.png",
+    "static/media/forensic2017a1a.png": "/anywhere-final/static/media/forensic2017a1a.fda56b12911841a66a07.png",
     "static/media/peri2021q34.png": "/anywhere-final/static/media/peri2021q34.173431b6ba232dafa1d3.png",
     "static/media/pedi22a25.png": "/anywhere-final/static/media/pedi22a25.31f75df1be9218d18319.png",
     "static/media/peri22a37.png": "/anywhere-final/static/media/peri22a37.a5515721b026bfbcaf4c.png",
+    "static/media/forensic2017a1b.png": "/anywhere-final/static/media/forensic2017a1b.b82ff600c92222b6ee34.png",
     "static/media/peri2021q31_2.png": "/anywhere-final/static/media/peri2021q31_2.4a2791a163dc91f0ff58.png",
     "static/media/peri2021q10.png": "/anywhere-final/static/media/peri2021q10.b179a7f4f1a79dd55912.png",
     "static/media/peri22a10.png": "/anywhere-final/static/media/peri22a10.d71d57ae8276e0bcbb42.png",
@@ -74,6 +76,7 @@
     "static/media/certificate2_1.png": "/anywhere-final/static/media/certificate2_1.037f5437ea83204f0368.png",
     "static/media/forensic2017q2.png": "/anywhere-final/static/media/forensic2017q2.6a6e4cbabea28402fac0.png",
     "static/media/forensic2022a3_2.png": "/anywhere-final/static/media/forensic2022a3_2.032f88f24da0787245e5.png",
+    "static/media/forensicAssigmentQ6.png": "/anywhere-final/static/media/forensicAssigmentQ6.3fdb2c9252c69e27bf81.png",
     "static/media/peri2021q14.png": "/anywhere-final/static/media/peri2021q14.822777ef426e8e5a6e66.png",
     "static/media/forensicSlide1page22.png": "/anywhere-final/static/media/forensicSlide1page22.288812cace2b12126dec.png",
     "static/media/peri22a15.png": "/anywhere-final/static/media/peri22a15.3108c39c035b98ed698f.png",
@@ -99,8 +102,10 @@
     "static/media/forensicSlide1page3.png": "/anywhere-final/static/media/forensicSlide1page3.e848f44a4c91bb2faf8c.png",
     "static/media/peri22a20_3.png": "/anywhere-final/static/media/peri22a20_3.d71ac25342de70fd184e.png",
     "static/media/pedi22a5_2.png": "/anywhere-final/static/media/pedi22a5_2.9c6687561e220b9a3784.png",
+    "static/media/forensicAssigmentQ4.png": "/anywhere-final/static/media/forensicAssigmentQ4.4c655337fe0f5cc835d9.png",
     "static/media/pedi22a28.png": "/anywhere-final/static/media/pedi22a28.fe5be70c938540aa7c44.png",
     "static/media/pedi22a11.png": "/anywhere-final/static/media/pedi22a11.0a7d1289baa919119d78.png",
+    "static/media/forensicAssigmentQ7.png": "/anywhere-final/static/media/forensicAssigmentQ7.ab7be81697437fe2fde0.png",
     "static/media/pedi22a6_2.png": "/anywhere-final/static/media/pedi22a6_2.ec5d9511151bc8113e42.png",
     "static/media/pedi22a16.png": "/anywhere-final/static/media/pedi22a16.6e2da51763faacd4121f.png",
     "static/media/pedi22a33_4.png": "/anywhere-final/static/media/pedi22a33_4.5aff0194927f57955a96.png",
@@ -132,6 +137,7 @@
     "static/media/peri22q15.png": "/anywhere-final/static/media/peri22q15.317b17008eab9397ec10.png",
     "static/media/pedi22a40.png": "/anywhere-final/static/media/pedi22a40.8853e8c4f31222b0c975.png",
     "static/media/peri22a26.png": "/anywhere-final/static/media/peri22a26.1fb91cfdc5de6e3cc187.png",
+    "static/media/forensicAssigmentQ3.png": "/anywhere-final/static/media/forensicAssigmentQ3.065c111183c18eb71332.png",
     "static/media/periQ20.png": "/anywhere-final/static/media/periQ20.f744a5ee562ccf1fe45a.png",
     "static/media/pedi22a32_1.png": "/anywhere-final/static/media/pedi22a32_1.ad45e91b4a9fe5e48507.png",
     "static/media/stageOfLabor.png": "/anywhere-final/static/media/stageOfLabor.5d70476261bb0f2e9059.png",
@@ -139,6 +145,7 @@
     "static/media/pedi22a21_1.png": "/anywhere-final/static/media/pedi22a21_1.80366f3aca34524a7deb.png",
     "static/media/pedi22a6_1.png": "/anywhere-final/static/media/pedi22a6_1.2c0cc546d980e07c2435.png",
     "static/media/pedi22a33_1.png": "/anywhere-final/static/media/pedi22a33_1.142c907c27b2a68a864a.png",
+    "static/media/forensicAssigmentQ8.png": "/anywhere-final/static/media/forensicAssigmentQ8.e12253ec33d6d6f22dce.png",
     "static/media/peri22a30.png": "/anywhere-final/static/media/peri22a30.010862a4460706ad69b9.png",
     "static/media/peri22a8.png": "/anywhere-final/static/media/peri22a8.e300dbad71801908e5d7.png",
     "static/media/peri2021q35.png": "/anywhere-final/static/media/peri2021q35.d27e01847d6665aef8ad.png",
@@ -183,6 +190,7 @@
     "static/media/peri2021q39_2.png": "/anywhere-final/static/media/peri2021q39_2.2996955af581470dc653.png",
     "static/media/peri22a40_2.png": "/anywhere-final/static/media/peri22a40_2.09d9624301c675d156ec.png",
     "static/media/peri2021qS31.png": "/anywhere-final/static/media/peri2021qS31.36fa53135ec8988f067f.png",
+    "static/media/forensicAssigmentQ9.png": "/anywhere-final/static/media/forensicAssigmentQ9.97440aa512bf12a7bd6d.png",
     "static/media/pedi22a47.png": "/anywhere-final/static/media/pedi22a47.969d95e8fe10967da8a2.png",
     "static/media/pedi22a24.png": "/anywhere-final/static/media/pedi22a24.1534481b05ffda1bfb09.png",
     "static/media/forensicSlide8page82.png": "/anywhere-final/static/media/forensicSlide8page82.dae2181ce973ca27ec14.png",
@@ -229,10 +237,10 @@
     "static/media/peri2021q18_2.png": "/anywhere-final/static/media/peri2021q18_2.0888cedb2d1c8f1be713.png",
     "index.html": "/anywhere-final/index.html",
     "main.f6d056aa.css.map": "/anywhere-final/static/css/main.f6d056aa.css.map",
-    "main.f947d861.js.map": "/anywhere-final/static/js/main.f947d861.js.map"
+    "main.d86bd9d2.js.map": "/anywhere-final/static/js/main.d86bd9d2.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d056aa.css",
-    "static/js/main.f947d861.js"
+    "static/js/main.d86bd9d2.js"
   ]
 }

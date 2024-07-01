@@ -1,3 +1,11 @@
+import forensicAssigmentQ8 from './img/answer/forensicAssigmentQ8.png';
+import forensicAssigmentQ9 from './img/answer/forensicAssigmentQ9.png';
+import forensic2017a1b from './img/answer/forensic2017a1b.png';
+import forensic2017a1a from './img/answer/forensic2017a1a.png';
+import forensicAssigmentQ3 from './img/answer/forensicAssigmentQ3.png';
+import forensicAssigmentQ4 from './img/answer/forensicAssigmentQ4.png';
+import forensicAssigmentQ7 from './img/answer/forensicAssigmentQ7.png';
+import forensicAssigmentQ6 from './img/answer/forensicAssigmentQ6.png';
 import forensic2017q2 from './img/answer/forensic2017q2.png';
 import forensic2017q3 from './img/answer/forensic2017q3.png';
 import forensic2017q4 from './img/answer/forensic2017q4.png';
@@ -234,6 +242,59 @@ export const useQuestionList = () => {
   const jpName = '3ブロック対策'
   const [questionList, setQuestionList] = useState([
     // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
+    {
+      groupTag: "麻酔科 出席課題",
+      groupContents: [
+        {
+          questionSentence: 'Q3. 心臓術後の急性腎障害は何パーセントに起こると思いますか？',
+          choices: ['10%前後', '20%前後', '30%前後', '40%以上'],
+          answerImg: [forensicAssigmentQ3],
+          answer: '40%以上',
+          commentary: ''
+        },
+        {
+          questionSentence: 'Q4. 急性腎障害の定義として用いられるのは以下のどれですか？',
+          choices: ['KDIGO分類', 'ASA分類', 'APACHE II スコア', 'CHILD分類'],
+          answer: 'KDIGO分類',
+          answerImg: [forensicAssigmentQ4],
+          commentary: ''
+        },
+        {
+          questionSentence: 'Q5. 心臓手術後急性腎障害はなぜ発症率が高いのでしょうか？',
+          choices: ['手術時間が長い', '人工心肺を用いる', '滲血がおこる', '手術中は血圧が高いため'],
+          answer: '人工心肺を用いる',
+          commentary: '人工心肺後にはTAT, FDP, D-dimerが上昇し、DICを起こすことがある。'
+        },
+        {
+          questionSentence: 'Q6. ヘパリンはどうして血液が固まらないのでしょうか',
+          choices: ['ヘパリンに抗凝固作用がある', 'アンチトロンビンの作用を増強する', '第8因子を阻害する'],
+          answer: 'アンチトロンビンの作用を増強する',
+          answerImg: [forensicAssigmentQ6],
+          commentary: ''
+        },
+        {
+          questionSentence: 'Q7. 凝固カスケードについて内因系と外因系の因子を覚えていますか',
+          choices: ['はい', 'いいえ'],
+          answer: '',
+          answerImg: [forensicAssigmentQ7],
+          commentary: ''
+        },
+        {
+          questionSentence: 'Q8. DOACという言葉を聞いたことがありますか',
+          choices: ['はい', 'いいえ'],
+          answer: '',
+          answerImg: [forensicAssigmentQ8],
+          commentary: ''
+        },
+        {
+          questionSentence: 'Q9. 冠動脈狭窄に用いるのは',
+          choices: ['抗凝固薬', '抗血小板薬', 'ヘパリン'],
+          answer: '抗血小板薬',
+          answerImg: [forensicAssigmentQ9],
+          commentary: ''
+        },
+      ]
+    },
     {
       groupTag: "感染症　出席課題",
       groupContents: [
@@ -889,32 +950,34 @@ export const useQuestionList = () => {
         {
           questionImg: [forensic2017q1a],
           questionSentence: '問題1. 次の設問に答えよ。 1. 写真1は後頭部右側を打撲し、病院に搬送されたときの写真である。 1) 写真1ーaは右耳介後部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。',
-          answer: '',
-          commentary: ''
+          answer: 'Battle徴候 、中頭蓋窩骨折による耳出血',
+          answerImg: [forensic2017a1a],
+          commentary: '頭蓋底骨折を示す外表所見　b. 乳突部の出血(Battle徴候):中頭蓋窩後 部に骨折がある場合、骨折部からの出血 が耳介後部の乳様突起部に浸潤して変色 としてみられる。'
         },
         {
           questionImg: [forensic2017q1b],
           questionSentence: '2) 写真1ーbは左右眼窩部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。',
-          answer: '',
-          commentary: ''
+          answer: 'ブラックアイ 、眼窩部の頭蓋底骨折',
+          answerImg: [forensic2017a1b],
+          commentary: '頭蓋底骨折を示す外表所見　a. ブラックアイ(black eye):眼窩部の頭蓋底 骨折による出血が眼窩部に浸潤して紫赤 色~紫青色としてみられる。'
         },
         {
           questionImg: [forensic2017q2],
           questionSentence: '2. 写真2からどのような死因が考えられるか。またその理由を記載しなさい。',
-          answer: '',
-          commentary: ''
+          answer: '焼死 、気管支内に煤の付着が見られるから',
+          commentary: '焼死体の生活反応 I ~II度熱傷 気道熱傷 気管・気管支内の煤 一酸化炭素ヘモグロビン(CO-Hb)の存在 鮮紅色の死斑 鮮紅色の血液'
         },
         {
           questionImg: [forensic2017q3],
           questionSentence: '3. 写真3は胃粘膜に認められる所見である。この粘膜の所見を何というか。また最も考えられる死因は何か。',
-          answer: '',
-          commentary: ''
+          answer: 'Wischnewski斑 、凍死',
+          commentary: '凍死(death from hypothermia)　低環境におかれ、体温調節機能を越えて 体温が減少すると低体温症を生じ、その 結果死亡する。'
         },
         {
           questionImg: [forensic2017q4],
           questionSentence: '4. 写真4に見られる血腫を何というか。またどのような名称の血管の損傷が考えられるか。',
-          answer: '',
-          commentary: ''
+          answer: '硬膜外血腫 、中硬膜動脈',
+          commentary: '急性硬膜外血腫(acute epidural hematoma)a. 頭蓋内面と硬膜の間に生じる血腫。d. 出血源1.中硬膜動脈が最も多い(半数)'
         },
         {
           questionImg: [forensic2017q5],
