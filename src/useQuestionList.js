@@ -1,3 +1,13 @@
+import anesthesiaQ1 from './img/answer/anesthesiaQ1.png';
+import anesthesiaQ2 from './img/answer/anesthesiaQ2.png';
+import anesthesiaQ3 from './img/answer/anesthesiaQ3.png';
+import anesthesiaQ7 from './img/answer/anesthesiaQ7.png';
+import anesthesiaQ6 from './img/answer/anesthesiaQ6.png';
+import anesthesiaQ4 from './img/answer/anesthesiaQ4.png';
+import anesthesiaQ5 from './img/answer/anesthesiaQ5.png';
+import anesthesiaQ10 from './img/answer/anesthesiaQ10.png';
+import anesthesiaQ8 from './img/answer/anesthesiaQ8.png';
+import anesthesiaQ9 from './img/answer/anesthesiaQ9.png';
 import forensicAssigmentQ8 from './img/answer/forensicAssigmentQ8.png';
 import forensicAssigmentQ9 from './img/answer/forensicAssigmentQ9.png';
 import forensic2017a1b from './img/answer/forensic2017a1b.png';
@@ -246,6 +256,86 @@ export const useQuestionList = () => {
       groupTag: "麻酔科 出席課題",
       groupContents: [
         {
+          detailInfo: '7/1 5限目',
+          questionSentence: '脳外科手術では過度の過換気が望ましい',
+          choices: ['○', '×'],
+          answer: '誤り',
+          answerImg: [anesthesiaQ1],
+          commentary: '脳虚血を引き起こすため、過度の過換気は避けるべきである'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '脳腫瘍患者は頭蓋内圧維持の予備能が大きい',
+          choices: ['○', '×'],
+          answer: '誤り',
+          answerImg: [anesthesiaQ2],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '動脈血酸素分圧は脳血流量に関係する',
+          choices: ['○', '×'],
+          answer: '正しい',
+          answerImg:[anesthesiaQ3],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '慢性高血圧は脳血管自己調節能が障害されている可能性がある',
+          choices: ['○', '×'],
+          answer: '正しい',
+          answerImg:[anesthesiaQ4],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '高濃度吸入麻酔薬は脳血流を増加させる',
+          choices: ['○', '×'],
+          answer: '正しい',
+          answerImg:[anesthesiaQ5],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'バルビツレートは脳代謝を抑制し、頭蓋内圧を低下させる',
+          choices: ['○', '×'],
+          answer: '正しい', 
+          answerImg:[anesthesiaQ6],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '脳外科手術での第一選択はプロポフォールである',
+          choices: ['○', '×'],
+          answer: '正しい',
+          answerImg:[anesthesiaQ7],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '低体温療法中は体温を30℃以下に設定すべきである',
+          choices: ['○', '×'],
+          answer: '誤り',
+          answerImg:[anesthesiaQ8],
+          commentary: '温度を下げすぎると心臓や腎臓に悪影響を及ぼすため、35℃までに設定する'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '覚醒下脳手術は言語のモニターとして使用できる',
+          choices: ['○', '×'],
+          answer: '正しい',
+          answerImg:[anesthesiaQ9],
+          commentary: ''
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: '坐位手術の空気塞栓では、呼気炭酸ガス分圧が上昇する',
+          choices: ['○', '×'],
+          answer: '誤り',
+          answerImg:[anesthesiaQ10],
+          commentary: '循環不良により呼気炭酸ガスの排出が減少し、分圧が低下する'
+        },      
+        {
           questionSentence: 'Q3. 心臓術後の急性腎障害は何パーセントに起こると思いますか？',
           choices: ['10%前後', '20%前後', '30%前後', '40%以上'],
           answerImg: [forensicAssigmentQ3],
@@ -284,7 +374,7 @@ export const useQuestionList = () => {
           choices: ['はい', 'いいえ'],
           answer: '',
           answerImg: [forensicAssigmentQ8],
-          commentary: ''
+          commentary: 'DOAC: Direct Oral Anticoagulantの略称で、直接経口抗凝固薬を指す'
         },
         {
           questionSentence: 'Q9. 冠動脈狭窄に用いるのは',
@@ -294,6 +384,139 @@ export const useQuestionList = () => {
           commentary: ''
         },
       ]
+    },{
+      groupTag: "麻酔科 出席 機械英訳",
+      groupContents: [
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'In neurosurgery, hyperventilation is desirable.',
+          choices: ['True', 'False'],
+          answer: 'False',
+          answerImg: [anesthesiaQ1],
+          commentary: '【脳外科手術では過度の過換気が望ましい】【○, ×】脳虚血を引き起こすため、過度の過換気は避けるべきである'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Patients with brain tumors have a high reserve capacity to maintain intracranial pressure.',
+          choices: ['True', 'False'],
+          answer: 'False',
+          answerImg: [anesthesiaQ2],
+          commentary: '【脳腫瘍患者は頭蓋内圧維持の予備能が大きい】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Arterial oxygen partial pressure is related to cerebral blood flow.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ3],
+          commentary: '【動脈血酸素分圧は脳血流量に関係する】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Chronic hypertension may impair cerebral autoregulation.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ4],
+          commentary: '【慢性高血圧は脳血管自己調節能が障害されている可能性がある】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'High concentration inhalational anesthetics increase cerebral blood flow.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ5],
+          commentary: '【高濃度吸入麻酔薬は脳血流を増加させる】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Barbiturates suppress cerebral metabolism and lower intracranial pressure.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ6],
+          commentary: '【バルビツレートは脳代謝を抑制し、頭蓋内圧を低下させる】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Propofol is the first choice for neurosurgery.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ7],
+          commentary: '【脳外科手術での第一選択はプロポフォールである】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'During hypothermia therapy, body temperature should be set below 30°C.',
+          choices: ['True', 'False'],
+          answer: 'False',
+          answerImg: [anesthesiaQ8],
+          commentary: '【低体温療法中は体温を30℃以下に設定すべきである】【○, ×】温度を下げすぎると心臓や腎臓に悪影響を及ぼすため、35℃までに設定する'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'Awake brain surgery can be used as a monitor for language.',
+          choices: ['True', 'False'],
+          answer: 'True',
+          answerImg: [anesthesiaQ9],
+          commentary: '【覚醒下脳手術は言語のモニターとして使用できる】【○, ×】'
+        },
+        {
+          detailInfo: '7/1 5限目',
+          questionSentence: 'In sitting surgery, air embolism causes an increase in end-tidal CO2 partial pressure.',
+          choices: ['True', 'False'],
+          answer: 'False',
+          answerImg: [anesthesiaQ10],
+          commentary: '【坐位手術の空気塞栓では、呼気炭酸ガス分圧が上昇する】【○, ×】循環不良により呼気炭酸ガスの排出が減少し、分圧が低下する'
+        },      
+        {
+          questionSentence: 'Q3. What percentage do you think acute kidney injury occurs after cardiac surgery?',
+          choices: ['Around 10%', 'Around 20%', 'Around 30%', 'Over 40%'],
+          answerImg: [forensicAssigmentQ3],
+          answer: 'Over 40%',
+          commentary: '【心臓術後の急性腎障害は何パーセントに起こると思いますか？】【10%前後, 20%前後, 30%前後, 40%以上】'
+        },
+        {
+          questionSentence: 'Q4. Which of the following is used as a definition for acute kidney injury?',
+          choices: ['KDIGO classification', 'ASA classification', 'APACHE II score', 'CHILD classification'],
+          answer: 'KDIGO classification',
+          answerImg: [forensicAssigmentQ4],
+          commentary: '【急性腎障害の定義として用いられるのは以下のどれですか？】【KDIGO分類, ASA分類, APACHE II スコア, CHILD分類】'
+        },
+        {
+          questionSentence: 'Q5. Why is the incidence of acute kidney injury high after cardiac surgery?',
+          choices: ['Long surgery time', 'Use of cardiopulmonary bypass', 'Hemorrhage', 'High blood pressure during surgery'],
+          answer: 'Use of cardiopulmonary bypass',
+          commentary: '【心臓手術後急性腎障害はなぜ発症率が高いのでしょうか？】【手術時間が長い, 人工心肺を用いる, 滲血がおこる, 手術中は血圧が高いため】'
+        },
+        {
+          questionSentence: 'Q6. Why does heparin prevent blood from clotting?',
+          choices: ['Heparin has anticoagulant effects', 'Enhances the action of antithrombin', 'Inhibits factor VIII'],
+          answer: 'Enhances the action of antithrombin',
+          answerImg: [forensicAssigmentQ6],
+          commentary: '【ヘパリンはどうして血液が固まらないのでしょうか】【ヘパリンに抗凝固作用がある, アンチトロンビンの作用を増強する, 第8因子を阻害する】'
+        },
+        {
+          questionSentence: 'Q7. Do you remember the factors of the intrinsic and extrinsic pathways in the coagulation cascade?',
+          choices: ['Yes', 'No'],
+          answer: '',
+          answerImg: [forensicAssigmentQ7],
+          commentary: '【凝固カスケードについて内因系と外因系の因子を覚えていますか】【はい, いいえ】'
+        },
+        {
+          questionSentence: 'Q8. Have you heard the term DOAC?',
+          choices: ['Yes', 'No'],
+          answer: '',
+          answerImg: [forensicAssigmentQ8],
+          commentary: '【DOACという言葉を聞いたことがありますか】【はい, いいえ】'
+        },
+        {
+          questionSentence: 'Q9. What is used for coronary artery stenosis?',
+          choices: ['Anticoagulants', 'Antiplatelet drugs', 'Heparin'],
+          answer: 'Antiplatelet drugs',
+          answerImg: [forensicAssigmentQ9],
+          commentary: '【冠動脈狭窄に用いるのは】【抗凝固薬, 抗血小板薬, ヘパリン】'
+        }
+      ]
+      
     },
     {
       groupTag: "感染症　出席課題",
