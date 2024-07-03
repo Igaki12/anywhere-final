@@ -1,3 +1,8 @@
+import forensic2017a11 from './img/answer/forensic2017a11.png';
+import forensic2017a12_2 from './img/answer/forensic2017a12_2.png';
+import forensic2017a9_1 from './img/answer/forensic2017a9_1.png';
+import forensic2017a9_2 from './img/answer/forensic2017a9_2.png';
+import forensic2017a9_3 from './img/answer/forensic2017a9_3.png';
 import forensic2017a5_6 from './img/answer/forensic2017a5_6.png';
 import forensic2017a3_5 from './img/answer/forensic2017a3_5.png';
 import forensic2017a3_4 from './img/answer/forensic2017a3_4.png';
@@ -2182,7 +2187,7 @@ export const useQuestionList = () => {
           questionImg: [forensicSlide7page41],
           questionSentence: '法医学スライド第7回 41ページのスライドの穴埋めを行いなさい。',
           answer: '医療行為は 準委任契約 である',
-          // commentary: '医療行為は 準委任契約 である 当事者（患者）の一方が, 法律行為でない事務の処理を相手方（医療側）に委託し, 相手方（医療側）がこれを承諾することによって成立する契約のこと. 民法の委任に関する規定が準用される. 例えば, けがの治療を医者に依頼する場合がこれにあたる. 請負契約と異なり,「仕事の完成」の義務はない 受任者が負う義務は「善良な管理者の注意を持ってその業務にあたること」'
+          // commentary: '医療行為は 準委任契約 である 当事者（患者）の一方が, 
         }, {
           detailInfo: 'スライド第8回 82ページ',
           questionImg: [forensicSlide8page82],
@@ -2281,38 +2286,16 @@ export const useQuestionList = () => {
           questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死と診断する場合は死因となる内因的な疾患や外傷などを否定した上で行われなければならないが、その皮膚の特徴として白く硬い胼胝状の（31．　　　　　　）と呼ばれる所見を見つけることが重要である。',
           answer: '31.電流斑:electric mark',
           commentary: '感電死の死体所見　外表所見1. 電流斑:electric mark. 電流の流入、流出部の皮膚にジュール熱による 灰白色、淡褐色の楕円形の皮膚凝固 2. 鉱金現象(鉱性変化):電極の端子、導体が溶解して皮膚 表面に付着。肉眼的に明らかなことは希 3. 熱傷:ジュール熱、スパークなどにより第1度から第4度熱 傷、表皮剥離や皮膚潰瘍 4. 開放創　内景所見1. 急性死の所見2. 骨折、筋肉断裂3. 骨真珠:骨が融解してリン酸カルシウムが塊状に析出する'
-          // 外表所見
-          // 1. 電流斑:electric mark.
-          //      電流の流入、流出部の皮膚にジュール熱による
-          // 灰白色、淡褐色の楕円形の皮膚凝固
-          // 2. 鉱金現象(鉱性変化):電極の端子、導体が溶解して皮膚
-          // 表面に付着。肉眼的に明らかなことは希
-          // 3. 熱傷:ジュール熱、スパークなどにより第1度から第4度熱
-          //      傷、表皮剥離や皮膚潰瘍
-          //   4. 開放創
-          // 内景所見
-          // 1. 急性死の所見
-          // 2. 骨折、筋肉断裂
-          // 3. 骨真珠:骨が融解してリン酸カルシウムが塊状に析出する
         },
         {
           questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死のような急死では、解剖所見として窒息・急死の３徴候として（32．　　　　　　）、（33．　　　　　）、（34．　　　　　　　）が認められる。',
           answer: '32.暗赤色流動性血液 33.各臓器のうっ血 34.粘膜・漿膜下の溢血点',
           commentary: '感電死の死因　➢ 呼吸停止:電流が脳幹を流れた場合　➢ 心停止:電流が心臓を流れた場合　➢ 呼吸筋の痙攣:電流が横隔膜や肋間筋などの呼吸筋を流れた場合に窒息'
-          // ➢ 心停止:電流が心臓を流れた場合
-          // ➢ 呼吸筋の痙攣:電流が横隔膜や肋間筋などの呼 吸筋を流れた場合に窒息
         },
         {
           questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる（35．　　　　　　　）、運転者にみられる損傷として（36．　　　　　　　）による膝部の損傷、（37．　　　　　　　）や（38．　　　　　　　　）による胸腹部の損傷があり、また路上に寝ているところを轢過された場合に皮膚と筋膜の間が剥離し、ポケット状になる（39．　　　　　　）が認められる。',
           answer: '35.バンパー損傷 36.ダッシュボード 37.シートベルト 38.ハンドル 39.デコルマン',
           commentary: '1.歩行者対車輌事故の場合　a) 衝突事故(一次損傷) バンパー創, フロントグリルによる損傷 (デコルマン , Messerer の骨折) b) 二次損傷 ボンネット, フェンダーミラー, フロントガラスなどによる損傷 c) 転倒損傷(三次損傷) 路面などに転倒してできる損傷 d) 轢過損傷, 圧迫損傷, 引きずり損傷 タイヤマーク, デコルマン, 伸展創, 第1~4度火傷'
-          // a) 衝突事故(一次損傷)
-          // バンパー創, フロントグリルによる損傷 (デコルマン , Messerer の骨折)
-          // b) 二次損傷
-          // ボンネット, フェンダーミラー, フロントガラスなどによる損傷
-          // c) 転倒損傷(三次損傷) 路面などに転倒してできる損傷
-          // d) 轢過損傷, 圧迫損傷, 引きずり損傷
-          // タイヤマーク, デコルマン, 伸展創, 第1~4度火傷
         },
         {
           questionSentence: '問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。白骨化した頭蓋骨において性別の判定は重要であるが、男性は女性に比べて一見して、頑強で筋付着部の凹凸が著名でごつごつした感じがし、眉弓、眉間は著明な隆起を認めるが、前頭結節の発育は（40．　　　　　　　　）く、乳様突起の発育は（41．　　　　）く、外後頭隆起の発達は（42．　　　　　　）。',
@@ -2361,11 +2344,6 @@ export const useQuestionList = () => {
           answer: '眼瞼結膜の溢血点、顔面の著明なうっ血、外耳孔、鼻孔からの出血',
           answerImg: [forensic2017a4],
           commentary: '外表所見　1. 索溝(絞溝) ・多くは甲状軟骨の高さをほぼ水平に 全頚部を回る ・索溝の周辺に爪による表皮剥脱が 認められることがある 2. 眼瞼結膜の溢血点 3. 顔面の著明なうっ血 4. 外耳孔、鼻孔からの出血'
-          // 1. 索溝(絞溝) ・多くは甲状軟骨の高さをほぼ水平に
-          // 全頚部を回る ・索溝の周辺に爪による表皮剥脱が
-          // 認められることがある 2. 眼瞼結膜の溢血点
-          // 3. 顔面の著明なうっ血
-          // 4. 外耳孔、鼻孔からの出血
         },
         {
           questionSentence: '問題5. 設問に答えなさい。 (1)早期死体現象はどれか。 ',
@@ -2379,33 +2357,18 @@ export const useQuestionList = () => {
           choices: ['a．創縁は整である。', 'b．創洞には組織架橋を伴っている。', 'c．創底までの長さは接着長より長い。', 'd．鈍器損傷である。', 'e．創角は鈍である。'],
           answer: 'a．創縁は整である。, c．創底までの長さは接着長より長い。',
           commentary: '刺創の性状　➢ 刺入口の形は, 基本的にその用器の形状を呈する. ➢ 一般的には創縁は整鋭で, 創角も一側または両創角ともに尖 鋭な紡錘形の形を呈する. ➢ 創長に対して創底までの深さが非常に長いのでその経過部を 創管 または 刺創管 と称する. ➢ 時には, 四肢や躯幹部を貫通していることもあり, その時に は刺入口と刺出口に区別する.'
-          // ➢ 刺入口の形は, 基本的にその用器の形状を呈する.
-          // ➢ 一般的には創縁は整鋭で, 創角も一側または両創角ともに尖
-          // 鋭な紡錘形の形を呈する.
-          // ➢ 創長に対して創底までの深さが非常に長いのでその経過部を
-          // 創管 または 刺創管 と称する.
-          // ➢ 時には, 四肢や躯幹部を貫通していることもあり, その時に は刺入口と刺出口に区別する.
         },
         {
           questionSentence: '問題5. 設問に答えなさい。 (3)自動車に轢過されたとき、表皮に小さい波形の裂け目が多く認められ、伸展創といわれる損傷ができることがある。どの部位にできやすいか。',
           choices: ['a．鼠径部', 'b．仙骨部', 'c．上腕の外側面', 'd．前頭部', 'e．下腿部'],
           answer: 'a．鼠径部',
           commentary: '伸展創　(small parallel tear) 轢過時タイヤの回転や圧迫によって皮膚が強く引っ張られ ると, 轢過部から離れた所の皮膚に皮膚割線に沿って多数 の浅い裂創を生じることがある. この様な損傷を特に伸展創と呼ぶ. 鼡径部, 側頚部, 乳房部, 上腕移行部などに多数の平行して走る浅い亀裂として観察 されることが多い.'
-          // small parallel tear
-          // 轢過時タイヤの回転や圧迫によって皮膚が強く引っ張られ ると, 轢過部から離れた所の皮膚に皮膚割線に沿って多数 の浅い裂創を生じることがある.
-          // この様な損傷を特に伸展創と呼ぶ. 鼡径部, 側頚部, 乳房部, 上腕移行部などに多数の平行して走る浅い亀裂として観察 されることが多い.
         },
         {
           questionSentence: '問題5. 設問に答えなさい。 (4)次の損傷のうちで鈍器による作用では形成されないものはどれか。 ',
           choices: ['a．割創', 'b．挫創', 'c．皮下出血', 'd．骨折', 'e．表皮剥脱'],
           answer: 'a．割創',
           commentary: '鈍器損傷の種類　1) 表皮剥脱 abrasion 2) 皮下出血 bruise 3) 挫創, 裂創および挫裂創 挫創 contused wound 裂創 lacerated wound 4) 脳振盪, 脳挫傷および脳圧迫 5) 脊髄震盪, 挫傷および圧迫 6) 内臓破裂および内臓転位 7) 骨折および脱臼 8) 全身の挫砕および断裂'
-          // 1) 表皮剥脱 abrasion 2) 皮下出血 bruise
-          // 3) 挫創, 裂創および挫裂創
-          // 挫創 contused wound
-          // 裂創 lacerated wound 4) 脳振盪, 脳挫傷および脳圧迫
-          // 5) 脊髄震盪, 挫傷および圧迫 6) 内臓破裂および内臓転位 7) 骨折および脱臼
-          // 8) 全身の挫砕および断裂
         },
         {
           questionSentence: '問題5. 設問に答えなさい。 (5)異状死体と考えられるのはどれか。３つ選べ。',
@@ -2419,69 +2382,312 @@ export const useQuestionList = () => {
           answer: 'c．死後に硬膜外に血腫が生じ、特に頭部のよく焼けた部位に一致する。',
           answerImg: [forensic2017a5_6],
           commentary: '焼死体の生活反応ではない変化　拳闘家姿勢(Fighting position, pugilistic attitude) 筋肉の熱硬直によるもの。屈筋 > 伸筋 頭蓋骨・長管骨の骨折 (死体トルソー) 燃焼血腫 (heat hematoma) 腹壁の破裂'
-          //  拳闘家姿勢(Fighting position, pugilistic attitude) 筋肉の熱硬直によるもの。屈筋 > 伸筋
-          //  頭蓋骨・長管骨の骨折 (死体トルソー)  燃焼血腫 (heat hematoma)
-          //  腹壁の破裂
         },
         {
           questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待防止法によると、児童虐待は、（　　　　　）・（　　　　　）・（　　　　　）・（　　　　　　）の４つに分類されている。',
-          answer: '',
-          commentary: ''
+          answer: '身体的虐待, 性的虐待, 養育拒否, 心理的虐待',
+          commentary: '児童虐待の防止等に関する法律」　(平成12年11月20日施行)児童虐待の定義(第2条)　1. 児童の身体に外傷が生じ, 又は生じる恐れのある暴行を加えること. (身体的虐待) 2.児童にわいせつな行為をすること又は児童をしてわいせつな行為をさ せること. (性的虐待) 3.児童の心身の正常な発達を妨げるような著しい減食又は長時間の放置 その他の保護者としての監護を著しく怠ること. (養育拒否) 4.児童に著しい心理的外傷を与える言動を行うこと.(心理的虐待)'
         },
         {
           questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待の加害者として最も多いのは（　　　　　）である。',
-          answer: '',
-          commentary: ''
+          answer: '実母',
+          commentary: '2) 加害者　実母, 実父, 継父母, 兄弟, ベビーシッターなど.'
         },
         {
           questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待を受けたと思われる児童を発見した場合、（　　　　　　　）あるいは（　　　　　　　）へ通告しなければならない。',
-          answer: '',
-          commentary: ''
+          answer: '児童相談所, 福祉事務所',
+          commentary: '虐待の通告先　• 児童相談所 • 福祉事務所'
         },
         {
           questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待児童の解剖所見として、（　　　　）が退縮していることが多い。',
-          answer: '',
-          commentary: ''
+          answer: '胸腺',
+          commentary: '6) 所見　➢ 虐待・躾・不慮の事故の鑑別は容易でない.➢新旧多数 の皮下出血・表皮剥脱➢輪郭がくっきりしている, パターン化している軟部組織の腫脹,火傷, 熱傷, 硬膜下血腫, 骨折, 内臓の破裂. 胸腺 の退縮. ➢ 全体的に発育・栄養状態の悪い例が多い.'
         },
         {
           questionSentence: '問題8. 次の文章ねカッコ内に適切な語句をいれなさい。厚生労働省によるSIDSの定義は、それまでの健康状態および既往歴から、その死が予測できず、しかも（　　　　　　　　）および（　　　　　　）によってもその原因が同定されない、原則として１歳未満の児に死をもたらした症候群とされている。',
-          answer: '',
-          commentary: ''
+          answer: '死亡状況調査, 解剖検査',
+          commentary: 'SIDSの定義(平成17年厚生労働省研究班)　それまでの健康状態および既往歴から, その死が予測できず, し かも 死亡状況調査 および 解剖検査 によってもその原因が同定 されない, 原則として1歳未満の児に死をもたらした症候群　1969年に国際会議ではじめて命名された.'
         },
         {
           questionSentence: '問題9. 嬰児の解剖において、生産児と死産児を鑑別するために有用な鑑別所見および検査について、知るところを記述しなさい。',
-          answer: '',
-          commentary: ''
+          answer: '生産児の基準として、胸郭の性状,横隔膜の高さ, 肺の性状(容積・色調・硬度・割面)がある。これらを確認するため、肺浮揚試験(hydrostatic lung test)、胃腸浮揚試験(stomach bowel test)、組織学的所見(肺胞の開大)が行われる。',
+          answerImg: [forensic2017a9_1, forensic2017a9_2, forensic2017a9_3],
+          commentary: '生産の基準：　1. 一般所見 胸郭の性状,横隔膜の高さ, 肺の性状(容積・色調・硬度・割面)2. 肺浮揚試験 (hydrostatic lung test) 3. 胃腸浮揚試験 (stomach bowel test) 4. 組織学的所見(肺胞の開大)'
         },
         {
           questionImg: [forensic2017q10],
-          questionSentence: '問題10. 図はDNA分析により親子鑑定を行ったものである。あるマイクロサテライト領域をPCR増幅し、これを電気泳動した泳動像である。この結果から、擬父と父子関係が否定されるのはいずれの子供であるか、番号を〇で囲め。ただし母はすべての子供の実母とする。 a．子供１ b．子供２ c．子供３ d．子供４ e．子供５',
-          answer: '',
-          commentary: ''
+          questionSentence: '問題10. 図はDNA分析により親子鑑定を行ったものである。あるマイクロサテライト領域をPCR増幅し、これを電気泳動した泳動像である。この結果から、擬父と父子関係が否定されるのはいずれの子供であるか、番号を〇で囲め。ただし母はすべての子供の実母とする。',
+          choices: ['a．子供１', 'b．子供２', 'c．子供３', 'd．子供４', 'e．子供５'],
+          answer: 'e．子供５',
+          commentary: 'マイクロサテライト(STR)とは、短い繰り返し配列を持つDNA領域である。この繰り返し配列の長さが人によって異なるため、この領域をPCR法で増幅し、その長さを電気泳動で分析することにより、個人を識別することができる。通常(組み換えがなければ)、子供は両親から1対ずつのSTR領域を受け継ぐため、子供のSTR領域は両親のSTR領域の組み合わせとなる。このため、子供のSTR領域のうち1本は、父親のSTR領域2本のうちの1本と一致する。'
         },
         {
           questionSentence: '問題11. DNA多型検出法について、A欄の検出方法についての説明に合致するものをB欄より、その方法の原理をC欄より選べ。 A欄 １．STR AMP-FLP ２．PCR-SSCP ３．PCR-SSO B欄 ①縦列繰り返し配列の繰り返し回数を調べる方法。 ②調べたい遺伝子領域にどのような多型が存在するか、あるいは多型が存在するかどうかが不明 な時に用いる方法。 ③１塩基置換の存在する可能性がすでに知られており、その塩基配列が解明されている部位について調べる方法。 C欄 a．配列特異的プローブ b．一本鎖DNA高次構造 c．増幅断片の長さ',
-          answer: '',
-          commentary: ''
+          answer: '1.①c 2.②b 3.③a',
+          answerImg: [forensic2017a11],
+          commentary: '現在、実際に使われているのは、STR(Short Tandem Repeat)と呼ばれる短い繰り返し配列を持つDNA領域の多型を検出する方法である。STRは、繰り返し配列の繰り返し回数が人によって異なるため、この領域をPCR法で増幅し、その長さを電気泳動で分析することにより、個人を識別することができる。'
         },
         {
           questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ①（　　　　　　　）DNAは母性由来であり、父子鑑定には使えないがDNAが短く、細胞内の（　　　　　　　）が非常に多いためミイラ等、DNAがかなり崩壊している資料にも用いられる。',
-          answer: '',
-          commentary: ''
+          answer: 'ミトコンドリア,ミトコンドリア',
+          commentary: '人獣鑑定などについても利用される。'
         },
         {
           questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ②DNAを用いた性別判定は（　　　　　　　）遺伝子を増幅し、泳動することにより行われる。この遺伝子はXとY染色体両方に存在するがその長さが異なることから、同一のプライマーで同時に増幅し、増幅産物の断片長で性別を識別する。',
-          answer: '',
-          commentary: ''
+          answer: 'アメロゲニン',
+          answerImg: [forensic2017a12_2],
+          commentary: '2)性別判定DNAを用いた性別判定は、主に、性染色体上に存在するアメロ ゲニン遺伝子を解析することで行われている. アメロゲニン遺伝子(アメロゲニン:歯のエナメル質を形成するタンパク質)は、女性はX染色体上に、男性はX、Y染色体上に存 在する.X染色体とY染色体のアメロゲニン遺伝子では、塩基配 列及び塩基配列数が異なることから、この部位を標的にPCR増 幅を行うことにより、X染色体とY染色体の有無が判定できる.男性であればX染色体とY染色体由来の塩基サイズの異なる2つ のピークが検出され、女性であればX染色体由来の1つのピークが検出される.'
         },
         {
           questionSentence: '問題12. 括弧内に適当な言葉を入れよ。 ③一塩基多型を（　　　　）と呼び、数塩基の繰り返し配列を（　　　　　　　　　）と呼ぶ。',
-          answer: '',
+          answer: 'SNP, STR',
+          answerImg: [forensic2017a11],
           commentary: ''
         }
       ]
 
-    },
+    },{
+      groupTag: '法医学 2017本 機械英訳',
+      groupContents:[{
+        questionImg: [forensic2017q1b],
+        questionSentence: '2) In Photo 1-b, a reddish-purple discoloration can be seen around both orbits. What is this discoloration called, and what can be inferred from it?',
+        answer: 'Black eye, Basal skull fracture in the orbital area',
+        answerImg: [forensic2017a1b],
+        commentary: '【原文問題文】2) 写真1ーbは左右眼窩部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。【原文解答】ブラックアイ 、眼窩部の頭蓋底骨折'
+      },
+      {
+        questionImg: [forensic2017q2],
+        questionSentence: '2. What possible cause of death can be inferred from Photo 2? Also, explain the reason.',
+        answer: 'Death by burning, Soot deposition inside the bronchi',
+        commentary: '【原文問題文】2. 写真2からどのような死因が考えられるか。またその理由を記載しなさい。【原文解答】焼死 、気管支内に煤の付着が見られるから'
+      },
+      {
+        questionImg: [forensic2017q3],
+        questionSentence: '3. Photo 3 shows findings in the gastric mucosa. What is this finding called, and what is the most likely cause of death?',
+        answer: 'Wischnewski spots, Death from hypothermia',
+        commentary: '【原文問題文】3. 写真3は胃粘膜に認められる所見である。この粘膜の所見を何というか。また最も考えられる死因は何か。【原文解答】Wischnewski斑 、凍死'
+      },
+      {
+        questionImg: [forensic2017q4],
+        questionSentence: '4. What is the hematoma seen in Photo 4 called, and what type of blood vessel injury is considered?',
+        answer: 'Epidural hematoma, Middle meningeal artery',
+        commentary: '【原文問題文】4. 写真4に見られる血腫を何というか。またどのような名称の血管の損傷が考えられるか。【原文解答】硬膜外血腫 、中硬膜動脈'
+      },
+      {
+        questionImg: [forensic2017q5],
+        questionSentence: '5. What is the white frothy liquid coming from the mouth in Photo 5 called, and what is the possible cause of death?',
+        answer: 'Fine white froth/mushroom-shaped froth, Drowning',
+        commentary: '【原文問題文】5. 写真5において口腔内からでている白い泡状液を何というか。またどのような死因が考えられるか。【原文解答】微細白色泡沫/茸状泡沫 、溺死'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. Article 21 of the Medical Practitioners\' Act mandates the obligation to report (1.　　　　　　　) and other matters. In other words, if (2.　　) examines a body or a stillborn infant of 4 months or more of pregnancy and finds any abnormalities, they must report it to the (3.　　　　　　) within (4.　　) hours.',
+        answer: '1. Abnormal death 2. Physician 3. Respective police station 4. 24 hours',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。医師法第21条には、（1．　　　　　　　）等の届け出義務が書かれている。すなわち（2．　　）は死体または妊娠（3．　）ヶ月以上の（4．　　　　　　）を検案して異状があると認めたときは、（5．　　）時間以内に（6．　　　　　　）に届け出なければならない。【原文解答】1.異状死体 2.医師 3.4ヶ月 4.死産児 5.24時間 6.所轄警察署'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. The autopsy findings of a drowned body show (7.　　　　　　　) formation on the skin of the fingers, palms, and soles. Upon autopsy, the lungs exhibit (8.　　　　　), waterlogged (9.　　), waterlogged (10.　　　), and (11.　　　　　) spots.',
+        answer: '7. Washerwoman\'s skin 8. Swelling 9. Pulmonary edema 10. Pulmonary emphysema 11. Paltauf',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。溺死の死体所見は指、手掌、足底部などの皮膚に（7．　　　　　　　）の形成がみられる。解剖すると肺は溺死肺を認める。溺死肺とは肺が（8．　　　　　）し、水性（9．　　）、水性（10．　　　）、（11．　　　　　）斑がみられることをいう。【原文解答】7.漂母皮形成 8.膨隆 9.肺水腫 10.肺気腫 11.Paltauf'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. However, for a definitive diagnosis of drowning, it is necessary to prove (12.　　　　　　) in organs such as the lungs, heart, kidneys, or liver using the (13.　　　) method.',
+        answer: '12. Diatoms 13. Diatom test',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。しかし、最終的な溺死の確定診断には、肺、心臓、腎臓あるいは肝臓などの臓器から（12．　　　　　　）という方法で（13．　　　）を証明することである。【原文解答】12.壊機法(diatom test) 13.プランクトン/珪藻類'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. Among the external findings of a burned body that are considered vital reactions, livor mortis shows a (14．　　　　　) color, and (15．　　　　　　) degree burns are observed. Upon autopsy, if blood and various organs exhibit (16．　　　　) color, the presence of a large amount of (17．　　　　　　) in the trachea and bronchi, and (18．　　　　) is detected in the blood by gas chromatography, it can be diagnosed as death by burning.',
+        answer: '14. Bright red 15. First to second 16. Bright red 17. Soot 18. Carboxyhemoglobin (CO-Hb)',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。焼死にみられる死体所見のうち、外表所見で生活反応と考えられる所見は死斑が（14．　　　　　）を示し、（15．　　　　　　）度のの熱傷を認めることである。また解剖して血液や諸臓器が（16．　　　　）を示し、気管、気管支に（17．　　　　　　）が多量に存在し、ガスクロマトグラフ法で血液から（18．　　　　）を証明できれば焼死と診断できる。【原文解答】14.鮮紅色 15.I~II 16.鮮紅色 17.煤(すす) 18.一酸化炭素ヘモグロビン(CO-Hb)'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. The mechanisms considered as possible causes of death by burning include (19．　　　　　　), (20．　　　　　　), (21．　　　　　), and (22．　　　　　　).',
+        answer: '19. Acute carbon monoxide poisoning 20. Burns 21. Oxygen deficiency 22. Poisonous gas poisoning',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。焼死の死因として考えられる機序には大きく４つ（19．　　　　　　）、（20．　　　　　　）、（21．　　　　　）、（22．　　　　　　）がある。【原文解答】19.急性一酸化炭素中毒 20.熱傷 21.酸素欠乏 22.有毒ガス中毒'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. When a person falls and sustains a contusion to the occiput, a contusion may occur in the opposite frontal lobe. This is called a (23．　　　　　). Additionally, when struck with a rod, a contusion may occur on the same side. This is called a (24．　　　　　).',
+        answer: '23. Contrecoup injury 24. Coup injury',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。頭部外傷で転倒し後頭部を打撲したときに反対の前頭葉に脳挫傷ができるが、これを（23．　　　　　）とよび、また棒で殴られた時には同側に脳挫傷ができ、これを（24．　　　　　）とよぶ。【原文解答】23.対側挫傷 24.直接挫傷'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. In blunt force injuries, the characteristics of lacerated wounds include (25．　　　) wound edges, (26．　　　　　　) wound angles, and the presence of (27．　　　　　) in the wound cavity.',
+        answer: '25. Irregular 26. Blunt 27. Tissue bridges',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。鈍器損傷において挫創の創口の特徴は、創縁は（25．　　　）、創角は（26．　　　　　　）、創洞には（27．　　　　　）を伴っている。【原文解答】25.不整 26.両角鈍 27.組織架橋'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. Lacerations, similar to contusions, show the same findings. However, lacerations can be distinguished from contusions because they do not involve (28．　　　　　).',
+        answer: '28. Abrasion',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。裂創も挫創と同じような所見を認めるが裂創は創縁に（28．　　　　　）を伴っていないのが挫創との鑑別に役に立つ。【原文解答】28.表皮剥脱'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. Subcutaneous hemorrhage is caused by damage to blood vessels in the subcutaneous tissue, indicating the application of external force. From the color change of subcutaneous hemorrhage, the (29．　　　　　　) can be estimated. Additionally, from the nature of abrasion, the (30．　　　　　　) of the force applied can be estimated.',
+        answer: '29. Number of days after injury 30. Direction of force',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。皮下出血は皮下組織の血管の損傷によって生じ、外力が加わった証拠であるが、それだけでなくその色の変化により（29．　　　　　　）が推定でき、また表皮剥脱もその性状から加わった力の（30．　　　　　　）が推定できる。【原文解答】29.受傷後の経過日数 30.作用方向'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. In diagnosing electrocution, it is important to rule out internal diseases and external injuries as causes of death. A significant skin finding indicative of electrocution is a white, hardened, callus-like (31．　　　　　　).',
+        answer: '31. Electric mark',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死と診断する場合は死因となる内因的な疾患や外傷などを否定した上で行われなければならないが、その皮膚の特徴として白く硬い胼胝状の（31．　　　　　　）と呼ばれる所見を見つけることが重要である。【原文解答】31.電流斑:electric mark'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. In cases of sudden death, such as electrocution, the autopsy findings of asphyxia and sudden death triad include (32．　　　　　　), (33．　　　　　), and (34．　　　　　　　).',
+        answer: '32. Dark red liquid blood 33. Congestion of various organs 34. Petechial hemorrhages under mucous and serous membranes',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。感電死のような急死では、解剖所見として窒息・急死の３徴候として（32．　　　　　　）、（33．　　　　　）、（34．　　　　　　　）が認められる。【原文解答】32.暗赤色流動性血液 33.各臓器のうっ血 34.粘膜・漿膜下の溢血点'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. Injuries from traffic accidents include (35．　　　　　　　) around the knees, caused by collision with a vehicle, and injuries to the knees caused by (36．　　　　　　　) in drivers. Additionally, injuries to the chest and abdomen caused by (37．　　　　　　　) and (38．　　　　　　　　), as well as (39．　　　　　　), a pocket-like separation between the skin and fascia, observed when a person is run over while lying on the road.',
+        answer: '35. Bumper injuries 36. Dashboard 37. Seatbelt 38. Steering wheel 39. Degloving injury',
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。交通事故損傷として、車と歩行者の衝突創として膝周囲に生じる（35．　　　　　　　）、運転者にみられる損傷として（36．　　　　　　　）による膝部の損傷、（37．　　　　　　　）や（38．　　　　　　　　）による胸腹部の損傷があり、また路上に寝ているところを轢過された場合に皮膚と筋膜の間が剥離し、ポケット状になる（39．　　　　　　）が認められる。【原文解答】35.バンパー損傷 36.ダッシュボード 37.シートベルト 38.ハンドル 39.デコルマン'
+      },
+      {
+        questionSentence: 'Question 2. Fill in the blanks in the following sentences. In the skeletal remains of the skull, determining the sex is important. Compared to females, males generally appear more robust with pronounced muscle attachment sites. The brow ridges and glabella are prominent, but the frontal eminences are (40．　　　　　　　　), the mastoid processes are (41．　　　　), and the external occipital protuberance is (42．　　　　　　).',
+        answer: '40. Smaller 41. Larger 42. More pronounced',
+        answerImg: [forensic2017a2],
+        commentary: '【原文問題文】問題2. 次の文章を読んで（　）内に適当な語句を記入しなさい。白骨化した頭蓋骨において性別の判定は重要であるが、男性は女性に比べて一見して、頑強で筋付着部の凹凸が著名でごつごつした感じがし、眉弓、眉間は著明な隆起を認めるが、前頭結節の発育は（40．　　　　　　　　）く、乳様突起の発育は（41．　　　　）く、外後頭隆起の発達は（42．　　　　　　）。【原文解答】40.小さい 41.大きい 42.著名である'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Brownish-edged livor mortis (　　　　　　　　)',
+        answer: 'Hydrogen sulfide',
+        answerImg: [forensic2017a3_1],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。【原文解答】帯縁褐色の死斑（　　　　　　　　）【原文解答】硫化水素'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Severe miosis (　　　　　　　　)',
+        answer: 'Organophosphates, morphine, etc.',
+        answerImg: [forensic2017a3_2],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。強い縮瞳（　　　　　　　　）【原文解答】有機リン、モルヒネなど'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Garlic odor in stomach contents (　　　　　　　　　)',
+        answer: 'Arsenic',
+        answerImg: [forensic2017a3_3],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。胃内容のニンニク臭（　　　　　　　　　）【原文解答】ヒ素'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Coagulation necrosis (　　　　　　　　)',
+        answer: 'Hydrochloric acid, sulfuric acid, acetic acid, etc.',
+        answerImg: [forensic2017a3_4],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。凝固壊死（　　　　　　　　）【原文解答】塩酸、硫酸、酢酸など'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Acute gastroenteritis with rice-water stools (　　　　　　　　)',
+        answer: 'Arsenic',
+        answerImg: [forensic2017a3_5],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。急性腸炎（米のとぎ汁様便）（　　　　　　　　）【原文解答】ヒ素'
+      },
+      {
+        questionSentence: 'Question 3. Name the toxic substance indicated by each of the following autopsy findings in cases of poisoning. Almond odor (　　　　　　　　)',
+        answer: 'Cyanide',
+        answerImg: [forensic2017a3_5],
+        commentary: '【原文問題文】問題3. 中毒死体で次に挙げた各々の検案解剖所見を示す毒物名を１つずつ記せ。アーモンド臭（　　　　　　　　）【原文解答】青酸塩'
+      },
+      {
+        questionSentence: 'Question 4. List the vital reactions seen on the face in cases of strangulation.',
+        answer: 'Petechial hemorrhages in the conjunctiva, Marked congestion of the face, Bleeding from the external auditory canal and nostrils',
+        answerImg: [forensic2017a4],
+        commentary: '【原文問題文】問題4. 絞殺時に見られる顔面の生活反応を列記しなさい。【原文解答】眼瞼結膜の溢血点、顔面の著明なうっ血、外耳孔、鼻孔からの出血'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (1) Which of the following is an early postmortem phenomenon?',
+        choices: ['a. Reticular discoloration of the skin', 'b. Putrefactive blisters', 'c. Greenish discoloration of the abdomen', 'd. Corneal opacity', 'e. Gigantic facial appearance'],
+        answer: 'd. Corneal opacity',
+        answerImg: [forensic2017a5_1],
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (1)早期死体現象はどれか。 【原文選択肢】a．皮膚の網目模様の変色 b．腐敗水泡 c．腹部の緑色性変化 d．角膜の混濁 e．巨人様顔貌【原文解答】d.角膜の混濁'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (2) Which of the following statements about stab wounds is correct? Choose two.',
+        choices: ['a. The wound edges are regular.', 'b. The wound cavity has tissue bridges.', 'c. The depth of the wound is longer than the length of the entrance.', 'd. It is caused by blunt force trauma.', 'e. The wound angles are blunt.'],
+        answer: 'a. The wound edges are regular., c. The depth of the wound is longer than the length of the entrance.',
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (2)刺創について正しいのはどれか。２つ選べ。【原文選択肢】a．創縁は整である。 b．創洞には組織架橋を伴っている。 c．創底までの長さは接着長より長い。 d．鈍器損傷である。 e．創角は鈍である。【原文解答】a．創縁は整である。, c．創底までの長さは接着長より長い。'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (3) When a person is run over by a car, small wave-like lacerations often form on the skin, known as stretch marks. In which area are these most likely to occur?',
+        choices: ['a. Inguinal region', 'b. Sacral region', 'c. Lateral aspect of the upper arm', 'd. Forehead', 'e. Lower leg'],
+        answer: 'a. Inguinal region',
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (3)自動車に轢過されたとき、表皮に小さい波形の裂け目が多く認められ、伸展創といわれる損傷ができることがある。どの部位にできやすいか。【原文選択肢】a．鼠径部 b．仙骨部 c．上腕の外側面 d．前頭部 e．下腿部【原文解答】a．鼠径部'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (4) Which of the following injuries is not caused by blunt force trauma?',
+        choices: ['a. Incised wound', 'b. Laceration', 'c. Subcutaneous hemorrhage', 'd. Fracture', 'e. Abrasion'],
+        answer: 'a. Incised wound',
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (4)次の損傷のうちで鈍器による作用では形成されないものはどれか。【原文選択肢】a．割創 b．挫創 c．皮下出血 d．骨折 e．表皮剥脱【原文解答】a．割創'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (5) Which of the following can be considered as an unnatural death? Choose three.',
+        choices: ['a. Fell and hit the head, resulting in an epidural hematoma and death', 'b. Developed pneumonia during hospitalization for a cold and died', 'c. Was receiving home care for terminal lung cancer and died of respiratory failure two days after the last visit by the attending physician', 'd. A patient brought to the emergency room died without a definitive diagnosis', 'e. A healthy person was found dead at home'],
+        answer: 'a, d, e',
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (5)異状死体と考えられるのはどれか。３つ選べ。【原文選択肢】a．転倒して頭部を打撲し、硬膜外血腫で死亡した b．風邪をこじらせて入院中、肺炎で死亡した c．末期の肺癌で自宅療養していたが、かかりつけの医師の最後の診察２日後に肺癌による呼吸不全で死亡した。 d．救急で運ばれてきた患者が、診断がつかないまま死亡した e．生来、健康であったが、自宅で死亡して発見された【原文解答】a,d,e'
+      },
+      {
+        questionSentence: 'Question 5. Answer the following questions. (6) Which of the following statements about heat hematomas is correct?',
+        choices: ['a. They are formed by heat changes in a premortem epidural hematoma, turning it brownish.', 'b. They are formed by heat changes in a premortem subdural hematoma, turning it brownish.', 'c. They are formed postmortem in the epidural space, especially in the well-cooked areas of the head.', 'd. They adhere to the dura mater, and their cross-section is fusiform.', 'e. They adhere to the inner table of the skull, and their cross-section is irregular, with the center often brick-red.'],
+        answer: 'c. They are formed postmortem in the epidural space, especially in the well-cooked areas of the head.',
+        answerImg: [forensic2017a5_6],
+        commentary: '【原文問題文】問題5. 設問に答えなさい。 (6)燃焼血腫について、正しいものはどれか。【原文選択肢】a．生前に生じた硬膜外血腫が褐色調に熱変化したもの。 b．生前に生じた硬膜下血腫が褐色調に熱変化したもの。 c．死後に硬膜外に血腫が生じ、特に頭部のよく焼けた部位に一致する。 d．硬膜側に膠着し、断面は紡錘状である。 e．頭蓋骨内板に膠着し、断面は不定塊状で中心部はレンガ様赤色のものが多い。【原文解答】c．死後に硬膜外に血腫が生じ、特に頭部のよく焼けた部位に一致する。'
+      },
+      {
+        questionSentence: 'Question 8. Fill in the blanks in the following sentences. According to the Child Abuse Prevention Law, child abuse is classified into four categories: (　　　　　), (　　　　　), (　　　　　), and (　　　　　　).',
+        answer: 'Physical abuse, Sexual abuse, Neglect, Psychological abuse',
+        commentary: '【原文問題文】問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待防止法によると、児童虐待は、（　　　　　）・（　　　　　）・（　　　　　）・（　　　　　　）の４つに分類されている。【原文解答】身体的虐待, 性的虐待, 養育拒否, 心理的虐待'
+      },
+      {
+        questionSentence: 'Question 8. Fill in the blanks in the following sentences. The most common perpetrator of child abuse is (　　　　　).',
+        answer: 'Biological mother',
+        commentary: '【原文問題文】問題8. 次の文章ねカッコ内に適切な語句をいれなさい。児童虐待の加害者として最も多いのは（　　　　　）である。【原文解答】実母'
+      },
+      {
+        questionSentence: 'Question 8. Fill in the blanks in the following sentences. If you discover a child who appears to be abused, you must report it to (　　　　　　　) or (　　　　　　　).',
+        answer: 'Child guidance center, Welfare office',
+        commentary: '【原文問題文】問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待を受けたと思われる児童を発見した場合、（　　　　　　　）あるいは（　　　　　　　）へ通告しなければならない。【原文解答】児童相談所, 福祉事務所'
+      },
+      {
+        questionSentence: 'Question 8. Fill in the blanks in the following sentences. Autopsy findings of abused children often show (　　　　) shrinkage.',
+        answer: 'Thymus',
+        commentary: '【原文問題文】問題8. 次の文章ねカッコ内に適切な語句をいれなさい。虐待児童の解剖所見として、（　　　　）が退縮していることが多い。【原文解答】胸腺'
+      },
+      {
+        questionSentence: 'Question 8. Fill in the blanks in the following sentences. According to the Ministry of Health, Labour and Welfare, SIDS is defined as a syndrome that causes death in infants under one year old, which could not be predicted from their previous health or medical history and for which the cause of death cannot be determined even by (　　　　　　　　) and (　　　　　　).',
+        answer: 'Death scene investigation, Autopsy examination',
+        commentary: '【原文問題文】問題8. 次の文章ねカッコ内に適切な語句をいれなさい。厚生労働省によるSIDSの定義は、それまでの健康状態および既往歴から、その死が予測できず、しかも（　　　　　　　　）および（　　　　　　）によってもその原因が同定されない、原則として１歳未満の児に死をもたらした症候群とされている。【原文解答】死亡状況調査, 解剖検査'
+      },
+      {
+        questionSentence: 'Question 9. Describe the diagnostic criteria and tests used to differentiate between live birth and stillbirth in infant autopsies.',
+        answer: 'Criteria for live birth include the condition of the thorax, diaphragm height, and lung characteristics (volume, color, hardness, section). To confirm these, the hydrostatic lung test, stomach-bowel test, and histological findings (alveolar expansion) are performed.',
+        answerImg: [forensic2017a9_1, forensic2017a9_2, forensic2017a9_3],
+        commentary: '【原文問題文】問題9. 嬰児の解剖において、生産児と死産児を鑑別するために有用な鑑別所見および検査について、知るところを記述しなさい。【原文解答】生産児の基準として、胸郭の性状,横隔膜の高さ, 肺の性状(容積・色調・硬度・割面)がある。これらを確認するため、肺浮揚試験(hydrostatic lung test)、胃腸浮揚試験(stomach bowel test)、組織学的所見(肺胞の開大)が行われる。'
+      },
+      {
+        questionImg: [forensic2017q10],
+        questionSentence: 'Question 10. The figure shows the result of a parentage test conducted by DNA analysis. Microsatellite regions were amplified by PCR, and the electrophoresis pattern is shown. Based on this result, which child can be excluded from being the biological child of the alleged father? Circle the number. Assume the mother is the biological mother of all the children.',
+        choices: ['a. Child 1', 'b. Child 2', 'c. Child 3', 'd. Child 4', 'e. Child 5'],
+        answer: 'e. Child 5',
+        commentary: '【原文問題文】問題10. 図はDNA分析により親子鑑定を行ったものである。あるマイクロサテライト領域をPCR増幅し、これを電気泳動した泳動像である。この結果から、擬父と父子関係が否定されるのはいずれの子供であるか、番号を〇で囲め。ただし母はすべての子供の実母とする。【原文解答】e．子供５'
+      },
+      {
+        questionSentence: 'Question 11. Regarding DNA polymorphism detection methods, select the appropriate explanation for each method in Column A from Column B, and the principle from Column C. Column A 1. STR AMP-FLP 2. PCR-SSCP 3. PCR-SSO Column B ① A method to examine the number of repeats in tandem repeat sequences. ② A method used when it is unknown what kind of polymorphism exists in the target gene region. ③ A method used for regions where single nucleotide polymorphisms are already known and the sequence is identified. Column C a. Sequence-specific probe b. Higher-order structure of single-stranded DNA c. Length of amplified fragments',
+        answer: '1.①c 2.②b 3.③a',
+        answerImg: [forensic2017a11],
+        commentary: '【原文問題文】問題11. DNA多型検出法について、A欄の検出方法についての説明に合致するものをB欄より、その方法の原理をC欄より選べ。【原文選択肢】A欄 １．STR AMP-FLP ２．PCR-SSCP ３．PCR-SSO B欄 ①縦列繰り返し配列の繰り返し回数を調べる方法。 ②調べたい遺伝子領域にどのような多型が存在するか、あるいは多型が存在するかどうかが不明な時に用いる方法。 ③１塩基置換の存在する可能性がすでに知られており、その塩基配列が解明されている部位について調べる方法。 C欄 a．配列特異的プローブ b．一本鎖DNA高次構造 c．増幅断片の長さ【原文解答】1.①c 2.②b 3.③a'
+      },
+      {
+        questionSentence: 'Question 12. Fill in the blanks in the following sentences. ① (　　　　　　　) DNA is maternally derived and cannot be used for paternal testing, but it is short and abundant in cells, making it useful for samples with significantly degraded DNA such as mummies.',
+        answer: 'Mitochondrial, Mitochondria',
+        commentary: '【原文問題文】問題12. 括弧内に適当な言葉を入れよ。 ①（　　　　　　　）DNAは母性由来であり、父子鑑定には使えないがDNAが短く、細胞内の（　　　　　　　）が非常に多いためミイラ等、DNAがかなり崩壊している資料にも用いられる。【原文解答】ミトコンドリア,ミトコンドリア'
+      },
+      {
+        questionSentence: 'Question 12. Fill in the blanks in the following sentences. ② To determine sex using DNA, the (　　　　　　　) gene is amplified and electrophoresed. This gene is present on both the X and Y chromosomes, but its length differs, allowing sex to be determined by the fragment length of the amplified products using the same primers.',
+        answer: 'Amelogenin',
+        answerImg: [forensic2017a12_2],
+        commentary: '【原文問題文】問題12. 括弧内に適当な言葉を入れよ。 ②DNAを用いた性別判定は（　　　　　　　）遺伝子を増幅し、泳動することにより行われる。この遺伝子はXとY染色体両方に存在するがその長さが異なることから、同一のプライマーで同時に増幅し、増幅産物の断片長で性別を識別する。【原文解答】アメロゲニン'
+      },
+      {
+        questionSentence: 'Question 12. Fill in the blanks in the following sentences. ③ A single nucleotide polymorphism is called a (　　　　), and a short tandem repeat sequence is called a (　　　　　　　　　).',
+        answer: 'SNP, STR',
+        answerImg: [forensic2017a11],
+        commentary: '【原文問題文】問題12. 括弧内に適当な言葉を入れよ。 ③一塩基多型を（　　　　）と呼び、数塩基の繰り返し配列を（　　　　　　　　　）と呼ぶ。【原文解答】SNP, STR'
+      }
+    ]
+  },
     {
       groupTag: '法医学 2022本 ~問題6',
       groupContents: [{
