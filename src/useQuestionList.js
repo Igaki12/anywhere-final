@@ -2448,7 +2448,14 @@ export const useQuestionList = () => {
 
     },{
       groupTag: '法医学 2017本 機械英訳',
-      groupContents:[{
+      groupContents:[
+        {
+          questionImg: [forensic2017q1a],
+          questionSentence: 'Question 1. Answer the following questions. 1. Photo 1 shows a person who sustained a contusion to the right side of the occiput and was transported to the hospital. 1) In Photo 1-a, a reddish-purple discoloration can be seen behind the right auricle. What is this discoloration called, and what can be inferred from it?',
+          answer: 'Battle sign, Ear bleeding due to middle cranial fossa fracture',
+          answerImg: [forensic2017a1a],
+          commentary: '【原文問題文】問題1. 次の設問に答えよ。 1. 写真1は後頭部右側を打撲し、病院に搬送されたときの写真である。 1) 写真1ーaは右耳介後部に赤紫色の変色が見られるが、この変色は何という名称で呼ばれるか。またこの変色からどのような事が予測されるか記載しなさい。【原文解答】Battle徴候 、中頭蓋窩骨折による耳出血'
+        },{
         questionImg: [forensic2017q1b],
         questionSentence: '2) In Photo 1-b, a reddish-purple discoloration can be seen around both orbits. What is this discoloration called, and what can be inferred from it?',
         answer: 'Black eye, Basal skull fracture in the orbital area',
