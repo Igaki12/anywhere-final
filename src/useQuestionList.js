@@ -1280,6 +1280,1034 @@ export const useQuestionList = () => {
         },
       ]
 
+    },{
+      groupTag: "公衆衛生 授業 機械英訳",
+      groupContents: [
+        {
+          questionSentence: "Question 1: Which of the following statements about the Childbirth and Childcare Lump-Sum Grant is correct?",
+          choices: [
+            "a. Being enrolled in health insurance is a requirement.",
+            "b. It is not paid for the birth of a dependent spouse.",
+            "c. The amount paid varies depending on the cost of delivery.",
+            "d. It is paid from the third child onwards."
+          ],
+          answer: "a. Being enrolled in health insurance is a requirement.",
+          commentary: "【原文問題文】出産育児一時金で正しいのはどれか。【原文選択肢】a. 健康保険に加入していることが条件である。 b. 被保険者が扶養している配偶者の出産には支給されない。 c. 支給額は分娩費用によって異なる。 d. 第3子の出産から支給される。【原文解答】a. 健康保険に加入していることが条件である。"
+        },
+        {
+          questionSentence: "Question 2: Which of the following are regulated by the Maternal Health Act? Choose two.",
+          choices: [
+            "a. Induced abortion",
+            "b. Admission to maternity facilities",
+            "c. Home visits for pregnant women",
+            "d. Practical guidance on contraception",
+            "e. Restrictions on hazardous work for pregnant women"
+          ],
+          answer: "a. Induced abortion, d. Practical guidance on contraception",
+          commentary: "【原文問題文】母体保護法が規定しているのはどれか。2つ選べ。【原文選択肢】a. 人工妊娠中絶 b. 助産施設への入所 c. 妊産婦の訪問指導 d. 受胎調節の実地指導 e. 妊産婦などにかかわる危険有害業務の就業制限【原文解答】a. 人工妊娠中絶, d. 受胎調節の実地指導"
+        },
+        {
+          questionSentence: "Question 3: Which law regulates infant health checkups?",
+          choices: [
+            "a. Maternal Health Act",
+            "b. Maternal and Child Health Act",
+            "c. Child Welfare Act",
+            "d. Act on the Prevention of Child Abuse"
+          ],
+          answer: "b. Maternal and Child Health Act",
+          commentary: "【原文問題文】乳児健康診査を規定している法律はどれか。【原文選択肢】a. 母体保護法 b. 母子保健法 c. 児童福祉法 d. 児童虐待の防止等に関する法律【原文解答】b. 母子保健法"
+        },
+        {
+          questionSentence: "Question 4: Which of the following is not a responsibility of municipalities?",
+          choices: [
+            "a. Receiving pregnancy notifications",
+            "b. Issuing maternal and child health handbooks",
+            "c. Home visits to all households with infants",
+            "d. Health checkups for three-year-olds",
+            "e. Providing public funding for medical expenses for children with chronic diseases"
+          ],
+          answer: "e. Providing public funding for medical expenses for children with chronic diseases",
+          commentary: "【原文問題文】市町村の業務でないのはどれか。【原文選択肢】a. 妊娠届の受理 b. 母子健康手帳の交付 c. 乳児家庭全戸訪問事業 d. 3歳児健康診査 e. 小児慢性特定疾病公費負担医療費給付【原文解答】e. 小児慢性特定疾病公費負担医療費給付"
+        },
+        {
+          questionSentence: "Question 5: What are the duties of a child consultation center?",
+          choices: [
+            "a. Providing self-reliance support medical care",
+            "b. Handling admission to daycare centers",
+            "c. Auditing child welfare facilities",
+            "d. Consulting on the mental and physical disabilities of children",
+            "e. Issuing physical disability certificates"
+          ],
+          answer: "d. Consulting on the mental and physical disabilities of children",
+          commentary: "【原文問題文】児童相談所の業務はどれか。【原文選択肢】a. 自立支援医療の給付 b. 保育所への入所事務 c. 児童福祉施設の監査 d. 児童の心身障害に関する相談 e. 身体障害者手帳の交付【原文解答】d. 児童の心身障害に関する相談"
+        },
+        {
+          questionSentence: "Question 6: Which of the following statements about child consultation centers is correct?",
+          choices: [
+            "a. They are established by the national government.",
+            "b. They have child welfare officers.",
+            "c. Establishment is optional.",
+            "d. They mainly handle general cases."
+          ],
+          answer: "b. They have child welfare officers.",
+          commentary: "【原文問題文】児童相談所で正しいのはどれか。【原文選択肢】a. 国が設置する。 b. 児童福祉司がいる。 c. 設置は任意である。 d. 一般的な事例への対応が中心である。【原文解答】b. 児童福祉司がいる。"
+        },
+        {
+          questionSentence: "Question 7: According to the Act on the Prevention of Child Abuse, where should you report when you discover a child injured due to parental abuse? Choose two.",
+          choices: [
+            "a. Police station",
+            "b. Welfare office",
+            "c. Family court",
+            "d. Child consultation center",
+            "e. Board of education"
+          ],
+          answer: "b. Welfare office, d. Child consultation center",
+          commentary: "【原文問題文】児童虐待の防止等に関する法律で、親の虐待によって負傷した児童を発見した際の通告先として規定されているのはどれか。2つ選べ。【原文選択肢】a. 警察署 b. 福祉事務所 c. 家庭裁判所 d. 児童相談所 e. 教育委員会【原文解答】b. 福祉事務所, d. 児童相談所"
+        },
+        {
+          questionSentence: "Question 8: Which combination of law and issued certificate is correct?",
+          choices: [
+            "a. Comprehensive Support Law for Persons with Disabilities――Rehabilitation Certificate",
+            "b. Maternal and Child Health and Welfare Act――Maternal and Child Health Handbook",
+            "c. Public Assistance Act――Physical Disability Certificate",
+            "d. Mental Health and Welfare Act――Mental Disability Health and Welfare Certificate"
+          ],
+          answer: "d. Mental Health and Welfare Act――Mental Disability Health and Welfare Certificate",
+          commentary: "【原文問題文】法律と交付される手帳の組み合わせで正しいのはどれか。【原文選択肢】a. 障害者総合支援法――療育手帳 b. 母子及び寡婦福祉法――母子健康手帳 c. 生活保護法――身体障害者手帳 d. 精神保健及び精神障害者福祉に関する法律――精神障害者保健福祉手帳【原文解答】d. 精神保健及び精神障害者福祉に関する法律――精神障害者保健福祉手帳"
+        },
+        {
+          questionSentence: "Question 9: Which plan called for the establishment of community child-rearing support centers?",
+          choices: [
+            "a. Child Welfare Act",
+            "b. New Angel Plan",
+            "c. Act on Promotion of Measures to Support the Development of the Next Generation",
+            "d. Act on the Prevention of Child Abuse"
+          ],
+          answer: "b. New Angel Plan",
+          commentary: "【原文問題文】地域子育て支援センターの整備を掲げたのはどれか。【原文選択肢】a. 児童福祉法 b. 新エンゼルプラン c. 次世代育成支援対策推進法 d. 児童虐待の防止等に関する法律【原文解答】b. 新エンゼルプラン"
+        },
+        {
+          questionSentence: "Question 10: Which combination of measures applicable to pregnant women and the legal basis is correct?",
+          choices: [
+            "a. Staggered commuting――――――――Maternal and Child Health Act",
+            "b. Maternity leave――――――――――――Child Welfare Act",
+            "c. Transfer to lighter duties――――――――Maternal Health Act",
+            "d. Restrictions on hazardous work――――――Labor Standards Act"
+          ],
+          answer: "d. Restrictions on hazardous work――――――Labor Standards Act",
+          commentary: "【原文問題文】就労している妊婦に適用される措置と根拠法令との組み合わせで正しいのはどれか。【原文選択肢】a. 時差出勤――――――――母子保健法 b. 産前産後の休業――――児童福祉法 c. 軽易業務への転換――――母体保護法 d. 危険有害業務の制限―――労働基準法【原文解答】d. 危険有害業務の制限―――労働基準法"
+        },
+        {
+          questionSentence: "Question 11: Which of the following are duties of a child consultation center? Choose two.",
+          choices: [
+            "a. Temporary protection of children",
+            "b. Decision on self-reliance support benefits",
+            "c. Consultation on school non-attendance",
+            "d. Issuance of physical disability certificates",
+            "e. Implementation of after-school care programs"
+          ],
+          answer: "a. Temporary protection of children, c. Consultation on school non-attendance",
+          commentary: "【原文問題文】児童相談所の業務はどれか。2つ選べ。【原文選択肢】a. 児童の一時保護 b. 自立支援給付の決定 c. 不登校に関する相談 d. 身体障害者手帳の交付 e. 放課後児童健全育成事業の実施【原文解答】a. 児童の一時保護, c. 不登校に関する相談"
+        },
+        {
+          questionSentence: "Question 12: What can be identified from pregnancy notifications?",
+          choices: [
+            "a. Teenage pregnancy",
+            "b. Nationality",
+            "c. Primipara",
+            "d. Unmarried"
+          ],
+          answer: "a. Teenage pregnancy",
+          commentary: "【原文問題文】妊娠の届出から把握できるのはどれか。【原文選択肢】a. 若年妊娠 b. 国籍 c. 初産婦 d. 未婚【原文解答】a. 若年妊娠"
+        },
+        {
+          questionSentence: "Question 13: Which combination of medical expense assistance and legal basis is correct?",
+          choices: [
+            "a. Self-reliance support medical care――――――――――――Act on Promotion of Measures to Support the Development of the Next Generation",
+            "b. Medical care benefits for children with tuberculosis――――――Act on the Prevention of Infectious Diseases and Medical Care for Patients with Infectious Diseases",
+            "c. Medical care support for children with chronic specific diseases――――――Child Welfare Act",
+            "d. Medical care benefits for pregnancy hypertension syndrome, etc.――――――Maternal Health Act"
+          ],
+          answer: "c. Medical care support for children with chronic specific diseases――――――Child Welfare Act",
+          commentary: "【原文問題文】医療費の助成と根拠法令の組合わせで正しいのはどれか。【原文選択肢】a. 自立支援医療――――――――――――次世代育成支援対策推進法 b. 結核児童の療育給付―――――――――感染症の予防及び感染症の患者に対する医療に関する法律 c. 小児慢性特定疾病医療支援事業――――児童福祉法 d. 妊娠高血圧症候群等の療養給付――――母体保護法【原文解答】c. 小児慢性特定疾病医療支援事業――――児童福祉法"
+        },
+        {
+          questionSentence: "Question 14: Which of the following statements about health services related to infant hearing is correct?",
+          choices: [
+            "a. Neonatal hearing screening is conducted through home visits.",
+            "b. Delayed speech development often reveals abnormalities during infant health checkups.",
+            "c. Hearing tests are conducted for all children during health checkups for 18-month-olds.",
+            "d. A questionnaire on ear health is conducted for all children during health checkups for three-year-olds."
+          ],
+          answer: "d. A questionnaire on ear health is conducted for all children during health checkups for three-year-olds.",
+          commentary: "【原文問題文】乳幼児の聴覚に関する保健事業について正しいのはどれか。【原文選択肢】a. 新生児聴覚障害検査は訪問指導で行う。 b. 乳児健康診査では言葉の発達の遅れから異常が発見されることが多い。 c. 1歳6か月児健康診査では全員に聴力検査を実施する。 d. 3歳児健康診査では全員に耳に関するアンケートを実施する。【原文解答】d. 3歳児健康診査では全員に耳に関するアンケートを実施する。"
+        },
+        {
+          questionSentence: "Question 15: Which of the following is appropriate for health guidance during infant health checkups? Choose two.",
+          choices: [
+            "a. Do not conduct during interviews.",
+            "b. Exclude those who do not wish to participate.",
+            "c. Group guidance should be conducted by health nurses only, without involving other professions.",
+            "d. Group guidance can be used as an opportunity for parents to interact with each other.",
+            "e. Check the health status of family members who did not come to the checkup."
+          ],
+          answer: "d. Group guidance can be used as an opportunity for parents to interact with each other, e. Check the health status of family members who did not come to the checkup",
+          commentary: "【原文問題文】乳幼児健康診査時の保健指導で適切なのはどれか。2つ選べ。【原文選択肢】a. 問診時には行わない。 b. 希望しない場合は対象外とする。 c. 集団指導は他職種を交えず保健師が行う。 d. 集団指導は親同士の交流の場に活用できる。 e. 来所していない家族の健康状態も確認する。【原文解答】d. 集団指導は親同士の交流の場に活用できる, e. 来所していない家族の健康状態も確認する"
+        },
+        {
+          questionSentence: "Question 16: A 3-year-old child was found to have six cavities during a health checkup for three-year-olds. Recently, the child has started speaking in two-word sentences. When the health nurse asked the mother about the child's diet, she gave vague answers and said that the child always sleeps until around noon. Although the health nurse recommended dental and developmental consultations, the mother refused. What is the most appropriate response by the health nurse?",
+          choices: [
+            "a. Report to the child consultation center.",
+            "b. Conduct a home visit within a few days.",
+            "c. Request a home visit by a maternal and child health promoter.",
+            "d. Call the mother again to recommend developmental consultation."
+          ],
+          answer: "b. Conduct a home visit within a few days.",
+          commentary: "【原文問題文】3歳の幼児。3歳児健康診査で6本のう歯を指摘された。最近は二語文を話し始めた。母親に児の食事内容を聞くと、あいまいな返事で、児はいつも正午ころまで寝ていると言う。保健師は歯科相談と発達相談を勧めたが、母親は拒否した。保健師の対応で最も適切なのはどれか。【原文選択肢】a. 児童相談所に通告する。 b. 数日以内に家庭訪問を行う。 c. 母子保健推進員に家庭訪問を依頼する。 d. 再度、母親に電話で発達相談を勧める。【原文解答】b. 数日以内に家庭訪問を行う。"
+        },
+        {
+          questionSentence: "Question 17: After a case of child abuse occurred in the city, measures to strengthen cooperation among stakeholders to prevent child abuse were initiated. Which of the following is an appropriate measure?",
+          choices: [
+            "a. Hold regular meetings with stakeholders.",
+            "b. Do not share information at the stage of suspected abuse.",
+            "c. Support goals cannot be changed without discussions in meetings.",
+            "d. Case management is mainly conducted by the health center."
+          ],
+          answer: "a. Hold regular meetings with stakeholders.",
+          commentary: "【原文問題文】市では児童虐待事例が発生したことをきっかけに、児童虐待防止のための関係者間の連携を強化することとなった。適切な取組みはどれか。【原文選択肢】a. 関係者による会議を定期的に開催する。 b. 虐待の疑いの段階では情報の共有は行わない。 c. 支援目標は会議の協議を経ないと変更できない。 d. 事例のマネジメントは保健所が中心となって行う。【原文解答】a. 関係者による会議を定期的に開催する。"
+        },
+        {
+          questionSentence: "Question 18: Which of the following statements about newborn home visits conducted by municipalities is correct?",
+          choices: [
+            "a. They do not target second and subsequent children.",
+            "b. They are conducted by maternal and child health promoters.",
+            "c. They can be continued even after the neonatal period.",
+            "d. If the mother and child are not home, leave a message with a neighbor."
+          ],
+          answer: "c. They can be continued even after the neonatal period.",
+          commentary: "【原文問題文】市町村による新生児の訪問指導について正しいのはどれか。【原文選択肢】a. 第2子以降は対象外である。 b. 母子保健推進員が実施する。 c. 新生児期を過ぎても継続できる。 d. 母子が不在の場合は近隣住民に伝言を依頼する。【原文解答】c. 新生児期を過ぎても継続できる。"
+        },
+        {
+          questionSentence: "Question 19: Which of the following statements about the number of child abuse consultations handled in fiscal year 2013 (FY 2013) according to the Welfare Administration Report is correct?",
+          choices: [
+            "a. The number of cases handled by child consultation centers remained flat compared to the previous year.",
+            "b. Abuse by biological fathers increased compared to the previous year.",
+            "c. Abuse by biological mothers accounts for less than half of all cases.",
+            "d. Physical abuse is more common than psychological abuse."
+          ],
+          answer: "b. Abuse by biological fathers increased compared to the previous year.",
+          commentary: "【原文問題文】平成25年度（2013年度）の福祉行政報告例における児童虐待相談対応件数について正しいのはどれか。【原文選択肢】a. 児童相談所の対応件数は前年度に比べ横ばいである。 b. 実父による虐待は前年度に比べ増加傾向である。 c. 実母による虐待は全体の半数以下である。 d. 身体的虐待は心理的虐待より多い。【原文解答】b. 実父による虐待は前年度に比べ増加傾向である。"
+        },
+        {
+          questionSentence: "Question 20: Which of the following statements about pregnancy notifications is correct?",
+          choices: [
+            "a. They are submitted to the prefectural governor.",
+            "b. A doctor's certificate is required.",
+            "c. There are no prescribed items for the notification.",
+            "d. Maternal and child health handbooks are issued to those who submit the notification."
+          ],
+          answer: "d. Maternal and child health handbooks are issued to those who submit the notification.",
+          commentary: "【原文問題文】妊娠届について正しいのはどれか。【原文選択肢】a. 都道府県知事に提出する。 b. 医師の診断書が必要である。 c. 届出の事項は定められていない。 d. 届出をした者に対し母子健康手帳を交付する。【原文解答】d. 届出をした者に対し母子健康手帳を交付する。"
+        },
+        {
+          questionSentence: "Question 21: Which of the following statements about the home-visit nursing system is correct?",
+          choices: [
+            "a. The elderly home-visit nursing system was established in 2000.",
+            "b. A written contract is not required when starting the service.",
+            "c. Managers of home-visit nursing stations are required to be doctors or nurses.",
+            "d. Opening a home-visit nursing station under the Long-Term Care Insurance Act requires prefectural designation."
+          ],
+          answer: "d. Opening a home-visit nursing station under the Long-Term Care Insurance Act requires prefectural designation.",
+          commentary: "【原文問題文】訪問看護に関する制度について正しいのはどれか。【原文選択肢】a. 平成12年（2000年）に老人訪問看護制度が創設された。 b. サービスを開始するときに書面による契約は不要である。 c. 訪問看護ステーションの管理者は医師もしくは看護師と定められている。 d. 介護保険法に基づく訪問看護ステーションの開設には都道府県の指定が必要である。【原文解答】d. 介護保険法に基づく訪問看護ステーションの開設には都道府県の指定が必要である。"
+        },
+        {
+          questionSentence: "Question 22: Which combination of social insurance and its legal basis is correct?",
+          choices: [
+            "a. Medical insurance――――――――――――Health Insurance Act",
+            "b. Pension insurance――――――――――――Welfare for the Elderly Act",
+            "c. Employment insurance――――――――――――Act on Equal Employment Opportunity and Treatment for Men and Women in Employment",
+            "d. Workers' Accident Compensation Insurance――――――Labor Standards Act"
+          ],
+          answer: "a. Medical insurance――――――――――――Health Insurance Act",
+          commentary: "【原文問題文】社会保険と根拠となる法律の組合せで正しいのはどれか。【原文選択肢】a. 医療保健――――――――――――健康保険法 b. 年金保険――――――――――――老人福祉法 c. 雇用保険――――――――――――雇用の分野における男女の均等な機会及び待遇の確保とに関する法律 d. 労働者災害補償保険―――――――労働基準法【原文解答】a. 医療保健――――――――――――健康保険法"
+        },
+        {
+          questionSentence: "Question 23: Which of the following statements about the long-term care insurance system is correct?",
+          choices: [
+            "a. The municipalities conduct the certification of long-term care needs.",
+            "b. The user bears 30% of the costs.",
+            "c. Users cannot create care plans.",
+            "d. There is no need to apply for the renewal of long-term care certification."
+          ],
+          answer: "a. The municipalities conduct the certification of long-term care needs.",
+          commentary: "【原文問題文】介護保険制度で正しいのはどれか。【原文選択肢】a. 要介護認定は市町村が行う。 b. 費用の 3割は利用者が負担する。 c. 利用者はケアプランが作成できない。 d. 要介護更新認定の申請は不要である。【原文解答】a. 要介護認定は市町村が行う。"
+        },
+        {
+          questionSentence: "Question 24: Which of the following statements about the Long-Term Care Insurance Act is correct?",
+          choices: [
+            "a. The self-pay cost is 30%.",
+            "b. The prefecture conducts the certification of long-term care needs.",
+            "c. Food expenses are provided as part of facility services.",
+            "d. The insured are those aged 40 and over who are enrolled in medical insurance."
+          ],
+          answer: "d. The insured are those aged 40 and over who are enrolled in medical insurance.",
+          commentary: "【原文問題文】介護保険法で正しいのはどれか。【原文選択肢】a. 自己負担費用は 3割である。 b. 要介護認定は都道府県が行う。 c. 施設サービスとして食費が支給される。 d. 被保険者は 40歳以上の医療保険加入者である。【原文解答】d. 被保険者は 40歳以上の医療保険加入者である。"
+        },
+        {
+          questionSentence: "Question 25: Who is eligible for preventive benefits under long-term care insurance?",
+          choices: [
+            "a. Only those classified as needing support level 1",
+            "b. Only those classified as needing support levels 1 and 2",
+            "c. Those classified as needing support levels 1 and 2, and care level 1",
+            "d. Those classified as needing support levels 1 and 2, and care levels 1 and 2"
+          ],
+          answer: "b. Only those classified as needing support levels 1 and 2",
+          commentary: "【原文問題文】介護保険における予防給付の対象はどれか。【原文選択肢】a. 要支援 1のみ b. 要支援 1と要支援 2のみ c. 要支援 1、要支援 2及び要介護 1のみ d. 要支援 1、要支援 2、要介護 1及び要介護 2【原文解答】b. 要支援 1と要支援 2のみ"
+        },
+        {
+          questionSentence: "Question 26: Which of the following statements about the primary insured under long-term care insurance is correct?",
+          choices: [
+            "a. Those eligible for preventive benefits are classified as needing care level 1.",
+            "b. Insurance premiums are a fixed amount based on income levels.",
+            "c. Medical insurers collect the insurance premiums.",
+            "d. The primary insured are those aged 60 and over."
+          ],
+          answer: "b. Insurance premiums are a fixed amount based on income levels.",
+          commentary: "【原文問題文】介護保険の第 1号被保険者について正しいのはどれか。【原文選択肢】a. 予防給付対象者は要介護 1である。 b. 保険料は所得段階別の定額である。 c. 医療保険者が保険料を徴収する。 d. 対象は６０歳以上である。【原文解答】b. 保険料は所得段階別の定額である。"
+        },
+        {
+          questionSentence: "Question 27: Which of the following statements about long-term care insurance services is correct?",
+          choices: [
+            "a. The rental of welfare equipment is free.",
+            "b. Elderly people classified as needing support can be admitted to long-term care health facilities.",
+            "c. Small-scale multifunctional in-home care does not provide overnight stays (short stays).",
+            "d. Dementia group homes provide unit care."
+          ],
+          answer: "d. Dementia group homes provide unit care.",
+          commentary: "【原文問題文】介護保険サービスについて正しいのはどれか。【原文選択肢】a. 福祉用具の貸与は無償で受けられる。 b. 要支援の高齢者は介護老人保健施設に入所できる。 c. 小規模多機能型居宅介護では泊まり（ショートステイ）は提供しない。 d. 認知症対応型共同生活介護（グループホーム）ではユニットケアを実施している。【原文解答】d. 認知症対応型共同生活介護（グループホーム）ではユニットケアを実施している。"
+        },
+        {
+          questionSentence: "Question 28: Which of the following statements about long-term care insurance is correct? Choose two.",
+          choices: [
+            "a. The insurer (implementing body) is the prefecture.",
+            "b. The primary insured are those aged 65 and over who are enrolled in medical insurance.",
+            "c. The certification categories for long-term care insurance include six levels, including self-sufficiency.",
+            "d. Preventive benefits for those needing support are handled by community comprehensive support centers.",
+            "e. There is no limit on the amount of benefits for facility services."
+          ],
+          answer: "d. Preventive benefits for those needing support are handled by community comprehensive support centers, e. There is no limit on the amount of benefits for facility services.",
+          commentary: "【原文問題文】介護保険について正しいものを２つ選べ。【原文選択肢】a. 保険者（実施主体）は都道府県である。 b. 第１号被保険者は６５歳以上の医療保険加入者である。 c. 介護保険での認定区分は、自立も含めて６段階である。 d. 要支援者に対する予防給付は、地域包括支援センターが担当する。 e. 施設サービスには支給限度額の定めがない。【原文解答】d. 要支援者に対する予防給付は、地域包括支援センターが担当する, e. 施設サービスには支給限度額の定めがない。"
+        },
+        {
+          questionSentence: "Question 29: Which of the following is appropriate for creating care plans under long-term care insurance?",
+          choices: [
+            "a. The user and family members participate.",
+            "b. The priority is given to the allocation limit.",
+            "c. Care service providers create the plans.",
+            "d. Reporting to the doctor is mandatory after creating the plans."
+          ],
+          answer: "a. The user and family members participate.",
+          commentary: "【原文問題文】介護保険におけるケアプラン作成で適切なのはどれか。【原文選択肢】a. 利用者や家族が参加する。 b. 区分支給限度額を優先する。 c. 介護サービス事業者が作成する。 d. 作成後に医師への報告が義務付けられている。【原文解答】a. 利用者や家族が参加する。"
+        },
+        {
+          questionSentence: "Question 30: Which of the following statements about home-visit nursing under long-term care insurance is correct? Choose two.",
+          choices: [
+            "a. Visits by physical therapists are not included.",
+            "b. A home-visit nursing instruction form from the attending physician is required.",
+            "c. The nursing fees vary depending on the length of the visit.",
+            "d. The frequency of visits is determined by the care manager.",
+            "e. Only one home-visit nursing office can be used."
+          ],
+          answer: "b. A home-visit nursing instruction form from the attending physician is required, c. The nursing fees vary depending on the length of the visit.",
+          commentary: "【原文問題文】介護保険制度による訪問看護で正しいのはどれか。２つ選べ。【原文選択肢】a. 理学療法士による訪問は含まれない。 b. 主治医の訪問看護指示書が必要である。 c. 訪問滞在時間によって介護報酬は異なる。 d. 利用頻度は介護支援専門員の指示による。 e. 利用できる訪問看護事業所は１か所に限る。【原文解答】b. 主治医の訪問看護指示書が必要である, c. 訪問滞在時間によって介護報酬は異なる。"
+        },
+        {
+          questionSentence: "Question 31: Which of the following can receive home-visit nursing services covered by public insurance? Choose two.",
+          choices: [
+            "a. Infant homes",
+            "b. Long-term care health facilities",
+            "c. Rental housing for the elderly",
+            "d. Long-term care medical facilities",
+            "e. Group homes for dementia care"
+          ],
+          answer: "c. Rental housing for the elderly, e. Group homes for dementia care",
+          commentary: "【原文問題文】入所者または居住者が公的保険による訪問看護サービスを受けることができるのはどれか。２つ選べ。【原文選択肢】a. 乳児院 b. 介護老人保健施設 c. 高齢者専用賃貸住宅 d. 介護療養型医療施設 e. 認知症対応型共同生活介護（グループホーム）【原文解答】c. 高齢者専用賃貸住宅, e. 認知症対応型共同生活介護（グループホーム）"
+        },
+        {
+          questionSentence: "Question 32: Which of the following are functions of community comprehensive support centers? Choose two.",
+          choices: [
+            "a. Providing long-term care remuneration",
+            "b. Providing home-visit care",
+            "c. Conducting assessments for long-term care certification",
+            "d. Consulting on elder abuse",
+            "e. Managing long-term care prevention care plans"
+          ],
+          answer: "d. Consulting on elder abuse, e. Managing long-term care prevention care plans",
+          commentary: "【原文問題文】地域包括支援センターの機能はどれか。２つ選べ。【原文選択肢】a. 介護報酬の支給 b. 訪問介護の実施 c. 要介護認定審査 d. 高齢者虐待の相談 e. 介護予防ケアマネジメント【原文解答】d. 高齢者虐待の相談, e. 介護予防ケアマネジメント"
+        },
+        {
+          questionSentence: "Question 33: Which of the following statements about care managers under the long-term care insurance system is correct?",
+          choices: [
+            "a. They conduct assessments necessary for long-term care certification.",
+            "b. They decide on the roles of family caregivers.",
+            "c. They can create home-visit nursing instruction forms.",
+            "d. A nursing license is equivalent to a care manager qualification."
+          ],
+          answer: "a. They conduct assessments necessary for long-term care certification.",
+          commentary: "【原文問題文】介護保険制度における介護支援専門員（ケアマネジャー）で正しいのはどれか。【原文選択肢】a. 要介護認定に必要な調査を行う。 b. 家族介護者の役割分担を決定する。 c. 訪問看護指示書を作成できる。 d. 看護師免許は介護支援専門員資格を兼ねる。【原文解答】a. 要介護認定に必要な調査を行う。"
+        },
+        {
+          questionSentence: "Question 34: Which of the following can be used by a homebound person classified as needing care level 2 under long-term care insurance?",
+          choices: [
+            "a. Rental of a walker",
+            "b. Functional training at an outpatient clinic",
+            "c. Home visits by the attending physician",
+            "d. Installation of an emergency call system"
+          ],
+          answer: "a. Rental of a walker",
+          commentary: "【原文問題文】要介護２の在宅療養者が介護保険で利用できるのはどれか。【原文選択肢】a. 歩行器の貸与 b. 外来での機能訓練 c. 主治医による往診 d. 緊急通報システムの設置【原文解答】a. 歩行器の貸与"
+        },
+        {
+          questionSentence: "Question 35: Which of the following is not covered by long-term care insurance benefits for home care?",
+          choices: [
+            "a. Purchase of paper diapers",
+            "b. Installation of handrails in hallways and stairs",
+            "c. Walking aid cane",
+            "d. Rental of an electric bed"
+          ],
+          answer: "a. Purchase of paper diapers",
+          commentary: "【原文問題文】在宅介護で介護保険給付の対象でないのはどれか。【原文選択肢】a. 紙おむつの購入 b. 廊下や階段の手すりの設置 c. 歩行補助杖 d. 電動ベッドの貸与【原文解答】a. 紙おむつの購入"
+        },
+        {
+          questionSentence: "Question 36: Which of the following statements about designated long-term care medical facilities is correct?",
+          choices: [
+            "a. They cater to those classified as needing long-term care and support.",
+            "b. The standard for the number of nursing staff is at least one per six inpatients, calculated as full-time equivalents.",
+            "c. At least three care managers are assigned per 100 inpatients.",
+            "d. The number of beds in a room is limited to six or fewer."
+          ],
+          answer: "b. The standard for the number of nursing staff is at least one per six inpatients, calculated as full-time equivalents.",
+          commentary: "【原文問題文】指定介護療養型医療施設で正しいのはどれか。【原文選択肢】a. 長期療養が必要と認められる要支援者を対象とする。 b. 看護職員数の基準は常勤換算方法で入院患者６人に１人以上である。 c. 介護支援専門員は入院患者１００人に３人以上を配置する。 d. 病室の病床数は６床以下とする。【原文解答】b. 看護職員数の基準は常勤換算方法で入院患者６人に１人以上である。"
+        },
+        {
+          questionSentence: "Question 37: Which of the following statements about long-term care health facilities is correct? Choose two.",
+          choices: [
+            "a. They provide care, functional training, and medical care.",
+            "b. They are required to have full-time doctors on staff.",
+            "c. There are three nurses per 100 residents.",
+            "d. Residents can receive home-visit nursing services upon request.",
+            "e. Those classified as needing support are also eligible for admission."
+          ],
+          answer: "a. They provide care, functional training, and medical care, b. They are required to have full-time doctors on staff.",
+          commentary: "【原文問題文】介護老人保健施設について正しいのはどれか。２つ選べ。【原文選択肢】a. 介護、機能訓練及び医療を行う。 b. 常勤医の配置が義務付けられている。 c. 入所者１００人当たりの看護師数は３人である d. 希望すれば訪問看護サービスを受けることができる。 e. 介護保険で要支援と認定されたものも対象に含まれる。【原文解答】a. 介護、機能訓練及び医療を行う, b. 常勤医の配置が義務付けられている。"
+        },
+        {
+          questionSentence: "Question 38: Which of the following statements about long-term care welfare facilities is correct?",
+          choices: [
+            "a. Admission is determined by municipalities.",
+            "b. There are three nurses per 200 residents.",
+            "c. There is one full-time doctor per 100 residents.",
+            "d. They cater to people aged 65 and over who require constant care."
+          ],
+          answer: "d. They cater to people aged 65 and over who require constant care.",
+          commentary: "【原文問題文】介護老人福祉施設の説明で適切なのはどれか。【原文選択肢】a. 入所は市町村の設置による。 b. 入所者数２００につき３人の看護職員がいる。 c. 入所者数１００につき１人の常勤の医師がいる。 d. 常時介護を必要とする６５歳以上の人を対象とする。【原文解答】d. 常時介護を必要とする６５歳以上の人を対象とする。"
+        },
+        {
+          questionSentence: "Question 39: Which of the following statements about group homes for dementia care is correct?",
+          choices: [
+            "a. They are based on living units of 20 people.",
+            "b. The placement of nursing staff is mandatory.",
+            "c. They are a community-based service under the long-term care insurance system.",
+            "d. The duration of continuous use is limited to three months in principle."
+          ],
+          answer: "c. They are a community-based service under the long-term care insurance system.",
+          commentary: "【原文問題文】認知症対応型共同生活介護（グループホーム）について正しいのはどれか。【原文選択肢】a. ２０人の生活単位を基本とする。 b. 看護職員の配置が義務付けられている。 c. 介護保険制度における地域密着型サービスである。 d. 連続して利用できる期間は原則３か月以内である。【原文解答】c. 介護保険制度における地域密着型サービスである。"
+        },
+        {
+          questionSentence: "Question 40: Which of the following statements about small-scale multifunctional in-home care is correct?",
+          choices: [
+            "a. The prefecture designates the service providers.",
+            "b. It is one of the facility services under long-term care benefits.",
+            "c. The daily user capacity is limited to 19 people or fewer.",
+            "d. Short-term stays are possible depending on the condition of the care recipient."
+          ],
+          answer: "d. Short-term stays are possible depending on the condition of the care recipient.",
+          commentary: "【原文問題文】小規模多機能型居宅介護で正しいのはどれか。【原文選択肢】a. 都道府県が事業者を指定する。 b. 介護給付の施設サービスの１つである。 c. １日あたりの利用定員は１９人以下である。 d. 要介護者の状態に応じて短期間の宿泊が可能である。【原文解答】d. 要介護者の状態に応じて短期間の宿泊が可能である。"
+        },
+        {
+          questionSentence: "Question 41: Which of the following is done by a care manager?",
+          choices: [
+            "a. Providing day care services",
+            "b. Renting welfare equipment",
+            "c. Providing short-term residential care",
+            "d. Planning in-home service care plans"
+          ],
+          answer: "d. Planning in-home service care plans",
+          commentary: "【原文問題文】介護支援専門員が行うのはどれか。【原文選択肢】a. 通所介護の提供 b. 福祉用具の貸与 c. 短期入所生活介護の提供 d. 居宅サービス計画の立案【原文解答】d. 居宅サービス計画の立案"
+        },
+        {
+          questionSentence: "Question 42: According to Japan's 2013 Comprehensive Survey of Living Conditions, which category accounts for the highest proportion of average household income for elderly households?",
+          choices: [
+            "a. Employment income",
+            "b. Property income",
+            "c. Public pensions and retirement allowances",
+            "d. Remittances, corporate pensions, personal pensions, and other income"
+          ],
+          answer: "c. Public pensions and retirement allowances",
+          commentary: "【原文問題文】日本の平成２５年（２０１３年）の国民生活基礎調査において高齢者世帯の所得で、１世帯当たり平均所得金額の構成割合が最も高いのはどれか。【原文選択肢】a. 稼働所得 b. 財産所得 c. 公的年金・恩給 d. 仕送り・企業年金・個人年金・その他の所得【原文解答】c. 公的年金・恩給"
+        },
+        {
+          questionSentence: "Question 43: Which of the following statements about care management for the elderly in home care is correct?",
+          choices: [
+            "a. It is an exclusive duty of care managers.",
+            "b. Home-visit nursing covered by medical insurance is not included.",
+            "c. It begins from the start of service use based on the care plan.",
+            "d. It assesses whether needs are being met by existing services."
+          ],
+          answer: "d. It assesses whether needs are being met by existing services.",
+          commentary: "【原文問題文】在宅ケアにおける高齢者のケアマネジメントに関する説明で正しいのはどれか。【原文選択肢】a. 介護支援専門員の独占業務である。 b. 医療保険による訪問看護は対象としない。 c. ケアプランに基づくサービスの利用開始時から始める。 d. 既存のサービスによってニーズが満たされているかを査定する。【原文解答】d. 既存のサービスによってニーズが満たされているかを査定する。"
+        },
+        {
+          questionSentence: "Question 44: Which of the following is responsible for rights protection services under the Long-Term Care Insurance Act?",
+          choices: [
+            "a. Social Welfare Council",
+            "b. Community Welfare Center",
+            "c. Home Care Support Office",
+            "d. Community Comprehensive Support Center"
+          ],
+          answer: "d. Community Comprehensive Support Center",
+          commentary: "【原文問題文】介護保険法における権利擁護事業を担当するのはどれか。【原文選択肢】a. 社会福祉協議会 b. 地域福祉センター c. 居宅介護支援事業所 d. 地域包括支援センター【原文解答】d. 地域包括支援センター"
+        },{
+          questionSentence: "Question 45: Which of the following statements about the Comprehensive Business for Preventive Care and Daily Life Support is correct?",
+          choices: [
+            "a. It is a community life support project.",
+            "b. It was established in 2005.",
+            "c. It targets those certified as requiring support.",
+            "d. The general preventive care project targets Category 2 insured persons."
+          ],
+          answer: "c. It targets those certified as requiring support.",
+          commentary: "【原文問題文】介護予防・日常生活支援総合事業で正しいのはどれか。【原文選択肢】a. 地域生活支援事業である。 b. 平成１７年（２００５年）に創設された。 c. 要支援認定を受けている者も対象である。 d. 一般介護予防事業の対象は第２号被保険者である。【原文解答】c. 要支援認定を受けている者も対象である。"
+        },
+        {
+          questionSentence: "Question 46: The city has experienced several isolated deaths among independent elderly people living alone and is considering activities for these individuals. Which of the following is an appropriate action for a public health nurse to prevent isolated deaths?",
+          choices: [
+            "a. Investigate the number of elderly people enrolled in senior clubs.",
+            "b. Encourage neighborhood associations to set up gathering places for elderly people living alone.",
+            "c. Request the Community Activity Support Center to monitor the elderly.",
+            "d. Recommend that elderly people with concerns about isolated deaths consult the Community Comprehensive Support Center."
+          ],
+          answer: "b. Encourage neighborhood associations to set up gathering places for elderly people living alone.",
+          commentary: "【原文問題文】市では自立している独居高齢者の孤立死が続いたため、独居高齢者に対する活動を検討したいと考えている。孤立死を予防するための保健師の活動として適切なのはどれか。【原文選択肢】a. 老人クラブの加入者数を調査する。 b. 自治会に独居高齢者が集う場を設定するよう促す。 c. 地域活動支援センターに高齢者の見守りを依頼する。 d. 孤立死への不安がある高齢者に地域包括支援センターでの相談を勧める。【原文解答】b. 自治会に独居高齢者が集う場を設定するよう促す。"
+        },
+        {
+          questionSentence: "Question 47: Which of the following pairs correctly matches the concept of mutual aid in social welfare with its specific content?",
+          choices: [
+            "a. Self-help — Volunteer",
+            "b. Mutual aid — Long-term care insurance",
+            "c. Cooperative aid — Public assistance",
+            "d. Public aid — Employment continuation support"
+          ],
+          answer: "d. Public aid — Employment continuation support",
+          commentary: "【原文問題文】社会福祉における相互援助の概念と具体的な内容との組み合わせで適切なのはどれか。【原文選択肢】a. 自助―――――――ボランティア b. 互助―――――――介護保険 c. 共助―――――――生活保護 d. 公助―――――――就労継続支援【原文解答】d. 公助―――――――就労継続支援"
+        },
+        {
+          questionSentence: "Question 48: Which of the following statements about school health is correct?",
+          choices: [
+            "a. Kindergarten children are not included in school health activities.",
+            "b. School health examinations must be conducted within three months of enrollment.",
+            "c. According to school health statistics, asthma is the most common disease or disorder.",
+            "d. Health education is included in school health.",
+            "e. School doctors can suspend attendance for those with infectious diseases."
+          ],
+          answer: "d. Health education is included in school health.",
+          commentary: "【原文問題文】学校保健に関する記述である。正しいのはどれか。【原文選択肢】a. 幼稚園児は、学校保健活動の対象には含まれない。 b. 就学時健康診断は、就学後 3か月以内に実施されなければならない。 c. 学校保健統計によると、疾病・異常で最も多いのはぜん息である。 d. 保健教育は、学校保健に含まれる。 e. 学校医は、伝染病に罹患している者の出席を停止させることができる。【原文解答】d. 保健教育は、学校保健に含まれる。"
+        },
+        {
+          questionSentence: "Question 49: Which of the following statements about school health is correct?",
+          choices: [
+            "a. Schools covered by school health include daycare centers to universities.",
+            "b. The health officer is the overall responsible person for school health.",
+            "c. School doctors can declare a temporary closure of schools for infection control.",
+            "d. School safety includes ensuring safety during commuting.",
+            "e. Students are not included in the school health committee."
+          ],
+          answer: "d. School safety includes ensuring safety during commuting.",
+          commentary: "【原文問題文】学校保健に関する記述である。正しいのはどれか。【原文選択肢】a. 学校保健が対象とする学校とは、保育所から大学までを含んでいる。 b. 保健主事は、学校保健の総括責任者である。 c. 学校医は、感染症予防上の必要がある時は、臨時休業を行うことができる。 d. 学校安全には、登下校時の安全確保が含まれる。 e. 学校保健委員会の構成員には、児童生徒は含まれない。【原文解答】d. 学校安全には、登下校時の安全確保が含まれる。"
+        },
+        {
+          questionSentence: "Question 50: Which of the following statements about school health is correct?",
+          choices: [
+            "a. School nurses must have a nursing license.",
+            "b. Nutrition teachers must have a dietitian license.",
+            "c. School entrance health examinations are conducted within one month of enrollment.",
+            "d. Attendance suspensions for infectious diseases are determined by school doctors.",
+            "e. Temporary school closures for infection control are determined by the school owner."
+          ],
+          answer: "e. Temporary school closures for infection control are determined by the school owner.",
+          commentary: "【原文問題文】学校保健に関する記述である。正しいのはどれか。【原文選択肢】a. 養護教諭には、看護師の資格がなければならない。 b. 栄養教諭には、管理栄養士の資格がなければならない。 c. 就学時健康診断は、入学後 1か月以内に行われる。 d. 感染症による出席停止は、学校医によって行われる。 e. 感染症対策のための臨時休業は、学校の設置者によって行われる。【原文解答】e. 感染症対策のための臨時休業は、学校の設置者によって行われる。"
+        },
+        {
+          questionSentence: "Question 51: Which of the following statements about school health activities under the School Health and Safety Act is correct?",
+          choices: [
+            "a. Conducting school entrance health examinations for prospective elementary school students in November of the previous year.",
+            "b. Conducting regular health examinations for students at the end of March in preparation for the next school year.",
+            "c. School nurses conducting environmental health inspections.",
+            "d. School doctors suspending the attendance of students infected with influenza.",
+            "e. The public health center director closing the school due to a rapid increase in influenza cases among students."
+          ],
+          answer: "a. Conducting school entrance health examinations for prospective elementary school students in November of the previous year.",
+          commentary: "【原文問題文】「学校保健安全法」に基づいた学校保健活動で正しいのはどれか。【原文選択肢】a. 小学校入学予定者に対し入学前年の 11 月に就学時健康診断を実施した b. 次年度に備え３月末に児童の定期健康診断を実施した c. 養護教諭が学校の環境衛生検査を実施した d. 学校医がインフルエンザに罹患した児童を出席停止とした e. インフルエンザに罹患する児童の急増に伴い、保健所長が学校を休業とした【原文解答】a. 小学校入学予定者に対し入学前年の 11 月に就学時健康診断を実施した"
+        },
+        {
+          questionSentence: "Question 52: According to the School Health Statistics Survey, which of the following correctly describes the trend in the proportion of students with untreated dental caries?",
+          choices: [
+            "a. Elementary schools: Increasing trend — High schools: No change",
+            "b. Elementary schools: Decreasing trend — High schools: Decreasing trend",
+            "c. Elementary schools: Increasing trend — High schools: Increasing trend",
+            "d. Elementary schools: No change — High schools: Decreasing trend",
+            "e. Elementary schools: Decreasing trend — High schools: Increasing trend"
+          ],
+          answer: "b. Elementary schools: Decreasing trend — High schools: Decreasing trend",
+          commentary: "【原文問題文】学校保健統計調査による、むし歯(う歯)の未処置歯がある者の割合の学校別推移の組合せである。正しいのはどれか。【原文選択肢】a. 小学校：上昇傾向――――高等学校：変化なし b. 小学校：低下傾向――――高等学校：低下傾向 c. 小学校：上昇傾向――――高等学校：上昇傾向 d. 小学校：変化なし――――高等学校：低下傾向 e. 小学校：低下傾向――――高等学校：上昇傾向【原文解答】b. 小学校：低下傾向――――高等学校：低下傾向"
+        },
+        {
+          questionSentence: "Question 53: Which of the following statements about school health is correct? Choose one.",
+          choices: [
+            "a. Children with influenza can return to school the day after recovery.",
+            "b. School health committees are established for each municipality.",
+            "c. Nutrition status is included in the items of regular health examinations.",
+            "d. School principals are required to conduct regular vaccinations.",
+            "e. School nurses decide on school closures during outbreaks of infectious diseases."
+          ],
+          answer: "c. Nutrition status is included in the items of regular health examinations.",
+          commentary: "【原文問題文】学校保健に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. インフルエンザに罹患した児童は、解然した日の翌日から登校してよい。 b. 学校保健委員会は、市町村ごとに設置される。 c. 定期健康診断の項目には、栄養状態が含まれる。 d. 定期の予防接種は、学校長に実施義務が課せられている。 e. 学校感染症が流行した場合の休校は、養護教諭が決定する。【原文解答】c. 定期健康診断の項目には、栄養状態が含まれる。"
+        },
+        {
+          questionSentence: "Question 54: Which of the following is incorrect regarding the health examinations for middle school students under the School Health and Safety Act? Choose one.",
+          choices: [
+            "a. Vision",
+            "b. Weight",
+            "c. Electrocardiogram",
+            "d. Nutrition status",
+            "e. Urine"
+          ],
+          answer: "c. Electrocardiogram",
+          commentary: "【原文問題文】学校保健安全法に基づく健康診断において、中学校の生徒が毎年受検する項目である。誤っているのはどれか。1つ選べ。【原文選択肢】a．視力 b．体重 c．心電図 d．栄養状態 e．尿【原文解答】c．心電図"
+        },
+        {
+          questionSentence: "Question 55: Which of the following statements about health consultations in school health activities is incorrect?",
+          choices: [
+            "a. Based on the results of regular health examinations.",
+            "b. Conducted in the health room.",
+            "c. Conducted by school nurses.",
+            "d. Substitute for a doctor's diagnosis."
+          ],
+          answer: "d. Substitute for a doctor's diagnosis.",
+          commentary: "【原文問題文】学校保健活動における健康相談で誤っているのはどれか。【原文選択肢】a. 定期健康診断の結果に基づく。 b. 保健室で行う。 c. 養護教諭が行う。 d. 医師の診断を代替する。【原文解答】d. 医師の診断を代替する。"
+        },
+        {
+          questionSentence: "Question 56: Which of the following statements about Campylobacter and the food poisoning it causes is correct? Choose one.",
+          choices: [
+            "a. It is a type of food poisoning that occurs more in winter than in summer.",
+            "b. It causes symptoms due to enterotoxins produced by the bacteria.",
+            "c. The incubation period is 2 to 5 days.",
+            "d. It is more often caused by seafood than by meat.",
+            "e. It is heat-resistant and survives in cooked foods."
+          ],
+          answer: "c. The incubation period is 2 to 5 days.",
+          commentary: "【原文問題文】カンピロバクターとそれによる食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 夏期より冬期に多発する食中毒である。 b. 菌が産生した腸管毒素によって発症する。 c. 潜伏期は、２～５日である。 d. 畜肉類に比べて、魚介類による発症例が多い。 e. 耐熱性であり、加熱調理した食品中でも生き残る。【原文解答】c. 潜伏期は、２～５日である。"
+        },
+        {
+          questionSentence: "Question 57: Which of the following statements about food poisoning is correct? Choose one.",
+          choices: [
+            "a. Food poisoning caused by norovirus is due to the consumption of raw chicken.",
+            "b. Food poisoning caused by Clostridium botulinum is due to the consumption of raw beef liver.",
+            "c. Food poisoning caused by Vibrio parahaemolyticus is due to the consumption of raw eggs.",
+            "d. Food poisoning caused by Listeria is due to the consumption of cheese.",
+            "e. Food poisoning caused by emetic-type Bacillus cereus is due to the consumption of raw seafood."
+          ],
+          answer: "d. Food poisoning caused by Listeria is due to the consumption of cheese.",
+          commentary: "【原文問題文】食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. ノロウイルスによる食中毒は、鶏肉の生食が原因となる。 b. ボツリヌス菌による食中毒は、牛レバーの生食が原因となる。 c. 腸炎ビブリオ菌による食中毒は、鶏卵の生食が原因となる。 d. リステリア菌による食中毒は、チーズが原因となる。 e. 嘔吐型セレウス菌による食中毒は、魚介類の生食が原因となる。【原文解答】d. リステリア菌による食中毒は、チーズが原因となる。"
+        },
+        {
+          questionSentence: "Question 58: Which of the following statements about norovirus food poisoning that occurs after eating oysters is correct? Choose one.",
+          choices: [
+            "a. Norovirus multiplies inside oysters.",
+            "b. Using vinegar can prevent norovirus food poisoning.",
+            "c. Norovirus can spread from person to person.",
+            "d. Norovirus does not multiply in the human intestines.",
+            "e. The main symptom of norovirus food poisoning is respiratory paralysis."
+          ],
+          answer: "c. Norovirus can spread from person to person.",
+          commentary: "【原文問題文】カキの摂食後に発生するノロウイルス食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. カキの体内で増殖する。 b. 食酢の使用で、ノロウイルスによる食中毒を防ぐことができる。 c. ヒトからヒトへ感染する。 d. ヒトの腸内では増殖しない。 e. 食中毒の主な症状は、呼吸麻痺である。【原文解答】c. ヒトからヒトへ感染する。"
+        },
+        {
+          questionSentence: "Question 59: Which of the following statements about norovirus is correct?",
+          choices: [
+            "a. It can be transmitted through vomit and feces of infected individuals.",
+            "b. It multiplies in the human intestines.",
+            "c. It is inactivated by heating at 60°C for 1 minute.",
+            "d. Symptoms of infection include paralysis of the limbs."
+          ],
+          answer: "a. It can be transmitted through vomit and feces of infected individuals.",
+          commentary: "【原文問題文】ノロウイルスに関する記述である。正しいものの組合せはどれか。【原文選択肢】a. 感染者の吐物や糞便から感染する。 b. ヒトの腸管内で増殖する。 c. ６０℃、１分間の加熱で不活性化する。 d. 感染による症状は、手足の麻痺である。【原文解答】a. 感染者の吐物や糞便から感染する。"
+        },
+        {
+          questionSentence: "Question 60: Which of the following statements about microorganisms causing food poisoning is correct? Choose one.",
+          choices: [
+            "a. The toxin of Staphylococcus aureus is broken down by heating at 100°C for 30 minutes.",
+            "b. The incubation period is shorter for infections than for intoxications.",
+            "c. Campylobacter is a psychrotrophic bacterium.",
+            "d. Clostridium botulinum is an anaerobic bacterium.",
+            "e. Pathogenic Escherichia coli forms spores."
+          ],
+          answer: "d. Clostridium botulinum is an anaerobic bacterium.",
+          commentary: "【原文問題文】食中毒原因微生物に関する記述である。正しいのはどれか。【原文選択肢】a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。 b. 潜伏期は感染型の方が毒素型より短い。 c. カンピロバクターは低温菌である。 d. ボツリヌス菌は嫌気性菌である。 e. 病原大腸菌は芽胞を形成する。【原文解答】d. ボツリヌス菌は嫌気性菌である。"
+        },
+        {
+          questionSentence: "Question 61: Which of the following statements about food poisoning caused by Vibrio parahaemolyticus is correct?",
+          choices: [
+            "a. The causative bacteria are naturally present in seawater.",
+            "b. The causative bacteria are heat-resistant.",
+            "c. The causative bacteria are Gram-positive cocci.",
+            "d. The mortality rate is high.",
+            "e. The main causative foods are freshwater fish."
+          ],
+          answer: "a. The causative bacteria are naturally present in seawater.",
+          commentary: "【原文問題文】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. 原因細菌は海水に常在する。 b. 原因細菌は耐熱性である。 c. 原因細菌はグラム陽性球菌である。 d. 致死率が高い。 e. 淡水産魚類が主な原因食品である。【原文解答】a. 原因細菌は海水に常在する。"
+        },
+        {
+          questionSentence: "Question 62: Which of the following statements about bacterial food poisoning is correct?",
+          choices: [
+            "a. The toxin of Staphylococcus aureus is broken down by heating at 100°C for 30 minutes.",
+            "b. The incubation period is shorter for infections than for intoxications.",
+            "c. Campylobacter is a psychrotrophic bacterium.",
+            "d. Clostridium botulinum is an anaerobic bacterium.",
+            "e. Pathogenic Escherichia coli forms spores."
+          ],
+          answer: "d. Clostridium botulinum is an anaerobic bacterium.",
+          commentary: "【原文問題文】細菌性食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。 b. 潜伏期は感染型の方が毒素型より短い。 c. カンピロバクターは低温菌である。 d. ボツリヌス菌は嫌気性菌である。 e. 病原大腸菌は芽胞を形成する。【原文解答】d. ボツリヌス菌は嫌気性菌である。"
+        },
+        {
+          questionSentence: "Question 63: Which of the following statements about gastrointestinal infections is correct?",
+          choices: [
+            "a. Cholera is caused by infection with Bacillus cereus.",
+            "b. The incubation period of dysentery is shorter than that of Staphylococcus aureus food poisoning.",
+            "c. The symptoms of typhoid fever are characterized by high fever.",
+            "d. The symptoms of paratyphoid fever are more severe than those of typhoid fever.",
+            "e. Ingesting food contaminated with coliforms does not cause gastrointestinal infections."
+          ],
+          answer: "c. The symptoms of typhoid fever are characterized by high fever.",
+          commentary: "【原文問題文】消化器系感染症についての記述である。正しいのはどれか。【原文選択肢】a. コレラは、セレウス菌の感染によって起こる。 b. 赤痢の潜伏期は、黄色ブドウ球菌食中毒より短い。 c. 腸チフスの症状は、高熱をともなうのが特徴である。 d. パラチフスの症状は、腸チフスより重症である。 e. 大腸菌群によって汚染されている食品を摂取しても、消化器系感染症は起こらない。【原文解答】c. 腸チフスの症状は、高熱をともなうのが特徴である。"
+        },
+        {
+          questionSentence: "Question 64: Which of the following statements about food poisoning caused by Vibrio parahaemolyticus is correct?",
+          choices: [
+            "a. The causative bacteria are naturally present in seawater.",
+            "b. The causative bacteria are heat-resistant.",
+            "c. The causative bacteria are Gram-positive cocci.",
+            "d. The mortality rate is high.",
+            "e. The main causative foods are freshwater fish."
+          ],
+          answer: "a. The causative bacteria are naturally present in seawater.",
+          commentary: "【原文問題文】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. 原因細菌は海水に常在する。 b. 原因細菌は耐熱性である。 c. 原因細菌はグラム陽性球菌である。 d. 致死率が高い。 e. 淡水産魚類が主な原因食品である。【原文解答】a. 原因細菌は海水に常在する。"
+        },
+        {
+          questionSentence: "Question 65: Which of the following statements about bacterial food poisoning is correct?",
+          choices: [
+            "a. The toxin of Staphylococcus aureus is broken down by heating at 100°C for 30 minutes.",
+            "b. The incubation period is shorter for infections than for intoxications.",
+            "c. Campylobacter is a psychrotrophic bacterium.",
+            "d. Clostridium botulinum is an anaerobic bacterium.",
+            "e. Pathogenic Escherichia coli forms spores."
+          ],
+          answer: "d. Clostridium botulinum is an anaerobic bacterium.",
+          commentary: "【原文問題文】細菌性食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。 b. 潜伏期は感染型の方が毒素型より短い。 c. カンピロバクターは低温菌である。 d. ボツリヌス菌は嫌気性菌である。 e. 病原大腸菌は芽胞を形成する。【原文解答】d. ボツリヌス菌は嫌気性菌である。"
+        },
+        {
+          questionSentence: "Question 66: Which of the following statements about causative agents of food poisoning is correct? Choose one.",
+          choices: [
+            "a. Campylobacter grows at 5°C.",
+            "b. Yersinia enterocolitica is microaerophilic.",
+            "c. Clostridium perfringens food poisoning includes both emetic and diarrheal types.",
+            "d. The toxin of Clostridium botulinum is inactivated by heating at 80°C for 30 minutes.",
+            "e. The spores of Bacillus cereus are killed by heating at 100°C for 30 minutes."
+          ],
+          answer: "d. The toxin of Clostridium botulinum is inactivated by heating at 80°C for 30 minutes.",
+          commentary: "【原文問題文】食中毒の病因物質に関する記述である。正しいのはどれか。【原文選択肢】a. カンピロバクターは 5℃で増殖する。 b. エルシニア・エンテロコリチカは微好気性である。 c. ウェルシュ菌食中毒には嘔吐型と下痢型がある。 d. ボツリヌス菌の毒素は 80℃・30分加熱で不活化される。 e. セレウス菌の芽胞は 100℃・30 分の加熱で死滅する。【原文解答】d. ボツリヌス菌の毒素は 80℃・30分加熱で不活化される。"
+        },
+        {
+          questionSentence: "Question 67: Which of the following pairs of causative bacteria and main source foods of bacterial food poisoning is correct? Choose one.",
+          choices: [
+            "a. Clostridium perfringens — Honey",
+            "b. Campylobacter — Mushrooms",
+            "c. Staphylococcus aureus — Bivalve shellfish",
+            "d. Salmonella — Chicken eggs",
+            "e. Vibrio parahaemolyticus — Vegetables"
+          ],
+          answer: "d. Salmonella — Chicken eggs",
+          commentary: "【原文問題文】細菌性食中毒の原因菌と主な発生源となる食品の組合せである。正しいのはどれか。1つ選べ。【原文選択肢】a. ウェルシュ菌――――はちみつ b. カンピロバクター ――――きのこ類 c. ブドウ球菌―――――二枚貝 d. サルモネラ――――――――鶏卵 e. 腸炎ビブリオ――――野菜【原文解答】d. サルモネラ――――――――鶏卵"
+        },
+        {
+          questionSentence: "Question 68: Which of the following statements about recent food poisoning outbreak statistics is correct? Choose one.",
+          choices: [
+            "a. The number of cases caused by chemicals is the highest.",
+            "b. The number of cases increases during the summer.",
+            "c. The number of cases in households is the highest.",
+            "d. The number of cases caused by norovirus is higher in winter.",
+            "e. The number of cases caused by Salmonella is increasing."
+          ],
+          answer: "d. The number of cases caused by norovirus is higher in winter.",
+          commentary: "【原文問題文】最近の食中毒発生状況調査の結果に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 化学物質による発生件数が最も多い。 b. 夏期の発生件数が増加傾向にある。 c. 家庭における発生件数が最も多い。 d. ノロウイルスによる発生件数は冬期に多い。 e. サルモネラ属菌による発生件数が増加している。【原文解答】d. ノロウイルスによる発生件数は冬期に多い。"
+        },
+        {
+          questionSentence: "Question 69: Which of the following statements about food poisoning caused by enterohemorrhagic E. coli is correct? Choose one.",
+          choices: [
+            "a. The main source is vacuum-packaged foods.",
+            "b. The main symptom is fever.",
+            "c. Severe cases can cause hemolytic uremic syndrome (HUS).",
+            "d. It is the most common cause of bacterial food poisoning.",
+            "e. Symptoms appear within a few hours of eating."
+          ],
+          answer: "c. Severe cases can cause hemolytic uremic syndrome (HUS).",
+          commentary: "【原文問題文】腸管出血性大腸菌による食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 真空包装食品が主な原因となる。 b. 主な症状は発熱である。 c. 重篤な場合、溶血性尿毒症症候群（HUS）を引き起こす。 d. 細菌性食中毒の原因菌として、最も多い。 e. 食後数時間で発症する。【原文解答】c. 重篤な場合、溶血性尿毒症症候群（HUS）を引き起こす。"
+        },
+        {
+          questionSentence: "Question 70: Which of the following statements about Cryptosporidium is incorrect? Choose one.",
+          choices: [
+            "a. The main symptom is watery diarrhea.",
+            "b. Heat sterilization is ineffective.",
+            "c. Outbreaks have been reported.",
+            "d. The oocyst is infectious.",
+            "e. It can be contracted from drinking water."
+          ],
+          answer: "b. Heat sterilization is ineffective.",
+          commentary: "【原文問題文】クリプトスポリジウムに関する記述である。誤っているのはどれか。1つ選べ。【原文選択肢】a. 水様性下痢が主症状である。 b. 加熱殺菌は無効である。 c. 集団感染が報告されている。 d. オーシストに感染性がある。 e. 飲料水から感染する。【原文解答】b. 加熱殺菌は無効である。"
+        },
+        {
+          questionSentence: "Question 71: Which of the following statements about parasitic infections contracted from food is correct? Choose one.",
+          choices: [
+            "a. Freezing does not prevent parasitic infections.",
+            "b. Kudoa is contracted by eating raw flounder.",
+            "c. Clonorchis sinensis is contracted by eating undercooked pork.",
+            "d. Sarcocystis is contracted by eating raw chicken.",
+            "e. Anisakis causes a condition called egg migration syndrome."
+          ],
+          answer: "b. Kudoa is contracted by eating raw flounder.",
+          commentary: "【原文問題文】食品から感染する寄生虫症に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 冷凍処理は、寄生虫症の予防にならない。 b. クドアは、ひらめの生食により感染する。 c. 肝吸虫は、不完全調理の豚肉摂取により感染する。 d. サルコシスティスは、鶏肉の生食により感染する。 e. アニサキスは、卵移行症型である。【原文解答】b. クドアは、ひらめの生食により感染する。"
+        },
+        {
+          questionSentence: "Question 72: Which of the following statements about mycotoxins is correct? Choose one.",
+          choices: [
+            "a. Zearalenone has androgen-like effects.",
+            "b. Nivalenol causes liver damage.",
+            "c. Aflatoxin B1 causes gastroenteritis.",
+            "d. Patulin has regulatory standards for apple juice.",
+            "e. Fumonisin is found in rice."
+          ],
+          answer: "d. Patulin has regulatory standards for apple juice.",
+          commentary: "【原文問題文】カビ毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. ゼアラレノンは、アンドロゲン様作用をもつ。 b. ニバレノールは、肝障害を引き起こす。 c. アフラトキシン B1は、胃腸炎を引き起こす。 d. パツリンは、りんごジュースに規格基準が設定されている。 e. フモニシンは、米で見出される。【原文解答】d. パツリンは、りんごジュースに規格基準が設定されている。"
+        },
+        {
+          questionSentence: "Question 73: Which of the following statements about food poisoning caused by natural toxins is correct? Choose one.",
+          choices: [
+            "a. Consuming a large amount of stonefish liver causes vitamin E toxicity.",
+            "b. Tetrodotoxin in pufferfish is detoxified by heating.",
+            "c. The toxin in seaweed poisoning is solanine.",
+            "d. The toxin in Tsukiyotake mushroom poisoning is sesquiterpene.",
+            "e. Shellfish poisoning is caused by cyanogenic glycosides."
+          ],
+          answer: "d. The toxin in Tsukiyotake mushroom poisoning is sesquiterpene.",
+          commentary: "【原文問題文】自然毒による食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. イシナギの肝臓を多量に摂取すると、ビタミン E過剰症が起こる。 b. フグ毒のテトロドトキシンは、加熱することで無毒化される。 c. オゴノリ中毒の原因物質は、ソラニンである。 d. ツキヨタケ中毒の原因物質は、セスキテルペンである。 e. バイ貝毒は、青酸配糖体である。【原文解答】d. ツキヨタケ中毒の原因物質は、セスキテルペンである。"
+        },
+        {
+          questionSentence: "Question 74: Which of the following statements about natural toxins in seafood is correct? Choose two.",
+          choices: [
+            "a. The toxins in paralytic shellfish poisoning are derived from plankton.",
+            "b. The toxins in diarrhetic shellfish poisoning are synthesized by the hepatopancreas of shellfish.",
+            "c. Pufferfish toxin accumulates in pufferfish through the food chain.",
+            "d. Ciguatoxin is synthesized in the liver of herbivorous fish."
+          ],
+          answer: "a,b",
+          commentary: "【原文問題文】水産物の自然毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. 麻痺性貝中毒の毒素は、プランクトン由来である。 b. 下痢性貝中毒の毒素は、貝の中腸腺が合成する。 c. フグ毒は、食物連鎖によりフグ体内に蓄積する。 d. シガテラ毒は、草食性魚の肝臓で合成される。【原文解答】a,b"
+        },
+        {
+          questionSentence: "Question 75: Which of the following statements about food poisoning caused by parasites is correct? Choose two.",
+          choices: [
+            "a. Kudoa is contracted by eating raw flounder.",
+            "b. Clonorchis sinensis is contracted by eating undercooked pork.",
+            "c. Sarcocystis is contracted by eating raw chicken.",
+            "d. Anisakis causes a condition called egg migration syndrome."
+          ],
+          answer: "b,c",
+          commentary: "【原文問題文】寄生虫による食中毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. クドアは、ひらめの生食により感染する。 b. 肝吸虫は、不完全調理の豚肉摂取により感染する。 c. サルコシスティスは、鶏肉の生食により感染する。 d. アニサキスは、卵移行症型である。【原文解答】b,c"
+        },
+        {
+          questionSentence: "Question 76: Which of the following statements about pufferfish poisoning is correct? Choose one.",
+          choices: [
+            "a. It is caused by verotoxin.",
+            "b. The main symptom of poisoning is severe diarrhea.",
+            "c. The toxin is detoxified by heating.",
+            "d. The toxin accumulates in the ovaries and liver.",
+            "e. The toxicity is expressed in house units (HU)."
+          ],
+          answer: "d. The toxin accumulates in the ovaries and liver.",
+          commentary: "【原文問題文】フグ毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. ベロ毒素である。 b. 中毒症状は、激しい下痢である。 c. 加熱により無毒化される。 d. 卵巣や肝臓に蓄積している。 e. 毒性は、ハウユニット（HU）で表される。【原文解答】d. 卵巣や肝臓に蓄積している。"
+        },
+        {
+          questionSentence: "Question 77: Which of the following pairs of plants and their toxic components is correct? Choose one.",
+          choices: [
+            "a. Digitalis — Muscarine",
+            "b. Potato sprouts — Lycorine",
+            "c. Apricot seeds — Amygdalin",
+            "d. Daffodil bulbs — Tetramine",
+            "e. Ginkgo — Solanine"
+          ],
+          answer: "c. Apricot seeds — Amygdalin",
+          commentary: "【原文問題文】植物とその毒成分の組合せである。正しいのはどれか。1つ選べ。【原文選択肢】a. ジギタリス―――――――ムスカリン b. じゃがいもの芽―――――リコリン c. あんず種子―――――――アミグダリン d. スイセンのりん茎――――テトラミン e. ぎんなん――――――――ソラニン【原文解答】c. あんず種子―――――――アミグダリン"
+        },
+        {
+          questionSentence: "Question 78: Which of the following pairs of causative bacteria and causative foods is correct? Choose one.",
+          choices: [
+            "a. Vibrio parahaemolyticus — Grilled sweetfish",
+            "b. Diarrheal Bacillus cereus — Honey",
+            "c. Salmonella — Pickled mackerel",
+            "d. Enterohemorrhagic E. coli — Omelette",
+            "e. Clostridium botulinum — Canned sausage"
+          ],
+          answer: "e. Clostridium botulinum — Canned sausage",
+          commentary: "【原文問題文】食中毒の原因菌と原因食品の組合せである。正しいのはどれか。1つ選べ。【原文選択肢】a. 腸炎ビブリオ――――――あゆの塩焼き b. 下痢型セレウス菌――――はちみつ c. サルモネラ属菌―――――しめさば d. 腸管出血性大腸菌――――卵焼き e. ボツリヌス菌――――――ソーセージの缶詰【原文解答】e. ボツリヌス菌――――――ソーセージの缶詰"
+        },
+        {
+          questionSentence: "Question 79: Which of the following statements about tuberculosis control is correct? (Select two correct statements)",
+          choices: [
+            "(a) Tuberculin skin testing should be done before six months of age.",
+            "(b) BCG vaccination is given to first-grade elementary school and first-grade junior high school students.",
+            "(c) The DOTS (Directly Observed Treatment, Short Course) program is implemented.",
+            "(d) Municipal mayors are required to conduct regular health examinations for the general public."
+          ],
+          answer: "1. (c) and (d)",
+          commentary: "【原文問題文】結核対策に関する記述である。正しいものの組合せはどれか。(正しい文章は2つ)【原文選択肢】(a) 生後 6か月に達するまでにツベルクリン反応検査を行う。 (b) 小学 1年生・中学 1年生に BCG接種が行われる。 (c) 「DOTS（Directly Observed Treatment，Short Course）」事業が実施されている。 (d) 一般住民に対する定期健康診断は、市町村長に実施義務がある。【原文解答】1.（c）と（d）"
+        },
+        {
+          questionSentence: "Question 80: Which of the following statements about recent HIV infection trends in Japan according to the AIDS Surveillance Committee is correct? (Select two correct statements)",
+          choices: [
+            "(a) The number of reported HIV infections is increasing.",
+            "(b) Intravenous drug abuse is the most common route of infection.",
+            "(c) The majority of HIV infections occurred outside Japan.",
+            "(d) Heterosexual transmission among young women is more common than among men."
+          ],
+          answer: "4. (a) and (d)",
+          commentary: "【原文問題文】エイズ動向委員会による我が国の最近の HIV 感染者に関する記述である。正しいものの組合せはどれか。(正しい文章は2つ)【原文選択肢】(a) HIV 感染者の報告件数は増加傾向にある。 (b) 感染経路として静注薬物濫用が最も多い。 (c) HIV 感染地の大半は日本国外である。 (d) 若年女性の異性間性的接触による感染は、男性よりも多い。【原文解答】4.（a）と（d）"
+        },
+        {
+          questionSentence: "Question 81: Which of the following statements about tuberculosis is correct?",
+          choices: [
+            "a. Tuberculosis is a Category I infectious disease.",
+            "b. The incidence rate is now comparable to other developed countries.",
+            "c. Tuberculosis control is based on the Tuberculosis Prevention Act.",
+            "d. BCG vaccination is given to all infants.",
+            "e. Routine health examinations are conducted for all individuals."
+          ],
+          answer: "d. BCG vaccination is given to all infants.",
+          commentary: "【原文問題文】結核に関する記述である。正しいのはどれか。【原文選択肢】a. 結核は 1類感染症である。 b. 罹患率は他の先進諸国なみとなった。 c. 結核対策は結核予防法に基づいて行われている。 d. 乳児には BCGの全員接種が行われている。 e. 一律的定期健康診断が行われている。【原文解答】d. 乳児には BCGの全員接種が行われている。"
+        },
+        {
+          questionSentence: "Question 82: Which of the following pairs of infectious diseases and their classification under the Infectious Diseases Control Law (Law for the Prevention of Infectious Diseases and Medical Care for Patients with Infectious Diseases) is correct? (Select two correct pairs)",
+          choices: [
+            "(a) Avian influenza (H5N1) — Category I infectious disease",
+            "(b) Influenza (excluding avian and novel influenza) — Category V infectious disease",
+            "(c) Tuberculosis — Category II infectious disease",
+            "(d) Enterohemorrhagic E. coli infection — Category IV infectious disease"
+          ],
+          answer: "2. (b) and (c)",
+          commentary: "【原文問題文】感染症と感染症法（感染症の予防及び感染症の患者に対する医療に関する法律）上の分類の組合せである。正しいのはどれか。(正しい文章は2つ)【原文選択肢】(a) 鳥インフルエンザ(H5N1)―――――1類感染症 (b) インフルエンザ(鳥インフルエンザ、新型インフルエンザ等感染症を除く) ―――5類感染症 (c) 結核――――――――――――――2類感染症 (d) 腸管出血性大腸菌感染症―――――4類感染症【原文解答】2.（b）と（c）"
+        },
+        {
+          questionSentence: "Question 83: Which of the following infectious diseases is managed using the DOTS (Directly Observed Treatment, Short Course) strategy? Choose one.",
+          choices: [
+            "a. Tuberculosis",
+            "b. Severe acute respiratory syndrome (SARS)",
+            "c. Malaria",
+            "d. Acquired immunodeficiency syndrome (AIDS)",
+            "e. Hepatitis C"
+          ],
+          answer: "a. Tuberculosis",
+          commentary: "【原文問題文】DOTS（Directly Observed Treatment, Short Course）を用いて、対策を行っている感染症である。正しいのはどれか。1つ選べ。【原文選択肢】a. 結核 b. 重症急性呼吸器症候群（SARS） c. マラリア d. 後天性免疫不全症候群（AIDS） e. C型肝炎【原文解答】答えは a．"
+        },
+        {
+          questionSentence: "Question 84: Which of the following statements about HIV/AIDS in Japan is incorrect? Choose one.",
+          choices: [
+            "a. AIDS is a Category V infectious disease under the Infectious Diseases Control Law.",
+            "b. Pneumocystis pneumonia and Kaposi's sarcoma are considered diagnostic criteria for AIDS.",
+            "c. Mother-to-child transmission has not been confirmed.",
+            "d. HIV infection can occur through blood, semen, and vaginal secretions.",
+            "e. It is difficult to identify HIV-infected individuals in the population."
+          ],
+          answer: "c. Mother-to-child transmission has not been confirmed.",
+          commentary: "【原文問題文】わが国における HIV・エイズ(AIDS)に関する記述である。誤っているのはどれか。１つ選べ。【原文選択肢】a. エイズは、感染症法の対象疾患(5 類感染症)である。 b. カリニ肺炎、カポジ肉腫を発症した場合、エイズと診断される。 c. 母子感染は確認されていない。 d. 血液、精液、膣分泌液を介して HIV 感染が起こる。 e. 集団における HIV 感染者の把握は難しい。【原文解答】答えは c．"
+        },
+        {
+          questionSentence: "Question 85: Which of the following statements about congenital rubella syndrome is correct? Choose two.",
+          choices: [
+            "(a) Rubella infection during early pregnancy is dangerous.",
+            "(b) Individuals with a history of rubella infection during childhood are at risk.",
+            "(c) It is recommended that pregnant women receive the vaccine.",
+            "(d) It is recommended that spouses receive the vaccine before pregnancy.",
+            "(e) A characteristic symptom is spina bifida."
+          ],
+          answer: "(a) and (d)",
+          commentary: "【原文問題文】先天性風疹症候群に関する記述である。正しいのはどれか。2つ選べ。【原文選択肢】(a) 妊娠初期の風疹感染が危険である。 (b) 小児期に風疹感染の既往のある者が危険である。 (c) 妊婦ヘワクチンを接種することが推奨されている。 (d) 妊娠前に配偶者ヘワクチンを接種することが推奨されている。 (e) 特徴的な症候に、二分脊椎症がある。【原文解答】(a）と（d）"
+        },
+        {
+          questionSentence: "Question 86: Which of the following is a Category III infectious disease under the Infectious Diseases Control Law? Choose one.",
+          choices: [
+            "a. Rubella",
+            "b. Enterohemorrhagic E. coli infection",
+            "c. Dengue fever",
+            "d. Tuberculosis",
+            "e. Ebola hemorrhagic fever"
+          ],
+          answer: "b. Enterohemorrhagic E. coli infection",
+          commentary: "【原文問題文】感染症法における 3類感染症である。正しいのはどれか。1つ選べ。【原文選択肢】a. 風疹 b. 腸管出血性大腸菌感染症 c. デング熱 d. 結核 e. エボラ出血熱【原文解答】答えは b．"
+        },
+        {
+          questionSentence: "Question 87: Which of the following statements about vaccinations is correct? (Select two correct statements)",
+          choices: [
+            "(a) Vaccinations are carried out for the purpose of secondary prevention.",
+            "(b) All citizens are required to receive vaccinations.",
+            "(c) Individual vaccinations are recommended to minimize adverse reactions.",
+            "(d) There is a relief system for health damage caused by vaccinations."
+          ],
+          answer: "(c) and (d)",
+          commentary: "【原文問題文】予防接種に関する記述である。正しいものの組合せはどれか。(正しい文章は2つ)【原文選択肢】(a) 予防接種は二次予防を目的に実施される。 (b) 国民は予防接種を受けなければならない。 (c) 副反応を少なくするために個別接種が推奨されている。 (d) 健康被害には救済制度がある。【原文解答】（c）と（d）"
+        },
+        {
+          questionSentence: "Question 88: Which of the following vaccines is incorrect under the Immunization Law? Choose one.",
+          choices: [
+            "a. Japanese encephalitis",
+            "b. Polio",
+            "c. Mumps",
+            "d. BCG",
+            "e. Measles and rubella combined (MR)"
+          ],
+          answer: "c. Mumps",
+          commentary: "【原文問題文】予防接種法による定期接種のワクチンである。誤っているのはどれか。1つ選べ。【原文選択肢】a. 日本脳炎 b. ポリオ c. 流行性耳下腺炎（おたふくかぜ） d. BCG e. 麻疹風疹混合（MR）【原文解答】答えは c．"
+        },
+        {
+          questionSentence: "Question 89: Which of the following diseases is subject to work restrictions under the Infectious Diseases Control Law? Choose one.",
+          choices: [
+            "a. Bacillary dysentery",
+            "b. Enterohemorrhagic E. coli infection",
+            "c. Tuberculosis",
+            "d. Acquired immunodeficiency syndrome (AIDS)",
+            "e. Ebola hemorrhagic fever"
+          ],
+          answer: "e. Ebola hemorrhagic fever",
+          commentary: "【原文問題文】感染症法により就業制限が課せられる疾病である。誤っているのはどれか。1つ選べ。【原文選択肢】a. 細菌性赤痢 b. 腸管出血性大腸菌感染症 c. 結核 d. 後天性免疫不全症候群 e. エボラ出血熱【原文解答】答えは e．"
+        }
+      ]        
+
     },
     {
       groupTag: "麻酔科 出席課題",
