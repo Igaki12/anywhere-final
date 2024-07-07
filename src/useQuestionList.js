@@ -881,121 +881,121 @@ export const useQuestionList = () => {
           commentary: ""
         },
         {
-          questionSentence: "【問55】学校保健活動における健康相談で誤っているのはどれか。",
+          questionSentence: "【問55】食中毒の主な発生源に関する記述である。正しいのはどれか。1つ選べ。",
           choices: [
-            "a. 定期健康診断の結果に基づく。",
-            "b. 保健室で行う。",
-            "c. 養護教諭が行う。",
-            "d. 医師の診断を代替する。"
+            "a．ノロウイルスによる食中毒は、鶏肉の生食が原因となる。",
+            "b．ボツリヌス菌による食中毒は、牛レバーの生食が原因となる。",
+            "c．腸炎ビブリオ菌による食中毒は、鶏卵の生食が原因となる。",
+            "d．リステリア菌による食中毒は、チーズが原因となる。",
+            "e．嘔吐型セレウス菌による食中毒は、魚介類の生食が原因となる。"
           ],
-          answer: "d. 医師の診断を代替する。",
+          answer: "d．リステリア菌による食中毒は、チーズが原因となる。",
           commentary: ""
         },
         {
           questionSentence: "【問56】カンピロバクターとそれによる食中毒に関する記述である。正しいのはどれか。1つ選べ。",
           choices: [
-            "a. 夏期より冬期に多発する食中毒である。",
-            "b. 菌が産生した腸管毒素によって発症する。",
-            "c. 潜伏期は、２～５日である。",
-            "d. 畜肉類に比べて、魚介類による発症例が多い。",
-            "e. 耐熱性であり、加熱調理した食品中でも生き残る。"
+            "a．夏期より冬期に多発する食中毒である。",
+            "b．菌が産生した腸管毒素によって発症する。",
+            "c．潜伏期は、２～５日である。",
+            "d．畜肉類に比べて、魚介類による発症例が多い。",
+            "e．耐熱性であり、加熱調理した食品中でも生き残る。"
           ],
-          answer: "c. 潜伏期は、２～５日である。",
+          answer: "c．潜伏期は、２～５日である。",
           commentary: ""
         },
         {
-          questionSentence: "【問57】食中毒に関する記述である。正しいのはどれか。1つ選べ。",
+          questionSentence: "【問57】食中毒に関する記述である。正しいのはどれか。",
           choices: [
-            "a. ノロウイルスによる食中毒は、鶏肉の生食が原因となる。",
-            "b. ボツリヌス菌による食中毒は、牛レバーの生食が原因となる。",
-            "c. 腸炎ビブリオ菌による食中毒は、鶏卵の生食が原因となる。",
-            "d. リステリア菌による食中毒は、チーズが原因となる。",
-            "e. 嘔吐型セレウス菌による食中毒は、魚介類の生食が原因となる。"
+            "a．ボツリヌス菌の毒素は１００℃１５分の加熱では失活しない",
+            "b．セレウス菌の嘔吐毒(セレウリド）は１００℃３０分の加熱では失活しない",
+            "c．ウェルシュ菌は真空包装すれば増殖しない",
+            "d．黄色ブドウ球菌は７．５％食塩水中では増殖しない",
+            "e．腸炎ビブリオ菌は海水中では増殖しない"
           ],
-          answer: "d. リステリア菌による食中毒は、チーズが原因となる。",
+          answer: "b．セレウス菌の嘔吐毒(セレウリド）は１００℃３０分の加熱では失活しない",
           commentary: ""
         },
         {
-          questionSentence: "【問58】カキの摂食後に発生するノロウイルス食中毒に関する記述である。正しいのはどれか。1つ選べ。",
+          questionSentence: "【問58】下記の表示のある弁当を 200名が食べたところ、約 12時間後に 60名が下痢と共に下腹部の腹痛を訴えた。この原因として考えられるのはどれか。\n表示---------------------------------------------------------------------\n＜名称＞ 幕の内弁当\n＜原材料名＞ ご飯、鳥唐揚げ、煮物（里芋、人参、はまぐり、ごぼう）、マグロ照焼き、エビフライ、ポテトサラダ、調味料（しょう油、アミノ酸等）、ｐH 調整剤、グリシン、香料（原材料の一部に卵、小麦、大豆を含む）\n＜消費期限＞ オモテ面に記載\n＜保存方法＞ 冷暗所で保存して下さい\n＜販売者＞ 株式会社○○○ 東京都××区××1-5-3 製造所固有記号はオモテ面に記載\n--------------------------------------------------------------------------",
           choices: [
-            "a. カキの体内で増殖する。",
-            "b. 食酢の使用で、ノロウイルスによる食中毒を防ぐことができる。",
-            "c. ヒトからヒトへ感染する。",
-            "d. ヒトの腸内では増殖しない。",
-            "e. 食中毒の主な症状は、呼吸麻痺である。"
+            "a．マグロによるアレルギー",
+            "b．エビによるアレルギー",
+            "c．ウェルシュ菌による食中毒",
+            "d．腸管出血性大腸菌による食中毒",
+            "e．カンピロバクターによる食中毒"
           ],
-          answer: "c. ヒトからヒトへ感染する。",
+          answer: "c．ウェルシュ菌による食中毒",
           commentary: ""
         },
         {
-          questionSentence: "【問59】ノロウイルスに関する記述である。正しいものの組合せはどれか。",
+          questionSentence: "【問59】ノロウイルスに関する記述である。正しいものを2つ選べ。",
           choices: [
-            "a. 感染者の吐物や糞便から感染する。",
-            "b. ヒトの腸管内で増殖する。",
-            "c. ６０℃、１分間の加熱で不活性化する。",
-            "d. 感染による症状は、手足の麻痺である。"
+            "a．感染者の吐物や糞便から感染する。",
+            "b．ヒトの腸管内で増殖する。",
+            "c．６０℃、１分間の加熱で不活性化する。",
+            "d．感染による症状は、手足の麻痺である。"
           ],
-          answer: "a. 感染者の吐物や糞便から感染する。",
+          answer: "a．感染者の吐物や糞便から感染する　b．ヒトの腸管内で増殖する。",
           commentary: ""
-        },
-        {
+        },{
           questionSentence: "【問60】食中毒原因微生物に関する記述である。正しいのはどれか。",
           choices: [
-            "a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。",
-            "b. 潜伏期は感染型の方が毒素型より短い。",
-            "c. カンピロバクターは低温菌である。",
-            "d. ボツリヌス菌は嫌気性菌である。",
-            "e. 病原大腸菌は芽胞を形成する。"
+            "a．ノロウィルスは、二枚貝の体内で増殖する｡",
+            "b．ボツリヌス菌は､真空包装すれば増殖しない｡",
+            "c．腸炎ビブリオは､食塩が無ければ増殖しない｡",
+            "d．カンピロバクターは､大気中で増殖する。",
+            "e．サルモネラ属菌は､ １５℃以下では増殖しない｡"
           ],
-          answer: "d. ボツリヌス菌は嫌気性菌である。",
+          answer: "c．腸炎ビブリオは､食塩が無ければ増殖しない｡",
           commentary: ""
         },
         {
-          questionSentence: "【問61】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。",
+          questionSentence: "【問61】微生物性食中毒に関する記述である。正しいのはどれか。",
           choices: [
-            "a. 原因細菌は海水に常在する。",
-            "b. 原因細菌は耐熱性である。",
-            "c. 原因細菌はグラム陽性球菌である。",
-            "d. 致死率が高い。",
-            "e. 淡水産魚類が主な原因食品である。"
+            "a．腸炎ビブリオ食中毒の感染源は、淡水魚である。",
+            "b．ぶどう球菌食中毒の主な症状は、神経麻痺である。",
+            "c．カンピロバクタ一食中毒の原因食品には、鶏肉とその加工品がある。",
+            "d．ボツリヌス菌のつくる神経毒は、耐熱性である。",
+            "e．クリプトスポリジウムによる食中毒は、ウイルス性である。"
           ],
-          answer: "a. 原因細菌は海水に常在する。",
+          answer: "c．カンピロバクタ一食中毒の原因食品には、鶏肉とその加工品がある。",
           commentary: ""
         },
         {
-          questionSentence: "【問62】細菌性食中毒に関する記述である。正しいのはどれか。",
+          questionSentence: "【問62】ノロウイルスについての記述である。正しいのはどれか。",
           choices: [
-            "a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。",
-            "b. 潜伏期は感染型の方が毒素型より短い。",
-            "c. カンピロバクターは低温菌である。",
-            "d. ボツリヌス菌は嫌気性菌である。",
-            "e. 病原大腸菌は芽胞を形成する。"
+            "a．カキの体内で増殖する。",
+            "b．食酢の使用で、ノロウイルスによる食中毒を防ぐことができる。",
+            "c．ヒトからヒトヘ感染する。",
+            "d．ヒトの腸内では増殖しない。",
+            "e．食中毒の主な症状は、呼吸麻痺である。"
           ],
-          answer: "d. ボツリヌス菌は嫌気性菌である。",
+          answer: "c．ヒトからヒトヘ感染する。",
           commentary: ""
         },
         {
           questionSentence: "【問63】消化器系感染症についての記述である。正しいのはどれか。",
           choices: [
-            "a. コレラは、セレウス菌の感染によって起こる。",
-            "b. 赤痢の潜伏期は、黄色ブドウ球菌食中毒より短い。",
-            "c. 腸チフスの症状は、高熱をともなうのが特徴である。",
-            "d. パラチフスの症状は、腸チフスより重症である。",
-            "e. 大腸菌群によって汚染されている食品を摂取しても、消化器系感染症は起こらない。"
+            "a．コレラは、セレウス菌の感染によって起こる。",
+            "b．赤痢の潜伏期は、黄色ブドウ球菌食中毒より短い。",
+            "c．腸チフスの症状は、高熱をともなうのが特徴である。",
+            "d．パラチフスの症状は、腸チフスより重症である。",
+            "e．大腸菌群によって汚染されている食品を摂取しても、消化器系感染症は起こらない。"
           ],
-          answer: "c. 腸チフスの症状は、高熱をともなうのが特徴である。",
+          answer: "c．腸チフスの症状は、高熱をともなうのが特徴である。",
           commentary: ""
         },
         {
-          questionSentence: "【問64】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。",
+          questionSentence: "【問64】腸炎ビブリオによる食中毒に関する記述である｡正しいのはどれか｡",
           choices: [
-            "a. 原因細菌は海水に常在する。",
-            "b. 原因細菌は耐熱性である。",
-            "c. 原因細菌はグラム陽性球菌である。",
-            "d. 致死率が高い。",
-            "e. 淡水産魚類が主な原因食品である。"
+            "a．原因細菌は海水に常在する｡",
+            "b．原因細菌は耐熱性である｡",
+            "c．原因細菌はグラム陽性球菌である｡",
+            "d．致死率が高い｡",
+            "e．淡水産魚類が主な原因食品である｡"
           ],
-          answer: "a. 原因細菌は海水に常在する。",
+          answer: "a．原因細菌は海水に常在する｡",
           commentary: ""
         },
         {
@@ -1109,25 +1109,26 @@ export const useQuestionList = () => {
         {
           questionSentence: "【問74】水産物の自然毒に関する記述である。正しいものを2つ選べ。",
           choices: [
-            "a. 麻痺性貝中毒の毒素は、プランクトン由来である。",
-            "b. 下痢性貝中毒の毒素は、貝の中腸腺が合成する。",
-            "c. フグ毒は、食物連鎖によりフグ体内に蓄積する。",
-            "d. シガテラ毒は、草食性魚の肝臓で合成される。"
+            "a．麻痺性貝中毒の毒素は、プランクトン由来である。",
+            "b．下痢性貝中毒の毒素は、貝の中腸腺が合成する。",
+            "c．フグ毒は、食物連鎖によりフグ体内に蓄積する。",
+            "d．シガテラ毒は、草食性魚の肝臓で合成される。"
           ],
-          answer: "a,b",
+          answer: "a．麻痺性貝中毒の毒素は、プランクトン由来である　c．フグ毒は、食物連鎖によりフグ体内に蓄積する。",
           commentary: ""
         },
         {
-          questionSentence: "【問75】寄生虫による食中毒に関する記述である。正しいものを2つ選べ。",
+          questionSentence: "【問75】自然毒による食中毒に関する記述である。正しいものを2つ選べ。",
           choices: [
-            "a. クドアは、ひらめの生食により感染する。",
-            "b. 肝吸虫は、不完全調理の豚肉摂取により感染する。",
-            "c. サルコシスティスは、鶏肉の生食により感染する。",
-            "d. アニサキスは、卵移行症型である。"
+            "a．じゃがいもによる食中毒は、青酸配糖体によって起こる。",
+            "b．光過敏症は、フェオホルビドによって起こる。",
+            "c．ドクカマスによる食中毒は、シガトキシンによって起こる。",
+            "d．柄が縦に裂けるキノコは、食中毒を起こさない。"
           ],
-          answer: "b,c",
+          answer: "b．光過敏症は、フェオホルビドによって起こる。　c．ドクカマスによる食中毒は、シガトキシンによって起こる。",
           commentary: ""
-        },
+        }
+,        
         {
           questionSentence: "【問76】フグ毒に関する記述である。正しいのはどれか。1つ選べ。",
           choices: [
@@ -1276,7 +1277,8 @@ export const useQuestionList = () => {
             "d. 後天性免疫不全症候群",
             "e. エボラ出血熱"
           ],
-          answer: "答えは e．"
+          answer: "答えはd",
+          commentary:"講義のプリントでは答えがeとなっているが、実際の答えは5類感染症であるd。 感染症法により就業制限が課せられる疾病は1-3類の感染症であるがd以外の感染症はそこに含まれている。"
         },
       ]
 
@@ -1895,122 +1897,123 @@ export const useQuestionList = () => {
           commentary: "【原文問題文】学校保健安全法に基づく健康診断において、中学校の生徒が毎年受検する項目である。誤っているのはどれか。1つ選べ。【原文選択肢】a．視力 b．体重 c．心電図 d．栄養状態 e．尿【原文解答】c．心電図"
         },
         {
-          questionSentence: "Question 55: Which of the following statements about health consultations in school health activities is incorrect?",
-          choices: [
-            "a. Based on the results of regular health examinations.",
-            "b. Conducted in the health room.",
-            "c. Conducted by school nurses.",
-            "d. Substitute for a doctor's diagnosis."
-          ],
-          answer: "d. Substitute for a doctor's diagnosis.",
-          commentary: "【原文問題文】学校保健活動における健康相談で誤っているのはどれか。【原文選択肢】a. 定期健康診断の結果に基づく。 b. 保健室で行う。 c. 養護教諭が行う。 d. 医師の診断を代替する。【原文解答】d. 医師の診断を代替する。"
-        },
-        {
-          questionSentence: "Question 56: Which of the following statements about Campylobacter and the food poisoning it causes is correct? Choose one.",
-          choices: [
-            "a. It is a type of food poisoning that occurs more in winter than in summer.",
-            "b. It causes symptoms due to enterotoxins produced by the bacteria.",
-            "c. The incubation period is 2 to 5 days.",
-            "d. It is more often caused by seafood than by meat.",
-            "e. It is heat-resistant and survives in cooked foods."
-          ],
-          answer: "c. The incubation period is 2 to 5 days.",
-          commentary: "【原文問題文】カンピロバクターとそれによる食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 夏期より冬期に多発する食中毒である。 b. 菌が産生した腸管毒素によって発症する。 c. 潜伏期は、２～５日である。 d. 畜肉類に比べて、魚介類による発症例が多い。 e. 耐熱性であり、加熱調理した食品中でも生き残る。【原文解答】c. 潜伏期は、２～５日である。"
-        },
-        {
-          questionSentence: "Question 57: Which of the following statements about food poisoning is correct? Choose one.",
+          questionSentence: "【Question 55】Which of the following statements about the main sources of food poisoning is correct? Choose one.",
           choices: [
             "a. Food poisoning caused by norovirus is due to the consumption of raw chicken.",
             "b. Food poisoning caused by Clostridium botulinum is due to the consumption of raw beef liver.",
             "c. Food poisoning caused by Vibrio parahaemolyticus is due to the consumption of raw eggs.",
-            "d. Food poisoning caused by Listeria is due to the consumption of cheese.",
-            "e. Food poisoning caused by emetic-type Bacillus cereus is due to the consumption of raw seafood."
+            "d. Food poisoning caused by Listeria monocytogenes is due to the consumption of cheese.",
+            "e. Food poisoning caused by emetic Bacillus cereus is due to the consumption of raw seafood."
           ],
-          answer: "d. Food poisoning caused by Listeria is due to the consumption of cheese.",
-          commentary: "【原文問題文】食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. ノロウイルスによる食中毒は、鶏肉の生食が原因となる。 b. ボツリヌス菌による食中毒は、牛レバーの生食が原因となる。 c. 腸炎ビブリオ菌による食中毒は、鶏卵の生食が原因となる。 d. リステリア菌による食中毒は、チーズが原因となる。 e. 嘔吐型セレウス菌による食中毒は、魚介類の生食が原因となる。【原文解答】d. リステリア菌による食中毒は、チーズが原因となる。"
+          answer: "d. Food poisoning caused by Listeria monocytogenes is due to the consumption of cheese.",
+          commentary: "【原文問題文】食中毒の主な発生源に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. ノロウイルスによる食中毒は、鶏肉の生食が原因となる。 b. ボツリヌス菌による食中毒は、牛レバーの生食が原因となる。 c. 腸炎ビブリオ菌による食中毒は、鶏卵の生食が原因となる。 d. リステリア菌による食中毒は、チーズが原因となる。 e. 嘔吐型セレウス菌による食中毒は、魚介類の生食が原因となる。【原文解答】答えは d．"
         },
         {
-          questionSentence: "Question 58: Which of the following statements about norovirus food poisoning that occurs after eating oysters is correct? Choose one.",
+          questionSentence: "【Question 56】Which of the following statements about Campylobacter and the food poisoning it causes is correct? Choose one.",
           choices: [
-            "a. Norovirus multiplies inside oysters.",
-            "b. Using vinegar can prevent norovirus food poisoning.",
-            "c. Norovirus can spread from person to person.",
-            "d. Norovirus does not multiply in the human intestines.",
-            "e. The main symptom of norovirus food poisoning is respiratory paralysis."
+            "a. Food poisoning is more common in winter than in summer.",
+            "b. It is caused by enterotoxins produced by the bacteria.",
+            "c. The incubation period is 2 to 5 days.",
+            "d. There are more cases of food poisoning from fish and shellfish than from meat.",
+            "e. It is heat-resistant and can survive in cooked foods."
           ],
-          answer: "c. Norovirus can spread from person to person.",
-          commentary: "【原文問題文】カキの摂食後に発生するノロウイルス食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. カキの体内で増殖する。 b. 食酢の使用で、ノロウイルスによる食中毒を防ぐことができる。 c. ヒトからヒトへ感染する。 d. ヒトの腸内では増殖しない。 e. 食中毒の主な症状は、呼吸麻痺である。【原文解答】c. ヒトからヒトへ感染する。"
+          answer: "c. The incubation period is 2 to 5 days.",
+          commentary: "【原文問題文】カンピロバクターとそれによる食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. 夏期より冬期に多発する食中毒である。 b. 菌が産生した腸管毒素によって発症する。 c. 潜伏期は、２～５日である。 d. 畜肉類に比べて、魚介類による発症例が多い。 e. 耐熱性であり、加熱調理した食品中でも生き残る。【原文解答】答えは c．"
         },
         {
-          questionSentence: "Question 59: Which of the following statements about norovirus is correct?",
+          questionSentence: "【Question 57】Which of the following statements about food poisoning is correct? Choose one.",
           choices: [
-            "a. It can be transmitted through vomit and feces of infected individuals.",
+            "a. The toxin produced by Clostridium botulinum is not inactivated by heating at 100°C for 15 minutes.",
+            "b. The emetic toxin (cereulide) produced by Bacillus cereus is not inactivated by heating at 100°C for 30 minutes.",
+            "c. Clostridium perfringens does not multiply if vacuum-packed.",
+            "d. Staphylococcus aureus does not multiply in 7.5% saline solution.",
+            "e. Vibrio parahaemolyticus does not multiply in seawater."
+          ],
+          answer: "b. The emetic toxin (cereulide) produced by Bacillus cereus is not inactivated by heating at 100°C for 30 minutes.",
+          commentary: "【原文問題文】食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. ボツリヌス菌の毒素は１００℃１５分の加熱では失活しない b. セレウス菌の嘔吐毒(セレウリド）は１００℃３０分の加熱では失活しない c. ウェルシュ菌は真空包装すれば増殖しない d. 黄色ブドウ球菌は７．５％食塩水中では増殖しない e. 腸炎ビブリオ菌は海水中では増殖しない【原文解答】答えは b．"
+        },
+        {
+          questionSentence: "【Question 58】Approximately 12 hours after 200 people consumed the following bento, 60 people complained of diarrhea and lower abdominal pain. What is the likely cause?\nLabel---------------------------------------------------------------------\n<Name> Makunouchi Bento\n<Ingredients> Rice, fried chicken, simmered dishes (taro, carrot, clam, burdock), grilled tuna, fried shrimp, potato salad, seasonings (soy sauce, amino acids, etc.), pH adjuster, glycine, flavoring (some ingredients include eggs, wheat, soybeans)\n<Expiration Date> Listed on the front\n<Storage Method> Store in a cool, dark place\n<Seller> ○○○ Corporation, ××1-5-3, ×× Ward, Tokyo, Manufacturing code listed on the front\n--------------------------------------------------------------------------",
+          choices: [
+            "a. Allergy to tuna",
+            "b. Allergy to shrimp",
+            "c. Food poisoning caused by Clostridium perfringens",
+            "d. Food poisoning caused by enterohemorrhagic E. coli",
+            "e. Food poisoning caused by Campylobacter"
+          ],
+          answer: "c. Food poisoning caused by Clostridium perfringens",
+          commentary: "【原文問題文】下記の表示のある弁当を 200名が食べたところ、約 12時間後に 60名が下痢と共に下腹部の腹痛を訴えた。この原因として考えられるのはどれか。\n表示---------------------------------------------------------------------\n＜名称＞ 幕の内弁当\n＜原材料名＞ ご飯、鳥唐揚げ、煮物（里芋、人参、はまぐり、ごぼう）、マグロ照焼き、エビフライ、ポテトサラダ、調味料（しょう油、アミノ酸等）、ｐH 調整剤、グリシン、香料（原材料の一部に卵、小麦、大豆を含む）\n＜消費期限＞ オモテ面に記載\n＜保存方法＞ 冷暗所で保存して下さい\n＜販売者＞ 株式会社○○○ 東京都××区××1-5-3 製造所固有記号はオモテ面に記載\n--------------------------------------------------------------------------【原文選択肢】a. マグロによるアレルギー b. エビによるアレルギー c. ウェルシュ菌による食中毒 d. 腸管出血性大腸菌による食中毒 e. カンピロバクターによる食中毒【原文解答】答えは c．"
+        },
+        {
+          questionSentence: "【Question 59】Which of the following statements about norovirus is correct? Choose two.",
+          choices: [
+            "a. It can be transmitted through the vomit and feces of infected individuals.",
             "b. It multiplies in the human intestines.",
             "c. It is inactivated by heating at 60°C for 1 minute.",
-            "d. Symptoms of infection include paralysis of the limbs."
+            "d. The symptoms of infection include paralysis of the limbs."
           ],
-          answer: "a. It can be transmitted through vomit and feces of infected individuals.",
-          commentary: "【原文問題文】ノロウイルスに関する記述である。正しいものの組合せはどれか。【原文選択肢】a. 感染者の吐物や糞便から感染する。 b. ヒトの腸管内で増殖する。 c. ６０℃、１分間の加熱で不活性化する。 d. 感染による症状は、手足の麻痺である。【原文解答】a. 感染者の吐物や糞便から感染する。"
+          answer: "a. It can be transmitted through the vomit and feces of infected individuals.　b. It multiplies in the human intestines.",
+          commentary: "【原文問題文】ノロウイルスに関する記述である。正しいものを2つ選べ。【原文選択肢】a. 感染者の吐物や糞便から感染する。 b. ヒトの腸管内で増殖する。 c. ６０℃、１分間の加熱で不活性化する。 d. 感染による症状は、手足の麻痺である。【原文解答】答えは a．b．"
         },
         {
-          questionSentence: "Question 60: Which of the following statements about microorganisms causing food poisoning is correct? Choose one.",
+          questionSentence: "【Question 60】Which of the following statements about foodborne microorganisms is correct? Choose one.",
           choices: [
-            "a. The toxin of Staphylococcus aureus is broken down by heating at 100°C for 30 minutes.",
-            "b. The incubation period is shorter for infections than for intoxications.",
-            "c. Campylobacter is a psychrotrophic bacterium.",
-            "d. Clostridium botulinum is an anaerobic bacterium.",
-            "e. Pathogenic Escherichia coli forms spores."
+            "a. Norovirus multiplies in bivalve mollusks.",
+            "b. Clostridium botulinum does not multiply if vacuum-packed.",
+            "c. Vibrio parahaemolyticus does not multiply without salt.",
+            "d. Campylobacter multiplies in the atmosphere.",
+            "e. Salmonella species do not multiply below 15°C."
           ],
-          answer: "d. Clostridium botulinum is an anaerobic bacterium.",
-          commentary: "【原文問題文】食中毒原因微生物に関する記述である。正しいのはどれか。【原文選択肢】a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。 b. 潜伏期は感染型の方が毒素型より短い。 c. カンピロバクターは低温菌である。 d. ボツリヌス菌は嫌気性菌である。 e. 病原大腸菌は芽胞を形成する。【原文解答】d. ボツリヌス菌は嫌気性菌である。"
+          answer: "c. Vibrio parahaemolyticus does not multiply without salt.",
+          commentary: "【原文問題文】食中毒原因微生物に関する記述である。正しいのはどれか。【原文選択肢】a. ノロウィルスは、二枚貝の体内で増殖する｡ b. ボツリヌス菌は､真空包装すれば増殖しない｡ c. 腸炎ビブリオは､食塩が無ければ増殖しない｡ d. カンピロバクターは､大気中で増殖する。 e. サルモネラ属菌は､ １５℃以下では増殖しない｡【原文解答】答えは c．"
         },
         {
-          questionSentence: "Question 61: Which of the following statements about food poisoning caused by Vibrio parahaemolyticus is correct?",
+          questionSentence: "【Question 61】Which of the following statements about microbial food poisoning is correct? Choose one.",
           choices: [
-            "a. The causative bacteria are naturally present in seawater.",
-            "b. The causative bacteria are heat-resistant.",
-            "c. The causative bacteria are Gram-positive cocci.",
-            "d. The mortality rate is high.",
-            "e. The main causative foods are freshwater fish."
+            "a. The source of Vibrio parahaemolyticus food poisoning is freshwater fish.",
+            "b. The main symptom of staphylococcal food poisoning is nerve paralysis.",
+            "c. The foods that cause Campylobacter food poisoning include chicken and its products.",
+            "d. The neurotoxin produced by Clostridium botulinum is heat-resistant.",
+            "e. Food poisoning caused by Cryptosporidium is viral."
           ],
-          answer: "a. The causative bacteria are naturally present in seawater.",
-          commentary: "【原文問題文】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. 原因細菌は海水に常在する。 b. 原因細菌は耐熱性である。 c. 原因細菌はグラム陽性球菌である。 d. 致死率が高い。 e. 淡水産魚類が主な原因食品である。【原文解答】a. 原因細菌は海水に常在する。"
+          answer: "c. The foods that cause Campylobacter food poisoning include chicken and its products.",
+          commentary: "【原文問題文】微生物性食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. 腸炎ビブリオ食中毒の感染源は、淡水魚である。 b. ぶどう球菌食中毒の主な症状は、神経麻痺である。 c. カンピロバクタ一食中毒の原因食品には、鶏肉とその加工品がある。 d. ボツリヌス菌のつくる神経毒は、耐熱性である。 e. クリプトスポリジウムによる食中毒は、ウイルス性である。【原文解答】答えは c．"
         },
         {
-          questionSentence: "Question 62: Which of the following statements about bacterial food poisoning is correct?",
+          questionSentence: "【Question 62】Which of the following statements about norovirus is correct? Choose one.",
           choices: [
-            "a. The toxin of Staphylococcus aureus is broken down by heating at 100°C for 30 minutes.",
-            "b. The incubation period is shorter for infections than for intoxications.",
-            "c. Campylobacter is a psychrotrophic bacterium.",
-            "d. Clostridium botulinum is an anaerobic bacterium.",
-            "e. Pathogenic Escherichia coli forms spores."
+            "a. It multiplies in the body of oysters.",
+            "b. Using vinegar can prevent food poisoning caused by norovirus.",
+            "c. It can be transmitted from person to person.",
+            "d. It does not multiply in the human intestines.",
+            "e. The main symptom of food poisoning is respiratory paralysis."
           ],
-          answer: "d. Clostridium botulinum is an anaerobic bacterium.",
-          commentary: "【原文問題文】細菌性食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. ぶどう球菌の毒素は 100℃30 分の加熱で分解される。 b. 潜伏期は感染型の方が毒素型より短い。 c. カンピロバクターは低温菌である。 d. ボツリヌス菌は嫌気性菌である。 e. 病原大腸菌は芽胞を形成する。【原文解答】d. ボツリヌス菌は嫌気性菌である。"
+          answer: "c. It can be transmitted from person to person.",
+          commentary: "【原文問題文】ノロウイルスについての記述である。正しいのはどれか。【原文選択肢】a. カキの体内で増殖する。 b. 食酢の使用で、ノロウイルスによる食中毒を防ぐことができる。 c. ヒトからヒトヘ感染する。 d. ヒトの腸内では増殖しない。 e. 食中毒の主な症状は、呼吸麻痺である。【原文解答】答えは c．"
         },
         {
-          questionSentence: "Question 63: Which of the following statements about gastrointestinal infections is correct?",
+          questionSentence: "【Question 63】Which of the following statements about gastrointestinal infections is correct? Choose one.",
           choices: [
-            "a. Cholera is caused by infection with Bacillus cereus.",
-            "b. The incubation period of dysentery is shorter than that of Staphylococcus aureus food poisoning.",
-            "c. The symptoms of typhoid fever are characterized by high fever.",
+            "a. Cholera is caused by Bacillus cereus infection.",
+            "b. The incubation period for dysentery is shorter than that for staphylococcal food poisoning.",
+            "c. The characteristic symptom of typhoid fever is high fever.",
             "d. The symptoms of paratyphoid fever are more severe than those of typhoid fever.",
-            "e. Ingesting food contaminated with coliforms does not cause gastrointestinal infections."
+            "e. Consuming foods contaminated with coliform bacteria does not cause gastrointestinal infections."
           ],
-          answer: "c. The symptoms of typhoid fever are characterized by high fever.",
-          commentary: "【原文問題文】消化器系感染症についての記述である。正しいのはどれか。【原文選択肢】a. コレラは、セレウス菌の感染によって起こる。 b. 赤痢の潜伏期は、黄色ブドウ球菌食中毒より短い。 c. 腸チフスの症状は、高熱をともなうのが特徴である。 d. パラチフスの症状は、腸チフスより重症である。 e. 大腸菌群によって汚染されている食品を摂取しても、消化器系感染症は起こらない。【原文解答】c. 腸チフスの症状は、高熱をともなうのが特徴である。"
+          answer: "c. The characteristic symptom of typhoid fever is high fever.",
+          commentary: "【原文問題文】消化器系感染症についての記述である。正しいのはどれか。【原文選択肢】a. コレラは、セレウス菌の感染によって起こる。 b. 赤痢の潜伏期は、黄色ブドウ球菌食中毒より短い。 c. 腸チフスの症状は、高熱をともなうのが特徴である。 d. パラチフスの症状は、腸チフスより重症である。 e. 大腸菌群によって汚染されている食品を摂取しても、消化器系感染症は起こらない。【原文解答】答えは c．"
         },
         {
-          questionSentence: "Question 64: Which of the following statements about food poisoning caused by Vibrio parahaemolyticus is correct?",
+          questionSentence: "【Question 64】Which of the following statements about food poisoning caused by Vibrio parahaemolyticus is correct? Choose one.",
           choices: [
-            "a. The causative bacteria are naturally present in seawater.",
+            "a. The causative bacteria are commonly found in seawater.",
             "b. The causative bacteria are heat-resistant.",
             "c. The causative bacteria are Gram-positive cocci.",
             "d. The mortality rate is high.",
-            "e. The main causative foods are freshwater fish."
+            "e. Freshwater fish are the main cause."
           ],
-          answer: "a. The causative bacteria are naturally present in seawater.",
-          commentary: "【原文問題文】腸炎ビブリオによる食中毒に関する記述である。正しいのはどれか。【原文選択肢】a. 原因細菌は海水に常在する。 b. 原因細菌は耐熱性である。 c. 原因細菌はグラム陽性球菌である。 d. 致死率が高い。 e. 淡水産魚類が主な原因食品である。【原文解答】a. 原因細菌は海水に常在する。"
+          answer: "a. The causative bacteria are commonly found in seawater.",
+          commentary: "【原文問題文】腸炎ビブリオによる食中毒に関する記述である｡正しいのはどれか｡【原文選択肢】a. 原因細菌は海水に常在する｡ b. 原因細菌は耐熱性である｡ c. 原因細菌はグラム陽性球菌である｡ d. 致死率が高い｡ e. 淡水産魚類が主な原因食品である｡【原文解答】答えは a．"
         },
         {
           questionSentence: "Question 65: Which of the following statements about bacterial food poisoning is correct?",
@@ -2121,26 +2124,26 @@ export const useQuestionList = () => {
           commentary: "【原文問題文】自然毒による食中毒に関する記述である。正しいのはどれか。1つ選べ。【原文選択肢】a. イシナギの肝臓を多量に摂取すると、ビタミン E過剰症が起こる。 b. フグ毒のテトロドトキシンは、加熱することで無毒化される。 c. オゴノリ中毒の原因物質は、ソラニンである。 d. ツキヨタケ中毒の原因物質は、セスキテルペンである。 e. バイ貝毒は、青酸配糖体である。【原文解答】d. ツキヨタケ中毒の原因物質は、セスキテルペンである。"
         },
         {
-          questionSentence: "Question 74: Which of the following statements about natural toxins in seafood is correct? Choose two.",
+          questionSentence: "【Question 74】Which of the following statements about natural toxins in seafood is correct? Choose two.",
           choices: [
-            "a. The toxins in paralytic shellfish poisoning are derived from plankton.",
-            "b. The toxins in diarrhetic shellfish poisoning are synthesized by the hepatopancreas of shellfish.",
-            "c. Pufferfish toxin accumulates in pufferfish through the food chain.",
-            "d. Ciguatoxin is synthesized in the liver of herbivorous fish."
+            "a. The toxin that causes paralytic shellfish poisoning originates from plankton.",
+            "b. The toxin that causes diarrhetic shellfish poisoning is synthesized in the digestive gland of the shellfish.",
+            "c. The toxin that causes pufferfish poisoning accumulates in the pufferfish through the food chain.",
+            "d. The toxin that causes ciguatera poisoning is synthesized in the liver of herbivorous fish."
           ],
-          answer: "a,b",
-          commentary: "【原文問題文】水産物の自然毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. 麻痺性貝中毒の毒素は、プランクトン由来である。 b. 下痢性貝中毒の毒素は、貝の中腸腺が合成する。 c. フグ毒は、食物連鎖によりフグ体内に蓄積する。 d. シガテラ毒は、草食性魚の肝臓で合成される。【原文解答】a,b"
+          answer: "a. The toxin that causes paralytic shellfish poisoning originates from plankton.　c. The toxin that causes pufferfish poisoning accumulates in the pufferfish through the food chain.",
+          commentary: "【原文問題文】水産物の自然毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. 麻痺性貝中毒の毒素は、プランクトン由来である。 b. 下痢性貝中毒の毒素は、貝の中腸腺が合成する。 c. フグ毒は、食物連鎖によりフグ体内に蓄積する。 d. シガテラ毒は、草食性魚の肝臓で合成される。【原文解答】答えは a．c．"
         },
         {
-          questionSentence: "Question 75: Which of the following statements about food poisoning caused by parasites is correct? Choose two.",
+          questionSentence: "【Question 75】Which of the following statements about food poisoning caused by natural toxins is correct? Choose two.",
           choices: [
-            "a. Kudoa is contracted by eating raw flounder.",
-            "b. Clonorchis sinensis is contracted by eating undercooked pork.",
-            "c. Sarcocystis is contracted by eating raw chicken.",
-            "d. Anisakis causes a condition called egg migration syndrome."
+            "a. Food poisoning caused by potatoes is due to cyanogenic glycosides.",
+            "b. Photosensitivity is caused by pheophorbide.",
+            "c. Food poisoning caused by the barracuda is due to ciguatoxin.",
+            "d. Mushrooms with stems that split vertically do not cause food poisoning."
           ],
-          answer: "b,c",
-          commentary: "【原文問題文】寄生虫による食中毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. クドアは、ひらめの生食により感染する。 b. 肝吸虫は、不完全調理の豚肉摂取により感染する。 c. サルコシスティスは、鶏肉の生食により感染する。 d. アニサキスは、卵移行症型である。【原文解答】b,c"
+          answer: "b. Photosensitivity is caused by pheophorbide.　c. Food poisoning caused by the barracuda is due to ciguatoxin.",
+          commentary: "【原文問題文】自然毒による食中毒に関する記述である。正しいものを2つ選べ。【原文選択肢】a. じゃがいもによる食中毒は、青酸配糖体によって起こる。 b. 光過敏症は、フェオホルビドによって起こる。 c. ドクカマスによる食中毒は、シガトキシンによって起こる。 d. 柄が縦に裂けるキノコは、食中毒を起こさない。【原文解答】答えは b．c．"
         },
         {
           questionSentence: "Question 76: Which of the following statements about pufferfish poisoning is correct? Choose one.",
@@ -2303,7 +2306,7 @@ export const useQuestionList = () => {
             "d. Acquired immunodeficiency syndrome (AIDS)",
             "e. Ebola hemorrhagic fever"
           ],
-          answer: "e. Ebola hemorrhagic fever",
+          answer: "d. Acquired immunodeficiency syndrome (AIDS)",
           commentary: "【原文問題文】感染症法により就業制限が課せられる疾病である。誤っているのはどれか。1つ選べ。【原文選択肢】a. 細菌性赤痢 b. 腸管出血性大腸菌感染症 c. 結核 d. 後天性免疫不全症候群 e. エボラ出血熱【原文解答】答えは e．"
         }
       ]        
@@ -4424,7 +4427,7 @@ export const useQuestionList = () => {
           commentary: '更年期障害の診断には、卵胞刺激ホルモン（FSH）とエストロゲンの検査が有用である。'
         },
         {
-          questionSentence: 'Q5 本症例において有用とされる治療薬はどれか。1つ選べ。',
+          questionSentence: 'Q5 本症例(更年期障害)において有用とされる治療薬はどれか。1つ選べ。',
           choices: [
             'エストロゲン+プロゲステロン',
             'GnRHアンタゴニスト',
@@ -7605,7 +7608,7 @@ export const useQuestionList = () => {
     }, {
       groupTag: "腫瘍疾患2022本試験",
       groupContents: [{
-        questionSentence: "Q1 悪性腫瘍の診断・治療に関して正しい組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q1 悪性腫瘍の診断・治療に関して正しい組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. 診断には存在診断、質的診断、病期診断があるが、治療に際して病期診断は必ずしも必要としない。",
           "2. 治療を開始するためには、いかなる状況でも病理組織診断は必須である。",
@@ -7625,7 +7628,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q3 原発性肺癌に対する放射線治療に関して誤っている組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q3 原発性肺癌に対する放射線治療に関して誤っている組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. 呼吸による腫瘍の動きを抑制するため、通常は呼吸停止下に照射する。",
           "2. 照射中の体動を抑制するため、基本的に体固定して照射を行う。",
@@ -7635,7 +7638,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q4 原発性肺癌に対する定位放射線治療において、正しい組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q4 原発性肺癌に対する定位放射線治療において、正しい組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. 対象となる病期は3期である。",
           "2. 手術療法を施行できない全身状態不良患者に対しては、定位放射線治療も施行できない。",
@@ -7754,7 +7757,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q16 以下の細胞周期の内、放射線感受性が最も高い組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q16 以下の細胞周期の内、放射線感受性が最も高い組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. M期 (分裂期)",
           "2. G0期 (静止期)",
@@ -7784,7 +7787,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q19 腫瘍免疫を抑制する因子とそれを発現する細胞の組合せについて誤っているものの組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q19 腫瘍免疫を抑制する因子とそれを発現する細胞の組合せについて誤っているものの組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. IFN-γ - M2 (alternatively-activated) macrophages",
           "2. CD28 - Helper T cells",
@@ -7794,7 +7797,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q20 腫瘍免疫について、誤っているものの組み合わせはどれか。 (複数選択可能)",
+        questionSentence: "Q20 腫瘍免疫について、誤っているものの組み合わせはどれか。 2つ選択せよ。",
         choices: [
           "1. がん幹細胞(Cancer stem cell)には自己複製能がある",
           "2. GVL (Graft versus leukemia)は腫瘍細胞の増殖を促す",
@@ -7864,7 +7867,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q27 次の中から正しいものを選べ。",
+        questionSentence: "Q27 次の中から正しいものを選べ。2つ選択せよ。",
         choices: [
           "1. ヒト化抗体は異種抗体に対する免疫反応を低減できる",
           "2. タイトジャンクションはクラウディンにより構成されている",
@@ -7874,7 +7877,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q28 次の中から正しいものを選べ。",
+        questionSentence: "Q28 次の中から正しいものを選べ。2つ選択せよ。",
         choices: [
           "1. 培養細胞を抗Claudin抗体で処理するとADCCにより細胞障害が生じた",
           "2. ヌードマウスの実験系で抗Claudin抗体を作用させてもADCCは生じない",
@@ -7914,7 +7917,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q32 次のうち正しいのはどれか。",
+        questionSentence: "Q32 次のうち正しいのはどれか。2つ選択せよ。",
         choices: [
           "1. せん妄は、がんの末期にみられることが多い。",
           "2. せん妄は、意識障害の範疇には入らない。",
@@ -7944,7 +7947,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q35 次のうち、正しい組み合わせはどれか。",
+        questionSentence: "Q35 次のうち、正しい組み合わせはどれか。2つ選択せよ。",
         choices: [
           "1. がん研究振興財団作成の「がんの統計'22」によると、女性の癌の中では乳癌が、罹患率も死亡率も最も高い。",
           "2. 乳房温存療法とは、乳房部分切除術と術後放射線治療を組み合わせた治療のことである。",
@@ -7994,7 +7997,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q40 次のうち、誤っている組み合わせはどれか。",
+        questionSentence: "Q40 次のうち、誤っている組み合わせはどれか。2つ選択せよ。",
         choices: [
           "1. 脳腫瘍のWHO分類では、形態学的分類だけではなく、遺伝子診断も組み合わせた分類となっている。",
           "2. 膠芽腫(glioblastoma)の病理所見として、壊死巣周囲の核の柵状配列が特徴的な所見である。",
@@ -8004,7 +8007,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q41 Which of the following is the correct combination of parallel organs?",
+        questionSentence: "Q41 Which of the following is the correct combination of parallel organs? Choose two.",
         choices: [
           "a. Liver",
           "b. Optic nerve",
@@ -8034,7 +8037,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q44 以下の放射性同位元素のうち前立腺癌の密封小線源治療に用いられるものはどれか。",
+        questionSentence: "Q44 以下の放射性同位元素のうち前立腺癌の密封小線源治療に用いられるものはどれか。2つ選択せよ。",
         choices: [
           "1. ラジウム223",
           "2. イットリウム90",
@@ -8064,7 +8067,7 @@ export const useQuestionList = () => {
         ]
       },
       {
-        questionSentence: "Q47 対象者1000人について、その有病率が1%の疾患に対して、感度80%、特異度80%のスクリーニング検査を実施した場合、正しいものはどれか。",
+        questionSentence: "Q47 対象者1000人について、その有病率が1%の疾患に対して、感度80%、特異度80%のスクリーニング検査を実施した場合、正しいものはどれか。2つ選択せよ。",
         choices: [
           "1. 疾患があり、検査が陽性を示すのは8人である",
           "2. 検査が陽性を示すのは198人である",
