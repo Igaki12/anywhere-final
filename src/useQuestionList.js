@@ -1,3 +1,16 @@
+import oncology2022a22_2 from './img/answer/oncology2022a22_2.png';
+import oncology2022a22_3 from './img/answer/oncology2022a22_3.png';
+import oncology2022a22_1 from './img/answer/oncology2022a22_1.png';
+import oncology2022a28_1 from './img/answer/oncology2022a28_1.png';
+import oncology2022a28_2 from './img/answer/oncology2022a28_2.png';
+import oncology2022a26 from './img/answer/oncology2022a26.png';
+import oncology2022a19 from './img/answer/oncology2022a19.png';
+import oncology2022a18_1 from './img/answer/oncology2022a18_1.png';
+import oncology2022a15 from './img/answer/oncology2022a15.png';
+import oncology2022a27_2 from './img/answer/oncology2022a27_2.png';
+import oncology2022a17 from './img/answer/oncology2022a17.png';
+import oncology2022a18_2 from './img/answer/oncology2022a18_2.png';
+import oncology2022a27_1 from './img/answer/oncology2022a27_1.png';
 import oncology2022a12 from './img/answer/oncology2022a12.png';
 import oncology2022a9 from './img/answer/oncology2022a9.png';
 import oncology2022a13 from './img/answer/oncology2022a13.png';
@@ -7800,7 +7813,10 @@ export const useQuestionList = () => {
           "c. 線維肉腫",
           "d. 子宮頸癌",
           "e. 肺癌"
-        ]
+        ],
+        answerImg: [oncology2022a15],
+        answer: "c",
+        commentary:"骨･軟部腫瘍 bone tumor, soft tissue tumorは、一般的に放射線感受性は低い"
       },
       {
         questionSentence: "Q16 以下の細胞周期の内、放射線感受性が最も高い組み合わせはどれか。 2つ選択せよ。",
@@ -7810,7 +7826,8 @@ export const useQuestionList = () => {
           "3. G1期 (DNA合成準備期)",
           "4. S期 (DNA合成期)",
           "5. G2期 (分裂準備期)"
-        ]
+        ],
+        answer: "1,5",
       },
       {
         questionSentence: "Q17 慢性骨髄性白血病の治療において、イマチニブが誘導する薬物特異的な阻害作用の標的はどれか。",
@@ -7820,7 +7837,10 @@ export const useQuestionList = () => {
           "c. 核内受容体",
           "d. チロシンキナーゼ",
           "e. Gタンパク質共役型受容体"
-        ]
+        ],
+        answerImg: [oncology2022a17],
+        answer: "d",
+        commentary:"チロシンキナーゼを阻害し、基質のチロシンリン酸化を妨げる作用から広く「チロシンキナーゼ阻害薬」と呼ばれています。この薬の登場により慢性骨髄性白血病の治療は大きく前進し、治せる病気に変わってきています。その後、いくつかの新薬が開発されていますが、使用経験が豊富で実績ある標準薬としての位置づけは以前同様です。なお、Ｂｃｒ-Ａｂｌチロシンキナーゼを阻害する類似薬として、ニロチニブ（タシグナ）、ダサチニブ（スプリセル）、ボスチニブ（ボシュリフ）が発売されています。この薬が効果不十分な場合にはこれらで対応可能です。"
       },
       {
         questionSentence: "Q18 Which anti-cancer drug is most effective in the G2 phase of the cell cycle?",
@@ -7831,6 +7851,8 @@ export const useQuestionList = () => {
           "d. Cytarabine",
           "e. Irinotecan"
         ],
+        answerImg: [oncology2022a18_2],
+        answer: "c",
         commentary:"[問題文日本語訳] 細胞周期のG2期において最も効果的な抗がん剤はどれか。[選択肢日本語訳] a. メトトレキサート, b. パクリタキセル, c. ブレオマイシン, d. シタラビン, e. イリノテカン"
       },
       {
@@ -7842,6 +7864,8 @@ export const useQuestionList = () => {
           "4. PD-1 - Killer T cells",
           "5. TGF-β - Regulatory T cells"
         ],
+        answerImg: [oncology2022a19],
+        answer: "1,2",
       },
       {
         questionSentence: "Q20 腫瘍免疫について、誤っているものの組み合わせはどれか。 2つ選択せよ。",
@@ -7851,7 +7875,9 @@ export const useQuestionList = () => {
           "3. ヒトパピローマウイルスは子宮体癌の発癌に関与している",
           "4. 免疫賦活効果もあるBCGは臨床では膀胱癌の治療としても用いられている",
           "5. Cancer Immunoediting (がん免疫編集)とはがんに対する免疫監視機構が存在するにも関わらずがんが増殖してしまうという矛盾を説明する仮説である。"
-        ]
+        ],
+        answer:"2,3",
+        commentary:"GVLとは、 骨髄移植で見られる移植片の免疫細胞が腫瘍細胞を攻撃する現象であり、腫瘍細胞の増殖を抑制する。 ヒトパピローマウイルスは子宮頸癌の発癌に関与している。"
       },
       {
         questionSentence: "Q21 がんと危険因子の組み合わせで誤っているのはどれか。",
@@ -7861,7 +7887,9 @@ export const useQuestionList = () => {
           "c. 子宮内膜がん - 糖尿病",
           "d. 子宮頸がん - HTLV-1感染症",
           "e. 腎臓がん - 喫煙"
-        ]
+        ],
+        answer: "d",
+        commentary:"子宮頸がんはHPV感染が原因である"
       },
       {
         questionSentence: "Q22 喫煙対策について誤っているのはどれか。",
@@ -7871,7 +7899,10 @@ export const useQuestionList = () => {
           "c. 健康増進法は受動喫煙防止について定めている",
           "d. 喫煙可能室への、未成年従業員の立ち入りは禁止されている",
           "e. 病院には、必要な措置を取ったうえで、屋内の喫煙場所を設置できる"
-        ]
+        ],
+        answerImg: [oncology2022a22_1, oncology2022a22_2, oncology2022a22_3],
+        answer: "e",
+        commentary:"病院でも必要な措置が取られれば、屋外には設置が可能である。"
       },
       {
         questionSentence: "Q23 がん細胞の生物学的特性として適切でないのはどれか。",
@@ -7881,7 +7912,9 @@ export const useQuestionList = () => {
           "c. 細胞増殖の接触阻害",
           "d. 細胞間接着機構の減弱",
           "e. テロメラーゼ活性の獲得"
-        ]
+        ],
+        answer: "c",
+        commentary:"がん細胞の転移、浸潤、増殖、不死化等といった性質は、これらの要素から獲得される。細胞増殖が積極的に行われるため、接触阻害はがん細胞にはあてはまらない。"
       },
       {
         questionSentence: "Q24 がん細胞の生物学的特性として適切でないのはどれか。",
@@ -7891,8 +7924,10 @@ export const useQuestionList = () => {
           "c. DNAのメチル化は、癌抑制遺伝子の不活化の原因となる。",
           "d. がん病巣内は、がんの血管新生によって血流が豊富である。",
           "e. Epithelial-Mesenchymal Transitionを起こしたがん細胞は、遊走能が亢進している。"
-        ]
-      },
+        ],
+        answer: "d",
+        commentary:"癌は血管新生によって酸素と栄養を補給して増殖するが、増殖速度が速く血管構築も追いつかないため、腫瘍内は常に低酸素状態である。 これが治療に利用される。"
+            },
       {
         questionSentence: "Q25 以下の文章で誤っているのはどれか。",
         choices: [
@@ -7901,7 +7936,8 @@ export const useQuestionList = () => {
           "c. 小さな病理検体では、病変の全体像は把握できない。",
           "d. 病理診断は治療方針の根拠となる。",
           "e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAを抽出することは可能である。"
-        ]
+        ],
+        answer: "b",
       },
       {
         questionSentence: "Q26 Which gene has the highest frequency of therapeutic target gene abnormalities detected in Japanese lung adenocarcinoma?",
@@ -7912,6 +7948,8 @@ export const useQuestionList = () => {
           "d. HER2",
           "e. ROS1"
         ],
+        answerImg: [oncology2022a26],
+        answer: "c",
         commentary:"[問題文日本語訳] 日本人肺腺癌において最も高頻度で治療標的遺伝子異常が検出される遺伝子はどれか。"
       },
       {
@@ -7922,7 +7960,9 @@ export const useQuestionList = () => {
           "3. クラウディンは7回膜貫通型タンパクである",
           "4. タイトジャンクションは強固な細胞間接着をCa依存性に生じる",
           "5. タイトジャンクションはバリア機能とフェンス機能を持ち、細胞間微小環境を保つ"
-        ]
+        ],
+        answerImg: [oncology2022a27_1, oncology2022a27_2],
+        answer: "2,5",
       },
       {
         questionSentence: "Q28 次の中から正しいものを選べ。2つ選択せよ。",
@@ -7932,7 +7972,10 @@ export const useQuestionList = () => {
           "3. 腫瘍タイトジャンクションの障害により腫瘍内の増殖因子が流出し増殖が阻害される",
           "4. 腫瘍タイトジャンクションの障害により腫瘍内への抗癌剤移行が亢進する",
           "5. 抗体療法では、標的タンパクの発現量と抗体効果は相関しない"
-        ]
+        ],
+        answerImg: [oncology2022a28_1, oncology2022a28_2],
+        answer: "3,4",
+        commentary:"	1.	CLDN4はさまざまな癌で過剰発現しており、これは病気の進行と関連しています。　2.	4D3は腫瘍微小環境を損なうことで悪性表現型を抑制します。　3.	4D3は抗癌薬および抗体の腫瘍への浸透を促進し、その抗腫瘍効果を強化します。　4.	4D3は正常組織への特定の免疫反応性の蓄積を示しません。　抗CLDN4細胞外ドメイン抗体は、さまざまな癌に対する重要な治療ツールとなる可能性があります。"
       },
       {
         questionSentence: "Q29 緩和ケアについて正しいものを選べ。",
