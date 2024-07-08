@@ -1,3 +1,16 @@
+import oncology2022a12 from './img/answer/oncology2022a12.png';
+import oncology2022a9 from './img/answer/oncology2022a9.png';
+import oncology2022a13 from './img/answer/oncology2022a13.png';
+import oncology2022a3 from './img/answer/oncology2022a3.png';
+import oncology2022a10 from './img/answer/oncology2022a10.png';
+import oncology2022a14 from './img/answer/oncology2022a14.png';
+import oncology2022a5 from './img/answer/oncology2022a5.png';
+import oncology2022a7 from './img/answer/oncology2022a7.png';
+import oncology2022a4_2 from './img/answer/oncology2022a4_2.png';
+import oncology2022a6_1 from './img/answer/oncology2022a6_1.png';
+import oncology2022a4_1 from './img/answer/oncology2022a4_1.png';
+import oncology2022a6_3 from './img/answer/oncology2022a6_3.png';
+import oncology2022a6_2 from './img/answer/oncology2022a6_2.png';
 import forensic2017a11 from './img/answer/forensic2017a11.png';
 import forensic2017a12_2 from './img/answer/forensic2017a12_2.png';
 import forensic2017a9_1 from './img/answer/forensic2017a9_1.png';
@@ -7615,7 +7628,9 @@ export const useQuestionList = () => {
           "3. 診療ガイドラインに沿い、キャンサーポードを経て治療法を決定することが推奨される。",
           "4. 患者の全身状態や合併症も考慮し、総合的に決定する。",
           "5. 病期や患者の全身状態によって、手術療法、放射線療法、化学療法、免疫療法のいずれかを選んで治療を行う。"
-        ]
+        ],
+        answer: "3,4",
+        commentary:"悪性腫瘍の診断 は存在診断、質的診断、病期診断の順に行われ、病期診断は治療に際して必ず必要である。 病理組織に基づく診断はp分類と呼ばれるが病理組織 を用いないc分類でも診断は行うことができる。 基本的に癌に対しては、手術療法、放射線治療、薬物療法を組み合わせた集学的治療が行われる。"
       },
       {
         questionSentence: "Q2 悪性腫瘍の治療に関して誤っているのはどれか。",
@@ -7625,7 +7640,9 @@ export const useQuestionList = () => {
           "c. 手術療法と放射線療法は局所療法、化学療法は全身療法である。",
           "d. 固形癌においては、化学療法単独では根治治療とはならない。",
           "e. 化学療法には放射線療法の増感作用がある。"
-        ]
+        ],
+        answer: "b",
+        commentary: "手術療法、放射線療法、化学療法を組み合わせた治療のことを集学的治療と呼ぶ"
       },
       {
         questionSentence: "Q3 原発性肺癌に対する放射線治療に関して誤っている組み合わせはどれか。 2つ選択せよ。",
@@ -7635,7 +7652,10 @@ export const useQuestionList = () => {
           "3. 局所進行肺癌では、放射線治療と化学療法の同時併用が望ましい。",
           "4. 小細胞肺癌では非小細胞肺癌と比べて、線量分割や総線量が異なる。",
           "5. 照射範囲は腫瘍の組織型によって、ガイドラインで決まった通りに決定する。"
-        ]
+        ],
+        answerImg: [oncology2022a3],
+        answer: "1,5",
+        commentary: "呼吸によって体が動くことを防ぐため、体を固定して放射線治療が行われる事はあるが、呼吸を止める事は無い。 照射範囲は、 腫瘍の体積、進展を疑う部位、 位置ずれなどによっても考慮され、ガイドラインで決まったものはない(照射量については、ある程度組織によって、例えば 非小細胞肺がんや小細細胞肺がんなどによって決まっている)"
       },
       {
         questionSentence: "Q4 原発性肺癌に対する定位放射線治療において、正しい組み合わせはどれか。 2つ選択せよ。",
@@ -7645,7 +7665,10 @@ export const useQuestionList = () => {
           "3. 60Gy/30回のような通常の照射法と比較して、1回線量が多く、総線量も多い。",
           "4. 60Gy/30回のような通常の照射法と比較して、腫瘍の治療効果は高い。",
           "5. 肺門の腫瘍に対する定位放射線治療では、大血管などに対する重篤な晩期有害事象が危惧される。"
-        ]
+        ],
+        answerImg: [oncology2022a4_1, oncology2022a4_2],
+        answer: "4,5",
+        commentary:"定位放射線治療はがんに放射線を集中させ、周囲肺への影響が少ない新しい放射線治療である。基本的に 早期のがん(1期)に対して行われる。 この方法は通常放射法と違って1回線量が多く分割回数が少ない(合計は42Gyで、むしろ通常放射線療法:45-60Gyより総量は少ない)。そのため 腫瘍への治療効果は高いが中枢に近い腫瘍では、晩期有害事象に注意し、1回線量を下げる必要がある。大血管、気管支等が閉塞する恐れがあるため。"
       },
       {
         questionSentence: "Q5 がんの外科治療について、正しいのはどれか。",
@@ -7655,7 +7678,10 @@ export const useQuestionList = () => {
           "c. 根治性は臓器の機能温存よりも優先されるべきである。",
           "d. 肉眼的よりも顕微鏡的に癌を取り切ることを目標とする。",
           "e. がんのステージは原発腫瘍、リンパ節転移、神経浸潤の程度で決定される。"
-        ]
+        ],
+        answerImg: [oncology2022a5],
+        answer: "d",
+        commentary: "癌の外科治療の原則として、根治性、安全性、機能温存があり、そのバランスが重要である。 また、癌の進展方法として、局所浸潤、血行性転移、リンパ行性転移があり、 癌のステージはT N M(遠隔転移)の程度によって分類される。"
       },
       {
         questionSentence: "Q6 がんのリンパ行性転移について、正しいのはどれか。",
@@ -7665,7 +7691,10 @@ export const useQuestionList = () => {
           "c. 進行大腸癌において切除腸管はできるだけ長い方がよい。",
           "d. 領域リンパ節の定義は胃癌、大腸癌、膵癌では共通である。",
           "e. 乳癌においてセンチネルリンパ節生検は広く用いられている。"
-        ]
+        ],
+        answerImg: [oncology2022a6_1, oncology2022a6_2, oncology2022a6_3],
+        answer: "e",
+        commentary: "腫瘍の場所、進行度に応じたリンパ節郭清が行われる"
       },
       {
         questionSentence: "Q7 Which of the following antibody therapeutic agents has an affinity for PD-1?",
@@ -7675,7 +7704,10 @@ export const useQuestionList = () => {
           "c. Denosumab",
           "d. Durvalumab",
           "e. Necitumumab"
-        ]
+        ],
+        answerImg: [oncology2022a7],
+        answer: "a",
+        commentary:"[問題文日本語訳] PD-1に親和性を持つ抗体治療薬はどれか。正しいものを一つ選べ。 [選択肢日本語訳]a. ニボルマブ, b. ベバシズマブ, c. デノスマブ, d. ドゥルバルマブ, e. ネシツマブ"
       },
       {
         questionSentence: "Q8 分子標的治療薬(キナーゼ阻害剤)についての記述で正しいのはどれか",
@@ -7685,7 +7717,8 @@ export const useQuestionList = () => {
           "c. オシメルチニプはゲフィチニプと比較し、白血球減少の頻度が低い。",
           "d. オシメルチニプはT790M耐性変異に有効で、58R、ex19欠損変異には無効である。",
           "e. アレクチニプはROSI遺伝子転座陽性の非小細胞肺癌に有効である。"
-        ]
+        ],
+        answer: "b",
       },
       {
         questionSentence: "Q9 人口10万人当たりの疾患別死亡率の一位はどれか。正しいものを一つ選べ。",
@@ -7695,7 +7728,9 @@ export const useQuestionList = () => {
           "c. 心疾患",
           "d. 肺炎",
           "e. 悪性新生物"
-        ]
+        ],
+        answerImg: [oncology2022a9],
+        answer: "e",
       },
       {
         questionSentence: "Q10 進行固形がんに対し2019年遺伝子パネル検査が保険承認された。遺伝子パネル検査の説明として誤っているものはどれか。",
@@ -7705,7 +7740,10 @@ export const useQuestionList = () => {
           "c. 分子標的薬に繋がる可能性は高い",
           "d. 遺伝性腫瘍に関連する遺伝子変異を認める可能性がある",
           "e. 腫瘍組織を用いる"
-        ]
+        ],
+        answerImg: [oncology2022a10],
+        answer: "c",
+        commentary:"次世代シーケンサー:NGSの登場によりDNA塩基配列を大量に高速に読めるようになった。結果、主に標準治療がないがんや標準治療が終了して次に使う治療薬が見つからないがんに対して、遺伝子を調べそれをもとに治療薬を探す遺伝子パネル検査が行われるようになった。 現時点では、新しい治療法が見つかった患者さんの割合は、10%未満で、新たな分子標的薬につながる可能性は高いとは言えない。"
       },
       {
         questionSentence: "Q11 臨床試験においてその薬剤が標的とする遺伝子変異があれば、どのタイプのがん腫でも登録できる試験のことを何というか。正しいものを一つ選べ。",
@@ -7715,7 +7753,9 @@ export const useQuestionList = () => {
           "c. Phase 3試験",
           "d. 市販後臨床試験",
           "e. バスケット試験"
-        ]
+        ],
+        answer:"e",
+        commentary:"バスケット試験（Basket Trial）とは、新薬や治療法の効果を複数の異なる疾患や疾患のサブタイプに対して評価する臨床試験の一種です。この試験デザインは、特定の遺伝的変異や生物学的マーカーを共有する患者グループを対象とし、これらの患者が異なる疾患を持っていても一つの治療法の有効性を評価することを目的としています。特にがん治療で広く利用されています。"
       },
       {
         questionSentence: "Q12 分子標的薬が承認されている臓器横断的な遺伝子異常はどれか。誤っているものを選べ。",
@@ -7724,7 +7764,9 @@ export const useQuestionList = () => {
           "b. ROSI融合遺伝子",
           "c. MSI-H (高頻度マイクロサテライト不安定性)",
           "d. TMB-High (腫瘍遺伝子変異量高スコア)"
-        ]
+        ],
+        answerImg: [oncology2022a12],
+        answer: "b",
       },
       {
         questionSentence: "Q13 次のうち、支持療法ではないものを一つ選べ。",
@@ -7734,7 +7776,9 @@ export const useQuestionList = () => {
           "c. 制吐剤投与",
           "d. 輸血",
           "e. 免疫チェックポイント阻害薬投与"
-        ]
+        ],
+        answerImg: [oncology2022a13],
+        answer: "e",
       },
       {
         questionSentence: "Q14 次のうち、EGFR抗体による副作用として当てはまらないものはどれか、一つ選べ。",
@@ -7744,7 +7788,9 @@ export const useQuestionList = () => {
           "c. 爪囲炎",
           "d. 手足症候群",
           "e. 手指の亀裂"
-        ]
+        ],
+        answerImg: [oncology2022a14],
+        answer: "d",
       },
       {
         questionSentence: "Q15 以下の腫瘍の内、一般的に根治的放射線治療の適応とならないものはどれか。",
@@ -7784,7 +7830,8 @@ export const useQuestionList = () => {
           "c. Bleomycin",
           "d. Cytarabine",
           "e. Irinotecan"
-        ]
+        ],
+        commentary:"[問題文日本語訳] 細胞周期のG2期において最も効果的な抗がん剤はどれか。[選択肢日本語訳] a. メトトレキサート, b. パクリタキセル, c. ブレオマイシン, d. シタラビン, e. イリノテカン"
       },
       {
         questionSentence: "Q19 腫瘍免疫を抑制する因子とそれを発現する細胞の組合せについて誤っているものの組み合わせはどれか。 2つ選択せよ。",
@@ -7794,7 +7841,7 @@ export const useQuestionList = () => {
           "3. PD-L1 - Tumor cells",
           "4. PD-1 - Killer T cells",
           "5. TGF-β - Regulatory T cells"
-        ]
+        ],
       },
       {
         questionSentence: "Q20 腫瘍免疫について、誤っているものの組み合わせはどれか。 2つ選択せよ。",
@@ -7864,7 +7911,8 @@ export const useQuestionList = () => {
           "c. EGFR",
           "d. HER2",
           "e. ROS1"
-        ]
+        ],
+        commentary:"[問題文日本語訳] 日本人肺腺癌において最も高頻度で治療標的遺伝子異常が検出される遺伝子はどれか。"
       },
       {
         questionSentence: "Q27 次の中から正しいものを選べ。2つ選択せよ。",
@@ -7914,7 +7962,8 @@ export const useQuestionList = () => {
           "c. denial → depression → bargaining → anger → acceptance",
           "d. denial → anger → depression → acceptance",
           "e. anger → depression → denial → acceptance"
-        ]
+        ],
+        commentary:"[問題文日本語訳] Kübler Rossが提唱した死にゆく過程の心理的段階について、正しいものを選べ。 [選択肢日本語訳] a. 憂鬱 → 否認 → 取引 → 怒り → 受容, b. 憂鬱 → 怒り → 否認 → 受容, c. 否認 → 憂鬱 → 取引 → 怒り → 受容, d. 否認 → 怒り → 憂鬱 → 受容, e. 怒り → 憂鬱 → 否認 → 受容"
       },
       {
         questionSentence: "Q32 次のうち正しいのはどれか。2つ選択せよ。",
@@ -8014,7 +8063,8 @@ export const useQuestionList = () => {
           "c. Brain stem",
           "d. Spinal cord",
           "e. Lung"
-        ]
+        ],
+        commentary:"[問題文日本語訳] 次のうち、並列器官の組み合わせとして正しいものはどれか。2つ選択せよ。[選択肢日本語訳] a. 肝臓, b. 視神経, c. 脳幹, d. 脊髄, e. 肺"
       },
       {
         questionSentence: "Q42 次の文章のうち、正しいものはどれか。",
