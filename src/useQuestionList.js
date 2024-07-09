@@ -1,3 +1,34 @@
+import oncology2022a49_1 from './img/answer/oncology2022a49_1.png';
+import oncology2022a50_1 from './img/answer/oncology2022a50_1.png';
+import oncology2022a49_2 from './img/answer/oncology2022a49_2.png';
+import oncology2022a50_2 from './img/answer/oncology2022a50_2.png';
+import oncology2022a44 from './img/answer/oncology2022a44.png';
+import oncology2022a35_4 from './img/answer/oncology2022a35_4.png';
+import oncology2022a45 from './img/answer/oncology2022a45.png';
+import oncology2022a47 from './img/answer/oncology2022a47.png';
+import oncology2022a46 from './img/answer/oncology2022a46.png';
+import oncology2022a35_3 from './img/answer/oncology2022a35_3.png';
+import oncology2022a42 from './img/answer/oncology2022a42.png';
+import oncology2022a37_1 from './img/answer/oncology2022a37_1.png';
+import oncology2022a43 from './img/answer/oncology2022a43.png';
+import oncology2022a35_2 from './img/answer/oncology2022a35_2.png';
+import oncology2022a37_2 from './img/answer/oncology2022a37_2.png';
+import oncology2022a35_1 from './img/answer/oncology2022a35_1.png';
+import oncology2022a48_2 from './img/answer/oncology2022a48_2.png';
+import oncology2022a33 from './img/answer/oncology2022a33.png';
+import oncology2022a32 from './img/answer/oncology2022a32.png';
+import oncology2022a29_2 from './img/answer/oncology2022a29_2.png';
+import oncology2022a48_3 from './img/answer/oncology2022a48_3.png';
+import oncology2022a48_1 from './img/answer/oncology2022a48_1.png';
+import oncology2022a31 from './img/answer/oncology2022a31.png';
+import oncology2022a29_1 from './img/answer/oncology2022a29_1.png';
+import oncology2022a36_2 from './img/answer/oncology2022a36_2.png';
+import oncology2022a36_1 from './img/answer/oncology2022a36_1.png';
+import oncology2022a40_2 from './img/answer/oncology2022a40_2.png';
+import oncology2022a39 from './img/answer/oncology2022a39.png';
+import oncology2022a40_1 from './img/answer/oncology2022a40_1.png';
+import oncology2022a38 from './img/answer/oncology2022a38.png';
+import oncology2022a39_2 from './img/answer/oncology2022a39_2.png';
 import oncology2022a22_2 from './img/answer/oncology2022a22_2.png';
 import oncology2022a22_3 from './img/answer/oncology2022a22_3.png';
 import oncology2022a22_1 from './img/answer/oncology2022a22_1.png';
@@ -7985,7 +8016,9 @@ export const useQuestionList = () => {
           "c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。",
           "d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。",
           "e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
-        ]
+        ],
+        answerImg: [oncology2022a29_1, oncology2022a29_2],
+        answer: "b",
       },
       {
         questionSentence: "Q30 医療用麻薬に関する記述のうち正しいものを選べ。",
@@ -7995,18 +8028,22 @@ export const useQuestionList = () => {
           "c. 患者ががん性疼痛を訴えた時、積極的に医療用麻薬の使用を考慮しなければいけない。",
           "d. 医療用麻薬を開始した際、それまで使っていたNSAIDsの使用を中止した。",
           "e. 医療用麻薬の使用は、終末期がん患者に限定しなければいけない。"
-        ]
+        ],
+        answer: "c",
+        commentary:"○　がん疼痛緩和の基本方針は、速やかな治療の開始、十分な副作用対策、患者が満足できる痛みからの解放である。がん疼痛は、治療可能な病態であり、がん患者の QOL（Quality ofLife）の向上のためにはがんの痛みからの解放が必須である。○　がん疼痛は、「がん患者の体験する痛み」であり、がんの早期から終末期に至るまでの患者の痛み全てが対象である。(厚労省ガイダンス)"
       },
       {
         questionSentence: "Q31 Which of the following is correct about the course of the dying psychological stage advocated by Kübler Ross?",
         choices: [
           "a. depression → denial → bargaining → anger → acceptance",
-          "b. depression → anger → denial → acceptance",
+          "b. depression → anger → bargaining → denial → acceptance",
           "c. denial → depression → bargaining → anger → acceptance",
-          "d. denial → anger → depression → acceptance",
-          "e. anger → depression → denial → acceptance"
+          "d. denial → anger → bargaining → depression → acceptance",
+          "e. anger → depression → bargaining → denial → acceptance",
         ],
-        commentary:"[問題文日本語訳] Kübler Rossが提唱した死にゆく過程の心理的段階について、正しいものを選べ。 [選択肢日本語訳] a. 憂鬱 → 否認 → 取引 → 怒り → 受容, b. 憂鬱 → 怒り → 否認 → 受容, c. 否認 → 憂鬱 → 取引 → 怒り → 受容, d. 否認 → 怒り → 憂鬱 → 受容, e. 怒り → 憂鬱 → 否認 → 受容"
+        answerImg: [oncology2022a31],
+        answer: "d",
+        commentary:"[問題文日本語訳] Kübler Rossが提唱した死にゆく過程の心理的段階について、正しいものを選べ。 [選択肢日本語訳] a. 憤り → 否認 → 取引 → 怒り → 受容 b. 憤り → 怒り → 取引 → 否認 → 受容 c. 否認 → 憂鬱 → 取引 → 怒り → 受容 d. 否認 → 怒り → 取引 → 憂鬱 → 受容 e. 怒り → 憂鬱 → 取引 → 否認 → 受容"
       },
       {
         questionSentence: "Q32 次のうち正しいのはどれか。2つ選択せよ。",
@@ -8016,7 +8053,10 @@ export const useQuestionList = () => {
           "3. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。",
           "4. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。",
           "5. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
-        ]
+        ],
+        answerImg: [oncology2022a32],
+        answer: "1,5",
+        commentary:"せん妄(delirium)とは、急激に意識が混濁し、思考が不明瞭になる症状で、がんの末期にみられることが多い"
       },
       {
         questionSentence: "Q33 次の癌疾患やその病態とIVRの組み合わせのうち誤っているものはどれか。",
@@ -8026,7 +8066,10 @@ export const useQuestionList = () => {
           "c. 転移性溶骨性椎体骨腫瘍 - 経皮的セメント注入療法・経皮的椎体形成術",
           "d. 食道閉塞・高度狭窄 - 経内視鏡的胃瘻造設術",
           "e. 転移性肝腫瘍 - 経皮的ラジオ波凝固療法"
-        ]
+        ],
+        answerImg: [oncology2022a33],
+        answer: "d",
+        commentary:"経皮内視鏡的胃瘻造設術（percutaneous endoscopic gastrostomy：PEG）とは、消化管の機能には問題ないが、長期的に経口的な栄養摂取が不可能な場合や経口摂取のみでは必要な栄養量を摂取できない場合に選択される消化管瘻アクセスである。　食道閉塞・高度狭窄の場合は、内視鏡を使用することが絶対的禁忌である。"
       },
       {
         questionSentence: "Q34 次のうち誤っているものはどれか。",
@@ -8036,7 +8079,9 @@ export const useQuestionList = () => {
           "c. 動注療法では病巣部局所の高い薬剤濃度が得られ高い局所効果が得られるが、副作用は多くなる。",
           "d. 動注化学療法と全身化学療法を併用する場合がある。",
           "e. IVRはがんに対する緩和治療にも役に立つ。"
-        ]
+        ],
+        answer: "c",
+        commentary:"動注化学療法とは、血管からカテーテルを挿入し、がん組織に栄養を送る動脈に直接抗がん剤を流して局所のがんを縮小・消失させる治療法である。 動注化学療法の利点は、がんのすぐ近くの栄養動脈から抗癌剤を流すことができるので、少ない量で確実に腫瘍に薬を送りこむことができる点です。 点滴で抗癌剤を投与する際、がんの部位の薬の濃度を上げるためには、大量の抗癌剤を入れる必要があり、全身の副作用が大きくなるという問題があります。"
       },
       {
         questionSentence: "Q35 次のうち、正しい組み合わせはどれか。2つ選択せよ。",
@@ -8046,7 +8091,11 @@ export const useQuestionList = () => {
           "3. 病変の進展範囲にかかわらず、非浸潤癌であれば乳房温存療法の適応となる。",
           "4. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。",
           "5. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
-        ]
+        ],
+        answerImg: [oncology2022a35_1, oncology2022a35_2, oncology2022a35_3, oncology2022a35_4],
+        answer: "1,2",
+        commentary:"乳がんの罹患率は1位で死亡率は現在3位(予後は良い)。ガイドラインによると、「乳房温存療法は，ステージ I, IIの浸潤性乳がんおよび非浸潤性乳管がん（主に腫瘍径3cm以下）に適応となります。また，腫瘍径が大きな場合でも術前薬物療法により腫瘍が縮小すれば温存療法は可能となります。」とあるため、病変の進展範囲にかかわらずというのは言い過ぎである。手術後の放射線治療中または治療後数カ月後に現れる副作用としては皮膚炎、倦怠感、放射線肺臓炎などがあるが、大きな問題になることはほとんどない。全身照射ではないため、骨髄抑制による感染症罹患のリスクは低く、むしろ放射線より化学療法や手術の方がリスクが高い。"
+
       },
       {
         questionSentence: "Q36 次のうち、正しいものはどれか。",
@@ -8056,7 +8105,10 @@ export const useQuestionList = () => {
           "c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。",
           "d. ポーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。",
           "e. 皮膚の悪性腫瘍に対する放射線治療の目的は、緩和目的であることがほとんどである。"
-        ]
+        ],
+        answerImg: [oncology2022a36_1, oncology2022a36_2],
+        answer: "c",
+        commentary:""
       },
       {
         questionSentence: "Q37 次の頭頸部癌のうち、手術ではなく化学放射線治療が第1選択となるものはどれか。",
@@ -8066,7 +8118,10 @@ export const useQuestionList = () => {
           "c. 上咽頭癌",
           "d. 中咽頭癌",
           "e. 下咽頭癌"
-        ]
+        ],
+        answerImg: [oncology2022a37_1, oncology2022a37_2],
+        answer: "c",
+        commentary:"手術が困難な場所であるため。"
       },
       {
         questionSentence: "Q38 次の消化器癌のうち、手術よりも根治的化学放射線治療が第1選択となる疾患はどれか。",
@@ -8076,7 +8131,10 @@ export const useQuestionList = () => {
           "c. 下行結腸癌",
           "d. 肛門癌",
           "e. 下部胆管癌"
-        ]
+        ],
+        answerImg: [oncology2022a38],
+        answer: "d",
+        commentary:"その他肝細胞がんなども感受性が高い。"
       },
       {
         questionSentence: "Q39 次のうち、正しいものはどれか。",
@@ -8086,7 +8144,10 @@ export const useQuestionList = () => {
           "c. 全身に多発する病変のあるリンパ腫に対する治療として、全身照射は有効である。",
           "d. 全身に放射線を照射して60日以内に50%の人が死亡するのは4Gyとされている。",
           "e. 全身照射の場合、問題となる有害事象は急性期のもののみである。"
-        ]
+        ],
+        answerImg: [oncology2022a39, oncology2022a39_2],
+        answer: "c",
+        commentary:"全身に放射線を照射して60日以内に50%の人が死亡するのは4Gyとされ、7Gyで100%の人が死亡する。全身照射の場合、急性期の有害事象の他に、慢性期の有害事象(放射線肺臓炎)も問題となる。"
       },
       {
         questionSentence: "Q40 次のうち、誤っている組み合わせはどれか。2つ選択せよ。",
@@ -8096,7 +8157,10 @@ export const useQuestionList = () => {
           "3. 膠芽腫(glioblastoma)の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。",
           "4. 膠芽腫(glioblastoma)に対する放射線治療として、標準的な線量は25Gy/5回である。",
           "5. 膠芽腫(glioblastoma)の生存期間中央値はおよそ3年である。"
-        ]
+        ],
+        answerImg: [oncology2022a40_1, oncology2022a40_2],
+        answer: "4,5",
+        commentary:"70歳以下の成人の場合、総線量60Gy、3分割　拡大局所：T2 FLAIR高信号領域＋2cmへ、40Gy、20分割　局所：ガドリニウム造影領域＋1.5cmへ、20Gy、10分割　◦当院では全例IMRT(強度変調放射線治療)で施行"
       },
       {
         questionSentence: "Q41 Which of the following is the correct combination of parallel organs? Choose two.",
@@ -8107,7 +8171,8 @@ export const useQuestionList = () => {
           "d. Spinal cord",
           "e. Lung"
         ],
-        commentary:"[問題文日本語訳] 次のうち、並列器官の組み合わせとして正しいものはどれか。2つ選択せよ。[選択肢日本語訳] a. 肝臓, b. 視神経, c. 脳幹, d. 脊髄, e. 肺"
+        answer: "a,e",
+        commentary:"並列器官は部分切除ができる。[問題文日本語訳] 次のうち、並列器官の組み合わせとして正しいものはどれか。2つ選択せよ。[選択肢日本語訳] a. 肝臓, b. 視神経, c. 脳幹, d. 脊髄, e. 肺"
       },
       {
         questionSentence: "Q42 次の文章のうち、正しいものはどれか。",
@@ -8117,7 +8182,10 @@ export const useQuestionList = () => {
           "c. 陽子線はブラッグピークを持つ。",
           "d. 外部放射線治療ではリニアックで発生させたベータ線とガンマ線で治療が行われる。",
           "e. 放射線治療では放射線診断よりも低エネルギーのX線を用いる。"
-        ]
+        ],
+        answerImg: [oncology2022a42],
+        answer: "c",
+        commentary:"治療で使われるのは電磁波のX線や粒子線(陽子線/アルファ線・炭素線)であり、ベータ線(電子線)は治療には使われない。ブラッグピーク（Bragg peak）は、荷電粒子（例えば陽子や重イオン）が物質を通過する際に、特定の深さでエネルギーの大部分を放出する現象である。"
       },
       {
         questionSentence: "Q43 子宮頸癌に対する根治的放射線治療を行った。以下の有害事象のうち、最も遅く発現するものはどれか。",
@@ -8127,7 +8195,9 @@ export const useQuestionList = () => {
           "c. 下痢",
           "d. 皮膚の発赤",
           "e. 頻尿"
-        ]
+        ],
+        answerImg: [oncology2022a43],
+        answer: "b",
       },
       {
         questionSentence: "Q44 以下の放射性同位元素のうち前立腺癌の密封小線源治療に用いられるものはどれか。2つ選択せよ。",
@@ -8137,7 +8207,9 @@ export const useQuestionList = () => {
           "3. ガリウム67",
           "4. イリジウム192",
           "5. ヨウ素125"
-        ]
+        ],
+        answerImg: [oncology2022a44],
+        answer: "4,5",
       },
       {
         questionSentence: "Q45 次のうち正しいものはどれか。",
@@ -8147,7 +8219,10 @@ export const useQuestionList = () => {
           "c. X線は荷電粒子線なので飛程がある。",
           "d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。",
           "e. 軟部肉腫は放射線感受性であるため手術を行うことはない。"
-        ]
+        ],
+        answerImg: [oncology2022a45],
+        answer: "a",
+        commentary:"骨･軟部腫瘍は「希少がん」で、一般的に放射線感受性は低い。X線は電磁波である。"
       },
       {
         questionSentence: "Q46 骨転移に対する緩和照射のスケジュールとして最も適切でないと思われるものはどれか。",
@@ -8157,7 +8232,9 @@ export const useQuestionList = () => {
           "c. 30Gy / 10回",
           "d. 37.5Gy / 15回",
           "e. 60Gy / 30回"
-        ]
+        ],
+        answerImg: [oncology2022a46],
+        answer: "e",
       },
       {
         questionSentence: "Q47 対象者1000人について、その有病率が1%の疾患に対して、感度80%、特異度80%のスクリーニング検査を実施した場合、正しいものはどれか。2つ選択せよ。",
@@ -8167,7 +8244,10 @@ export const useQuestionList = () => {
           "3. 疾患がなく、検査が陰性を示すのは794人である",
           "4. 陽性予測値(的中率)は約96.2%である",
           "5. 陰性予測値(的中率)は約99.7%である"
-        ]
+        ],
+        answerImg: [oncology2022a47],
+        answer: "1,5",
+        commentary:"1000人のうち、有病者10人、無病者990人とする。感度80%なので、有病者8人が陽性となる。特異度80%なので、無病者のうちの792人が陰性となる。この時、検査が陽性を示すのは8人＋198人＝206人である。陽性予測値(的中率)は8人/206人＝約3.9%であり、陰性予測値(的中率)は792人/794人＝約99.7%である。　このように、有病率が低い場合、検査の陽性結果が偽陽性である可能性が高くなる。"
       },
       {
         questionSentence: "Q48 誤っているものはどれか。",
@@ -8177,7 +8257,10 @@ export const useQuestionList = () => {
           "c. 乳癌組織におけるHER2発現は分子標的治療薬を使用する目安になる。",
           "d. ほとんどの腫瘍マーカーは、初発のがんの早期発見に有用でない。",
           "e. 腫瘍マーカーは手術や化学療法の効果判定には用いられない。"
-        ]
+        ],
+        answerImg: [oncology2022a48_1, oncology2022a48_2, oncology2022a48_3],
+        answer: "e",
+        commentary:"腫瘍マーカーの大半は早期がん陽性率は30%以下の低率である。一方で, 腫瘍マーカーはその陽性時には，1)がんの病期決定，2)がんの組織型，3)手術や化学療法の効果判定，4)再発がんの早期発見に大きな威力を発揮し，がんの臨床には不可欠の武器となる"
       },
       {
         questionSentence: "Q49 誤っているものはどれか。",
@@ -8187,7 +8270,9 @@ export const useQuestionList = () => {
           "c. 対策型乳がん検診ではマンモグラフィを2年に1回実施する",
           "d. 健診は特定の病気を発見して早期に治療することを目的としている",
           "e. 対策型検診は対象となる集団の死亡率を下げることを目的としている"
-        ]
+        ],
+        answerImg: [oncology2022a49_1, oncology2022a49_2],
+        answer: "d",
       },
       {
         questionSentence: "Q50 誤っているものはどれか。",
@@ -8197,7 +8282,10 @@ export const useQuestionList = () => {
           "c. 対策型胃がん検診では胃内視鏡検査が行われる",
           "d. 心理的な負担はがん検診のデメリットの一つである",
           "e. 対策型大腸がん検診ではCTコロノスコピーが行われる"
-        ]
+        ],
+        answerImg: [oncology2022a50_1, oncology2022a50_2],
+        answer: "e",
+        commentary:"日本の乳がん検診受診率は約44.6％で、欧米諸国と比較するとかなり低いです。欧州では、乳がん検診受診率が国によって異なりますが、デンマーク（83.0％）、フィンランド（82.2％）、スウェーデン（80.0％）など、高い受診率を示しています。これに対し、ブルガリア（20.6％）、キプロス（24.6％）、スロバキア（25.5％）のように低い受診率の国もあります ￼ ￼。アメリカでは、乳がん検診受診率はさらに高く、50～74歳の女性のうち約70％が乳がん検診を受けています ￼。これにより、乳がんの早期発見と治療が促進され、死亡率の低下に寄与しています。日本では、乳がん検診の受診率向上が課題となっており、より多くの女性が検診を受けることが推奨されています。受診率向上のためには、検診の重要性についての啓発活動や、検診施設のアクセス改善が必要です ￼。"
       }
       ]
     },
