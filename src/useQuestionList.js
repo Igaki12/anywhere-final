@@ -1,3 +1,52 @@
+import oncology2023a28 from './img/answer/oncology2023a28.png';
+import oncology2023a40_2 from './img/answer/oncology2023a40_2.png';
+import oncology2023a42_1 from './img/answer/oncology2023a42_1.png';
+import oncology2023a45 from './img/answer/oncology2023a45.png';
+import oncology2023a40_1 from './img/answer/oncology2023a40_1.png';
+import oncology2023a42_2 from './img/answer/oncology2023a42_2.png';
+import oncology2023a44 from './img/answer/oncology2023a44.png';
+import oncology2023a43 from './img/answer/oncology2023a43.png';
+import oncology2023a41_1 from './img/answer/oncology2023a41_1.png';
+import oncology2023a39_1 from './img/answer/oncology2023a39_1.png';
+import oncology2023a41_2 from './img/answer/oncology2023a41_2.png';
+import oncology2023a39_2 from './img/answer/oncology2023a39_2.png';
+import oncology2023a41_3 from './img/answer/oncology2023a41_3.png';
+import oncology2023a47_1 from './img/answer/oncology2023a47_1.png';
+import oncology2023a47_2 from './img/answer/oncology2023a47_2.png';
+import oncology2023a37_1 from './img/answer/oncology2023a37_1.png';
+import oncology2023a37_2 from './img/answer/oncology2023a37_2.png';
+import oncology2023a32_1 from './img/answer/oncology2023a32_1.png';
+import oncology2023a32_3 from './img/answer/oncology2023a32_3.png';
+import oncology2023a32_2 from './img/answer/oncology2023a32_2.png';
+import oncology2023a32_5 from './img/answer/oncology2023a32_5.png';
+import oncology2023a32_4 from './img/answer/oncology2023a32_4.png';
+import oncology2023a38_2 from './img/answer/oncology2023a38_2.png';
+import oncology2023a38_3 from './img/answer/oncology2023a38_3.png';
+import oncology2023a38_1 from './img/answer/oncology2023a38_1.png';
+import oncology2023a31 from './img/answer/oncology2023a31.png';
+import oncology2023a30 from './img/answer/oncology2023a30.png';
+import oncology2023a26_1 from './img/answer/oncology2023a26_1.png';
+import oncology2023a36 from './img/answer/oncology2023a36.png';
+import oncology2023a26_3 from './img/answer/oncology2023a26_3.png';
+import oncology2023a26_2 from './img/answer/oncology2023a26_2.png';
+import oncology2023a35 from './img/answer/oncology2023a35.png';
+import oncology2023a10 from './img/answer/oncology2023a10.png';
+import oncology2023a8 from './img/answer/oncology2023a8.png';
+import oncology2023a12 from './img/answer/oncology2023a12.png';
+import oncology2023a16 from './img/answer/oncology2023a16.png';
+import oncology2023a11_2 from './img/answer/oncology2023a11_2.png';
+import oncology2023a17 from './img/answer/oncology2023a17.png';
+import oncology2023a11_1 from './img/answer/oncology2023a11_1.png';
+import oncology2023a19 from './img/answer/oncology2023a19.png';
+import oncology2023a25 from './img/answer/oncology2023a25.png';
+import oncology2023a1 from './img/answer/oncology2023a1.png';
+import oncology2023a2 from './img/answer/oncology2023a2.png';
+import oncology2023a3 from './img/answer/oncology2023a3.png';
+import oncology2023a23 from './img/answer/oncology2023a23.png';
+import oncology2023a7 from './img/answer/oncology2023a7.png';
+import oncology2023a20 from './img/answer/oncology2023a20.png';
+import oncology2023a4 from './img/answer/oncology2023a4.png';
+import oncology2023a5 from './img/answer/oncology2023a5.png';
 import painQ9 from './img/answer/painQ9.png';
 import painQ8 from './img/answer/painQ8.png';
 import painQ3 from './img/answer/painQ3.png';
@@ -8429,7 +8478,11 @@ export const useQuestionList = () => {
             "c. 心疾患",
             "d. 肺炎",
             "e. 悪性新生物"
-          ]
+          ],
+          answerImg: [oncology2023a1],
+          answer: "e",
+          commentary:""
+
         },
         {
           questionSentence: "がん薬物療法について、正しいのはどれか。",
@@ -8439,7 +8492,10 @@ export const useQuestionList = () => {
             "c. 多くの殺細胞性抗がん剤で用量制限毒性となるのは消化器毒性である。",
             "d. 殺細胞性抗がん剤では脱毛はほぼ必発である。",
             "e. 殺細胞性抗がん剤で白血球減少がみられた場合はG-CSFの治療的投与を行う。"
-          ]
+          ],
+          answerImg: [oncology2023a2],
+          answer: "a",
+          commentary:"殺細胞性抗がん剤で白血球減少がみられた場合はG-CSFの治療的投与ではなく予防的投与を行うのが現在の主流である。"
         },
         {
           questionSentence: "がんの外科治療について、正しいのはどれか。",
@@ -8449,7 +8505,10 @@ export const useQuestionList = () => {
             "c. 低侵襲手術は癌治療でも用いられるようになってきている。",
             "d. 顕微鏡的に癌の遺残なく腫瘍を切除できれば全て根治できる。",
             "e. がんのステージは原発腫瘍、リンパ節転移、局所進展の程度で決定される。"
-          ]
+          ],
+          answerImg: [oncology2023a3],
+          answer: "c",
+          commentary:"腹腔鏡(内視鏡)下手術 Laparoscopic Surgery　や　ロボット支援下手術 Robotic Surgeryなど。eは局所進展の程度ではなくMetastasis:遠隔転移の有無"
         },
         {
           questionSentence: "日本における対策型がん検診について誤っているのはどれか。",
@@ -8459,7 +8518,23 @@ export const useQuestionList = () => {
             "c. 過剰診断はがん検診の不利益の一つである。",
             "d. 乳がん検診ではマンモグラフィを2年に1回実施する。",
             "e. 対策型がん検診の最終目的はがんの早期発見ではない。"
-          ]
+          ],
+          answerImg: [oncology2023a4],
+          answer: "b",
+          commentary:"対策型がん検診の最終目的はがん死亡率の減少である。"
+        },
+        {
+          questionSentence: "Which of the following is NOT cancer caused by infections? Choose two.",
+          choices: [
+            "a. Cervical cancer",
+            "b. Gastric cancer",
+            "c. Hepatocellular carcinoma",
+            "d. Breast cancer",
+            "e. Colon cancer"
+          ],
+          answerImg: [oncology2023a5],
+          answer: "d,e",
+          commentary:"[問題文日本語訳] 次のうち、感染によって引き起こされるがんでないものはどれか。2つ選択せよ。[選択肢日本語訳] a. 子宮頸がん, b. 胃がん, c. 肝細胞がん, d. 乳がん, e. 大腸がん"
         },
         {
           questionSentence: "キュブラー・ロスが提唱した死にゆく者の心理段階の経過について正しいのはどれか",
@@ -8469,7 +8544,8 @@ export const useQuestionList = () => {
             "c. 否認 → 抑うつ → 取引 → 怒り→ 受容",
             "d. 否認 → 怒り→ 取引 → 抑うつ → 受容",
             "e. 怒り→ 抑うつ → 取引 → 否認 → 受容"
-          ]
+          ],
+          answer: "d",
         },
         {
           questionSentence: "腫瘍に対する免疫機構について誤っているものはどれか。",
@@ -8479,7 +8555,10 @@ export const useQuestionList = () => {
             "c. CD4+T細胞はIL-2を産生し、CD8+T細胞の増殖を促進する。",
             "d. CD8+T細胞はFasリガンドを発現し、腫瘍細胞にアポトーシスを誘導する。",
             "e. CD8+T細胞はパーフォリンとグランザイムBを放出し、腫瘍細胞を殺傷する。"
-          ]
+          ],
+          answerImg: [oncology2023a7],
+          answer: "b",
+          commentary:"CD8+T細胞はMHCクラスI分子に提示された抗原を認識して活性化する。"
         },
         {
           questionSentence: "肝細胞癌に対するIVRのうち誤っているものはどれか？",
@@ -8489,7 +8568,10 @@ export const useQuestionList = () => {
             "c. 肝動脈化学塞栓術は門脈本幹腫瘍栓に対しても適応となる。",
             "d. 肝機能不良や高齢者に対する肝動脈塞栓術においてマイクロスフィアは有用な塞栓物質である。",
             "e. 肝細胞癌肝外転移に対してもIVRは有用である。"
-          ]
+          ],
+          answerImg: [oncology2023a8],
+          answer: "c",
+          commentary:"TACE／TAE は肝障害度 A，B（または Child 分類 A，B）の，手術不能でかつ穿刺局所療法の対象とならない多血性肝細胞癌に対する治療法として推奨される。化学塞栓される非癌部肝容積の非癌部全肝容積に占める割合と残肝予備能を考慮した選択的 TACE／TAE が推奨される。 （グレード A）肝外転移のない脈管内腫瘍栓（特に門脈内腫瘍栓）症例に対する TACE／TAE の有用性の報告はあるが，十分なエビデンスに乏しい。 （グレード C1）"
         },
         {
           questionSentence: "次のうち、適切でないと思われる治療はどれか。",
@@ -8499,7 +8581,9 @@ export const useQuestionList = () => {
             "c. 肺扁平上皮癌の患者に脳転移がみつかった。造影MRIで単発であるが5cm大と大きく、midline shiftもあり、脳ヘルニアも懸念される状況であった。放射線治療を行う前に、脳外科に手術適応をコンサルトした。",
             "d. 直腸癌の患者に脳転移がみつかった。造影MRIでは9個とやや数が多いが、大きいものはなく、特段の神経学的症状も認めていない。脳以外の病変は制御されており、比較的若くて元気であることも考慮して、十分なI.C.の上で定位放射線治療を行うこととした。",
             "e. 食道扁平上皮癌の患者が昨日から足の力がなくなり、急に歩けなくなったと救急搬送された。MRIで第11胸椎転移が脊髄を圧迫しており、それによる症状だと考えられた。整形外科を受診し、手術適応はないこと、下肢の筋力低下は進行しており、第11胸椎転移によるもので矛盾しないとされ、放射線治療科を受診された。金曜日であったので、週明けの月曜日から放射線治療を行うことにした。"
-          ]
+          ],
+          answer:"e？",
+          commentary:"何もされないまま土日を過ごすことになる？"
         },
         {
           questionSentence: "A 55-year-old woman with breast cancer presented to the emergency room with 38.5℃ fever since this morning. She had chemotherapy in clinic with cyclophosphamide and doxorubicin 10 days ago. She did not have any other symptoms. PCR for COVID-19 was negative. Blood examination revealed that her neutrophil count was 400/μL. What should you do at first in the emergency room? Select correct answers from the list below. Choose two.",
@@ -8509,7 +8593,10 @@ export const useQuestionList = () => {
             "c. Perform bone marrow aspiration",
             "d. Perform mammography",
             "e. Observation"
-          ]
+          ],
+          answerImg: [oncology2023a10],
+          answer: "a,b",
+          commentary:"※発熱性好中球減少症：FN [問題文日本語訳] 乳がんの女性（55歳）が、今朝から38.5℃の発熱を訴えて救急外来を受診した。10日前にシクロホスファミドとドキソルビシンで化学療法を受けた。他の症状はない。COVID-19のPCR検査は陰性であった。血液検査では好中球数が400/μLであった。救急外来で最初に何を行うべきか？以下の選択肢から正しいものを2つ選択せよ。[選択肢日本語訳] a. 血液培養を2セット行う, b. 抗菌薬の経験的治療を開始する, c. 骨髄穿刺を行う, d. 乳房X線撮影を行う, e. 経過観察"
         },
         {
           questionSentence: "正しいものはどれか。 2つ選択せよ。",
@@ -8519,7 +8606,10 @@ export const useQuestionList = () => {
             "c. claudinは7回膜貫通型タンパクである。",
             "d. tight junctionは強固な細胞間接着をCa依存性に生じる。",
             "e. tight junctionはbarrier作用とfence作用を有し細胞間微小環境を保つ。"
-          ]
+          ],
+          answerImg: [oncology2023a11_1, oncology2023a11_2],
+          answer: "a,e",
+          commentary:"claudinはTight junctionを構成する主要なタンパクの一つなので、bは言い過ぎ。"
         },
         {
           questionSentence: "正しいものはどれか。",
@@ -8529,7 +8619,10 @@ export const useQuestionList = () => {
             "c. がん病巣内は、がんの血管新生によって正常組織より酸素分圧が高い。",
             "d. E-カドヘリンは、インテグリンを介して細胞を基底膜と接着させている。",
             "e. テロメラーゼは、テロメアの伸長を抑制することでがん細胞を不死化する。"
-          ]
+          ],
+          answerImg: [oncology2023a12],
+          answer: "b",
+          commentary:"K-ras遺伝子は、がん遺伝子である。がん病巣内は、がんの血管新生以上に増殖が早く、正常組織より酸素分圧が低い。E-カドヘリンはtight junctionを介して細胞同士を接着させている。テロメラーゼはテロメアを身長差せることでがん細胞を不死化する。"
         },
         {
           questionSentence: "悪性腫瘍に対する集学的治療について、誤っているものはどれか。",
@@ -8539,7 +8632,8 @@ export const useQuestionList = () => {
             "c. 薬物療法には免疫チェックポイント阻害剤を用いた治療が含まれることもある。",
             "d. 治療法は、部門間での混乱を招かないよう、担当となる診療科単独で決定する。",
             "e. 治療法は、患者のパフォーマンスステータスや合併症も考慮して総合的に決定する。"
-          ]
+          ],
+          answer: "d",
         },
         {
           questionSentence: "直列臓器はどれか。",
@@ -8549,7 +8643,9 @@ export const useQuestionList = () => {
             "c. 肺",
             "d. 肝臓",
             "e. 腎臓"
-          ]
+          ],
+          answer: "a",
+          commentary:"部分的な切除が困難な臓器を、並列臓器と比較して直列臓器と呼ぶ。"
         },
         {
           questionSentence: "Which of the following is not an appropriate biological characteristic of cancer cells?",
@@ -8559,7 +8655,9 @@ export const useQuestionList = () => {
             "c. Autonomous proliferation",
             "d. Angiogenesis",
             "e. Immortalization"
-          ]
+          ],
+          answer: "b",
+          commentary:"[問題文日本語訳] 次のうち、がん細胞の生物学的特性として適切でないものはどれか。[選択肢日本語訳] a. 浸潤性, b. 接触阻害, c. 自律増殖, d. 血管新生, e. 不死化"
         },
         {
           questionSentence: "遺伝子パネル検査の検査タイミングついて、正しいものはどれか。",
@@ -8569,7 +8667,10 @@ export const useQuestionList = () => {
             "c. PS3",
             "d. 進行大腸がんの診断時",
             "e. 希少がんの診断時"
-          ]
+          ],
+          answerImg: [oncology2023a16],
+          answer: "e",
+          commentary:"希少がんは標準治療がないことが多いため、遺伝子パネル検査が有用である。"
         },
         {
           questionSentence: "IVRの組み合わせで間違っているものはどれか。",
@@ -8579,7 +8680,10 @@ export const useQuestionList = () => {
             "c. 上大静脈症候群 - ステントによる血管拡張術",
             "d. 術後動脈性出血 - 経カテーテル的血管形成術",
             "e. 膵癌による胆道閉塞 - 経皮的胆管ドレナージ術"
-          ]
+          ],
+          answerImg: [oncology2023a17],
+          answer: "d",
+          commentary:"経皮的血管形成術（PTA）とは、四肢の血管が狭くなっていたり、途中で詰まっていたりしている四肢の血管に対して風船のついたカテーテルを入れ、血管の狭くなっている部分や詰まっている部分で風船をふくらませて血管を広げる治療法です。"
         },
         {
           questionSentence: "悪性腫瘍の診断に関して、正しいものはどれか。",
@@ -8589,7 +8693,8 @@ export const useQuestionList = () => {
             "c. 罹患率の高い悪性腫瘍については症状がなくてもCTや内視鏡で全例検査する。",
             "d. 画像で確信度の高い画像診断が得られた場合は、検体採取による病理診断は必要ない。",
             "e. 診断名のみならず、病期診断も治療方針決定に不可欠である。"
-          ]
+          ],
+          answer: "e",
         },
         {
           questionSentence: "原発性肺癌に対する定位放射線治療について、誤っているものはどれか。",
@@ -8599,7 +8704,11 @@ export const useQuestionList = () => {
             "c. 対向二門法のような従来の放射線治療と比べ、局所の治療効果は高い。",
             "d. 肺門部などの中枢性腫瘍に対する治療では1回線量を下げる。",
             "e. 両側肺門への同時照射は許容されない。"
-          ]
+          ],
+          answerImg: [oncology2023a19],
+          answer: "a",
+          commentary:"42Gy/4回(1日1回 10.5Gy/回)が日本での標準治療。通常照射法と違い、初期(1期)のがんに対して行われ1回線量が多く、分割回数が少ない。→治療効果が高い。"
+
         },
         {
           questionSentence: "Choose the correct answer for the combination of expressing-cells.",
@@ -8609,7 +8718,10 @@ export const useQuestionList = () => {
             "c. CTLA-4 --- Regulatory T cells",
             "d. CD28 --- Dendritic cells",
             "e. IFN-γ --- Tumor-associated macrophages"
-          ]
+          ],
+          answerImg: [oncology2023a20],
+          answer: "c",
+          commentary:"[問題文日本語訳] 発現細胞の組み合わせについて正しいものを選べ。[選択肢日本語訳] a. PD-L1 --- CTL, b. PD-1 --- 腫瘍細胞, c. CTLA-4 --- Treg, d. CD28 --- 樹状細胞, e. IFN-γ --- 腫瘍関連マクロファージ"
         },
         {
           questionSentence: "現在の定期接種のうち、初回接種の時期が乳児期ではないのはどれか。",
@@ -8619,7 +8731,8 @@ export const useQuestionList = () => {
             "c. Hibワクチン",
             "d. HPVワクチン",
             "e. B型肝炎ワクチン"
-          ]
+          ],
+          answer: "d",
         },
         {
           questionSentence: "細胞周期の内、放射線に感受性が高いものはどれか。 2つ選択せよ。",
@@ -8629,7 +8742,9 @@ export const useQuestionList = () => {
             "c. G1期",
             "d. G2期",
             "e. M期"
-          ]
+          ],
+          answer: "d,e",
+          commentary:"細胞周期の各時期では放射線感受性が異なることが知られており，放射線生物学上，大変重要です。 細胞は分裂期またはその付近で最も感受性が高く，S期末期で最も抵抗性であるのが一般的です。 G1期がはっきりした長さを持つ細胞ではその早期に抵抗性の時期があり，G1期の終わりに向って感受性になります。"
         },
         {
           questionSentence: "次の文章のうち、正しいのはどれか。",
@@ -8639,7 +8754,10 @@ export const useQuestionList = () => {
             "c. X線はブラッグピークを持つ。",
             "d. 外部放射線治療ではリニアックで発生させたガンマ線で治療が行われる。",
             "e. 放射線治療では放射線診断よりも高いエネルギーのX線を用いる。"
-          ]
+          ],
+          answerImg: [oncology2023a23],
+          answer: "e",
+          commentary:"ブラッグピークを持つのは陽子線。"
         },
         {
           questionSentence: "次のうち正しいものはどれか。 2つ選択せよ。",
@@ -8649,7 +8767,10 @@ export const useQuestionList = () => {
             "c. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。",
             "d. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。",
             "e. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
-          ]
+          ],
+          answerImg: [oncology2022a32],
+          answer: "a,e",
+
         },
         {
           questionSentence: "Choose the correct answer from the below. Choose two.",
@@ -8660,7 +8781,10 @@ export const useQuestionList = () => {
             "d. Impairment of tumor tight junction enhances permeation of anticancer drugs into the tumor.",
             "e. In antibody therapy, there is no correlation between the expression level of the target protein and the antibody effect.",
 
-          ]
+          ],
+          answerImg: [oncology2023a25],
+          answer: "c,d",
+          commentary:"[問題文日本語訳] 以下から正しいものを2つ選べ。[選択肢日本語訳] a. 抗クラウジン抗体処理された培養細胞において、ADCCによる細胞傷害が誘導された。, b. 抗クラウジン抗体は裸マウス実験系においてADCCを引き起こさない。, c. 腫瘍のタイトジャンクションの障害は、腫瘍内の成長因子の流出と成長抑制をもたらす。, d. 腫瘍のタイトジャンクションの障害は、抗がん剤の腫瘍内浸透を促進する。, e. 抗体療法において、標的タンパクの発現レベルと抗体効果との相関はない。"
         },
         {
           questionSentence: "日本における対策型がん検診について誤っているのはどれか。",
@@ -8670,8 +8794,11 @@ export const useQuestionList = () => {
             "c. 胃がん検診ではX線検査または内視鏡検査が行われる。",
             "d. 職域検診や任意型検診とは異なり、国への報告義務がある。",
             "e. 最新の指針では特に受診勧奨する者を胃がん検診において50-69歳としている。"
-          ]
+          ],
+          answerImg: [oncology2023a26_1, oncology2023a26_2, oncology2023a26_3],
+          answer: "b？",
         },
+
         {
           questionSentence: "次のうち正しいものはどれか。",
           choices: [
@@ -8680,7 +8807,9 @@ export const useQuestionList = () => {
             "c. 骨軟部肉腫は放射線の感受性が低いので、放射線治療を行うことはない。",
             "d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。",
             "e. X線は荷電粒子線なので飛程がある。"
-          ]
+          ],
+          answer: "a",
+          commentary:"荷電粒子線で飛程があるのは陽子線。"
         },
         {
           questionSentence: "49歳の女性。手術可能なステージIIIの乳癌と診断されている。非定型的乳房切除術（胸の筋肉はそのままで乳房とわきの下のリンパ節を切除する方法)後、局所リンパ節への放射線療法を受けている。同時に化学療法も受けており、投与薬の1つはDNA鎖の間に入り込み、DNA・RNAの合成を阻害する作用、またトポイソメラーゼIIを阻害する作用を併せ持っている。この薬物の総投与量の上限の設定にかかわっている毒性はどれか。",
@@ -8690,7 +8819,10 @@ export const useQuestionList = () => {
             "c. けいれん発作",
             "d. 腎尿細管性アシドーシス",
             "e. 肺線維症"
-          ]
+          ],
+          answerImg: [oncology2023a28],
+          answer: "b",
+          commentary:"アントラサイクリン系化合物は トポイソメラーゼ II 活性阻害作用を有している。アントラサイクリン系抗腫瘍薬は一般に心毒性があるため、総投与量の上限が決められている。"
         },
         {
           questionSentence: "がんのリンパ行性転移について、正しいのはどれか。",
@@ -8700,7 +8832,8 @@ export const useQuestionList = () => {
             "c. リンパ節転移と血行性転移は同時には通常おこらない。",
             "d. 進行大腸癌において切除腸管はできるだけ短い方がよい。",
             "e. 乳癌においてセンチネルリンパ節生検が用いられることは稀である。"
-          ]
+          ],
+          answer: "a",
         },
         {
           questionSentence: "Which of the following is correct when arranging tumors in order of radiosensitivity?",
@@ -8710,7 +8843,10 @@ export const useQuestionList = () => {
             "c. Squamous cell carcinoma > Malignant lymphoma > Glioblastoma > Adenocarcinoma",
             "d. Malignant lymphoma > Adenocarcinoma > Squamous cell carcinoma > Glioblastoma",
             "e. Malignant lymphoma > Squamous cell carcinoma > Adenocarcinoma > Glioblastoma"
-          ]
+          ],
+          answerImg: [oncology2023a30],
+          answer: "e",
+          commentary:"[問題文日本語訳] 放射線感受性の順に腫瘍を並べ替えるとき、正しいのはどれか。[選択肢日本語訳] a. 膠芽腫 > 腺癌 > 扁平上皮癌 > 悪性リンパ腫, b. 膠芽腫 > 悪性リンパ腫 > 腺癌 > 扁平上皮癌, c. 扁平上皮癌 > 悪性リンパ腫 > 膠芽腫 > 腺癌, d. 悪性リンパ腫 > 腺癌 > 扁平上皮癌 > 膠芽腫, e. 悪性リンパ腫 > 扁平上皮癌 > 腺癌 > 膠芽腫"
         },
         {
           questionSentence: "抗体治療薬のうちPD-L1に親和性を持つ抗体治療薬はどれか。",
@@ -8720,7 +8856,9 @@ export const useQuestionList = () => {
             "c. デノスマブ",
             "d. デュルバルマブ",
             "e. ネシツムマブ"
-          ]
+          ],
+          answerImg: [oncology2023a31],
+          answer: "d",
         },
         {
           questionSentence: "誤っているものはどれか。",
@@ -8730,7 +8868,9 @@ export const useQuestionList = () => {
             "c. CA19-9はルイス血液型の影響をうける。",
             "d. 可溶性IL-2レセプターは乳がんの病勢や治療効果の評価に用いられる。",
             "e. 腫瘍マーカーが陰性でも、がんの存在は否定できない。"
-          ]
+          ],
+          answerImg: [oncology2023a32_1, oncology2023a32_2, oncology2023a32_3, oncology2023a32_4, oncology2023a32_5],
+          answer: "d",
         },
         {
           questionSentence: "緩和ケアについて正しいのはどれか。",
@@ -8740,7 +8880,8 @@ export const useQuestionList = () => {
             "c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。",
             "d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。",
             "e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
-          ]
+          ],
+          answer: "b",
         },
         {
           questionSentence: "以下の文章で正しいのはどれか。",
@@ -8750,7 +8891,8 @@ export const useQuestionList = () => {
             "c. 小さな病理検体では、病変の全体像は把握できない。",
             "d. 病理診断は治療方針の根拠となる。",
             "e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAやRNAを抽出することは不可能である。"
-          ]
+          ],
+          answer: "d",
         },
         {
           questionSentence: "Which of the following head and neck cancers is treated with radioisotope therapy as postoperative treatment?",
@@ -8760,7 +8902,10 @@ export const useQuestionList = () => {
             "c. Nasopharyngeal cancer",
             "d. Oropharyngeal cancer",
             "e. Hypopharyngeal cancer"
-          ]
+          ],
+          answerImg: [oncology2023a35],
+          answer: "a",
+          commentary:"[問題文日本語訳] 以下のうち、放射線同位体療法を術後治療として行う頭頸部がんはどれか。[選択肢日本語訳] a. 甲状腺がん, b. 耳下腺がん, c. 鼻咽頭がん, d. 口咽頭がん, e. 咽頭がん"
         },
         {
           questionSentence: "肝細胞癌の定位放射線治療の局所制御率として、正しいのはどれか。",
@@ -8770,7 +8915,9 @@ export const useQuestionList = () => {
             "c. 45%",
             "d. 60%",
             "e. 90%"
-          ]
+          ],
+          answerImg: [oncology2023a36],
+          answer: "e",
         },
         {
           questionSentence: "次のうち、正しいものはどれか。",
@@ -8780,19 +8927,21 @@ export const useQuestionList = () => {
             "c. 乳癌術後の放射線治療での照射線量は70Gy/35回が標準である。",
             "d. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。",
             "e. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
-          ]
+          ],
+          answerImg: [oncology2023a37_1, oncology2023a37_2],
+          answer: "a",
         },
         {
-          questionSentence:
-      
-       "次のうち、誤っているものはどれか。",
+          questionSentence:"次のうち、誤っているものはどれか。",
           choices: [
             "a. 日本人の皮膚癌の中で最も多いのは基底細胞癌である。",
             "b. 基底細胞癌と有棘細胞癌に対する治療の第一選択は手術である。",
             "c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。",
             "d. ボーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。",
             "e. 皮膚の悪性腫瘍に対する根治的放射線治療ではボーラスの使用がほぼ必須である。"
-          ]
+          ],
+          answerImg: [oncology2023a38_1, oncology2023a38_2, oncology2023a38_3],
+          answer: "d",
         },
         {
           questionSentence: "次のうち、誤っている組み合わせはどれか。 2つ選択せよ。",
@@ -8802,7 +8951,10 @@ export const useQuestionList = () => {
             "c. 膠芽腫（glioblastoma）の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。",
             "d. 膠芽腫（glioblastoma）に対する放射線治療として、標準的な線量は25Gy/5回である。",
             "e. 膠芽腫（glioblastoma）の生存期間中央値はおよそ3年である。"
-          ]
+          ],
+          answerImg: [oncology2023a39_1, oncology2023a39_2],
+          answer: "d,e",
+          commentary:"70歳以下の成人の場合、総線量 60Gy、 30分割。"
         },
         {
           questionSentence: "Which of the following is incorrect?",
@@ -8812,7 +8964,10 @@ export const useQuestionList = () => {
             "c. Total-body irradiation is performed as part of the pretreatment for hematopoietic stem cell transplantation.",
             "d. It is estimated that 50% of patients die within 60 days after whole-body irradiation at 4 Gy.",
             "e. It is estimated that 100% of patients die within 60 days of whole-body irradiation at 7 Gy."
-          ]
+          ],
+          answerImg: [oncology2023a40_1, oncology2023a40_2],
+          answer: "a",
+          commentary:"[問題文日本語訳] 以下のうち、誤っているものはどれか。[選択肢日本語訳] a. 血液腫瘍は基本的に放射線感受性が高いため、放射線治療が第一選択である。, b. 悪性リンパ腫に対する放射線治療は、悪性度に応じて20-50Gyの照射が行われることが多い。, c. 全身照射は造血幹細胞移植の前治療の一環として行われる。, d. 全身照射4Gyで行った場合、患者の50%が60日以内に死亡すると推定される。, e. 全身照射7Gyで行った場合、患者の100%が60日以内に死亡すると推定される。"
         },
         {
           questionSentence: "肺癌に対する胸部への放射線治療の有害事象において、正しい組み合わせはどれか。 2つ選択せよ。",
@@ -8822,7 +8977,11 @@ export const useQuestionList = () => {
             "c. 放射線肺臓炎は照射野に一致して生じ、一般に高熱を伴うことが多い。",
             "d. 晩期有害事象の脊髄症（胸髄障害）では主に四肢麻痺と膀胱直腸障害を生じる。",
             "e. 晩期有害事象は1回の照射線量との関連性が大きい。"
-          ]
+          ],
+          answerImg: [oncology2023a41_1, oncology2023a41_2, oncology2023a41_3],
+          answer: "a,e",
+          commentary:"放射線肺線維症は晩期有害事象(治療後6ヶ月以降)の一つであり、不可逆的な変化である。放射線肺臓炎は照射野に一致して生じるが、最初は無症状である。晩期有害事象の脊髄症（胸髄障害）では主に膀胱直腸障害と障害部位より下位の麻痺が生じる。"
+
         },
         {
           questionSentence: "泌尿器腫瘍の放射線治療について正しいものはどれか。",
@@ -8832,7 +8991,10 @@ export const useQuestionList = () => {
             "c. 限局性前立腺癌に対して強度変調放射線治療を行う。",
             "d. 表在性膀胱癌に対して90Y（イットリウム90）による内用療法を行う。",
             "e. 尿管癌に対して電子線照射を行う。"
-          ]
+          ],
+          answerImg: [oncology2023a42_1, oncology2023a42_2],
+          answer: "c",
+          commentary:"セミノーマ、表在性膀胱癌に対しては基本摘出手術か化学療法。"
         },
         {
           questionSentence: "細胞周期のG2期に最も効果的なのはどの抗癌薬か。",
@@ -8842,7 +9004,9 @@ export const useQuestionList = () => {
             "c. イリノテカン",
             "d. パクリタキセル",
             "e. ブレオマイシン"
-          ]
+          ],
+          answerImg: [oncology2023a43],
+          answer: "e",
         },
         {
           questionSentence: "分子標的治療薬（キナーゼ阻害剤）についての記述で正しいのはどれか。",
@@ -8852,7 +9016,9 @@ export const useQuestionList = () => {
             "c. オシメルチニブはゲフィチニブと比較し、白血球減少の頻度が低い。",
             "d. オシメルチニブはT790M耐性変異、L858R、ex19欠損変異に有効である。",
             "e. アレクチニブはROS1遺伝子転座陽性の非小細胞肺癌に有効である。"
-          ]
+          ],
+          answerImg: [oncology2023a44],
+          answer: "d",
         },
         {
           questionSentence: "Which of the following tumor markers is a useful combination for diagnosing lung squamous cell carcinoma? Choose two.",
@@ -8862,7 +9028,10 @@ export const useQuestionList = () => {
             "c. CEA",
             "d. SCC",
             "e. CYFRA"
-          ]
+          ],
+          answerImg: [oncology2023a45],
+          answer: "d,e",  
+          commentary:"[問題文日本語訳] 下記の腫瘍マーカーのうち、肺扁平上皮癌の診断に有用な組み合わせはどれか。2つ選択せよ。[選択肢日本語訳] a. NSE, b. SLX, c. CEA, d. SCC, e. CYFRA"
         },
         {
           questionSentence: "看取りにおける死亡確認の方法について、誤っているものはどれか。",
@@ -8872,7 +9041,9 @@ export const useQuestionList = () => {
             "c. 腕時計を忘れたので、携帯電話で確認した。",
             "d. 患者さんに「本当に頑張りましたね。お疲れ様でした。」と声を掛けた。",
             "e. ご家族に「ご家族も良く頑張られました。お疲れ様でした。献身的な介護はなかなかできるものではありませんよ。」と声を掛けた。"
-          ]
+          ],
+          answer: "e?",
+          commentary:"携帯電話で時間を確認するのは問題ないはず。"
         },
         {
           questionSentence: "がん対策推進基本計画（第4期）で重要視されている政策として、誤っているものはどれか。",
@@ -8882,7 +9053,9 @@ export const useQuestionList = () => {
             "c. 希少がん",
             "d. がんのリハビリテーション",
             "e. がん自由診療の推進"
-          ]
+          ],
+          answerImg: [oncology2023a47_1, oncology2023a47_2],
+          answer: "e",
         },
         {
           questionSentence: "支持療法ではないものはどれか。",
@@ -8892,7 +9065,8 @@ export const useQuestionList = () => {
             "c. 制吐剤投与",
             "d. 輸血",
             "e. 免疫チェックポイント阻害薬投与"
-          ]
+          ],
+          answer: "e",
         },
         {
           questionSentence: "骨盤照射を行った場合、晩期有害事象として生じうるものはどれか。 2つ選択せよ。",
@@ -8902,7 +9076,8 @@ export const useQuestionList = () => {
             "c. 脱毛",
             "d. 骨盤骨折",
             "e. 直腸出血"
-          ]
+          ],
+          answer: "d,e",
         },
         {
           questionSentence: "Which histological type is most common in Krukenberg tumors (metastatic ovarian cancer)?",
@@ -8912,7 +9087,9 @@ export const useQuestionList = () => {
             "c. Malignant lymphoma",
             "d. Signet ring cell carcinoma",
             "e. Squamous cell carcinoma"
-          ]
+          ],
+          answer: "d",
+          commentary:"[問題文日本語訳] クルケンベルグ腫瘍（卵巣転移癌）において最も多い組織型はどれか。[選択肢日本語訳] a. 悪性黒色腫, b. 肉腫, c. 悪性リンパ腫, d. 印環細胞癌, e. 扁平上皮癌"
         },
       ]
     },{
