@@ -2574,7 +2574,66 @@ export const useQuestionList = () => {
       ]
     }, {
       groupTag: "麻酔科 出席 機械英訳",
-      groupContents: [
+      groupContents: [{
+        questionSentence: 'Question 1. Definition of pain (International Association for the Study of Pain): Pain is (    ).',
+        answer: 'An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.',
+        answerImg: [painQ1],
+        commentary: '【原文問題文】問題1. 痛みの定義(国際疼痛学会): 痛みとは (　)である。　【原文解答】実際の組織損傷もしくは組織損傷が起こりうる状態に付随する、 あるいはそれに似た、感覚かつ情動の不快な体験　'
+      },
+      {
+        questionSentence: 'Question 2. Characteristics of visceral pain: The location of the pain is (    ), and it is accompanied by (    ) symptoms.',
+        answer: 'unclear, autonomic',
+        answerImg: [painQ2],
+        commentary: '【原文問題文】問題2. 内臓痛の特徴: 痛みの部位が (　)で, (　)症状を伴う。　【原文解答】不明瞭 自律神経　'
+      },
+      {
+        questionSentence: 'Question 3. List three classifications of pain by cause.',
+        answer: 'Nociceptive pain, neuropathic pain, psychosocial pain',
+        answerImg: [painQ3],
+        commentary: '【原文問題文】問題3. 原因による痛みの分類 を3つ挙げよ。　【原文解答】侵害受容性疼痛• 神経障害性疼痛• 心理社会的疼痛　'
+      },
+      {
+        questionSentence: 'Question 4. List four representative diseases of neuropathic pain.',
+        answer: 'Post-traumatic neuralgia, entrapment neuropathy (such as carpal tunnel syndrome), brachial plexus avulsion injury, postherpetic neuralgia, etc.',
+        answerImg: [painQ4_1, painQ4_2],
+        commentary: '【原文問題文】問題4. 神経障害性疼痛の代表的疾患 を4つあげよ。　【原文解答】神経損傷後遺症 絞扼性神経障害（手根管症候群など） 腕神経叢引き抜き損傷 帯状疱疹後神経痛 など　'
+      },
+      {
+        questionSentence: 'Question 5. Chronic pain is pain that persists for (    ) despite appropriate treatment.',
+        answer: 'more than 3 months',
+        answerImg: [painQ5],
+        commentary: '【原文問題文】問題5. 慢性疼痛とは,適切な治療後も (　)続く疼痛である。　【原文解答】3ヶ月以上　'
+      },
+      {
+        questionSentence: 'Question 6. Chronic primary pain is characterized by psychological distress and functional abnormalities, and is defined as a syndrome involving multiple factors with no other appropriate physical or psychological disease. Conditions such as (    ) and (    ) are assumed.',
+        answer: 'chronic lower back pain, glossodynia, fibromyalgia',
+        answerImg: [painQ6],
+        commentary: '【原文問題文】問題6. 慢性一次性疼痛は, 精神的な苦痛や機能異常に特徴づけられ, 多因子が関与する症候群で, 身体的・心理的に他の適当な疾患がないと定義されている。対象疾患には (　)、(　)などが想定されている。　【原文解答】慢性腰痛 舌痛症 線維筋痛症　'
+      },
+      {
+        questionSentence: 'Question 7. The goal of chronic pain treatment is not the elimination of (    ) but the improvement of (    ).',
+        answer: 'pain, ADL',
+        answerImg: [painQ7],
+        commentary: '【原文問題文】問題7. 慢性疼痛の治療目標は, (　)消失ではなく (　)の改善である。　【原文解答】痛み ADL　'
+      },
+      {
+        questionSentence: 'Question 8. Multimodal therapy involves treatment interventions by (    ).',
+        answer: 'specialists from different fields and professions',
+        answerImg: [painQ8],
+        commentary: '【原文問題文】問題8. 集学的治療とは (　)による治療介入である。　【原文解答】他分野・多職種の専門家　'
+      },
+      {
+        questionSentence: 'Question 9. The third mechanism of chronic pain proposed by the International Association for the Study of Pain is called (    ) pain, which is caused by abnormal pain processing in the nervous system, resulting in widespread pain and hyperalgesia.',
+        answer: 'nociplastic pain',
+        answerImg: [painQ9],
+        commentary: '【原文問題文】問題9. 国際疼痛学会が提唱した第3の慢性疼痛の機序を (　)性疼痛とよび、神経系の痛覚処理異常により,より広い範囲の疼痛を引き起こし,痛覚過敏などを伴う。　【原文解答】痛覚変調性疼痛　'
+      },
+      {
+        questionSentence: 'Question 10. List three pain assessment scales.',
+        answer: 'Numeric Rating Scale (NRS), Visual Analogue Scale (VAS), Face Pain Scale',
+        answerImg: [painQ10_1, painQ10_2],
+        commentary: '【原文問題文】問題10. 痛みの評価指標 を3つ挙げよ。　【原文解答】数値評価スケール：NRS (Numeric Rating Scale) 視覚的評価スケール:VAS (Visual Analogue Scale) フェイススケール(Face Pain Scale)　'
+      },
         {
           detailInfo: '7/1 5限目',
           questionSentence: 'In neurosurgery, hyperventilation is desirable.',
