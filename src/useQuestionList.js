@@ -1,3 +1,15 @@
+import painQ9 from './img/answer/painQ9.png';
+import painQ8 from './img/answer/painQ8.png';
+import painQ3 from './img/answer/painQ3.png';
+import painQ2 from './img/answer/painQ2.png';
+import painQ1 from './img/answer/painQ1.png';
+import painQ10_2 from './img/answer/painQ10_2.png';
+import painQ5 from './img/answer/painQ5.png';
+import painQ10_1 from './img/answer/painQ10_1.png';
+import painQ6 from './img/answer/painQ6.png';
+import painQ7 from './img/answer/painQ7.png';
+import painQ4_1 from './img/answer/painQ4_1.png';
+import painQ4_2 from './img/answer/painQ4_2.png';
 import oncology2022a49_1 from './img/answer/oncology2022a49_1.png';
 import oncology2022a50_1 from './img/answer/oncology2022a50_1.png';
 import oncology2022a49_2 from './img/answer/oncology2022a49_2.png';
@@ -2371,7 +2383,66 @@ export const useQuestionList = () => {
     },
     {
       groupTag: "麻酔科 出席課題",
-      groupContents: [
+      groupContents: [{
+        questionSentence: '問題1. 痛みの定義(国際疼痛学会): 痛みとは (　)である。',
+        answer: '実際の組織損傷もしくは組織損傷が起こりうる状態に付随する、 あるいはそれに似た、感覚かつ情動の不快な体験',
+        answerImg: [painQ1],
+        commentary: '明らかな組織損傷がなくても痛みを感じることがある。'
+      },
+      {
+        questionSentence: '問題2. 内臓痛の特徴: 痛みの部位が (　)で, (　)症状を伴う。',
+        answer: '不明瞭 自律神経',
+        answerImg: [painQ2],
+        commentary: '皮膚などで一般的な体性痛とは区別される'
+      },
+      {
+        questionSentence: '問題3. 原因による痛みの分類 を3つ挙げよ。',
+        answer: '侵害受容性疼痛• 神経障害性疼痛• 心理社会的疼痛',
+        answerImg: [painQ3],
+        commentary: '1つ目の痛みはズキズキする急性の痛みで炎症によるもの。2つ目の痛みはピリピリとした痛みの電道路の異常。3つ目は心理的社会的な背景を持つ身体因子に乏しい痛み'
+      },
+      {
+        questionSentence: '問題4. 神経障害性疼痛の代表的疾患 を4つあげよ。',
+        answer: '神経損傷後遺症 絞扼性神経障害（手根管症候群など） 腕神経叢引き抜き損傷 帯状疱疹後神経痛 など',
+        answerImg: [painQ4_1, painQ4_2],
+        commentary: '痛みの伝導路の障害で、ピリピリヒリヒリ差し込むような特有の痛みを示す。神経支配領域に 知覚過敏・鈍麻やアロディニアなどを引き起こす侵害、 侵害受容性疼痛と比べ、神経損傷は治癒しないことが多く 難治性・慢性化しやすい。'
+      },
+      {
+        questionSentence: '問題5. 慢性疼痛とは,適切な治療後も (　)続く疼痛である。',
+        answer: '3ヶ月以上',
+        answerImg: [painQ5],
+        commentary: 'WHOによると、慢性疼痛とは3ヶ月以上続き、 生物学的・ 心理社会的な多くの因子が影響するペインシンドロームである。'
+      },
+      {
+        questionSentence: '問題6. 慢性一次性疼痛は, 精神的な苦痛や機能異常に特徴づけられ, 多因子が関与する症候群で, 身体的・心理的に他の適当な疾患がないと定義されている。対象疾患には (　)、(　)などが想定されている。',
+        answer: '慢性腰痛 舌痛症 線維筋痛症',
+        answerImg: [painQ6],
+        commentary: 'WHOによると、慢性一次性疼痛は、器質的異常の存在が曖昧で、心理社会的な影響が色濃く、 病気の原因ではなく痛みそのものが大きな問題である疾患で、患者のADLを著しく損なう。'
+      },
+      {
+        questionSentence: '問題7. 慢性疼痛の治療目標は, (　)消失ではなく (　)の改善である。',
+        answer: '痛み ADL',
+        answerImg: [painQ7],
+        commentary: '患者の痛みは、単一の原因によるものではなく、神経障害性・侵害受容性・心理社会的 な痛みが混じり合って形成されているため'
+      },
+      {
+        questionSentence: '問題8. 集学的治療とは (　)による治療介入である。',
+        answer: '他分野・多職種の専門家',
+        answerImg: [painQ8],
+        commentary: '集学的治療:multimodal therapy'
+      },
+      {
+        questionSentence: '問題9. 国際疼痛学会が提唱した第3の慢性疼痛の機序を (　)性疼痛とよび、神経系の痛覚処理異常により,より広い範囲の疼痛を引き起こし,痛覚過敏などを伴う。',
+        answer: '痛覚変調性疼痛',
+        answerImg: [painQ9],
+        commentary: '中枢性感作の概念に近いもので、脳内での知覚処理の変化 などによって、化学物質や光、熱など非骨格系の刺激に対する知覚過敏を引き起こすことが特徴の疾患である。'
+      },
+      {
+        questionSentence: '問題10. 痛みの評価指標 を3つ挙げよ。',
+        answer: '数値評価スケール：NRS (Numeric Rating Scale) 視覚的評価スケール:VAS (Visual Analogue Scale) フェイススケール(Face Pain Scale)',
+        answerImg: [painQ10_1, painQ10_2],
+        commentary: ''
+      },
         {
           detailInfo: '7/1 5限目',
           questionSentence: '脳外科手術では過度の過換気が望ましい',
@@ -8288,6 +8359,747 @@ export const useQuestionList = () => {
         commentary:"日本の乳がん検診受診率は約44.6％で、欧米諸国と比較するとかなり低いです。欧州では、乳がん検診受診率が国によって異なりますが、デンマーク（83.0％）、フィンランド（82.2％）、スウェーデン（80.0％）など、高い受診率を示しています。これに対し、ブルガリア（20.6％）、キプロス（24.6％）、スロバキア（25.5％）のように低い受診率の国もあります ￼ ￼。アメリカでは、乳がん検診受診率はさらに高く、50～74歳の女性のうち約70％が乳がん検診を受けています ￼。これにより、乳がんの早期発見と治療が促進され、死亡率の低下に寄与しています。日本では、乳がん検診の受診率向上が課題となっており、より多くの女性が検診を受けることが推奨されています。受診率向上のためには、検診の重要性についての啓発活動や、検診施設のアクセス改善が必要です ￼。"
       }
       ]
+    },{
+      groupTag: "腫瘍疾患2023本試験",
+      groupContents: [
+        {
+          questionSentence: "人口10万人当たりの疾患別死亡率の一位はどれか。",
+          choices: [
+            "a. 老衰",
+            "b. 自殺",
+            "c. 心疾患",
+            "d. 肺炎",
+            "e. 悪性新生物"
+          ]
+        },
+        {
+          questionSentence: "がん薬物療法について、正しいのはどれか。",
+          choices: [
+            "a. 免疫チェックポイント阻害薬では全身の臓器に様々な免疫関連有害事象が起こる。",
+            "b. 分子標的薬はがん細胞をピンポイントで攻撃するので副作用はほとんどない。",
+            "c. 多くの殺細胞性抗がん剤で用量制限毒性となるのは消化器毒性である。",
+            "d. 殺細胞性抗がん剤では脱毛はほぼ必発である。",
+            "e. 殺細胞性抗がん剤で白血球減少がみられた場合はG-CSFの治療的投与を行う。"
+          ]
+        },
+        {
+          questionSentence: "がんの外科治療について、正しいのはどれか。",
+          choices: [
+            "a. 癌の進展において血行性転移は稀である。",
+            "b. 臓器の機能温存は根治性よりも優先されるべきである。",
+            "c. 低侵襲手術は癌治療でも用いられるようになってきている。",
+            "d. 顕微鏡的に癌の遺残なく腫瘍を切除できれば全て根治できる。",
+            "e. がんのステージは原発腫瘍、リンパ節転移、局所進展の程度で決定される。"
+          ]
+        },
+        {
+          questionSentence: "日本における対策型がん検診について誤っているのはどれか。",
+          choices: [
+            "a. 子宮頚がん検診は20歳からが対象となる。",
+            "b. 子宮体がん検診は40歳からが対象となる。",
+            "c. 過剰診断はがん検診の不利益の一つである。",
+            "d. 乳がん検診ではマンモグラフィを2年に1回実施する。",
+            "e. 対策型がん検診の最終目的はがんの早期発見ではない。"
+          ]
+        },
+        {
+          questionSentence: "キュブラー・ロスが提唱した死にゆく者の心理段階の経過について正しいのはどれか",
+          choices: [
+            "a. 抑うつ → 否認 → 取引 → 怒り→ 受容",
+            "b. 抑うつ → 怒り → 取引 → 否認 → 受容",
+            "c. 否認 → 抑うつ → 取引 → 怒り→ 受容",
+            "d. 否認 → 怒り→ 取引 → 抑うつ → 受容",
+            "e. 怒り→ 抑うつ → 取引 → 否認 → 受容"
+          ]
+        },
+        {
+          questionSentence: "腫瘍に対する免疫機構について誤っているものはどれか。",
+          choices: [
+            "a. 樹状細胞はアポトーシスを起こしたがん細胞を取り込んで抗原提示する。",
+            "b. CD8+T細胞はMHCクラスII分子に提示された抗原を認識して活性化する。",
+            "c. CD4+T細胞はIL-2を産生し、CD8+T細胞の増殖を促進する。",
+            "d. CD8+T細胞はFasリガンドを発現し、腫瘍細胞にアポトーシスを誘導する。",
+            "e. CD8+T細胞はパーフォリンとグランザイムBを放出し、腫瘍細胞を殺傷する。"
+          ]
+        },
+        {
+          questionSentence: "肝細胞癌に対するIVRのうち誤っているものはどれか？",
+          choices: [
+            "a. ラジオ波凝固療法は3cm以下、3個までの肝細胞癌に対して有用である。",
+            "b. 選択的肝動脈塞栓術は肝機能を温存し、かつ肝全体に対する塞栓術と比較して局所治療効果は向上する。",
+            "c. 肝動脈化学塞栓術は門脈本幹腫瘍栓に対しても適応となる。",
+            "d. 肝機能不良や高齢者に対する肝動脈塞栓術においてマイクロスフィアは有用な塞栓物質である。",
+            "e. 肝細胞癌肝外転移に対してもIVRは有用である。"
+          ]
+        },
+        {
+          questionSentence: "次のうち、適切でないと思われる治療はどれか。",
+          choices: [
+            "a. 多発骨転移のある前立腺癌患者に対して内分泌療法が行われてきたが、骨シンチで骨転移の増悪がみられており、ラジウム製剤の内用療法の依頼があった。現在、特に症状はない。CTで内臓転移や脊柱管内進展がないことを確認し、血液検査も投与基準を満たしていることなどを確認してから、十分なI.C.の上で内用療法を行った。",
+            "b. 肺腺癌の患者に第3腰椎転移がみつかった。痛み以外の症状はなく、MRIで脊柱管内進展もみられていない。金曜日の受診であったが、痛みが強く、安静保持が全く出来ないため、緩和ケア科にコンサルトし、鎮痛剤で鎮痛緩和がある程度得られてから、翌週に除痛目的の緩和照射を行うことにした。",
+            "c. 肺扁平上皮癌の患者に脳転移がみつかった。造影MRIで単発であるが5cm大と大きく、midline shiftもあり、脳ヘルニアも懸念される状況であった。放射線治療を行う前に、脳外科に手術適応をコンサルトした。",
+            "d. 直腸癌の患者に脳転移がみつかった。造影MRIでは9個とやや数が多いが、大きいものはなく、特段の神経学的症状も認めていない。脳以外の病変は制御されており、比較的若くて元気であることも考慮して、十分なI.C.の上で定位放射線治療を行うこととした。",
+            "e. 食道扁平上皮癌の患者が昨日から足の力がなくなり、急に歩けなくなったと救急搬送された。MRIで第11胸椎転移が脊髄を圧迫しており、それによる症状だと考えられた。整形外科を受診し、手術適応はないこと、下肢の筋力低下は進行しており、第11胸椎転移によるもので矛盾しないとされ、放射線治療科を受診された。金曜日であったので、週明けの月曜日から放射線治療を行うことにした。"
+          ]
+        },
+        {
+          questionSentence: "A 55-year-old woman with breast cancer presented to the emergency room with 38.5℃ fever since this morning. She had chemotherapy in clinic with cyclophosphamide and doxorubicin 10 days ago. She did not have any other symptoms. PCR for COVID-19 was negative. Blood examination revealed that her neutrophil count was 400/μL. What should you do at first in the emergency room? Select correct answers from the list below. Choose two.",
+          choices: [
+            "a. Perform two sets of blood cultures",
+            "b. Start empirical antimicrobial therapy",
+            "c. Perform bone marrow aspiration",
+            "d. Perform mammography",
+            "e. Observation"
+          ]
+        },
+        {
+          questionSentence: "正しいものはどれか。 2つ選択せよ。",
+          choices: [
+            "a. ヒト化抗体は異種抗体に対する免疫反応を低減できる。",
+            "b. tight junctionはclaudinにより構成されている。",
+            "c. claudinは7回膜貫通型タンパクである。",
+            "d. tight junctionは強固な細胞間接着をCa依存性に生じる。",
+            "e. tight junctionはbarrier作用とfence作用を有し細胞間微小環境を保つ。"
+          ]
+        },
+        {
+          questionSentence: "正しいものはどれか。",
+          choices: [
+            "a. K-ras遺伝子は、がん抑制遺伝子である。",
+            "b. DNAのメチル化は、癌抑制遺伝子の不活化の原因となる。",
+            "c. がん病巣内は、がんの血管新生によって正常組織より酸素分圧が高い。",
+            "d. E-カドヘリンは、インテグリンを介して細胞を基底膜と接着させている。",
+            "e. テロメラーゼは、テロメアの伸長を抑制することでがん細胞を不死化する。"
+          ]
+        },
+        {
+          questionSentence: "悪性腫瘍に対する集学的治療について、誤っているものはどれか。",
+          choices: [
+            "a. 集学的治療とは、手術療法、薬物療法、放射線治療などを組み合わせて治療をすることである。",
+            "b. 腫瘍の種類や進行度によっては、単独の治療でも十分な場合もある。その際には必ずしも集学的治療を必要としない。",
+            "c. 薬物療法には免疫チェックポイント阻害剤を用いた治療が含まれることもある。",
+            "d. 治療法は、部門間での混乱を招かないよう、担当となる診療科単独で決定する。",
+            "e. 治療法は、患者のパフォーマンスステータスや合併症も考慮して総合的に決定する。"
+          ]
+        },
+        {
+          questionSentence: "直列臓器はどれか。",
+          choices: [
+            "a. 脊髄",
+            "b. 耳下腺",
+            "c. 肺",
+            "d. 肝臓",
+            "e. 腎臓"
+          ]
+        },
+        {
+          questionSentence: "Which of the following is not an appropriate biological characteristic of cancer cells?",
+          choices: [
+            "a. Invasive potential",
+            "b. Contact inhibition",
+            "c. Autonomous proliferation",
+            "d. Angiogenesis",
+            "e. Immortalization"
+          ]
+        },
+        {
+          questionSentence: "遺伝子パネル検査の検査タイミングついて、正しいものはどれか。",
+          choices: [
+            "a. BSC (best supportive care)",
+            "b. 根治的切除時",
+            "c. PS3",
+            "d. 進行大腸がんの診断時",
+            "e. 希少がんの診断時"
+          ]
+        },
+        {
+          questionSentence: "IVRの組み合わせで間違っているものはどれか。",
+          choices: [
+            "a. 有痛性骨転移 - 骨セメント注入療法",
+            "b. 腎細胞癌 - 経皮的凍結治療",
+            "c. 上大静脈症候群 - ステントによる血管拡張術",
+            "d. 術後動脈性出血 - 経カテーテル的血管形成術",
+            "e. 膵癌による胆道閉塞 - 経皮的胆管ドレナージ術"
+          ]
+        },
+        {
+          questionSentence: "悪性腫瘍の診断に関して、正しいものはどれか。",
+          choices: [
+            "a. 検査が主体となるため、患者への問診を詳細に行う必要はない。",
+            "b. 血液検査では、測定し得る全ての腫瘍マーカーを測定することが推奨される。",
+            "c. 罹患率の高い悪性腫瘍については症状がなくてもCTや内視鏡で全例検査する。",
+            "d. 画像で確信度の高い画像診断が得られた場合は、検体採取による病理診断は必要ない。",
+            "e. 診断名のみならず、病期診断も治療方針決定に不可欠である。"
+          ]
+        },
+        {
+          questionSentence: "原発性肺癌に対する定位放射線治療について、誤っているものはどれか。",
+          choices: [
+            "a. 1回2Gy照射し、総線量は60Gy以上を行うよう勧められる。",
+            "b. 対向二門法のような従来の放射線治療と比べ、一回線量が多く治療期間が短い。",
+            "c. 対向二門法のような従来の放射線治療と比べ、局所の治療効果は高い。",
+            "d. 肺門部などの中枢性腫瘍に対する治療では1回線量を下げる。",
+            "e. 両側肺門への同時照射は許容されない。"
+          ]
+        },
+        {
+          questionSentence: "Choose the correct answer for the combination of expressing-cells.",
+          choices: [
+            "a. PD-L1 --- Cytotoxic T lymphocytes",
+            "b. PD-1 --- Tumor cells",
+            "c. CTLA-4 --- Regulatory T cells",
+            "d. CD28 --- Dendritic cells",
+            "e. IFN-γ --- Tumor-associated macrophages"
+          ]
+        },
+        {
+          questionSentence: "現在の定期接種のうち、初回接種の時期が乳児期ではないのはどれか。",
+          choices: [
+            "a. BCG",
+            "b. MRワクチン",
+            "c. Hibワクチン",
+            "d. HPVワクチン",
+            "e. B型肝炎ワクチン"
+          ]
+        },
+        {
+          questionSentence: "細胞周期の内、放射線に感受性が高いものはどれか。 2つ選択せよ。",
+          choices: [
+            "a. S期",
+            "b. GO期",
+            "c. G1期",
+            "d. G2期",
+            "e. M期"
+          ]
+        },
+        {
+          questionSentence: "次の文章のうち、正しいのはどれか。",
+          choices: [
+            "a. 電子線は体内浅部の腫瘍に対する治療では用いられない。",
+            "b. X線は体表面の線量が最小となり、深部にいくほど線量が増加する。",
+            "c. X線はブラッグピークを持つ。",
+            "d. 外部放射線治療ではリニアックで発生させたガンマ線で治療が行われる。",
+            "e. 放射線治療では放射線診断よりも高いエネルギーのX線を用いる。"
+          ]
+        },
+        {
+          questionSentence: "次のうち正しいものはどれか。 2つ選択せよ。",
+          choices: [
+            "a. せん妄は、がんの末期にみられることが多い。",
+            "b. せん妄は、意識障害の範疇には入らない。",
+            "c. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。",
+            "d. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。",
+            "e. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
+          ]
+        },
+        {
+          questionSentence: "Choose the correct answer from the below. Choose two.",
+          choices: [
+                        "a. ADCC induced cytotoxicity in cultured cells treated with anti-claudin antibody. ",
+            "b. Anti-claudin antibody does not cause ADCC in nude mouse experimental system.",
+            "c. Impairment of tumor tight junctions results in outflow of growth factors in tumors and inhibition of growth.",
+            "d. Impairment of tumor tight junction enhances permeation of anticancer drugs into the tumor.",
+            "e. In antibody therapy, there is no correlation between the expression level of the target protein and the antibody effect.",
+
+          ]
+        },
+        {
+          questionSentence: "日本における対策型がん検診について誤っているのはどれか。",
+          choices: [
+            "a. 肺がん検診では低線量CTが行われる。",
+            "b. 大腸がん検診では免疫学的便潜血検査が行われる。",
+            "c. 胃がん検診ではX線検査または内視鏡検査が行われる。",
+            "d. 職域検診や任意型検診とは異なり、国への報告義務がある。",
+            "e. 最新の指針では特に受診勧奨する者を胃がん検診において50-69歳としている。"
+          ]
+        },
+        {
+          questionSentence: "次のうち正しいものはどれか。",
+          choices: [
+            "a. 肉腫は非上皮性の悪性腫瘍である。",
+            "b. 骨軟部肉腫は、女性においては乳癌よりも年間の発症者が多い。",
+            "c. 骨軟部肉腫は放射線の感受性が低いので、放射線治療を行うことはない。",
+            "d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。",
+            "e. X線は荷電粒子線なので飛程がある。"
+          ]
+        },
+        {
+          questionSentence: "49歳の女性。手術可能なステージIIIの乳癌と診断されている。非定型的乳房切除術（胸の筋肉はそのままで乳房とわきの下のリンパ節を切除する方法)後、局所リンパ節への放射線療法を受けている。同時に化学療法も受けており、投与薬の1つはDNA鎖の間に入り込み、DNA・RNAの合成を阻害する作用、またトポイソメラーゼIIを阻害する作用を併せ持っている。この薬物の総投与量の上限の設定にかかわっている毒性はどれか。",
+          choices: [
+            "a. 胆汁うっ滞性肝炎",
+            "b. 心不全",
+            "c. けいれん発作",
+            "d. 腎尿細管性アシドーシス",
+            "e. 肺線維症"
+          ]
+        },
+        {
+          questionSentence: "がんのリンパ行性転移について、正しいのはどれか。",
+          choices: [
+            "a. 領域リンパ節の定義は原発腫瘍で異なる。",
+            "b. 領域リンパ節郭清は根治性とは無関係である。",
+            "c. リンパ節転移と血行性転移は同時には通常おこらない。",
+            "d. 進行大腸癌において切除腸管はできるだけ短い方がよい。",
+            "e. 乳癌においてセンチネルリンパ節生検が用いられることは稀である。"
+          ]
+        },
+        {
+          questionSentence: "Which of the following is correct when arranging tumors in order of radiosensitivity?",
+          choices: [
+            "a. Glioblastoma > Adenocarcinoma > Squamous cell carcinoma > Malignant lymphoma",
+            "b. Glioblastoma > Malignant lymphoma > Adenocarcinoma > Squamous cell carcinoma",
+            "c. Squamous cell carcinoma > Malignant lymphoma > Glioblastoma > Adenocarcinoma",
+            "d. Malignant lymphoma > Adenocarcinoma > Squamous cell carcinoma > Glioblastoma",
+            "e. Malignant lymphoma > Squamous cell carcinoma > Adenocarcinoma > Glioblastoma"
+          ]
+        },
+        {
+          questionSentence: "抗体治療薬のうちPD-L1に親和性を持つ抗体治療薬はどれか。",
+          choices: [
+            "a. ニボルマブ",
+            "b. ベバシズマブ",
+            "c. デノスマブ",
+            "d. デュルバルマブ",
+            "e. ネシツムマブ"
+          ]
+        },
+        {
+          questionSentence: "誤っているものはどれか。",
+          choices: [
+            "a. AFPレクチン分画L3は肝細胞癌の指標である。",
+            "b. CEA値は加齢による影響をうける。",
+            "c. CA19-9はルイス血液型の影響をうける。",
+            "d. 可溶性IL-2レセプターは乳がんの病勢や治療効果の評価に用いられる。",
+            "e. 腫瘍マーカーが陰性でも、がんの存在は否定できない。"
+          ]
+        },
+        {
+          questionSentence: "緩和ケアについて正しいのはどれか。",
+          choices: [
+            "a. 緩和ケアはがん治療が終わってから開始する。",
+            "b. がん患者だけではなく、その家族にも行うべきである。",
+            "c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。",
+            "d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。",
+            "e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
+          ]
+        },
+        {
+          questionSentence: "以下の文章で正しいのはどれか。",
+          choices: [
+            "a. 病理診断は検査であり、医行為でない。",
+            "b. 臨床医が病理診断を依頼する際には、先入観を与えないように既往歴などを含め重要な臨床情報は記載しない方がよい。",
+            "c. 小さな病理検体では、病変の全体像は把握できない。",
+            "d. 病理診断は治療方針の根拠となる。",
+            "e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAやRNAを抽出することは不可能である。"
+          ]
+        },
+        {
+          questionSentence: "Which of the following head and neck cancers is treated with radioisotope therapy as postoperative treatment?",
+          choices: [
+            "a. Thyroid cancer",
+            "b. Parotid cancer",
+            "c. Nasopharyngeal cancer",
+            "d. Oropharyngeal cancer",
+            "e. Hypopharyngeal cancer"
+          ]
+        },
+        {
+          questionSentence: "肝細胞癌の定位放射線治療の局所制御率として、正しいのはどれか。",
+          choices: [
+            "a. 15%",
+            "b. 30%",
+            "c. 45%",
+            "d. 60%",
+            "e. 90%"
+          ]
+        },
+        {
+          questionSentence: "次のうち、正しいものはどれか。",
+          choices: [
+            "a. 乳房温存療法とは、乳房部分切除術と術後放射線治療を組み合わせた治療のことである。",
+            "b. 病変の進展範囲にかかわらず、非浸潤癌であれば乳房温存療法の適応となる。",
+            "c. 乳癌術後の放射線治療での照射線量は70Gy/35回が標準である。",
+            "d. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。",
+            "e. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
+          ]
+        },
+        {
+          questionSentence:
+      
+       "次のうち、誤っているものはどれか。",
+          choices: [
+            "a. 日本人の皮膚癌の中で最も多いのは基底細胞癌である。",
+            "b. 基底細胞癌と有棘細胞癌に対する治療の第一選択は手術である。",
+            "c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。",
+            "d. ボーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。",
+            "e. 皮膚の悪性腫瘍に対する根治的放射線治療ではボーラスの使用がほぼ必須である。"
+          ]
+        },
+        {
+          questionSentence: "次のうち、誤っている組み合わせはどれか。 2つ選択せよ。",
+          choices: [
+            "a. 脳腫瘍のWHO分類では、形態学的分類だけではなく、遺伝子診断も組み合わせた分類となっている。",
+            "b. 膠芽腫（glioblastoma）の病理所見として、壊死巣周囲の核の柵状配列が特徴的な所見である。",
+            "c. 膠芽腫（glioblastoma）の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。",
+            "d. 膠芽腫（glioblastoma）に対する放射線治療として、標準的な線量は25Gy/5回である。",
+            "e. 膠芽腫（glioblastoma）の生存期間中央値はおよそ3年である。"
+          ]
+        },
+        {
+          questionSentence: "Which of the following is incorrect?",
+          choices: [
+            "a. Hematopoietic tumors are basically radiosensitive, so radiotherapy is the first choice of treatment.",
+            "b. Radiotherapy for malignant lymphomas often involves irradiation of 20-50 Gy depending on the grade of malignancy.",
+            "c. Total-body irradiation is performed as part of the pretreatment for hematopoietic stem cell transplantation.",
+            "d. It is estimated that 50% of patients die within 60 days after whole-body irradiation at 4 Gy.",
+            "e. It is estimated that 100% of patients die within 60 days of whole-body irradiation at 7 Gy."
+          ]
+        },
+        {
+          questionSentence: "肺癌に対する胸部への放射線治療の有害事象において、正しい組み合わせはどれか。 2つ選択せよ。",
+          choices: [
+            "a. 放射線肺線維症では、肺容積の減少を生じる。",
+            "b. 放射線肺線維症は適切に加療すれば一過性であり、治療前と同様の状態に回復する。",
+            "c. 放射線肺臓炎は照射野に一致して生じ、一般に高熱を伴うことが多い。",
+            "d. 晩期有害事象の脊髄症（胸髄障害）では主に四肢麻痺と膀胱直腸障害を生じる。",
+            "e. 晩期有害事象は1回の照射線量との関連性が大きい。"
+          ]
+        },
+        {
+          questionSentence: "泌尿器腫瘍の放射線治療について正しいものはどれか。",
+          choices: [
+            "a. セミノーマに対して定位放射線照射を行う。",
+            "b. 腎細胞癌に対して223Ra（ラジウム223）を注入する。",
+            "c. 限局性前立腺癌に対して強度変調放射線治療を行う。",
+            "d. 表在性膀胱癌に対して90Y（イットリウム90）による内用療法を行う。",
+            "e. 尿管癌に対して電子線照射を行う。"
+          ]
+        },
+        {
+          questionSentence: "細胞周期のG2期に最も効果的なのはどの抗癌薬か。",
+          choices: [
+            "a. メトトレキサート",
+            "b. シタラビン",
+            "c. イリノテカン",
+            "d. パクリタキセル",
+            "e. ブレオマイシン"
+          ]
+        },
+        {
+          questionSentence: "分子標的治療薬（キナーゼ阻害剤）についての記述で正しいのはどれか。",
+          choices: [
+            "a. ゲフィチニブはエルロチニブと比較し、肝障害の頻度が低い。",
+            "b. アレクチニブはクリゾチニブと比較し、悪心、嘔吐を来しやすい。",
+            "c. オシメルチニブはゲフィチニブと比較し、白血球減少の頻度が低い。",
+            "d. オシメルチニブはT790M耐性変異、L858R、ex19欠損変異に有効である。",
+            "e. アレクチニブはROS1遺伝子転座陽性の非小細胞肺癌に有効である。"
+          ]
+        },
+        {
+          questionSentence: "Which of the following tumor markers is a useful combination for diagnosing lung squamous cell carcinoma? Choose two.",
+          choices: [
+            "a. NSE",
+            "b. SLX",
+            "c. CEA",
+            "d. SCC",
+            "e. CYFRA"
+          ]
+        },
+        {
+          questionSentence: "看取りにおける死亡確認の方法について、誤っているものはどれか。",
+          choices: [
+            "a. 死亡確認の際、聴診器、ペンライト、そして腕時計を持参した。",
+            "b. 死の3兆候とは、心音の停止、呼吸音の停止、瞳孔散大である。",
+            "c. 腕時計を忘れたので、携帯電話で確認した。",
+            "d. 患者さんに「本当に頑張りましたね。お疲れ様でした。」と声を掛けた。",
+            "e. ご家族に「ご家族も良く頑張られました。お疲れ様でした。献身的な介護はなかなかできるものではありませんよ。」と声を掛けた。"
+          ]
+        },
+        {
+          questionSentence: "がん対策推進基本計画（第4期）で重要視されている政策として、誤っているものはどれか。",
+          choices: [
+            "a. チーム医療",
+            "b. がんゲノム医療",
+            "c. 希少がん",
+            "d. がんのリハビリテーション",
+            "e. がん自由診療の推進"
+          ]
+        },
+        {
+          questionSentence: "支持療法ではないものはどれか。",
+          choices: [
+            "a. 口腔ケア",
+            "b. 皮膚ケア",
+            "c. 制吐剤投与",
+            "d. 輸血",
+            "e. 免疫チェックポイント阻害薬投与"
+          ]
+        },
+        {
+          questionSentence: "骨盤照射を行った場合、晩期有害事象として生じうるものはどれか。 2つ選択せよ。",
+          choices: [
+            "a. 白血球減少",
+            "b. 放射線宿酔",
+            "c. 脱毛",
+            "d. 骨盤骨折",
+            "e. 直腸出血"
+          ]
+        },
+        {
+          questionSentence: "Which histological type is most common in Krukenberg tumors (metastatic ovarian cancer)?",
+          choices: [
+            "a. Malignant melanoma",
+            "b. Sarcoma",
+            "c. Malignant lymphoma",
+            "d. Signet ring cell carcinoma",
+            "e. Squamous cell carcinoma"
+          ]
+        },
+      ]
+    },{
+      groupTag: "救急2023 本試験",
+      groupContents: [{
+        questionSentence: "Q1 次のうち誤っているものはどれか。",
+        choices: [
+          "a. 高齢者の増加を背景として救急搬送件数は増加している。",
+          "b. 救急患者の病院収容までの時間は延長傾向にある。",
+          "c. 救急救命士が医療機関内の救急外来処置室内でも特定行為が実施できるよう法改正がなされた。",
+          "d. 我が国の救急医療体制は大きく初期、二次、三次医療機関の三つに分けられる。",
+          "e. 我が国の救急医療体制は重症度ではなく、緊急度に基づいて設計されている。"
+        ]
+      },
+      {
+        questionSentence: "Q2 次のうち緊急性が最も高いと考えられるのはどれか。",
+        choices: [
+          "a. 瞳孔不同を伴う昏睡",
+          "b. リストカットし、顔色不良",
+          "c. 冷汗を伴う胸痛",
+          "d. 朝からの頭痛で夕刻にかけて増悪し、嘔気があり、呼びかけても反応が鈍い",
+          "e. 回転性のめまいがあり、嘔吐が続いている"
+        ]
+      },
+      {
+        questionSentence: "Q3 救急救命士による特定行為に含まれないものはどれか。",
+        choices: [
+          "a. 出血性ショックに対する静脈路確保および輸液。",
+          "b. JCS30の意識障害が低血糖によると疑われる症例に対する血糖測定。",
+          "c. 心肺機能停止症例に対するアドレナリンの静脈内投与。",
+          "d. 呼吸が停止している意識障害に対する気管挿管。",
+          "e. 低血糖による意識障害に対するブドウ糖液の静脈内投与。"
+        ]
+      },
+      {
+        questionSentence: "Q4 「トリアージ」という行為について正しい記載はどれか。",
+        choices: [
+          "a. 災害時にのみに行われる診療順位の決定手段である。",
+          "b. START法における優先順位は赤→黄色→緑→黒である。",
+          "c. START法では、トリアージを行いながら、合わせて静脈路確保や薬剤投与を行う。",
+          "d. 医療を求める需要に対して、提供できる医療に余裕がある場合にのみ用いる。",
+          "e. トリアージは短時間で一回のみ行えば良い。"
+        ]
+      },
+      {
+        questionSentence: "Q5 次のうち正しいものはどれか。",
+        choices: [
+          "a. 交通事故による死亡者数は増加傾向にある。",
+          "b. 若年者において「不慮の事故」は死亡死因の第3位である。",
+          "c. 車両の横転だけでは高リスク受傷機転の基準を満たさない。",
+          "d. 外傷診療の向上においては外傷診療体制の構築よりも外傷専門医の育成が大きな役割を果たす。",
+          "e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
+        ]
+      },
+      {
+        questionSentence: "Q6 外傷患者における凝固異常に関連する要因に含まれないものはどれか。",
+        choices: [
+          "a. 代謝性アシドーシス",
+          "b. 呼吸性アシドーシス",
+          "c. 大量輸液",
+          "d. 大量輸血",
+          "e. 体温の低下"
+        ]
+      },
+      {
+        questionSentence: "Q7 交通事故にて搬送されたショック患者におけるFASTで観察するところに含まれないのはどれか。",
+        choices: [
+          "a. 肝腎境界",
+          "b. 膀胱直腸窩",
+          "c. 胸腔",
+          "d. 膵臓周囲",
+          "e. 脾臓周囲"
+        ]
+      },
+      {
+        questionSentence: "Q8 短時間で致命的となる胸部外傷と行うべき処置について誤っている組み合わせはどれか。",
+        choices: [
+          "a. 低酸素血症を伴うフレイルチェスト→胸腔穿刺",
+          "b. 大量血胸→緊急輸血",
+          "c. 緊張性気胸による心停止→胸腔穿刺",
+          "d. 心タンポナーデによるショック→心嚢穿刺",
+          "e. 気道損傷→気管挿管"
+        ]
+      },{
+        questionSentence: "Q9 次のうち、出血性ショックに陥る可能性が最も高い、不安定な骨盤骨折はどれか。",
+      },{
+        questionSentence: "Q10 92歳の女性。家族が帰宅するとベッド近くで倒れて動けない状態であった。本人曰く、「トイレに行こうとして、体を捻った際にこけてしまい、立てなくなった」とのことであった。右の大腿の付け根が痛いという。最も考えられるのはどれか。2つ選べ。",
+        choices: [
+          "a. 脳卒中による右下肢麻痙",
+          "b. 右大腿骨骨幹部",
+          "c. 右大腿骨転子部骨折",
+          "d. 右大腿骨頚部骨折",
+          "e. 右大腿骨遠位端骨折"
+        ]
+      },
+      {
+        questionSentence: "Q11 以下の脊髄損傷について述べた文章の中で正しいものを2つ選べ。",
+        choices: [
+          "a. 受傷機転として、脊椎の過屈曲や過進展がある。",
+          "b. 脊椎損傷を必ず伴う。",
+          "c. 交感神経優位となり、神経原性ショックに至る。",
+          "d. 頸髄損傷の主たる死亡原因は循環不全である。",
+          "e. 損傷部位はMRI T2強調画像で高信号域として認められる。"
+        ]
+      },
+      {
+        questionSentence: "Q12 上腕骨骨幹部骨折に合併することが多い運動麻痺はどれか。",
+        choices: [
+          "a. 前腕回内",
+          "b. 手関節屈曲",
+          "c. 母指内転",
+          "d. 手指伸展",
+          "e. 手指屈曲"
+        ]
+      },
+      {
+        questionSentence: "Q13 78歳の男性。自宅玄関で転倒して頭部を受傷したために家人に連れられて来院した。意識は清明。体温36.2℃、脈拍92/分、整。血圧165/98mmHg、呼吸数20/分。右の側頭部の頭皮に出血を伴う挫創がある。明らかな麻痺など認めなかったが、診察時、少しボーッとしている印象であった。処置室で頭部挫創の縫合処置を行っていたところ、呼びかけに反応しなくなり、JCS-II-30、右瞳孔の散大と対光反射消失とをきたした。この時点で考えられる正しい組み合わせはどれか。",
+        choices: [
+          "a. 脳波にて、てんかん波を認める",
+          "b. 病歴より右急性硬膜外血腫が疑わしい",
+          "c. 病歴より右急性硬膜下血腫が疑わしい",
+          "d. 頭部MRI拡散強調像で右中大脳動脈領域の高信号域を認める",
+          "e. 腰椎穿刺にて細胞数増加を認める"
+        ]
+      },
+      {
+        questionSentence: "Q14 脂肪塞栓症について誤っているのはどれか。",
+        choices: [
+          "a. 傷後72時間以内に発症することが多い",
+          "b. 頭痛や意識障害は稀である",
+          "c. 呼吸不全に至る",
+          "d. 胸部レントゲンで特徴的な両側肺野浸潤影を認める",
+          "e. 長管骨骨折で生じることが多いとされている"
+        ]
+      },
+      {
+        questionSentence: "Q15 腹痛について正しい組み合わせはどれか。",
+        choices: [
+          "a. 場所がはっきりしない痛み→体性痛",
+          "b. 痛みの場所が触診上、局在が明らかな痛み→内臓痛",
+          "c. 反跳痛→内臓痛",
+          "d. 間欠的な腹痛→内臓痛",
+          "e. 筋性防御→内臓痛"
+        ]
+      },
+      {
+        questionSentence: "Q16 次のうち、体性痛を生じる可能性が低いのはどれか。",
+        choices: [
+          "a. 十二指腸潰瘍穿孔",
+          "b. 急性虫垂炎",
+          "c. 閉塞性イレウス",
+          "d. 外傷性小腸穿孔",
+          "e. 卵巣嚢腫茎捻転"
+        ]
+      },
+      {
+        questionSentence: "Q17 頭部外傷における「切迫するD」の異常について記載しているのはどれか。2つ選べ。",
+        choices: [
+          "a. GCSの合計点が10点以下",
+          "b. 瞳孔径が右5.0mm、左2.5mmで対光反射は両側とも消失",
+          "c. 初期診療の経過中にGCS合計点の2点以上の低下",
+          "d. 収縮期血圧が120mmHgで、心拍数が120回/分",
+          "e. 項部硬直の出現"
+        ]
+      },
+      {
+        questionSentence: "Q18 2時間前にベンゾジアゼピン系鎮静剤を30錠服用し、GCS 3点で来院した患者を診療中である。活性炭投与の方法として最も適切なのはどれか。",
+        choices: [
+          "a. GCS 3点であるため、酸素マスクで酸素投与しながら座位で経口投与する。",
+          "b. GCS 3点であるため、鼻カヌラで酸素投与しながら座位で経口投与する。",
+          "c. GCS 3点であるため、胃管挿入し、気管挿管した後に経管投与する。",
+          "d. GCS 3点であるため、気管挿管を行った後に胃管挿入し、経管投与する。",
+          "e. GCS 3点であるため、頭部後屈顎先挙上し、胃管挿入して経管投与する。"
+        ]
+      },
+      {
+        questionSentence: "Q19 51歳の男性。交通事故で右側胸腹部を打撲し救急搬送された。来院時意識清明で血圧96/36 mmHg、脈拍106/分であった。腹部は軟で、筋性防御は認めなかった。来院時血液所見赤血球452万、Hb 15.3g/dl、Ht 44.8%、血小板26万、血清アミラーゼ62単位(基準37～160)、AST 560単位(基準40以下)、ALT 420単位(基準35以下)、LDH 500単位(基準176～353)、尿素窒素29 mg/dl、クレアチニン0.8mg/dl、血糖182 mg/dl、CRP 0.1 mg/dl(基準0.3以下)。腹部CTによって得られると考えられる所見はどれか。2つ選べ。",
+        choices: [
+          "a. フリーエアの出現",
+          "b. 肝腎境界の低吸収域",
+          "c. 脾周囲の低吸収域",
+          "d. 右胸腔内の液体貯留",
+          "e. 膵実質内の低吸収域"
+        ]
+      },
+      {
+        questionSentence: "Q20 避けられた災害死(または、防ぎえた災害死)について適切に説明しているものはどれか。",
+        choices: [
+          "a. 平時の医療が提供できていれば、救えたと考えられる災害による死亡",
+          "b. 適切な災害医療チームの派遣ができていれば、救えたと考えられる災害による死亡",
+    
+    
+          "c. 適切な災害医療機関へ搬送できていれば、救えたと考えられる災害による死亡",
+          "d. 適切な災害医療専門医が対応していれば、救えたと考えられる災害による死亡",
+          "e. 平時の医療が提供できても救えなかった、と考えられる災害による死亡"
+        ]
+      },
+      {
+        questionSentence: "Q21 SOFAスコアに含まれていないものはどれか。",
+        choices: [
+          "a. T-Bil",
+          "b. Glasgow Coma Scale",
+          "c. カテコラミン投与量",
+          "d. 血小板数",
+          "e. プロトロンビン時間"
+        ]
+      },{
+        questionSentence: "Q22 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前腕部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。胸部レントゲン写真で認めうる所見はどれか。　３つ選べ。",
+        choices: [
+          "(1) 左肺野のレントゲン透過性冗進",
+          "(2) 上縦隔の開大",
+          "(3) 肺動脈の拡張",
+          "(4) 多発肋骨骨折",
+          "(5) 左肺の虚脱",
+        ]
+      },
+      {
+        questionSentence: "Q23 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前腕部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。広範囲熱傷患者の臨床経過について正しいものはどれか。2つ選べ。",
+        choices: [
+          "a. 受傷後から始まる閉塞性ショックに対する治療が初期に求められる",
+          "b. 嗅声を訴える顔面熱傷では下気道閉塞が生じうる",
+          "c. Curling潰瘍を合併することがある",
+          "d. 深達性熱傷に対しては抗菌剤含有軟膏による保存的加療が第一選択である",
+          "e. 胸部と背部の全周性三度熱傷患者では、救命のために焼痂切開が必要となる"
+        ]
+      },{
+        questionSentence: "Q24 You’re called to a dialysis unit for emergency. When you arrive, you find a 53-year-old male in full arrest. The patient had just arrived and was not yet being dialyzed. He complained of shortness of breath, then collapsed. What rhythm disturbance is likely? Choose two from the options a, b, c, d, and e.",
+        choices: [
+          "a. Ventricular fibrillation or Pulseless Ventricular tachycardia",
+          "b. PEA",
+          "c. Atrial fibrillation",
+          "d. Sinus tachycardia",
+          "e. Second-degree AV block"
+        ]
+      },
+      {
+        questionSentence: "Q25 How long do you check for breathing and pulse before performing chest compression?",
+        choices: [
+          "a. Do not check for breathing, start chest compression immediately",
+          "b. 2 seconds",
+          "c. 5 seconds",
+          "d. No longer than 10 seconds",
+          "e. No longer than 20 seconds"
+        ]
+      },
+    ]
     },
     {
       groupTag: "小児疾患2022 本試験",
