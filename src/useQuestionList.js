@@ -1,3 +1,22 @@
+import emergency2023a14 from './img/answer/emergency2023a14.png';
+import emergency2023a11_1 from './img/answer/emergency2023a11_1.png';
+import emergency2023a13_2 from './img/answer/emergency2023a13_2.png';
+import emergency2023a11_2 from './img/answer/emergency2023a11_2.png';
+import emergency2023a10_2 from './img/answer/emergency2023a10_2.png';
+import emergency2023a10_3 from './img/answer/emergency2023a10_3.png';
+import emergency2023a10_1 from './img/answer/emergency2023a10_1.png';
+import emergency2023a8 from './img/answer/emergency2023a8.png';
+import emergency2023a9 from './img/answer/emergency2023a9.png';
+import emergency2023a7 from './img/answer/emergency2023a7.png';
+import emergency2023q9 from './img/answer/emergency2023q9.png';
+import emergency2023a13 from './img/answer/emergency2023a13.png';
+import emergency2023a12 from './img/answer/emergency2023a12.png';
+import emergency2023a2_2 from './img/answer/emergency2023a2_2.png';
+import emergency2023a2_1 from './img/answer/emergency2023a2_1.png';
+import emergency2023a1_2 from './img/answer/emergency2023a1_2.png';
+import emergency2023a1_1 from './img/answer/emergency2023a1_1.png';
+import emergency2023a4 from './img/answer/emergency2023a4.png';
+import emergency2023a3 from './img/answer/emergency2023a3.png';
 import oncology2023a28 from './img/answer/oncology2023a28.png';
 import oncology2023a40_2 from './img/answer/oncology2023a40_2.png';
 import oncology2023a42_1 from './img/answer/oncology2023a42_1.png';
@@ -9102,17 +9121,24 @@ export const useQuestionList = () => {
           "c. 救急救命士が医療機関内の救急外来処置室内でも特定行為が実施できるよう法改正がなされた。",
           "d. 我が国の救急医療体制は大きく初期、二次、三次医療機関の三つに分けられる。",
           "e. 我が国の救急医療体制は重症度ではなく、緊急度に基づいて設計されている。"
-        ]
+        ],
+        answerImg: [emergency2023a1_1, emergency2023a1_2],
+        answer: "c",
+        commentary:"救急救命士の特定行為は救急車内でのみ行えるものであったが、法改正によって拡大された。 本来、救急医療システムは重症度より緊急度に対応したものであるべきであるが、そうなっていない現状がある。"
       },
       {
-        questionSentence: "Q2 次のうち緊急性が最も高いと考えられるのはどれか。",
+        questionSentence: "Q2 次のうち緊急性が低いと考えられるものはどれか。",
         choices: [
           "a. 瞳孔不同を伴う昏睡",
           "b. リストカットし、顔色不良",
           "c. 冷汗を伴う胸痛",
           "d. 朝からの頭痛で夕刻にかけて増悪し、嘔気があり、呼びかけても反応が鈍い",
           "e. 回転性のめまいがあり、嘔吐が続いている"
-        ]
+        ],
+        answerImg: [emergency2023a2_1, emergency2023a2_2],
+        answer: "e",
+        commentary:"緊急性の判定に参考になる基準として、START法によるトリアージと119番緊急度判定アルゴリズムがある。 Aは脳ヘルニアの兆候、B・Cはショックの兆候、Dは脳血管疾患の兆候があり、いずれも緊急を要する。 比較するとEは良性発作性頭位めまい症(BPPV) であれば緊急性が低いと言えるが、脳血管疾患の可能性もあり、緊急性が低いと断言できない。同じような症状があった場合は救急車を呼ぶべきである。"
+
       },
       {
         questionSentence: "Q3 救急救命士による特定行為に含まれないものはどれか。",
@@ -9122,7 +9148,9 @@ export const useQuestionList = () => {
           "c. 心肺機能停止症例に対するアドレナリンの静脈内投与。",
           "d. 呼吸が停止している意識障害に対する気管挿管。",
           "e. 低血糖による意識障害に対するブドウ糖液の静脈内投与。"
-        ]
+        ],
+        answerImg: [emergency2023a3],
+        answer: "b",
       },
       {
         questionSentence: "Q4 「トリアージ」という行為について正しい記載はどれか。",
@@ -9132,7 +9160,10 @@ export const useQuestionList = () => {
           "c. START法では、トリアージを行いながら、合わせて静脈路確保や薬剤投与を行う。",
           "d. 医療を求める需要に対して、提供できる医療に余裕がある場合にのみ用いる。",
           "e. トリアージは短時間で一回のみ行えば良い。"
-        ]
+        ],
+        answerImg: [emergency2023a4],
+        answer: "b",
+        commentary:"トリアージは日常診断でも用いられており(保険点数がつく)、大量の患者の優先順位をつけるために用いられる。 トリアージは医師以外にも様々な人が行うことができ、刻々と変化していく状況に対応するために繰り返し行う必要がある。"
       },
       {
         questionSentence: "Q5 次のうち正しいものはどれか。",
@@ -9142,7 +9173,9 @@ export const useQuestionList = () => {
           "c. 車両の横転だけでは高リスク受傷機転の基準を満たさない。",
           "d. 外傷診療の向上においては外傷診療体制の構築よりも外傷専門医の育成が大きな役割を果たす。",
           "e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
-        ]
+        ],
+        answer: "d",
+        commentary:"交通事故による死亡者が年々減少傾向で、20代における不慮の事故は死因の第2、 30代においては第3位である。"
       },
       {
         questionSentence: "Q6 外傷患者における凝固異常に関連する要因に含まれないものはどれか。",
@@ -9152,7 +9185,8 @@ export const useQuestionList = () => {
           "c. 大量輸液",
           "d. 大量輸血",
           "e. 体温の低下"
-        ]
+        ],
+        answer: "b",
       },
       {
         questionSentence: "Q7 交通事故にて搬送されたショック患者におけるFASTで観察するところに含まれないのはどれか。",
@@ -9162,7 +9196,9 @@ export const useQuestionList = () => {
           "c. 胸腔",
           "d. 膵臓周囲",
           "e. 脾臓周囲"
-        ]
+        ],
+        answerImg: [emergency2023a7],
+        answer: "d",
       },
       {
         questionSentence: "Q8 短時間で致命的となる胸部外傷と行うべき処置について誤っている組み合わせはどれか。",
@@ -9172,9 +9208,16 @@ export const useQuestionList = () => {
           "c. 緊張性気胸による心停止→胸腔穿刺",
           "d. 心タンポナーデによるショック→心嚢穿刺",
           "e. 気道損傷→気管挿管"
-        ]
+        ],
+        answer: "a",
+        answerImg: [emergency2023a8],
+        commentary:"2本以上の連続する肋骨（または肋軟骨）が2箇所以上で骨折する（分節骨折）と，その部分の胸郭は不安定となり，自発呼吸では吸気時に支持性を失った部分（flail segment）が陥凹し，呼気時に突出する奇異呼吸（paradoxical respiration）を呈する。これをフレイルチェストという。 a.低酸素血症は、肺をうまく広げることができないことが原因であるので、 胸腔のドレナージより陽圧換気や肋骨の固定を行うべきである。"
+
       },{
         questionSentence: "Q9 次のうち、出血性ショックに陥る可能性が最も高い、不安定な骨盤骨折はどれか。",
+        questionImg: [emergency2023q9],
+        answer: "e",
+        answerImg: [emergency2023a9],
       },{
         questionSentence: "Q10 92歳の女性。家族が帰宅するとベッド近くで倒れて動けない状態であった。本人曰く、「トイレに行こうとして、体を捻った際にこけてしまい、立てなくなった」とのことであった。右の大腿の付け根が痛いという。最も考えられるのはどれか。2つ選べ。",
         choices: [
@@ -9183,7 +9226,8 @@ export const useQuestionList = () => {
           "c. 右大腿骨転子部骨折",
           "d. 右大腿骨頚部骨折",
           "e. 右大腿骨遠位端骨折"
-        ]
+        ],
+        answerImg: [emergency2023a10_1, emergency2023a10_2,emergency2023a10_3],
       },
       {
         questionSentence: "Q11 以下の脊髄損傷について述べた文章の中で正しいものを2つ選べ。",
@@ -9193,7 +9237,9 @@ export const useQuestionList = () => {
           "c. 交感神経優位となり、神経原性ショックに至る。",
           "d. 頸髄損傷の主たる死亡原因は循環不全である。",
           "e. 損傷部位はMRI T2強調画像で高信号域として認められる。"
-        ]
+        ],
+        answerImg: [emergency2023a11_1, emergency2023a11_2],
+        answer: "a,e",
       },
       {
         questionSentence: "Q12 上腕骨骨幹部骨折に合併することが多い運動麻痺はどれか。",
@@ -9203,7 +9249,9 @@ export const useQuestionList = () => {
           "c. 母指内転",
           "d. 手指伸展",
           "e. 手指屈曲"
-        ]
+        ],
+        answerImg: [emergency2023a12],
+        answer: "d",
       },
       {
         questionSentence: "Q13 78歳の男性。自宅玄関で転倒して頭部を受傷したために家人に連れられて来院した。意識は清明。体温36.2℃、脈拍92/分、整。血圧165/98mmHg、呼吸数20/分。右の側頭部の頭皮に出血を伴う挫創がある。明らかな麻痺など認めなかったが、診察時、少しボーッとしている印象であった。処置室で頭部挫創の縫合処置を行っていたところ、呼びかけに反応しなくなり、JCS-II-30、右瞳孔の散大と対光反射消失とをきたした。この時点で考えられる正しい組み合わせはどれか。",
@@ -9213,7 +9261,10 @@ export const useQuestionList = () => {
           "c. 病歴より右急性硬膜下血腫が疑わしい",
           "d. 頭部MRI拡散強調像で右中大脳動脈領域の高信号域を認める",
           "e. 腰椎穿刺にて細胞数増加を認める"
-        ]
+        ],
+        answerImg: [emergency2023a13, emergency2023a13_2],
+        answer: "b",
+        commentary:"急性硬膜外血腫は硬膜下血腫と異なり、意識清明期を認めることが多い"
       },
       {
         questionSentence: "Q14 脂肪塞栓症について誤っているのはどれか。",
@@ -9223,7 +9274,10 @@ export const useQuestionList = () => {
           "c. 呼吸不全に至る",
           "d. 胸部レントゲンで特徴的な両側肺野浸潤影を認める",
           "e. 長管骨骨折で生じることが多いとされている"
-        ]
+        ],
+        answerImg: [emergency2023a14],
+        answer: "b",
+
       },
       {
         questionSentence: "Q15 腹痛について正しい組み合わせはどれか。",
