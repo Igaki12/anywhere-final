@@ -1,3 +1,19 @@
+import emergency2023a20 from './img/answer/emergency2023a20.png';
+import emergency2023a21 from './img/answer/emergency2023a21.png';
+import emergency2023a25 from './img/answer/emergency2023a25.png';
+import emergency2023a6_1 from './img/answer/emergency2023a6_1.png';
+import emergency2023a15_3 from './img/answer/emergency2023a15_3.png';
+import emergency2023a15_2 from './img/answer/emergency2023a15_2.png';
+import emergency2023a24 from './img/answer/emergency2023a24.png';
+import emergency2023a6_2 from './img/answer/emergency2023a6_2.png';
+import emergency2023a15_1 from './img/answer/emergency2023a15_1.png';
+import emergency2023a16_2 from './img/answer/emergency2023a16_2.png';
+import emergency2023a16_3 from './img/answer/emergency2023a16_3.png';
+import emergency2023a16_1 from './img/answer/emergency2023a16_1.png';
+import emergency2023a5 from './img/answer/emergency2023a5.png';
+import emergency2023a23_2 from './img/answer/emergency2023a23_2.png';
+import emergency2023a23_1 from './img/answer/emergency2023a23_1.png';
+import emergency2023a17 from './img/answer/emergency2023a17.png';
 import emergency2023a14 from './img/answer/emergency2023a14.png';
 import emergency2023a11_1 from './img/answer/emergency2023a11_1.png';
 import emergency2023a13_2 from './img/answer/emergency2023a13_2.png';
@@ -9174,6 +9190,7 @@ export const useQuestionList = () => {
           "d. 外傷診療の向上においては外傷診療体制の構築よりも外傷専門医の育成が大きな役割を果たす。",
           "e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
         ],
+        answerImg: [emergency2023a5],
         answer: "d",
         commentary:"交通事故による死亡者が年々減少傾向で、20代における不慮の事故は死因の第2、 30代においては第3位である。"
       },
@@ -9186,6 +9203,7 @@ export const useQuestionList = () => {
           "d. 大量輸血",
           "e. 体温の低下"
         ],
+        answerImg: [emergency2023a6_1, emergency2023a6_2],
         answer: "b",
       },
       {
@@ -9287,7 +9305,11 @@ export const useQuestionList = () => {
           "c. 反跳痛→内臓痛",
           "d. 間欠的な腹痛→内臓痛",
           "e. 筋性防御→内臓痛"
-        ]
+        ],
+        answerImg: [emergency2023a15_1, emergency2023a15_2, emergency2023a15_3],
+        answer: "c",
+        commentary:"他は逆"
+
       },
       {
         questionSentence: "Q16 次のうち、体性痛を生じる可能性が低いのはどれか。",
@@ -9297,7 +9319,10 @@ export const useQuestionList = () => {
           "c. 閉塞性イレウス",
           "d. 外傷性小腸穿孔",
           "e. 卵巣嚢腫茎捻転"
-        ]
+        ],
+        answerImg: [emergency2023a16_1, emergency2023a16_2, emergency2023a16_3],
+        answer: "c",
+        commentary:"腹腔内の疾患は、穿孔により腸液などが 体壁に達したり、炎症が外側に及んだりすることで 体性痛を後から生じる可能性がある。 閉塞性ではなく絞扼性イレウスの場合は、腸管が壊死して内容液が漏出し、体性痛を生じる可能性がある。"
       },
       {
         questionSentence: "Q17 頭部外傷における「切迫するD」の異常について記載しているのはどれか。2つ選べ。",
@@ -9307,7 +9332,10 @@ export const useQuestionList = () => {
           "c. 初期診療の経過中にGCS合計点の2点以上の低下",
           "d. 収縮期血圧が120mmHgで、心拍数が120回/分",
           "e. 項部硬直の出現"
-        ]
+        ],
+        answerImg: [emergency2023a17],
+        answer: "b,c",
+        commentary:"D:Dysfunction of central nervous system "
       },
       {
         questionSentence: "Q18 2時間前にベンゾジアゼピン系鎮静剤を30錠服用し、GCS 3点で来院した患者を診療中である。活性炭投与の方法として最も適切なのはどれか。",
@@ -9317,17 +9345,21 @@ export const useQuestionList = () => {
           "c. GCS 3点であるため、胃管挿入し、気管挿管した後に経管投与する。",
           "d. GCS 3点であるため、気管挿管を行った後に胃管挿入し、経管投与する。",
           "e. GCS 3点であるため、頭部後屈顎先挙上し、胃管挿入して経管投与する。"
-        ]
+        ],
+        answer: "d",
+        commentary:"胃液の逆流により、薬剤が気管に入り込んだり、窒息したりするのを防ぐために、 GCSが低い場合は気管挿管を行った後に胃管挿入し、経管投与する。"
       },
       {
-        questionSentence: "Q19 51歳の男性。交通事故で右側胸腹部を打撲し救急搬送された。来院時意識清明で血圧96/36 mmHg、脈拍106/分であった。腹部は軟で、筋性防御は認めなかった。来院時血液所見赤血球452万、Hb 15.3g/dl、Ht 44.8%、血小板26万、血清アミラーゼ62単位(基準37～160)、AST 560単位(基準40以下)、ALT 420単位(基準35以下)、LDH 500単位(基準176～353)、尿素窒素29 mg/dl、クレアチニン0.8mg/dl、血糖182 mg/dl、CRP 0.1 mg/dl(基準0.3以下)。腹部CTによって得られると考えられる所見はどれか。2つ選べ。",
+        questionSentence: "Q19 51歳の男性。交通事故で右側胸腹部を打撲し救急搬送された。来院時意識清明で血圧96/36 mmHg、脈拍106/分であった。腹部は膨隆し、筋性防御は認めなかった。来院時血液所見赤血球452万、Hb 15.3g/dl、Ht 44.8%、血小板26万、血清アミラーゼ62単位(基準37～160)、AST 560単位(基準40以下)、ALT 420単位(基準35以下)、LDH 500単位(基準176～353)、尿素窒素29 mg/dl、クレアチニン0.8mg/dl、血糖182 mg/dl、CRP 0.1 mg/dl(基準0.3以下)。腹部CTによって得られると考えられる所見はどれか。2つ選べ。",
         choices: [
           "a. フリーエアの出現",
           "b. 肝腎境界の低吸収域",
           "c. 脾周囲の低吸収域",
           "d. 右胸腔内の液体貯留",
           "e. 膵実質内の低吸収域"
-        ]
+        ],
+        answer: "b,d",
+        commentary:"AST, ALT, LDHの上昇から、肝臓の損傷が疑われる。 一方で、血清アミラーゼが正常であることから、膵臓の損傷は疑われない。血糖が高いのは事故のストレスによるアドレナリンやコルチゾールの分泌が原因である と考えられる。 筋性防御が認められないことから、腸管損傷は疑われなず、 Aは出現しにくい。 ショック状態であるため出血性ショックが疑われるが、打撲したのが右側であることから、脾臓の損傷は考えにくい。 よって答えはBとDである。 (腹部CTによって胸腔が確認できるという判断)"  
       },
       {
         questionSentence: "Q20 避けられた災害死(または、防ぎえた災害死)について適切に説明しているものはどれか。",
@@ -9339,7 +9371,10 @@ export const useQuestionList = () => {
           "c. 適切な災害医療機関へ搬送できていれば、救えたと考えられる災害による死亡",
           "d. 適切な災害医療専門医が対応していれば、救えたと考えられる災害による死亡",
           "e. 平時の医療が提供できても救えなかった、と考えられる災害による死亡"
-        ]
+        ],
+        answerImg: [emergency2023a20],
+        answer: "a",
+        commentary:"阪神・淡路大震災について、初期医療体制の遅れが考えられ、平時の救急医療レベルの医療が提供されていれば、救命できたと考えられる「避けられた災害死」が500名存在した可能性があったと後に報告されています。"
       },
       {
         questionSentence: "Q21 SOFAスコアに含まれていないものはどれか。",
@@ -9349,26 +9384,34 @@ export const useQuestionList = () => {
           "c. カテコラミン投与量",
           "d. 血小板数",
           "e. プロトロンビン時間"
-        ]
+        ],
+        answerImg: [emergency2023a21],
+        answer: "e",
+        commentary:"カテコラミンとは昇圧薬のことで昇圧薬を使っても血圧が上がらない場合、SOFAスコアが上昇する。"
       },{
-        questionSentence: "Q22 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前腕部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。胸部レントゲン写真で認めうる所見はどれか。　３つ選べ。",
+        questionSentence: "Q22 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前胸部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。胸部レントゲン写真で認めうる所見はどれか。　３つ選べ。",
         choices: [
           "(1) 左肺野のレントゲン透過性冗進",
           "(2) 上縦隔の開大",
           "(3) 肺動脈の拡張",
           "(4) 多発肋骨骨折",
           "(5) 左肺の虚脱",
-        ]
+        ],
+        answer:"1,4,5",
+        commentary:"多発肋骨骨折を起こすことによって気胸が生じ、気胸によって左肺が虚脱し、 肺が虚脱すれば、レントゲンの透過性は亢進する。"
       },
       {
-        questionSentence: "Q23 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前腕部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。広範囲熱傷患者の臨床経過について正しいものはどれか。2つ選べ。",
+        questionSentence: "Q23 広範囲熱傷患者の臨床経過について正しいものはどれか。2つ選べ。",
         choices: [
           "a. 受傷後から始まる閉塞性ショックに対する治療が初期に求められる",
           "b. 嗅声を訴える顔面熱傷では下気道閉塞が生じうる",
           "c. Curling潰瘍を合併することがある",
           "d. 深達性熱傷に対しては抗菌剤含有軟膏による保存的加療が第一選択である",
           "e. 胸部と背部の全周性三度熱傷患者では、救命のために焼痂切開が必要となる"
-        ]
+        ],
+        answerImg: [emergency2023a23_1, emergency2023a23_2],
+        answer:"c,e",
+        commentary:"a. 閉塞性ショックではなく、低容量性ショック b. 下気道閉塞ではなく、上気道閉塞(熱気を吸い込んだことによる気道入口の浮腫) d. 手術が必要　カーリング潰瘍とは、広範囲熱傷の患者さんが、ストレスにより発症する潰瘍です。 受傷後一週間以内に起こるとされています。 初期の症状は食欲不振、重度になると、突然の吐血や下血など、胃・十二指腸潰瘍と同じ症状が見られます。"
       },{
         questionSentence: "Q24 You’re called to a dialysis unit for emergency. When you arrive, you find a 53-year-old male in full arrest. The patient had just arrived and was not yet being dialyzed. He complained of shortness of breath, then collapsed. What rhythm disturbance is likely? Choose two from the options a, b, c, d, and e.",
         choices: [
@@ -9377,7 +9420,10 @@ export const useQuestionList = () => {
           "c. Atrial fibrillation",
           "d. Sinus tachycardia",
           "e. Second-degree AV block"
-        ]
+        ],
+        answer: "a,b",
+        answerImg: [emergency2023a24],
+        commentary:"[問題文日本語訳] あなたは緊急のために透析室に呼ばれました。 到着すると、心停止中の53歳の男性がいることがわかりました。 患者はちょうど到着し、まだ透析を受けていませんでした。 彼は息切れを訴え、その後倒れました。 どのリズム異常が考えられますか？ 選択肢a、b、c、d、eから2つ選んでください。[選択肢日本語訳] a. 心室細動または無脈性心室頻拍 b. PEA c. 心房細動 d. 洞頻拍 e. 2度房室ブロック",
       },
       {
         questionSentence: "Q25 How long do you check for breathing and pulse before performing chest compression?",
@@ -9387,7 +9433,10 @@ export const useQuestionList = () => {
           "c. 5 seconds",
           "d. No longer than 10 seconds",
           "e. No longer than 20 seconds"
-        ]
+        ],
+        answerImg: [emergency2023a25],
+        answer: "d",
+        commentary:"[問題文日本語訳] 胸骨圧迫を行う前に呼吸と脈を確認するのはどのくらいですか？ 選択肢a、b、c、d、eから選んでください。[選択肢日本語訳] a. 呼吸を確認せず、すぐに胸骨圧迫を開始します b. 2秒 c. 5秒 d. 10秒を超えない e. 20秒を超えない",
       },
     ]
     },
