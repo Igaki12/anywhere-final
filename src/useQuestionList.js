@@ -3070,7 +3070,7 @@ export const useQuestionList = () => {
         questionSentence: '焼死 (体)の概念について正しいものはどれか。すべて選べ。',
         choices: [
           '焼死とは火災によって生じた熱傷死のことである',
-          '焼死体とは火災によって“焼け死んだもの”をいう',
+          '焼死体とは火災によって"焼け死んだもの”をいう',
           '火災発生時にその人が生存していれば死体に焼死の生活反応が見られる',
           '焼死したものには焼死の生活反応と焼損所見とが合併する',
           '焼死体の死因としては内因性疾患を除くすべてが想定される'
@@ -3097,7 +3097,7 @@ export const useQuestionList = () => {
           '酩酊状態では体熱産生が著しいので凍死しにくい',
           '乳幼児は体熱産生が多いので凍死しにくい',
           '頭部外傷や薬物中毒は凍死の誘因となる',
-          '凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
+          '凍死の発生に関しては "寒冷暴露から逃げられない因子”が重要な意味を持つ'
         ],
         answer: '4,5',
       }, {
@@ -3232,7 +3232,7 @@ export const useQuestionList = () => {
             'All causes of death except endogenous diseases can be assumed for burned bodies'
           ],
           answer: '3,4',
-          commentary: '【原文問題文】焼死 (体)の概念について正しいものはどれか。すべて選べ。 【原文選択肢】焼死とは火災によって生じた熱傷死のことである, 焼死体とは火災によって“焼け死んだもの”をいう, 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる, 焼死したものには焼死の生活反応と焼損所見とが合併する, 焼死体の死因としては内因性疾患を除くすべてが想定される'
+          commentary: '【原文問題文】焼死 (体)の概念について正しいものはどれか。すべて選べ。 【原文選択肢】焼死とは火災によって生じた熱傷死のことである, 焼死体とは火災によって"焼け死んだもの”をいう, 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる, 焼死したものには焼死の生活反応と焼損所見とが合併する, 焼死体の死因としては内因性疾患を除くすべてが想定される'
         },
         {
           detailInfo: '6/18 (2)',
@@ -3258,7 +3258,7 @@ export const useQuestionList = () => {
             '"Factors that prevent escape from cold exposure" are important in the occurrence of death by freezing'
           ],
           answer: '4,5',
-          commentary: '【原文問題文】凍死の発生条件について正しいものはどれか。すべて選べ。 【原文選択肢】凍死は外気温が氷点下でないと発生しない, 酩酊状態では体熱産生が著しいので凍死しにくい, 乳幼児は体熱産生が多いので凍死しにくい, 頭部外傷や薬物中毒は凍死の誘因となる, 凍死の発生に関しては “寒冷暴露から逃げられない因子”が重要な意味を持つ'
+          commentary: '【原文問題文】凍死の発生条件について正しいものはどれか。すべて選べ。 【原文選択肢】凍死は外気温が氷点下でないと発生しない, 酩酊状態では体熱産生が著しいので凍死しにくい, 乳幼児は体熱産生が多いので凍死しにくい, 頭部外傷や薬物中毒は凍死の誘因となる, 凍死の発生に関しては "寒冷暴露から逃げられない因子”が重要な意味を持つ'
         },
         {
           detailInfo: '6/28 (1)',
@@ -4300,32 +4300,32 @@ export const useQuestionList = () => {
         },
         {
           questionImg: [certificateDeathTime],
-          questionSentence: '以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
+          questionSentence: '以下の事例(事例2)で、 死亡診断書or死体検案書 の判断、死亡した時刻を推定しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる"あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '死体検案書 死亡時刻は8日午前3時頃(推定)',
           answerImg: [forensic2022a3_2, forensic2022a3_3, forensic2022a3_4],
           commentary: '午前10時時点で硬直があったため、死亡時刻は午前0-4時の間と推定される。これは直腸温からの推定(7時間で31°Cに)とも合致する'
         },
         {
           questionImg: [certificatePlace],
-          questionSentence: '以下の事例(事例2)で死亡したところ及びその種別を説明しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
+          questionSentence: '以下の事例(事例2)で死亡したところ及びその種別を説明しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる"あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '死亡したところ：ホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）種別：7.その他',
           commentary: '死体発見場所がホテルであるため、その他の場所として記載する'
         },
         {
           questionImg: [certificateCause],
-          questionSentence: '以下の事例(事例2)で死亡の原因を記載しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
+          questionSentence: '以下の事例(事例2)で死亡の原因を記載しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる"あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '直接死因：覚醒剤中毒(短時間) ',
           commentary: 'ショックの種類も推定できない',
         },
         {
           questionImg: [certificateCauseType],
-          questionSentence: '以下の事例(事例2)で死因の種類を選択しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
+          questionSentence: '以下の事例(事例2)で死因の種類を選択しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる"あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認め られ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '7.中毒',
           commentary: '今回は日常的な服用があったことが確認されているため中毒に分類されるが、状況がはっきりしない場合は11. その他及び不祥の外因に分類される'
         },
         {
           questionImg: [certificateAdditionalInfo],
-          questionSentence: '以下の事例(事例2)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる“あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認められ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
+          questionSentence: '以下の事例(事例2)で追加事項や手術歴・解剖有無を(あれば)記入しなさい。氏名：諸星弾（男）現住所：奈良県陰陽市石田町123番地生年月日：昭和50年8月8日諸星弾は仕事の疲れでついつい覚醒剤に手を出してしまった。アルミに覚醒剤の粉を巻き，火であぶって吸引する，いわゆる"あぶり”である。吸引してしばらくすると頭がすきっとして，疲れが吹き飛んだ。月1〜2回の間隔で吸引していたが，もっと効き目がいいということで妻のすすめで静脈注射に切り替えた。令和3年10月7日午後8時に諸星はホテル（奈良県覚醒市幻覚町2丁目2番2号スッキリホテル222号室）に宿泊した。はじめての静脈注射で多少不安があったが，妻にもらった覚醒剤を水に溶かし，8日深夜に静脈に注射した。しばらくすると体が熱くなり意識もうろうとしてきた。8日午前10時になってもチェックアウトしないので，不審に思ったホテルマンが部屋を訪ねたところ，ベッドの上でうつ伏せで冷たくなっていた。救急隊がきたがすでに硬直があったため，病院に搬送せず警察に届けでたものである。警察が午前11時00分に仰向けにして検視をしたところ，部屋には注射器と白い粉末が発見されたため司法解剖することを決定した。検案解剖は橿原医科大学法医学教室一文字隼人医師が令和3年10月8日午後1時00分から行った。　[検案解剖所見] 死後硬直は各大関節高度で手，足指の関節は中等度である。死斑は体前面にはなく，体背面にて暗紫赤色高度で，指圧にて容易に退色しなかったが，強くおすと退色した。角膜の混濁は軽 度〜中等度で，瞳孔は左右同大である。直腸温は10月8日午後1時00分現在で31°C(室温は20°C)であった。解剖所見は各臓器のうっ血強く，心臓血は流動性で心外膜，腎盂粘膜，肺胸膜に溢血点が認められ，急死の所見を認めるのみであった。血液から致死濃度の覚醒剤が検出された。',
           answer: '解剖あり、各臓器のうっ血、心臓血の流動性、肺胸膜の溢血点を認め、急死の所見を呈する。致死濃度の覚せい剤を検出',
           answerImg: [certificate2_1, certificate2_2, certificate2_3, certificate2_4, certificate2_5],
           commentary: '急死の所見が薬物中毒と一致している。'
@@ -5262,7 +5262,7 @@ export const useQuestionList = () => {
     //     questionSentence: "焼死（体）の概念について正しいものはどれか。すべて選べ。",
     //     choices: [
     //         "a. 焼死とは、火災によって生じた熱傷死のことである。",
-    //         "b. 焼死体とは火災によって“焼け死んだもの”をいう。",
+    //         "b. 焼死体とは火災によって"焼け死んだもの”をいう。",
     //         "c. 火災発生時にその人が生存していれば死体に焼死の生活反応が見られる。",
     //         "d. 焼死したものには焼死の生活反応と熱損所見とが合併する。",
     //         "e. 焼死体の死因としては内因性疾患を除く全てが想定される。"
@@ -8503,6 +8503,650 @@ export const useQuestionList = () => {
       }
       ]
     },{
+      groupTag: "腫瘍疾患2022本 機械英訳",
+      groupContents:  [{
+        questionSentence: "Q1 Which of the following combinations regarding the diagnosis and treatment of malignant tumors is correct? Select two.",
+        choices: [
+          "1. The diagnosis includes existence diagnosis, qualitative diagnosis, and staging diagnosis, but staging diagnosis is not always necessary for treatment.",
+          "2. Pathological tissue diagnosis is essential in any situation to start treatment.",
+          "3. It is recommended to determine the treatment method through cancer boards following clinical guidelines.",
+          "4. Consider the patient's overall condition and complications comprehensively.",
+          "5. Depending on the stage and the patient's overall condition, treatment options include surgery, radiation therapy, chemotherapy, and immunotherapy."
+        ],
+        answer: "3,4",
+        commentary:"【原文問題文】 悪性腫瘍の診断・治療に関して正しい組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. 診断には存在診断、質的診断、病期診断があるが、治療に際して病期診断は必ずしも必要としない。 2. 治療を開始するためには、いかなる状況でも病理組織診断は必須である。 3. 診療ガイドラインに沿い、キャンサーポードを経て治療法を決定することが推奨される。 4. 患者の全身状態や合併症も考慮し、総合的に決定する。 5. 病期や患者の全身状態によって、手術療法、放射線療法、化学療法、免疫療法のいずれかを選んで治療を行う。"
+      },
+      {
+        questionSentence: "Q2 Which of the following statements about the treatment of malignant tumors is incorrect?",
+        choices: [
+          "a. Chemotherapy, one of the treatment methods, includes cytotoxic anticancer drugs, molecular targeted therapies, and immune checkpoint inhibitors.",
+          "b. It is not possible to perform surgery, radiation therapy, and chemotherapy on the same patient.",
+          "c. Surgery and radiation therapy are local therapies, while chemotherapy is a systemic therapy.",
+          "d. In the case of solid tumors, chemotherapy alone is not a curative treatment.",
+          "e. Chemotherapy has a radiosensitizing effect."
+        ],
+        answer: "b",
+        commentary: "【原文問題文】 悪性腫瘍の治療に関して誤っているのはどれか。 【原文選択肢】 a. 治療法の一つである薬物療法には、殺細胞性抗がん剤、分子標的治療薬、免疫チェックポイント阻害剤などが含まれる。 b. 手術療法、放射線療法、化学療法の全てを同一患者に施行することはない。 c. 手術療法と放射線療法は局所療法、化学療法は全身療法である。 d. 固形癌においては、化学療法単独では根治治療とはならない。 e. 化学療法には放射線療法の増感作用がある。"
+      },
+      {
+        questionSentence: "Q3 Which of the following combinations regarding radiation therapy for primary lung cancer is incorrect? Select two.",
+        choices: [
+          "1. To suppress tumor movement due to respiration, radiation is usually performed under breath-holding.",
+          "2. To suppress body movement during radiation, body fixation is generally used.",
+          "3. For locally advanced lung cancer, concurrent chemoradiotherapy is desirable.",
+          "4. In small cell lung cancer, the fractionation and total dose differ from those in non-small cell lung cancer.",
+          "5. The radiation field is determined according to the tumor histology as per the guidelines."
+        ],
+        answerImg: [oncology2022a3],
+        answer: "1,5",
+        commentary: "【原文問題文】 原発性肺癌に対する放射線治療に関して誤っている組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. 呼吸による腫瘍の動きを抑制するため、通常は呼吸停止下に照射する。 2. 照射中の体動を抑制するため、基本的に体固定して照射を行う。 3. 局所進行肺癌では、放射線治療と化学療法の同時併用が望ましい。 4. 小細胞肺癌では非小細胞肺癌と比べて、線量分割や総線量が異なる。 5. 照射範囲は腫瘍の組織型によって、ガイドラインで決まった通りに決定する。"
+      },
+      {
+        questionSentence: "Q4 Which of the following combinations regarding stereotactic radiation therapy for primary lung cancer is correct? Select two.",
+        choices: [
+          "1. The applicable stage is Stage 3.",
+          "2. Stereotactic radiation therapy cannot be performed for patients in poor general condition who cannot undergo surgery.",
+          "3. Compared to conventional radiation methods like 60Gy/30 times, it involves a higher dose per session and a higher total dose.",
+          "4. Compared to conventional radiation methods like 60Gy/30 times, it has a higher therapeutic effect on the tumor.",
+          "5. In stereotactic radiation therapy for tumors in the lung hilum, serious late adverse events on major blood vessels, etc., are a concern."
+        ],
+        answerImg: [oncology2022a4_1, oncology2022a4_2],
+        answer: "4,5",
+        commentary: "【原文問題文】 原発性肺癌に対する定位放射線治療において、正しい組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. 対象となる病期は3期である。 2. 手術療法を施行できない全身状態不良患者に対しては、定位放射線治療も施行できない。 3. 60Gy/30回のような通常の照射法と比較して、1回線量が多く、総線量も多い。 4. 60Gy/30回のような通常の照射法と比較して、腫瘍の治療効果は高い。 5. 肺門の腫瘍に対する定位放射線治療では、大血管などに対する重篤な晩期有害事象が危惧される。"
+      },
+      {
+        questionSentence: "Q5 Which of the following statements about surgical treatment for cancer is correct?",
+        choices: [
+          "a. Lymphatic metastasis is rare in cancer progression.",
+          "b. Minimally invasive surgery should not be used in cancer treatment.",
+          "c. Curability should be prioritized over organ function preservation.",
+          "d. The goal is to completely remove cancer microscopically rather than macroscopically.",
+          "e. Cancer staging is determined by the extent of the primary tumor, lymph node metastasis, and neural invasion."
+        ],
+        answerImg: [oncology2022a5],
+        answer: "d",
+        commentary: "【原文問題文】 がんの外科治療について、正しいのはどれか。 【原文選択肢】 a. 癌の進展においてリンパ行性転移は稀である。 b. 低侵襲手術は癌治療では用いるべきではない。 c. 根治性は臓器の機能温存よりも優先されるべきである。 d. 肉眼的よりも顕微鏡的に癌を取り切ることを目標とする。 e. がんのステージは原発腫瘍、リンパ節転移、神経浸潤の程度で決定される。"
+      },
+      {
+        questionSentence: "Q6 Which of the following statements about lymphatic metastasis of cancer is correct?",
+        choices: [
+          "a. Regional lymph node dissection is unrelated to curability.",
+          "b. Lymph node metastasis and hematogenous metastasis are unlikely to occur simultaneously.",
+          "c. In advanced colorectal cancer, the resected bowel should be as long as possible.",
+          "d. The definition of regional lymph nodes is common for gastric cancer, colorectal cancer, and pancreatic cancer.",
+          "e. Sentinel lymph node biopsy is widely used in breast cancer."
+        ],
+        answerImg: [oncology2022a6_1, oncology2022a6_2, oncology2022a6_3],
+        answer: "e",
+        commentary: "【原文問題文】 がんのリンパ行性転移について、正しいのはどれか。 【原文選択肢】 a. 領域リンパ節郭清は根治性とは無関係である。 b. リンパ節転移と血行性転移は同時にはおこりにくい。 c. 進行大腸癌において切除腸管はできるだけ長い方がよい。 d. 領域リンパ節の定義は胃癌、大腸癌、膵癌では共通である。 e. 乳癌においてセンチネルリンパ節生検は広く用いられている。"
+    },
+    {
+    questionSentence: "Q7 Which of the following antibody therapeutic agents has an affinity for PD-1?",
+    choices: [
+    "a. Nivolumab",
+    "b. Bevacizumab",
+    "c. Denosumab",
+    "d. Durvalumab",
+    "e. Necitumumab",
+    // "a. Nivolumab”,
+    // "b. Bevacizumab",
+    // "c. Denosumab”,
+    // "d. Durvalumab”,
+    // "e. Necitumumab”,
+    ],
+    answerImg: [oncology2022a7],
+    answer: "a",
+    commentary:"【原文問題文】 PD-1に親和性を持つ抗体治療薬はどれか。正しいものを一つ選べ。 【原文選択肢】 a. ニボルマブ, b. ベバシズマブ, c. デノスマブ, d. ドゥルバルマブ, e. ネシツマブ"
+    },{
+        questionSentence: "Q8 Which of the following statements about molecular targeted drugs (kinase inhibitors) is correct?",
+        choices: [
+          "a. Gefitinib has a lower frequency of liver dysfunction compared to erlotinib.",
+          "b. Crizotinib is more likely to cause visual disturbances compared to alectinib.",
+          "c. Osimertinib has a lower frequency of leukopenia compared to gefitinib.",
+          "d. Osimertinib is effective against the T790M resistance mutation but not against the 58R or ex19 deletion mutations.",
+          "e. Alectinib is effective against non-small cell lung cancer with ROS1 gene translocation."
+        ],
+        answer: "b",
+        commentary: "【原文問題文】 分子標的治療薬(キナーゼ阻害剤)についての記述で正しいのはどれか 【原文選択肢】 a. ゲフィチニプはエルロチニプと比較し、肝障害の頻度が低い。 b. クリゾチニプはアレクチニプと比較し、視覚障害を来しやすい。 c. オシメルチニプはゲフィチニプと比較し、白血球減少の頻度が低い。 d. オシメルチニプはT790M耐性変異に有効で、58R、ex19欠損変異には無効である。 e. アレクチニプはROSI遺伝子転座陽性の非小細胞肺癌に有効である。"
+      },
+      {
+        questionSentence: "Q9 What is the leading cause of death by disease per 100,000 population? Select one.",
+        choices: [
+          "a. Senility",
+          "b. Suicide",
+          "c. Heart disease",
+          "d. Pneumonia",
+          "e. Malignant neoplasm"
+        ],
+        answerImg: [oncology2022a9],
+        answer: "e",
+        commentary: "【原文問題文】 人口10万人当たりの疾患別死亡率の一位はどれか。正しいものを一つ選べ。 【原文選択肢】 a. 老衰, b. 自殺, c. 心疾患, d. 肺炎, e. 悪性新生物"
+      },
+      {
+        questionSentence: "Q10 In 2019, genetic panel testing was approved for advanced solid tumors. Which of the following statements about genetic panel testing is incorrect?",
+        choices: [
+          "a. It can decode a large amount of genetic information.",
+          "b. It is faster.",
+          "c. It has a high possibility of leading to molecular targeted drugs.",
+          "d. It may detect gene mutations related to hereditary tumors.",
+          "e. It uses tumor tissue."
+        ],
+        answerImg: [oncology2022a10],
+        answer: "c",
+        commentary: "【原文問題文】 進行固形がんに対し2019年遺伝子パネル検査が保険承認された。遺伝子パネル検査の説明として誤っているものはどれか。 【原文選択肢】 a. 大量の遺伝子情報を解読可能, b. 高速化, c. 分子標的薬に繋がる可能性は高い, d. 遺伝性腫瘍に関連する遺伝子変異を認める可能性がある, e. 腫瘍組織を用いる"
+      },
+      {
+        questionSentence: "Q11 What is the term for a clinical trial in which patients can be enrolled regardless of cancer type, as long as the drug targets a specific genetic mutation? Select one.",
+        choices: [
+          "a. Phase 1 trial",
+          "b. Umbrella trial",
+          "c. Phase 3 trial",
+          "d. Post-marketing clinical trial",
+          "e. Basket trial"
+        ],
+        answer: "e",
+        commentary: "【原文問題文】 臨床試験においてその薬剤が標的とする遺伝子変異があれば、どのタイプのがん腫でも登録できる試験のことを何というか。正しいものを一つ選べ。 【原文選択肢】 a. Phase 1試験, b. アンブレラ試験, c. Phase 3試験, d. 市販後臨床試験, e. バスケット試験"
+      },
+      {
+        questionSentence: "Q12 Which of the following gene abnormalities, for which molecular targeted drugs are approved, is incorrect? Select one.",
+        choices: [
+          "a. NTRK fusion gene",
+          "b. ROSI fusion gene",
+          "c. MSI-H (Microsatellite Instability-High)",
+          "d. TMB-High (Tumor Mutational Burden-High)"
+        ],
+        answerImg: [oncology2022a12],
+        answer: "b",
+        commentary: "【原文問題文】 分子標的薬が承認されている臓器横断的な遺伝子異常はどれか。誤っているものを選べ。 【原文選択肢】 a. NTRK融合遺伝子, b. ROSI融合遺伝子, c. MSI-H (高頻度マイクロサテライト不安定性), d. TMB-High (腫瘍遺伝子変異量高スコア)"
+      },
+      {
+        questionSentence: "Q13 Which of the following is not a supportive therapy? Select one.",
+        choices: [
+          "a. Oral care",
+          "b. Skin care",
+          "c. Administration of antiemetics",
+          "d. Blood transfusion",
+          "e. Administration of immune checkpoint inhibitors"
+        ],
+        answerImg: [oncology2022a13],
+        answer: "e",
+        commentary: "【原文問題文】 次のうち、支持療法ではないものを一つ選べ。 【原文選択肢】 a. 口腔ケア, b. 皮膚ケア, c. 制吐剤投与, d. 輸血, e. 免疫チェックポイント阻害薬投与"
+      },
+      {
+        questionSentence: "Q14 Which of the following is not a side effect of EGFR antibodies? Select one.",
+        choices: [
+          "a. Acne-like rash",
+          "b. Skin dryness",
+          "c. Paronychia",
+          "d. Hand-foot syndrome",
+          "e. Fissures in fingers"
+        ],
+        answerImg: [oncology2022a14],
+        answer: "d",
+        commentary: "【原文問題文】 次のうち、EGFR抗体による副作用として当てはまらないものはどれか、一つ選べ。 【原文選択肢】 a. 挫創様皮疹, b. 皮膚乾燥, c. 爪囲炎, d. 手足症候群, e. 手指の亀裂"
+      },
+      {
+        questionSentence: "Q15 Which of the following tumors is generally not indicated for curative radiation therapy?",
+        choices: [
+          "a. Prostate cancer",
+          "b. Laryngeal cancer",
+          "c. Fibrosarcoma",
+          "d. Cervical cancer",
+          "e. Lung cancer"
+        ],
+        answerImg: [oncology2022a15],
+        answer: "c",
+        commentary: "【原文問題文】 以下の腫瘍の内、一般的に根治的放射線治療の適応とならないものはどれか。 【原文選択肢】 a. 前立腺癌, b. 喉頭癌, c. 線維肉腫, d. 子宮頸癌, e. 肺癌"
+      },
+      {
+        questionSentence: "Q16 Which of the following combinations of cell cycle phases is most sensitive to radiation? Select two.",
+        choices: [
+          "1. M phase (Mitosis)",
+          "2. G0 phase (Resting phase)",
+          "3. G1 phase (Pre-DNA synthesis phase)",
+          "4. S phase (DNA synthesis phase)",
+          "5. G2 phase (Pre-mitosis phase)"
+        ],
+        answer: "1,5",
+        commentary: "【原文問題文】 以下の細胞周期の内、放射線感受性が最も高い組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. M期 (分裂期), 2. G0期 (静止期), 3. G1期 (DNA合成準備期), 4. S期 (DNA合成期), 5. G2期 (分裂準備期)"
+      },
+      {
+        questionSentence: "Q17 In the treatment of chronic myeloid leukemia, what is the specific inhibitory target induced by imatinib?",
+        choices: [
+          "a.Ligand-gated ion channels",
+      "b. MAP kinase",
+      "c. Nuclear receptors",
+      "d. Tyrosine kinase",
+      "e. G-protein coupled receptors"
+    ],
+    answerImg: [oncology2022a17],
+    answer: "d",
+    commentary: "【原文問題文】 慢性骨髄性白血病の治療において、イマチニブが誘導する薬物特異的な阻害作用の標的はどれか。 【原文選択肢】 a. リガンド依存性イオンチャネル, b. MAPキナーゼ, c. 核内受容体, d. チロシンキナーゼ, e. Gタンパク質共役型受容体"
+  },
+  {
+    questionSentence: "Q18 Which anti-cancer drug is most effective in the G2 phase of the cell cycle?",
+    choices: [
+      "a. Methotrexate",
+      "b. Paclitaxel",
+      "c. Bleomycin",
+      "d. Cytarabine",
+      "e. Irinotecan"
+    ],
+    answerImg: [oncology2022a18_2],
+    answer: "c",
+    commentary: "【原文問題文】 細胞周期のG2期において最も効果的な抗がん剤はどれか。 【原文選択肢】 a. メトトレキサート, b. パクリタキセル, c. ブレオマイシン, d. シタラビン, e. イリノテカン"
+  },
+  {
+    questionSentence: "Q19 Which of the following combinations of factors and cells that suppress tumor immunity is incorrect? Select two.",
+    choices: [
+      "1. IFN-γ - M2 (alternatively-activated) macrophages",
+      "2. CD28 - Helper T cells",
+      "3. PD-L1 - Tumor cells",
+      "4. PD-1 - Killer T cells",
+      "5. TGF-β - Regulatory T cells"
+    ],
+    answerImg: [oncology2022a19],
+    answer: "1,2",
+    commentary: "【原文問題文】 腫瘍免疫を抑制する因子とそれを発現する細胞の組合せについて誤っているものの組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. IFN-γ - M2 (alternatively-activated) macrophages, 2. CD28 - Helper T cells, 3. PD-L1 - Tumor cells, 4. PD-1 - Killer T cells, 5. TGF-β - Regulatory T cells"
+  },
+  {
+    questionSentence: "Q20 Which of the following combinations regarding tumor immunity is incorrect? Select two.",
+    choices: [
+      "1. Cancer stem cells have self-renewal ability.",
+      "2. Graft versus leukemia (GVL) promotes the proliferation of tumor cells.",
+      "3. Human papillomavirus (HPV) is involved in the carcinogenesis of endometrial cancer.",
+      "4. BCG, which also has immune-boosting effects, is used clinically for bladder cancer treatment.",
+      "5. Cancer Immunoediting explains the paradox of cancer growth despite the presence of immune surveillance mechanisms."
+    ],
+    answer: "2,3",
+    commentary: "【原文問題文】 腫瘍免疫について、誤っているものの組み合わせはどれか。 2つ選択せよ。 【原文選択肢】 1. がん幹細胞(Cancer stem cell)には自己複製能がある, 2. GVL (Graft versus leukemia)は腫瘍細胞の増殖を促す, 3. ヒトパピローマウイルスは子宮体癌の発癌に関与している, 4. 免疫賦活効果もあるBCGは臨床では膀胱癌の治療としても用いられている, 5. Cancer Immunoediting (がん免疫編集)とはがんに対する免疫監視機構が存在するにも関わらずがんが増殖してしまうという矛盾を説明する仮説である。"
+  },
+  {
+    questionSentence: "Q21 Which of the following combinations of cancer and risk factors is incorrect?",
+    choices: [
+      "a. Hepatocellular carcinoma - Hepatitis C virus infection",
+      "b. Esophageal cancer (adenocarcinoma) - Obesity",
+      "c. Endometrial cancer - Diabetes",
+      "d. Cervical cancer - HTLV-1 infection",
+      "e. Kidney cancer - Smoking"
+    ],
+    answer: "d",
+    commentary: "【原文問題文】 がんと危険因子の組み合わせで誤っているのはどれか。 【原文選択肢】 a. 肝細胞がん - C型肝炎ウイルス感染症, b. 食道がん(腺癌) - 肥満症, c. 子宮内膜がん - 糖尿病, d. 子宮頸がん - HTLV-1感染症, e. 腎臓がん - 喫煙"
+  },
+  {
+    questionSentence: "Q22 Which of the following statements about smoking control is incorrect?",
+    choices: [
+      "a. Smoking cessation treatment is covered by insurance.",
+      "b. New restaurants cannot have smoking rooms.",
+      "c. The Health Promotion Act stipulates measures to prevent passive smoking.",
+      "d. Minors are prohibited from entering smoking rooms.",
+      "e. Hospitals can set up indoor smoking areas with necessary measures."
+    ],
+    answerImg: [oncology2022a22_1, oncology2022a22_2, oncology2022a22_3],
+    answer: "e",
+    commentary: "【原文問題文】 喫煙対策について誤っているのはどれか。 【原文選択肢】 a. 保険診療で禁煙治療を受けられる, b. 新規飲食店には、喫煙可能室を設置できない, c. 健康増進法は受動喫煙防止について定めている, d. 喫煙可能室への、未成年従業員の立ち入りは禁止されている, e. 病院には、必要な措置を取ったうえで、屋内の喫煙場所を設置できる"
+  },
+  {
+    questionSentence: "Q23 Which of the following is not a biological characteristic of cancer cells?",
+    choices: [
+      "a. Ability to destroy the basement membrane",
+      "b. Resistance to apoptosis",
+      "c. Contact inhibition of cell proliferation",
+      "d. Weakening of cell adhesion mechanisms",
+      "e. Acquisition of telomerase activity"
+    ],
+    answer: "c",
+    commentary: "【原文問題文】 がん細胞の生物学的特性として適切でないのはどれか。 【原文選択肢】 a. 基底膜の破壊能, b. アポトーシス耐性, c. 細胞増殖の接触阻害, d. 細胞間接着機構の減弱, e. テロメラーゼ活性の獲得"
+  },
+  {
+    questionSentence: "Q24 Which of the following is not a biological characteristic of cancer cells?",
+    choices: [
+      "a. Cancer is a heterogeneous population of cells.",
+      "b. The P53 gene is a tumor suppressor gene.",
+      "c. DNA methylation can cause inactivation of tumor suppressor genes.",
+      "d. Cancerous lesions have rich blood flow due to angiogenesis by cancer.",
+      "e. Cancer cells that undergo epithelial-mesenchymal transition have enhanced motility."
+    ],
+    answer: "d",
+    commentary: "【原文問題文】 がん細胞の生物学的特性として適切でないのはどれか。 【原文選択肢】 a. がんは、不均一な細胞の集団である。 b. P53遺伝子は、がん抑制遺伝子である。 c. DNAのメチル化は、癌抑制遺伝子の不活化の原因となる。 d. がん病巣内は、がんの血管新生によって血流が豊富である。 e. Epithelial-Mesenchymal Transitionを起こしたがん細胞は、遊走能が亢進している。"
+  },
+  {
+    questionSentence: "Q25 Which of the following statements is incorrect?",
+    choices: [
+      "a. Pathological diagnosis is a medical act, not a test.",
+      "b. When requesting a pathological diagnosis, it is not necessary to record the medical history.",
+      "c. With small pathological specimens, the overall picture of the lesion cannot be grasped.",
+      "d. Pathological diagnosis is the basis for treatment policy.",
+      "e. It is possible to extract DNA fromformalin-fixed paraffin-embedded (FFPE) tissue specimens."
+    ],
+    answer: "b",
+    commentary: "【原文問題文】 以下の文章で誤っているのはどれか。 【原文選択肢】 a. 病理診断は医行為であり、検査ではない。 b. 臨床医が病理診断を依頼する際には、既往歴の記載は必要がない。 c. 小さな病理検体では、病変の全体像は把握できない。 d. 病理診断は治療方針の根拠となる。 e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAを抽出することは可能である。"
+  },
+  {
+    questionSentence: "Q26 Which gene has the highest frequency of therapeutic target gene abnormalities detected in Japanese lung adenocarcinoma?",
+    choices: [
+      "a. KRAS",
+      "b. BRAF",
+      "c. EGFR",
+      "d. HER2",
+      "e. ROS1"
+    ],
+    answerImg: [oncology2022a26],
+    answer: "c",
+    commentary: "【原文問題文】 日本人肺腺癌において最も高頻度で治療標的遺伝子異常が検出される遺伝子はどれか。 【原文選択肢】 a. KRAS, b. BRAF, c. EGFR, d. HER2, e. ROS1"
+  },
+  {
+    questionSentence: "Q27 Which of the following statements is correct? Select two.",
+    choices: [
+      "1. Humanized antibodies can reduce immune reactions to xenogeneic antibodies.",
+      "2. Tight junctions are composed of claudins.",
+      "3. Claudins are 7-pass transmembrane proteins.",
+      "4. Tight junctions form strong cell-cell adhesion in a calcium-dependent manner.",
+      "5. Tight junctions have barrier and fence functions and maintain the microenvironment between cells."
+    ],
+    answerImg: [oncology2022a27_1, oncology2022a27_2],
+    answer: "2,5",
+    commentary: "【原文問題文】 次の中から正しいものを選べ。2つ選択せよ。 【原文選択肢】 1. ヒト化抗体は異種抗体に対する免疫反応を低減できる, 2. タイトジャンクションはクラウディンにより構成されている, 3. クラウディンは7回膜貫通型タンパクである, 4. タイトジャンクションは強固な細胞間接着をCa依存性に生じる, 5. タイトジャンクションはバリア機能とフェンス機能を持ち、細胞間微小環境を保つ"
+  },
+  {
+    questionSentence: "Q28 Which of the following statements is correct? Select two.",
+    choices: [
+      "1. Cultured cells treated with anti-Claudin antibody showed cytotoxicity due to ADCC.",
+      "2. In a nude mouse experimental system, ADCC does not occur with the action of anti-Claudin antibody.",
+      "3. Disruption of tumor tight junctions inhibits tumor growth by allowing the outflow of growth factors within the tumor.",
+      "4. Disruption of tumor tight junctions enhances the migration of anticancer drugs into the tumor.",
+      "5. In antibody therapy, the expression level of the target protein does not correlate with the antibody effect."
+    ],
+    answerImg: [oncology2022a28_1, oncology2022a28_2],
+    answer: "3,4",
+    commentary: "【原文問題文】 次の中から正しいものを選べ。2つ選択せよ。 【原文選択肢】 1. 培養細胞を抗Claudin抗体で処理するとADCCにより細胞障害が生じた, 2. ヌードマウスの実験系で抗Claudin抗体を作用させてもADCCは生じない, 3. 腫瘍タイトジャンクションの障害により腫瘍内の増殖因子が流出し増殖が阻害される, 4. 腫瘍タイトジャンクションの障害により腫瘍内への抗癌剤移行が亢進する, 5. 抗体療法では、標的タンパクの発現量と抗体効果は相関しない"
+  },
+  {
+    questionSentence: "Q29 Which of the following statements about palliative care is correct?",
+    choices: [
+      "a. Palliative care starts after cancer treatment is completed.",
+      "b. Palliative care should be provided not only to cancer patients but also to their families.",
+      "c. The concept of total pain is not proposed in Japanese palliative care.",
+      "d. Economic issues of cancer patients should be handled by other healthcare providers, and physicians should focus on treatment.",
+      "e. The definition of palliative care by WHO does not include spiritual care."
+    ],
+    answerImg: [oncology2022a29_1, oncology2022a29_2],
+    answer: "b",
+    commentary: "【原文問題文】 緩和ケアについて正しいものを選べ。 【原文選択肢】 a. 緩和ケアはがん治療が終わってから開始する。 b. がん患者だけではなく、その家族にも行うべきである。 c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。 d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。 e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
+  },
+  {
+    questionSentence: "Q30 Which of the following statements about medical narcotics is correct?",
+    choices: [
+      "a. The patient complained of cancer pain, but since they were undergoing anticancer treatment, the use of medical narcotics was refrained.",
+      "b. The patient complained of cancer pain, but the family strongly condemned the use of narcotics, so the use of medical narcotics was refrained.",
+      "c. When the patient complained of cancer pain, the use of medical narcotics should be actively considered.",
+      "d. When starting medical narcotics, the use of NSAIDs that had been used until then was discontinued.",
+      "e. The use of medical narcotics should be limited to terminal cancer patients."
+    ],
+    answer: "c",
+    commentary: "【原文問題文】 医療用麻薬に関する記述のうち正しいものを選べ。 【原文選択肢】 a. 患者ががん性疼痛を訴えたが、抗がん治療中なので医療用麻薬の使用は控えた。 b. 患者ががん性疼痛を訴えたが、家族が麻薬の使用を強く非難してきたので、医療用麻薬の使用は控えた。 c. 患者ががん性疼痛を訴えた時、積極的に医療用麻薬の使用を考慮しなければいけない。 d. 医療用麻薬を開始した際、それまで使っていたNSAIDsの使用を中止した。 e. 医療用麻薬の使用は、終末期がん患者に限定しなければいけない。"
+  },
+  {
+    questionSentence: "Q31 Which of the following is correct about the course of the dying psychological stage advocated by Kübler Ross?",
+    choices: [
+      "a. depression → denial → bargaining → anger → acceptance",
+      "b. depression → anger → bargaining → denial → acceptance",
+      "c. denial → depression → bargaining → anger → acceptance",
+      "d. denial → anger → bargaining → depression → acceptance",
+      "e. anger → depression → bargaining → denial → acceptance"
+    ],
+    answerImg: [oncology2022a31],
+    answer: "d",
+    commentary: "【原文問題文】 Kübler Rossが提唱した死にゆく過程の心理的段階について、正しいものを選べ。 【原文選択肢】 a. 憤り → 否認 → 取引 → 怒り → 受容, b. 憤り → 怒り → 取引 → 否認 → 受容, c. 否認 → 憂鬱 → 取引 → 怒り → 受容, d. 否認 → 怒り → 取引 → 憂鬱 → 受容, e. 怒り → 憂鬱 → 取引 → 否認 → 受容"
+  },
+  {
+    questionSentence: "Q32 Which of the following statements iscorrect? Select two.",
+      choices: [
+        "1. Delirium is often seen in the terminal stages of cancer.",
+        "2. Delirium does not fall under the category of consciousness disorders.",
+        "3. Common mental symptoms in adjustment disorders in cancer patients include hallucinations and depression.",
+        "4. In principle, pharmacotherapy should not be performed for depression in cancer patients.",
+        "5. In cases of apathy and drowsiness in cancer patients, depression and hypoactive delirium should be considered."
+      ],
+      answerImg: [oncology2022a32],
+      answer: "1,5",
+      commentary: "【原文問題文】 次のうち正しいのはどれか。2つ選択せよ。 【原文選択肢】 1. せん妄は、がんの末期にみられることが多い。 2. せん妄は、意識障害の範疇には入らない。 3. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。 4. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。 5. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
+    },
+    {
+      questionSentence: "Q33 Which of the following combinations of cancer diseases or conditions and IVR is incorrect?",
+      choices: [
+        "a. Hepatocellular carcinoma - Transcatheter arterial embolization (TAE/TACE)",
+        "b. Obstructive jaundice - Stent placement",
+        "c. Metastatic osteolytic vertebral tumor - Percutaneous cement injection therapy/percutaneous vertebroplasty",
+        "d. Esophageal obstruction/severe stenosis - Percutaneous endoscopic gastrostomy",
+        "e. Metastatic liver tumor - Percutaneous radiofrequency ablation"
+      ],
+      answerImg: [oncology2022a33],
+      answer: "d",
+      commentary: "【原文問題文】 次の癌疾患やその病態とIVRの組み合わせのうち誤っているものはどれか。 【原文選択肢】 a. 肝細胞癌 - 経カテーテル的肝動脈塞栓術(TAE/TACE), b. 閉塞性黄疸 - ステント留置, c. 転移性溶骨性椎体骨腫瘍 - 経皮的セメント注入療法・経皮的椎体形成術, d. 食道閉塞・高度狭窄 - 経内視鏡的胃瘻造設術, e. 転移性肝腫瘍 - 経皮的ラジオ波凝固療法"
+    },
+    {
+      questionSentence: "Q34 Which of the following statements is incorrect?",
+      choices: [
+        "a. A reservoir is implanted when performing continuous intra-arterial infusion therapy.",
+        "b. Arterial embolization is contraindicated for main portal vein tumor thrombus.",
+        "c. Intra-arterial therapy achieves a high local effect by obtaining a high drug concentration at the lesion site, but side effects are increased.",
+        "d. Intra-arterial chemotherapy can be combined with systemic chemotherapy.",
+        "e. IVR is useful for palliative treatment of cancer."
+      ],
+      answer: "c",
+      commentary: "【原文問題文】 次のうち誤っているものはどれか。 【原文選択肢】 a. 持続動注療法を施行する場合にはリザーバーという埋め込み器具を挿入する。 b. 門脈本幹腫瘍栓では動脈塞栓術は禁忌となる。 c. 動注療法では病巣部局所の高い薬剤濃度が得られ高い局所効果が得られるが、副作用は多くなる。 d. 動注化学療法と全身化学療法を併用する場合がある。 e. IVRはがんに対する緩和治療にも役に立つ。"
+    },
+    {
+      questionSentence: "Q35 Which of the following combinations is correct? Select two.",
+      choices: [
+        "1. According to the Cancer Statistics '22 created by the Cancer Research Promotion Foundation, breast cancer has the highest incidence and mortality rates among cancers in women.",
+        "2. Breast-conserving therapy is a treatment that combines partial mastectomy and postoperative radiation therapy.",
+        "3. Regardless of the extent of the lesion, breast-conserving therapy is indicated for non-invasive cancer.",
+        "4. In postoperative irradiation for breast cancer, myelosuppression causes a state of immunosuppression, so care must be taken against infectious diseases.",
+        "5. Severe radiation pneumonitis is common in postoperative irradiation for breast cancer."
+      ],
+      answerImg: [oncology2022a35_1, oncology2022a35_2, oncology2022a35_3, oncology2022a35_4],
+      answer: "1,2",
+      commentary: "【原文問題文】 次のうち、正しい組み合わせはどれか。2つ選択せよ。 【原文選択肢】 1. がん研究振興財団作成の「がんの統計'22」によると、女性の癌の中では乳癌が、罹患率も死亡率も最も高い。 2. 乳房温存療法とは、乳房部分切除術と術後放射線治療を組み合わせた治療のことである。 3. 病変の進展範囲にかかわらず、非浸潤癌であれば乳房温存療法の適応となる。 4. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。 5. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
+    },
+    {
+      questionSentence: "Q36 Which of the following statements is correct?",
+      choices: [
+        "a. Squamous cell carcinoma is the most common skin cancer in Japanese people.",
+        "b. The first choice of treatment for basal cell carcinoma and squamous cell carcinoma is surgery.",
+        "c. The build-up effect refers to the phenomenon where the dose is higher slightly deeper than the skin surface when irradiating from the body surface.",
+        "d. The use of porous substances can enhance the radiosensitivity of skin cancer cells.",
+        "e. The purpose of radiation therapy for malignant skin tumors is mostly palliative."
+      ],
+      answerImg: [oncology2022a36_1, oncology2022a36_2],
+      answer: "c",
+      commentary: "【原文問題文】 次のうち、正しいものはどれか。 【原文選択肢】 a. 日本人の皮膚癌の中で最も多いのは有棘細胞癌である。 b. 基底細胞癌と有棘細胞癌に対する治療の第一選択は手術である。 c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。 d. ポーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。 e. 皮膚の悪性腫瘍に対する放射線治療の目的は、緩和目的であることがほとんどである。"
+    },
+    {
+      questionSentence: "Q37 Which of the following head and neck cancers is the first choice for chemoradiation therapy rather than surgery?",
+      choices: [
+        "a. Thyroid cancer",
+        "b. Parotid gland cancer",
+        "c. Nasopharyngeal cancer",
+        "d. Oropharyngeal cancer",
+        "e. Hypopharyngeal cancer"
+      ],
+      answerImg: [oncology2022a37_1, oncology2022a37_2],
+      answer: "c",
+      commentary: "【原文問題文】 次の頭頸部癌のうち、手術ではなく化学放射線治療が第1選択となるものはどれか。 【原文選択肢】 a. 甲状腺癌, b. 耳下腺癌, c. 上咽頭癌, d. 中咽頭癌, e. 下咽頭癌"
+    },
+    {
+      questionSentence: "Q38 Which of the following gastrointestinal cancers is the first choice for curative chemoradiation therapy over surgery?",
+      choices: [
+        "a. Gastric cancer",
+        "b. Ileal cancer",
+          "c. Descending colon cancer",
+          "d. Anal cancer",
+          "e. Lower bile duct cancer"
+        ],
+        answerImg: [oncology2022a38],
+        answer: "d",
+        commentary: "【原文問題文】 次の消化器癌のうち、手術よりも根治的化学放射線治療が第1選択となる疾患はどれか。 【原文選択肢】 a. 胃癌, b. 回腸癌, c. 下行結腸癌, d. 肛門癌, e. 下部胆管癌"
+      },
+      {
+        questionSentence: "Q39 Which of the following statements is correct?",
+        choices: [
+          "a. The main treatment for hematologic tumors is radiation therapy.",
+          "b. Hematologic tumors are generally radioresistant and often require doses of 60Gy or more.",
+          "c. Total body irradiation is effective for lymphomas with multiple lesions throughout the body.",
+          "d. It is said that 50% of people die within 60 days with a total body irradiation dose of 4Gy.",
+          "e. In total body irradiation, only acute adverse events are problematic."
+        ],
+        answerImg: [oncology2022a39, oncology2022a39_2],
+        answer: "c",
+        commentary: "【原文問題文】 次のうち、正しいものはどれか。 【原文選択肢】 a. 造血器腫瘍の治療のメインは放射線治療である。 b. 造血器腫瘍は基本的に放射線感受性が低いため、60Gy以上の照射線量が必要なことが多い。 c. 全身に多発する病変のあるリンパ腫に対する治療として、全身照射は有効である。 d. 全身に放射線を照射して60日以内に50%の人が死亡するのは4Gyとされている。 e. 全身照射の場合、問題となる有害事象は急性期のもののみである。"
+      },
+      {
+        questionSentence: "Q40 Which of the following combinations is incorrect? Select two.",
+        choices: [
+          "1. In the WHO classification of brain tumors, classification is based not only on morphology but also on genetic diagnosis.",
+          "2. In glioblastoma, perinecrotic palisading of nuclei is a characteristic pathological finding.",
+          "3. The standard treatment for glioblastoma is a combination of surgery, postoperative radiation therapy, and chemotherapy.",
+          "4. The standard dose for radiation therapy for glioblastoma is 25Gy/5 times.",
+          "5. The median survival time for glioblastoma is about 3 years."
+        ],
+        answerImg: [oncology2022a40_1, oncology2022a40_2],
+        answer: "4,5",
+        commentary: "【原文問題文】 次のうち、誤っている組み合わせはどれか。2つ選択せよ。 【原文選択肢】 1. 脳腫瘍のWHO分類では、形態学的分類だけではなく、遺伝子診断も組み合わせた分類となっている。 2. 膠芽腫(glioblastoma)の病理所見として、壊死巣周囲の核の柵状配列が特徴的な所見である。 3. 膠芽腫(glioblastoma)の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。 4. 膠芽腫(glioblastoma)に対する放射線治療として、標準的な線量は25Gy/5回である。 5. 膠芽腫(glioblastoma)の生存期間中央値はおよそ3年である。"
+      },
+      {
+        questionSentence: "Q41 Which of the following is the correct combination of parallel organs? Choose two.",
+        choices: [
+          "a. Liver",
+          "b. Optic nerve",
+          "c. Brain stem",
+          "d. Spinal cord",
+          "e. Lung"
+        ],
+        answer: "a,e",
+        commentary: "【原文問題文】 次のうち、並列器官の組み合わせとして正しいものはどれか。2つ選択せよ。 【原文選択肢】 a. 肝臓, b. 視神経, c. 脳幹, d. 脊髄, e. 肺"
+      },
+      {
+        questionSentence: "Q42 Which of the following statements is correct?",
+        choices: [
+          "a. Electron beams are used to treat deep-seated tumors.",
+          "b. X-rays have the highest dose at the surface and decrease as they penetrate deeper.",
+          "c. Proton beams have a Bragg peak.",
+          "d. In external radiation therapy, treatment is performed with beta rays and gamma rays generated by a linear accelerator.",
+          "e. In radiation therapy, lower energy X-rays are used compared to radiation diagnosis."
+        ],
+        answerImg: [oncology2022a42],
+        answer: "c",
+        commentary: "【原文問題文】 次の文章のうち、正しいものはどれか。 【原文選択肢】 a. 電子線は体内深部の腫瘍に対する治療で用いられる。 b. X線は体表面の線量が最大となり、深部にいくほど線量が減少する。 c. 陽子線はブラッグピークを持つ。 d. 外部放射線治療ではリニアックで発生させたベータ線とガンマ線で治療が行われる。 e. 放射線治療では放射線診断よりも低エネルギーのX線を用いる。"
+      },
+      {
+        questionSentence: "Q43 Which of the following adverse events is the latest to appear after radical radiation therapy for cervical cancer?",
+        choices: [
+          "a. Radiation sickness",
+          "b. Intestinal obstruction",
+          "c. Diarrhea",
+          "d. Skin redness",
+          "e. Frequent urination"
+        ],
+        answerImg: [oncology2022a43],
+        answer: "b",
+        commentary: "【原文問題文】 子宮頸癌に対する根治的放射線治療を行った。以下の有害事象のうち、最も遅く発現するものはどれか。 【原文選択肢】 a. 放射線宿酔, b. 腸閉塞, c. 下痢, d. 皮膚の発赤, e. 頻尿"
+      },
+      {
+        questionSentence: "Q44 Which of the following radioactive isotopes are used in brachytherapy for prostate cancer? Select two.",
+        choices: [
+          "1. Radium-223",
+          "2. Yttrium-90",
+          "3. Gallium-67",
+          "4. Iridium-192",
+          "5. Iodine-125"
+        ],
+        answerImg: [oncology2022a44],
+        answer: "4,5",
+        commentary: "【原文問題文】 以下の放射性同位元素のうち前立腺癌の密封小線源治療に用いられるものはどれか。2つ選択せよ。 【原文選択肢】 1. ラジウム223, 2. イットリウム90, 3. ガリウム67, 4. イリジウム192, 5. ヨウ素125"
+      },
+      {
+        questionSentence: "Q45 Which of the following statements is correct?",
+        choices: [
+          "a. Sarcoma is a non-epithelial malignant tumor.",
+          "b. Irradiating 60Gy to water raises the water temperature by more than 1°C.",
+          "c. X-rays are charged particle rays and have a range.",
+          "d. Round cell sarcoma can be easily differentiated with hematoxylin and eosin staining alone.",
+          "e. Surgery is not performed for soft tissue sarcoma because it is radiosensitive."
+        ],
+        answerImg: [oncology2022a45],
+        answer: "a",
+        commentary: "【原文問題文】 次のうち正しいものはどれか。 【原文選択肢】 a. 肉腫は非上皮性の悪性腫瘍である。 b. 60Gyを水に照射すると1℃以上水温が上昇する。 c. X線は荷電粒子線なので飛程がある。 d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。 e. 軟部肉腫は放射線感受性であるため手術を行うことはない。"
+      },
+      {
+        questionSentence: "Q46 Which of the following schedules for palliative irradiation of bone metastases is least appropriate?",
+        choices: [
+          "a. 8Gy / 1 time",
+          "b. 20Gy / 5 times",
+          "c. 30Gy / 10 times",
+          "d. 37.5Gy / 15 times",
+          "e. 60Gy / 30 times"
+        ],
+        answerImg: [oncology2022a46],
+        answer: "e",
+        commentary: "【原文問題文】 骨転移に対する緩和照射のスケジュールとして最も適切でないと思われるものはどれか。 【原文選択肢】 a. 8Gy / 1回, b. 20Gy / 5回, c. 30Gy / 10回, d. 37.5Gy / 15回, e. 60Gy / 30回"
+      },
+      {
+        questionSentence: "Q47 For a screening test with 80% sensitivity and 80% specificity for a disease with a prevalence of 1% among 1000 people, which of the following statements is correct? Select two.",
+        choices: [
+          "1. Eight people with the disease will test positive.",
+          "2. 198 people will test positive.",
+          "3. 794 people without the disease will test negative.",
+          "4. The positive predictive value (accuracy) is about 96.2%.",
+          "5. The negative predictive value (accuracy) is about 99.7%."
+        ],
+        answerImg: [oncology2022a47],
+        answer: "1,5",
+        commentary: "【原文問題文】 対象者1000人について、その有病率が1%の疾患に対して、感度80%、特異度80%のスクリーニング検査を実施した場合、正しいものはどれか。2つ選択せよ。 【原文選択肢】 1. 疾患があり、検査が陽性を示すのは8人である, 2. 検査が陽性を示すのは198人である, 3. 疾患がなく、検査が陰性を示すのは794人である, 4. 陽性予測値(的中率)は約96.2%である, 5. 陰性予測値(的中率)は約99.7%である"
+      },
+      {
+        questionSentence: "Q48 Which of the following statements is incorrect?",
+        choices: [
+          "a. Serum P53 antibodies are autoantibodies against overexpressed P53 protein.",
+          "b. PIVKA-II shows high values in patients taking warfarin (vitamin K antagonist).",
+          "c. HER2 expression in breast cancer tissue serves as a marker for using molecular targeted therapy.",
+          "d. Most tumor markers are not useful for the early detection of primary cancer.",
+          "e. Tumor markers are not used to evaluate the effectiveness of surgery or chemotherapy."
+        ],
+        answerImg: [oncology2022a48_1, oncology2022a48_2, oncology2022a48_3],
+        answer: "e",
+        commentary: "【原文問題文】 誤っているものはどれか。 【原文選択肢】 a. 血清P53抗体は過剰発現したP53蛋白に対する自己抗体である。 b. PIVKA-IIはワーファリン(ビタミンK拮抗薬)投与患者では高値を示す。 c. 乳癌組織におけるHER2発現は分子標的治療薬を使用する目安になる。 d. ほとんどの腫瘍マーカーは、初発のがんの早期発見に有用でない。 e. 腫瘍マーカーは手術や化学療法の効果判定には用いられない。"
+      },
+      {
+        questionSentence: "Q49 Which of the following statements is incorrect?",
+        choices: [
+          "a. Organized cervical cancer screening is targeted from the age of 20.",
+          "b. Overdiagnosis is one of the disadvantages of cancer screening.",
+          "c. Organized breast cancer screening involves mammography once every two years.",
+          "d. Health checkups aim to detect specific diseases and treat them early.",
+          "e. Organized screening aims to reduce the mortality rate of the target population."
+        ],
+        answerImg: [oncology2022a49_1, oncology2022a49_2],
+        answer: "d",
+        commentary: "【原文問題文】 誤っているものはどれか。 【原文選択肢】 a. 対策型子宮がん検診は20歳から対象となる, b. 過剰診断はがん検診のデメリットの一つである, c. 対策型乳がん検診ではマンモグラフィを2年に1回実施する, d. 健診は特定の病気を発見して早期に治療することを目的としている, e. 対策型検診は対象となる集団の死亡率を下げることを目的としている"
+      },
+      {
+        questionSentence: "Q50 Which of the following statements is incorrect?",
+        choices: [
+          "a. Low-dose CT is used for organized lung cancer screening.",
+          "b. The breast cancer screening rate in Japan is lower compared to Western countries.",
+          "c. Endoscopic examination is conducted for organized gastric cancer screening.",
+          "d. Psychological burden is one of the disadvantages of cancer screening.",
+          "e. CT colonoscopy is used for organized colorectal cancer screening."
+        ],
+        answerImg: [oncology2022a50_1, oncology2022a50_2],
+        answer: "e",
+        commentary: "【原文問題文】 誤っているものはどれか。 【原文選択肢】 a. 対策型肺がん検診では低線量CTが行われる, b. 日本の乳がん検診受診率は欧米に比べて低い, c. 対策型胃がん検診では胃内視鏡検査が行われる, d. 心理的な負担はがん検診のデメリットの一つである, e. 対策型大腸がん検診ではCTコロノスコピーが行われる"
+      }
+      ]
+    },
+    {
       groupTag: "腫瘍疾患2023本試験",
       groupContents: [
         {
@@ -9128,6 +9772,635 @@ export const useQuestionList = () => {
         },
       ]
     },{
+      groupTag: "腫瘍疾患2023本 機械英訳",
+      groupContents: [
+        {
+          questionSentence: "Which disease has the highest mortality rate per 100,000 population?",
+          choices: [
+            "a. Senility",
+            "b. Suicide",
+            "c. Heart disease",
+            "d. Pneumonia",
+            "e. Malignant neoplasm"
+          ],
+          answerImg: [oncology2023a1],
+          answer: "e",
+          commentary:""
+        },
+        {
+          questionSentence: "Which of the following is correct regarding cancer pharmacotherapy?",
+          choices: [
+            "a. Immune checkpoint inhibitors can cause various immune-related adverse events in all organs.",
+            "b. Targeted molecular drugs have almost no side effects as they specifically attack cancer cells.",
+            "c. Gastrointestinal toxicity is the dose-limiting toxicity for many cytotoxic anticancer drugs.",
+            "d. Alopecia is almost inevitable with cytotoxic anticancer drugs.",
+            "e. Therapeutic administration of G-CSF is performed when leukopenia is observed with cytotoxic anticancer drugs."
+          ],
+          answerImg: [oncology2023a2],
+          answer: "a",
+          commentary:"【原文問題文】 がん薬物療法について、正しいのはどれか。 【原文選択肢】 a. 免疫チェックポイント阻害薬では全身の臓器に様々な免疫関連有害事象が起こる。 b. 分子標的薬はがん細胞をピンポイントで攻撃するので副作用はほとんどない。 c. 多くの殺細胞性抗がん剤で用量制限毒性となるのは消化器毒性である。 d. 殺細胞性抗がん剤では脱毛はほぼ必発である。 e. 殺細胞性抗がん剤で白血球減少がみられた場合はG-CSFの治療的投与を行う。"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding surgical treatment of cancer?",
+          choices: [
+            "a. Hematogenous metastasis is rare in cancer progression.",
+            "b. Organ function preservation should be prioritized over radicality.",
+            "c. Minimally invasive surgery is becoming common in cancer treatment.",
+            "d. Complete microscopic resection of the tumor ensures a cure.",
+            "e. Cancer staging is determined by the primary tumor, lymph node metastasis, and the extent of local progression."
+          ],
+          answerImg: [oncology2023a3],
+          answer: "c",
+          commentary:"【原文問題文】 がんの外科治療について、正しいのはどれか。 【原文選択肢】 a. 癌の進展において血行性転移は稀である。 b. 臓器の機能温存は根治性よりも優先されるべきである。 c. 低侵襲手術は癌治療でも用いられるようになってきている。 d. 顕微鏡的に癌の遺残なく腫瘍を切除できれば全て根治できる。 e. がんのステージは原発腫瘍、リンパ節転移、局所進展の程度で決定される。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding organized cancer screening in Japan?",
+          choices: [
+            "a. Cervical cancer screening is targeted from the age of 20.",
+            "b. Endometrial cancer screening is targeted from the age of 40.",
+            "c. Overdiagnosis is one of the disadvantages of cancer screening.",
+            "d. Mammography is performed every two years in breast cancer screening.",
+            "e. The ultimate goal of organized cancer screening is not early detection of cancer."
+          ],
+          answerImg: [oncology2023a4],
+          answer: "b",
+          commentary:"【原文問題文】 日本における対策型がん検診について誤っているのはどれか。 【原文選択肢】 a. 子宮頚がん検診は20歳からが対象となる。 b. 子宮体がん検診は40歳からが対象となる。 c. 過剰診断はがん検診の不利益の一つである。 d. 乳がん検診ではマンモグラフィを2年に1回実施する。 e. 対策型がん検診の最終目的はがんの早期発見ではない。"
+        },
+        {
+          questionSentence: "Which of the following is NOT cancer caused by infections? Choose two.",
+          choices: [
+            "a. Cervical cancer",
+            "b. Gastric cancer",
+            "c. Hepatocellular carcinoma",
+            "d. Breast cancer",
+            "e. Colon cancer"
+          ],
+          answerImg: [oncology2023a5],
+          answer: "d,e",
+          commentary:"【原文問題文】 次のうち、感染によって引き起こされるがんでないものはどれか。2つ選択せよ。 【原文選択肢】 a. 子宮頸がん, b. 胃がん, c. 肝細胞がん, d. 乳がん, e. 大腸がん"
+        },
+        {
+          questionSentence: "Which of the following is correct about the course of the dying psychological stage advocated by Kübler-Ross?",
+          choices: [
+            "a. Depression → Denial → Bargaining → Anger → Acceptance",
+            "b. Depression → Anger → Bargaining → Denial → Acceptance",
+            "c. Denial → Depression → Bargaining → Anger → Acceptance",
+            "d. Denial → Anger → Bargaining → Depression → Acceptance",
+            "e. Anger → Depression → Bargaining → Denial → Acceptance"
+          ],
+          answer: "d",
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding the immune mechanism against tumors?",
+          choices: [
+            "a. Dendritic cells uptake apoptotic tumor cells and present antigens.",
+            "b. CD8+ T cells recognize antigens presented by MHC class II molecules and become activated.",
+            "c. CD4+ T cells produce IL-2 and promote the proliferation of CD8+ T cells.",
+            "d. CD8+ T cells express Fas ligand and induce apoptosis in tumor cells.",
+            "e. CD8+ T cells release perforin and granzyme B to kill tumor cells."
+          ],
+          answerImg: [oncology2023a7],
+          answer: "b",
+          commentary:"【原文問題文】 腫瘍に対する免疫機構について誤っているものはどれか。 【原文選択肢】 a. 樹状細胞はアポトーシスを起こしたがん細胞を取り込んで抗原提示する。 b. CD8+T細胞はMHCクラスII分子に提示された抗原を認識して活性化する。 c. CD4+T細胞はIL-2を産生し、CD8+T細胞の増殖を促進する。 d. CD8+T細胞はFasリガンドを発現し、腫瘍細胞にアポトーシスを誘導する。 e. CD8+T細胞はパーフォリンとグランザイムBを放出し、腫瘍細胞を殺傷する。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding IVR for hepatocellular carcinoma?",
+          choices: [
+            "a. Radiofrequency ablation is useful for hepatocellular carcinoma up to 3 cm in size and up to 3 nodules.",
+            "b. Selective hepatic artery embolization preserves liver function and has better local therapeutic effects compared to whole liver embolization.",
+            "c. Transarterial chemoembolization (TACE) is indicated for portal vein tumor thrombus.",
+            "d. Microspheres are useful embolic agents in hepatic artery embolization for patients with poor liver function and elderly patients.",
+            "e. IVR is also useful for extrahepatic metastasis of hepatocellular carcinoma."
+          ],
+          answerImg: [oncology2023a8],
+          answer: "c",
+          commentary:"【原文問題文】 肝細胞癌に対するIVRのうち誤っているものはどれか？ 【原文選択肢】 a. ラジオ波凝固療法は3cm以下、3個までの肝細胞癌に対して有用である。 b. 選択的肝動脈塞栓術は肝機能を温存し、かつ肝全体に対する塞栓術と比較して局所治療効果は向上する。 c. 肝動脈化学塞栓術は門脈本幹腫瘍栓に対しても適応となる。 d. 肝機能不良や高齢者に対する肝動脈塞栓術においてマイクロスフィアは有用な塞栓物質である。 e.肝細胞癌肝外転移に対してもIVRは有用である。"
+    },
+    {
+      questionSentence: "Which of the following treatments is considered inappropriate?",
+      choices: [
+        "a. A patient with prostate cancer with multiple bone metastases was receiving endocrine therapy, but bone scintigraphy showed worsening bone metastases. There were no specific symptoms at present. After confirming the absence of visceral metastases and spinal canal involvement by CT and meeting the blood test criteria, internal therapy with a radium preparation was administered with sufficient informed consent.",
+        "b. A patient with lung adenocarcinoma had a metastasis to the third lumbar vertebra. There were no symptoms other than pain, and MRI showed no spinal canal involvement. Although the patient visited on a Friday, the pain was severe, and the patient could not remain still, so the patient was referred to the palliative care department. After achieving some pain relief with analgesics, palliative irradiation for pain relief was scheduled for the following week.",
+        "c. A patient with squamous cell carcinoma of the lung was found to have brain metastasis. Although it was a single metastasis, it was 5 cm in size, causing midline shift and the possibility of brain herniation. Before radiotherapy, consultation with neurosurgery for surgical indications was performed.",
+        "d. A patient with rectal cancer was found to have brain metastasis. Although there were 9 metastases on contrast-enhanced MRI, they were not large, and there were no specific neurological symptoms. Considering the control of lesions outside the brain and the patient's relatively young and healthy status, stereotactic radiotherapy was chosen with sufficient informed consent.",
+        "e. A patient with squamous cell carcinoma of the esophagus was brought to the emergency room due to sudden leg weakness and inability to walk since yesterday. MRI showed a metastasis to the 11th thoracic vertebra compressing the spinal cord. After consulting with orthopedics, it was determined that surgery was not indicated, and the patient was referred to the radiation oncology department. Since it was Friday, radiotherapy was scheduled to begin on Monday."
+      ],
+      answer:"e？",
+      commentary:"【原文問題文】 次のうち、適切でないと思われる治療はどれか。 【原文選択肢】 a. 多発骨転移のある前立腺癌患者に対して内分泌療法が行われてきたが、骨シンチで骨転移の増悪がみられており、ラジウム製剤の内用療法の依頼があった。現在、特に症状はない。CTで内臓転移や脊柱管内進展がないことを確認し、血液検査も投与基準を満たしていることなどを確認してから、十分なI.C.の上で内用療法を行った。 b. 肺腺癌の患者に第3腰椎転移がみつかった。痛み以外の症状はなく、MRIで脊柱管内進展もみられていない。金曜日の受診であったが、痛みが強く、安静保持が全く出来ないため、緩和ケア科にコンサルトし、鎮痛剤で鎮痛緩和がある程度得られてから、翌週に除痛目的の緩和照射を行うことにした。 c. 肺扁平上皮癌の患者に脳転移がみつかった。造影MRIで単発であるが5cm大と大きく、midline shiftもあり、脳ヘルニアも懸念される状況であった。放射線治療を行う前に、脳外科に手術適応をコンサルトした。 d. 直腸癌の患者に脳転移がみつかった。造影MRIでは9個とやや数が多いが、大きいものはなく、特段の神経学的症状も認めていない。脳以外の病変は制御されており、比較的若くて元気であることも考慮して、十分なI.C.の上で定位放射線治療を行うこととした。 e. 食道扁平上皮癌の患者が昨日から足の力がなくなり、急に歩けなくなったと救急搬送された。MRIで第11胸椎転移が脊髄を圧迫しており、それによる症状だと考えられた。整形外科を受診し、手術適応はないこと、下肢の筋力低下は進行しており、第11胸椎転移によるもので矛盾しないとされ、放射線治療科を受診された。金曜日であったので、週明けの月曜日から放射線治療を行うことにした。"
+    },
+    {
+      questionSentence: "A 55-year-old woman with breast cancer presented to the emergency room with 38.5℃ fever since this morning. She had chemotherapy in clinic with cyclophosphamide and doxorubicin 10 days ago. She did not have any other symptoms. PCR for COVID-19 was negative. Blood examination revealed that her neutrophil count was 400/μL. What should you do at first in the emergency room? Select correct answers from the list below. Choose two.",
+      choices: [
+        "a. Perform two sets of blood cultures",
+        "b. Start empirical antimicrobial therapy",
+        "c. Perform bone marrow aspiration",
+        "d. Perform mammography",
+        "e. Observation"
+      ],
+      answerImg: [oncology2023a10],
+      answer: "a,b",
+      commentary:"※発熱性好中球減少症：FN 【原文問題文】 乳がんの女性（55歳）が、今朝から38.5℃の発熱を訴えて救急外来を受診した。10日前にシクロホスファミドとドキソルビシンで化学療法を受けた。他の症状はない。COVID-19のPCR検査は陰性であった。血液検査では好中球数が400/μLであった。救急外来で最初に何を行うべきか？以下の選択肢から正しいものを2つ選択せよ。 【原文選択肢】 a. 血液培養を2セット行う, b. 抗菌薬の経験的治療を開始する, c. 骨髄穿刺を行う, d. 乳房X線撮影を行う, e. 経過観察"
+    },
+    {
+      questionSentence: "Which of the following is correct? Choose two.",
+      choices: [
+        "a. Humanized antibodies can reduce immune reactions against xenogeneic antibodies.",
+        "b. Tight junctions are composed of claudins.",
+        "c. Claudins are seven-transmembrane proteins.",
+        "d. Tight junctions form strong cell-cell adhesions in a calcium-dependent manner.",
+        "e. Tight junctions have barrier and fence functions, maintaining the microenvironment between cells."
+      ],
+      answerImg: [oncology2023a11_1, oncology2023a11_2],
+      answer: "a,e",
+      commentary:"【原文問題文】 正しいものはどれか。2つ選択せよ。 【原文選択肢】 a. ヒト化抗体は異種抗体に対する免疫反応を低減できる。 b. tight junctionはclaudinにより構成されている。 c. claudinは7回膜貫通型タンパクである。 d. tight junctionは強固な細胞間接着をCa依存性に生じる。 e. tight junctionはbarrier作用とfence作用を有し細胞間微小環境を保つ。"
+    },
+    {
+      questionSentence: "Which of the following is correct?",
+      choices: [
+        "a. K-ras gene is a tumor suppressor gene.",
+        "b. DNA methylation causes inactivation of tumor suppressor genes.",
+        "c. Oxygen partial pressure in the cancerous lesion is higher than in normal tissues due to tumor angiogenesis.",
+        "d. E-cadherin anchors cells to the basement membrane through integrins.",
+        "e. Telomerase immortalizes cancer cells by inhibiting telomere elongation."
+      ],
+      answerImg: [oncology2023a12],
+      answer: "b",
+      commentary:"【原文問題文】 正しいものはどれか。 【原文選択肢】 a. K-ras遺伝子は、がん抑制遺伝子である。 b. DNAのメチル化は、癌抑制遺伝子の不活化の原因となる。 c. がん病巣内は、がんの血管新生によって正常組織より酸素分圧が高い。 d. E-カドヘリンは、インテグリンを介して細胞を基底膜と接着させている。 e. テロメラーゼは、テロメアの伸長を抑制することでがん細胞を不死化する。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding multidisciplinary treatment of malignant tumors?",
+          choices: [
+            "a. Multidisciplinary treatment involves combining surgery, pharmacotherapy, and radiotherapy.",
+            "b. Depending on the type and stage of the tumor, single-modality treatment may be sufficient, and multidisciplinary treatment may not always be necessary.",
+            "c. Immunotherapy using immune checkpoint inhibitors can be part of pharmacotherapy.",
+            "d. Treatment methods are determined solely by the responsible clinical department to avoid confusion between departments.",
+            "e. Treatment methods are determined comprehensively considering the patient's performance status and comorbidities."
+          ],
+          answer: "d",
+          commentary:"【原文問題文】 悪性腫瘍に対する集学的治療について、誤っているものはどれか。 【原文選択肢】 a. 集学的治療とは、手術療法、薬物療法、放射線治療などを組み合わせて治療をすることである。 b. 腫瘍の種類や進行度によっては、単独の治療でも十分な場合もある。その際には必ずしも集学的治療を必要としない。 c. 薬物療法には免疫チェックポイント阻害剤を用いた治療が含まれることもある。 d. 治療法は、部門間での混乱を招かないよう、担当となる診療科単独で決定する。 e. 治療法は、患者のパフォーマンスステータスや合併症も考慮して総合的に決定する。"
+        },
+        {
+          questionSentence: "Which of the following is a serial organ?",
+          choices: [
+            "a. Spinal cord",
+            "b. Parotid gland",
+            "c. Lung",
+            "d. Liver",
+            "e. Kidney"
+          ],
+          answer: "a",
+          commentary:"【原文問題文】 直列臓器はどれか。 【原文選択肢】 a. 脊髄 b. 耳下腺 c. 肺 d. 肝臓 e. 腎臓"
+        },
+        {
+          questionSentence: "Which of the following is not an appropriate biological characteristic of cancer cells?",
+          choices: [
+            "a. Invasive potential",
+            "b. Contact inhibition",
+            "c. Autonomous proliferation",
+            "d. Angiogenesis",
+            "e. Immortalization"
+          ],
+          answer: "b",
+          commentary:"【原文問題文】 次のうち、がん細胞の生物学的特性として適切でないものはどれか。 【原文選択肢】 a. 浸潤性 b. 接触阻害 c. 自律増殖 d. 血管新生 e. 不死化"
+        },
+        {
+          questionSentence: "When is the appropriate timing for gene panel testing?",
+          choices: [
+            "a. BSC (best supportive care)",
+            "b. At the time of radical resection",
+            "c. PS3",
+            "d. At the diagnosis of advanced colorectal cancer",
+            "e. At the diagnosis of rare cancers"
+          ],
+          answerImg: [oncology2023a16],
+          answer: "e",
+          commentary:"【原文問題文】 遺伝子パネル検査の検査タイミングついて、正しいものはどれか。 【原文選択肢】 a. BSC (best supportive care) b. 根治的切除時 c. PS3 d. 進行大腸がんの診断時 e. 希少がんの診断時"
+        },
+        {
+          questionSentence: "Which of the following combinations is incorrect regarding IVR?",
+          choices: [
+            "a. Painful bone metastasis - Bone cement injection therapy",
+            "b. Renal cell carcinoma - Percutaneous cryoablation",
+            "c. Superior vena cava syndrome - Stent angioplasty",
+            "d. Postoperative arterial bleeding - Transcatheter angioplasty",
+            "e. Biliary obstruction due to pancreatic cancer - Percutaneous biliary drainage"
+          ],
+          answerImg: [oncology2023a17],
+          answer: "d",
+          commentary:"【原文問題文】 IVRの組み合わせで間違っているものはどれか。 【原文選択肢】 a. 有痛性骨転移 - 骨セメント注入療法 b. 腎細胞癌 - 経皮的凍結治療 c. 上大静脈症候群 - ステントによる血管拡張術 d. 術後動脈性出血 - 経カテーテル的血管形成術 e. 膵癌による胆道閉塞 - 経皮的胆管ドレナージ術"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding the diagnosis of malignant tumors?",
+          choices: [
+            "a. Detailed patient interviews are not necessary as examinations are the main focus.",
+            "b. It is recommended to measure all possible tumor markers in blood tests.",
+            "c. For high-incidence malignant tumors, CT or endoscopy should be performed on all patients, even if asymptomatic.",
+            "d. If a highly confident imaging diagnosis is obtained, pathological diagnosis through specimen collection is not necessary.",
+            "e. Both diagnosis and staging are essential for determining the treatment plan."
+          ],
+          answer: "e",
+          commentary:"【原文問題文】 悪性腫瘍の診断に関して、正しいものはどれか。 【原文選択肢】 a. 検査が主体となるため、患者への問診を詳細に行う必要はない。 b. 血液検査では、測定し得る全ての腫瘍マーカーを測定することが推奨される。 c. 罹患率の高い悪性腫瘍については症状がなくてもCTや内視鏡で全例検査する。 d. 画像で確信度の高い画像診断が得られた場合は、検体採取による病理診断は必要ない。 e. 診断名のみならず、病期診断も治療方針決定に不可欠である。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding stereotactic radiotherapy for primary lung cancer?",
+          choices: [
+            "a. It is recommended to deliver a dose of 2 Gy per fraction with a total dose of over 60 Gy.",
+            "b. Compared to conventional radiotherapy with opposing two-port technique, stereotactic radiotherapy has a higher dose per fraction and shorter treatment period.",
+            "c. Compared to conventional radiotherapy with opposing two-port technique, stereotactic radiotherapy has higher local therapeutic efficacy.",
+            "d. For central tumors such as those near the hilum, the dose per fraction should be reduced.",
+            "e. Simultaneous irradiation of both hilar regions is not allowed."
+          ],
+          answerImg: [oncology2023a19],
+          answer: "a",
+          commentary:"【原文問題文】 原発性肺癌に対する定位放射線治療について、誤っているものはどれか。 【原文選択肢】 a. 1回2Gy照射し、総線量は60Gy以上を行うよう勧められる。 b. 対向二門法のような従来の放射線治療と比べ、一回線量が多く治療期間が短い。 c. 対向二門法のような従来の放射線治療と比べ、局所の治療効果は高い。 d. 肺門部などの中枢性腫瘍に対する治療では1回線量を下げる。 e. 両側肺門への同時照射は許容されない。"
+        },
+        {
+          questionSentence: "Choose the correct answer for the combination of expressing-cells.",
+          choices: [
+            "a. PD-L1 --- Cytotoxic T lymphocytes",
+            "b. PD-1 --- Tumor cells",
+            "c. CTLA-4 --- Regulatory T cells",
+            "d. CD28 --- Dendritic cells",
+            "e. IFN-γ --- Tumor-associated macrophages"
+          ],
+          answerImg: [oncology2023a20],
+          answer: "c",
+          commentary:"【原文問題文】 発現細胞の組み合わせについて正しいものを選べ。 【原文選択肢】 a. PD-L1 --- CTL, b. PD-1 --- 腫瘍細胞, c. CTLA-4 --- Treg, d. CD28 --- 樹状細胞, e. IFN-γ --- 腫瘍関連マクロファージ"
+        },
+        {
+          questionSentence: "Which of the following routine vaccinations is notinitiated during infancy?",
+      choices: [
+        "a. BCG",
+        "b. MR vaccine",
+        "c. Hib vaccine",
+        "d. HPV vaccine",
+        "e. Hepatitis B vaccine"
+      ],
+      answer: "d",
+    },
+    {
+      questionSentence: "Which phase of the cell cycle is most sensitive to radiation? Choose two.",
+      choices: [
+        "a. S phase",
+        "b. G0 phase",
+        "c. G1 phase",
+        "d. G2 phase",
+        "e. M phase"
+      ],
+      answer: "d,e",
+      commentary:"【原文問題文】 細胞周期の内、放射線に感受性が高いものはどれか。2つ選択せよ。 【原文選択肢】 a. S期 b. GO期 c. G1期 d. G2期 e. M期"
+    },
+    {
+      questionSentence: "Which of the following is correct?",
+      choices: [
+        "a. Electron beams are not used for treating tumors in superficial areas of the body.",
+        "b. X-rays have the lowest dose at the body surface and increase in dose with depth.",
+        "c. X-rays have a Bragg peak.",
+        "d. External radiotherapy is performed with gamma rays generated by a linear accelerator.",
+        "e. Higher energy X-rays are used in radiation therapy compared to diagnostic radiology."
+      ],
+      answerImg: [oncology2023a23],
+      answer: "e",
+      commentary:"【原文問題文】 次の文章のうち、正しいのはどれか。 【原文選択肢】 a. 電子線は体内浅部の腫瘍に対する治療では用いられない。 b. X線は体表面の線量が最小となり、深部にいくほど線量が増加する。 c. X線はブラッグピークを持つ。 d. 外部放射線治療ではリニアックで発生させたガンマ線で治療が行われる。 e. 放射線治療では放射線診断よりも高いエネルギーのX線を用いる。"
+    },
+    {
+      questionSentence: "Which of the following is correct? Choose two.",
+      choices: [
+        "a. Delirium is common in the terminal stage of cancer.",
+        "b. Delirium is not considered a form of consciousness disorder.",
+        "c. Hallucinations and depression are common psychiatric symptoms in adjustment disorders in cancer patients.",
+        "d. Pharmacotherapy should generally not be performed for depression in cancer patients.",
+        "e. Apathy and somnolence in cancer patients may also suggest depression or hypoactive delirium."
+      ],
+      answerImg: [oncology2022a32],
+      answer: "a,e",
+      commentary:"【原文問題文】 次のうち正しいものはどれか。2つ選択せよ。 【原文選択肢】 a. せん妄は、がんの末期にみられることが多い。 b. せん妄は、意識障害の範疇には入らない。 c. がん患者における適応障害で多くみられる精神症状は、幻覚や抑うつである。 d. がん患者におけるうつ病に対し、基本的には薬物療法を行うべきではない。 e. がん患者における無気力、傾眠では、うつ病や低活動型せん妄も考慮する。"
+    },
+    {
+      questionSentence: "Choose the correct answer from the below. Choose two.",
+      choices: [
+        "a. ADCC induced cytotoxicity in cultured cells treated with anti-claudin antibody.",
+        "b. Anti-claudin antibody does not cause ADCC in nude mouse experimental system.",
+        "c. Impairment of tumor tight junctions results in outflow of growth factors in tumors and inhibition of growth.",
+        "d. Impairment of tumor tight junction enhances permeation of anticancer drugs into the tumor.",
+        "e. In antibody therapy, there is no correlation between the expression level of the target protein and the antibody effect."
+      ],
+      answerImg: [oncology2023a25],
+      answer: "c,d",
+      commentary:"【原文問題文】 以下から正しいものを2つ選べ。 【原文選択肢】 a. 抗クラウジン抗体処理された培養細胞において、ADCCによる細胞傷害が誘導された。 b. 抗クラウジン抗体は裸マウス実験系においてADCCを引き起こさない。 c. 腫瘍のタイトジャンクションの障害は、腫瘍内の成長因子の流出と成長抑制をもたらす。 d. 腫瘍のタイトジャンクションの障害は、抗がん剤の腫瘍内浸透を促進する。 e. 抗体療法において、標的タンパクの発現レベルと抗体効果との相関はない。"
+    },
+    {
+      questionSentence: "Which of the following is incorrect regarding organized cancer screening in Japan?",
+      choices: [
+        "a. Low-dose CT is used for lung cancer screening.",
+        "b. Immunochemical fecal occult blood test is used for colorectal cancer screening.",
+        "c. X-ray or endoscopy is used for gastric cancer screening.",
+        "d. Unlike occupational health screening and voluntary screening, there is an obligation to report to the government.",
+        "e. The latest guidelines particularly recommend screening for gastric cancer for individuals aged 50-69."
+      ],
+      answerImg: [oncology2023a26_1, oncology2023a26_2, oncology2023a26_3],
+      answer: "b？",
+      commentary:"【原文問題文】 日本における対策型がん検診について誤っているのはどれか。 【原文選択肢】 a. 肺がん検診では低線量CTが行われる。 b. 大腸がん検診では免疫学的便潜血検査が行われる。 c. 胃がん検診ではX線検査または内視鏡検査が行われる。 d. 職域検診や任意型検診とは異なり、国への報告義務がある。 e. 最新の指針では特に受診勧奨する者を胃がん検診において50-69歳としている。"
+    },
+    {
+      questionSentence: "Which of the following is correct?",
+      choices: [
+        "a. Sarcoma is a malignant tumor of non-epithelial origin.",
+        "b. The annual incidence of bone and soft tissue sarcomas in women is higher than that of breast cancer.",
+        "c. Bone and soft tissue sarcomas are not treated with radiotherapy due to their low radiosensitivity.",
+        "d. Round cell sarcomas can be easily differentiated with hematoxylin-eosin staining alone.",
+        "e. X-rays are charged particle beams and have a specific range."
+      ],
+      answer: "a",
+      commentary:"【原文問題文】 次のうち正しいものはどれか。 【原文選択肢】 a. 肉腫は非上皮性の悪性腫瘍である。 b. 骨軟部肉腫は、女性においては乳癌よりも年間の発症者が多い。 c. 骨軟部肉腫は放射線の感受性が低いので、放射線治療を行うことはない。 d. 円形細胞肉腫はヘマトキシリン・エオジン染色だけで容易に鑑別できる。 e. X線は荷電粒子線なので飛程がある。"
+    },
+    {
+      questionSentence: "A 49-year-old woman diagnosed with stage III breast cancer, eligible for surgery, underwent a modified radical mastectomy (removal of the breast and axillary lymph nodes, preserving the chest muscles). She is receiving radiation therapy to the local lymph nodes and chemotherapy, including a drug that intercalates into DNA strands, inhibiting DNA and RNA synthesis and also inhibits topoisomerase II. What toxicity is associated with setting a maximum cumulative dose for this drug?",
+      choices: [
+        "a. Cholestatic hepatitis",
+        "b. Heart failure",
+        "c. Seizures",
+        "d. Renal tubular acidosis",
+        "e. Pulmonary fibrosis"
+      ],
+      answerImg: [oncology2023a28],
+      answer: "b",
+      commentary:"【原文問題文】 49歳の女性。手術可能なステージIIIの乳癌と診断されている。非定型的乳房切除術（胸の筋肉はそのままで乳房とわきの下のリンパ節を切除する方法)後、局所リンパ節への放射線療法を受けている。同時に化学療法も受けており、投与薬の1つはDNA鎖の間に入り込み、DNA・RNAの合成を阻害する作用、またトポイソメラーゼIIを阻害する作用を併せ持っている。この薬物の総投与量の上限の設定にかかわっている毒性はどれか。 【原文選択肢】 a. 胆汁うっ滞性肝炎 b. 心不全 c. けいれん発作 d. 腎尿細管性アシドーシス e. 肺線維症"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding lymphatic metastasis of cancer?",
+          choices: [
+            "a. The definition of regional lymph nodes differs by primary tumor.",
+            "b. Regional lymph node dissection is unrelated to radicality.",
+            "c. Lymph node metastasis and hematogenous metastasis usually do not occur simultaneously.",
+            "d. For advanced colorectal cancer, the resected bowel should be as short as possible.",
+            "e. Sentinel lymph node biopsy is rarely used for breast cancer."
+          ],
+          answer: "a",
+          commentary:"【原文問題文】 がんのリンパ行性転移について、正しいのはどれか。 【原文選択肢】 a. 領域リンパ節の定義は原発腫瘍で異なる。 b. 領域リンパ節郭清は根治性とは無関係である。 c. リンパ節転移と血行性転移は同時には通常おこらない。 d. 進行大腸癌において切除腸管はできるだけ短い方がよい。 e. 乳癌においてセンチネルリンパ節生検が用いられることは稀である。"
+        },
+        {
+          questionSentence: "Which of the following is correct when arranging tumors in order of radiosensitivity?",
+          choices: [
+            "a. Glioblastoma > Adenocarcinoma > Squamous cell carcinoma > Malignant lymphoma",
+            "b. Glioblastoma > Malignant lymphoma > Adenocarcinoma > Squamous cell carcinoma",
+            "c. Squamous cell carcinoma > Malignant lymphoma > Glioblastoma > Adenocarcinoma",
+            "d. Malignant lymphoma > Adenocarcinoma > Squamous cell carcinoma > Glioblastoma",
+            "e. Malignant lymphoma > Squamous cell carcinoma > Adenocarcinoma > Glioblastoma"
+          ],
+          answerImg: [oncology2023a30],
+          answer: "e",
+          commentary:"【原文問題文】 放射線感受性の順に腫瘍を並べ替えるとき、正しいのはどれか。 【原文選択肢】 a. 膠芽腫 > 腺癌 > 扁平上皮癌 > 悪性リンパ腫 b. 膠芽腫 > 悪性リンパ腫 > 腺癌 > 扁平上皮癌 c. 扁平上皮癌 > 悪性リンパ腫 > 膠芽腫 > 腺癌 d. 悪性リンパ腫 > 腺癌 > 扁平上皮癌 > 膠芽腫 e. 悪性リンパ腫 > 扁平上皮癌 > 腺癌 > 膠芽腫"
+        },
+        {
+          questionSentence: "Which of the following antibody therapies has affinity for PD-L1?",
+          choices: [
+            "a. Nivolumab",
+            "b. Bevacizumab",
+            "c. Denosumab",
+            "d. Durvalumab",
+            "e. Necitumumab"
+          ],
+          answerImg: [oncology2023a31],
+          answer: "d",
+        },
+        {
+          questionSentence: "Which of the following is incorrect?",
+          choices: [
+            "a. AFP lectin fraction L3 is an indicator of hepatocellular carcinoma.",
+            "b. CEA levels are affected by aging.",
+            "c. CA19-9 is affected by the Lewis blood type.",
+            "d. Soluble IL-2 receptor is used to evaluate the status and treatment effects of breast cancer.",
+            "e. The presence of cancer cannot be denied even if tumor markers are negative."
+          ],
+          answerImg: [oncology2023a32_1, oncology2023a32_2, oncology2023a32_3, oncology2023a32_4, oncology2023a32_5],
+          answer: "d",
+          commentary:"【原文問題文】 誤っているものはどれか。 【原文選択肢】 a. AFPレクチン分画L3は肝細胞癌の指標である。 b. CEA値は加齢による影響をうける。 c. CA19-9はルイス血液型の影響をうける。 d. 可溶性IL-2レセプターは乳がんの病勢や治療効果の評価に用いられる。 e. 腫瘍マーカーが陰性でも、がんの存在は否定できない。"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding palliative care?",
+          choices: [
+            "a. Palliative care starts after cancer treatment ends.",
+            "b. Palliative care should be provided not only to cancer patients but also to their families.",
+            "c. The concept of total pain is not proposed in Japanese palliative care.",
+            "d. Physicians should focus solely on treatment and not be involved in economic issues of cancer patients, which should be handled by other healthcare providers.",
+            "e. Spiritual care is not included in the WHO definition of palliative care."
+          ],
+          answer: "b",
+          commentary:"【原文問題文】 緩和ケアについて正しいのはどれか。 【原文選択肢】 a. 緩和ケアはがん治療が終わってから開始する。 b. がん患者だけではなく、その家族にも行うべきである。 c. トータルペインという概念は、日本の緩和ケアでは提唱されていない。 d. がん患者の経済的な問題については他の医療者が当たるべきであり、医師は関与せず治療に専念すべきである。 e. WHOの緩和ケアの定義にはスピリチュアルケアは含まれない。"
+        },
+        {
+          questionSentence: "Which of the following is correct?",
+          choices: [
+            "a. Pathological diagnosis is an examination and not a medical practice.",
+            "b. When requesting a pathological diagnosis, important clinical information such as medical history should not be included to avoid bias.",
+            "c. The overall picture of the lesion cannot be grasped from small pathological specimens.",
+            "d. Pathological diagnosis is the basis for determining the treatment plan.",
+            "e. It is impossible to extract DNA or RNA from formalin-fixed paraffin-embedded (FFPE) tissue specimens."
+          ],
+          answer: "d",
+          commentary:"【原文問題文】 以下の文章で正しいのはどれか。 【原文選択肢】 a. 病理診断は検査であり、医行為でない。 b. 臨床医が病理診断を依頼する際には、先入観を与えないように既往歴などを含め重要な臨床情報は記載しない方がよい。 c. 小さな病理検体では、病変の全体像は把握できない。 d. 病理診断は治療方針の根拠となる。 e. ホルマリン固定パラフィン包埋組織(FFPE)検体からDNAやRNAを抽出することは不可能である。"
+        },
+        {
+          questionSentence: "Which of the following head and neck cancers is treated with radioisotope therapy as postoperative treatment?",
+          choices: [
+            "a. Thyroid cancer",
+            "b. Parotid cancer",
+            "c. Nasopharyngeal cancer",
+            "d. Oropharyngeal cancer",
+            "e. Hypopharyngeal cancer"
+          ],
+          answerImg: [oncology2023a35],
+          answer: "a",
+          commentary:"【原文問題文】 以下のうち、放射線同位体療法を術後治療として行う頭頸部がんはどれか。 【原文選択肢】 a. 甲状腺がん b. 耳下腺がん c. 鼻咽頭がん d. 口咽頭がん e. 咽頭がん"
+        },
+        {
+          questionSentence: "What is the correct local control rate for stereotactic radiotherapy for hepatocellular carcinoma?",
+          choices: [
+            "a. 15%",
+            "b. 30%",
+            "c. 45%",
+            "d. 60%",
+            "e. 90%"
+          ],
+          answerImg: [oncology2023a36],
+          answer: "e",
+        },
+        {
+          questionSentence: "Which of the following is correct?",
+          choices: [
+            "a. Breast-conserving therapy combines partial mastectomy and postoperative radiotherapy.",
+            "b. Regardless of the extent of the lesion, non-invasive cancer is always an indication for breast-conserving therapy.",
+            "c. The standard dose for postoperative radiotherapy for breast cancer is 70 Gy in 35 fractions.",
+            "d. Postoperative radiotherapy for breast cancer requires careful attention to infections due to bone marrow suppression.",
+            "e. Severe radiation pneumonitis is common after postoperative radiotherapy for breast cancer."
+          ],
+          answerImg: [oncology2023a37_1, oncology2023a37_2],
+          answer: "a",
+          commentary:"【原文問題文】 次のうち、正しいものはどれか。 【原文選択肢】 a. 乳房温存療法とは、乳房部分切除術と術後放射線治療を組み合わせた治療のことである。 b. 病変の進展範囲にかかわらず、非浸潤癌であれば乳房温存療法の適応となる。 c. 乳癌術後の放射線治療での照射線量は70Gy/35回が標準である。 d. 乳癌の術後照射では骨髄抑制によって易感染状態となるため、感染症罹患に対して十分な注意が必要である。 e. 乳癌の術後照射では重篤な放射線肺臓炎を発症することが多い。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect?",
+          choices: [
+            "a. Basal cell carcinoma is the most common skin cancer in Japanese people.",
+            "b. The first choice of treatment for basal cell carcinoma and squamous cell carcinoma is surgery.",
+            "c. The buildup effect refers to the phenomenon where the dose is higher slightly below the skin surface than on the skin surface when irradiated from outside the body.",
+            "d. Using a bolus can increase the radiosensitivity of skin cancer cells.",
+            "e. Bolus use is almost mandatory for definitive radiotherapy of malignant skin tumors."
+          ],
+          answerImg: [oncology2023a38_1, oncology2023a38_2, oncology2023a38_3],
+          answer: "d",
+          commentary:"【原文問題文】 次のうち、誤っているものはどれか。 【原文選択肢】 a. 日本人の皮膚癌の中で最も多いのは基底細胞癌である。 b. 基底細胞癌と有棘細胞癌に対する治療の第一選択は手術である。 c. 体表から放射線を照射した時に、皮膚表面よりも少し深部に入った所の方が線量が高くなることをビルドアップ効果と言う。 d. ボーラスを使うことで、皮膚癌細胞の放射線感受性を高めることができる。 e. 皮膚の悪性腫瘍に対する根治的放射線治療ではボーラスの使用がほぼ必須である。"
+        },
+        {
+          questionSentence: "Which of the following combinations is incorrect? Choose two.",
+          choices: [
+            "a. In the WHO classification of brain tumors, the classification is based not only on morphology but also on genetic diagnosis.",
+            "b. The pathological finding of glioblastoma is characterized by palisading necrosis.",
+            "c. The standard treatment for glioblastoma is a combination of surgery, postoperative radiotherapy, and chemotherapy.",
+            "d. The standard dose for radiotherapy for glioblastoma is 25 Gy in 5 fractions.",
+            "e. The median survival time for glioblastoma is approximately 3 years."
+          ],
+          answerImg: [oncology2023a39_1, oncology2023a39_2],
+          answer: "d,e",
+          commentary:"【原文問題文】 次のうち、誤っている組み合わせはどれか。2つ選択せよ。 【原文選択肢】 a. 脳腫瘍のWHO分類では、形態学的分類だけではなく、遺伝子診断も組み合わせた分類となっている。 b. 膠芽腫（glioblastoma）の病理所見として、壊死巣周囲の核の柵状配列が特徴的な所見である。 c. 膠芽腫（glioblastoma）の標準治療は手術と術後放射線治療と化学療法を組み合わせた治療である。 d. 膠芽腫（glioblastoma）に対する放射線治療として、標準的な線量は25Gy/5回である。 e. 膠芽腫（glioblastoma）の生存期間中央値はおよそ3年である。"
+        },
+        {
+          questionSentence: "Which of the following is incorrect?",
+          choices: [
+            "a. Hematopoietic tumors are basically radiosensitive, so radiotherapy is the first choice of treatment.",
+            "b. Radiotherapy for malignant lymphomas often involves irradiation of 20-50 Gy depending on the grade of malignancy.",
+            "c. Total-body irradiation is performed as part of the pretreatment for hematopoietic stem cell transplantation.",
+            "d. It is estimated that 50% of patients die within 60 days after whole-body irradiation at 4 Gy.",
+            "e. It is estimated that 100% of patients die within 60 days of whole-body irradiation at 7 Gy."
+          ],
+          answerImg: [oncology2023a40_1, oncology2023a40_2],
+          answer: "a",
+          commentary:"【原文問題文】 以下のうち、誤っているものはどれか。 【原文選択肢】 a. 血液腫瘍は基本的に放射線感受性が高いため、放射線治療が第一選択である。 b. 悪性リンパ腫に対する放射線治療は、悪性度に応じて20-50Gyの照射が行われることが多い。 c. 全身照射は造血幹細胞移植の前治療の一環として行われる。 d. 全身照射4Gyで行った場合、患者の50%が60日以内に死亡すると推定される。 e. 全身照射7Gyで行った場合、患者の100%が60日以内に死亡すると推定される。"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding adverse events of thoracic radiotherapy for lung cancer? Choose two.",
+          choices: [
+            "a. Radiation pneumonitis results in reduced lung volume.",
+            "b. Radiation pneumonitis is transient and can be restored to the pre-treatment state with appropriate treatment.",
+            "c. Radiation pneumonitis occurs consistent with the irradiated field and is generally accompanied by high fever.",
+            "d. Late adverse event myelopathy (thoracic spinal cord injury) mainly causes quadriplegia and bladder-rectal dysfunction.",
+            "e. Late adverse events are closely related to the dose per fraction."
+          ],
+          answerImg: [oncology2023a41_1, oncology2023a41_2, oncology2023a41_3],
+          answer: "a,e",
+          commentary:"【原文問題文】 肺癌に対する胸部への放射線治療の有害事象において、正しい組み合わせはどれか。2つ選択せよ。 【原文選択肢】 a. 放射線肺線維症では、肺容積の減少を生じる。 b. 放射線肺線維症は適切に加療すれば一過性であり、治療前と同様の状態に回復する。 c. 放射線肺臓炎は照射野に一致して生じ、一般に高熱を伴うことが多い。 d. 晩期有害事象の脊髄症（胸髄障害）では主に四肢麻痺と膀胱直腸障害を生じる。 e. 晩期有害事象は1回の照射線量との関連性が大きい。"
+        },
+        {
+          questionSentence: "Which of the following is correct regarding radiotherapy for urologic tumors?",
+          choices: [
+            "a. Stereotactic radiotherapy is performed for seminoma.",
+            "b. Radium-223 (223Ra) is injected for renal cell carcinoma.",
+            "c. Intensity-modulated radiotherapy is performed for localized prostate cancer.",
+            "d. Yttrium-90 (90Y) internal therapy is performed for superficial bladder cancer.",
+            "e. Electron beam irradiation is performed for ureteral cancer."
+          ],
+          answerImg: [oncology2023a42_1, oncology2023a42_2],
+          answer: "c",
+          commentary:"【原文問題文】 泌尿器腫瘍の放射線治療について正しいものはどれか。 【原文選択肢】 a. セミノーマに対して定位放射線照射を行う。 b. 腎細胞癌に対して223Ra（ラジウム223）を注入する。 c. 限局性前立腺癌に対して強度変調放射線治療を行う。 d. 表在性膀胱癌に対して90Y（イットリウム90）による内用療法を行う。 e. 尿管癌に対して電子線照射を行う。"
+        },
+        {
+          questionSentence: "Which anticancer drug is most effective in the G2 phase of the cell cycle?",
+          choices: [
+            "a. Methotrexate",
+            "b. Cytarabine",
+            "c. Irinotecan",
+            "d. Paclitaxel",
+            "e. Bleomycin"
+          ],
+          answerImg: [oncology2023a43],
+          answer: "e",
+        },
+        {
+          questionSentence: "Which of the following is correct regarding molecular targeted therapy (kinase inhibitors)?",
+          choices: [
+            "a. Gefitinib has a lower frequency of liver toxicity compared to erlotinib.",
+            "b. Alectinib is more likely to cause nausea and vomiting compared to crizotinib.",
+            "c. Osimertinib has a lower frequency of leukopenia compared to gefitinib.",
+            "d. Osimertinib is effective against T790M resistance mutation, L858R, and exon 19 deletion mutations.",
+            "e. Alectinib is effective for ROS1 gene translocation-positive non-small cell lung cancer."
+          ],
+          answerImg: [oncology2023a44],
+          answer: "d",
+        },
+        {
+          questionSentence: "Which of the following tumor markers is a useful combination for diagnosing lung squamous cell carcinoma? Choose two.",
+          choices: [
+            "a. NSE",
+            "b. SLX",
+            "c. CEA",
+            "d. SCC",
+            "e. CYFRA"
+          ],
+          answerImg: [oncology2023a45],
+          answer: "d,e",
+          commentary:"【原文問題文】 下記の腫瘍マーカーのうち、肺扁平上皮癌の診断に有用な組み合わせはどれか。2つ選択せよ。 【原文選択肢】 a. NSE b. SLX c. CEA d. SCC e. CYFRA"
+        },
+        {
+          questionSentence: "Which of the following is incorrect regarding the method of confirming death in end-of-life care?",
+          choices: [
+            "a. A stethoscope, penlight, and wristwatch were brought for confirming death.",
+            "b. The three signs of death are cessation of heart sounds, cessation of breath sounds, and fixed dilated pupils.",
+            "c. A wristwatch was forgotten, so confirmation was done using a mobile phone.",
+            "d. The patient was told, 'You really did your best. You must be tired.'",
+            "e. The family was told, 'You did a great job too. It must have been exhausting. Providing such devoted care is not easy.'"
+          ],
+          answer: "e?",
+          commentary:"【原文問題文】 看取りにおける死亡確認の方法について、誤っているものはどれか。 【原文選択肢】 a. 死亡確認の際、聴診器、ペンライト、そして腕時計を持参した。 b. 死の3兆候とは、心音の停止、呼吸音の停止、瞳孔散大である。 c. 腕時計を忘れたので、携帯電話で確認した。 d. 患者さんに「本当に頑張りましたね。お疲れ様でした。」と声を掛けた。 e. ご家族に「ご家族も良く頑張られました。お疲れ様でした。献身的な介護はなかなかできるものではありませんよ。」と声を掛けた。"
+        },
+        {
+          questionSentence: "Which of the following policies is NOT emphasized in the Basic Plan to Promote Cancer Control Programs (Fourth Phase)?",
+          choices: [
+            "a. Team-based medical care",
+            "b. Cancer genome medicine",
+            "c. Rare cancers",
+            "d. Cancer rehabilitation",
+            "e. Promotion of cancer treatment in private practice"
+          ],
+          answerImg: [oncology2023a47_1, oncology2023a47_2],
+          answer: "e",
+        },
+        {
+          questionSentence: "Which of the following is not supportive care?",
+          choices: [
+            "a. Oral care",
+            "b. Skin care",
+            "c. Administration of antiemetics",
+            "d. Blood transfusion",
+            "e. Administration of immune checkpoint inhibitors"
+          ],
+          answer: "e",
+        },
+        {
+          questionSentence: "Which of the following can be late adverse events of pelvic irradiation? Choose two.",
+          choices: [
+            "a. Leukopenia",
+            "b. Radiation sickness",
+            "c. Hair loss",
+            "d. Pelvic fracture",
+            "e. Rectal bleeding"
+          ],
+          answer: "d,e",
+        },
+        {
+          questionSentence: "Which histological type is most common in Krukenberg tumors (metastatic ovarian cancer)?",
+          choices: [
+            "a. Malignant melanoma",
+            "b. Sarcoma",
+            "c. Malignant lymphoma",
+            "d. Signet ring cell carcinoma",
+            "e. Squamous cell carcinoma"
+          ],
+          answer: "d",
+          commentary:"【原文問題文】 クルケンベルグ腫瘍（卵巣転移癌）において最も多い組織型はどれか。 【原文選択肢】 a. 悪性黒色腫 b. 肉腫 c. 悪性リンパ腫 d. 印環細胞癌 e. 扁平上皮癌"
+        }
+]
+    },{
       groupTag: "救急2023 本試験",
       groupContents: [{
         questionSentence: "Q1 次のうち誤っているものはどれか。",
@@ -9439,6 +10712,325 @@ export const useQuestionList = () => {
         commentary:"[問題文日本語訳] 胸骨圧迫を行う前に呼吸と脈を確認するのはどのくらいですか？ 選択肢a、b、c、d、eから選んでください。[選択肢日本語訳] a. 呼吸を確認せず、すぐに胸骨圧迫を開始します b. 2秒 c. 5秒 d. 10秒を超えない e. 20秒を超えない",
       },
     ]
+    },{
+      groupTag: "救急2023本 機械英訳",
+      groupContents: [{
+        questionSentence: "Q1 Which of the following is incorrect?",
+        choices: [
+          "a. The number of emergency transports is increasing due to the increase in the elderly population.",
+          "b. The time to hospital admission for emergency patients is tending to increase.",
+          "c. A legal revision was made to allow paramedics to perform specific procedures even in emergency rooms within medical institutions.",
+          "d. The emergency medical system in Japan is broadly divided into primary, secondary, and tertiary medical institutions.",
+          "e. Japan's emergency medical system is designed based on urgency rather than severity."
+        ],
+        answerImg: [emergency2023a1_1, emergency2023a1_2],
+        answer: "c",
+        commentary:"【原文問題文】 Q1 次のうち誤っているものはどれか。 【原文選択肢】 a. 高齢者の増加を背景として救急搬送件数は増加している。 b. 救急患者の病院収容までの時間は延長傾向にある。 c. 救急救命士が医療機関内の救急外来処置室内でも特定行為が実施できるよう法改正がなされた。 d. 我が国の救急医療体制は大きく初期、二次、三次医療機関の三つに分けられる。 e. 我が国の救急医療体制は重症度ではなく、緊急度に基づいて設計されている。"
+    },
+    {
+        questionSentence: "Q2 Which of the following is considered to have low urgency?",
+        choices: [
+          "a. Coma with unequal pupils",
+          "b. Wrist cut with poor complexion",
+          "c. Chest pain with cold sweat",
+          "d. Headache that worsens from morning to evening with nausea and slow response to calls",
+          "e. Rotational vertigo with persistent vomiting"
+        ],
+        answerImg: [emergency2023a2_1, emergency2023a2_2],
+        answer: "e",
+        commentary:"【原文問題文】 Q2 次のうち緊急性が低いと考えられるものはどれか。 【原文選択肢】 a. 瞳孔不同を伴う昏睡 b. リストカットし、顔色不良 c. 冷汗を伴う胸痛 d. 朝からの頭痛で夕刻にかけて増悪し、嘔気があり、呼びかけても反応が鈍い e. 回転性のめまいがあり、嘔吐が続いている"
+    },
+    {
+        questionSentence: "Q3 Which of the following is not included in specific procedures by paramedics?",
+        choices: [
+          "a. Establishing an intravenous line and infusion for hemorrhagic shock.",
+          "b. Measuring blood sugar in a patient suspected of hypoglycemia with JCS30 consciousness disorder.",
+          "c. Intravenous administration of adrenaline for cardiopulmonary arrest.",
+          "d. Tracheal intubation for respiratory arrest with consciousness disorder.",
+          "e. Intravenous administration of glucose solution for hypoglycemic consciousness disorder."
+        ],
+        answerImg: [emergency2023a3],
+        answer: "b",
+        commentary:"【原文問題文】 Q3 救急救命士による特定行為に含まれないものはどれか。 【原文選択肢】 a. 出血性ショックに対する静脈路確保および輸液。 b. JCS30の意識障害が低血糖によると疑われる症例に対する血糖測定。 c. 心肺機能停止症例に対するアドレナリンの静脈内投与。 d. 呼吸が停止している意識障害に対する気管挿管。 e. 低血糖による意識障害に対するブドウ糖液の静脈内投与。"
+    },
+    {
+        questionSentence: "Q4 Which of the following statements about 'triage' is correct?",
+        choices: [
+          "a. It is a means of determining the order of treatment only in the event of a disaster.",
+          "b. The priority order in the START method is red → yellow → green → black.",
+          "c. In the START method, intravenous access and medication administration are performed along with triage.",
+          "d. It is used only when there is a surplus of medical care available compared to demand.",
+          "e. Triage should be performed once in a short period."
+        ],
+        answerImg: [emergency2023a4],
+        answer: "b",
+        commentary:"【原文問題文】 Q4 「トリアージ」という行為について正しい記載はどれか。 【原文選択肢】 a. 災害時にのみに行われる診療順位の決定手段である。 b. START法における優先順位は赤→黄色→緑→黒である。 c. START法では、トリアージを行いながら、合わせて静脈路確保や薬剤投与を行う。 d. 医療を求める需要に対して、提供できる医療に余裕がある場合にのみ用いる。 e. トリアージは短時間で一回のみ行えば良い。"
+    },
+    {
+        questionSentence: "Q5 Which of the following is correct?",
+        choices: [
+          "a. The number of fatalities due to traffic accidents is increasing.",
+          "b. 'Accidents' is the third leading cause of death among young people.",
+          "c. Vehicle rollover alone does not meet the criteria for high-risk injury mechanism.",
+          "d. Training trauma specialists plays a greater role in improving trauma care than establishing a trauma care system.",
+          "e. The amount of bleeding from an open femoral shaft fracture can exceed 1500 ml."
+        ],
+        answerImg: [emergency2023a5],
+        answer: "d",
+        commentary:"【原文問題文】 Q5 次のうち正しいものはどれか。 【原文選択肢】 a. 交通事故による死亡者数は増加傾向にある。 b. 若年者において「不慮の事故」は死亡死因の第3位である。 c. 車両の横転だけでは高リスク受傷機転の基準を満たさない。 d. 外傷診療の向上においては外傷診療体制の構築よりも外傷専門医の育成が大きな役割を果たす。 e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
+    },
+    {
+        questionSentence: "Q6 Which of the following is not a factor related to coagulation disorders in trauma patients?",
+        choices: [
+          "a. Metabolic acidosis",
+          "b. Respiratory acidosis",
+          "c. Massive infusion",
+          "d. Massive transfusion",
+          "e. Hypothermia"
+        ],
+        answerImg: [emergency2023a6_1, emergency2023a6_2],
+        answer: "b",
+        commentary:"【原文問題文】 Q6 外傷患者における凝固異常に関連する要因に含まれないものはどれか。 【原文選択肢】 a. 代謝性アシドーシス b. 呼吸性アシドーシス c. 大量輸液 d. 大量輸血 e. 体温の低下"
+    },
+    {
+        questionSentence: "Q7 Which of the following is not observed in FAST for a shock patient transported after a traffic accident?",
+        choices: [
+          "a. Hepatorenal boundary",
+          "b. Bladder-rectal pouch",
+          "c. Thoracic cavity",
+          "d. Peripancreatic area",
+          "e. Perisplenic area"
+        ],
+        answerImg: [emergency2023a7],
+        answer: "d",
+        commentary:"【原文問題文】 Q7 交通事故にて搬送されたショック患者におけるFASTで観察するところに含まれないのはどれか。 【原文選択肢】 a. 肝腎境界 b. 膀胱直腸窩 c. 胸腔 d. 膵臓周囲 e. 脾臓周囲"
+    },
+    {
+        questionSentence: "Q8 Which of the following combinations is incorrect regarding chest trauma that can be fatal in a short time and the appropriate procedures?",
+        choices: [
+          "a. Flail chest with hypoxemia → thoracocentesis",
+          "b. Massive hemothorax → emergency transfusion",
+          "c. Cardiac arrest due to tension pneumothorax → thoracocentesis",
+          "d. Shock due to cardiac tamponade → pericardiocentesis",
+          "e. Airway injury → tracheal intubation"
+        ],
+        answer: "a",
+        answerImg: [emergency2023a8],
+        commentary:"【原文問題文】 Q8 短時間で致命的となる胸部外傷と行うべき処置について誤っている組み合わせはどれか。 【原文選択肢】 a. 低酸素血症を伴うフレイルチェスト→胸腔穿刺 b. 大量血胸→緊急輸血 c. 緊張性気胸による心停止→胸腔穿刺 d. 心タンポナーデによるショック→心嚢穿刺 e. 気道損傷→気管挿管"
+    },
+    {
+        questionSentence: "Q9 Which of the following is the most unstable pelvic fracture that is likely to result in hemorrhagic shock?",
+        questionImg: [emergency2023q9],
+        answer: "e",
+        answerImg: [emergency2023a9],
+        commentary:"【原文問題文】 Q9 次のうち、出血性ショックに陥る可能性が最も高い、不安定な骨盤骨折はどれか。"
+    },
+    {
+        questionSentence: "Q10 A 92-year-old woman was found collapsed and unable to move near her bed by her family when they returned home. She stated that she fell while twisting her body trying to go to the bathroom and couldn't get up. She complains of pain in her right hip. What is the most likely diagnosis? Choose two.",
+        choices: [
+          "a. Right lower limb paralysis due to stroke",
+          "b. Right femoral shaft fracture",
+          "c. Right femoral trochanteric fracture",
+          "d. Right femoral neck fracture",
+          "e. Right distal femur fracture"
+        ],
+        answerImg: [emergency2023a10_1, emergency2023a10_2, emergency2023a10_3],
+        answer: "c,d",
+        commentary:"【原文問題文】 Q10 92歳の女性。家族が帰宅するとベッド近くで倒れて動けない状態であった。本人曰く、「トイレに行こうとして、体を捻った際にこけてしまい、立てなくなった」とのことであった。右の大腿の付け根が痛いという。最も考えられるのはどれか。2つ選べ。 【原文選択肢】 a. 脳卒中による右下肢麻痙 b. 右大腿骨骨幹部 c. 右大腿骨転子部骨折 d. 右大腿骨頚部骨折 e. 右大腿骨遠位端骨折"
+    },
+    {
+        questionSentence: "Q11 Which of the following statements about spinal cord injuries is correct? Choose two.",
+        choices: [
+          "a. Mechanisms of injury include hyperflexion and hyperextension of the spine.",
+          "b. It is always accompanied by spinal injury.",
+          "c. Sympathetic nervous system dominance leads to neurogenic shock.",
+          "d. The primary cause of death in cervical spinal cord injuries is circulatory failure.",
+          "e. The injury site is recognized as a high-signal area on T2-weighted MRI images."
+        ],
+        answerImg: [emergency2023a11_1, emergency2023a11_2],
+        answer: "a,e",
+        commentary:"【原文問題文】 Q11 以下の脊髄損傷について述べた文章の中で正しいものを2つ選べ。 【原文選択肢】 a. 受傷機転として、脊椎の過屈曲や過進展がある。 b. 脊椎損傷を必ず伴う。 c. 交感神経優位となり、神経原性ショックに至る。 d. 頸髄損傷の主たる死亡原因は循環不全である。 e. 損傷部位はMRI T2強調画像で高信号域として認められる。"
+    },
+    {
+        questionSentence: "Q12 Which of the following motor paralysis is most commonly associated with a humeral shaft fracture?",
+        choices: [
+          "a. Forearm pronation",
+          "b. Wrist flexion",
+          "c. Thumb adduction",
+          "d. Finger extension",
+          "e. Finger flexion"
+        ],
+        answerImg: [emergency2023a12],
+        answer: "d",
+        commentary:"【原文問題文】 Q12 上腕骨骨幹部骨折に合併することが多い運動麻痺はどれか。 【原文選択肢】 a. 前腕回内 b. 手関節屈曲 c. 母指内転 d. 手指伸展 e. 手指屈曲"
+    },
+    {
+        questionSentence: "Q13 A 78-year-old man fell at the entrance of his house and hit his head. He was brought to the hospital by his family. He was conscious, with a temperature of 36.2°C, pulse of 92/min, and blood pressure of 165/98 mmHg. He had a laceration with bleeding on the right temporal scalp. Although there were no obvious paralysis, he seemed a bit dazed during the examination. While suturing the scalp laceration in the treatment room, he became unresponsive, with JCS-II-30, right pupil dilation, and loss of light reflex. What is the most likely combination of findings?",
+        choices: [
+          "a. Epileptic waves on EEG",
+          "b. Suspected right acute epidural hematoma based on history",
+          "c. Suspected right acute subdural hematoma based on history",
+          "d. High signal area in the right middle cerebral artery territory on head MRI diffusion-weighted images",
+          "e. Increased cell count on lumbar puncture"
+        ],
+        answerImg: [emergency2023a13, emergency2023a13_2],
+        answer: "b",
+        commentary:"【原文問題文】 Q13 78歳の男性。自宅玄関で転倒して頭部を受傷したために家人に連れられて来院した。意識は清明。体温36.2℃、脈拍92/分、整。血圧165/98mmHg、呼吸数20/分。右の側頭部の頭皮に出血を伴う挫創がある。明らかな麻痺など認めなかったが、診察時、少しボーッとしている印象であった。処置室で頭部挫創の縫合処置を行っていたところ、呼びかけに反応しなくなり、JCS-II-30、右瞳孔の散大と対光反射消失とをきたした。この時点で考えられる正しい組み合わせはどれか。 【原文選択肢】 a. 脳波にて、てんかん波を認める b. 病歴より右急性硬膜外血腫が疑わしい c. 病歴より右急性硬膜下血腫が疑わしい d. 頭部MRI拡散強調像で右中大脳動脈領域の高信号域を認める e. 腰椎穿刺にて細胞数増加を認める"
+    },
+    {
+        questionSentence: "Q14 Which of the following is incorrect about fat embolism syndrome?",
+        choices: [
+          "a. It often occurs within 72 hours after injury.",
+          "b. Headache and altered consciousness are rare.",
+          "c. It leads to respiratory failure.",
+          "d. Characteristic bilateral lung infiltrates are seen on chest X-ray.",
+          "e. It often occurs with long bone fractures."
+        ],
+        answerImg: [emergency2023a14],
+        answer: "b",
+        commentary:"【原文問題文】 Q14 脂肪塞栓症について誤っているのはどれか。 【原文選択肢】 a. 傷後72時間以内に発症することが多い b. 頭痛や意識障害は稀である c. 呼吸不全に至る d. 胸部レントゲンで特徴的な両側肺野浸潤影を認める e. 長管骨骨折で生じることが多いとされている"
+    },
+    {
+        questionSentence: "Q15 Which of the following combinations about abdominal pain is correct?",
+        choices: [
+          "a. Diffuse pain → somatic pain",
+          "b. Pain with a specific location on palpation → visceral pain",
+          "c. Rebound tenderness → visceral pain",
+          "d. Intermittent abdominal pain → visceral pain",
+          "e. Muscle guarding → visceral pain"
+        ],
+        answerImg: [emergency2023a15_1, emergency2023a15_2, emergency2023a15_3],
+        answer: "c",
+        commentary:"【原文問題文】 Q15 腹痛について正しい組み合わせはどれか。 【原文選択肢】 a. 場所がはっきりしない痛み→体性痛 b. 痛みの場所が触診上、局在が明らかな痛み→内臓痛 c. 反跳痛→内臓痛 d. 間欠的な腹痛→内臓痛 e. 筋性防御→内臓痛"
+    },
+    {
+        questionSentence: "Q16 Which of the following is least likely to cause somatic pain?",
+        choices: [
+          "a. Perforated duodenal ulcer",
+          "b. Acute appendicitis",
+          "c. Obstructive ileus",
+          "d. Traumatic small bowel perforation",
+          "e. Torsion of ovarian cyst"
+        ],
+        answerImg: [emergency2023a16_1, emergency2023a16_2, emergency2023a16_3],
+        answer: "c",
+        commentary:"【原文問題文】 Q16 次のうち、体性痛を生じる可能性が低いのはどれか。 【原文選択肢】 a. 十二指腸潰瘍穿孔 b. 急性虫垂炎 c. 閉塞性イレウス d. 外傷性小腸穿孔 e. 卵巣嚢腫茎捻転"
+    },
+    {
+        questionSentence: "Q17 Which of the following describes the abnormalities of 'impending D' in head trauma? Choose two.",
+        choices: [
+          "a. GCS score of 10 or less",
+          "b. Right pupil diameter of 5.0 mm, left pupil diameter of 2.5 mm, and loss of light reflex on both sides",
+          "c. Decrease in GCS score by 2 or more during initial treatment",
+          "d. Systolic blood pressure of 120 mmHg and heart rate of 120 bpm",
+          "e. Presence of nuchal rigidity"
+        ],
+        answerImg: [emergency2023a17],
+        answer: "b,c",
+        commentary:"【原文問題文】 Q17 頭部外傷における「切迫するD」の異常について記載しているのはどれか。2つ選べ。 【原文選択肢】 a. GCSの合計点が10点以下 b. 瞳孔径が右5.0mm、左2.5mmで対光反射は両側とも消失 c. 初期診療の経過中にGCS合計点の2点以上の低下 d. 収縮期血圧が120mmHgで、心拍数が120回/分 e. 項部硬直の出現"
+    },
+    {
+        questionSentence: "Q18 A patient came to the hospital after ingesting 30 benzodiazepine sedative pills two hours ago. He presented with GCS 3. What is the most appropriate method for administering activated charcoal?",
+        choices: [
+          "a. Because the GCS is 3, administer orally in a sitting position with an oxygen mask.",
+          "b. Because the GCS is 3, administer orally in a sitting position with nasal cannula oxygen.",
+          "c. Because the GCS is 3, insert a gastric tube, then intubate and administer through the tube.",
+          "d. Because the GCS is 3, perform intubation, then insert a gastric tube and administer through the tube.",
+          "e. Because the GCS is 3, perform head tilt-chin lift, insert a gastric tube, and administer through the tube."
+        ],
+        answer: "d",
+        commentary:"【原文問題文】 Q18 2時間前にベンゾジアゼピン系鎮静剤を30錠服用し、GCS 3点で来院した患者を診療中である。活性炭投与の方法として最も適切なのはどれか。 【原文選択肢】 a. GCS 3点であるため、酸素マスクで酸素投与しながら座位で経口投与する。 b. GCS 3点であるため、鼻カヌラで酸素投与しながら座位で経口投与する。 c. GCS 3点であるため、胃管挿入し、気管挿管した後に経管投与する。 d. GCS 3点であるため、気管挿管を行った後に胃管挿入し、経管投与する。 e. GCS 3点であるため、頭部後屈顎先挙上し、胃管挿入して経管投与する。"
+    },
+    {
+        questionSentence: "Q19 A 51-year-old man was transported to the hospital after a traffic accident, with a contusion to the right side of his chest and abdomen. He was conscious upon arrival, with a blood pressure of 96/36 mmHg and a pulse rate of 106/min. The abdomen was distended, but there was no muscle guarding. Laboratory findings on arrival: RBC 4.52 million, Hb 15.3 g/dL, Ht 44.8%, platelets 260,000, serum amylase 62 U/L (reference 37-160), AST 560 U/L (reference <40), ALT 420 U/L (reference <35), LDH 500 U/L (reference 176-353), BUN 29 mg/dL, creatinine 0.8 mg/dL, glucose 182 mg/dL, CRP 0.1 mg/dL (reference <0.3). What findings might be expected on an abdominal CT? Choose two.",
+        choices: [
+          "a. Presence of free air",
+          "b. Low absorption area at the hepatorenal boundary",
+          "c. Low absorption area around the spleen",
+          "d. Fluid accumulation in the right pleural cavity",
+          "e. Low absorption area within the pancreatic parenchyma"
+        ],
+        answer: "b,d",
+        commentary:"【原文問題文】 Q19 51歳の男性。交通事故で右側胸腹部を打撲し救急搬送された。来院時意識清明で血圧96/36 mmHg、脈拍106/分であった。腹部は膨隆し、筋性防御は認めなかった。来院時血液所見赤血球452万、Hb 15.3g/dl、Ht 44.8%、血小板26万、血清アミラーゼ62単位(基準37～160)、AST 560単位(基準40以下)、ALT 420単位(基準35以下)、LDH 500単位(基準176～353)、尿素窒素29 mg/dl、クレアチニン0.8mg/dl、血糖182 mg/dl、CRP 0.1 mg/dl(基準0.3以下)。腹部CTによって得られると考えられる所見はどれか。2つ選べ。 【原文選択肢】 a. フリーエアの出現 b. 肝腎境界の低吸収域 c. 脾周囲の低吸収域 d. 右胸腔内の液体貯留 e. 膵実質内の低吸収域"
+    },
+    {
+        questionSentence: "Q20 Which of the following statements about avoidable disaster deaths (or preventable disaster deaths) is correct?",
+        choices: [
+          "a. Deaths due to disasters that could have been prevented if regular medical care was available.",
+          "b. Deaths due to disasters that could have been prevented with appropriate dispatch of disaster medical teams.",
+          "c. Deaths due to disasters that could have been prevented with appropriate transportation to disaster medical facilities.",
+          "d. Deaths due to disasters that could have been prevented if disaster medical specialists had been involved.",
+          "e. Deaths due to disasters that could not have been prevented even with regular medical care."
+        ],
+        answerImg: [emergency2023a20],
+        answer: "a",
+        commentary:"【原文問題文】 Q20 避けられた災害死(または、防ぎえた災害死)について適切に説明しているものはどれか。 【原文選択肢】 a. 平時の医療が提供できていれば、救えたと考えられる災害による死亡 b. 適切な災害医療チームの派遣ができていれば、救えたと考えられる災害による死亡 c. 適切な災害医療機関へ搬送できていれば、救えたと考えられる災害による死亡 d. 適切な災害医療専門医が対応していれば、救えたと考えられる災害による死亡 e. 平時の医療が提供できても救えなかった、と考えられる災害による死亡"
+    },
+    {
+        question: "Q21 Which of the following is not included in the SOFA score?",
+      choices: [
+        "a. T-Bil",
+        "b. Glasgow Coma Scale",
+        "c. Catecholamine dosage",
+        "d. Platelet count",
+        "e. Prothrombin time"
+      ],
+      answerImg: [emergency2023a21],
+      answer: "e",
+      commentary:"【原文問題文】 Q21 SOFAスコアに含まれていないものはどれか。 【原文選択肢】 a. T-Bil b. Glasgow Coma Scale c. カテコラミン投与量 d. 血小板数 e. プロトロンビン時間"
+  },
+  {
+      questionSentence: "Q22 A 60-year-old man was injured in a motorcycle accident. His vitals were stable on arrival, but he developed shortness of breath and hypotension (80/60 mmHg) after arrival. Subcutaneous emphysema was palpated on the left anterior chest, and breath sounds were diminished on auscultation. What findings might be expected on a chest X-ray? Choose three.",
+      choices: [
+        "a. Increased radiolucency of the left lung field",
+        "b. Widened upper mediastinum",
+        "c. Enlarged pulmonary artery",
+        "d. Multiple rib fractures",
+        "e. Collapse of the left lung"
+      ],
+      answer: "a,d,e",
+      commentary:"【原文問題文】 Q22 60歳の男性バイクを運転中転倒して受傷。バイタルは来院時まで安定していたが、来院後息苦しさとともに血圧が低下(80/60 mmHg)、左前胸部に触診にて皮下気腫を認め、聴診では呼吸音減弱を認めた。胸部レントゲン写真で認めうる所見はどれか。　３つ選べ。 【原文選択肢】 a. 左肺野のレントゲン透過性冗進 b. 上縦隔の開大 c. 肺動脈の拡張 d. 多発肋骨骨折 e. 左肺の虚脱"
+  },
+  {
+      questionSentence: "Q23 Which of the following is correct about the clinical course of extensive burn patients? Choose two.",
+      choices: [
+        "a. Initial treatment is required for obstructive shock starting immediately after injury.",
+        "b. Facial burns with hoarse voice may lead to lower airway obstruction.",
+        "c. Curling ulcers may develop.",
+        "d. Conservative treatment with antibiotic-containing ointment is the first choice for deep burns.",
+        "e. Escharotomy is necessary for life-saving in patients with circumferential third-degree burns of the chest and back."
+      ],
+      answerImg: [emergency2023a23_1, emergency2023a23_2],
+      answer: "c,e",
+      commentary:"【原文問題文】 Q23 広範囲熱傷患者の臨床経過について正しいものはどれか。2つ選べ。 【原文選択肢】 a. 受傷後から始まる閉塞性ショックに対する治療が初期に求められる b. 嗅声を訴える顔面熱傷では下気道閉塞が生じうる c. Curling潰瘍を合併することがある d. 深達性熱傷に対しては抗菌剤含有軟膏による保存的加療が第一選択である e. 胸部と背部の全周性三度熱傷患者では、救命のために焼痂切開が必要となる"
+  },
+  {
+      questionSentence: "Q24 You’re called to a dialysis unit for an emergency. When you arrive, you find a 53-year-old male in full arrest. The patient had just arrived and was not yet being dialyzed. He complained of shortness of breath, then collapsed. What rhythm disturbance is likely? Choose two from the options a, b, c, d, and e.",
+      choices: [
+        "a. Ventricular fibrillation or Pulseless Ventricular tachycardia",
+        "b. PEA",
+        "c. Atrial fibrillation",
+        "d. Sinus tachycardia",
+        "e. Second-degree AV block"
+      ],
+      answer: "a,b",
+      answerImg: [emergency2023a24],
+      commentary:"【原文問題文】 Q24 あなたは緊急のために透析室に呼ばれました。 到着すると、心停止中の53歳の男性がいることがわかりました。 患者はちょうど到着し、まだ透析を受けていませんでした。 彼は息切れを訴え、その後倒れました。 どのリズム異常が考えられますか？ 選択肢a、b、c、d、eから2つ選んでください。 【原文選択肢】 a. 心室細動または無脈性心室頻拍 b. PEA c. 心房細動 d. 洞頻拍 e. 2度房室ブロック"
+  },
+  {
+      questionSentence: "Q25 How long do you check for breathing and pulse before performing chest compression?",
+      choices: [
+        "a. Do not check for breathing, start chest compression immediately",
+        "b. 2 seconds",
+        "c. 5 seconds",
+        "d. No longer than 10 seconds",
+        "e. No longer than 20 seconds"
+      ],
+      answerImg: [emergency2023a25],
+      answer: "d",
+      commentary:"【原文問題文】 Q25 胸骨圧迫を行う前に呼吸と脈を確認するのはどのくらいですか？ 選択肢a、b、c、d、eから選んでください。 【原文選択肢】 a. 呼吸を確認せず、すぐに胸骨圧迫を開始します b. 2秒 c. 5秒 d. 10秒を超えない e. 20秒を超えない"
+  }
+]
     },
     {
       groupTag: "小児疾患2022 本試験",
