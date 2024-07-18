@@ -1,3 +1,6 @@
+import pedi22a26_4 from './img/answer/pedi22a26_4.png';
+import pedi22a25_3 from './img/answer/pedi22a25_3.png';
+import pedi22a25_2 from './img/answer/pedi22a25_2.png';
 import emergency2023a20 from './img/answer/emergency2023a20.png';
 import emergency2023a21 from './img/answer/emergency2023a21.png';
 import emergency2023a25 from './img/answer/emergency2023a25.png';
@@ -11341,8 +11344,9 @@ export const useQuestionList = () => {
             "d. Duchenne 型筋ジストロフィーでは SMN 遺伝子の異常を認める。",
             "e. 脳性麻痺は痙直性が多い。"
           ],
-          answerImg: [pedi22a25],
+          answerImg: [pedi22a25, pedi22a25_2, pedi22a25_3],
           answer: "a,d",
+          commentary:"SMN遺伝子変異は、脊髄性筋萎縮症:SMA。カフェオレ斑を認めるのはNF1型。"
         },
         {
           questionSentence: "Q26 小児の発作性疾患について正しいのはどれか。2 つ選べ。(2021-25)",
@@ -11353,9 +11357,9 @@ export const useQuestionList = () => {
             "d. 小児欠神てんかんの脳波にはヒプサリスミアを認める。",
             "e. ウエスト症候群の原因に結節性硬化症がある。"
           ],
-          answerImg: [pedi22a26_1, pedi22a26_2, pedi22a26_3],
-          answer: "c,d",
-          commentary: "熱性けいれんとは、発熱を伴うけいれん発作という意味ではない"
+          answerImg: [pedi22a26_1, pedi22a26_2, pedi22a26_3, pedi22a26_4],
+          answer: "a,e",
+          commentary: "熱性けいれんとは、発熱を伴うけいれん発作という意味ではない。結節性硬化症はmTOR経路異常によって、てんかんだけでなく自閉症や知的障害を合併することがある。"
         },
         {
           questionSentence: "Q27 ウイルスに易感染性を示すのばどれか。2つ選べ。(2021-27)",
