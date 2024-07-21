@@ -10489,7 +10489,7 @@ export const useQuestionList = () => {
           "e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
         ],
         answerImg: [emergency2023a5],
-        answer: "d",
+        answer: "c",
         commentary:"交通事故による死亡者が年々減少傾向で、20代における不慮の事故は死因の第2、 30代においては第3位である。"
       },
       {
@@ -10544,6 +10544,7 @@ export const useQuestionList = () => {
           "e. 右大腿骨遠位端骨折"
         ],
         answerImg: [emergency2023a10_1, emergency2023a10_2,emergency2023a10_3],
+        answer:"c,d",
       },
       {
         questionSentence: "Q11 以下の脊髄損傷について述べた文章の中で正しいものを2つ選べ。",
@@ -10605,7 +10606,7 @@ export const useQuestionList = () => {
           "e. 筋性防御→内臓痛"
         ],
         answerImg: [emergency2023a15_1, emergency2023a15_2, emergency2023a15_3],
-        answer: "c",
+        answer: "d",
         commentary:"他は逆"
 
       },
@@ -10801,7 +10802,7 @@ export const useQuestionList = () => {
           "e. The amount of bleeding from an open femoral shaft fracture can exceed 1500 ml."
         ],
         answerImg: [emergency2023a5],
-        answer: "d",
+        answer: "c",
         commentary:"【原文問題文】 Q5 次のうち正しいものはどれか。 【原文選択肢】 a. 交通事故による死亡者数は増加傾向にある。 b. 若年者において「不慮の事故」は死亡死因の第3位である。 c. 車両の横転だけでは高リスク受傷機転の基準を満たさない。 d. 外傷診療の向上においては外傷診療体制の構築よりも外傷専門医の育成が大きな役割を果たす。 e. 大腿骨骨幹部開放性骨折の出血量は1500mlを超え得る。"
     },
     {
@@ -10925,7 +10926,7 @@ export const useQuestionList = () => {
           "e. Muscle guarding → visceral pain"
         ],
         answerImg: [emergency2023a15_1, emergency2023a15_2, emergency2023a15_3],
-        answer: "c",
+        answer: "d",
         commentary:"【原文問題文】 Q15 腹痛について正しい組み合わせはどれか。 【原文選択肢】 a. 場所がはっきりしない痛み→体性痛 b. 痛みの場所が触診上、局在が明らかな痛み→内臓痛 c. 反跳痛→内臓痛 d. 間欠的な腹痛→内臓痛 e. 筋性防御→内臓痛"
     },
     {
