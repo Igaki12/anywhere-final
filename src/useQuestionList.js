@@ -1,3 +1,13 @@
+import gynecology_a20 from './img/answer/gynecology_a20.png';
+import gynecology_a19_1 from './img/answer/gynecology_a19_1.png';
+import gynecology_a19_2 from './img/answer/gynecology_a19_2.png';
+import gynecology_a1_2 from './img/answer/gynecology_a1_2.png';
+import gynecology_a17_1 from './img/answer/gynecology_a17_1.png';
+import gynecology_a1 from './img/answer/gynecology_a1.png';
+import gynecology_a17_2 from './img/answer/gynecology_a17_2.png';
+import gynecology_a16_2 from './img/answer/gynecology_a16_2.png';
+import gynecology_a16_3 from './img/answer/gynecology_a16_3.png';
+import gynecology_a16_1 from './img/answer/gynecology_a16_1.png';
 import pedi22a26_4 from './img/answer/pedi22a26_4.png';
 import pedi22a25_3 from './img/answer/pedi22a25_3.png';
 import pedi22a25_2 from './img/answer/pedi22a25_2.png';
@@ -4663,7 +4673,7 @@ export const useQuestionList = () => {
             '左卵巣静脈は腎静脈から分岐する'
           ],
           answer: '5',
-          // commentary: '右卵巣静脈は、 下大静脈から分岐する'
+          answerImg: [gynecology_a1, gynecology_a1_2],
         },
         {
           questionSentence: 'Q2 多嚢胞性卵巣症候群で誤っているのはどれか。1つ選べ。',
@@ -4686,7 +4696,8 @@ export const useQuestionList = () => {
             '卵巣腫瘍',
             '尖形コンジローマ'
           ],
-          answer: '1,3'
+          answer: '1,3',
+          commentary: 'Fitz-Hugh-Curtis症候群は、クラミジア感染症による骨盤腹膜炎が原因である。'
         },
         {
           questionSentence: 'Q4 53歳女性。半年前から月経が不規則となり、のぼせと発汗が頻回となってきたため受診となる。体温36.7度、脈拍92/分・整、血圧140/92mmHg。内診所見上、子宮は正常大で可動性は良好である。子宮頸部と子宮内膜の細胞診に異常は認めない。この患者の状態を評価するために有用な血中ホルモンどれか。2つ選べ。',
@@ -4710,7 +4721,7 @@ export const useQuestionList = () => {
             '副腎皮質ホルモン'
           ],
           answer: '1',
-          commentary: 'LEP（Low-dose estrogen-progestin）療法は、更年期障害の治療に有用である。'
+          commentary: 'LEP（Low-dose estrogen-progestin）療法は、更年期障害の治療に有用である。エストロゲンのみの投与は、子宮内膜癌などのリスクが高まるため推奨されない。'
         },
         {
           questionSentence: 'Q6 骨粗鬆症の治療薬として誤っているものはどれか。1つ選べ。',
@@ -4722,6 +4733,7 @@ export const useQuestionList = () => {
             '抗RANKL（Receptor activator of nuclear factor-kappa B ligand）抗体'
           ],
           answer: '4',
+          commentary: '甲状腺ホルモン製剤は、骨粗鬆症 とは関係ない。'
         },
         {
           questionSentence: 'Q7 20歳の女性。外陰部の強い疼痛を主訴に来院した。7日前に性交渉を行っている。2日前から38.4度の発熱を認め、外陰部の疼痛が出現した。本日、疼痛がさらに増強し、排尿も困難となったため来院した。皮膚と眼の所見に異常は認めない。口腔内アフタも認めない。両側の外鼠径リンパ節の腫大と圧痛を認める。腹部は平坦、軟で、圧痛と自発痛は認めない。外陰部両側に発赤を伴う小さい潰瘍を多数認める。この患者の診断として正しいものはどれか。1つ選べ。',
@@ -4733,6 +4745,7 @@ export const useQuestionList = () => {
             '単純ヘルペス感染症'
           ],
           answer: '5',
+          commentary: 'クラミジアであれば外陰部に潰瘍は認められない。コンジローマでは乳頭状の疣贅が認められる。ベーチェット病では口腔内アフタが認められる。梅毒では皮膚症状が認められる。'
         },
         {
           questionSentence: 'Q8 クラミジア感染症に対して有効な抗生剤はどれか。2つ選べ。',
@@ -4756,7 +4769,7 @@ export const useQuestionList = () => {
             '腟分泌分の鏡検にて菌糸が確認できる'
           ],
           answer: '2',
-          commentary: '帯下は、カンジダ症では白色の酒粕である。'
+          commentary: '帯下は、カンジダ症では白色の酒粕状である。一方で膣トリコモナス症では泡沫状・淡黄色である。'
         },
         {
           questionSentence: 'Q10 子宮内膜症について誤っているものはどれか。1つ選べ。',
@@ -4780,6 +4793,7 @@ export const useQuestionList = () => {
             'カルボプラチン/パクリタキセル'
           ],
           answer: '2,3',
+          commentary: '卵巣腫瘍(卵巣子宮内膜性嚢胞=チョコレート嚢胞)の所見。小さい確率でガン化するが、良性腫瘍である。エストロゲン補充療法やクロミフェンは、子宮内膜症の増悪を招くため禁忌。TC療法(カルボプラチン/パクリタキセル)は、 上皮性卵巣癌の 化学療法 で採用される'
         },
         {
           questionSentence: 'Q12 体外受精・胚移植（IVF-ET）の適応となるものはどれか。2つ選べ。',
@@ -4791,6 +4805,7 @@ export const useQuestionList = () => {
             '不育症'
           ],
           answer: '1,2',
+          commentary:"IVF-ETでは受精卵を子宮に移植するため、子宮は正常である必要がある。"
         },
         {
           questionSentence: 'Q13 55歳女性。4妊4産。52歳閉経。半年前からの不正性器出血を主訴に受診した。内診所見として、子宮頸部から右側骨盤壁にまで連続する硬結を触知する。腟鏡診で子宮腟部にカリフラワー状の易出血性の腫瘤を認め、一部生検を行い、扁平上皮癌との結果を得た。CT検査にて遠隔転移は認めない。診断はどれか。1つ選べ。',
@@ -4814,6 +4829,7 @@ export const useQuestionList = () => {
             '全身化学療法'
           ],
           answer: '4',
+          commentary:"同時化学放射線療法CCRTは子宮頸がんの放射線治療で1aから4aまでの適用を持つ。特にT3以上では手術が困難であるため 第一選択である。 今回の所見では、骨盤壁にまで浸潤が認められるため、3a期であり手術が困難である"
         },
         {
           questionImg: [gynecologyQ15],
@@ -4839,6 +4855,8 @@ export const useQuestionList = () => {
             '子宮内膜増殖症'
           ],
           answer: '4,5',
+          answerImg: [gynecology_a16_1, gynecology_a16_2, gynecology_a16_3],
+          commentary:"1-3の選択肢 では,GnRHアンタゴニストなどのホルモン療法(女性ホルモンの分泌を抑える)が治療法として存在する"
         },
         {
           questionSentence: 'Q17 卵巣癌について正しいのはどれか。1つ選べ。',
@@ -4849,6 +4867,7 @@ export const useQuestionList = () => {
             '20歳代が好発年齢である',
             '腫瘍マーカーはSCCが上昇することが多い'
           ],
+          answerImg: [gynecology_a17_1, gynecology_a17_2],
           answer: '1',
         },
         {
@@ -4861,6 +4880,7 @@ export const useQuestionList = () => {
             '明細胞癌'
           ],
           answer: '1',
+          answerImg: [gynecology_a19_2],
         },
         {
           questionSentence: 'Q19 卵巣漿液性癌に有効な化学療法はどれか。1つ選べ。',
@@ -4872,6 +4892,7 @@ export const useQuestionList = () => {
             'カルボプラチン/パクリタキセル（TC）'
           ],
           answer: '5',
+          answerImg: [gynecology_a19_1, gynecology_a19_2],
         },
         {
           questionSentence: 'Q20 子宮体癌のリスクファクターでないのはどれか。1つ選べ。',
@@ -4882,6 +4903,7 @@ export const useQuestionList = () => {
             '多嚢胞性卵巣症候群',
             '糖尿病'
           ],
+          answerImg: [gynecology_a20],
           answer: '1',
           commentary: '未経産が子宮体癌のリスクファクターである。'
         }
