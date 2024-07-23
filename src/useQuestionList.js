@@ -5412,7 +5412,7 @@ export const useQuestionList = () => {
         commentary: "尿ケトン体 → 低血糖で尿ケトン陽性となる"
       },
       {
-        questionSentence: "Q6 Q5の患者に対する説明として適切なのはどれか。1つ選べ。",
+        questionSentence: "Q6 Q5の患者(深刻な妊娠悪阻)に対する説明として適切なのはどれか。1つ選べ。",
         choices: [
           "A) 「絶食にしたほうがいいです」",
           "B) 「食事は高タンパク質食にしてください」",
