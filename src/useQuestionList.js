@@ -5400,7 +5400,7 @@ export const useQuestionList = () => {
         commentary: "A) 妊娠3週で胎嚢を認める → 4週後半～5週前半\nB) 妊娠4週で胎芽の心拍動を確認できる → 6週以降\nC) 妊娠9週の胎児心拍数は160～180/分である → 正しい\nD) 妊娠10週に児頭大横径（BPD）で分娩予定日を修正する → 頭殿長で修正\nE) 妊娠22週で胎児の推定体重は1,000g程度である → 450-500g程度"
       },
       {
-        questionSentence: "Q5 23歳の女性。全身倦怠感を主訴に受診した。まず行う検査はどれか。1つ選べ。",
+        questionSentence: "Q5 23歳の女性。全身倦怠感を主訴に受診した。2週間前に市販の妊娠検査薬が陽性となり来院し、超音波検査にて子宮内に胎嚢と10mmの胎芽を認めた。10日前から悪心を自覚し、1週間前から嘔吐を繰り返し、食事がほとんど摂取できていないという。性器出血や下腹部痛の訴えはない。意識は清明。身長 155cm、体重50kg、妊娠前の体重は54kgであった。体温 37.1度、脈拍 84/分・整、血圧122/62mmHg、呼吸数 16/分、口唇の乾燥を認める。陽音波検査にて頭殿長20mmの胎児と心拍動を認める。まず行う検査はどれか。1つ選べ。",
         choices: [
           "A) 血中hCG定量",
           "B) 動脈血ガス採血",
@@ -5424,7 +5424,7 @@ export const useQuestionList = () => {
         commentary: "A) 絶食にしたほうがいいです → 食べたいものを食べられる量だけ食べる\nB) 食事は高タンパク質食にしてください → 炭水化物（ブドウ糖）\nC) 点滴をします → 正しい\nD) 人工妊娠中絶をします → 非常に重症例では認められる\nE) ビタミンAを積極的に補給してください → Wernicke脳症予防にビタミンB1補充を行う"
       },
       {
-        questionSentence: "Q7 この患者のBishop scoreはどれか？",
+        questionSentence: "Q7 28歳の初産婦。妊娠39週0日に陣痛発来のため入院した。これまでの入院経過に以上はなかった。入院時の内診で子宮口は3cm開大、展退度は50％、児頭下降度はSP-2cm、硬さは中等硬、位置は後方であった。この患者のBishop scoreはどれか？",
         choices: [
           "A) 5点",
           "B) 6点",
@@ -5432,9 +5432,9 @@ export const useQuestionList = () => {
           "D) 8点",
           "E) 9点"
         ],
-        answer: "C",
+        answer: "A",
         answerImg: [Q7_non_question_page_4],
-        commentary: "子宮口3cm開大、展退度50%、児頭下降度SP-2cm、硬さは中等硬、位置は後方の場合のBishop scoreは6点"
+        commentary: "子宮口3cm開大、展退度50%、児頭下降度SP-2cm、硬さは中等硬、位置は後方の場合のBishop scoreは5点"
       },
       {
         questionSentence: "Q8 胎児付属物について正しいものはどれか。1つ選べ。",
@@ -5461,7 +5461,11 @@ export const useQuestionList = () => {
         commentary: "A) 妊娠中は経口血糖降下薬で管理する → インスリンで管理（胎盤通過性なしのため）\nB) 新生児低血糖に注意する → 分娩後、母体からの糖の流入がなくなるため\nC) 分娩後はインスリン必要量が減少する → 抗インスリン作用のある胎盤からのホルモン（hPLやプロゲステロンなど）がなくなるため\nD) 羊水過多症の合併頻度が増える → 胎児高血糖により尿量増加のため\nE) 妊娠初期の血糖コントロールが不良の場合は先天性形態異常の頻度が高くなる → 正しい"
       },
       {
-        questionSentence: "Q10 25歳の初産婦。妊娠39週6日。陣痛発来のため入院した。正しいのはどれか？",
+        questionSentence: "Q10 25歳の初産婦。妊娠39週6日。陣痛発来のため入院した。陣痛は周期2分30秒、発作持続時間70秒。外診では第1頭位。内診で子宮口は7cm開大、展退度は80％、児頭下降度はSP+3cm、硬さは軟、位置は前方である。胎胞は認めない。卵膜を介して矢状縫合を1時から7時方向に蝕知し、子宮口の中央部に小泉門を触れるが大泉門は触れない。正しいのはどれか？",
+// 発作持続時間70秒。外診では第1頭位。内診で子宮口は7cm開大、展退度は80％、
+// 児頭下降度はSP+3cm、硬さは軟、位置は前方である。胎胞は認めない。卵膜を
+// 介して矢状縫合を1時から7時方向に蝕知し、子宮口の中央部に小泉門を触れるが
+// 大泉門は触れない。正しいのはどれか？
         choices: [
           "A) 破水している",
           "B) 反屈位である",
@@ -5474,7 +5478,13 @@ export const useQuestionList = () => {
         commentary: "A) 破水している → 卵膜存在しているので破水は否定的\nB) 反屈位である → 小泉門が先進しているので屈位である\nC) 過強陣痛である → 1分以内の周期なら過強陣痛\nD) 分娩第2期である → 第1期である\nE) 児頭は嵌入している →児頭最大径が骨盤入口を通過した状態 先進部は児頭嵌入でstation 0、児頭固定でstation -2～-1"
       },
       {
-        questionSentence: "Q11 分娩4時間後の出血の誘因として考えられるのはどれか。3つ選べ。",
+        questionSentence: "Q11 32歳の6回経妊・4回経産婦。妊娠40週1日で、4,100gの男児を経腟分娩した。分娩時間は28時間で、分娩時出血量は400mlであった。分娩4時間後に、凝血塊を含む700mlの性器出血を認めた。意識は清明。体温36.5度、脈拍96/分・整、血圧96/48mmHg、呼吸数18回/分。腟鏡診で分泌物は血性中等量で、子宮頸管と腟壁に裂傷は認めない。子宮底は臍上2横指に触れる。血液所見：赤血球 360万、Hb 9.8g/dl、Ht 37%、白血球 5,600、血小板 30万、CRP0.2 mg/dl。分娩4時間後の出血の誘因として考えられるのはどれか。3つ選べ。",
+// 分娩時間は28時間で、分娩時出血量は400mlであった。分娩4時間後に、凝血塊を
+// 含む700mlの性器出血を認めた。意識は清明。体温36.5度、脈拍96/分・整、血圧
+// 96/48mmHg、呼吸数18回/分。腟鏡診で分泌物は血性中等量で、子宮頸管と腟壁
+// に裂傷は認めない。子宮底は臍上2横指に触れる。血液所見：赤血球 360万、Hb
+// 9.8g/dl、Ht 37%、白血球 5,600、血小板 30万、CRP0.2 mg/dl。分娩4時間後
+// の出血の誘因として考えられるのはどれか。3つ選べ。
         choices: [
           "A) 母体年齢",
           "B) 分娩回数",
@@ -5486,7 +5496,7 @@ export const useQuestionList = () => {
         commentary: "A) 母体年齢 → 関係ない\nB) 分娩回数 → 多産婦ほど弛緩出血のリスクが高い\nC) 分娩週数 → 関係ない\nD) 児体重 → 児が大きいほど弛緩出血のリスクが高い\nE) 分娩時間 → 分娩時間が長いと弛緩出血のリスクが高い"
       },
       {
-        questionSentence: "Q12 最初に行う処置はどれか。1つ選べ。",
+        questionSentence: "Q12 Q11の場合(弛緩出血)、最初に行う処置はどれか。1つ選べ。",
         choices: [
           "A) 輸血",
           "B) 子宮全摘術",
@@ -5499,7 +5509,10 @@ export const useQuestionList = () => {
         commentary: "A) 輸血 → 現時点では輸血は不要（準備はしてもよいかも）\nB) 子宮全摘術 → 最終手段\nC) 抗DIC療法 → DICはおこしていない\nD) 子宮内容除去術 → 子宮内に遺残物を思わせる所見はない\nE) 子宮底輪状マッサージ → 最初に行う処置として重要"
       },
       {
-        questionSentence: "Q13 適切な対応はどれか。1つ選べ。",
+        questionSentence: "Q13 35歳の1回経産婦、妊娠34週3日、一週間前から断続的に少量の性器出血を自覚するようになった。来院時、腟鏡診では腟内に凝血塊を多量に認め、経腟超音波検査では図のような所見であった。胎児心拍数陣痛図では胎児心拍は正常で、子宮収縮は認めなかった。この症例に対して適切な対応はどれか。1つ選べ。",
+// するようになったため来院した。来院時、腟鏡診では腟内に凝血塊を多量に認め、
+// 経腟超音波検査では図のような所見であった。胎児心拍数陣痛図では胎児心拍は正
+// 常で、子宮収縮は認めなかった。この症例に対して適切な対応はどれか。1つ選べ。
         questionImg: [periQ13_qS],
         choices: [
           "A) 緊急帝王切開を行う",
@@ -5509,10 +5522,17 @@ export const useQuestionList = () => {
           "E) マルチウス-グスマンのX線撮影を行う"
         ],
         answer: "A",
-        commentary: "緊急帝王切開が適切。"
+        commentary: "緊急帝王切開が適切。 前置胎盤の所見なので警告出血と考えられる。 34週を超えているので、オキシトシンは不要。"
       },
       {
-        questionSentence: "Q14 最も考えられるのはどれか1つ選べ。",
+        questionSentence: "Q14 38歳の初産婦。妊娠34週1日に激しい腹痛と性器出血を主訴に救急車で搬入された。これまでの妊娠経過は順調であったが、妊娠33週の妊婦健康診査で、尿蛋白、軽度の血圧上昇を指摘された。喫煙は、妊娠前20本/日であったが、妊娠後は5本/日に減らしている。体温36.9度、心拍数72/分、血圧170/90mmHg、腹痛のため表情は苦悶様で、腹部は傍流しており、板状に硬く、圧痛を認める。腟鏡診で少量の性器出血を認め、内診で子宮口は閉鎖している。尿蛋白2+、超音波検査で子宮底部に存在する胎盤の著名な肥厚を認める。胎児心拍陣痛図、基細変動の減少と遅発一過性徐脈を認める。最も考えられるのはどれか。1つ選べ。",
+// れた。これまでの妊娠経過は順調であったが、妊娠33週の妊婦健康診査で、尿蛋
+// 白、軽度の血圧上昇を指摘された。喫煙は、妊娠前20本/日であったが、妊娠後は
+// 5本/日に減らしている。体温36.9度、心拍数72/分、血圧170/90mmHg、腹痛の
+// ため表情は苦悶様で、腹部は傍流しており、板状に硬く、圧痛を認める。腟鏡診で
+// 少量の性器出血を認め、内診で子宮口は閉鎖している。尿蛋白2+、超音波検査で
+// 子宮底部に存在する胎盤の著名な肥厚を認める。胎児心拍陣痛図、基細変動の減少
+// と遅発一過性徐脈を認める。最も考えられるのはどれか1つ選べ。
         choices: [
           "A) 前置胎盤",
           "B) 切迫早産",
@@ -5524,7 +5544,11 @@ export const useQuestionList = () => {
         commentary: "常位胎盤早期剥離 → 胎盤の超音波所見からもっとも考えられる（原因は妊娠高血圧腎症）"
       },
       {
-        questionSentence: "Q15 適切な処置を1つ選べ。",
+        questionSentence: "Q15 41歳の初産婦。妊娠39週2日に全身けいれんのため救急車で搬入された。来院時にはけいれん発作は消失していた。意識レベルはJCS I-1、心拍数 90/分・整、血圧 190/120mmHg、呼吸数 16回/分、SpO2 97%（room air）。全身に浮腫を認める。尿蛋白 3+。硫酸マグネシウムの持続静注を開始した。頭部CTでは脳に軽度の浮腫を認めている。適切な処置を1つ選べ。",
+// 時にはけいれん発作は消失していた。意識レベルはJCS I-1、心拍数 90/分・整、
+// 血圧 190/120mmHg、呼吸数 16回/分、SpO2 97%（room air）。全身に浮腫
+// を認める。尿蛋白 3+。硫酸マグネシウムの持続静注を開始した。頭部CTでは脳
+// に軽度の浮腫を認めている。適切な処置を1つ選べ。
         choices: [
           "A) ニカルジピン（カルシウム拮抗薬）静注",
           "B) フロセミド（利尿薬）静注",
@@ -5536,7 +5560,10 @@ export const useQuestionList = () => {
         commentary: "ニカルジピン（カルシウム拮抗薬）静注 → 妊娠高血圧腎症に伴う子癇発作であり、降圧が必要"
       },
       {
-        questionSentence: "Q16 説明として適切なのはどれか。1つ選べ。",
+        questionSentence: "Q16 32歳の経産婦。妊娠12週0日。出生診断について相談するため、遺伝カウンセリングを受診した。夫婦ともに健康で、家族歴に遺伝性疾患はない。これまでの妊娠経過に異常を認めない。28歳の時に出産した子供がDown症候群であった。無侵襲的出生前遺伝学的検査（NIPT）について知りたいという。説明として適切なのはどれか。1つ選べ。",
+// リング外来に夫婦で受診した。これまでの妊娠経過に異常を認めない。28際の時
+// に出産した子供がDown症候群であった。無侵襲的出生前遺伝学的検査（NIPT）
+// について知りたいという。説明として適切なのはどれか。1つ選べ。
         choices: [
           "A) 「羊水を使って検査を行います」",
           "B) 「検査のため流産する確率は0.3％です」",
@@ -5548,7 +5575,14 @@ export const useQuestionList = () => {
         commentary: "A) 羊水を使って検査を行います → 母体採血\nB) 検査のため流産する確率は0.3％です → 母体採血なので流産はしない\nC) 検査で先天性疾患の80％が診断できます → 染色体異常以外の先天疾患はわからない（半数以上は多因子遺伝）\nD) 検査の結果が陽性であっても確定診断にはなりません → 羊水検査にて確定\nE) 妊娠16週以降にならないと検査することができません → 9～15週まで"
       },
       {
-        questionSentence: "Q17 最も考えられるのはどれか。1つ選べ。",
+        questionSentence: "Q17 32歳の初妊婦。妊娠32週1日。破水感と下腹部痛を主訴に来院した。これまでの妊娠経過に異常は認めない。身長162 cm、体重 65kg、体温 38.5度、脈拍120/分・整、血圧 130/70mmHg。意識は清明。腹部に圧痛を認め、内診では子宮口 1cm開大、展退度 50%。卵膜を触知せず、やや混濁した羊水の流出を認める。尿所見：蛋白（-）、糖（-）。血液所見：赤血球 380万、Hb 11.5g/dl、Ht 34%、白血球 21,000、血小板 25万、CRP 5.0mg/dL、胎児心拍陣痛図では、心拍数基線は180/分、心拍数基線細変動の減少を認める。5分毎の子宮収縮を認める。もっとも考えられるのはどれか。1つ選べ。",
+// の妊娠経過に異常は認めない。身長162 cm、体重 65kg、体温 38.5度、脈拍
+// 120/分・整、血圧 130/70mmHg。意識は清明。腹部に圧痛を認め、内診では子
+// 宮口 1cm開大、展退度 50%。卵膜を触知せず、やや混濁した羊水の流出を認め
+// る。尿所見：蛋白（-）、糖（-）。血液所見：赤血球 380万、Hb 11.5g/dl、Ht
+// 34%、白血球 21,000、血小板 25万、CRP 5.0mg/dL、胎児心拍陣痛図では、心
+// 拍数基線は180/分、心拍数基線細変動の減少を認める。5分毎の子宮収縮を認める。
+// もっとも考えられるのはどれか。1つ選べ。
         choices: [
           "A) 虫垂炎",
           "B) 腎盂腎炎",
@@ -5560,7 +5594,13 @@ export const useQuestionList = () => {
         commentary: "絨毛膜羊膜炎 → 絨毛膜羊膜炎から破水を起こしている（混濁羊水あり）"
       },
       {
-        questionSentence: "Q18 この患者で誤っているのはどれか。1つ選べ。",
+        questionSentence: "Q18 37歳の初妊婦。妊娠37週3日の妊婦健康診査のため来院した。身長158 cm、体重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波ドプラ検査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一過性徐脈を認める。この患者で誤っているのはどれか。1つ選べ。",
+// 重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。
+// 内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音
+// 波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径
+// は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検
+// 査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一
+// 過性徐脈を認める。この患者で誤っているのはどれか。1つ選べ。
         choices: [
           "A) 重症妊娠高血圧症候群",
           "B) 胎児胎盤機能不全である",
@@ -5572,7 +5612,13 @@ export const useQuestionList = () => {
         commentary: "A) 重症妊娠高血圧症候群 → BP160/110以上で重症\nB) 胎児胎盤機能不全である → 遅発一過性徐脈の所見あり\nC) 胎動は減少する → NRFSでは胎動減少する\nD) 前期破水が生じやすい → 無関係\nE) Non-reassuring fetal status（NRFS） → 遅発一過性徐脈の所見あり"
       },
       {
-        questionSentence: "Q19 Q18の患者に対する対応として正しいものはどれか。1つ選べ。",
+        questionSentence: "Q19 37歳の初妊婦。妊娠37週3日の妊婦健康診査のため来院した。身長158 cm、体重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一過性徐脈を認める。この患者に対する対応として正しいものはどれか。1つ選べ。",
+// 重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。
+// 内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音
+// 波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径
+// は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検
+// 査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一
+// 過性徐脈を認める。この患者に対する対応として正しいものはどれか。1つ選べ。",
         choices: [
           "A) 帝王切開術を行う",
           "B) 利尿剤を投与する",
@@ -5584,7 +5630,9 @@ export const useQuestionList = () => {
         commentary: "帝王切開術を行う → 重症妊娠高血圧腎症であり、NRFSも認める。妊娠の終結が唯一の治療法"
       },
       {
-        questionSentence: "Q20 羊水の少ない方の児によくみられるのはどれか。1つ選べ。",
+        questionSentence: "Q20 31歳の初妊婦。妊娠10週に経腟超音波検査で1絨毛膜2羊膜双胎妊娠と診断された。妊娠30週の腹部超音波検査で、両児の羊水量に明らかな差が認められる。羊水の少ない方の児によくみられるのはどれか。1つ選べ。",
+// た。妊娠30週の腹部超音波検査で、両児の羊水量に明らかな差が認められる。羊
+// 水の少ない方の児によくみられるのはどれか。1つ選べ。
         choices: [
           "A) 貧血",
           "B) 心拡大",
@@ -5597,7 +5645,14 @@ export const useQuestionList = () => {
         commentary: "貧血 → 供血児に認める"
       },
       {
-        questionSentence: "Q21 分娩時の出血量は1,200mlであった。正しいのはどれか。1つ選べ。",
+        questionSentence: "Q21 34歳の初妊婦（1妊0産）。妊娠37週6日の午前0時に破水感があり、午前1時に受診した。妊婦健康診査は妊娠8週から受けており、とくに異常は指摘されていない。来院時、羊水の流出を認め、混濁はなかった。内診で子宮口は3cm開大していた。その後の分娩経過記録を以下に示す。午前3時：子宮収縮は10分間隔、子宮口は5cm開大。午前10時：子宮口は全開大。午前11時：2,850gの女児を娩出。午前11時10分：胎盤娩出。胎盤娩出後、子宮収縮は不良で、子宮底輪状マッサージとオキシトシンの点滴静注を行い、子宮収縮は良好となり止血。分娩時の出血量は1,200mlであった。正しいのはどれか。1つ選べ。",
+// 受診した。妊婦健康診査は妊娠8週から受けており、とくに異常は指摘されていな
+// い。来院時、羊水の流出を認め、混濁はなかった。内診で子宮口は3cm開大して
+// いた。その後の分娩経過記録を以下に示す。午前3時：子宮収縮は10分間隔、子宮
+// 口は5cm開大。午前10時：子宮口は全開大。午前11時：2,850gの女児を娩出。午
+// 前11時10分：胎盤娩出。胎盤娩出後、子宮収縮は不良で、子宮底輪状マッサージ
+// とオキシトシンの点滴静注を行い、子宮収縮は良好となり止血。分娩時の出血量は
+// 1,200mlであった。正しいのはどれか。1つ選べ。
         choices: [
           "A) 分娩の開始は午前0時である",
           "B) 適時破水である",
@@ -5663,7 +5718,7 @@ export const useQuestionList = () => {
         commentary: "【問題文原文】妊娠中の超音波検査所見について正しいものはどれか。1つ選べ。 【選択肢原文】A) 妊娠3週で胎嚢を認める, B) 妊娠4週で胎芽の心拍動を確認できる, C) 妊娠9週の胎児心拍数は160～180/分である, D) 妊娠10週に児頭大横径（BPD）で分娩予定日を修正する, E) 妊娠22週で胎児の推定体重は1,000g程度である"
       },
       {
-        questionSentence: "Q5 A 23-year-old woman visits the clinic with the chief complaint of general fatigue. Which test should be performed first? Choose one.",
+        questionSentence: "Q5 A 23-year-old woman presented with general malaise. She visited the hospital after a home pregnancy test was positive 2 weeks ago, and an ultrasound examination revealed a gestational sac and a 10mm embryo in the uterus. She has been aware of nausea for 10 days and has been vomiting for 1 week, and she says she has hardly eaten anything. She has no complaints of genital bleeding or lower abdominal pain. She is alert. She is 155cm tall, weighs 50kg, and weighed 54kg before pregnancy. Her body temperature is 37.1°C, pulse rate is 84/min and regular, blood pressure is 122/62mmHg, respiratory rate is 16/min, and her lips are dry. An ultrasound examination revealed a 20mm fetal head and fetal heartbeats. What test should be performed first?",
         choices: [
           "A) Quantitative blood hCG",
           "B) Arterial blood gas analysis",
@@ -5672,10 +5727,10 @@ export const useQuestionList = () => {
           "E) Urine ketones"
         ],
         answer: "E",
-        commentary: "【問題文原文】23歳の女性。全身倦怠感を主訴に受診した。まず行う検査はどれか。1つ選べ。 【選択肢原文】A) 血中hCG定量, B) 動脈血ガス採血, C) 上部消化管内視鏡検査, D) 甲状腺機能検査, E) 尿ケトン体"
+        commentary: "【問題文原文】23歳の女性。全身倦怠感を主訴に受診した。2週間前に市販の妊娠検査薬が陽性となり来院し、超音波検査にて子宮内に胎嚢と10mmの胎芽を認めた。10日前から悪心を自覚し、1週間前から嘔吐を繰り返し、食事がほとんど摂取できていないという。性器出血や下腹部痛の訴えはない。意識は清明。身長 155cm、体重50kg、妊娠前の体重は54kgであった。体温 37.1度、脈拍 84/分・整、血圧122/62mmHg、呼吸数 16/分、口唇の乾燥を認める。陽音波検査にて頭殿長20mmの胎児と心拍動を認める。まず行う検査はどれか。1つ選べ。 【選択肢原文】A) 血中hCG定量, B) 動脈血ガス採血, C) 上部消化管内視鏡検査, D) 甲状腺機能検査, E) 尿ケトン体"
       },
       {
-        questionSentence: "Q6 What is the appropriate explanation for the patient in Q5? Choose one.",
+        questionSentence: "Q6 What is the appropriate explanation for the patient in Q5 (severe pregnancy sickness)? Choose one.",
         choices: [
           "A) 'You should fast.'",
           "B) 'Please have a high-protein diet.'",
@@ -5684,10 +5739,10 @@ export const useQuestionList = () => {
           "E) 'Please actively supplement with vitamin A.'"
         ],
         answer: "C",
-        commentary: "【問題文原文】Q5の患者に対する説明として適切なのはどれか。1つ選べ。 【選択肢原文】A) 「絶食にしたほうがいいです」, B) 「食事は高タンパク質食にしてください」, C) 「点滴をします」, D) 「人工妊娠中絶をします」, E) 「ビタミンAを積極的に補給してください」"
+        commentary: "【問題文原文】Q5の患者(酷い妊娠悪阻)に対する説明として適切なのはどれか。1つ選べ。 【選択肢原文】A) 「絶食にしたほうがいいです」, B) 「食事は高タンパク質食にしてください」, C) 「点滴をします」, D) 「人工妊娠中絶をします」, E) 「ビタミンAを積極的に補給してください」"
       },
       {
-        questionSentence: "Q7 What is the Bishop score for this patient?",
+        questionSentence: "Q7 A 28-year-old primipara was hospitalized for the onset of labor at 39 weeks and 0 days of pregnancy. There were no abnormalities in the hospitalization course. At the time of admission, the cervix was 3 cm dilated, the effacement was 50%, the fetal head descent was SP-2 cm, the hardness was moderate, and the position was posterior. What is the patient's Bishop score?",
         choices: [
           "A) 5 points",
           "B) 6 points",
@@ -5695,9 +5750,9 @@ export const useQuestionList = () => {
           "D) 8 points",
           "E) 9 points"
         ],
-        answer: "C",
+        answer: "A",
         answerImg: [Q7_non_question_page_4],
-        commentary: "【問題文原文】この患者のBishop scoreはどれか？ 【選択肢原文】A) 5点, B) 6点, C) 7点, D) 8点, E) 9点"
+        commentary: "【問題文原文】28歳の初産婦。妊娠39週0日に陣痛発来のため入院した。これまでの入院経過に以上はなかった。入院時の内診で子宮口は3cm開大、展退度は50％、児頭下降度はSP-2cm、硬さは中等硬、位置は後方であった。この患者のBishop scoreはどれか？ 【選択肢原文】A) 5点, B) 6点, C) 7点, D) 8点, E) 9点"
       },
       {
         questionSentence: "Q8 Which statement about fetal appendages is correct? Choose one.",
@@ -5724,7 +5779,7 @@ export const useQuestionList = () => {
         commentary: "【問題文原文】糖尿病合併妊娠について誤っているのはどれか。1つ選べ。 【選択肢原文】A) 妊娠中は経口血糖降下薬で管理する, B) 新生児低血糖に注意する, C) 分娩後はインスリン必要量が減少する, D) 羊水過多症の合併頻度が増える, E) 妊娠初期の血糖コントロールが不良の場合は先天性形態異常の頻度が高くなる"
       },
       {
-        questionSentence: "Q10 Which statement is correct about a 25-year-old primiparous woman at 39 weeks and 6 days of pregnancy who was hospitalized due to labor onset?",
+        questionSentence: "Q10 A 25-year-old primipara was hospitalized for the onset of labor at 39 weeks and 6 days of pregnancy. There were no abnormalities in the hospitalization course. At the time of admission, the cervix was 7 cm dilated, the effacement was 80%, the fetal head descent was SP+3 cm, the hardness was soft, and the position was anterior. The fetal head was engaged. Which of the following is correct?",
         choices: [
           "A) The membranes have ruptured",
           "B) The fetus is in an extended position",
@@ -5734,10 +5789,10 @@ export const useQuestionList = () => {
         ],
         answer: "E",
         answerImg: [Q10_non_question_page_5],
-        commentary: "【問題文原文】25歳の初産婦。妊娠39週6日。陣痛発来のため入院した。正しいのはどれか？ 【選択肢原文】A) 破水している, B) 反屈位である, C) 過強陣痛である, D) 分娩第2期である, E) 児頭は嵌入している"
+        commentary: "【問題文原文】Q10 25歳の初産婦。妊娠39週6日。陣痛発来のため入院した。陣痛は周期2分30秒、発作持続時間70秒。外診では第1頭位。内診で子宮口は7cm開大、展退度は80％、児頭下降度はSP+3cm、硬さは軟、位置は前方である。胎胞は認めない。卵膜を介して矢状縫合を1時から7時方向に蝕知し、子宮口の中央部に小泉門を触れるが大泉門は触れない。正しいのはどれか？ 【選択肢原文】A) 破水している, B) 反屈位である, C) 過強陣痛である, D) 分娩第2期である, E) 児頭は嵌入している"
       },
       {
-        questionSentence: "Q11 What are the causes of bleeding four hours after delivery? Choose three.",
+        questionSentence: "Q11 A 32-year-old pregnant that has given birth 6 times and has been pregnant 4 times. She gave birth vaginally 40 weeks and 1 day into her pregnancy to a 4,100g boy. The delivery lasted 28 hours, and she lost 400ml of blood during delivery. Four hours after delivery, she noticed genital bleeding of 700ml, including a clot. She is alert. Her body temperature is 36.5°C, pulse rate is 96/min and regular, blood pressure is 96/48mmHg, and respiratory rate is 18/min. A vaginal examination revealed a moderate amount of bloody secretion, and no lacerations were found in the cervix or vaginal wall. The uterine fundus was palpable 2 fingers above the umbilicus. Blood test results: RBC 3.6 million, Hb 9.8g/dl, Ht 37%, WBC 5,600, platelets 300,000, CRP 0.2 mg/dl. Which of the following could be the cause of the bleeding 4 hours after delivery? Choose three.",
         choices: [
           "A) Maternal age",
           "B) Number of deliveries",
@@ -5746,10 +5801,10 @@ export const useQuestionList = () => {
           "E) Duration of labor"
         ],
         answer: "B, D, E",
-        commentary: "【問題文原文】分娩4時間後の出血の誘因として考えられるのはどれか。3つ選べ。 【選択肢原文】A) 母体年齢, B) 分娩回数, C) 分娩週数, D) 児体重, E) 分娩時間"
+        commentary: "【問題文原文】32歳の6回経妊・4回経産婦。妊娠40週1日で、4,100gの男児を経腟分娩した。分娩時間は28時間で、分娩時出血量は400mlであった。分娩4時間後に、凝血塊を含む700mlの性器出血を認めた。意識は清明。体温36.5度、脈拍96/分・整、血圧96/48mmHg、呼吸数18回/分。腟鏡診で分泌物は血性中等量で、子宮頸管と腟壁に裂傷は認めない。子宮底は臍上2横指に触れる。血液所見：赤血球 360万、Hb 9.8g/dl、Ht 37%、白血球 5,600、血小板 30万、CRP0.2 mg/dl。分娩4時間後の出血の誘因として考えられるのはどれか。3つ選べ。 【選択肢原文】A) 母体年齢, B) 分娩回数, C) 分娩週数, D) 児体重, E) 分娩時間"
       },
       {
-        questionSentence: "Q12 What is the first procedure to perform? Choose one.",
+        questionSentence: "Q12 In the case of Q11 (relaxed bleeding), what is the first treatment to perform?",
         choices: [
           "A) Blood transfusion",
           "B) Hysterectomy",
@@ -5759,10 +5814,10 @@ export const useQuestionList = () => {
         ],
         answer: "E",
         answerImg: [Q12_non_question_page_6],
-        commentary: "【問題文原文】最初に行う処置はどれか。1つ選べ。 【選択肢原文】A) 輸血, B) 子宮全摘術, C) 抗DIC療法, D) 子宮内容除去術, E) 子宮底輪状マッサージ"
+        commentary: "【問題文原文】Q11の場合（弛緩出血）、最初に行う処置はどれか。1つ選べ。 【選択肢原文】A) 輸血, B) 子宮全摘術, C) 抗DIC療法, D) 子宮内容除去術, E) 子宮底輪状マッサージ"
       },
       {
-        questionSentence: "Q13 What is the appropriate response? Choose one.",
+        questionSentence: "Q13 A 35-year-old primipara visited the hospital at 34 weeks and 3 days of pregnancy because she had been aware of intermittent slight genital bleeding for a week. At the time of admission, a large amount of blood clots were observed in the vagina on vaginal examination, and an ultrasound examination revealed findings as shown in the figure. The fetal heart rate was normal in the fetal heart rate monitoring, and uterine contractions were not observed. What is the appropriate response to this case?",
         questionImg: [periQ13_qS],
         choices: [
           "A) Perform emergency cesarean section",
@@ -5772,10 +5827,13 @@ export const useQuestionList = () => {
           "E) Perform Martius-Guzman X-ray"
         ],
         answer: "A",
-        commentary: "【問題文原文】適切な対応はどれか。1つ選べ。 【選択肢原文】A) 緊急帝王切開を行う, B) 子宮頸管縫縮術を行う, C) 翌日の受診を指示し帰宅させる, D) オキシトシンの点滴を開始する, E) マルチウス-グスマンのX線撮影を行う"
+        commentary: "【問題文原文】35歳の1回経産婦、妊娠34週3日、一週間前から断続的に少量の性器出血を自覚するようになったため来院した。来院時、腟鏡診では腟内に凝血塊を多量に認め、経腟超音波検査では図のような所見であった。胎児心拍数陣痛図では胎児心拍は正常で、子宮収縮は認めなかった。この症例に対して適切な対応はどれか。1つ選べ。 【選択肢原文】A) 緊急帝王切開を行う, B) 子宮頸管縫縮術を行う, C) 翌日の受診を指示し帰宅させる, D) オキシトシンの点滴を開始する, E) マルチウス-グスマンのX線撮影を行う"
+// するようになったため来院した。来院時、腟鏡診では腟内に凝血塊を多量に認め、
+// 経腟超音波検査では図のような所見であった。胎児心拍数陣痛図では胎児心拍は正
+// 常で、子宮収縮は認めなかった。この症例に対して適切な対応はどれか。1つ選べ。 【選択肢原文】A) 緊急帝王切開を行う, B) 子宮頸管縫縮術を行う, C) 翌日の受診を指示し帰宅させる, D) オキシトシンの点滴を開始する, E) マルチウス-グスマンのX線撮影を行う"
       },
       {
-        questionSentence: "Q14 What is the most likely diagnosis? Choose one.",
+        questionSentence: "Q14 A 38-year-old primipara was transported by ambulance due to severe abdominal pain and genital bleeding at 34 weeks and 1 day of pregnancy. The pregnancy course had been uneventful, but she was pointed out to have urinary protein and mild hypertension at the 33rd week of pregnancy. She smoked 20 cigarettes a day before pregnancy, but reduced it to 5 cigarettes a day after pregnancy. Her body temperature was 36.9°C, heart rate was 72/min, blood pressure was 170/90mmHg, and she had a distressed expression due to abdominal pain. The abdomen was distended, hard, and tender. A small amount of genital bleeding was observed on vaginal examination, and the cervix was closed on internal examination. Urine protein was 2+, and an ultrasound examination revealed a prominent thickening of the placenta at the uterine fundus. Fetal heart rate monitoring showed a decrease in baseline variability and late transient bradycardia. What is the most likely diagnosis?",
         choices: [
           "A) Placenta previa",
           "B) Threatened preterm labor",
@@ -5784,10 +5842,17 @@ export const useQuestionList = () => {
           "E) Uterine rupture"
         ],
         answer: "D",
-        commentary: "【問題文原文】最も考えられるのはどれか1つ選べ。 【選択肢原文】A) 前置胎盤, B) 切迫早産, C) 絨毛膜羊膜炎, D) 常位胎盤早期剥離, E) 子宮破裂"
+        commentary: "【問題文原文】38歳の初産婦。妊娠34週1日に激しい腹痛と性器出血を主訴に救急車で搬入された。これまでの妊娠経過は順調であったが、妊娠33週の妊婦健康診査で、尿蛋白、軽度の血圧上昇を指摘された。喫煙は、妊娠前20本/日であったが、妊娠後は5本/日に減らしている。体温36.9度、心拍数72/分、血圧170/90mmHg、腹痛のため表情は苦悶様で、腹部は傍流しており、板状に硬く、圧痛を認める。腟鏡診で少量の性器出血を認め、内診で子宮口は閉鎖している。尿蛋白2+、超音波検査で子宮底部に存在する胎盤の著名な肥厚を認める。胎児心拍陣痛図、基細変動の減少と遅発一過性徐脈を認める。最も考えられるのはどれか。1つ選べ。 【選択肢原文】A) 前置胎盤, B) 切迫早産, C) 絨毛膜羊膜炎, D) 常位胎盤早期剥離, E) 子宮破裂"
+// れた。これまでの妊娠経過は順調であったが、妊娠33週の妊婦健康診査で、尿蛋
+// 白、軽度の血圧上昇を指摘された。喫煙は、妊娠前20本/日であったが、妊娠後は
+// 5本/日に減らしている。体温36.9度、心拍数72/分、血圧170/90mmHg、腹痛の
+// ため表情は苦悶様で、腹部は傍流しており、板状に硬く、圧痛を認める。腟鏡診で
+// 少量の性器出血を認め、内診で子宮口は閉鎖している。尿蛋白2+、超音波検査で
+// 子宮底部に存在する胎盤の著名な肥厚を認める。胎児心拍陣痛図、基細変動の減少
+// と遅発一過性徐脈を認める。最も考えられるのはどれか1つ選べ。 【選択肢原文】A) 前置胎盤, B) 切迫早産, C) 絨毛膜羊膜炎, D) 常位胎盤早期剥離, E) 子宮破裂"
       },
       {
-        questionSentence: "Q15 What is the appropriate treatment? Choose one.",
+        questionSentence: "Q15 A 41-year-old primipara. She was transported by ambulance due to generalized convulsions at 39 weeks and 2 days of pregnancy. The convulsions had disappeared by the time of arrival. Her consciousness level was JCS I-1, heart rate 90/min and regular, blood pressure 190/120mmHg, respiratory rate 16/min, SpO2 97% (room air). She had edema throughout her body. Urine protein 3+. Continuous intravenous infusion of magnesium sulfate was started. A head CT revealed mild brain edema. What is the appropriate treatment?",
         choices: [
           "A) Intravenous nicardipine (calcium channel blocker)",
           "B) Intravenous furosemide (diuretic)",
@@ -5796,10 +5861,14 @@ export const useQuestionList = () => {
           "E) Observation"
         ],
         answer: "A",
-        commentary: "【問題文原文】適切な処置を1つ選べ。 【選択肢原文】A) ニカルジピン（カルシウム拮抗薬）静注, B) フロセミド（利尿薬）静注, C) 塩酸リトドリン点滴静注, D) ヘパリン静注, E) 経過観察"
+        commentary: "【問題文原文】41歳の初産婦。妊娠39週2日に全身けいれんのため救急車で搬入された。来院時にはけいれん発作は消失していた。意識レベルはJCS I-1、心拍数 90/分・整、血圧 190/120mmHg、呼吸数 16回/分、SpO2 97%（room air）。全身に浮腫を認める。尿蛋白 3+。硫酸マグネシウムの持続静注を開始した。頭部CTでは脳に軽度の浮腫を認めている。適切な処置を1つ選べ。 【選択肢原文】A) ニカルジピン（カルシウム拮抗薬）静注, B) フロセミド（利尿薬）静注, C) 塩酸リトドリン点滴静注, D) ヘパリン静注, E) 経過観察"
+// 時にはけいれん発作は消失していた。意識レベルはJCS I-1、心拍数 90/分・整、
+// 血圧 190/120mmHg、呼吸数 16回/分、SpO2 97%（room air）。全身に浮腫
+// を認める。尿蛋白 3+。硫酸マグネシウムの持続静注を開始した。頭部CTでは脳
+// に軽度の浮腫を認めている。適切な処置を1つ選べ。 【選択肢原文】A) ニカルジピン（カルシウム拮抗薬）静注, B) フロセミド（利尿薬）静注, C) 塩酸リトドリン点滴静注, D) ヘパリン静注, E) 経過観察"
       },
       {
-        questionSentence: "Q16 What is the appropriate explanation? Choose one.",
+        questionSentence: "Q16 A 32-year-old multipara. She visited the genetic counseling outpatient clinic with her husband at 12 weeks and 0 days of pregnancy to discuss prenatal diagnosis. There were no abnormalities in the course of pregnancy. The child she gave birth to at 28 years of age had Down syndrome. She wants to know about non-invasive prenatal genetic testing (NIPT). Which of the following is an appropriate explanation?",
         choices: [
           "A) 'We will perform tests using amniotic fluid.'",
           "B) 'There is a 0.3% chance of miscarriage due to the test.'",
@@ -5808,10 +5877,10 @@ export const useQuestionList = () => {
           "E) 'The test cannot be performed until after 16 weeks of pregnancy.'"
         ],
         answer: "D",
-        commentary: "【問題文原文】説明として適切なのはどれか。1つ選べ。 【選択肢原文】A) 「羊水を使って検査を行います」, B) 「検査のため流産する確率は0.3％です」, C) 「検査で先天性疾患の80％が診断できます」, D) 「検査の結果が陽性であっても確定診断にはなりません」, E) 「妊娠16週以降にならないと検査することができません」"
+        commentary: "【問題文原文】32歳の経産婦。妊娠12週0日。出生診断について相談するため、遺伝カウンセリング外来に夫婦で受診した。これまでの妊娠経過に異常を認めない。28際の時に出産した子供がDown症候群であった。無侵襲的出生前遺伝学的検査（NIPT）について知りたいという。説明として適切なのはどれか。1つ選べ。 【選択肢原文】A) 「羊水を使って検査を行います」, B) 「検査のため流産する確率は0.3％です」, C) 「検査で先天性疾患の80％が診断できます」, D) 「検査の結果が陽性であっても確定診断にはなりません」, E) 「妊娠16週以降にならないと検査することができません」"
       },
       {
-        questionSentence: "Q17 What is the most likely diagnosis? Choose one.",
+        questionSentence: "Q17 A 32-year-old primipara. She visited the hospital at 32 weeks and 1 day of pregnancy with a feeling of rupture of membranes and lower abdominal pain. There were no abnormalities in the course of pregnancy. She is 162 cm tall, weighs 65 kg, has a body temperature of 38.5°C, a pulse rate of 120/min and regular, a blood pressure of 130/70 mmHg, and is alert. She has tenderness in her abdomen, and on internal examination, the cervix was 1 cm dilated, the effacement was 50%, the amniotic membrane was not palpable, and a slightly turbid amniotic fluid was observed. Urinalysis: protein (-), glucose (-). Blood test results: RBC 3.8 million, Hb 11.5g/dl, Ht 34%, WBC 21,000, platelets 250,000, CRP 5.0 mg/dl. The fetal heart rate monitor showed a baseline heart rate of 180/min, and a decrease in baseline heart rate variability was observed. Uterine contractions were observed every 5 minutes. What is the most likely diagnosis?",
         choices: [
           "A) Appendicitis",
           "B) Pyelonephritis",
@@ -5820,10 +5889,17 @@ export const useQuestionList = () => {
           "E) Salpingitis"
         ],
         answer: "C",
-        commentary: "【問題文原文】最も考えられるのはどれか。1つ選べ。 【選択肢原文】A) 虫垂炎, B) 腎盂腎炎, C) 絨毛膜羊膜炎, D) 骨盤腹膜炎, E) 卵管炎"
+        commentary: "【問題文原文】32歳の初妊婦。妊娠32週1日。破水感と下腹部痛を主訴に来院した。これまでの妊娠経過に異常は認めない。身長162 cm、体重 65kg、体温 38.5度、脈拍120/分・整、血圧130/70mmHg。意識は清明。腹部に圧痛を認め、内診では子宮口1cm開大、展退度50%。卵膜を触知せず、やや混濁した羊水の流出を認める。尿所見：蛋白（-）、糖（-）。血液所見：赤血球380万、Hb 11.5g/dl、Ht 34%、白血球21,000、血小板25万、CRP 5.0mg/dL、胎児心拍陣痛図では、心拍数基線は180/分、心拍数基線細変動の減少を認める。5分毎の子宮収縮を認める。もっとも考えられるのはどれか。1つ選べ。 【選択肢原文】A) 虫垂炎, B) 腎盂腎炎, C) 絨毛膜羊膜炎, D) 骨盤腹膜炎, E) 卵管炎"
+// の妊娠経過に異常は認めない。身長162 cm、体重 65kg、体温 38.5度、脈拍
+// 120/分・整、血圧 130/70mmHg。意識は清明。腹部に圧痛を認め、内診では子
+// 宮口 1cm開大、展退度 50%。卵膜を触知せず、やや混濁した羊水の流出を認め
+// る。尿所見：蛋白（-）、糖（-）。血液所見：赤血球 380万、Hb 11.5g/dl、Ht
+// 34%、白血球 21,000、血小板 25万、CRP 5.0mg/dL、胎児心拍陣痛図では、心
+// 拍数基線は180/分、心拍数基線細変動の減少を認める。5分毎の子宮収縮を認める。
+// もっとも考えられるのはどれか。1つ選べ。 【選択肢原文】A) 虫垂炎, B) 腎盂腎炎, C) 絨毛膜羊膜炎, D) 骨盤腹膜炎, E) 卵管炎"
       },
       {
-        questionSentence: "Q18 Which statement is incorrect for this patient? Choose one.",
+        questionSentence: "Q18 A 37-year-old primipara. She visited the hospital for a pregnancy checkup at 37 weeks and 3 days of pregnancy. She is 158 cm tall and weighs 68 kg (50 kg before pregnancy). Her blood pressure is 180/100 mmHg, and she has mild edema in her lower legs. On examination, the cervix was closed, and the effacement was 0%. Urinalysis showed 3+ protein and - glucose. An ultrasound examination revealed an estimated fetal weight of 2,000 g, which was the same as 2 weeks ago. The fetal transverse diameter was within the normal range, but the abdominal circumference was smaller than the standard value, and oligohydramnios was also observed. A Doppler ultrasound examination revealed a relative increase in blood flow to the middle cerebral artery of the fetus. A late transient bradycardia was observed on the fetal heart rate monitor. Which of the following is incorrect for this patient?",
         choices: [
           "A) Severe pregnancy-induced hypertension",
           "B) Fetal-placental dysfunction",
@@ -5832,10 +5908,16 @@ export const useQuestionList = () => {
           "E) Non-reassuring fetal status (NRFS)"
         ],
         answer: "D",
-        commentary: "【問題文原文】この患者で誤っているのはどれか。1つ選べ。 【選択肢原文】A) 重症妊娠高血圧症候群, B) 胎児胎盤機能不全である, C) 胎動は減少する, D) 前期破水が生じやすい, E) Non-reassuring fetal status（NRFS）"
+        commentary: "【問題文原文】37歳の初妊婦。妊娠37週3日の妊婦健康診査のため来院した。身長158 cm、体重 68 kg（非妊娠時 50 kg）。血圧 180/100 mmHg、下腿に軽度浮腫を認める。内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音波検査で胎児の推定体重は2,000 gであり、2週間前と変化はない。胎児の大横径は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一過性徐脈を認める。この患者で誤っているのはどれか。1つ選べ。 【選択肢原文】A) 重症妊娠高血圧症候群, B) 胎児胎盤機能不全である, C) 胎動は減少する, D) 前期破水が生じやすい, E) Non-reassuring fetal status（NRFS）"
+// 重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。
+// 内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音
+// 波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径
+// は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検
+// 査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一
+// 過性徐脈を認める。この患者で誤っているのはどれか。1つ選べ。 【選択肢原文】A) 重症妊娠高血圧症候群, B) 胎児胎盤機能不全である, C) 胎動は減少する, D) 前期破水が生じやすい, E) Non-reassuring fetal status（NRFS）"
       },
       {
-        questionSentence: "Q19 What is the correct response for the patient in Q18? Choose one.",
+        questionSentence: "Q19 A 37-year-old primipara. She visited the hospital for a pregnancy checkup at 37 weeks and 3 days of pregnancy. She is 158 cm tall and weighs 68 kg (50 kg before pregnancy). Her blood pressure is 180/100 mmHg, and she has mild edema in her lower legs. On examination, the cervix was closed, and the effacement was 0%. Urinalysis showed 3+ protein and - glucose. An ultrasound examination revealed an estimated fetal weight of 2,000 g, which was the same as 2 weeks ago. The fetal transverse diameter was within the normal range, but the abdominal circumference was smaller than the standard value, and oligohydramnios was also observed. A Doppler ultrasound examination revealed a relative increase in blood flow to the middle cerebral artery of the fetus. A late transient bradycardia was observed on the fetal heart rate monitor. What is the appropriate response to this patient?",
         choices: [
           "A) Perform cesarean section",
           "B) Administer diuretics",
@@ -5844,10 +5926,17 @@ export const useQuestionList = () => {
           "E) Observation"
         ],
         answer: "A",
-        commentary: "【問題文原文】Q18の患者に対する対応として正しいものはどれか。1つ選べ。 【選択肢原文】A) 帝王切開術を行う, B) 利尿剤を投与する, C) 羊水注入を行う, D) 副腎皮質ステロイド薬の投与, E) 経過観察"
+        commentary: "【問題文原文】37歳の初妊婦。妊娠37週3日の妊婦健康診査のため来院した。身長158 cm、体重 68 kg（非妊娠時 50 kg）。血圧 180/100 mmHg、下腿に軽度浮腫を認める。内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音波検査で胎児の推定体重は2,000 gであり、2週間前と変化はない。胎児の大横径は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一過性徐脈を認める。この患者に対する対応として正しいものはどれか。1つ選べ。 【選択肢原文】A) 帝王切開術を行う, B) 利尿剤を投与する, C) 羊水注入を行う, D) 副腎皮質ステロイド薬の投与, E) 経過観察"
+
+// 重 68kg（非妊娠時 50kg）。血圧 180/100mmHg、下腿に軽度浮腫を認める。
+// 内診所見：子宮口は閉鎖、展退度 0%。尿所見：タンパク（3+）、糖（-）。超音
+// 波検査で胎児の推定体重は2,000gであり、2週間前と変化はない。胎児の大横径
+// は正常範囲であるが、腹囲は基準値より小さく羊水過少も認める。超音波度プラ検
+// 査にて胎児の中大脳動脈への血流の相対的増加を認める。胎児心拍陣痛図で遅発一
+// 過性徐脈を認める。この患者に対する対応として正しいものはどれか。1つ選べ。 【選択肢原文】A) 帝王切開術を行う, B) 利尿剤を投与する, C) 羊水注入を行う, D) 副腎皮質ステロイド薬の投与, E) 経過観察"
       },
       {
-        questionSentence: "Q20 Which condition is often seen in the twin with less amniotic fluid? Choose one.",
+        questionSentence: "Q20 A 31-year-old primipara. At 10 weeks pregnant, a transvaginal ultrasound examination diagnosed a twin pregnancy with 1 chorion and 2 amnions. At 30 weeks of pregnancy, an abdominal ultrasound examination revealed a significant difference in the amniotic fluid volume of both fetuses. Which of the following is commonly seen in the fetus with less amniotic fluid? Choose one.",
         choices: [
           "A) Anemia",
           "B) Cardiac enlargement",
@@ -5857,10 +5946,10 @@ export const useQuestionList = () => {
         ],
         answer: "A",
         answerImg: [periQ20],
-        commentary: "【問題文原文】羊水の少ない方の児によくみられるのはどれか。1つ選べ。 【選択肢原文】A) 貧血, B) 心拡大, C) 皮下浮腫, D) 膀胱の拡張, E) 巨大児"
+        commentary: "【問題文原文】31歳の初妊婦。妊娠10週に経腟超音波検査で1絨毛膜2羊膜双胎妊娠と診断された。妊娠30週の腹部超音波検査で、両児の羊水量に明らかな差が認められる。羊水の少ない方の児によくみられるのはどれか。1つ選べ。 【選択肢原文】A) 貧血, B) 心拡大, C) 皮下浮腫, D) 膀胱の拡張, E) 巨大児"
       },
       {
-        questionSentence: "Q21 The blood loss during delivery was 1,200 ml. Which statement is correct? Choose one.",
+        questionSentence: "Q21 34-year-old primipara (1-0-0-0) at 37 weeks and 6 days of pregnancy. She felt a rupture of membranes at 0:00 AM and visited the hospital at 1:00 AM. She has been receiving prenatal checkups since 8 weeks of pregnancy, and no abnormalities have been pointed out. At the time of admission, amniotic fluid was observed to be leaking, but there was no turbidity. The cervix was 3 cm dilated on internal examination. The subsequent delivery course is shown below. 3:00 AM: Uterine contractions were 10 minutes apart, and the cervix was 5 cm dilated. 10:00 AM: The cervix was fully dilated. 11:00 AM: A 2,850g girl was delivered. 11:10 AM: The placenta was delivered. After the placenta was delivered, uterine contractions were poor, and uterine fundal massage and intravenous oxytocin drip were performed, and uterine contractions improved, stopping the bleeding. The amount of blood loss during delivery was 1,200 ml. Which of the following is correct?",
         choices: [
           "A) Labor began at 0:00 AM",
           "B) Timely rupture of membranes",
@@ -5869,7 +5958,14 @@ export const useQuestionList = () => {
           "E) The amount of blood loss during delivery is within the normal range"
         ],
         answer: "D",
-        commentary: "【問題文原文】分娩時の出血量は1,200mlであった。正しいのはどれか。1つ選べ。 【選択肢原文】A) 分娩の開始は午前0時である, B) 適時破水である, C) 分娩第1期は11時間である, D) 分娩第3期は10分である, E) 分娩時出血量は正常範囲である。"
+        commentary: "【問題文原文】34歳の初妊婦（1妊0産）。妊娠37週6日の午前0時に破水感があり、午前1時に受診した。妊婦健康診査は妊娠8週から受けており、とくに異常は指摘されていない。来院時、羊水の流出を認め、混濁はなかった。内診で子宮口は3cm開大していた。その後の分娩経過記録を以下に示す。午前3時：子宮収縮は10分間隔、子宮口は5cm開大。午前10時：子宮口は全開大。午前11時：2,850gの女児を娩出。午前11時10分：胎盤娩出。胎盤娩出後、子宮収縮は不良で、子宮底輪状マッサージとオキシトシンの点滴静注を行い、子宮収縮は良好となり止血。分娩時の出血量は1,200mlであった。正しいのはどれか。1つ選べ。 【選択肢原文】A) 分娩の開始は午前0時である, B) 適時破水である, C) 分娩第1期は11時間である, D) 分娩第3期は10分である, E) 分娩時出血量は正常範囲である。"
+// 受診した。妊婦健康診査は妊娠8週から受けており、とくに異常は指摘されていな
+// い。来院時、羊水の流出を認め、混濁はなかった。内診で子宮口は3cm開大して
+// いた。その後の分娩経過記録を以下に示す。午前3時：子宮収縮は10分間隔、子宮
+// 口は5cm開大。午前10時：子宮口は全開大。午前11時：2,850gの女児を娩出。午
+// 前11時10分：胎盤娩出。胎盤娩出後、子宮収縮は不良で、子宮底輪状マッサージ
+// とオキシトシンの点滴静注を行い、子宮収縮は良好となり止血。分娩時の出血量は
+// 1,200mlであった。正しいのはどれか。1つ選べ。 【選択肢原文】A) 分娩の開始は午前0時である, B) 適時破水である, C) 分娩第1期は11時間である, D) 分娩第3期は10分である, E) 分娩時出血量は正常範囲である。"
       }
       ]
     }, {
