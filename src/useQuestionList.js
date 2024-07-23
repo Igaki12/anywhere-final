@@ -7008,7 +7008,7 @@ export const useQuestionList = () => {
           "e) "
         ],
         answerImg: [peri2021q9],
-        answer: "c",
+        answer: "d",
         commentary: "羊水量は妊娠 8 ヶ月でピークを迎える。以後は減少する。"
       },
       {
@@ -7208,7 +7208,7 @@ export const useQuestionList = () => {
           "e) 弛緩出血"
         ],
         answerImg: [peri2021q26],
-        answer: "a",
+        answer: "b",
       },
       {
         questionSentence: "Q27 妊娠 28 週 3 日、 性器出血で受診。 経膣超音波検査の所見を図 2 に示す。 診断はどれか。一つ選べ。",
@@ -7236,7 +7236,7 @@ export const useQuestionList = () => {
         commentary: "c以外の選択肢は羊水過少を引き起こす要因である。"
       },
       {
-        questionSentence: "Q29 図 3 は妊娠 3 週 1 日の妊婦の経膣超音波所見である。胎児心拍陣痛図にて不規則な子宮収縮を認める。この妊婦に対する治療として不適切なものはどれか。1 つ選べ。",
+        questionSentence: "Q29 図 3 は妊娠 3X 週 1 日の妊婦の経膣超音波所見である。胎児心拍陣痛図にて不規則な子宮収縮を認める。この妊婦に対する治療として不適切なものはどれか。1 つ選べ。",
         questionImg: [peri2021qS29],
         choices: [
           "a) 安静",
@@ -7337,8 +7337,8 @@ export const useQuestionList = () => {
           "e) 皮膚乾燥と刺激"
         ],
         answerImg: [peri2021q36],
-        answer: "e",
-        commentary: "保温なら正解"
+        answer: "a",
+        commentary: ""
       },
       {
         questionSentence: "Q37 新生児一過性多呼吸について誤っているものはどれか。一つ選べ。",
@@ -7363,7 +7363,7 @@ export const useQuestionList = () => {
           "e) 環境湿度が高い"
         ],
         answerImg: [peri2021q38],
-        answer: "d",
+        answer: "e",
       },
       {
         questionSentence: "Q39 児のビタミン K(VK)欠乏症について誤っているのはどれか。一つ選べ。",
@@ -7507,7 +7507,7 @@ export const useQuestionList = () => {
             "e) "
           ],
           answerImg: [peri2021q9],
-          answer: "c",
+          answer: "d",
           commentary: "【問題文原文】羊水に関して誤っているものはどれか。一つ選べ。 【選択肢原文】a) 胎児尿に由来する, b) 肺胞分泌物に由来する, c) 妊娠 8 ヶ月でピークを迎える, d) 妊娠 10 ヶ月で 1000mL に達する, e) "
         },
         {
@@ -7714,7 +7714,7 @@ export const useQuestionList = () => {
             "e) Atonic bleeding"
           ],
           answerImg: [peri2021q26],
-          answer: "a",
+          answer: "b",
           commentary: "【問題文原文】妊娠・分娩時に外出血をきたしにくいのはどれか。一つ選べ。 【選択肢原文】a) 前置胎盤, b) 前期破水, c) 子宮内反症, d) 子宮顎管裂傷, e) 弛緩出血"
         },
         {
@@ -7743,7 +7743,7 @@ export const useQuestionList = () => {
           commentary: "【問題文原文】羊水過多を起こすものはどれか。一つ選べ。 【選択肢原文】a) 過期妊娠, b) 前期破水, c) 胎児食道閉鎖, d) 胎盤機能不全, e) 胎児 Potter 症候群"
         },
         {
-          questionSentence: "Q29 Figure 3 shows the transvaginal ultrasound findings of a 3-week 1-day pregnant woman. Irregular uterine contractions are observed in the fetal heart rate tracing. Which treatment is inappropriate for this pregnant woman? Choose one.",
+          questionSentence: "Q29 Figure 3 shows the transvaginal ultrasound findings of a 3X-week 1-day pregnant woman. Irregular uterine contractions are observed in the fetal heart rate tracing. Which treatment is inappropriate for this pregnant woman? Choose one.",
           questionImg: [peri2021qS29],
           choices: [
             "a) Bed rest",
@@ -7845,7 +7845,7 @@ export const useQuestionList = () => {
             "e) Drying and stimulation of the skin"
           ],
           answerImg: [peri2021q36],
-          answer: "e",
+          answer: "a",
           commentary: "【問題文原文】新生児蘇生法における初期蘇生として誤っているものはどれか。一つ選べ。 【選択肢原文】a) 心臓マッサージ, b) 保湿, c) 気道開通, d) 体位保持, e) 皮膚乾燥と刺激"
         },
         {
@@ -7871,7 +7871,7 @@ export const useQuestionList = () => {
             "e) High environmental humidity"
           ],
           answerImg: [peri2021q38],
-          answer: "d",
+          answer: "e",
           commentary: "【問題文原文】新生児の不感蒸泄を増す因子として適切でないものはどれか。一つ選べ。 【選択肢原文】a) 在胎日数が少ない, b) 体重が小さい, c) 出生後日数が短い, d) 環境温度が高い, e) 環境湿度が高い"
         },
         {
