@@ -5321,30 +5321,43 @@ export const useQuestionList = () => {
       }, {
         detailInfo: '5/07 1限 (4)',
         questionSentence: 'Bishopスコアに含まれるのはどれか？',
+        answer: '子宮口の開大(0-6cm)、頚管展退度(0-100%)、児頭の位置(Station-3~+1)、頸部の硬度(硬ー軟)、子宮口の位置(後方ー前方)',
       }, {
         detailInfo: '5/07 2限 (1)',
         questionSentence: '胞状奇胎で血中に増加するものはどれか？',
+        answer: 'hCG(human Chorionic Gonadotropin)',
       }, {
         detailInfo: '5/07 2限 (2)',
         questionSentence: '流産は何週未満の妊娠の終了を指すか？',
+        answer: '22週未満',
       }, {
         detailInfo: '5/07 2限 (3)',
         questionSentence: '難所性妊娠の部位で最も多いのはどれか？',
+        answer: '卵管(卵管膨大部)',
       }, {
         detailInfo: '5/07 2限 (4)',
         questionSentence: '習慣流産は何回以上の連続した流産を指すか？',
+        answer: '3回以上',
       }, {
         detailInfo: '5/21 3限 (1)',
         questionSentence: 'TORCH症候群に含まれる病原体はどれか',
+        answer: 'Toxoplasma gondii, Other, Rubella virus, Cytomegalovirus, Herpes simplex virus',
+        commentary:"HBV, HCV, HIV, HTLV-1,GBSはTORCH症候群には含まれない。",
       }, {
         detailInfo: '5/21 3限 (2)',
         questionSentence: '先天性風疹症候群の三大症状はどれか',
+        answer: '先天性心疾患、先天性白内障、難聴',
+        commentary:"白内障だけでなく、緑内障や色素性網膜症も含まれる。",
       }, {
         detailInfo: '5/21 3限 (3)',
         questionSentence: '産道感染を起こしにくい病原体はどれか',
+        answer: '(HSV、HBV、HCV、HIV、GBS)以外の病原体',
+        commentary:"産道感染する病原体の感染リスクが高い場合は、帝王切開を選択する。ただしHCV(HBVも？)の場合は帝王切開を選択しても予防にはならない。",
       }, {
         detailInfo: '5/21 3限 (4)',
         questionSentence: '母体保護法をもつ医師しか行えない処置・手術はどれか',
+        answer: '人工妊娠中絶',
+        commentary:"母体保護法には、都道府県医師会が指定する医師しか行えない処置・手術として、人工妊娠中絶がある。",
       }]
     }, {
       groupTag: "周産期疾患まとめ問題集",
