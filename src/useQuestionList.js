@@ -1,3 +1,5 @@
+import perinatal0521a3 from './img/answer/perinatal0521a3.png';
+import perinatal0521a1 from './img/answer/perinatal0521a1.png';
 import gynecology_a20 from './img/answer/gynecology_a20.png';
 import gynecology_a19_1 from './img/answer/gynecology_a19_1.png';
 import gynecology_a19_2 from './img/answer/gynecology_a19_2.png';
@@ -5342,6 +5344,7 @@ export const useQuestionList = () => {
         detailInfo: '5/21 3限 (1)',
         questionSentence: 'TORCH症候群に含まれる病原体はどれか',
         answer: 'Toxoplasma gondii, Other, Rubella virus, Cytomegalovirus, Herpes simplex virus',
+        answerImg: [perinatal0521a1],
         commentary:"HBV, HCV, HIV, HTLV-1,GBSはTORCH症候群には含まれない。",
       }, {
         detailInfo: '5/21 3限 (2)',
@@ -5351,8 +5354,9 @@ export const useQuestionList = () => {
       }, {
         detailInfo: '5/21 3限 (3)',
         questionSentence: '産道感染を起こしにくい病原体はどれか',
-        answer: '(HSV、HBV、HCV、HIV、GBS)以外の病原体',
-        commentary:"産道感染する病原体の感染リスクが高い場合は、帝王切開を選択する。ただしHCV(HBVも？)の場合は帝王切開を選択しても予防にはならない。",
+        answer: '(HSV、HBV、HCV、HIV、GBS, クラミジア,HTLV-1)以外の病原体',
+        answerImg: [perinatal0521a3],
+        commentary:"産道感染する病原体の感染リスクが高い場合は、帝王切開を選択する。",
       }, {
         detailInfo: '5/21 3限 (4)',
         questionSentence: '母体保護法をもつ医師しか行えない処置・手術はどれか',
